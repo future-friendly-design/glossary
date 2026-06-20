@@ -39,6 +39,16 @@ file fails the entire sync, not just that page.
   e.g. `[Code point](code-point.md)`. In inline prose, use the wording that reads
   naturally in the sentence, e.g. `the work that makes [localization](localization.md) possible`.
 
+## GitBook syntax (custom blocks)
+Entries are plain markdown today. If you add GitBook custom blocks (hints, tabs, cards,
+content-refs, includes) or touch `.gitbook.yaml` / `SUMMARY.md` config, read `skill.md`
+in the repo root for the correct GitBook-flavored syntax before authoring them.
+
+> Maintainers: `skill.md` is GitBook's official, maintained syntax reference. Keep a copy
+> committed in the repo root and refresh it from GitBook's docs
+> (https://gitbook.com/docs/creating-content/ai-coding-assistants-and-skillmd) when
+> GitBook ships new block types. Do not hand-write or paraphrase it.
+
 ## Accuracy and honesty
 - Verify every fact and URL against a primary source before adding it. Prefer Unicode,
   W3C, MDN, type foundries, and recognized references over aggregators.
