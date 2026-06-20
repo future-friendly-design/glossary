@@ -5,7 +5,7 @@ aliases: []
 tags: []
 level: foundational
 entry_type: overview
-summary: Characters, encoding, and the text model are how written language is represented in software: the abstract characters, the numbers Unicode assigns them, and the rules for turning those into bytes, marks, and forms.
+summary: "Characters, encoding, and the text model are how written language is represented in software: the abstract characters, the numbers Unicode assigns them, and the rules for turning those into bytes, marks, and forms."
 related: [typography]
 status: voice-passed
 version_added: 0.1

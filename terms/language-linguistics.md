@@ -5,7 +5,7 @@ aliases: []
 tags: []
 level: foundational
 entry_type: overview
-summary: Language and linguistics terms are the vocabulary for talking about languages themselves: how they are classified and coded, how they vary, who speaks them, and how threatened they are.
+summary: "Language and linguistics terms are the vocabulary for talking about languages themselves: how they are classified and coded, how they vary, who speaks them, and how threatened they are."
 related: [writing-systems-scripts, reference-sources, i18n-engineering]
 status: voice-passed
 version_added: 0.1
