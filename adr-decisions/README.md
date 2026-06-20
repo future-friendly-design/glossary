@@ -41,3 +41,4 @@ Prose in these records uses semantic line breaks (one sentence per line); see
 - [0004. GitBook-safe markdown: strict-YAML frontmatter and relative links](0004-gitbook-safe-markdown.md)
 - [0005. Agent contributor guidance: AGENTS.md canonical, CLAUDE.md pointer](0005-agents-md-canonical-claude-md-pointer.md)
 - [0006. Prose in repo docs uses semantic line breaks](0006-semantic-line-breaks-in-docs.md)
+- [0007. Credit contributors collectively, not with per-entry bylines](0007-collective-contributor-attribution.md)
