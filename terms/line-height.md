@@ -53,7 +53,7 @@ Three connections worth building into a design system:
 In Figma, "Auto" line height varies by typeface, so set an explicit value when you need consistency across fonts. The [MDN line-height page](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) shows how the unit choices behave.
 
 ## Related terms
-[leading](leading.md) · [vertical-trim](vertical-trim.md) · [measure](measure.md)
+[Leading](leading.md) · [Vertical trim](vertical-trim.md) · [Measure](measure.md)
 
 ## Further reading
 - Code & specs: [line-height (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)

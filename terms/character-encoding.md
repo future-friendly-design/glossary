@@ -39,7 +39,7 @@ Not declaring the encoding, or trusting a default to be right. The classic mojib
 - **Be careful with the BOM:** avoid a UTF-8 byte-order mark unless a specific consumer requires it, since some tools mishandle it.
 
 ## Related terms
-[utf-8](utf-8.md) · [utf-16](utf-16.md) · [unicode](unicode.md) · [code-point](code-point.md)
+[UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Unicode](unicode.md) · [Code point](code-point.md)
 
 ## Further reading
 - Code & specs: [Encoding Standard (WHATWG)](https://encoding.spec.whatwg.org/)

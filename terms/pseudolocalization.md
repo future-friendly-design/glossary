@@ -36,7 +36,7 @@ Waiting for real translations to find internationalization and layout bugs. By t
 - **It complements, not replaces, real QA:** pseudoloc proves a product is localizable; it does not validate an actual translation.
 
 ## Related terms
-[internationalization](internationalization.md) · [localization](localization.md) · [text-expansion](text-expansion.md)
+[Internationalization](internationalization.md) · [Localization](localization.md) · [Text expansion](text-expansion.md)
 
 ## Further reading
 - Foundations: [Pseudolocalization (Microsoft Learn)](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization)

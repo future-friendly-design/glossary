@@ -28,7 +28,7 @@ Tone marks are a specialized kind of [diacritic](diacritic.md) used where pitch 
 In Pinyin, "mā", "má", "mǎ", and "mà" use tone marks to spell four different words.
 
 ## Related terms
-[diacritic](diacritic.md) · [combining-mark](combining-mark.md)
+[Diacritic](diacritic.md) · [Combining mark](combining-mark.md)
 
 ## Further reading
 - Foundations: [Diacritic (Wikipedia)](https://en.wikipedia.org/wiki/Diacritic)

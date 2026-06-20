@@ -28,7 +28,7 @@ Maintained by the Unicode Consortium (founded 1991), the Unicode Standard assign
 The letter "A" is the same Unicode code point (U+0041) whether typed on a phone, a laptop, or a website.
 
 ## Related terms
-[unicode](unicode.md) · [noto-fonts](noto-fonts.md)
+[Unicode](unicode.md) · [Noto fonts](noto-fonts.md)
 
 ## Further reading
 - Foundations: [The Unicode Standard (unicode.org)](https://www.unicode.org/standard/standard.html)

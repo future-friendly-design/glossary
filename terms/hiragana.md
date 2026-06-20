@@ -28,7 +28,7 @@ Hiragana is a [syllabary](syllabary.md) in which each rounded, cursive character
 The word "sushi" can be written in hiragana as two syllable signs, su and shi.
 
 ## Related terms
-[syllabary](syllabary.md) · [katakana](katakana.md) · [han-characters](han-characters.md) · [cjk](cjk.md)
+[Syllabary](syllabary.md) · [Katakana](katakana.md) · [Han characters](han-characters.md) · [CJK](cjk.md)
 
 ## Further reading
 - Foundations: [Hiragana (Wikipedia)](https://en.wikipedia.org/wiki/Hiragana)

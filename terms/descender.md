@@ -28,7 +28,7 @@ Descenders appear on lowercase letters like g, j, p, q, and y, and on f or z in 
 The tail of a lowercase "y" that hangs below the baseline is its descender.
 
 ## Related terms
-[ascender](ascender.md) · [baseline](baseline.md) · [x-height](x-height.md) · [leading](leading.md)
+[Ascender](ascender.md) · [Baseline](baseline.md) · [x-height](x-height.md) · [Leading](leading.md)
 
 ## Further reading
 - Resource library: [Ascenders & descenders (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/ascenders_descenders)

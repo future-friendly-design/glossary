@@ -39,7 +39,7 @@ Treating internationalization as translation, or as something to bolt on later. 
 - **Verify early:** test with [pseudolocalization](pseudolocalization.md) before real translations exist, so missing i18n shows up while it is cheap to fix. See [Localization vs. Internationalization (W3C)](https://www.w3.org/International/questions/qa-i18n).
 
 ## Related terms
-[localization](localization.md) · [locale](locale.md) · [text-expansion](text-expansion.md) · [pseudolocalization](pseudolocalization.md)
+[Localization](localization.md) · [Locale](locale.md) · [Text expansion](text-expansion.md) · [Pseudolocalization](pseudolocalization.md)
 
 ## Further reading
 - Code & specs: [Internationalization (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Internationalization)

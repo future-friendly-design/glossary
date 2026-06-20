@@ -28,7 +28,7 @@ Descended from the Greek and Etruscan alphabets, the Latin script is an [alphabe
 English, Spanish, Vietnamese, and Turkish all use the Latin script, each adding its own diacritics or extra letters (Vietnamese stacks multiple diacritics on a single vowel; Turkish distinguishes dotted and dotless i).
 
 ## Related terms
-[alphabet](alphabet.md) · [cyrillic](cyrillic.md) · [script](script.md) · [diacritic](diacritic.md)
+[Alphabet](alphabet.md) · [Cyrillic](cyrillic.md) · [Script](script.md) · [Diacritic](diacritic.md)
 
 ## Further reading
 - Foundations: [Latin script (Wikipedia)](https://en.wikipedia.org/wiki/Latin_script)

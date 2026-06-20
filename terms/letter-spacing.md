@@ -50,7 +50,7 @@ Confusing it with kerning: letter spacing is uniform across the whole run, kerni
 In Figma the field is "Letter spacing," set in pixels or as a percentage of font size. The [MDN letter-spacing page](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) covers the CSS behavior.
 
 ## Related terms
-[tracking](tracking.md) · [kerning](kerning.md)
+[Tracking](tracking.md) · [Kerning](kerning.md)
 
 ## Further reading
 - Code & specs: [letter-spacing (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)

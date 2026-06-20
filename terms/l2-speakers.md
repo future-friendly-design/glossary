@@ -28,7 +28,7 @@ L2 speakers are people who use a language as a second (or additional) language r
 Many people speak English as an L2, having learned it after their first language for work, study, or travel.
 
 ## Related terms
-[l1-speakers](l1-speakers.md) · [ethnologue](ethnologue.md) · [pidgin](pidgin.md) · [creole](creole.md)
+[L1 speakers](l1-speakers.md) · [Ethnologue](ethnologue.md) · [Pidgin](pidgin.md) · [Creole](creole.md)
 
 ## Further reading
 - Foundations: [Ethnologue: Methodology](https://www.ethnologue.com/methodology/)

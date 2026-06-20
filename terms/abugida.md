@@ -28,7 +28,7 @@ Unlike an [alphabet](alphabet.md), which gives consonants and vowels separate le
 In Devanagari, the consonant "k" carries an inherent "a"; a vowel sign changes it to "ki" or "ku".
 
 ## Related terms
-[alphabet](alphabet.md) · [abjad](abjad.md) · [syllabary](syllabary.md) · [brahmic-scripts](brahmic-scripts.md) · [matra](matra.md)
+[Alphabet](alphabet.md) · [Abjad](abjad.md) · [Syllabary](syllabary.md) · [Brahmic scripts](brahmic-scripts.md) · [Matra](matra.md)
 
 ## Further reading
 - Foundations: [Unicode Glossary: Abugida](https://www.unicode.org/glossary/#abugida)

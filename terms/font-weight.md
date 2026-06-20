@@ -45,7 +45,7 @@ Asking for a weight the family does not actually ship. If a typeface has no bold
 - **Tools and CSS:** Figma sets weight through the style dropdown, or a Weight axis slider for variable fonts; CSS `font-weight` takes either a keyword or a number. See [font-weight (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight).
 
 ## Related terms
-[faux-bold](faux-bold.md) · [variable-font](variable-font.md) · [typeface](typeface.md)
+[Faux bold](faux-bold.md) · [Variable font](variable-font.md) · [Typeface](typeface.md)
 
 ## Further reading
 - Code & specs: [font-weight (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)

@@ -28,7 +28,7 @@ A code point is a position in the Unicode code space, written as "U+" followed b
 The character "A" is code point U+0041; the snowman "☃" is U+2603.
 
 ## Related terms
-[character](character.md) · [unicode](unicode.md) · [character-encoding](character-encoding.md) · [plane-bmp](plane-bmp.md)
+[Character](character.md) · [Unicode](unicode.md) · [Character encoding](character-encoding.md) · [Plane / Basic Multilingual Plane](plane-bmp.md)
 
 ## Further reading
 - Foundations: [Code Point (Unicode Glossary)](https://www.unicode.org/glossary/#code_point)

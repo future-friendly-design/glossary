@@ -39,7 +39,7 @@ Assuming a font carries every weight and style. A single font file is usually on
 - **Languages:** a font only contains glyphs for the scripts it was drawn for. When text needs a character the font lacks, the system falls back to another font or shows an empty box. Confirm your fonts cover every script your product ships in.
 
 ## Related terms
-[typeface](typeface.md) · [font-weight](font-weight.md) · [variable-font](variable-font.md)
+[Typeface](typeface.md) · [Font weight](font-weight.md) · [Variable font](variable-font.md)
 
 ## Further reading
 - Foundations: [Typeface vs Font: what's the difference? (TypeType)](https://typetype.org/blog/font-and-typeface-what-s-the-difference/)

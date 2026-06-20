@@ -28,7 +28,7 @@ Creoles typically arise from prolonged contact between speakers of different lan
 Haitian Creole is spoken natively by a large community in Haiti and has its own standardized orthography.
 
 ## Related terms
-[pidgin](pidgin.md) · [lexifier](lexifier.md) · [l1-speakers](l1-speakers.md) · [language-family](language-family.md)
+[Pidgin](pidgin.md) · [Lexifier](lexifier.md) · [L1 speakers](l1-speakers.md) · [Language family](language-family.md)
 
 ## Further reading
 - Foundations: [Creole language (Wikipedia)](https://en.wikipedia.org/wiki/Creole_language)

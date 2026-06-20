@@ -28,7 +28,7 @@ Languages in a family are related the way branches of a family tree are, having 
 English, Hindi, Russian, and Spanish all belong to the Indo-European language family, yet they are written in different scripts and orthographies.
 
 ## Related terms
-[macrolanguage](macrolanguage.md) · [iso-639-3](iso-639-3.md) · [dialect](dialect.md) · [glottolog](glottolog.md)
+[Macrolanguage](macrolanguage.md) · [ISO 639-3](iso-639-3.md) · [Dialect](dialect.md) · [Glottolog](glottolog.md)
 
 ## Further reading
 - Foundations: [Glottolog: Language families](https://glottolog.org/glottolog/family)

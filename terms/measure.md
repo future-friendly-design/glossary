@@ -39,7 +39,7 @@ Letting body text run the full width of its container. On a large screen an unco
 - **Accessibility:** WCAG Success Criterion 1.4.8 (Visual Presentation, level AAA) calls for no more than 80 characters per line for blocks of text, which is a useful upper bound to design against. *(Confirm exact criterion wording before publish.)*
 
 ## Related terms
-[leading](leading.md) · [line-height](line-height.md)
+[Leading](leading.md) · [Line height](line-height.md)
 
 ## Further reading
 - Foundations: [Line length (Butterick's Practical Typography)](https://practicaltypography.com/line-length.html)

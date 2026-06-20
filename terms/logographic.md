@@ -28,7 +28,7 @@ In a logographic writing system each character represents a word or morpheme, so
 The Chinese character for "tree" represents the whole word, not the individual sounds in it.
 
 ## Related terms
-[syllabary](syllabary.md) · [alphabet](alphabet.md) · [script](script.md)
+[Syllabary](syllabary.md) · [Alphabet](alphabet.md) · [Script](script.md)
 
 ## Further reading
 - Foundations: [Unicode Glossary: Logogram](https://www.unicode.org/glossary/#logogram)

@@ -28,7 +28,7 @@ In a syllabary each character usually represents a consonant-plus-vowel unit, an
 The Japanese hiragana symbols ka, ki, ku, ke, ko are five separate characters with no shared base shape.
 
 ## Related terms
-[abugida](abugida.md) · [alphabet](alphabet.md) · [logographic](logographic.md)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Logographic](logographic.md)
 
 ## Further reading
 - Foundations: [Syllabary (Wikipedia)](https://en.wikipedia.org/wiki/Syllabary)

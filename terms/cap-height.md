@@ -28,7 +28,7 @@ Cap height measures flat-topped capitals like "H" and "T". Rounded or pointed ca
 In most typefaces the top of an "H" sits at the cap height.
 
 ## Related terms
-[x-height](x-height.md) · [baseline](baseline.md) · [ascender](ascender.md) · [vertical-trim](vertical-trim.md)
+[x-height](x-height.md) · [Baseline](baseline.md) · [Ascender](ascender.md) · [Vertical trim](vertical-trim.md)
 
 ## Further reading
 - Resource library: [Cap height (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/cap_height)

@@ -28,7 +28,7 @@ Noto ("no tofu") is an open-source font family commissioned by Google to provide
 A web page styled with Noto fonts can display Latin, Devanagari, and Han characters without missing-glyph boxes.
 
 ## Related terms
-[unicode-standard](unicode-standard.md) · [sil](sil.md) · [font-coverage](font-coverage.md) · [tofu](tofu.md)
+[Unicode Standard](unicode-standard.md) · [SIL](sil.md) · [Font coverage](font-coverage.md) · [Tofu](tofu.md)
 
 ## Further reading
 - Foundations: [Noto Fonts (project site)](https://notofonts.github.io/)

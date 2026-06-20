@@ -28,7 +28,7 @@ The Glyph Positioning table stores rules that adjust where glyphs sit: [kerning]
 A GPOS rule shifts a combining accent so it sits centered over its base letter.
 
 ## Related terms
-[gsub](gsub.md) · [opentype](opentype.md) · [opentype-features](opentype-features.md) · [text-shaping](text-shaping.md)
+[GSUB](gsub.md) · [OpenType](opentype.md) · [OpenType features](opentype-features.md) · [Text shaping](text-shaping.md)
 
 ## Further reading
 - Foundations: [GPOS: Glyph Positioning Table (Microsoft)](https://learn.microsoft.com/en-us/typography/opentype/spec/gpos)

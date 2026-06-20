@@ -27,10 +27,10 @@ A language is not the same thing as the [script](script.md) it is written in, an
 ## Key terms
 A guided tour of the language and linguistics terms in this glossary, grouped by what they help you reason about:
 
-- **Classification and codes:** [language-family](language-family.md), [macrolanguage](macrolanguage.md), [iso-639-3](iso-639-3.md), [dialect](dialect.md)
-- **Naming and writing conventions:** [autonym](autonym.md), [orthography](orthography.md)
-- **Language types and contact:** [agglutinative-language](agglutinative-language.md), [lexifier](lexifier.md), [pidgin](pidgin.md), [creole](creole.md)
-- **Speakers and vitality:** [l1-speakers](l1-speakers.md), [l2-speakers](l2-speakers.md), [endangered-language](endangered-language.md), [unesco-endangerment-scale](unesco-endangerment-scale.md)
+- **Classification and codes:** [Language family](language-family.md), [Macrolanguage](macrolanguage.md), [ISO 639-3](iso-639-3.md), [Dialect](dialect.md)
+- **Naming and writing conventions:** [Autonym](autonym.md), [Orthography](orthography.md)
+- **Language types and contact:** [Agglutinative language](agglutinative-language.md), [Lexifier](lexifier.md), [Pidgin](pidgin.md), [Creole](creole.md)
+- **Speakers and vitality:** [L1 speakers](l1-speakers.md), [L2 speakers](l2-speakers.md), [Endangered language](endangered-language.md), [UNESCO endangerment scale](unesco-endangerment-scale.md)
 
 ## Further reading
 - Foundations: [Glottolog](https://glottolog.org/)

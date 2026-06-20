@@ -36,7 +36,7 @@ Treating endangerment as a number, or assuming "few speakers" means "not worth s
 - **State no figures you have not sourced:** speaker counts and endangerment classifications are easy to get wrong and consequential when wrong. Cite a specialist source or leave it to the cohort.
 
 ## Related terms
-[unesco-endangerment-scale](unesco-endangerment-scale.md) · [l1-speakers](l1-speakers.md) · [unesco-atlas-of-the-worlds-languages-in-danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [dialect](dialect.md)
+[UNESCO endangerment scale](unesco-endangerment-scale.md) · [L1 speakers](l1-speakers.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Dialect](dialect.md)
 
 ## Further reading
 - Foundations: [Language endangerment (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)

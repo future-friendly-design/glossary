@@ -28,7 +28,7 @@ Glottolog provides an openly accessible, versioned catalogue of languoids (famil
 A researcher can cite a small language by its glottocode (for example, stan1293) so others can find the exact same entry.
 
 ## Related terms
-[ethnologue](ethnologue.md) · [unesco-atlas-of-the-worlds-languages-in-danger](unesco-atlas-of-the-worlds-languages-in-danger.md)
+[Ethnologue](ethnologue.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md)
 
 ## Further reading
 - Foundations: [Glottolog](https://glottolog.org/)

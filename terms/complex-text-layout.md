@@ -36,7 +36,7 @@ Assuming that what works for English generalizes. A UI tested only in Latin can 
 - **Languages:** treat complex-script correctness as expert-verified, not assumed; confirm specifics with the language experts.
 
 ## Related terms
-[text-shaping](text-shaping.md) · [reordering](reordering.md) · [stacking-script](stacking-script.md) · [bidirectional-text](bidirectional-text.md) · [matra](matra.md)
+[Text shaping](text-shaping.md) · [Reordering](reordering.md) · [Stacking script](stacking-script.md) · [Bidirectional text](bidirectional-text.md) · [Matra](matra.md)
 
 ## Further reading
 - Foundations: [Shaping concepts (HarfBuzz)](https://harfbuzz.github.io/shaping-concepts.html)

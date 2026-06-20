@@ -28,7 +28,7 @@ The Tibetan script is a [Brahmic](brahmic-scripts.md) [abugida](abugida.md) of 3
 Tibetan stacks consonants vertically to write a cluster, rather than placing them side by side.
 
 ## Related terms
-[abugida](abugida.md) · [brahmic-scripts](brahmic-scripts.md) · [thai-script](thai-script.md) · [tsheg](tsheg.md) · [stacking-script](stacking-script.md)
+[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Thai script](thai-script.md) · [Tsheg](tsheg.md) · [Stacking script](stacking-script.md)
 
 ## Further reading
 - Foundations: [Tibetan script (Wikipedia)](https://en.wikipedia.org/wiki/Tibetan_script)

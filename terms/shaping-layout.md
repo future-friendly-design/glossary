@@ -27,11 +27,11 @@ For Latin text it is easy to assume rendering is just "draw each character in or
 ## Key terms
 A guided tour of the shaping and layout terms in this glossary, grouped by what they help you reason about:
 
-- **The shaping pipeline:** [text-shaping](text-shaping.md), [shaping-engine](shaping-engine.md), [complex-text-layout](complex-text-layout.md), [reordering](reordering.md)
-- **The OpenType format and its tables:** [opentype](opentype.md), [opentype-features](opentype-features.md), [gsub](gsub.md), [gpos](gpos.md)
-- **Joining and combining glyphs:** [ligature](ligature.md), [conjunct](conjunct.md)
-- **Indic script features:** [matra](matra.md), [reph](reph.md), [shirorekha](shirorekha.md), [virama](virama.md)
-- **Tibetan and vertical stacking:** [tsheg](tsheg.md), [stacking-script](stacking-script.md)
+- **The shaping pipeline:** [Text shaping](text-shaping.md), [Shaping engine](shaping-engine.md), [Complex text layout](complex-text-layout.md), [Reordering](reordering.md)
+- **The OpenType format and its tables:** [OpenType](opentype.md), [OpenType features](opentype-features.md), [GSUB](gsub.md), [GPOS](gpos.md)
+- **Joining and combining glyphs:** [Ligature](ligature.md), [Conjunct](conjunct.md)
+- **Indic script features:** [Matra](matra.md), [Reph](reph.md), [Shirorekha](shirorekha.md), [Virama](virama.md)
+- **Tibetan and vertical stacking:** [Tsheg](tsheg.md), [Stacking script](stacking-script.md)
 
 ## Further reading
 - Foundations: [What is HarfBuzz? (HarfBuzz)](https://harfbuzz.github.io/what-is-harfbuzz.html)

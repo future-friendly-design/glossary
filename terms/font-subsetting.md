@@ -39,7 +39,7 @@ Subsetting so aggressively that you cut glyphs the product actually needs: accen
 - **With variable fonts:** a [variable-font](variable-font.md) cuts file count by packing styles together; subsetting cuts file size by dropping glyphs. The two compose, so you can do both.
 
 ## Related terms
-[font-coverage](font-coverage.md) · [fallback-font](fallback-font.md) · [variable-font](variable-font.md) · [font](font.md)
+[Font coverage](font-coverage.md) · [Fallback font](fallback-font.md) · [Variable font](variable-font.md) · [Font](font.md)
 
 ## Further reading
 - Code & specs: [unicode-range (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range)

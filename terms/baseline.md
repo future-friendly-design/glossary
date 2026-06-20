@@ -36,7 +36,7 @@ Treating the baseline as the bottom of the text. It is not: descenders extend be
 - **Languages:** the single sit-on-the-line baseline is a Latin-centric model. Some scripts align differently (Devanagari hangs its letters from a top line rather than sitting them on a bottom one), so do not assume every script shares one baseline behavior. Confirm with the script experts for multilingual work.
 
 ## Related terms
-[cap-height](cap-height.md) · [x-height](x-height.md) · [ascender](ascender.md) · [descender](descender.md) · [leading](leading.md) · [vertical-trim](vertical-trim.md)
+[Cap height](cap-height.md) · [x-height](x-height.md) · [Ascender](ascender.md) · [Descender](descender.md) · [Leading](leading.md) · [Vertical trim](vertical-trim.md)
 
 ## Further reading
 - Resource library: [Baseline (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/baseline)

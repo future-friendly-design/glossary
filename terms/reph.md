@@ -28,7 +28,7 @@ When "ra" is the first consonant of a cluster (a syllable-initial ra followed by
 In Devanagari "कर्म" (karma), the "ra" before "ma" becomes a reph drawn above it.
 
 ## Related terms
-[conjunct](conjunct.md) · [matra](matra.md) · [reordering](reordering.md) · [shirorekha](shirorekha.md) · [virama](virama.md)
+[Conjunct](conjunct.md) · [Matra](matra.md) · [Reordering](reordering.md) · [Shirorekha](shirorekha.md) · [Virama](virama.md)
 
 ## Further reading
 - Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)

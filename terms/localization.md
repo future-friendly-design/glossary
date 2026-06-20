@@ -28,7 +28,7 @@ Abbreviated "l10n," localization goes well beyond translating words: it adjusts 
 Adapting a US English app into French for France: translating the text and switching to DD/MM/YYYY dates and euro currency.
 
 ## Related terms
-[internationalization](internationalization.md) · [locale](locale.md) · [text-expansion](text-expansion.md) · [collation](collation.md)
+[Internationalization](internationalization.md) · [Locale](locale.md) · [Text expansion](text-expansion.md) · [Collation](collation.md)
 
 ## Further reading
 - Foundations: [Localization vs. Internationalization (W3C)](https://www.w3.org/International/questions/qa-i18n)

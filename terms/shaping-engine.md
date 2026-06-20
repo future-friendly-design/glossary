@@ -28,7 +28,7 @@ A shaping engine takes Unicode text, a font, and script and language information
 Chrome uses HarfBuzz to shape this sentence before it is painted on screen.
 
 ## Related terms
-[text-shaping](text-shaping.md) · [gsub](gsub.md) · [gpos](gpos.md) · [opentype](opentype.md) · [complex-text-layout](complex-text-layout.md)
+[Text shaping](text-shaping.md) · [GSUB](gsub.md) · [GPOS](gpos.md) · [OpenType](opentype.md) · [Complex text layout](complex-text-layout.md)
 
 ## Further reading
 - Foundations: [What is HarfBuzz? (HarfBuzz)](https://harfbuzz.github.io/what-is-harfbuzz.html)

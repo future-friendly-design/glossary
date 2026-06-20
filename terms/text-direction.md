@@ -31,7 +31,7 @@ Most scripts are written left-to-right (LTR), while Arabic, Hebrew, and others a
 Setting `dir="rtl"` on an Arabic paragraph makes it start at the right edge and align right.
 
 ## Related terms
-[bidirectional-text](bidirectional-text.md) · [complex-text-layout](complex-text-layout.md)
+[Bidirectional text](bidirectional-text.md) · [Complex text layout](complex-text-layout.md)
 
 ## Further reading
 - Code & specs: [dir (MDN HTML global attribute)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)

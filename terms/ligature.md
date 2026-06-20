@@ -31,7 +31,7 @@ When adjacent letters clash or simply read better joined, a font can substitute 
 Typing "f" then "i" can render as a single "fi" glyph so the dot of the i does not crash into the hood of the f.
 
 ## Related terms
-[glyph](glyph.md) · [gsub](gsub.md) · [opentype-features](opentype-features.md) · [conjunct](conjunct.md)
+[Glyph](glyph.md) · [GSUB](gsub.md) · [OpenType features](opentype-features.md) · [Conjunct](conjunct.md)
 
 ## Further reading
 - Code & specs: [OpenType font features guide (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide)

@@ -36,7 +36,7 @@ Running per-keystroke logic (validation, live search, autocomplete, submit-on-En
 - **One keystroke is not one character:** counting, validating, or truncating mid-composition needs the same grapheme and [segmentation](segmentation.md) awareness as the rest of text handling.
 
 ## Related terms
-[keyboard-layout](keyboard-layout.md) · [internationalization](internationalization.md) · [segmentation](segmentation.md)
+[Keyboard layout](keyboard-layout.md) · [Internationalization](internationalization.md) · [Segmentation](segmentation.md)
 
 ## Further reading
 - Code & specs: [Input method editor (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Input_method_editor)

@@ -39,7 +39,7 @@ Counting "characters" by code points (or worse, by UTF-16 code units) and callin
 - **Counting and validation:** decide what "one character" means in your spec (usually a grapheme cluster) so the front end, back end, and database all measure the same way instead of each using a different unit.
 
 ## Related terms
-[character](character.md) · [code-point](code-point.md) · [combining-mark](combining-mark.md) · [normalization](normalization.md)
+[Character](character.md) · [Code point](code-point.md) · [Combining mark](combining-mark.md) · [Normalization](normalization.md)
 
 ## Further reading
 - Code & specs: [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter)

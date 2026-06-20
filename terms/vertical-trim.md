@@ -45,7 +45,7 @@ Copying the trimmed look from a Figma mockup straight into CSS and assuming it j
 - **Tokens and handoff:** treat "uses vertical trim" as part of the component spec and call it out at handoff. It changes the box model a developer has to reproduce, so a value copied from Dev Mode without that context will not behave the same in the browser.
 
 ## Related terms
-[cap-height](cap-height.md) · [baseline](baseline.md) · [line-height](line-height.md) · [leading](leading.md)
+[Cap height](cap-height.md) · [Baseline](baseline.md) · [Line height](line-height.md) · [Leading](leading.md)
 
 ## Further reading
 - Code & specs: [text-box-trim (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/text-box-trim)

@@ -28,7 +28,7 @@ L1 speakers are people who learned a language as their first or native language,
 For someone raised speaking Spanish at home, Spanish is their L1.
 
 ## Related terms
-[l2-speakers](l2-speakers.md) · [ethnologue](ethnologue.md) · [endangered-language](endangered-language.md) · [macrolanguage](macrolanguage.md)
+[L2 speakers](l2-speakers.md) · [Ethnologue](ethnologue.md) · [Endangered language](endangered-language.md) · [Macrolanguage](macrolanguage.md)
 
 ## Further reading
 - Foundations: [Ethnologue: Methodology](https://www.ethnologue.com/methodology/)

@@ -39,7 +39,7 @@ Assuming the algorithm handles everything once the text is marked RTL. The class
 - **Use logical CSS properties:** `margin-inline`, `text-align: start`, and the like let a layout flip correctly between LTR and RTL instead of being pinned to physical sides. This is part of [complex-text-layout](complex-text-layout.md). Confirm RTL behavior with the language experts for those locales.
 
 ## Related terms
-[text-direction](text-direction.md) · [unicode](unicode.md) · [complex-text-layout](complex-text-layout.md)
+[Text direction](text-direction.md) · [Unicode](unicode.md) · [Complex text layout](complex-text-layout.md)
 
 ## Further reading
 - Code & specs: [unicode-bidi (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)

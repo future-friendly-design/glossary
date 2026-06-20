@@ -39,7 +39,7 @@ Treating a typeface as a single thing you can just "apply," when what you actual
 - **Languages:** a typeface only covers the scripts it was drawn for. A Latin-only typeface has no glyphs for Arabic or Devanagari, so multilingual products either choose a typeface with broad script coverage or pair a primary typeface with fallbacks. Confirm coverage before committing to a typeface for a multilingual interface.
 
 ## Related terms
-[font](font.md) · [font-weight](font-weight.md) · [variable-font](variable-font.md)
+[Font](font.md) · [Font weight](font-weight.md) · [Variable font](variable-font.md)
 
 ## Further reading
 - Foundations: [Typeface vs Font: what's the difference? (TypeType)](https://typetype.org/blog/font-and-typeface-what-s-the-difference/)

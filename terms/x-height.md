@@ -36,7 +36,7 @@ Comparing typefaces by point size alone. Two fonts set at 16px can look noticeab
 - **Pairing:** when combining two typefaces, matching their x-heights (not their point sizes) keeps them looking balanced together.
 
 ## Related terms
-[cap-height](cap-height.md) · [baseline](baseline.md) · [ascender](ascender.md) · [descender](descender.md)
+[Cap height](cap-height.md) · [Baseline](baseline.md) · [Ascender](ascender.md) · [Descender](descender.md)
 
 ## Further reading
 - Resource library: [x-height (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/x_height)

@@ -28,7 +28,7 @@ Devanagari is an [abugida](abugida.md) in the [Brahmic family](brahmic-scripts.m
 The consonant "k" carries an inherent "a"; adding a matra turns it into "ki" or "ku". When a left-side i-matra is added, it is typed after the consonant but rendered to its left.
 
 ## Related terms
-[abugida](abugida.md) · [brahmic-scripts](brahmic-scripts.md) · [bengali-assamese](bengali-assamese.md) · [matra](matra.md) · [shirorekha](shirorekha.md) · [conjunct](conjunct.md)
+[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Bengali-Assamese](bengali-assamese.md) · [Matra](matra.md) · [Shirorekha](shirorekha.md) · [Conjunct](conjunct.md)
 
 ## Further reading
 - Foundations: [Devanagari (Wikipedia)](https://en.wikipedia.org/wiki/Devanagari)

@@ -28,7 +28,7 @@ The Common Locale Data Repository is the largest standard repository of [locale]
 CLDR records that en-US uses "M/D/YYYY" while much of Europe uses "DD/MM/YYYY", so apps can format dates correctly per locale.
 
 ## Related terms
-[icu](icu.md) · [locale](locale.md) · [collation](collation.md) · [internationalization](internationalization.md)
+[ICU](icu.md) · [Locale](locale.md) · [Collation](collation.md) · [Internationalization](internationalization.md)
 
 ## Further reading
 - Foundations: [Unicode CLDR Project](https://cldr.unicode.org/)

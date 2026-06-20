@@ -36,7 +36,7 @@ Sizing buttons, labels, tabs, and containers to fit the English text. A control 
 - **Test before translations arrive:** [pseudolocalization](pseudolocalization.md) pads strings to simulate expansion, surfacing overflow while the design is still cheap to change.
 
 ## Related terms
-[localization](localization.md) · [internationalization](internationalization.md) · [pseudolocalization](pseudolocalization.md)
+[Localization](localization.md) · [Internationalization](internationalization.md) · [Pseudolocalization](pseudolocalization.md)
 
 ## Further reading
 - Foundations: [Text size in translation (W3C)](https://www.w3.org/International/articles/article-text-size)

@@ -28,7 +28,7 @@ In agglutinative languages, words can grow long because grammatical information 
 The Turkish word "evlerimizden" stacks morphemes meaning "from our houses" (ev + ler + imiz + den).
 
 ## Related terms
-[orthography](orthography.md) · [language-family](language-family.md) · [text-expansion](text-expansion.md)
+[Orthography](orthography.md) · [Language family](language-family.md) · [Text expansion](text-expansion.md)
 
 ## Further reading
 - Foundations: [Agglutinative language (Wikipedia)](https://en.wikipedia.org/wiki/Agglutinative_language)

@@ -28,7 +28,7 @@ In abugida scripts like Devanagari, a consonant carries an inherent vowel and a 
 The i-matra in Devanagari "कि" (ki) is typed after क but displays to its left.
 
 ## Related terms
-[reordering](reordering.md) · [conjunct](conjunct.md) · [reph](reph.md) · [complex-text-layout](complex-text-layout.md)
+[Reordering](reordering.md) · [Conjunct](conjunct.md) · [Reph](reph.md) · [Complex text layout](complex-text-layout.md)
 
 ## Further reading
 - Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)

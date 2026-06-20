@@ -39,7 +39,7 @@ Assuming vertical text is just horizontal text rotated ninety degrees. It is not
 - **Languages:** when tategaki versus yokogaki is expected is a culturally specific judgment; confirm usage with the language experts rather than guessing from the general rule.
 
 ## Related terms
-[full-width](full-width.md) · [font-coverage](font-coverage.md)
+[Full-width](full-width.md) · [Font coverage](font-coverage.md)
 
 ## Further reading
 - Code & specs: [writing-mode (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode)

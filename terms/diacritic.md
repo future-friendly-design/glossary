@@ -28,7 +28,7 @@ Placed above, below, or through a letter, diacritics signal things like stress, 
 The cedilla under the "c" in "façade" is a diacritic.
 
 ## Related terms
-[tone-mark](tone-mark.md) · [combining-mark](combining-mark.md) · [precomposed-character](precomposed-character.md)
+[Tone mark](tone-mark.md) · [Combining mark](combining-mark.md) · [Precomposed character](precomposed-character.md)
 
 ## Further reading
 - Foundations: [Diacritic (Wikipedia)](https://en.wikipedia.org/wiki/Diacritic)

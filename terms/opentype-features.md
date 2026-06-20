@@ -39,7 +39,7 @@ Reaching for the low-level `font-feature-settings` for everything. It does not i
 - **Required vs optional:** treat default-on features as part of correct rendering (especially for non-Latin scripts) and only toggle the optional ones deliberately.
 
 ## Related terms
-[opentype](opentype.md) · [gsub](gsub.md) · [gpos](gpos.md) · [ligature](ligature.md)
+[OpenType](opentype.md) · [GSUB](gsub.md) · [GPOS](gpos.md) · [Ligature](ligature.md)
 
 ## Further reading
 - Code & specs: [OpenType font features guide (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide)

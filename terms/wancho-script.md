@@ -28,7 +28,7 @@ The Wancho script was developed between roughly 2001 and 2012 by Banwang Losu fo
 In the Wancho script, tone is shown by adding a diacritic to a vowel letter.
 
 ## Related terms
-[alphabet](alphabet.md) · [ol-chiki](ol-chiki.md) · [warang-citi](warang-citi.md) · [script](script.md)
+[Alphabet](alphabet.md) · [Ol Chiki](ol-chiki.md) · [Warang Citi](warang-citi.md) · [Script](script.md)
 
 ## Further reading
 - Foundations: [Wancho script (Wikipedia)](https://en.wikipedia.org/wiki/Wancho_script)

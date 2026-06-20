@@ -28,7 +28,7 @@ Also called Eastern Nagari, the Bengali-Assamese script is an eastern [Brahmic](
 Bengali and Assamese use almost the same letters, differing mainly in the characters for "r" and "w/v".
 
 ## Related terms
-[abugida](abugida.md) · [brahmic-scripts](brahmic-scripts.md) · [devanagari](devanagari.md) · [syloti-nagri](syloti-nagri.md)
+[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Devanagari](devanagari.md) · [Syloti Nagri](syloti-nagri.md)
 
 ## Further reading
 - Foundations: [Bengali-Assamese script (Wikipedia)](https://en.wikipedia.org/wiki/Bengali%E2%80%93Assamese_script)

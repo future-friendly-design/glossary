@@ -36,7 +36,7 @@ Assuming text is just glyphs placed one after another, an assumption that holds 
 - **Languages:** correct shaping depends on the font declaring script and language support; verify it for every script you ship, and confirm complex-script results with the language experts.
 
 ## Related terms
-[shaping-engine](shaping-engine.md) · [complex-text-layout](complex-text-layout.md) · [gsub](gsub.md) · [gpos](gpos.md) · [opentype](opentype.md)
+[Shaping engine](shaping-engine.md) · [Complex text layout](complex-text-layout.md) · [GSUB](gsub.md) · [GPOS](gpos.md) · [OpenType](opentype.md)
 
 ## Further reading
 - Foundations: [What is HarfBuzz? (HarfBuzz)](https://harfbuzz.github.io/what-is-harfbuzz.html)

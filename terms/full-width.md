@@ -39,7 +39,7 @@ Treating the Halfwidth and Fullwidth Forms block as the normal way to set CJK wi
 - **Languages:** this is an East-Asian-specific model; the conventions for when full-width versus half-width is expected are best confirmed by the language experts rather than assumed.
 
 ## Related terms
-[tategaki](tategaki.md) · [font-coverage](font-coverage.md)
+[Tategaki](tategaki.md) · [Font coverage](font-coverage.md)
 
 ## Further reading
 - Code & specs: [font-variant-east-asian (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-east-asian)

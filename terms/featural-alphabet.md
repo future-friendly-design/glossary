@@ -28,7 +28,7 @@ In a featural script the shape of a symbol systematically encodes phonetic featu
 In Hangul, the consonant for "g/k" is shaped to suggest the back of the tongue raised toward the roof of the mouth.
 
 ## Related terms
-[alphabet](alphabet.md) · [syllabary](syllabary.md) · [script](script.md) · [hangul](hangul.md) · [canadian-aboriginal-syllabics](canadian-aboriginal-syllabics.md)
+[Alphabet](alphabet.md) · [Syllabary](syllabary.md) · [Script](script.md) · [Hangul](hangul.md) · [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md)
 
 ## Further reading
 - Foundations: [Featural writing system (Wikipedia)](https://en.wikipedia.org/wiki/Featural_writing_system)

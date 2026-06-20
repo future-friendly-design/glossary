@@ -28,7 +28,7 @@ Combining marks have no width of their own; they render on, above, below, or aro
 "n" followed by U+0303 (combining tilde) displays as "ñ".
 
 ## Related terms
-[precomposed-character](precomposed-character.md) · [diacritic](diacritic.md) · [normalization](normalization.md) · [grapheme-cluster](grapheme-cluster.md)
+[Precomposed character](precomposed-character.md) · [Diacritic](diacritic.md) · [Normalization](normalization.md) · [Grapheme cluster](grapheme-cluster.md)
 
 ## Further reading
 - Foundations: [Combining Character (Unicode Glossary)](https://www.unicode.org/glossary/#combining_character)

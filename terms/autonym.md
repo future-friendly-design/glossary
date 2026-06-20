@@ -28,7 +28,7 @@ Also called an endonym, an autonym is the self-chosen, native name of a group, p
 "Deutsch" is the autonym for the language English speakers call by the exonym "German."
 
 ## Related terms
-[dialect](dialect.md) · [iso-639-3](iso-639-3.md) · [localization](localization.md) · [cldr](cldr.md)
+[Dialect](dialect.md) · [ISO 639-3](iso-639-3.md) · [Localization](localization.md) · [CLDR](cldr.md)
 
 ## Further reading
 - Foundations: [Endonym and exonym (Wikipedia)](https://en.wikipedia.org/wiki/Endonym_and_exonym)

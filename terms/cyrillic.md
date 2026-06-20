@@ -28,7 +28,7 @@ The Cyrillic script is an [alphabet](alphabet.md) developed from the Greek alpha
 The Russian word for "world", мир, is written in Cyrillic letters that each map to a sound. Serbian italic Cyrillic uses several letterforms that differ visibly from Russian.
 
 ## Related terms
-[alphabet](alphabet.md) · [latin-script](latin-script.md) · [script](script.md)
+[Alphabet](alphabet.md) · [Latin script](latin-script.md) · [Script](script.md)
 
 ## Further reading
 - Foundations: [Cyrillic script (Wikipedia)](https://en.wikipedia.org/wiki/Cyrillic_script)

@@ -27,13 +27,13 @@ The script, not the country or the language, is the real unit of support in prod
 ## Key terms
 A guided tour of the writing-systems terms in this glossary, grouped by what they help you reason about:
 
-- **What a script is, and how scripts are classified:** [script](script.md), [alphabet](alphabet.md), [abugida](abugida.md), [abjad](abjad.md), [syllabary](syllabary.md), [logographic](logographic.md), [featural-alphabet](featural-alphabet.md)
-- **Script families:** [brahmic-scripts](brahmic-scripts.md)
-- **Alphabets:** [latin-script](latin-script.md), [cyrillic](cyrillic.md)
-- **Brahmic abugidas:** [devanagari](devanagari.md), [bengali-assamese](bengali-assamese.md), [thai-script](thai-script.md), [tibetan-script](tibetan-script.md)
-- **East Asian writing:** [cjk](cjk.md), [han-characters](han-characters.md), [hiragana](hiragana.md), [katakana](katakana.md), [hangul](hangul.md)
-- **A vertical script:** [mongolian-script](mongolian-script.md)
-- **Community and revitalized scripts:** [ol-chiki](ol-chiki.md), [warang-citi](warang-citi.md), [wancho-script](wancho-script.md), [syloti-nagri](syloti-nagri.md), [canadian-aboriginal-syllabics](canadian-aboriginal-syllabics.md)
+- **What a script is, and how scripts are classified:** [Script](script.md), [Alphabet](alphabet.md), [Abugida](abugida.md), [Abjad](abjad.md), [Syllabary](syllabary.md), [Logographic](logographic.md), [Featural alphabet](featural-alphabet.md)
+- **Script families:** [Brahmic scripts](brahmic-scripts.md)
+- **Alphabets:** [Latin script](latin-script.md), [Cyrillic](cyrillic.md)
+- **Brahmic abugidas:** [Devanagari](devanagari.md), [Bengali-Assamese](bengali-assamese.md), [Thai script](thai-script.md), [Tibetan script](tibetan-script.md)
+- **East Asian writing:** [CJK](cjk.md), [Han characters](han-characters.md), [Hiragana](hiragana.md), [Katakana](katakana.md), [Hangul](hangul.md)
+- **A vertical script:** [Mongolian script (traditional)](mongolian-script.md)
+- **Community and revitalized scripts:** [Ol Chiki](ol-chiki.md), [Warang Citi](warang-citi.md), [Wancho script](wancho-script.md), [Syloti Nagri](syloti-nagri.md), [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md)
 
 ## Further reading
 - Foundations: [ScriptSource](https://scriptsource.org/)

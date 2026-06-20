@@ -28,7 +28,7 @@ First published in 1951 and maintained by SIL Global, Ethnologue catalogues over
 Designers checking how many people use a given language can look up its Ethnologue entry for speaker estimates.
 
 ## Related terms
-[glottolog](glottolog.md) · [unesco-atlas-of-the-worlds-languages-in-danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [sil](sil.md)
+[Glottolog](glottolog.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [SIL](sil.md)
 
 ## Further reading
 - Foundations: [Ethnologue](https://www.ethnologue.com/)

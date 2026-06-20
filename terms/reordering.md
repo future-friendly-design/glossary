@@ -36,7 +36,7 @@ Assuming the order characters are stored in is the order they appear on screen. 
 - **Languages:** which sequences reorder is script- and language-specific; confirm behavior with the language experts and test with real content rather than transliterations.
 
 ## Related terms
-[matra](matra.md) · [reph](reph.md) · [stacking-script](stacking-script.md) · [complex-text-layout](complex-text-layout.md) · [bidirectional-text](bidirectional-text.md)
+[Matra](matra.md) · [Reph](reph.md) · [Stacking script](stacking-script.md) · [Complex text layout](complex-text-layout.md) · [Bidirectional text](bidirectional-text.md)
 
 ## Further reading
 - Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)

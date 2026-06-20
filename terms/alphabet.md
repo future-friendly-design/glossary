@@ -28,7 +28,7 @@ In an alphabet, individual letters stand for individual sounds, and both consona
 In the English word "cat", the letters c, a, and t each represent one sound, with the vowel written as its own letter.
 
 ## Related terms
-[script](script.md) · [abugida](abugida.md) · [abjad](abjad.md) · [syllabary](syllabary.md) · [featural-alphabet](featural-alphabet.md)
+[Script](script.md) · [Abugida](abugida.md) · [Abjad](abjad.md) · [Syllabary](syllabary.md) · [Featural alphabet](featural-alphabet.md)
 
 ## Further reading
 - Foundations: [Unicode Glossary: Alphabet](https://www.unicode.org/glossary/#alphabet)

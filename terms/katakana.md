@@ -28,7 +28,7 @@ Katakana is the second Japanese [syllabary](syllabary.md), covering the same set
 The loanword "coffee" is written in katakana as ko-hi.
 
 ## Related terms
-[syllabary](syllabary.md) · [hiragana](hiragana.md) · [han-characters](han-characters.md) · [cjk](cjk.md)
+[Syllabary](syllabary.md) · [Hiragana](hiragana.md) · [Han characters](han-characters.md) · [CJK](cjk.md)
 
 ## Further reading
 - Foundations: [Katakana (Wikipedia)](https://en.wikipedia.org/wiki/Katakana)

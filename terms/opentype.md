@@ -28,7 +28,7 @@ Developed jointly by Microsoft and Adobe and released in 1997, OpenType extends 
 A single OpenType font can include small caps, ligatures, and multiple language scripts in one file.
 
 ## Related terms
-[opentype-features](opentype-features.md) · [gsub](gsub.md) · [gpos](gpos.md) · [glyph](glyph.md) · [font](font.md)
+[OpenType features](opentype-features.md) · [GSUB](gsub.md) · [GPOS](gpos.md) · [Glyph](glyph.md) · [Font](font.md)
 
 ## Further reading
 - Foundations: [OpenType overview (Microsoft)](https://learn.microsoft.com/en-us/typography/opentype/)

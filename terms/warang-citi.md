@@ -28,7 +28,7 @@ Warang Citi (also spelled Varang Kshiti) was developed from the 1950s onward by 
 Warang Citi gives each vowel a full independent letter rather than relying on attached marks.
 
 ## Related terms
-[alphabet](alphabet.md) · [ol-chiki](ol-chiki.md) · [wancho-script](wancho-script.md) · [script](script.md)
+[Alphabet](alphabet.md) · [Ol Chiki](ol-chiki.md) · [Wancho script](wancho-script.md) · [Script](script.md)
 
 ## Further reading
 - Foundations: [Warang Citi (Wikipedia)](https://en.wikipedia.org/wiki/Warang_Citi)

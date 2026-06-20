@@ -28,7 +28,7 @@ SIL Global develops open-source fonts with extensive Latin, Cyrillic, and Greek 
 A linguist publishing in a language with many accented letters might set the text in Gentium or Charis SIL.
 
 ## Related terms
-[noto-fonts](noto-fonts.md) · [ethnologue](ethnologue.md) · [unicode-standard](unicode-standard.md) · [font-coverage](font-coverage.md)
+[Noto fonts](noto-fonts.md) · [Ethnologue](ethnologue.md) · [Unicode Standard](unicode-standard.md) · [Font coverage](font-coverage.md)
 
 ## Further reading
 - Foundations: [SIL Fonts (software.sil.org)](https://software.sil.org/fonts/)

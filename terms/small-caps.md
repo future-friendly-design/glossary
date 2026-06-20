@@ -39,7 +39,7 @@ Letting an app fake them. Faux small caps, made by just shrinking the capitals, 
 - **Languages:** small caps are a cased-script idea (Latin, Greek, Cyrillic). Scripts without an uppercase/lowercase distinction, like Arabic, Hebrew, and CJK, have no small caps, so do not apply the styling to them.
 
 ## Related terms
-[figure-styles](figure-styles.md) · [x-height](x-height.md) · [faux-bold](faux-bold.md)
+[Figure styles](figure-styles.md) · [x-height](x-height.md) · [Faux bold](faux-bold.md)
 
 ## Further reading
 - Code & specs: [font-variant-caps (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps)

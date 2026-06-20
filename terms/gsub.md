@@ -28,7 +28,7 @@ The Glyph Substitution table stores the rules for replacing glyphs, which covers
 A GSUB rule replaces the glyph sequence f + i with a single fi [ligature](ligature.md) glyph.
 
 ## Related terms
-[gpos](gpos.md) · [opentype](opentype.md) · [opentype-features](opentype-features.md) · [ligature](ligature.md) · [text-shaping](text-shaping.md)
+[GPOS](gpos.md) · [OpenType](opentype.md) · [OpenType features](opentype-features.md) · [Ligature](ligature.md) · [Text shaping](text-shaping.md)
 
 ## Further reading
 - Foundations: [GSUB: Glyph Substitution Table (Microsoft)](https://learn.microsoft.com/en-us/typography/opentype/spec/gsub)

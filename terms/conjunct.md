@@ -28,7 +28,7 @@ In scripts like Devanagari, when two or more consonants meet with no vowel betwe
 In Devanagari, क (ka) + [virama](virama.md) + ष (sha) forms the conjunct क्ष (kṣa).
 
 ## Related terms
-[matra](matra.md) · [reph](reph.md) · [shirorekha](shirorekha.md) · [stacking-script](stacking-script.md) · [complex-text-layout](complex-text-layout.md) · [virama](virama.md)
+[Matra](matra.md) · [Reph](reph.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Complex text layout](complex-text-layout.md) · [Virama](virama.md)
 
 ## Further reading
 - Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)

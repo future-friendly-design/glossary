@@ -28,7 +28,7 @@ In scripts such as Devanagari and Bengali, most characters hang from a horizonta
 In Devanagari "नमस्ते", the unbroken line across the top of the word is the shirorekha.
 
 ## Related terms
-[conjunct](conjunct.md) · [matra](matra.md) · [reph](reph.md)
+[Conjunct](conjunct.md) · [Matra](matra.md) · [Reph](reph.md)
 
 ## Further reading
 - Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)

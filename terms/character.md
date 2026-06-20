@@ -28,7 +28,7 @@ In Unicode terms a character is an abstract unit, not a picture: it is the thing
 The letter "A", the digit "7", and the comma "," are each one character.
 
 ## Related terms
-[glyph](glyph.md) · [code-point](code-point.md) · [grapheme-cluster](grapheme-cluster.md) · [unicode](unicode.md)
+[Glyph](glyph.md) · [Code point](code-point.md) · [Grapheme cluster](grapheme-cluster.md) · [Unicode](unicode.md)
 
 ## Further reading
 - Foundations: [Character (Unicode Glossary)](https://www.unicode.org/glossary/#character)

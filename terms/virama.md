@@ -28,7 +28,7 @@ In an abugida, each consonant carries an inherent vowel, and the virama (called 
 In Devanagari, क (ka) plus virama gives क् (k with no vowel); क् + त then forms the conjunct क्त (kta).
 
 ## Related terms
-[conjunct](conjunct.md) · [reph](reph.md) · [matra](matra.md) · [complex-text-layout](complex-text-layout.md)
+[Conjunct](conjunct.md) · [Reph](reph.md) · [Matra](matra.md) · [Complex text layout](complex-text-layout.md)
 
 ## Further reading
 - Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)

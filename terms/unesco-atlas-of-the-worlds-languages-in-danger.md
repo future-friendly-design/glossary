@@ -28,7 +28,7 @@ First published in 1996, the UNESCO Atlas of the World's Languages in Danger doc
 A language whose youngest fluent speakers are grandparents is rated "critically endangered" in the Atlas.
 
 ## Related terms
-[ethnologue](ethnologue.md) · [glottolog](glottolog.md)
+[Ethnologue](ethnologue.md) · [Glottolog](glottolog.md)
 
 ## Further reading
 - Foundations: [Atlas of the World's Languages in Danger (Wikipedia)](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger)

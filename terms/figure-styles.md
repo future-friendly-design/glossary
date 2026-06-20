@@ -38,7 +38,7 @@ Using proportional figures in a table, so the columns of numbers do not line up 
 - **Font coverage:** the figures only exist if the font includes them, and some web fonts get subset down and lose the extra sets. Confirm the figures you need survived before relying on them.
 
 ## Related terms
-[small-caps](small-caps.md) · [cap-height](cap-height.md) · [x-height](x-height.md)
+[Small caps](small-caps.md) · [Cap height](cap-height.md) · [x-height](x-height.md)
 
 ## Further reading
 - Code & specs: [font-variant-numeric (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric)

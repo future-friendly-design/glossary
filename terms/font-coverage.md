@@ -36,7 +36,7 @@ Assuming "the font has the code points" means "the font supports the language." 
 - **Languages:** confirm coverage claims against the actual languages and scripts in scope rather than a generic "supports Latin" label; the language experts can confirm what a given script genuinely requires.
 
 ## Related terms
-[fallback-font](fallback-font.md) · [font-subsetting](font-subsetting.md) · [full-width](full-width.md)
+[Fallback font](fallback-font.md) · [Font subsetting](font-subsetting.md) · [Full-width](full-width.md)
 
 ## Further reading
 - Resource library: [Language support in fonts (Google Fonts Knowledge)](https://fonts.google.com/knowledge/using_type/language_support_in_fonts)

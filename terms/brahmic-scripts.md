@@ -28,7 +28,7 @@ The Brahmic family includes most scripts of South and Southeast Asia, such as De
 Devanagari, Bengali-Assamese, Thai, and Tibetan all belong to the Brahmic family and share the abugida structure.
 
 ## Related terms
-[abugida](abugida.md) · [conjunct](conjunct.md) · [matra](matra.md) · [virama](virama.md) · [complex-text-layout](complex-text-layout.md)
+[Abugida](abugida.md) · [Conjunct](conjunct.md) · [Matra](matra.md) · [Virama](virama.md) · [Complex text layout](complex-text-layout.md)
 
 ## Further reading
 - Foundations: [Brahmic scripts (Wikipedia)](https://en.wikipedia.org/wiki/Brahmic_scripts)

@@ -28,7 +28,7 @@ Created under King Sejong in the 1440s, Hangul is a [featural alphabet](featural
 The syllable "han" is written as a single square block stacking the letters for h, a, and n.
 
 ## Related terms
-[featural-alphabet](featural-alphabet.md) · [alphabet](alphabet.md) · [cjk](cjk.md) · [syllabary](syllabary.md)
+[Featural alphabet](featural-alphabet.md) · [Alphabet](alphabet.md) · [CJK](cjk.md) · [Syllabary](syllabary.md)
 
 ## Further reading
 - Foundations: [Hangul (Wikipedia)](https://en.wikipedia.org/wiki/Hangul)

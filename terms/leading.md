@@ -37,7 +37,7 @@ Leaving it on "Auto" and never revisiting it, or matching leading to the font si
 For body text, a ratio of about 1.4 to 1.6 times the font size is a comfortable starting range, and it pairs naturally with a token approach: store line height as a unitless ratio so it scales with your font-size tokens instead of locking to pixels. Two things change the right value: longer line lengths want more leading (the eye needs a clearer runway to the next line), and scripts with tall ascenders or stacked marks need more vertical room. The mechanics of setting it live in [line-height](line-height.md).
 
 ## Related terms
-[line-height](line-height.md) · [tracking](tracking.md) · [baseline](baseline.md) · [measure](measure.md)
+[Line height](line-height.md) · [Tracking](tracking.md) · [Baseline](baseline.md) · [Measure](measure.md)
 
 ## Further reading
 - Foundations: [Kerning, tracking, leading and spacing (TypeType)](https://typetype.org/blog/kerning-tracking-leading-and-spacing-in-typography/)

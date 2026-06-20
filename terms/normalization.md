@@ -39,7 +39,7 @@ Comparing, searching, or deduplicating user text without normalizing first. Two 
 - **Consistency across the stack:** the front end, back end, and database should agree on one normalization form, or a value stored one way will not match the same value queried another way.
 
 ## Related terms
-[precomposed-character](precomposed-character.md) · [combining-mark](combining-mark.md) · [grapheme-cluster](grapheme-cluster.md) · [unicode](unicode.md)
+[Precomposed character](precomposed-character.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Unicode](unicode.md)
 
 ## Further reading
 - Code & specs: [String.prototype.normalize() (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)

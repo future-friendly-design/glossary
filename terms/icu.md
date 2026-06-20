@@ -28,7 +28,7 @@ International Components for Unicode gives developers reusable services for form
 Java's and .NET's date and number formatting are backed by ICU and CLDR data.
 
 ## Related terms
-[cldr](cldr.md) · [collation](collation.md) · [segmentation](segmentation.md) · [locale](locale.md)
+[CLDR](cldr.md) · [Collation](collation.md) · [Segmentation](segmentation.md) · [Locale](locale.md)
 
 ## Further reading
 - Foundations: [ICU: International Components for Unicode](https://icu.unicode.org/)

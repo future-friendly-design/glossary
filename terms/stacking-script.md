@@ -28,7 +28,7 @@ In stacking behavior, a consonant cluster is drawn with letters placed above and
 A Tibetan cluster with a subjoined consonant draws the second consonant directly beneath the first.
 
 ## Related terms
-[conjunct](conjunct.md) · [reordering](reordering.md) · [complex-text-layout](complex-text-layout.md) · [tsheg](tsheg.md)
+[Conjunct](conjunct.md) · [Reordering](reordering.md) · [Complex text layout](complex-text-layout.md) · [Tsheg](tsheg.md)
 
 ## Further reading
 - Foundations: [Requirements for Tibetan Text Layout (W3C)](https://www.w3.org/TR/tlreq/)

@@ -27,12 +27,12 @@ Every product handles text, and a surprising share of bugs trace back to this la
 ## Key terms
 A guided tour of the characters and encoding terms in this glossary, grouped by what they help you reason about:
 
-- **The text model:** [character](character.md), [glyph](glyph.md), [code-point](code-point.md), [grapheme-cluster](grapheme-cluster.md)
-- **The standard and its structure:** [unicode](unicode.md), [plane-bmp](plane-bmp.md)
-- **Encodings:** [character-encoding](character-encoding.md), [utf-8](utf-8.md), [utf-16](utf-16.md), [surrogate-pair](surrogate-pair.md)
-- **Combining and normalizing:** [combining-mark](combining-mark.md), [precomposed-character](precomposed-character.md), [normalization](normalization.md), [diacritic](diacritic.md), [tone-mark](tone-mark.md)
-- **Direction:** [bidirectional-text](bidirectional-text.md), [text-direction](text-direction.md)
-- **Rendering gaps:** [tofu](tofu.md)
+- **The text model:** [Character](character.md), [Glyph](glyph.md), [Code point](code-point.md), [Grapheme cluster](grapheme-cluster.md)
+- **The standard and its structure:** [Unicode](unicode.md), [Plane / Basic Multilingual Plane](plane-bmp.md)
+- **Encodings:** [Character encoding](character-encoding.md), [UTF-8](utf-8.md), [UTF-16](utf-16.md), [Surrogate pair](surrogate-pair.md)
+- **Combining and normalizing:** [Combining mark](combining-mark.md), [Precomposed character](precomposed-character.md), [Normalization](normalization.md), [Diacritic](diacritic.md), [Tone mark](tone-mark.md)
+- **Direction:** [Bidirectional text](bidirectional-text.md), [Text direction](text-direction.md)
+- **Rendering gaps:** [Tofu](tofu.md)
 
 ## Further reading
 - Foundations: [W3C Internationalization (i18n)](https://www.w3.org/International/)

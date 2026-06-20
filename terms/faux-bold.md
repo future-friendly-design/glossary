@@ -36,7 +36,7 @@ Designing with bold when the family does not ship a real bold, so the renderer f
 - **Tools:** before you lean on bold in a design, confirm the typeface includes a real bold. A [variable-font](variable-font.md) with a weight axis is one reliable way to get genuine heavier weights rather than faked ones.
 
 ## Related terms
-[faux-italic](faux-italic.md) · [font-weight](font-weight.md) · [variable-font](variable-font.md)
+[Faux italic](faux-italic.md) · [Font weight](font-weight.md) · [Variable font](variable-font.md)
 
 ## Further reading
 - Code & specs: [font-synthesis (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis)

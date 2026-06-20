@@ -28,7 +28,7 @@ Syloti Nagri is an [abugida](abugida.md) descended from the Kaithi script, with 
 Syloti Nagri uses a compact set of about 32 letters, fewer than many other Brahmic abugidas.
 
 ## Related terms
-[abugida](abugida.md) · [brahmic-scripts](brahmic-scripts.md) · [bengali-assamese](bengali-assamese.md) · [script](script.md)
+[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Bengali-Assamese](bengali-assamese.md) · [Script](script.md)
 
 ## Further reading
 - Foundations: [Sylheti Nagri (Wikipedia)](https://en.wikipedia.org/wiki/Sylheti_Nagri)

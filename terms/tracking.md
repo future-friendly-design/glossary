@@ -37,7 +37,7 @@ Two of them. First, using tracking to fix a single bad letter pair, which is ker
 Settle this once as a type-style decision rather than leaving it to each designer: all-caps and small UI labels usually want a small positive value, body copy usually wants none. The mechanics of actually applying it, plus the token, accessibility, and language gotchas, live in [letter-spacing](letter-spacing.md), the tool and CSS control.
 
 ## Related terms
-[kerning](kerning.md) · [leading](leading.md) · [letter-spacing](letter-spacing.md)
+[Kerning](kerning.md) · [Leading](leading.md) · [Letter spacing](letter-spacing.md)
 
 ## Further reading
 - Foundations: [Kerning, tracking, leading and spacing (TypeType)](https://typetype.org/blog/kerning-tracking-leading-and-spacing-in-typography/)

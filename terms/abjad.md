@@ -28,7 +28,7 @@ In an abjad the consonant symbols are primary and vowel sounds are typically omi
 In written Arabic and Hebrew, short vowels are normally omitted, so the reader supplies them from context. "Pure" abjads such as early Phoenician mark no vowels at all, while Arabic and Hebrew can add optional vowel marks.
 
 ## Related terms
-[alphabet](alphabet.md) · [abugida](abugida.md) · [script](script.md)
+[Alphabet](alphabet.md) · [Abugida](abugida.md) · [Script](script.md)
 
 ## Further reading
 - Foundations: [Unicode Glossary: Abjad](https://www.unicode.org/glossary/#abjad)

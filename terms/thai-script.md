@@ -28,7 +28,7 @@ The Thai script is an [abugida](abugida.md) in the [Brahmic family](brahmic-scri
 A Thai vowel can be written to the left of the consonant even though it is pronounced after it.
 
 ## Related terms
-[abugida](abugida.md) · [brahmic-scripts](brahmic-scripts.md) · [tibetan-script](tibetan-script.md) · [tone-mark](tone-mark.md)
+[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Tibetan script](tibetan-script.md) · [Tone mark](tone-mark.md)
 
 ## Further reading
 - Foundations: [Thai script (Wikipedia)](https://en.wikipedia.org/wiki/Thai_script)

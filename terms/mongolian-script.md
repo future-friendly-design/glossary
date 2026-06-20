@@ -28,7 +28,7 @@ The classical Mongolian script is the original alphabet for the Mongolian langua
 A line of traditional Mongolian text is read downward, and the next line is placed to its right.
 
 ## Related terms
-[cyrillic](cyrillic.md) · [script](script.md) · [text-direction](text-direction.md)
+[Cyrillic](cyrillic.md) · [Script](script.md) · [Text direction](text-direction.md)
 
 ## Further reading
 - Foundations: [Mongolian script (Wikipedia)](https://en.wikipedia.org/wiki/Mongolian_script)

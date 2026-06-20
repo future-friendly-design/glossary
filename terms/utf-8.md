@@ -31,7 +31,7 @@ UTF-8 is a variable-width encoding: ASCII characters take a single byte, which m
 "A" is one byte in UTF-8; "€" is three bytes; an emoji is four.
 
 ## Related terms
-[utf-16](utf-16.md) · [character-encoding](character-encoding.md) · [unicode](unicode.md) · [code-point](code-point.md)
+[UTF-16](utf-16.md) · [Character encoding](character-encoding.md) · [Unicode](unicode.md) · [Code point](code-point.md)
 
 ## Further reading
 - Code & specs: [Encoding Standard (WHATWG)](https://encoding.spec.whatwg.org/)

@@ -31,7 +31,7 @@ A surrogate pair is two UTF-16 code units used together to represent a character
 The emoji "😀" (U+1F600) is stored as the surrogate pair U+D83D U+DE00 in UTF-16.
 
 ## Related terms
-[utf-16](utf-16.md) · [plane-bmp](plane-bmp.md) · [code-point](code-point.md)
+[UTF-16](utf-16.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Code point](code-point.md)
 
 ## Further reading
 - Code & specs: [UTF-16 (MDN Glossary)](https://developer.mozilla.org/en-US/docs/Glossary/UTF-16)

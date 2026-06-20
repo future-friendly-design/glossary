@@ -28,7 +28,7 @@ When a contact language forms, one language (often that of a dominant or colonia
 French is the lexifier of Haitian Creole, which draws most of its vocabulary from French.
 
 ## Related terms
-[creole](creole.md) · [pidgin](pidgin.md) · [language-family](language-family.md)
+[Creole](creole.md) · [Pidgin](pidgin.md) · [Language family](language-family.md)
 
 ## Further reading
 - Foundations: [JPCL Glossary of Pidgin and Creole Terms (Ohio State)](https://linguistics.osu.edu/jpcl/resources/glossary/terms-gl)

@@ -28,7 +28,7 @@ Canadian Aboriginal Syllabics is a family of related systems used for languages 
 In Cree, the "p" symbol points one way for "pi", and is rotated to other orientations for "pe", "pa", and "po".
 
 ## Related terms
-[syllabary](syllabary.md) · [abugida](abugida.md) · [featural-alphabet](featural-alphabet.md) · [script](script.md)
+[Syllabary](syllabary.md) · [Abugida](abugida.md) · [Featural alphabet](featural-alphabet.md) · [Script](script.md)
 
 ## Further reading
 - Foundations: [Canadian Aboriginal syllabics (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics)

@@ -28,7 +28,7 @@ Unicode is divided into 17 planes numbered 0 to 16, each containing 65,536 code 
 The letter "A" lives in the BMP, while most emoji live in supplementary planes.
 
 ## Related terms
-[code-point](code-point.md) · [surrogate-pair](surrogate-pair.md) · [utf-16](utf-16.md) · [unicode](unicode.md)
+[Code point](code-point.md) · [Surrogate pair](surrogate-pair.md) · [UTF-16](utf-16.md) · [Unicode](unicode.md)
 
 ## Further reading
 - Foundations: [Plane (Unicode Glossary)](https://www.unicode.org/glossary/#plane)

@@ -42,7 +42,7 @@ Assuming a variable font is automatically the lighter choice. It bundles many st
 - **Tools:** Figma exposes a variable font's axes as sliders, so you can set a custom weight or width directly; confirm the axis values you design with are ones the build can reproduce.
 
 ## Related terms
-[font-weight](font-weight.md) · [typeface](typeface.md) · [font](font.md) · [font-subsetting](font-subsetting.md)
+[Font weight](font-weight.md) · [Typeface](typeface.md) · [Font](font.md) · [Font subsetting](font-subsetting.md)
 
 ## Further reading
 - Code & specs: [Variable fonts guide (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)

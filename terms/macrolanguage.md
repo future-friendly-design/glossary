@@ -28,7 +28,7 @@ In [ISO 639-3](iso-639-3.md), a macrolanguage groups individual languages that a
 "Arabic" (ara) is a macrolanguage that includes individual varieties such as Egyptian Arabic (arz) and Moroccan Arabic (ary); ISO 639-3 lists around 28 individual languages under it, a count that shifts between releases.
 
 ## Related terms
-[iso-639-3](iso-639-3.md) · [language-family](language-family.md) · [dialect](dialect.md)
+[ISO 639-3](iso-639-3.md) · [Language family](language-family.md) · [Dialect](dialect.md)
 
 ## Further reading
 - Foundations: [ISO 639-3: Scope of denotation](https://iso639-3.sil.org/about/scope)

@@ -28,7 +28,7 @@ Ascenders appear on letters like b, d, f, h, k, l, and t, often reaching toward 
 The vertical stroke of a lowercase "h" that extends above the "x" is its ascender.
 
 ## Related terms
-[descender](descender.md) · [x-height](x-height.md) · [cap-height](cap-height.md) · [baseline](baseline.md)
+[Descender](descender.md) · [x-height](x-height.md) · [Cap height](cap-height.md) · [Baseline](baseline.md)
 
 ## Further reading
 - Resource library: [Ascenders & descenders (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/ascenders_descenders)

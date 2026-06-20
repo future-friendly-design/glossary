@@ -28,7 +28,7 @@ CJK abbreviates Chinese, Japanese, and Korean, the three written traditions that
 A single Unicode code point in the CJK Unified Ideographs block can be displayed with Chinese, Japanese, or Korean font styling, since Han unification encodes the shared character once rather than per language.
 
 ## Related terms
-[han-characters](han-characters.md) · [logographic](logographic.md) · [hiragana](hiragana.md) · [katakana](katakana.md) · [hangul](hangul.md) · [unicode-standard](unicode-standard.md)
+[Han characters](han-characters.md) · [Logographic](logographic.md) · [Hiragana](hiragana.md) · [Katakana](katakana.md) · [Hangul](hangul.md) · [Unicode Standard](unicode-standard.md)
 
 ## Further reading
 - Foundations: [Unicode FAQ: Chinese and Japanese](https://www.unicode.org/faq/han_cjk.html)

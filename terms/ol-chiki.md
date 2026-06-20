@@ -28,7 +28,7 @@ Ol Chiki is a 30-letter [alphabet](alphabet.md) devised by Pandit Raghunath Murm
 Ol Chiki writes each vowel as its own full letter, rather than as a mark attached to a consonant.
 
 ## Related terms
-[alphabet](alphabet.md) · [warang-citi](warang-citi.md) · [wancho-script](wancho-script.md) · [script](script.md)
+[Alphabet](alphabet.md) · [Warang Citi](warang-citi.md) · [Wancho script](wancho-script.md) · [Script](script.md)
 
 ## Further reading
 - Foundations: [Ol Chiki script (Wikipedia)](https://en.wikipedia.org/wiki/Ol_Chiki_script)

@@ -28,7 +28,7 @@ Many accented letters exist as one code point even though the same shape can be 
 "é" can be one precomposed code point (U+00E9) or "e" plus a combining acute accent (U+0065 U+0301).
 
 ## Related terms
-[combining-mark](combining-mark.md) · [normalization](normalization.md) · [diacritic](diacritic.md) · [code-point](code-point.md)
+[Combining mark](combining-mark.md) · [Normalization](normalization.md) · [Diacritic](diacritic.md) · [Code point](code-point.md)
 
 ## Further reading
 - Foundations: [Precomposed Character (Unicode Glossary)](https://www.unicode.org/glossary/#precomposed_character)

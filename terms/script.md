@@ -36,7 +36,7 @@ Treating "languages supported" as the planning unit and assuming a font or layou
 - **Languages:** which languages use which script, and the finer points of each script's behavior, are exactly the material the language cohort verifies. NEEDS EXPERT REVIEW for any specific script-to-language mapping you rely on.
 
 ## Related terms
-[alphabet](alphabet.md) · [abugida](abugida.md) · [abjad](abjad.md) · [syllabary](syllabary.md) · [logographic](logographic.md) · [featural-alphabet](featural-alphabet.md) · [brahmic-scripts](brahmic-scripts.md) · [font-coverage](font-coverage.md)
+[Alphabet](alphabet.md) · [Abugida](abugida.md) · [Abjad](abjad.md) · [Syllabary](syllabary.md) · [Logographic](logographic.md) · [Featural alphabet](featural-alphabet.md) · [Brahmic scripts](brahmic-scripts.md) · [Font coverage](font-coverage.md)
 
 ## Further reading
 - Foundations: [Unicode Glossary: Script](https://www.unicode.org/glossary/#script)

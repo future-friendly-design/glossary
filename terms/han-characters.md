@@ -28,7 +28,7 @@ Han characters are [logographic](logographic.md) units where each symbol stands 
 The same Han character for "person" is read "ren" in Chinese and "jin/nin" in Japanese.
 
 ## Related terms
-[logographic](logographic.md) · [cjk](cjk.md) · [hiragana](hiragana.md) · [katakana](katakana.md)
+[Logographic](logographic.md) · [CJK](cjk.md) · [Hiragana](hiragana.md) · [Katakana](katakana.md)
 
 ## Further reading
 - Foundations: [Chinese characters (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_characters)

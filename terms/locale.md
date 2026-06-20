@@ -31,7 +31,7 @@ A locale governs far more than translation: casing, sorting order ([collation](c
 `en-US` shows 6/17/2026 while `en-GB` shows 17/06/2026.
 
 ## Related terms
-[internationalization](internationalization.md) · [localization](localization.md) · [collation](collation.md) · [text-expansion](text-expansion.md)
+[Internationalization](internationalization.md) · [Localization](localization.md) · [Collation](collation.md) · [Text expansion](text-expansion.md)
 
 ## Further reading
 - Code & specs: [Intl.Locale (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale)

@@ -39,7 +39,7 @@ Collapsing orthography into either "language" or "script" and assuming one impli
 - **Languages:** which orthographies a language uses, and which is current or preferred, is community-specific and changes over time. Treat it as expert-verified, and confirm specifics with the language cohort.
 
 ## Related terms
-[dialect](dialect.md) · [script](script.md) · [segmentation](segmentation.md) · [input-method-editor](input-method-editor.md) · [autonym](autonym.md)
+[Dialect](dialect.md) · [Script](script.md) · [Segmentation](segmentation.md) · [Input method editor (IME)](input-method-editor.md) · [Autonym](autonym.md)
 
 ## Further reading
 - Foundations: [Orthography (Wikipedia)](https://en.wikipedia.org/wiki/Orthography)
