@@ -22,13 +22,13 @@ license: CC-BY-4.0
 Hiragana is one of the two Japanese syllabaries, used for native words and grammatical endings.
 
 ## Why it matters
-Hiragana is a [[syllabary]] in which each rounded, cursive character represents a syllable, usually a consonant plus a vowel or a vowel alone. It carries Japanese grammatical particles, verb and adjective endings, and words without common kanji, and is typically the first script Japanese children learn. The practical point for product work is that ordinary Japanese mixes three scripts in one line, hiragana alongside [[katakana]] and [[han-characters|kanji]], so Japanese support is never a single-script problem.
+Hiragana is a [syllabary](syllabary.md) in which each rounded, cursive character represents a syllable, usually a consonant plus a vowel or a vowel alone. It carries Japanese grammatical particles, verb and adjective endings, and words without common kanji, and is typically the first script Japanese children learn. The practical point for product work is that ordinary Japanese mixes three scripts in one line, hiragana alongside [katakana](katakana.md) and [kanji](han-characters.md), so Japanese support is never a single-script problem.
 
 ## Example
 The word "sushi" can be written in hiragana as two syllable signs, su and shi.
 
 ## Related terms
-[[syllabary]] · [[katakana]] · [[han-characters]] · [[cjk]]
+[syllabary](syllabary.md) · [katakana](katakana.md) · [han-characters](han-characters.md) · [cjk](cjk.md)
 
 ## Further reading
 - Foundations: [Hiragana (Wikipedia)](https://en.wikipedia.org/wiki/Hiragana)

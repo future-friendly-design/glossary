@@ -22,13 +22,13 @@ license: CC-BY-4.0
 A character is the smallest meaningful unit of written text, like a letter, digit, or punctuation mark.
 
 ## Why it matters
-In Unicode terms a character is an abstract unit, not a picture: it is the thing a [[code-point]] names. The everyday confusion is mixing it up with the [[glyph]] (the visible shape a font draws for it) or with the bytes it is stored as (the job of a [[character-encoding]]). On top of that, one thing a reader counts as a single character can actually be several Unicode characters combined, which Unicode calls a [[grapheme-cluster]]. Keeping these layers straight, character versus glyph versus byte, is what heads off a whole class of text bugs.
+In Unicode terms a character is an abstract unit, not a picture: it is the thing a [code-point](code-point.md) names. The everyday confusion is mixing it up with the [glyph](glyph.md) (the visible shape a font draws for it) or with the bytes it is stored as (the job of a [character-encoding](character-encoding.md)). On top of that, one thing a reader counts as a single character can actually be several Unicode characters combined, which Unicode calls a [grapheme-cluster](grapheme-cluster.md). Keeping these layers straight, character versus glyph versus byte, is what heads off a whole class of text bugs.
 
 ## Example
 The letter "A", the digit "7", and the comma "," are each one character.
 
 ## Related terms
-[[glyph]] · [[code-point]] · [[grapheme-cluster]] · [[unicode]]
+[glyph](glyph.md) · [code-point](code-point.md) · [grapheme-cluster](grapheme-cluster.md) · [unicode](unicode.md)
 
 ## Further reading
 - Foundations: [Character (Unicode Glossary)](https://www.unicode.org/glossary/#character)

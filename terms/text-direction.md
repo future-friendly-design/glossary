@@ -25,13 +25,13 @@ license: CC-BY-4.0
 Text direction is the way a script flows, such as left-to-right or right-to-left.
 
 ## Why it matters
-Most scripts are written left-to-right (LTR), while Arabic, Hebrew, and others are right-to-left (RTL). A document or element also has a base direction that governs how mixed content and neutral characters are laid out. On the web you set base direction with the HTML `dir` attribute or the CSS `direction` property, and choosing it correctly is what makes [[bidirectional-text]] display properly. Direction is distinct from script: the same script can appear in either base direction depending on context, so it is a setting you make deliberately, not something the script alone decides.
+Most scripts are written left-to-right (LTR), while Arabic, Hebrew, and others are right-to-left (RTL). A document or element also has a base direction that governs how mixed content and neutral characters are laid out. On the web you set base direction with the HTML `dir` attribute or the CSS `direction` property, and choosing it correctly is what makes [bidirectional-text](bidirectional-text.md) display properly. Direction is distinct from script: the same script can appear in either base direction depending on context, so it is a setting you make deliberately, not something the script alone decides.
 
 ## Example
 Setting `dir="rtl"` on an Arabic paragraph makes it start at the right edge and align right.
 
 ## Related terms
-[[bidirectional-text]] · [[complex-text-layout]]
+[bidirectional-text](bidirectional-text.md) · [complex-text-layout](complex-text-layout.md)
 
 ## Further reading
 - Code & specs: [dir (MDN HTML global attribute)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)

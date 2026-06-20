@@ -22,13 +22,13 @@ license: CC-BY-4.0
 Warang Citi is the alphabet devised by Lako Bodra for the Ho language of eastern India.
 
 ## Why it matters
-Warang Citi (also spelled Varang Kshiti) was developed from the 1950s onward by Lako Bodra for Ho, a Munda (Austroasiatic) language spoken in Jharkhand, Odisha, and West Bengal. It uses independent letters for vowels and does without the [[diacritic]]s and [[virama]] marks of the surrounding [[brahmic-scripts|Brahmic]] scripts, written left to right. It was encoded in Unicode in version 7.0 (2014) in the block U+118A0 to U+118FF, so it is fully addressable in software; in practice Ho is also written in [[devanagari|Devanagari]], which is the kind of multi-script reality a language's digital support has to account for.
+Warang Citi (also spelled Varang Kshiti) was developed from the 1950s onward by Lako Bodra for Ho, a Munda (Austroasiatic) language spoken in Jharkhand, Odisha, and West Bengal. It uses independent letters for vowels and does without the [diacritic](diacritic.md)s and [virama](virama.md) marks of the surrounding [Brahmic](brahmic-scripts.md) scripts, written left to right. It was encoded in Unicode in version 7.0 (2014) in the block U+118A0 to U+118FF, so it is fully addressable in software; in practice Ho is also written in [Devanagari](devanagari.md), which is the kind of multi-script reality a language's digital support has to account for.
 
 ## Example
 Warang Citi gives each vowel a full independent letter rather than relying on attached marks.
 
 ## Related terms
-[[alphabet]] · [[ol-chiki]] · [[wancho-script]] · [[script]]
+[alphabet](alphabet.md) · [ol-chiki](ol-chiki.md) · [wancho-script](wancho-script.md) · [script](script.md)
 
 ## Further reading
 - Foundations: [Warang Citi (Wikipedia)](https://en.wikipedia.org/wiki/Warang_Citi)

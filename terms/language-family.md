@@ -22,13 +22,13 @@ license: CC-BY-4.0
 A language family is a group of languages that all descend from a single common ancestor language.
 
 ## Why it matters
-Languages in a family are related the way branches of a family tree are, having diverged from one earlier "proto-language." Large examples include Indo-European, Sino-Tibetan, Niger-Congo, and Austronesian. Databases like [[glottolog|Glottolog]] organize the world's languages into these genealogical groupings, and some languages are isolates that belong to no known family. For product and design work the family is a coarse grouping, not a support unit: related languages can use entirely different scripts and have very different rendering needs, so family membership tells you about history, not about what a given language needs on screen.
+Languages in a family are related the way branches of a family tree are, having diverged from one earlier "proto-language." Large examples include Indo-European, Sino-Tibetan, Niger-Congo, and Austronesian. Databases like [Glottolog](glottolog.md) organize the world's languages into these genealogical groupings, and some languages are isolates that belong to no known family. For product and design work the family is a coarse grouping, not a support unit: related languages can use entirely different scripts and have very different rendering needs, so family membership tells you about history, not about what a given language needs on screen.
 
 ## Example
 English, Hindi, Russian, and Spanish all belong to the Indo-European language family, yet they are written in different scripts and orthographies.
 
 ## Related terms
-[[macrolanguage]] · [[iso-639-3]] · [[dialect]] · [[glottolog]]
+[macrolanguage](macrolanguage.md) · [iso-639-3](iso-639-3.md) · [dialect](dialect.md) · [glottolog](glottolog.md)
 
 ## Further reading
 - Foundations: [Glottolog: Language families](https://glottolog.org/glottolog/family)

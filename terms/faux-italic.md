@@ -36,7 +36,7 @@ Assuming italic just means slanted. Real italics change the letterforms; faking 
 - **Tools:** confirm the family includes a true italic before relying on it; if your design leans on italics, that becomes a typeface selection criterion, not an afterthought.
 
 ## Related terms
-[[faux-bold]] · [[typeface]] · [[variable-font]]
+[faux-bold](faux-bold.md) · [typeface](typeface.md) · [variable-font](variable-font.md)
 
 ## Further reading
 - Code & specs: [font-style (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style)

@@ -22,13 +22,13 @@ license: CC-BY-4.0
 Han characters are the logographic Chinese-origin symbols used in Chinese and, in part, in Japanese and Korean writing.
 
 ## Why it matters
-Han characters are [[logographic]] units where each symbol stands for a word or morpheme; they are called hanzi in Chinese, kanji in Japanese, and hanja in Korean. There are tens of thousands of them, and Unicode encodes the shared set as [[cjk|CJK Unified Ideographs]] through Han unification, which assigns one code to a character common across regions even when its printed shape differs. The sheer count is the practical story for type and product teams: fonts that cover Han characters are large, subsetting matters, and input relies on conversion rather than one key per character.
+Han characters are [logographic](logographic.md) units where each symbol stands for a word or morpheme; they are called hanzi in Chinese, kanji in Japanese, and hanja in Korean. There are tens of thousands of them, and Unicode encodes the shared set as [CJK Unified Ideographs](cjk.md) through Han unification, which assigns one code to a character common across regions even when its printed shape differs. The sheer count is the practical story for type and product teams: fonts that cover Han characters are large, subsetting matters, and input relies on conversion rather than one key per character.
 
 ## Example
 The same Han character for "person" is read "ren" in Chinese and "jin/nin" in Japanese.
 
 ## Related terms
-[[logographic]] · [[cjk]] · [[hiragana]] · [[katakana]]
+[logographic](logographic.md) · [cjk](cjk.md) · [hiragana](hiragana.md) · [katakana](katakana.md)
 
 ## Further reading
 - Foundations: [Chinese characters (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_characters)

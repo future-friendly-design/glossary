@@ -28,7 +28,7 @@ Dialects are varieties of the same language that differ in vocabulary, accent, o
 British English and American English are dialects of English that differ in spelling ("colour" vs "color") and vocabulary ("lift" vs "elevator").
 
 ## Related terms
-[[macrolanguage]] · [[language-family]] · [[autonym]] · [[orthography]]
+[macrolanguage](macrolanguage.md) · [language-family](language-family.md) · [autonym](autonym.md) · [orthography](orthography.md)
 
 ## Further reading
 - Foundations: [Dialect (Wikipedia)](https://en.wikipedia.org/wiki/Dialect)

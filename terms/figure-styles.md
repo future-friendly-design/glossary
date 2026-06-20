@@ -25,7 +25,7 @@ license: CC-BY-4.0
 Figure styles are the different designs a font offers for numerals, such as lining vs oldstyle and tabular vs proportional.
 
 ## Why it matters
-Numerals are not a single design. Lining figures sit at a uniform height aligned to the [[cap-height]] and stand out cleanly in headings and alongside capitals; oldstyle figures have ascenders and descenders so they blend into running lowercase text. Separately from that, tabular figures share one fixed width so numbers stack into aligned columns, while proportional figures vary in width to read evenly inline. The two distinctions are independent, so a font may offer all four combinations, each selected through OpenType features.
+Numerals are not a single design. Lining figures sit at a uniform height aligned to the [cap-height](cap-height.md) and stand out cleanly in headings and alongside capitals; oldstyle figures have ascenders and descenders so they blend into running lowercase text. Separately from that, tabular figures share one fixed width so numbers stack into aligned columns, while proportional figures vary in width to read evenly inline. The two distinctions are independent, so a font may offer all four combinations, each selected through OpenType features.
 
 ## Example
 Use tabular lining figures for a price table; use oldstyle proportional figures for a date inside a sentence.
@@ -38,7 +38,7 @@ Using proportional figures in a table, so the columns of numbers do not line up 
 - **Font coverage:** the figures only exist if the font includes them, and some web fonts get subset down and lose the extra sets. Confirm the figures you need survived before relying on them.
 
 ## Related terms
-[[small-caps]] · [[cap-height]] · [[x-height]]
+[small-caps](small-caps.md) · [cap-height](cap-height.md) · [x-height](x-height.md)
 
 ## Further reading
 - Code & specs: [font-variant-numeric (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric)

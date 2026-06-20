@@ -28,7 +28,7 @@ Tibetan does not put spaces between words. Instead a tsheg (U+0F0B) marks the bo
 The dot between syllables in Tibetan "བོད་ཡིག" is a tsheg.
 
 ## Related terms
-[[complex-text-layout]] · [[stacking-script]]
+[complex-text-layout](complex-text-layout.md) · [stacking-script](stacking-script.md)
 
 ## Further reading
 - Foundations: [Requirements for Tibetan Text Layout (W3C)](https://www.w3.org/TR/tlreq/)

@@ -25,13 +25,13 @@ license: CC-BY-4.0
 UTF-16 stores Unicode text in 16-bit units, using one unit for common characters and two for the rest.
 
 ## Why it matters
-A single 16-bit code unit covers the Basic Multilingual Plane (U+0000 to U+FFFF); characters beyond it need a [[surrogate-pair]] of two code units. UTF-16 is used internally by JavaScript, Java, and Windows, which is why string length in those environments counts code units rather than characters, a frequent source of bugs with emoji and other supplementary-plane characters. When you need to count or slice user-visible characters, work in [[grapheme-cluster]]s instead.
+A single 16-bit code unit covers the Basic Multilingual Plane (U+0000 to U+FFFF); characters beyond it need a [surrogate-pair](surrogate-pair.md) of two code units. UTF-16 is used internally by JavaScript, Java, and Windows, which is why string length in those environments counts code units rather than characters, a frequent source of bugs with emoji and other supplementary-plane characters. When you need to count or slice user-visible characters, work in [grapheme-cluster](grapheme-cluster.md)s instead.
 
 ## Example
 In JavaScript, `"😀".length` is 2 because the emoji is a surrogate pair in UTF-16.
 
 ## Related terms
-[[utf-8]] · [[surrogate-pair]] · [[plane-bmp]] · [[character-encoding]]
+[utf-8](utf-8.md) · [surrogate-pair](surrogate-pair.md) · [plane-bmp](plane-bmp.md) · [character-encoding](character-encoding.md)
 
 ## Further reading
 - Code & specs: [UTF-16 (MDN Glossary)](https://developer.mozilla.org/en-US/docs/Glossary/UTF-16)

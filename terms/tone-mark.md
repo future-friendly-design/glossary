@@ -22,13 +22,13 @@ license: CC-BY-4.0
 A tone mark is a diacritic that shows the pitch or tone of a syllable in tonal languages.
 
 ## Why it matters
-Tone marks are a specialized kind of [[diacritic]] used where pitch changes a word's meaning, as in Mandarin Chinese and Vietnamese. In Hanyu Pinyin (the romanization of Mandarin) the four tones are written with the macron, acute, caron, and grave over a vowel. Vietnamese can stack a tone mark together with other vowel diacritics, so a single vowel may carry two marks, which makes correct positioning a real text-shaping challenge.
+Tone marks are a specialized kind of [diacritic](diacritic.md) used where pitch changes a word's meaning, as in Mandarin Chinese and Vietnamese. In Hanyu Pinyin (the romanization of Mandarin) the four tones are written with the macron, acute, caron, and grave over a vowel. Vietnamese can stack a tone mark together with other vowel diacritics, so a single vowel may carry two marks, which makes correct positioning a real text-shaping challenge.
 
 ## Example
 In Pinyin, "mā", "má", "mǎ", and "mà" use tone marks to spell four different words.
 
 ## Related terms
-[[diacritic]] · [[combining-mark]]
+[diacritic](diacritic.md) · [combining-mark](combining-mark.md)
 
 ## Further reading
 - Foundations: [Diacritic (Wikipedia)](https://en.wikipedia.org/wiki/Diacritic)

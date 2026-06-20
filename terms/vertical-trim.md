@@ -28,7 +28,7 @@ license: CC-BY-4.0
 Vertical trim removes the extra space a font reserves above and below its letters so text aligns to cap height and baseline.
 
 ## Why it matters
-Every font builds in space above the [[cap-height]] and below the [[baseline]]. It stays invisible until you try to center a label in a button or stack text tightly, and the text sits slightly off no matter what padding you use. Vertical trim strips that reserved space so the text aligns to its actual cap height and baseline, which is what finally makes optical centering predictable instead of a hand-tuning exercise.
+Every font builds in space above the [cap-height](cap-height.md) and below the [baseline](baseline.md). It stays invisible until you try to center a label in a button or stack text tightly, and the text sits slightly off no matter what padding you use. Vertical trim strips that reserved space so the text aligns to its actual cap height and baseline, which is what finally makes optical centering predictable instead of a hand-tuning exercise.
 
 ## Example
 Enabling vertical trim on a button label optically centers the text without hand-tuning the padding.
@@ -45,7 +45,7 @@ Copying the trimmed look from a Figma mockup straight into CSS and assuming it j
 - **Tokens and handoff:** treat "uses vertical trim" as part of the component spec and call it out at handoff. It changes the box model a developer has to reproduce, so a value copied from Dev Mode without that context will not behave the same in the browser.
 
 ## Related terms
-[[cap-height]] · [[baseline]] · [[line-height]] · [[leading]]
+[cap-height](cap-height.md) · [baseline](baseline.md) · [line-height](line-height.md) · [leading](leading.md)
 
 ## Further reading
 - Code & specs: [text-box-trim (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/text-box-trim)

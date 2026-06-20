@@ -22,13 +22,13 @@ license: CC-BY-4.0
 L2 speakers are people who use a language as a second (or additional) language rather than their native one.
 
 ## Why it matters
-"L2" stands for "second language," a language learned after one's first. [[ethnologue|Ethnologue]] tracks L2 use separately from [[l1-speakers|L1]] use, and some languages are even described as "second language only" because they are still used for specific purposes without a community of native speakers. Counting L1 and L2 populations separately gives a fuller picture of a language's reach, which is why a single "speaker count" can be misleading unless you know which one it means.
+"L2" stands for "second language," a language learned after one's first. [Ethnologue](ethnologue.md) tracks L2 use separately from [L1](l1-speakers.md) use, and some languages are even described as "second language only" because they are still used for specific purposes without a community of native speakers. Counting L1 and L2 populations separately gives a fuller picture of a language's reach, which is why a single "speaker count" can be misleading unless you know which one it means.
 
 ## Example
 Many people speak English as an L2, having learned it after their first language for work, study, or travel.
 
 ## Related terms
-[[l1-speakers]] · [[ethnologue]] · [[pidgin]] · [[creole]]
+[l1-speakers](l1-speakers.md) · [ethnologue](ethnologue.md) · [pidgin](pidgin.md) · [creole](creole.md)
 
 ## Further reading
 - Foundations: [Ethnologue: Methodology](https://www.ethnologue.com/methodology/)

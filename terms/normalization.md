@@ -25,7 +25,7 @@ license: CC-BY-4.0
 Normalization rewrites text into a consistent form so that strings that look the same compare as equal.
 
 ## Why it matters
-Unicode defines four normalization forms in UAX #15. NFC composes sequences into [[precomposed-character]]s where possible, while NFD decomposes them into a base plus [[combining-mark]]s; the compatibility forms NFKC and NFKD additionally fold formatting variants (like a ligature back into its letters, or a full-width form into a normal one). Normalization also fixes the order of combining marks. Without it, text that looks identical can fail to match.
+Unicode defines four normalization forms in UAX #15. NFC composes sequences into [precomposed-character](precomposed-character.md)s where possible, while NFD decomposes them into a base plus [combining-mark](combining-mark.md)s; the compatibility forms NFKC and NFKD additionally fold formatting variants (like a ligature back into its letters, or a full-width form into a normal one). Normalization also fixes the order of combining marks. Without it, text that looks identical can fail to match.
 
 ## Example
 Comparing a file name typed as precomposed "é" with one typed as "e" plus a combining accent only matches after normalizing both to the same form (NFC or NFD).
@@ -35,11 +35,11 @@ Comparing, searching, or deduplicating user text without normalizing first. Two 
 
 ## In practice
 - **Normalize at the boundary:** pick a form (NFC is the common choice for storage, since it is compact and matches most keyboard input) and normalize text as it enters your system, so everything downstream compares consistently. In JavaScript that is `String.prototype.normalize()`. See [String.prototype.normalize() (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize).
-- **Compatibility forms (NFKC/NFKD) are stronger and lossy:** they fold variants like [[full-width]] forms and ligatures together, which is useful for search and matching but wrong for storage where you must preserve the exact input. Choose deliberately per use.
+- **Compatibility forms (NFKC/NFKD) are stronger and lossy:** they fold variants like [full-width](full-width.md) forms and ligatures together, which is useful for search and matching but wrong for storage where you must preserve the exact input. Choose deliberately per use.
 - **Consistency across the stack:** the front end, back end, and database should agree on one normalization form, or a value stored one way will not match the same value queried another way.
 
 ## Related terms
-[[precomposed-character]] · [[combining-mark]] · [[grapheme-cluster]] · [[unicode]]
+[precomposed-character](precomposed-character.md) · [combining-mark](combining-mark.md) · [grapheme-cluster](grapheme-cluster.md) · [unicode](unicode.md)
 
 ## Further reading
 - Code & specs: [String.prototype.normalize() (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)

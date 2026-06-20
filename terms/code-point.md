@@ -22,13 +22,13 @@ license: CC-BY-4.0
 A code point is the number Unicode assigns to a character.
 
 ## Why it matters
-A code point is a position in the Unicode code space, written as "U+" followed by hexadecimal digits, from U+0000 to U+10FFFF. Code points are assigned to abstract [[character]]s; they are not the bytes stored on disk (that is the job of a [[character-encoding]]) and not the visible [[glyph]]s a font draws. Worth knowing: not every code point is a printable character. Some are control codes, and some are reserved or unassigned.
+A code point is a position in the Unicode code space, written as "U+" followed by hexadecimal digits, from U+0000 to U+10FFFF. Code points are assigned to abstract [character](character.md)s; they are not the bytes stored on disk (that is the job of a [character-encoding](character-encoding.md)) and not the visible [glyph](glyph.md)s a font draws. Worth knowing: not every code point is a printable character. Some are control codes, and some are reserved or unassigned.
 
 ## Example
 The character "A" is code point U+0041; the snowman "☃" is U+2603.
 
 ## Related terms
-[[character]] · [[unicode]] · [[character-encoding]] · [[plane-bmp]]
+[character](character.md) · [unicode](unicode.md) · [character-encoding](character-encoding.md) · [plane-bmp](plane-bmp.md)
 
 ## Further reading
 - Foundations: [Code Point (Unicode Glossary)](https://www.unicode.org/glossary/#code_point)

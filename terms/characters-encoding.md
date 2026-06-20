@@ -27,12 +27,12 @@ Every product handles text, and a surprising share of bugs trace back to this la
 ## Key terms
 A guided tour of the characters and encoding terms in this glossary, grouped by what they help you reason about:
 
-- **The text model:** [[character]], [[glyph]], [[code-point]], [[grapheme-cluster]]
-- **The standard and its structure:** [[unicode]], [[plane-bmp]]
-- **Encodings:** [[character-encoding]], [[utf-8]], [[utf-16]], [[surrogate-pair]]
-- **Combining and normalizing:** [[combining-mark]], [[precomposed-character]], [[normalization]], [[diacritic]], [[tone-mark]]
-- **Direction:** [[bidirectional-text]], [[text-direction]]
-- **Rendering gaps:** [[tofu]]
+- **The text model:** [character](character.md), [glyph](glyph.md), [code-point](code-point.md), [grapheme-cluster](grapheme-cluster.md)
+- **The standard and its structure:** [unicode](unicode.md), [plane-bmp](plane-bmp.md)
+- **Encodings:** [character-encoding](character-encoding.md), [utf-8](utf-8.md), [utf-16](utf-16.md), [surrogate-pair](surrogate-pair.md)
+- **Combining and normalizing:** [combining-mark](combining-mark.md), [precomposed-character](precomposed-character.md), [normalization](normalization.md), [diacritic](diacritic.md), [tone-mark](tone-mark.md)
+- **Direction:** [bidirectional-text](bidirectional-text.md), [text-direction](text-direction.md)
+- **Rendering gaps:** [tofu](tofu.md)
 
 ## Further reading
 - Foundations: [W3C Internationalization (i18n)](https://www.w3.org/International/)

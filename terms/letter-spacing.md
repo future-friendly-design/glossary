@@ -31,13 +31,13 @@ license: CC-BY-4.0
 Letter spacing is the design-tool and CSS control that adds or removes uniform space between every character in a run of text.
 
 ## Why it matters
-This is the field you reach for in Figma, or the property you set in CSS, when you want to open up or tighten text evenly. It is the implementation of the typographic idea called [[tracking]]: tracking is the concept, letter spacing is the control. Knowing they are the same thing (and that neither is [[kerning]], which adjusts single pairs) saves a lot of confusion when a designer and a developer are describing the same text with different words.
+This is the field you reach for in Figma, or the property you set in CSS, when you want to open up or tighten text evenly. It is the implementation of the typographic idea called [tracking](tracking.md): tracking is the concept, letter spacing is the control. Knowing they are the same thing (and that neither is [kerning](kerning.md), which adjusts single pairs) saves a lot of confusion when a designer and a developer are describing the same text with different words.
 
 ## Example
 In Figma, a small positive Letter spacing on an all-caps label spreads its characters apart evenly. On the web, `letter-spacing: 0.05em` does the same.
 
 ## Also called
-Figma: Letter spacing · CSS: `letter-spacing`. The typographic term for the concept this controls is [[tracking]].
+Figma: Letter spacing · CSS: `letter-spacing`. The typographic term for the concept this controls is [tracking](tracking.md).
 
 ## Common mistake
 Confusing it with kerning: letter spacing is uniform across the whole run, kerning adjusts single pairs. On the web, a second trap is setting it in pixels (`letter-spacing: 1px`) so it does not scale with the font size. And applying it to body text by reflex, where even a little too much hurts readability.
@@ -50,7 +50,7 @@ Confusing it with kerning: letter spacing is uniform across the whole run, kerni
 In Figma the field is "Letter spacing," set in pixels or as a percentage of font size. The [MDN letter-spacing page](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) covers the CSS behavior.
 
 ## Related terms
-[[tracking]] · [[kerning]]
+[tracking](tracking.md) · [kerning](kerning.md)
 
 ## Further reading
 - Code & specs: [letter-spacing (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)

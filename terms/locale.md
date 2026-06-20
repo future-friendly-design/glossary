@@ -25,13 +25,13 @@ license: CC-BY-4.0
 A locale is a set of regional preferences (language plus country and conventions) that software uses to format text correctly.
 
 ## Why it matters
-A locale governs far more than translation: casing, sorting order ([[collation]]), number and date formats, currency, and quotation marks all depend on it. The same language can have several locales, so a locale is usually a language tag like `pt-BR` or `pt-PT`, not just a language. Choosing and threading the right locale through formatting and sorting is the mechanism that makes [[localization]] actually work at runtime.
+A locale governs far more than translation: casing, sorting order ([collation](collation.md)), number and date formats, currency, and quotation marks all depend on it. The same language can have several locales, so a locale is usually a language tag like `pt-BR` or `pt-PT`, not just a language. Choosing and threading the right locale through formatting and sorting is the mechanism that makes [localization](localization.md) actually work at runtime.
 
 ## Example
 `en-US` shows 6/17/2026 while `en-GB` shows 17/06/2026.
 
 ## Related terms
-[[internationalization]] · [[localization]] · [[collation]] · [[text-expansion]]
+[internationalization](internationalization.md) · [localization](localization.md) · [collation](collation.md) · [text-expansion](text-expansion.md)
 
 ## Further reading
 - Code & specs: [Intl.Locale (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale)

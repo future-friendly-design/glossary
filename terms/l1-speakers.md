@@ -22,13 +22,13 @@ license: CC-BY-4.0
 L1 speakers are people who learned a language as their first or native language, usually in childhood.
 
 ## Why it matters
-"L1" stands for "first language," the language a person acquires earliest and typically uses most naturally. Reference works such as [[ethnologue|Ethnologue]] count L1 speakers separately from [[l2-speakers|L2 speakers]] when describing how many people use a language, because the two tell you different things: a language can have few L1 speakers and many L2 speakers, or the reverse. For anyone reasoning about reach or prioritization, it is worth knowing which population a "number of speakers" refers to, and that those counts come from specialized sources, not from guesswork.
+"L1" stands for "first language," the language a person acquires earliest and typically uses most naturally. Reference works such as [Ethnologue](ethnologue.md) count L1 speakers separately from [L2 speakers](l2-speakers.md) when describing how many people use a language, because the two tell you different things: a language can have few L1 speakers and many L2 speakers, or the reverse. For anyone reasoning about reach or prioritization, it is worth knowing which population a "number of speakers" refers to, and that those counts come from specialized sources, not from guesswork.
 
 ## Example
 For someone raised speaking Spanish at home, Spanish is their L1.
 
 ## Related terms
-[[l2-speakers]] · [[ethnologue]] · [[endangered-language]] · [[macrolanguage]]
+[l2-speakers](l2-speakers.md) · [ethnologue](ethnologue.md) · [endangered-language](endangered-language.md) · [macrolanguage](macrolanguage.md)
 
 ## Further reading
 - Foundations: [Ethnologue: Methodology](https://www.ethnologue.com/methodology/)

@@ -25,7 +25,7 @@ license: CC-BY-4.0
 OpenType features are switchable typographic behaviors in a font, each named by a short tag.
 
 ## Why it matters
-A feature is a packaged set of substitution or positioning rules identified by a four-letter tag: "liga" for standard ligatures, "smcp" for small caps, "tnum" for tabular figures, "kern" for kerning, and many more. Some features are on by default and required for a script to display correctly; others are optional stylistic choices a designer turns on. They are the user-facing handles on the [[gsub]] and [[gpos]] machinery, which is why so much typographic control comes down to enabling the right feature.
+A feature is a packaged set of substitution or positioning rules identified by a four-letter tag: "liga" for standard ligatures, "smcp" for small caps, "tnum" for tabular figures, "kern" for kerning, and many more. Some features are on by default and required for a script to display correctly; others are optional stylistic choices a designer turns on. They are the user-facing handles on the [gsub](gsub.md) and [gpos](gpos.md) machinery, which is why so much typographic control comes down to enabling the right feature.
 
 ## Example
 In CSS, `font-variant-numeric: tabular-nums` turns on the "tnum" feature so figures line up in columns, if the font provides it.
@@ -39,7 +39,7 @@ Reaching for the low-level `font-feature-settings` for everything. It does not i
 - **Required vs optional:** treat default-on features as part of correct rendering (especially for non-Latin scripts) and only toggle the optional ones deliberately.
 
 ## Related terms
-[[opentype]] · [[gsub]] · [[gpos]] · [[ligature]]
+[opentype](opentype.md) · [gsub](gsub.md) · [gpos](gpos.md) · [ligature](ligature.md)
 
 ## Further reading
 - Code & specs: [OpenType font features guide (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide)

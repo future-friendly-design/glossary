@@ -32,11 +32,11 @@ Waiting for real translations to find internationalization and layout bugs. By t
 
 ## In practice
 - **Run it early and continuously:** turn on a pseudo locale from the first screens and keep it in CI, so untransformed strings and clipped layouts surface on every build. Use a reserved, never-real locale name (Microsoft uses `qps-ploc`; ICU provides `en-XA` for accents and `en-XB` for bidirectional). See [Pseudolocalization (Microsoft Learn)](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization).
-- **Read each signal:** padding simulates [[text-expansion]], bracket delimiters expose truncation and string concatenation, and non-Latin padding exposes font and encoding gaps.
+- **Read each signal:** padding simulates [text-expansion](text-expansion.md), bracket delimiters expose truncation and string concatenation, and non-Latin padding exposes font and encoding gaps.
 - **It complements, not replaces, real QA:** pseudoloc proves a product is localizable; it does not validate an actual translation.
 
 ## Related terms
-[[internationalization]] · [[localization]] · [[text-expansion]]
+[internationalization](internationalization.md) · [localization](localization.md) · [text-expansion](text-expansion.md)
 
 ## Further reading
 - Foundations: [Pseudolocalization (Microsoft Learn)](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization)

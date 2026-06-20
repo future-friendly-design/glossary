@@ -27,9 +27,9 @@ Decisions about language support are only as trustworthy as the data behind them
 ## Key terms
 A guided tour of the reference sources in this glossary, grouped by what they answer:
 
-- **Language catalogues:** [[ethnologue]], [[glottolog]], [[unesco-atlas-of-the-worlds-languages-in-danger]]
-- **The character standard:** [[unicode-standard]]
-- **Multilingual font projects:** [[noto-fonts]], [[sil]]
+- **Language catalogues:** [ethnologue](ethnologue.md), [glottolog](glottolog.md), [unesco-atlas-of-the-worlds-languages-in-danger](unesco-atlas-of-the-worlds-languages-in-danger.md)
+- **The character standard:** [unicode-standard](unicode-standard.md)
+- **Multilingual font projects:** [noto-fonts](noto-fonts.md), [sil](sil.md)
 
 ## Further reading
 - Foundations: [W3C Internationalization (i18n)](https://www.w3.org/International/)

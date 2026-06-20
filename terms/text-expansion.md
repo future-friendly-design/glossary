@@ -33,10 +33,10 @@ Sizing buttons, labels, tabs, and containers to fit the English text. A control 
 ## In practice
 - **Design for reflow:** avoid fixed-width, single-line, or tightly packed containers; let text wrap and let containers grow. Give the most generous slack to the shortest labels, where growth is highest. See [Text size in translation (W3C)](https://www.w3.org/International/articles/article-text-size).
 - **Separate content from presentation** so font size, line height, and wrapping can adapt per locale rather than being baked into a fixed box.
-- **Test before translations arrive:** [[pseudolocalization]] pads strings to simulate expansion, surfacing overflow while the design is still cheap to change.
+- **Test before translations arrive:** [pseudolocalization](pseudolocalization.md) pads strings to simulate expansion, surfacing overflow while the design is still cheap to change.
 
 ## Related terms
-[[localization]] · [[internationalization]] · [[pseudolocalization]]
+[localization](localization.md) · [internationalization](internationalization.md) · [pseudolocalization](pseudolocalization.md)
 
 ## Further reading
 - Foundations: [Text size in translation (W3C)](https://www.w3.org/International/articles/article-text-size)

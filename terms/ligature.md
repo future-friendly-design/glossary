@@ -25,13 +25,13 @@ license: CC-BY-4.0
 A ligature is a single glyph that replaces two or more letters to avoid collisions or for style.
 
 ## Why it matters
-When adjacent letters clash or simply read better joined, a font can substitute one combined [[glyph]]; common examples are fi, fl, ff, ffi, and ffl. In [[opentype]] this is a [[gsub]] substitution, with standard ligatures (the "liga" feature) on by default and decorative ones ("dlig") optional. The idea generalizes well beyond Latin: some scripts, like Arabic, rely on required ligatures for correct spelling, and the related [[conjunct]] forms in Indic scripts work on the same substitution principle.
+When adjacent letters clash or simply read better joined, a font can substitute one combined [glyph](glyph.md); common examples are fi, fl, ff, ffi, and ffl. In [opentype](opentype.md) this is a [gsub](gsub.md) substitution, with standard ligatures (the "liga" feature) on by default and decorative ones ("dlig") optional. The idea generalizes well beyond Latin: some scripts, like Arabic, rely on required ligatures for correct spelling, and the related [conjunct](conjunct.md) forms in Indic scripts work on the same substitution principle.
 
 ## Example
 Typing "f" then "i" can render as a single "fi" glyph so the dot of the i does not crash into the hood of the f.
 
 ## Related terms
-[[glyph]] · [[gsub]] · [[opentype-features]] · [[conjunct]]
+[glyph](glyph.md) · [gsub](gsub.md) · [opentype-features](opentype-features.md) · [conjunct](conjunct.md)
 
 ## Further reading
 - Code & specs: [OpenType font features guide (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide)

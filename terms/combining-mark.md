@@ -22,13 +22,13 @@ license: CC-BY-4.0
 A combining mark is a code point that attaches to the preceding character, such as an accent.
 
 ## Why it matters
-Combining marks have no width of their own; they render on, above, below, or around a base character. A base letter plus one or more combining marks forms a single [[grapheme-cluster]], which is why "one character" on screen can be several code points underneath. The same visible result can often be produced either with a combining mark or with a single [[precomposed-character]], and that ambiguity is exactly why [[normalization]] exists.
+Combining marks have no width of their own; they render on, above, below, or around a base character. A base letter plus one or more combining marks forms a single [grapheme-cluster](grapheme-cluster.md), which is why "one character" on screen can be several code points underneath. The same visible result can often be produced either with a combining mark or with a single [precomposed-character](precomposed-character.md), and that ambiguity is exactly why [normalization](normalization.md) exists.
 
 ## Example
 "n" followed by U+0303 (combining tilde) displays as "ñ".
 
 ## Related terms
-[[precomposed-character]] · [[diacritic]] · [[normalization]] · [[grapheme-cluster]]
+[precomposed-character](precomposed-character.md) · [diacritic](diacritic.md) · [normalization](normalization.md) · [grapheme-cluster](grapheme-cluster.md)
 
 ## Further reading
 - Foundations: [Combining Character (Unicode Glossary)](https://www.unicode.org/glossary/#combining_character)

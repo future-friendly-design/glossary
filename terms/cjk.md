@@ -22,13 +22,13 @@ license: CC-BY-4.0
 CJK is shorthand for the shared Chinese, Japanese, and Korean characters handled together in computing and typography.
 
 ## Why it matters
-CJK abbreviates Chinese, Japanese, and Korean, the three written traditions that share a large stock of [[han-characters|Han characters]]. Through a process called Han unification, Unicode encodes the common characters once as "CJK Unified Ideographs": the base block (U+4E00 to U+9FFF) holds 20,992 characters, with tens of thousands more across extension blocks. The label matters in practice because CJK text shares engineering concerns regardless of language: large glyph sets and font files, full-width and proportional forms, and vertical writing. It is sometimes extended to CJKV to include Vietnamese.
+CJK abbreviates Chinese, Japanese, and Korean, the three written traditions that share a large stock of [Han characters](han-characters.md). Through a process called Han unification, Unicode encodes the common characters once as "CJK Unified Ideographs": the base block (U+4E00 to U+9FFF) holds 20,992 characters, with tens of thousands more across extension blocks. The label matters in practice because CJK text shares engineering concerns regardless of language: large glyph sets and font files, full-width and proportional forms, and vertical writing. It is sometimes extended to CJKV to include Vietnamese.
 
 ## Example
 A single Unicode code point in the CJK Unified Ideographs block can be displayed with Chinese, Japanese, or Korean font styling, since Han unification encodes the shared character once rather than per language.
 
 ## Related terms
-[[han-characters]] · [[logographic]] · [[hiragana]] · [[katakana]] · [[hangul]] · [[unicode-standard]]
+[han-characters](han-characters.md) · [logographic](logographic.md) · [hiragana](hiragana.md) · [katakana](katakana.md) · [hangul](hangul.md) · [unicode-standard](unicode-standard.md)
 
 ## Further reading
 - Foundations: [Unicode FAQ: Chinese and Japanese](https://www.unicode.org/faq/han_cjk.html)

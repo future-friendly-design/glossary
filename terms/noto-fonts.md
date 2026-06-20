@@ -22,13 +22,13 @@ license: CC-BY-4.0
 Noto is Google's free font family that aims to cover every writing system in Unicode so no character shows up as a blank box.
 
 ## Why it matters
-Noto ("no tofu") is an open-source font family commissioned by Google to provide consistent type for every script in the [[unicode-standard]], covering more than 1,000 languages and over 150 writing systems. The name refers to eliminating [[tofu]], the blank boxes that appear when a device lacks a font for a character, which makes Noto a common safety net for broad [[font-coverage]] across multilingual interfaces. It is released under the SIL Open Font License, with design sources and the build pipeline freely available.
+Noto ("no tofu") is an open-source font family commissioned by Google to provide consistent type for every script in the [unicode-standard](unicode-standard.md), covering more than 1,000 languages and over 150 writing systems. The name refers to eliminating [tofu](tofu.md), the blank boxes that appear when a device lacks a font for a character, which makes Noto a common safety net for broad [font-coverage](font-coverage.md) across multilingual interfaces. It is released under the SIL Open Font License, with design sources and the build pipeline freely available.
 
 ## Example
 A web page styled with Noto fonts can display Latin, Devanagari, and Han characters without missing-glyph boxes.
 
 ## Related terms
-[[unicode-standard]] · [[sil]] · [[font-coverage]] · [[tofu]]
+[unicode-standard](unicode-standard.md) · [sil](sil.md) · [font-coverage](font-coverage.md) · [tofu](tofu.md)
 
 ## Further reading
 - Foundations: [Noto Fonts (project site)](https://notofonts.github.io/)

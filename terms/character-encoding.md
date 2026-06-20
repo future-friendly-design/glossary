@@ -25,7 +25,7 @@ license: CC-BY-4.0
 A character encoding is the rule for turning characters into bytes and back again.
 
 ## Why it matters
-An encoding maps [[code-point]]s to sequences of bytes for storage or transmission, and back again, which is what lets a file of bytes be read as the text someone meant to write. Choose the wrong encoding when reading and you get garbled text, the failure mode known as mojibake. [[utf-8]] is the dominant encoding on the web; older encodings like Latin-1 or Shift-JIS only cover limited character sets.
+An encoding maps [code-point](code-point.md)s to sequences of bytes for storage or transmission, and back again, which is what lets a file of bytes be read as the text someone meant to write. Choose the wrong encoding when reading and you get garbled text, the failure mode known as mojibake. [utf-8](utf-8.md) is the dominant encoding on the web; older encodings like Latin-1 or Shift-JIS only cover limited character sets.
 
 ## Example
 Reading a UTF-8 file as Latin-1 turns "é" into "Ã©".
@@ -39,7 +39,7 @@ Not declaring the encoding, or trusting a default to be right. The classic mojib
 - **Be careful with the BOM:** avoid a UTF-8 byte-order mark unless a specific consumer requires it, since some tools mishandle it.
 
 ## Related terms
-[[utf-8]] · [[utf-16]] · [[unicode]] · [[code-point]]
+[utf-8](utf-8.md) · [utf-16](utf-16.md) · [unicode](unicode.md) · [code-point](code-point.md)
 
 ## Further reading
 - Code & specs: [Encoding Standard (WHATWG)](https://encoding.spec.whatwg.org/)

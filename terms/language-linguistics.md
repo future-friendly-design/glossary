@@ -22,15 +22,15 @@ license: CC-BY-4.0
 Language and linguistics terms are the vocabulary for talking about languages themselves: how they are classified and coded, how they vary, who speaks them, and how threatened they are.
 
 ## Why it matters
-A language is not the same thing as the [[script]] it is written in, and it is not the same thing as a country or a locale. This category gives you the concepts to be precise about that difference: what counts as a language versus a [[dialect]], how a [[macrolanguage]] relates to its members, which code identifies a language unambiguously, and what a "number of speakers" actually measures. Two themes run through it for product and design work. First, languages are communities of people, so naming, representation, and support are matters of respect, not just data. Second, the facts here are easy to get wrong and consequential when wrong, so speaker counts, endangerment status, and language boundaries belong to specialists and the communities themselves. The terms below give you a careful way to talk about all of it.
+A language is not the same thing as the [script](script.md) it is written in, and it is not the same thing as a country or a locale. This category gives you the concepts to be precise about that difference: what counts as a language versus a [dialect](dialect.md), how a [macrolanguage](macrolanguage.md) relates to its members, which code identifies a language unambiguously, and what a "number of speakers" actually measures. Two themes run through it for product and design work. First, languages are communities of people, so naming, representation, and support are matters of respect, not just data. Second, the facts here are easy to get wrong and consequential when wrong, so speaker counts, endangerment status, and language boundaries belong to specialists and the communities themselves. The terms below give you a careful way to talk about all of it.
 
 ## Key terms
 A guided tour of the language and linguistics terms in this glossary, grouped by what they help you reason about:
 
-- **Classification and codes:** [[language-family]], [[macrolanguage]], [[iso-639-3]], [[dialect]]
-- **Naming and writing conventions:** [[autonym]], [[orthography]]
-- **Language types and contact:** [[agglutinative-language]], [[lexifier]], [[pidgin]], [[creole]]
-- **Speakers and vitality:** [[l1-speakers]], [[l2-speakers]], [[endangered-language]], [[unesco-endangerment-scale]]
+- **Classification and codes:** [language-family](language-family.md), [macrolanguage](macrolanguage.md), [iso-639-3](iso-639-3.md), [dialect](dialect.md)
+- **Naming and writing conventions:** [autonym](autonym.md), [orthography](orthography.md)
+- **Language types and contact:** [agglutinative-language](agglutinative-language.md), [lexifier](lexifier.md), [pidgin](pidgin.md), [creole](creole.md)
+- **Speakers and vitality:** [l1-speakers](l1-speakers.md), [l2-speakers](l2-speakers.md), [endangered-language](endangered-language.md), [unesco-endangerment-scale](unesco-endangerment-scale.md)
 
 ## Further reading
 - Foundations: [Glottolog](https://glottolog.org/)

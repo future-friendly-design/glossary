@@ -39,7 +39,7 @@ This is where leading actually gets set in the tools you use every day: the CSS 
 In CSS, `line-height: 1.5` on 16px text produces 24px line boxes. In Figma, setting Line height to 150% on 16px text does the same.
 
 ## Also called
-Figma: Line height · CSS: `line-height`. The print-world term for the same idea is [[leading]].
+Figma: Line height · CSS: `line-height`. The print-world term for the same idea is [leading](leading.md).
 
 ## Common mistake
 Treating leading and line height as the same number you can swap freely. They target the same look but measure differently, so a "20px of leading" mental model doesn't map cleanly onto `line-height: 20px`. The other classic trap is CSS-specific: a unitless `line-height: 1.5` scales with the font size, while `line-height: 24px` stays locked at 24 even when the text grows.
@@ -53,7 +53,7 @@ Three connections worth building into a design system:
 In Figma, "Auto" line height varies by typeface, so set an explicit value when you need consistency across fonts. The [MDN line-height page](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) shows how the unit choices behave.
 
 ## Related terms
-[[leading]] · [[vertical-trim]] · [[measure]]
+[leading](leading.md) · [vertical-trim](vertical-trim.md) · [measure](measure.md)
 
 ## Further reading
 - Code & specs: [line-height (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)

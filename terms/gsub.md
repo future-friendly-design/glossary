@@ -22,13 +22,13 @@ license: CC-BY-4.0
 GSUB is the OpenType table that tells a font when to swap one or more glyphs for others.
 
 ## Why it matters
-The Glyph Substitution table stores the rules for replacing glyphs, which covers a lot of typographic behavior: ligatures, small caps, Arabic contextual forms, and Indic glyph rearrangement all live here. A [[shaping-engine]] applies GSUB lookups in the order the [[opentype]] spec defines for each script, and substitution always happens before positioning. Its companion table, [[gpos]], handles where glyphs sit rather than which glyphs are used.
+The Glyph Substitution table stores the rules for replacing glyphs, which covers a lot of typographic behavior: ligatures, small caps, Arabic contextual forms, and Indic glyph rearrangement all live here. A [shaping-engine](shaping-engine.md) applies GSUB lookups in the order the [opentype](opentype.md) spec defines for each script, and substitution always happens before positioning. Its companion table, [gpos](gpos.md), handles where glyphs sit rather than which glyphs are used.
 
 ## Example
-A GSUB rule replaces the glyph sequence f + i with a single fi [[ligature]] glyph.
+A GSUB rule replaces the glyph sequence f + i with a single fi [ligature](ligature.md) glyph.
 
 ## Related terms
-[[gpos]] · [[opentype]] · [[opentype-features]] · [[ligature]] · [[text-shaping]]
+[gpos](gpos.md) · [opentype](opentype.md) · [opentype-features](opentype-features.md) · [ligature](ligature.md) · [text-shaping](text-shaping.md)
 
 ## Further reading
 - Foundations: [GSUB: Glyph Substitution Table (Microsoft)](https://learn.microsoft.com/en-us/typography/opentype/spec/gsub)

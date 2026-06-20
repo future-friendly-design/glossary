@@ -37,15 +37,15 @@ Setting a heading to 700 (bold) makes its strokes noticeably thicker than body t
 Figma: Weight · CSS: `font-weight`. The numeric scale (100 to 900) is the portable way to name a weight across tools.
 
 ## Common mistake
-Asking for a weight the family does not actually ship. If a typeface has no bold cut and you set bold anyway, the tool or browser may fake it (see [[faux-bold]]), which distorts the letters. A second trap: assuming named weights line up across families. One typeface's "Medium" is not guaranteed to match another's, so pin weights to numbers, not names, when consistency matters.
+Asking for a weight the family does not actually ship. If a typeface has no bold cut and you set bold anyway, the tool or browser may fake it (see [faux-bold](faux-bold.md)), which distorts the letters. A second trap: assuming named weights line up across families. One typeface's "Medium" is not guaranteed to match another's, so pin weights to numbers, not names, when consistency matters.
 
 ## In practice
 - **Tokens:** define weights as named tokens that map to numeric values (regular to 400, bold to 700) so the numbers stay the portable source of truth and the names stay readable. Avoid hard-coding a family's idiosyncratic style names.
-- **Variable fonts:** in a [[variable-font]], weight is often a continuous axis, so any value in the supported range is usable, not just the named instances. That is what makes fine-tuned or animated weight possible from a single file.
+- **Variable fonts:** in a [variable-font](variable-font.md), weight is often a continuous axis, so any value in the supported range is usable, not just the named instances. That is what makes fine-tuned or animated weight possible from a single file.
 - **Tools and CSS:** Figma sets weight through the style dropdown, or a Weight axis slider for variable fonts; CSS `font-weight` takes either a keyword or a number. See [font-weight (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight).
 
 ## Related terms
-[[faux-bold]] · [[variable-font]] · [[typeface]]
+[faux-bold](faux-bold.md) · [variable-font](variable-font.md) · [typeface](typeface.md)
 
 ## Further reading
 - Code & specs: [font-weight (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)

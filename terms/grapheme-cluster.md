@@ -25,7 +25,7 @@ license: CC-BY-4.0
 A grapheme cluster is what a reader thinks of as one character, even if it is made of several code points.
 
 ## Why it matters
-Unicode uses this term to sidestep the ambiguity of "character," which in code usually means a single [[code-point]]. A base letter plus its [[combining-mark]]s, or a multi-code-point emoji, counts as one grapheme cluster. The boundary rules are defined in UAX #29, and respecting them is what makes cursor movement, text selection, and "character" counting behave the way users actually expect.
+Unicode uses this term to sidestep the ambiguity of "character," which in code usually means a single [code-point](code-point.md). A base letter plus its [combining-mark](combining-mark.md)s, or a multi-code-point emoji, counts as one grapheme cluster. The boundary rules are defined in UAX #29, and respecting them is what makes cursor movement, text selection, and "character" counting behave the way users actually expect.
 
 ## Example
 "e" plus a combining acute accent displays as "é": one grapheme cluster, but two code points.
@@ -39,7 +39,7 @@ Counting "characters" by code points (or worse, by UTF-16 code units) and callin
 - **Counting and validation:** decide what "one character" means in your spec (usually a grapheme cluster) so the front end, back end, and database all measure the same way instead of each using a different unit.
 
 ## Related terms
-[[character]] · [[code-point]] · [[combining-mark]] · [[normalization]]
+[character](character.md) · [code-point](code-point.md) · [combining-mark](combining-mark.md) · [normalization](normalization.md)
 
 ## Further reading
 - Code & specs: [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter)

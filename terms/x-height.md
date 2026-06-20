@@ -22,7 +22,7 @@ license: CC-BY-4.0
 The x-height is the height of a typeface's lowercase letters without ascenders or descenders.
 
 ## Why it matters
-Named for the lowercase "x," it is the distance from the [[baseline]] to the top of letters like "x," "v," and "z". It does a lot of quiet work: a large x-height makes a typeface look bigger at the same point size and generally reads better at small sizes, though it usually comes with shorter [[ascender]]s and [[descender]]s. It is one of the best quick signals of how a typeface will actually feel in an interface.
+Named for the lowercase "x," it is the distance from the [baseline](baseline.md) to the top of letters like "x," "v," and "z". It does a lot of quiet work: a large x-height makes a typeface look bigger at the same point size and generally reads better at small sizes, though it usually comes with shorter [ascender](ascender.md)s and [descender](descender.md)s. It is one of the best quick signals of how a typeface will actually feel in an interface.
 
 ## Example
 At the same point size, a font with a tall x-height looks larger than one with a small x-height.
@@ -36,7 +36,7 @@ Comparing typefaces by point size alone. Two fonts set at 16px can look noticeab
 - **Pairing:** when combining two typefaces, matching their x-heights (not their point sizes) keeps them looking balanced together.
 
 ## Related terms
-[[cap-height]] · [[baseline]] · [[ascender]] · [[descender]]
+[cap-height](cap-height.md) · [baseline](baseline.md) · [ascender](ascender.md) · [descender](descender.md)
 
 ## Further reading
 - Resource library: [x-height (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/x_height)

@@ -22,13 +22,13 @@ license: CC-BY-4.0
 Unicode is the standard that gives every character in the world's writing systems a unique number.
 
 ## Why it matters
-Maintained by the Unicode Consortium, Unicode defines a code space from U+0000 to U+10FFFF (about 1.1 million possible [[code-point]]s) and assigns characters, their properties, and rules for processing text. The key thing it does, and does not do: it defines characters and code points, not how they are stored as bytes (that is the role of an encoding like [[utf-8]]) and not the shapes they take on screen (that is the role of a font's [[glyph]]s). It is the shared foundation that lets text move between systems, platforms, and languages without falling apart.
+Maintained by the Unicode Consortium, Unicode defines a code space from U+0000 to U+10FFFF (about 1.1 million possible [code-point](code-point.md)s) and assigns characters, their properties, and rules for processing text. The key thing it does, and does not do: it defines characters and code points, not how they are stored as bytes (that is the role of an encoding like [utf-8](utf-8.md)) and not the shapes they take on screen (that is the role of a font's [glyph](glyph.md)s). It is the shared foundation that lets text move between systems, platforms, and languages without falling apart.
 
 ## Example
 Unicode assigns the same code point to "€" whether you type it in Tokyo or Paris.
 
 ## Related terms
-[[code-point]] · [[character-encoding]] · [[utf-8]] · [[plane-bmp]]
+[code-point](code-point.md) · [character-encoding](character-encoding.md) · [utf-8](utf-8.md) · [plane-bmp](plane-bmp.md)
 
 ## Further reading
 - Foundations: [What is Unicode? (unicode.org)](https://www.unicode.org/standard/WhatIsUnicode.html)

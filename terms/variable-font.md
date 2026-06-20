@@ -37,12 +37,12 @@ One variable font file can render Thin, Regular, Bold, and every weight in betwe
 Assuming a variable font is automatically the lighter choice. It bundles many styles into one file, which wins when you actually use several weights or widths. But a single variable file can be larger than one static cut, so if a design only needs Regular and Bold, two static fonts may download less. Decide based on how many styles you really use, not the format alone.
 
 ## In practice
-- **Tokens and CSS:** prefer the high-level properties (`font-weight`, `font-stretch`, `font-style`, `font-optical-sizing`) over raw `font-variation-settings`, so values stay semantic and cascade normally; reserve `font-variation-settings` for custom axes. The weight axis lets [[font-weight]] tokens take any value, not just the named steps. See the [Variable fonts guide (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide).
+- **Tokens and CSS:** prefer the high-level properties (`font-weight`, `font-stretch`, `font-style`, `font-optical-sizing`) over raw `font-variation-settings`, so values stay semantic and cascade normally; reserve `font-variation-settings` for custom axes. The weight axis lets [font-weight](font-weight.md) tokens take any value, not just the named steps. See the [Variable fonts guide (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide).
 - **Performance:** one file covering many weights can cut the number of requests, but weigh that variable file against the few static cuts you would otherwise load before assuming it is smaller.
 - **Tools:** Figma exposes a variable font's axes as sliders, so you can set a custom weight or width directly; confirm the axis values you design with are ones the build can reproduce.
 
 ## Related terms
-[[font-weight]] · [[typeface]] · [[font]] · [[font-subsetting]]
+[font-weight](font-weight.md) · [typeface](typeface.md) · [font](font.md) · [font-subsetting](font-subsetting.md)
 
 ## Further reading
 - Code & specs: [Variable fonts guide (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)

@@ -22,13 +22,13 @@ license: CC-BY-4.0
 A diacritic is a small mark added to a letter to change its pronunciation or meaning.
 
 ## Why it matters
-Placed above, below, or through a letter, diacritics signal things like stress, vowel quality, nasalization, or tone, and they can distinguish otherwise identical words. The encoding twist that matters for software: the same diacritic shape may live as a [[combining-mark]] or as part of a [[precomposed-character]], so "café" can be stored two different ways. That is why handling accented text reliably comes back to [[normalization]].
+Placed above, below, or through a letter, diacritics signal things like stress, vowel quality, nasalization, or tone, and they can distinguish otherwise identical words. The encoding twist that matters for software: the same diacritic shape may live as a [combining-mark](combining-mark.md) or as part of a [precomposed-character](precomposed-character.md), so "café" can be stored two different ways. That is why handling accented text reliably comes back to [normalization](normalization.md).
 
 ## Example
 The cedilla under the "c" in "façade" is a diacritic.
 
 ## Related terms
-[[tone-mark]] · [[combining-mark]] · [[precomposed-character]]
+[tone-mark](tone-mark.md) · [combining-mark](combining-mark.md) · [precomposed-character](precomposed-character.md)
 
 ## Further reading
 - Foundations: [Diacritic (Wikipedia)](https://en.wikipedia.org/wiki/Diacritic)

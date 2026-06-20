@@ -22,13 +22,13 @@ license: CC-BY-4.0
 An autonym is the name a people or language uses for itself, as opposed to a name given by outsiders.
 
 ## Why it matters
-Also called an endonym, an autonym is the self-chosen, native name of a group, place, or language. It contrasts with an exonym, the name used by outsiders. This is a direct, practical respect issue in interface work: a well-internationalized language picker lists each language by its own name, so a speaker recognizes their language at a glance rather than reading an English label for it. The autonyms themselves come from a maintained source like [[cldr|Unicode CLDR]] rather than being translated by hand.
+Also called an endonym, an autonym is the self-chosen, native name of a group, place, or language. It contrasts with an exonym, the name used by outsiders. This is a direct, practical respect issue in interface work: a well-internationalized language picker lists each language by its own name, so a speaker recognizes their language at a glance rather than reading an English label for it. The autonyms themselves come from a maintained source like [Unicode CLDR](cldr.md) rather than being translated by hand.
 
 ## Example
 "Deutsch" is the autonym for the language English speakers call by the exonym "German."
 
 ## Related terms
-[[dialect]] · [[iso-639-3]] · [[localization]] · [[cldr]]
+[dialect](dialect.md) · [iso-639-3](iso-639-3.md) · [localization](localization.md) · [cldr](cldr.md)
 
 ## Further reading
 - Foundations: [Endonym and exonym (Wikipedia)](https://en.wikipedia.org/wiki/Endonym_and_exonym)

@@ -27,11 +27,11 @@ For Latin text it is easy to assume rendering is just "draw each character in or
 ## Key terms
 A guided tour of the shaping and layout terms in this glossary, grouped by what they help you reason about:
 
-- **The shaping pipeline:** [[text-shaping]], [[shaping-engine]], [[complex-text-layout]], [[reordering]]
-- **The OpenType format and its tables:** [[opentype]], [[opentype-features]], [[gsub]], [[gpos]]
-- **Joining and combining glyphs:** [[ligature]], [[conjunct]]
-- **Indic script features:** [[matra]], [[reph]], [[shirorekha]], [[virama]]
-- **Tibetan and vertical stacking:** [[tsheg]], [[stacking-script]]
+- **The shaping pipeline:** [text-shaping](text-shaping.md), [shaping-engine](shaping-engine.md), [complex-text-layout](complex-text-layout.md), [reordering](reordering.md)
+- **The OpenType format and its tables:** [opentype](opentype.md), [opentype-features](opentype-features.md), [gsub](gsub.md), [gpos](gpos.md)
+- **Joining and combining glyphs:** [ligature](ligature.md), [conjunct](conjunct.md)
+- **Indic script features:** [matra](matra.md), [reph](reph.md), [shirorekha](shirorekha.md), [virama](virama.md)
+- **Tibetan and vertical stacking:** [tsheg](tsheg.md), [stacking-script](stacking-script.md)
 
 ## Further reading
 - Foundations: [What is HarfBuzz? (HarfBuzz)](https://harfbuzz.github.io/what-is-harfbuzz.html)

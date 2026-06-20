@@ -28,7 +28,7 @@ Different regions use different layouts so that the most-used letters and accent
 On a French AZERTY layout, the A and Q keys are swapped compared with US QWERTY.
 
 ## Related terms
-[[input-method-editor]] · [[internationalization]] · [[locale]]
+[input-method-editor](input-method-editor.md) · [internationalization](internationalization.md) · [locale](locale.md)
 
 ## Further reading
 - Foundations: [Keyboard layout (Wikipedia)](https://en.wikipedia.org/wiki/Keyboard_layout)

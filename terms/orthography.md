@@ -25,21 +25,21 @@ license: CC-BY-4.0
 Orthography is the set of conventions for writing a language, including its script, spelling, and punctuation rules.
 
 ## Why it matters
-Orthography covers which [[script]] a language uses, how its sounds map to written symbols, and the rules for spelling, capitalization, and punctuation. It is the language-specific layer that sits on top of a script: the script is the toolkit of signs, the orthography is how one language agrees to use them. A single language can have more than one orthography, and orthographies get reformed over time, so the writing conventions for a language are not fixed facts you can hardcode.
+Orthography covers which [script](script.md) a language uses, how its sounds map to written symbols, and the rules for spelling, capitalization, and punctuation. It is the language-specific layer that sits on top of a script: the script is the toolkit of signs, the orthography is how one language agrees to use them. A single language can have more than one orthography, and orthographies get reformed over time, so the writing conventions for a language are not fixed facts you can hardcode.
 
 ## Example
-Serbian can be written in two orthographies, [[cyrillic|Cyrillic]] and [[latin-script|Latin]], for the same language, and many Serbian speakers read both.
+Serbian can be written in two orthographies, [Cyrillic](cyrillic.md) and [Latin](latin-script.md), for the same language, and many Serbian speakers read both.
 
 ## Common mistake
 Collapsing orthography into either "language" or "script" and assuming one implies the other. Picking a font with the right script glyphs does not guarantee the spelling, punctuation, and capitalization rules a particular language expects, and choosing a language code does not tell you which orthography a user wants. Serbian, Kurdish, and others genuinely use more than one.
 
 ## In practice
-- **Treat orthography as configurable, not implied:** where a language has more than one orthography, let the choice be set (a locale variant, a user preference) rather than assuming the script from the language. This connects to [[segmentation]] (word breaking and capitalization rules differ by orthography) and [[input-method-editor|input methods]] (how users type the orthography they want).
+- **Treat orthography as configurable, not implied:** where a language has more than one orthography, let the choice be set (a locale variant, a user preference) rather than assuming the script from the language. This connects to [segmentation](segmentation.md) (word breaking and capitalization rules differ by orthography) and [input methods](input-method-editor.md) (how users type the orthography they want).
 - **Punctuation and casing are orthography, not afterthoughts:** quotation marks, decimal separators, and capitalization conventions vary by language and orthography, so they belong in localization data, not in hardcoded UI strings.
 - **Languages:** which orthographies a language uses, and which is current or preferred, is community-specific and changes over time. Treat it as expert-verified, and confirm specifics with the language cohort.
 
 ## Related terms
-[[dialect]] · [[script]] · [[segmentation]] · [[input-method-editor]] · [[autonym]]
+[dialect](dialect.md) · [script](script.md) · [segmentation](segmentation.md) · [input-method-editor](input-method-editor.md) · [autonym](autonym.md)
 
 ## Further reading
 - Foundations: [Orthography (Wikipedia)](https://en.wikipedia.org/wiki/Orthography)

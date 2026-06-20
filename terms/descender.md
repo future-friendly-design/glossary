@@ -22,13 +22,13 @@ license: CC-BY-4.0
 A descender is the part of a letter that drops below the baseline.
 
 ## Why it matters
-Descenders appear on lowercase letters like g, j, p, q, and y, and on f or z in some designs. The gap between one line's descenders and the next line's [[ascender]]s is a practical guide to comfortable [[line-height]]: when they nearly touch, the lines are too tight. Typefaces with a large [[x-height]] usually have shorter descenders, which again affects how much line spacing the text wants.
+Descenders appear on lowercase letters like g, j, p, q, and y, and on f or z in some designs. The gap between one line's descenders and the next line's [ascender](ascender.md)s is a practical guide to comfortable [line-height](line-height.md): when they nearly touch, the lines are too tight. Typefaces with a large [x-height](x-height.md) usually have shorter descenders, which again affects how much line spacing the text wants.
 
 ## Example
 The tail of a lowercase "y" that hangs below the baseline is its descender.
 
 ## Related terms
-[[ascender]] · [[baseline]] · [[x-height]] · [[leading]]
+[ascender](ascender.md) · [baseline](baseline.md) · [x-height](x-height.md) · [leading](leading.md)
 
 ## Further reading
 - Resource library: [Ascenders & descenders (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/ascenders_descenders)

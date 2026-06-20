@@ -22,13 +22,13 @@ license: CC-BY-4.0
 Thai script is the Brahmic abugida used to write the Thai language, with marks for tones.
 
 ## Why it matters
-The Thai script is an [[abugida]] in the [[brahmic-scripts|Brahmic family]] with 44 consonant letters, numerous vowel symbols, and four [[tone-mark]]s. Consonants carry an inherent vowel, and vowel signs may appear above, below, before, or after the consonant, sometimes in combination, which is real complex text layout. Two details bite interface work in particular: a vowel can be written before the consonant it follows in speech, and Thai is traditionally written without spaces between words, so line breaking depends on dictionary-based word segmentation rather than spaces.
+The Thai script is an [abugida](abugida.md) in the [Brahmic family](brahmic-scripts.md) with 44 consonant letters, numerous vowel symbols, and four [tone-mark](tone-mark.md)s. Consonants carry an inherent vowel, and vowel signs may appear above, below, before, or after the consonant, sometimes in combination, which is real complex text layout. Two details bite interface work in particular: a vowel can be written before the consonant it follows in speech, and Thai is traditionally written without spaces between words, so line breaking depends on dictionary-based word segmentation rather than spaces.
 
 ## Example
 A Thai vowel can be written to the left of the consonant even though it is pronounced after it.
 
 ## Related terms
-[[abugida]] · [[brahmic-scripts]] · [[tibetan-script]] · [[tone-mark]]
+[abugida](abugida.md) · [brahmic-scripts](brahmic-scripts.md) · [tibetan-script](tibetan-script.md) · [tone-mark](tone-mark.md)
 
 ## Further reading
 - Foundations: [Thai script (Wikipedia)](https://en.wikipedia.org/wiki/Thai_script)

@@ -22,13 +22,13 @@ license: CC-BY-4.0
 A matra is a vowel sign in Indic scripts that attaches to a consonant to show its vowel.
 
 ## Why it matters
-In abugida scripts like Devanagari, a consonant carries an inherent vowel and a matra modifies it. Matras can sit to the left, right, above, or below the base consonant. The point that matters most for software: a matra typed after its consonant in logical order may display before it, so the shaper has to move it into the correct visual position. That [[reordering]] is a hallmark of [[complex-text-layout]] and a reason typed order cannot be assumed to equal display order.
+In abugida scripts like Devanagari, a consonant carries an inherent vowel and a matra modifies it. Matras can sit to the left, right, above, or below the base consonant. The point that matters most for software: a matra typed after its consonant in logical order may display before it, so the shaper has to move it into the correct visual position. That [reordering](reordering.md) is a hallmark of [complex-text-layout](complex-text-layout.md) and a reason typed order cannot be assumed to equal display order.
 
 ## Example
 The i-matra in Devanagari "कि" (ki) is typed after क but displays to its left.
 
 ## Related terms
-[[reordering]] · [[conjunct]] · [[reph]] · [[complex-text-layout]]
+[reordering](reordering.md) · [conjunct](conjunct.md) · [reph](reph.md) · [complex-text-layout](complex-text-layout.md)
 
 ## Further reading
 - Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)

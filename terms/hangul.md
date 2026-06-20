@@ -22,13 +22,13 @@ license: CC-BY-4.0
 Hangul is the Korean writing system, a featural alphabet whose letters are grouped into square syllable blocks.
 
 ## Why it matters
-Created under King Sejong in the 1440s, Hangul is a [[featural-alphabet|featural alphabet]]: the shapes of its consonants are designed to suggest the position of the tongue and lips when making each sound. Its letters (around 24 basic ones) are not written in a simple line but combined into square blocks, each block representing one syllable. That blend of [[alphabet|alphabetic]] letters arranged [[syllabary|syllabically]] is what makes Hangul distinctive, and it is why rendering and font design treat the syllable block, not the individual letter, as the unit that has to fit a consistent square.
+Created under King Sejong in the 1440s, Hangul is a [featural alphabet](featural-alphabet.md): the shapes of its consonants are designed to suggest the position of the tongue and lips when making each sound. Its letters (around 24 basic ones) are not written in a simple line but combined into square blocks, each block representing one syllable. That blend of [alphabetic](alphabet.md) letters arranged [syllabically](syllabary.md) is what makes Hangul distinctive, and it is why rendering and font design treat the syllable block, not the individual letter, as the unit that has to fit a consistent square.
 
 ## Example
 The syllable "han" is written as a single square block stacking the letters for h, a, and n.
 
 ## Related terms
-[[featural-alphabet]] · [[alphabet]] · [[cjk]] · [[syllabary]]
+[featural-alphabet](featural-alphabet.md) · [alphabet](alphabet.md) · [cjk](cjk.md) · [syllabary](syllabary.md)
 
 ## Further reading
 - Foundations: [Hangul (Wikipedia)](https://en.wikipedia.org/wiki/Hangul)
