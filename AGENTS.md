@@ -1,23 +1,22 @@
 # Working in this repo with an AI agent
 
 This file is for contributors using an AI coding assistant (Claude Code or similar).
-The human-facing guide is [CONTRIBUTING.md](CONTRIBUTING.md), and it is the source of
-truth for the entry format and how to propose or edit a term. Read it first. The notes
-below are the operational rules an agent most often gets wrong.
+The human-facing guide is [CONTRIBUTING.md](CONTRIBUTING.md), and it is the source of truth for the entry format and how to propose or edit a term.
+Read it first.
+The notes below are the operational rules an agent most often gets wrong.
 
 ## Source of truth
 - Each term is one markdown file under `terms/{slug}.md`; the filename is the slug.
-- `terms/*.md` is the content source of truth. Do not rewrite an entry's meaning to make
-  an unrelated change.
+- `terms/*.md` is the content source of truth.
+  Do not rewrite an entry's meaning to make an unrelated change.
 
 ## Frontmatter must be strict-YAML-safe (the sync depends on it)
-This content publishes through GitBook Git Sync, which parses strictly. One malformed
-file fails the entire sync, not just that page.
-- **Quote any frontmatter value** containing a colon-space (`: `), a leading special
-  character (`@ \` # ! & * | > % ?`), or a wrapping quote. Double quotes, escape interior
-  `"`. The usual culprit is `summary` (prose, often has a colon).
-- **Validate before opening a PR:** every file's frontmatter parses under a strict YAML
-  loader, no `[[` remains in any body, and every `(slug.md)` link resolves to a real file.
+This content publishes through GitBook Git Sync, which parses strictly.
+One malformed file fails the entire sync, not just that page.
+- **Quote any frontmatter value** containing a colon-space (`: `), a leading special character (`@ \` # ! & * | > % ?`), or a wrapping quote.
+  Double quotes, escape interior `"`.
+  The usual culprit is `summary` (prose, often has a colon).
+- **Validate before opening a PR:** every file's frontmatter parses under a strict YAML loader, no `[[` remains in any body, and every `(slug.md)` link resolves to a real file.
   ```bash
   python3 - <<'PY'
   import glob, re, os, yaml
@@ -33,32 +32,30 @@ file fails the entire sync, not just that page.
   ```
 
 ## Links between entries
-- Use relative markdown links, never Obsidian-style `[[wiki-links]]` (GitBook renders
-  those as literal text). Link a sibling entry by filename: `[Display](slug.md)`.
-- In the `Key terms` and `Related terms` lists, use the target entry's display name,
-  e.g. `[Code point](code-point.md)`. In inline prose, use the wording that reads
-  naturally in the sentence, e.g. `the work that makes [localization](localization.md) possible`.
+- Use relative markdown links, never Obsidian-style `[[wiki-links]]` (GitBook renders those as literal text).
+  Link a sibling entry by filename: `[Display](slug.md)`.
+- In the `Key terms` and `Related terms` lists, use the target entry's display name, e.g. `[Code point](code-point.md)`.
+  In inline prose, use the wording that reads naturally in the sentence, e.g. `the work that makes [localization](localization.md) possible`.
 
 ## GitBook syntax (custom blocks)
-Entries are plain markdown today. If you add GitBook custom blocks (hints, tabs, cards,
-content-refs, includes) or touch `.gitbook.yaml` / `SUMMARY.md` config, read `skill.md`
-in the repo root for the correct GitBook-flavored syntax before authoring them.
+Entries are plain markdown today.
+If you add GitBook custom blocks (hints, tabs, cards, content-refs, includes) or touch `.gitbook.yaml` / `SUMMARY.md` config, read `skill.md` in the repo root for the correct GitBook-flavored syntax before authoring them.
 
-> Maintainers: `skill.md` is GitBook's official, maintained syntax reference. Keep a copy
-> committed in the repo root and refresh it from GitBook's docs
-> (https://gitbook.com/docs/creating-content/ai-coding-assistants-and-skillmd) when
-> GitBook ships new block types. Do not hand-write or paraphrase it.
+> Maintainers: `skill.md` is GitBook's official, maintained syntax reference.
+> Keep a copy committed in the repo root and refresh it from GitBook's docs (https://gitbook.com/docs/creating-content/ai-coding-assistants-and-skillmd) when GitBook ships new block types.
+> Do not hand-write or paraphrase it.
 
 ## Accuracy and honesty
-- Verify every fact and URL against a primary source before adding it. Prefer Unicode,
-  W3C, MDN, type foundries, and recognized references over aggregators.
-- If something is uncertain or data-sensitive (speaker counts, endangerment status,
-  contested classifications), state the concept plainly and flag it with an
-  `<!-- NEEDS EXPERT REVIEW: ... -->` comment rather than asserting a shaky fact.
-- Do not attribute a characterization to a named authority unless you have seen that
-  authority say it. Otherwise state the property plainly and flag it.
-- This is a v0.1 draft under expert review. Do not mark an entry as expert-reviewed or
-  published; that is a human decision.
+- Verify every fact and URL against a primary source before adding it.
+  Prefer Unicode, W3C, MDN, type foundries, and recognized references over aggregators.
+- If something is uncertain or data-sensitive (speaker counts, endangerment status, contested classifications), state the concept plainly and flag it with an `<!-- NEEDS EXPERT REVIEW: ... -->` comment rather than asserting a shaky fact.
+- Do not attribute a characterization to a named authority unless you have seen that authority say it.
+  Otherwise state the property plainly and flag it.
+- This is a v0.1 draft under expert review.
+  Do not mark an entry as expert-reviewed or published; that is a human decision.
+
+## Prose wrapping
+Docs in this repo use semantic line breaks (one sentence per line); see [adr-decisions/0006](adr-decisions/0006-semantic-line-breaks-in-docs.md).
 
 ## No em dashes
 Use commas, semicolons, colons, or periods.
