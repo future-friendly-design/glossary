@@ -4,7 +4,7 @@
 * [Contributing](CONTRIBUTING.md)
 * [Changelog](CHANGELOG.md)
 
-## Typography
+## Browse by topic
 
 * [Typography](terms/typography.md)
   * [Typeface](terms/typeface.md)
@@ -32,9 +32,6 @@
   * [Font coverage](terms/font-coverage.md)
   * [Full-width](terms/full-width.md)
   * [Tategaki](terms/tategaki.md)
-
-## Characters, encoding & text model
-
 * [Characters, encoding & text model](terms/characters-encoding.md)
   * [Character](terms/character.md)
   * [Glyph](terms/glyph.md)
@@ -54,9 +51,6 @@
   * [Bidirectional text](terms/bidirectional-text.md)
   * [Text direction](terms/text-direction.md)
   * [Tofu](terms/tofu.md)
-
-## Shaping & layout
-
 * [Shaping & layout](terms/shaping-layout.md)
   * [Text shaping](terms/text-shaping.md)
   * [Shaping engine](terms/shaping-engine.md)
@@ -74,9 +68,6 @@
   * [Virama](terms/virama.md)
   * [Tsheg](terms/tsheg.md)
   * [Stacking script](terms/stacking-script.md)
-
-## Internationalization & engineering
-
 * [Internationalization & engineering](terms/i18n-engineering.md)
   * [Internationalization](terms/internationalization.md)
   * [Localization](terms/localization.md)
@@ -89,9 +80,6 @@
   * [Pseudolocalization](terms/pseudolocalization.md)
   * [Input method editor (IME)](terms/input-method-editor.md)
   * [Keyboard layout](terms/keyboard-layout.md)
-
-## Reference sources
-
 * [Reference sources](terms/reference-sources.md)
   * [Ethnologue](terms/ethnologue.md)
   * [Glottolog](terms/glottolog.md)
@@ -99,9 +87,6 @@
   * [Unicode Standard](terms/unicode-standard.md)
   * [Noto fonts](terms/noto-fonts.md)
   * [SIL](terms/sil.md)
-
-## Writing systems & scripts
-
 * [Writing systems & scripts](terms/writing-systems-scripts.md)
   * [Script](terms/script.md)
   * [Alphabet](terms/alphabet.md)
@@ -128,9 +113,6 @@
   * [Wancho script](terms/wancho-script.md)
   * [Syloti Nagri](terms/syloti-nagri.md)
   * [Canadian Aboriginal Syllabics](terms/canadian-aboriginal-syllabics.md)
-
-## Language & linguistics
-
 * [Language & linguistics](terms/language-linguistics.md)
   * [Language family](terms/language-family.md)
   * [Macrolanguage](terms/macrolanguage.md)
