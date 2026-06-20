@@ -55,5 +55,9 @@ for the entry format and how to propose or edit a term.
 
 ## License
 
-Content is licensed under [Creative Commons Attribution 4.0 International](LICENSE)
-(CC BY 4.0). © 2026 Future Friendly Designs Inc.
+© 2026 Future Friendly Designs Inc. This work is licensed under
+[Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0). To view a copy
+of this license, visit https://creativecommons.org/licenses/by/4.0/
+
+You are free to share and adapt the material, including commercially, as long as you
+give appropriate credit.
