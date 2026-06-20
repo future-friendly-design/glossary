@@ -1,0 +1,15 @@
+# Internal process artifacts — kept local, never published.
+# Drafts, agent handoff notes, and setup prompts that may contain
+# internal IDs or unverified content.
+from-cowork-jun-18/
+glossary-canonical-entry-format.md
+agent-authoring-handoff.md
+agent-progress-handover.md
+cowork-airtable-setup-prompt.md
+glossary-project-brief.md
+glossary-entry-standard.md
+glossary-setup-guide.md
+pilot-5-terms.md
+
+# macOS
+.DS_Store
