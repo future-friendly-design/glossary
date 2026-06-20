@@ -17,7 +17,8 @@ The filename is the term's **slug** (lowercase, hyphenated): `line-height.md`, `
 The slug is permanent, so it can be linked to as a stable address.
 One concept, one file.
 
-A term belongs to one or more of seven categories (typography; characters & encoding; shaping & layout; internationalization; reference sources; writing systems & scripts; language & linguistics).
+A term belongs to one or more categories.
+This release covers seven (typography; characters & encoding; shaping & layout; internationalization; reference sources; writing systems & scripts; language & linguistics), and the set will expand as the glossary grows into a broader design-system reference.
 Each category also has an **overview** entry that introduces the area and links its member terms.
 
 ## Entry format

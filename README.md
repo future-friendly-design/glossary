@@ -1,7 +1,10 @@
 # Future Friendly Glossary
 
-An open, multilingual glossary of design and type terminology: typography, characters and encoding, text shaping and layout, internationalization, writing systems and scripts, and language and linguistics.
-Every term is a self-contained, plain-language definition written for designers and developers, with the connections that make it useful in real product work.
+An open glossary for design systems: clear, reusable definitions of the terms designers and developers reach for in real product work.
+Every term is a self-contained, plain-language definition, with the connections that make it useful in practice.
+
+This first release covers typography and the multilingual text, script, and language terminology behind it (the seven categories below).
+The glossary is built to grow into a broader design-system reference over time.
 
 Licensed under [CC BY 4.0](LICENSE).
 You are free to share and adapt the material, including commercially, as long as you give appropriate credit.
@@ -24,7 +27,7 @@ You are free to share and adapt the material, including commercially, as long as
 Each entry carries machine-readable frontmatter (term, slug, tags, related terms, sources, status) followed by a body with a fixed set of sections.
 Terms are linked to one another through `related` and `tags`, both of which point to other defined terms, so the glossary forms a connected graph rather than a flat list.
 
-The 7 categories:
+The categories in this release:
 
 1. Typography
 2. Characters, encoding & text model
