@@ -24,6 +24,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Variable font
+
 ## Definition
 A variable font is a single font file that can produce many styles by adjusting continuous sliders called axes.
 

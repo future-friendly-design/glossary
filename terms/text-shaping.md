@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Text shaping
+
 ## Definition
 Text shaping turns a string of characters into the exact glyphs and positions a font should draw.
 

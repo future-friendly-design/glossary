@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Latin script
+
 ## Definition
 The Latin script is the alphabet used for English and most Western European languages and is the world's most widely used writing system.
 

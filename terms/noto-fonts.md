@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Noto fonts
+
 ## Definition
 Noto is Google's free font family that aims to cover every writing system in Unicode so no character shows up as a blank box.
 

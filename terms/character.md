@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Character
+
 ## Definition
 A character is the smallest meaningful unit of written text, like a letter, digit, or punctuation mark.
 

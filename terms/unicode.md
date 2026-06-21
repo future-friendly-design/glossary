@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Unicode
+
 ## Definition
 Unicode is the standard that gives every character in the world's writing systems a unique number.
 

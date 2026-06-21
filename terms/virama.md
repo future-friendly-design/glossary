@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Virama
+
 ## Definition
 A virama is a mark in Brahmic scripts that cancels the vowel sound built into a consonant.
 

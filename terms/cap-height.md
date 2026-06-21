@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Cap height
+
 ## Definition
 Cap height is the distance from the baseline to the top of the uppercase letters.
 

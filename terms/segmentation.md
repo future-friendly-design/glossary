@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Segmentation
+
 ## Definition
 Segmentation is the process of dividing text into meaningful units such as characters, words, or sentences.
 

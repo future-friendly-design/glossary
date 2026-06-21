@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Collation
+
 ## Definition
 Collation is the rules that determine the correct order for sorting and comparing text in a given language.
 

@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Glyph
+
 ## Definition
 A glyph is the specific visual shape a font draws for a character.
 

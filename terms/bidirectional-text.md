@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Bidirectional text
+
 ## Definition
 Bidirectional text mixes left-to-right and right-to-left scripts in the same line.
 

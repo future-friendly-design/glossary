@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Baseline
+
 ## Definition
 The baseline is the invisible line that most letters sit on.
 

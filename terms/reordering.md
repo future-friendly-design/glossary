@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Reordering
+
 ## Definition
 Reordering is when a shaping engine changes the display order of characters relative to how they were typed.
 

@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Typography
+
 ## Definition
 Typography is the craft of arranging type, choosing typefaces and setting the size, spacing, and alignment of text so it is readable, usable, and right for its purpose.
 

@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Ligature
+
 ## Definition
 A ligature is a single glyph that replaces two or more letters to avoid collisions or for style.
 

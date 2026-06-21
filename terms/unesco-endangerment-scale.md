@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# UNESCO endangerment scale
+
 ## Definition
 The UNESCO endangerment scale rates how threatened a language is, from safe through several risk levels to extinct.
 

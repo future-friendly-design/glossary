@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Wancho script
+
 ## Definition
 The Wancho script is an alphabet created in the 2000s by Banwang Losu for the Wancho language of Arunachal Pradesh, India.
 

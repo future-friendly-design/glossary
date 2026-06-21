@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# L1 speakers
+
 ## Definition
 L1 speakers are people who learned a language as their first or native language, usually in childhood.
 

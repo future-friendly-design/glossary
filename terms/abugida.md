@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Abugida
+
 ## Definition
 An abugida is a script where each consonant carries a built-in vowel that is changed by adding marks.
 

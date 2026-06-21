@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Precomposed character
+
 ## Definition
 A precomposed character is a single code point for a letter-plus-accent combination that could also be built from separate pieces.
 

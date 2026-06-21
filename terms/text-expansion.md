@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Text expansion
+
 ## Definition
 Text expansion is the tendency for translated text to take up more space than the original, which can break layouts.
 

@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Text direction
+
 ## Definition
 Text direction is the way a script flows, such as left-to-right or right-to-left.
 

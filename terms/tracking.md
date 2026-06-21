@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Tracking
+
 ## Definition
 Tracking is uniform spacing applied evenly across a run of letters, words, or a whole block of text.
 

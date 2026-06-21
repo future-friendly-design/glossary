@@ -29,6 +29,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Line height
+
 ## Definition
 Line height is the property in CSS and design tools that sets the total vertical space a line of text occupies, including the text itself.
 

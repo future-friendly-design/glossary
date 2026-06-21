@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# UTF-16
+
 ## Definition
 UTF-16 stores Unicode text in 16-bit units, using one unit for common characters and two for the rest.
 

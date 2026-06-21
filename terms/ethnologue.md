@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Ethnologue
+
 ## Definition
 Ethnologue is a comprehensive reference catalogue of the world's living languages, with data on speakers, locations, and classification.
 

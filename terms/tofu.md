@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Tofu
+
 ## Definition
 Tofu is the empty box shown when no available font has a glyph for a character.
 

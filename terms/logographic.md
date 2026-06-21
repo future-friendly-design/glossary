@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Logographic
+
 ## Definition
 A logographic script uses symbols that stand for whole words or meaningful units rather than for sounds alone.
 

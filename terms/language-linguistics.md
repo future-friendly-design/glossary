@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Language & linguistics
+
 ## Definition
 Language and linguistics terms are the vocabulary for talking about languages themselves: how they are classified and coded, how they vary, who speaks them, and how threatened they are.
 

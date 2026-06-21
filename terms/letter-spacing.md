@@ -27,6 +27,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Letter spacing
+
 ## Definition
 Letter spacing is the design-tool and CSS control that adds or removes uniform space between every character in a run of text.
 

@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Small caps
+
 ## Definition
 Small caps are uppercase letter shapes drawn at roughly the height of lowercase letters.
 

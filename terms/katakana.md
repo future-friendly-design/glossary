@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Katakana
+
 ## Definition
 Katakana is the angular Japanese syllabary used mainly for foreign loanwords and emphasis.
 

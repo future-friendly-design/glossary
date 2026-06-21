@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# L2 speakers
+
 ## Definition
 L2 speakers are people who use a language as a second (or additional) language rather than their native one.
 

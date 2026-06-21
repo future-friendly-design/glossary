@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Macrolanguage
+
 ## Definition
 A macrolanguage is an ISO 639-3 code that covers several closely related individual languages treated as one language identity in some contexts.
 

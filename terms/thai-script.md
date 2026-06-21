@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Thai script
+
 ## Definition
 Thai script is the Brahmic abugida used to write the Thai language, with marks for tones.
 

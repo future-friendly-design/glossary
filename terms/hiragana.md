@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Hiragana
+
 ## Definition
 Hiragana is one of the two Japanese syllabaries, used for native words and grammatical endings.
 

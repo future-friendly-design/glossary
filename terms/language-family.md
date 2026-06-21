@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Language family
+
 ## Definition
 A language family is a group of languages that all descend from a single common ancestor language.
 

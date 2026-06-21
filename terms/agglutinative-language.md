@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Agglutinative language
+
 ## Definition
 An agglutinative language builds words by stringing together many separate prefixes and suffixes, each carrying one clear piece of meaning.
 

@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# GSUB
+
 ## Definition
 GSUB is the OpenType table that tells a font when to swap one or more glyphs for others.
 

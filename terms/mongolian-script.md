@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Mongolian script (traditional)
+
 ## Definition
 The traditional Mongolian script is a vertical, cursive alphabet written in columns from top to bottom and left to right.
 

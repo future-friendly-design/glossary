@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Locale
+
 ## Definition
 A locale is a set of regional preferences (language plus country and conventions) that software uses to format text correctly.
 

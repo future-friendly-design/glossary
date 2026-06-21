@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Unicode Standard
+
 ## Definition
 The Unicode Standard is the universal character encoding standard that assigns every character in the world's writing systems a unique code so text displays consistently across devices.
 

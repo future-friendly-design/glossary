@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Alphabet
+
 ## Definition
 An alphabet is a script with separate letters for both consonants and vowels.
 

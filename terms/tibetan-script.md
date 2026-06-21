@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Tibetan script
+
 ## Definition
 Tibetan script is the Brahmic abugida used for Tibetan and related languages such as Dzongkha and Ladakhi.
 

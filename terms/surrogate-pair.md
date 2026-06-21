@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Surrogate pair
+
 ## Definition
 A surrogate pair is two UTF-16 code units used together to represent a character beyond the Basic Multilingual Plane.
 

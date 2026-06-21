@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Canadian Aboriginal Syllabics
+
 ## Definition
 Canadian Aboriginal Syllabics is a family of writing systems that uses rotating geometric symbols to write several Indigenous languages of Canada.
 

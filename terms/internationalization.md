@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Internationalization
+
 ## Definition
 Internationalization is designing and building software so it can be adapted to different languages and regions without re-engineering it later.
 

@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Plane / Basic Multilingual Plane
+
 ## Definition
 A plane is a block of 65,536 Unicode code points; the Basic Multilingual Plane is the first one, holding most common characters.
 

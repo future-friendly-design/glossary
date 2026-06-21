@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# OpenType
+
 ## Definition
 OpenType is the modern, cross-platform font file format that supports advanced typography and large character sets.
 

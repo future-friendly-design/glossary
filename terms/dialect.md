@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Dialect
+
 ## Definition
 A dialect is a regional or social variety of a language with its own distinctive words, pronunciation, or grammar.
 

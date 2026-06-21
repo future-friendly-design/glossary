@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Hangul
+
 ## Definition
 Hangul is the Korean writing system, a featural alphabet whose letters are grouped into square syllable blocks.
 

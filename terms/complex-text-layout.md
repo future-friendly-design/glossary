@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Complex text layout
+
 ## Definition
 Complex text layout is rendering scripts where glyph shape, order, or position depends on surrounding characters rather than a simple left-to-right line.
 

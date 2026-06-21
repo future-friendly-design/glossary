@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Featural alphabet
+
 ## Definition
 A featural alphabet is a script whose letter shapes are built to reflect the physical features of the sounds they represent.
 

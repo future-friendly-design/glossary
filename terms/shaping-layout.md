@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Shaping & layout
+
 ## Definition
 Shaping and layout are how a string of characters becomes correctly formed, ordered, and positioned glyphs on the line, the work a font and shaping engine do beyond simply placing one letter after another.
 

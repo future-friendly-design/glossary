@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Leading
+
 ## Definition
 Leading is the vertical space between lines of text, measured from one baseline to the next.
 

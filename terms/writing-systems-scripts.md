@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Writing systems & scripts
+
 ## Definition
 Writing systems and scripts are the sets of visual signs, and the rules for combining them, that record the world's languages in visible form.
 

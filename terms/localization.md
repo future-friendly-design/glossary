@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Localization
+
 ## Definition
 Localization is adapting an already-internationalized product to a specific language and region, including translation and local conventions.
 

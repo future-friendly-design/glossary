@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Full-width
+
 ## Definition
 Full-width characters occupy one full em square, the same width as a typical CJK character, unlike narrower half-width forms.
 

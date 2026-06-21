@@ -24,6 +24,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Font weight
+
 ## Definition
 Font weight is the thickness of a typeface's strokes, ranging from very thin to very heavy.
 

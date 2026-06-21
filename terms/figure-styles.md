@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Figure styles
+
 ## Definition
 Figure styles are the different designs a font offers for numerals, such as lining vs oldstyle and tabular vs proportional.
 

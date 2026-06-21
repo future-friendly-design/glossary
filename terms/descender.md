@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Descender
+
 ## Definition
 A descender is the part of a letter that drops below the baseline.
 

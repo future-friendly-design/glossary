@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# SIL
+
 ## Definition
 SIL refers to a set of free, broadly multilingual fonts from SIL Global designed to support minority and lesser-resourced languages.
 

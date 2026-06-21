@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Font coverage
+
 ## Definition
 Font coverage is the set of characters and languages a font can actually render.
 

@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Kerning
+
 ## Definition
 Kerning is the adjustment of space between two specific letters so their pairing looks evenly balanced.
 

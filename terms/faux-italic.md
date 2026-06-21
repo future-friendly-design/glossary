@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Faux italic
+
 ## Definition
 Faux italic is a fake slant created by tilting a regular font's glyphs rather than using a real italic design.
 

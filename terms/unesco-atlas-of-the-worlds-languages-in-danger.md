@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# UNESCO Atlas of the World's Languages in Danger
+
 ## Definition
 A UNESCO reference that maps endangered languages and rates how close each is to disappearing.
 

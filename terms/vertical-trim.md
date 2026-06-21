@@ -24,6 +24,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Vertical trim
+
 ## Definition
 Vertical trim removes the extra space a font reserves above and below its letters so text aligns to cap height and baseline.
 

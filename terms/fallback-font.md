@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Fallback font
+
 ## Definition
 A fallback font is the next font a system uses when the preferred one is unavailable or missing a needed character.
 

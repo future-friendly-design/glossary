@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Glottolog
+
 ## Definition
 Glottolog is a free online catalogue of the world's languages, families, and dialects, each given a stable identifier called a glottocode.
 

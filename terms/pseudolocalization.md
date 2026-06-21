@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Pseudolocalization
+
 ## Definition
 Pseudolocalization is a testing technique that fakes a translation to catch internationalization bugs before real translation begins.
 

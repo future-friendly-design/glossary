@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Font subsetting
+
 ## Definition
 Font subsetting reduces a font file's size by keeping only the characters a page actually needs.
 

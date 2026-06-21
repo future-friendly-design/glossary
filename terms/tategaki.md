@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Tategaki
+
 ## Definition
 Tategaki is vertical writing, set top to bottom with columns running right to left, traditional in Japanese and other East Asian scripts.
 

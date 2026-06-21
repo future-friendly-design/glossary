@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Combining mark
+
 ## Definition
 A combining mark is a code point that attaches to the preceding character, such as an accent.
 

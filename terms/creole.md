@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Creole
+
 ## Definition
 A creole is a stable, full natural language that developed from a mixture of languages and became the native language of a community.
 

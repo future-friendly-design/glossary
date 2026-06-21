@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# x-height
+
 ## Definition
 The x-height is the height of a typeface's lowercase letters without ascenders or descenders.
 

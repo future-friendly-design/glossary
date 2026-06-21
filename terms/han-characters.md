@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Han characters
+
 ## Definition
 Han characters are the logographic Chinese-origin symbols used in Chinese and, in part, in Japanese and Korean writing.
 

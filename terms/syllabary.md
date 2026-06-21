@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Syllabary
+
 ## Definition
 A syllabary is a script where each symbol stands for a whole syllable rather than a single sound.
 

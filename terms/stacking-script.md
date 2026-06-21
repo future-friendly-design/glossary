@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Stacking script
+
 ## Definition
 A stacking script is one where consonants pile up vertically to form a cluster, as in Tibetan and many Indic scripts.
 

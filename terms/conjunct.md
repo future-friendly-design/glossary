@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Conjunct
+
 ## Definition
 A conjunct is a combined consonant cluster glyph in Indic scripts, formed when consonants join without a vowel between them.
 

@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Code point
+
 ## Definition
 A code point is the number Unicode assigns to a character.
 

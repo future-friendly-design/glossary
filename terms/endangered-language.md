@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Endangered language
+
 ## Definition
 An endangered language is one at risk of falling out of use because it is not being passed on to younger generations.
 

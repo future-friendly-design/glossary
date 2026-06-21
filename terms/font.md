@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Font
+
 ## Definition
 A font is a specific style and weight of a typeface, today usually delivered as a digital file.
 

@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# CJK
+
 ## Definition
 CJK is shorthand for the shared Chinese, Japanese, and Korean characters handled together in computing and typography.
 

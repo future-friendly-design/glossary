@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Normalization
+
 ## Definition
 Normalization rewrites text into a consistent form so that strings that look the same compare as equal.
 

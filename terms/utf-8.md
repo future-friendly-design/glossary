@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# UTF-8
+
 ## Definition
 UTF-8 is the most common way to store Unicode text, using one to four bytes per character.
 

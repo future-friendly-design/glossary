@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Input method editor (IME)
+
 ## Definition
 An input method editor is software that lets users type characters that are not directly available on their keyboard, such as Chinese or Japanese.
 

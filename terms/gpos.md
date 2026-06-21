@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# GPOS
+
 ## Definition
 GPOS is the OpenType table that tells a font how to position glyphs, such as kerning and accent placement.
 

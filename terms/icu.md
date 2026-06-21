@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# ICU
+
 ## Definition
 ICU is a widely used software library that provides ready-made tools for Unicode handling and internationalization.
 

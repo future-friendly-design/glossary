@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Pidgin
+
 ## Definition
 A pidgin is a simplified contact language that develops so speakers of different languages can communicate, and that nobody speaks as a native language.
 

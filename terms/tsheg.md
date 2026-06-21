@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Tsheg
+
 ## Definition
 The tsheg is a small dot used in Tibetan script to separate syllables.
 

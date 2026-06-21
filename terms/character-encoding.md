@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Character encoding
+
 ## Definition
 A character encoding is the rule for turning characters into bytes and back again.
 

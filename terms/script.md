@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Script
+
 ## Definition
 A script is the set of visual symbols and rules used to write one or more languages.
 

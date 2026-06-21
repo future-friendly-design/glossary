@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Lexifier
+
 ## Definition
 A lexifier is the language that supplies most of the vocabulary for a pidgin or creole.
 

@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Diacritic
+
 ## Definition
 A diacritic is a small mark added to a letter to change its pronunciation or meaning.
 

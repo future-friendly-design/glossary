@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Grapheme cluster
+
 ## Definition
 A grapheme cluster is what a reader thinks of as one character, even if it is made of several code points.
 

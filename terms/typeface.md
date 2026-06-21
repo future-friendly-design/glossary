@@ -21,6 +21,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Typeface
+
 ## Definition
 A typeface is the overall design of a set of letters, numbers, and symbols that share a common visual style.
 

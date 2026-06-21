@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Ascender
+
 ## Definition
 An ascender is the part of a lowercase letter that rises above the x-height.
 

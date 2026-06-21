@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Shaping engine
+
 ## Definition
 A shaping engine is the software that performs text shaping; HarfBuzz is the most widely used one.
 

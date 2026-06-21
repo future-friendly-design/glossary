@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Faux bold
+
 ## Definition
 Faux bold is fake boldness made by thickening a regular font's strokes instead of using a real bold design.
 
