@@ -153,3 +153,7 @@
   * [Warang Citi](terms/warang-citi.md)
 * X
   * [x-height](terms/x-height.md)
+
+## Sandbox (temporary)
+
+* [Typography layout test](sandbox/test-typography.md)
