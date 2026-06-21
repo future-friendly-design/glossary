@@ -18,6 +18,8 @@ further_reading:
 license: CC-BY-4.0
 ---
 
+# Abjad
+
 ## Definition
 An abjad is a script in which each letter represents a consonant and vowels are usually left unwritten.
 
