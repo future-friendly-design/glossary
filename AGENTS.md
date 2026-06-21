@@ -43,7 +43,8 @@ If you add GitBook custom blocks (hints, tabs, cards, content-refs, includes) or
 
 > Maintainers: `skill.md` is GitBook's official, maintained syntax reference.
 > Keep a copy committed in the repo root and refresh it from GitBook's docs (https://gitbook.com/docs/creating-content/ai-coding-assistants-and-skillmd) when GitBook ships new block types.
-> Do not hand-write or paraphrase it.
+> Do not hand-write or paraphrase it; the file stays verbatim, so this note carries the date instead.
+> Last refreshed: 2026-06-20.
 
 ## Accuracy and honesty
 - Verify every fact and URL against a primary source before adding it.
