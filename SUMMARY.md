@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Contributing](CONTRIBUTING.md)
@@ -16,19 +16,19 @@
 
 ## Browse all terms
 
-* A
+* [A](browse-all-terms/a/README.md)
   * [Abjad](terms/abjad.md)
   * [Abugida](terms/abugida.md)
   * [Agglutinative language](terms/agglutinative-language.md)
   * [Alphabet](terms/alphabet.md)
   * [Ascender](terms/ascender.md)
   * [Autonym](terms/autonym.md)
-* B
+* [B](browse-all-terms/b/README.md)
   * [Baseline](terms/baseline.md)
   * [Bengali-Assamese](terms/bengali-assamese.md)
   * [Bidirectional text](terms/bidirectional-text.md)
   * [Brahmic scripts](terms/brahmic-scripts.md)
-* C
+* [C](browse-all-terms/c/README.md)
   * [Canadian Aboriginal Syllabics](terms/canadian-aboriginal-syllabics.md)
   * [Cap height](terms/cap-height.md)
   * [Character](terms/character.md)
@@ -42,15 +42,15 @@
   * [Conjunct](terms/conjunct.md)
   * [Creole](terms/creole.md)
   * [Cyrillic](terms/cyrillic.md)
-* D
+* [D](browse-all-terms/d/README.md)
   * [Descender](terms/descender.md)
   * [Devanagari](terms/devanagari.md)
   * [Diacritic](terms/diacritic.md)
   * [Dialect](terms/dialect.md)
-* E
+* [E](browse-all-terms/e/README.md)
   * [Endangered language](terms/endangered-language.md)
   * [Ethnologue](terms/ethnologue.md)
-* F
+* [F](browse-all-terms/f/README.md)
   * [Fallback font](terms/fallback-font.md)
   * [Faux bold](terms/faux-bold.md)
   * [Faux italic](terms/faux-italic.md)
@@ -61,26 +61,26 @@
   * [Font subsetting](terms/font-subsetting.md)
   * [Font weight](terms/font-weight.md)
   * [Full-width](terms/full-width.md)
-* G
+* [G](browse-all-terms/g/README.md)
   * [Glottolog](terms/glottolog.md)
   * [Glyph](terms/glyph.md)
   * [GPOS](terms/gpos.md)
   * [Grapheme cluster](terms/grapheme-cluster.md)
   * [GSUB](terms/gsub.md)
-* H
+* [H](browse-all-terms/h/README.md)
   * [Han characters](terms/han-characters.md)
   * [Hangul](terms/hangul.md)
   * [Hiragana](terms/hiragana.md)
-* I
+* [I](browse-all-terms/i/README.md)
   * [ICU](terms/icu.md)
   * [Input method editor (IME)](terms/input-method-editor.md)
   * [Internationalization](terms/internationalization.md)
   * [ISO 639-3](terms/iso-639-3.md)
-* K
+* [K](browse-all-terms/k/README.md)
   * [Katakana](terms/katakana.md)
   * [Kerning](terms/kerning.md)
   * [Keyboard layout](terms/keyboard-layout.md)
-* L
+* [L](browse-all-terms/l/README.md)
   * [L1 speakers](terms/l1-speakers.md)
   * [L2 speakers](terms/l2-speakers.md)
   * [Language family](terms/language-family.md)
@@ -93,28 +93,28 @@
   * [Locale](terms/locale.md)
   * [Localization](terms/localization.md)
   * [Logographic](terms/logographic.md)
-* M
+* [M](browse-all-terms/m/README.md)
   * [Macrolanguage](terms/macrolanguage.md)
   * [Matra](terms/matra.md)
   * [Measure](terms/measure.md)
   * [Mongolian script (traditional)](terms/mongolian-script.md)
-* N
+* [N](browse-all-terms/n/README.md)
   * [Normalization](terms/normalization.md)
   * [Noto fonts](terms/noto-fonts.md)
-* O
+* [O](browse-all-terms/o/README.md)
   * [Ol Chiki](terms/ol-chiki.md)
   * [OpenType](terms/opentype.md)
   * [OpenType features](terms/opentype-features.md)
   * [Orthography](terms/orthography.md)
-* P
+* [P](browse-all-terms/p/README.md)
   * [Pidgin](terms/pidgin.md)
   * [Plane / Basic Multilingual Plane](terms/plane-bmp.md)
   * [Precomposed character](terms/precomposed-character.md)
   * [Pseudolocalization](terms/pseudolocalization.md)
-* R
+* [R](browse-all-terms/r/README.md)
   * [Reordering](terms/reordering.md)
   * [Reph](terms/reph.md)
-* S
+* [S](browse-all-terms/s/README.md)
   * [Script](terms/script.md)
   * [Segmentation](terms/segmentation.md)
   * [Shaping engine](terms/shaping-engine.md)
@@ -125,7 +125,7 @@
   * [Surrogate pair](terms/surrogate-pair.md)
   * [Syllabary](terms/syllabary.md)
   * [Syloti Nagri](terms/syloti-nagri.md)
-* T
+* [T](browse-all-terms/t/README.md)
   * [Tategaki](terms/tategaki.md)
   * [Text direction](terms/text-direction.md)
   * [Text expansion](terms/text-expansion.md)
@@ -137,21 +137,21 @@
   * [Tracking](terms/tracking.md)
   * [Tsheg](terms/tsheg.md)
   * [Typeface](terms/typeface.md)
-* U
+* [U](browse-all-terms/u/README.md)
   * [UNESCO Atlas of the World's Languages in Danger](terms/unesco-atlas-of-the-worlds-languages-in-danger.md)
   * [UNESCO endangerment scale](terms/unesco-endangerment-scale.md)
   * [Unicode](terms/unicode.md)
   * [Unicode Standard](terms/unicode-standard.md)
   * [UTF-16](terms/utf-16.md)
   * [UTF-8](terms/utf-8.md)
-* V
+* [V](browse-all-terms/v/README.md)
   * [Variable font](terms/variable-font.md)
   * [Vertical trim](terms/vertical-trim.md)
   * [Virama](terms/virama.md)
-* W
+* [W](browse-all-terms/w/README.md)
   * [Wancho script](terms/wancho-script.md)
   * [Warang Citi](terms/warang-citi.md)
-* X
+* [X](browse-all-terms/x/README.md)
   * [x-height](terms/x-height.md)
 
 ## Sandbox (temporary)
