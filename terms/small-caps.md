@@ -38,7 +38,7 @@ Letting an app fake them. Faux small caps, made by just shrinking the capitals, 
 ## In practice
 - **Tools and CSS:** set `font-variant-caps: small-caps` (the OpenType `smcp` feature) and confirm the font genuinely includes small caps, or the browser will fake them. See [font-variant-caps (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps).
 - **Type styles:** bake small caps into a dedicated type style for the place you use them (acronyms, labels, legal lines) rather than applying them ad hoc, and add a touch of letterspacing, which small caps usually want.
-- **Languages:** small caps are a cased-script idea (Latin, Greek, Cyrillic). Scripts without an uppercase/lowercase distinction, like Arabic, Hebrew, and CJK, have no small caps, so do not apply the styling to them.
+- **Languages:** small caps are a cased-script idea (Latin, Greek, Cyrillic). Scripts without an uppercase/lowercase distinction, like [Arabic](arabic-script.md), [Hebrew](hebrew-script.md), and CJK, have no small caps, so do not apply the styling to them.
 
 ## Related terms
 [Figure styles](figure-styles.md) · [x-height](x-height.md) · [Faux bold](faux-bold.md)

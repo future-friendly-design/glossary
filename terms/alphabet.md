@@ -24,7 +24,7 @@ license: CC-BY-4.0
 An alphabet is a script with separate letters for both consonants and vowels.
 
 ## Why it matters
-In an alphabet, individual letters stand for individual sounds, and both consonants and vowels get their own distinct letters written in sequence. This is the structure most familiar to Western readers and the one most interface and typeface tooling assumes by default. Knowing it is one category among several (alongside [abjad](abjad.md)s, which mark mainly consonants, and [abugida](abugida.md)s, where vowels attach to consonant bases) is what stops you from treating alphabetic behavior as universal. The Latin, Greek, and Cyrillic scripts are alphabets.
+In an alphabet, individual letters stand for individual sounds, and both consonants and vowels get their own distinct letters written in sequence. This is the structure most familiar to Western readers and the one most interface and typeface tooling assumes by default. Knowing it is one category among several (alongside [abjad](abjad.md)s, which mark mainly consonants, and [abugida](abugida.md)s, where vowels attach to consonant bases) is what stops you from treating alphabetic behavior as universal. The [Latin](latin-script.md), [Greek](greek-script.md), and [Cyrillic](cyrillic.md) scripts are alphabets.
 
 ## Example
 In the English word "cat", the letters c, a, and t each represent one sound, with the vowel written as its own letter.

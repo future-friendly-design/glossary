@@ -27,7 +27,7 @@ license: CC-BY-4.0
 Bidirectional text mixes left-to-right and right-to-left scripts in the same line.
 
 ## Why it matters
-Scripts like Arabic and Hebrew run right to left, but numbers and embedded Latin text run left to right, so the order characters are displayed in (visual order) differs from the order they are stored in (logical order). The Unicode Bidirectional Algorithm (UAX #9) works out the correct visual order from each character's directional property, resolving neutral characters like spaces and punctuation by context. Getting the base direction right is what keeps mixed text from coming out scrambled.
+Scripts like [Arabic](arabic-script.md) and [Hebrew](hebrew-script.md) run right to left, but numbers and embedded Latin text run left to right, so the order characters are displayed in (visual order) differs from the order they are stored in (logical order). The Unicode Bidirectional Algorithm (UAX #9) works out the correct visual order from each character's directional property, resolving neutral characters like spaces and punctuation by context. Getting the base direction right is what keeps mixed text from coming out scrambled.
 
 ## Example
 An Arabic sentence containing the English brand "iPhone" and the year "2026" needs the bidi algorithm to lay out each run correctly.

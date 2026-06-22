@@ -24,7 +24,7 @@ license: CC-BY-4.0
 The Latin script is the alphabet used for English and most Western European languages and is the world's most widely used writing system.
 
 ## Why it matters
-Descended from the Greek and Etruscan alphabets, the Latin script is an [alphabet](alphabet.md) with separate consonant and vowel letters written left to right. It is used by hundreds of languages, often extended with [diacritic](diacritic.md)s (accents, cedillas, tildes) and additional letters to fit local sound systems. Its dominance in technology is exactly why it tends to become the unspoken default in typeface and interface design, and naming it as one script among many is the first step to not treating its behavior as universal.
+Descended from the [Greek](greek-script.md) and Etruscan alphabets, the Latin script is an [alphabet](alphabet.md) with separate consonant and vowel letters written left to right. It is used by hundreds of languages, often extended with [diacritic](diacritic.md)s (accents, cedillas, tildes) and additional letters to fit local sound systems. Its dominance in technology is exactly why it tends to become the unspoken default in typeface and interface design, and naming it as one script among many is the first step to not treating its behavior as universal.
 
 ## Example
 English, Spanish, Vietnamese, and Turkish all use the Latin script, each adding its own diacritics or extra letters (Vietnamese stacks multiple diacritics on a single vowel; Turkish distinguishes dotted and dotless i).

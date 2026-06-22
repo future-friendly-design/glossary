@@ -1,12 +1,12 @@
 ---
 term: Script
 slug: script
-aliases: [writing system]
+aliases: []
 tags: [writing-systems-scripts]
 level: foundational
 depth: deep
 summary: A script is the set of visual symbols and rules used to write one or more languages.
-related: [alphabet, abugida, abjad, syllabary, logographic, featural-alphabet, brahmic-scripts, font-coverage]
+related: [alphabet, abugida, abjad, syllabary, logographic, featural-alphabet, brahmic-scripts, font-coverage, writing-system, script-typeface]
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-18
@@ -19,6 +19,10 @@ license: CC-BY-4.0
 ---
 
 # Script
+
+{% hint style="info" %}
+This is the writing-systems sense of "script." For the type-design classification, see [Script (typeface)](script-typeface.md); the computing sense (a program) is out of scope in this glossary. A script applied to one language with its spelling and punctuation rules is a [writing system](writing-system.md).
+{% endhint %}
 
 ## Definition
 A script is the set of visual symbols and rules used to write one or more languages.

@@ -6,7 +6,7 @@ tags: [language-linguistics]
 level: intermediate
 depth: deep
 summary: Orthography is the set of conventions for writing a language, including its script, spelling, and punctuation rules.
-related: [dialect, script, segmentation, input-method-editor, autonym]
+related: [dialect, script, writing-system, segmentation, input-method-editor, autonym]
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-19
@@ -47,4 +47,4 @@ Collapsing orthography into either "language" or "script" and assuming one impli
 - Foundations: [Orthography (Wikipedia)](https://en.wikipedia.org/wiki/Orthography)
 - Foundations: [W3C Internationalization (i18n)](https://www.w3.org/International/)
 
-<!-- NEEDS EXPERT REVIEW: source is Wikipedia (interim). Dropped the draft alias "writing system" to avoid collision with script's alias; orthography is the language-specific writing conventions, script is the sign system. Cohort to confirm this distinction and the multi-orthography examples (Serbian, Kurdish). -->
+<!-- NEEDS EXPERT REVIEW: source is Wikipedia (interim). "Writing system" is now its own node (see writing-system.md), so it is not an alias here. The three levels: a script is the sign set, a writing system is a script applied to one language with its rules, and orthography is the specific spelling, casing, and punctuation conventions within that writing system. Cohort to confirm this distinction and the multi-orthography examples (Serbian, Kurdish). -->
