@@ -5,6 +5,12 @@
 
 > Revision note: this record originally defined Parent/Child as a strict "is-a" taxonomy. We broadened it to "nested under" (broader/narrower) because strict is-a kept blocking legitimate nestings: a reference source like Ethnologue is not "a kind of language", but it clearly belongs nested under the Language domain. The two-structure decision (one hierarchy in Parent/Child, facets in Groupings) is unchanged; only the meaning of the hierarchy edge is broadened.
 
+> Revision note (2026-06-22b): the nesting tree should be as complete as the concepts allow.
+> Every term has a parent unless it is a genuine top-level concept within its domain (for example Character, Character encoding, Typeface).
+> Leaving facet terms (anatomy parts, behaviors, marks) unparented is not required, and should not be the default: a term's grouping membership and its parent are independent, so a term can and usually should have both.
+> Where a clean parent exists, nest to it; accept a small number of genuine roots; mint an intermediate concept term only where it earns its place.
+> This does not change the two-structure model, it just stops the tree from being left sparse.
+
 ### What we learned:
 The tracker needs to express how terms relate, and several different relationships kept getting tangled into one field, which made the structure hard to learn and to navigate.
 We separated them into two structures.
