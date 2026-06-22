@@ -7,9 +7,9 @@ level: foundational
 depth: core
 summary: "A script typeface is a typeface classification for designs that imitate handwriting or calligraphy, usually with letters that connect or flow into one another."
 related: [typeface, typography, font, script]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Script typeface (Wikipedia)"
