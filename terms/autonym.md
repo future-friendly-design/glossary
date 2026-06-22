@@ -6,7 +6,7 @@ tags: [language-linguistics]
 level: intermediate
 depth: core
 summary: An autonym is the name a people or language uses for itself, as opposed to a name given by outsiders.
-related: [dialect, iso-639-3, localization, cldr]
+related: [exonym, dialect, iso-639-3, localization, cldr]
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-19
@@ -30,7 +30,7 @@ Also called an endonym, an autonym is the self-chosen, native name of a group, p
 "Deutsch" is the autonym for the language English speakers call by the exonym "German."
 
 ## Related terms
-[Dialect](dialect.md) · [ISO 639-3](iso-639-3.md) · [Localization](localization.md) · [CLDR](cldr.md)
+[Exonym](exonym.md) · [Dialect](dialect.md) · [ISO 639-3](iso-639-3.md) · [Localization](localization.md) · [CLDR](cldr.md)
 
 ## Further reading
 - Foundations: [Endonym and exonym (Wikipedia)](https://en.wikipedia.org/wiki/Endonym_and_exonym)
