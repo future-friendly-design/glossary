@@ -55,6 +55,14 @@ If you add GitBook custom blocks (hints, tabs, cards, content-refs, includes) or
 - This is a v0.1 draft under expert review.
   Do not mark an entry as expert-reviewed or published; that is a human decision.
 
+## Tracker relationships (Airtable)
+The tracker records how terms relate, using two structures that must stay separate; see [adr-decisions/0010](adr-decisions/0010-term-relationships-is-a-tree-vs-faceted-groupings.md).
+Parent/Child in the Terms table is the strict is-a taxonomy: a term's parent is the broader category it is a kind of (Cyrillic is-a Alphabet is-a Script), one parent per term.
+The Groupings table holds faceted, cross-cutting views of the same terms (anatomy, rules, classifications, examples, reference/measurement); a term can be in several, and a grouping can pull terms from any topic.
+Do not tangle the two: classifications, parts, and instances are facets (Groupings), not parent edges.
+The Airtable field descriptions carry the short version of these rules.
+Entry-structure exceptions (disambiguation hubs may swap the middle beats for custom sections) are in [adr-decisions/0009](adr-decisions/0009-disambiguation-hub-entries-may-use-custom-sections.md).
+
 ## Prose wrapping
 Docs in this repo use semantic line breaks (one sentence per line); see [adr-decisions/0006](adr-decisions/0006-semantic-line-breaks-in-docs.md).
 
