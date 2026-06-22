@@ -7,9 +7,9 @@ level: foundational
 depth: deep
 summary: "A pictographic sign conveys meaning through a stylized picture of the thing it represents, rather than by spelling out sounds."
 related: [ideographic, logographic, script]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Pictogram (Wikipedia)"
@@ -24,7 +24,7 @@ license: CC-BY-4.0
 A pictographic sign conveys meaning through a stylized picture of the thing it represents, rather than by spelling out sounds.
 
 ## Why it matters
-Pictographs are the precursor category in the usual story of how writing developed: a picture of an ox meaning "ox" comes before any system that records the sounds of a word. As full writing systems, pictographs are limited, because not everything has a picture, which is why scripts moved toward representing sound. The reason this earns a node in a design-facing glossary is that the idea is alive and well in interface work: icons, wayfinding symbols, and signage are modern pictograms. Knowing the term, and how it differs from [ideographic](ideographic.md) and [logographic](logographic.md) signs, keeps designers precise about what an icon can and cannot carry on its own.
+Pictographs are the precursor category in the usual story of how writing developed: a picture of an ox meaning "ox" comes before any system that records the sounds of a word. As full writing systems, pictographs are limited, because not everything has a picture, which is why scripts moved toward representing sound. For design work the idea is alive and well: icons, wayfinding symbols, and signage are modern pictograms. Knowing the term, and how it differs from [ideographic](ideographic.md) and [logographic](logographic.md) signs, keeps designers precise about what an icon can and cannot carry on its own.
 
 ## Example
 The figure on a restroom door or the bent-arrow exit sign is a pictogram: it shows a simplified picture and is read directly as meaning, with no spelling involved.

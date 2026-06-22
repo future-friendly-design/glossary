@@ -7,9 +7,9 @@ level: intermediate
 depth: deep
 summary: "An ideographic sign represents an idea or concept directly, rather than spelling out the sounds of a word."
 related: [logographic, pictographic, logosyllabary, han-characters]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Ideogram (Wikipedia)"
@@ -24,7 +24,7 @@ license: CC-BY-4.0
 An ideographic sign represents an idea or concept directly, rather than spelling out the sounds of a word.
 
 ## Why it matters
-"Ideographic" is one of the most misused terms in writing-systems vocabulary, and the misuse has a specific home: people routinely call Chinese characters "ideographic," meaning each character is a little picture of an idea understood independently of any language. That is mostly wrong. Chinese characters are tied to specific words and morphemes of spoken Chinese, and most contain a component that hints at pronunciation, so the precise term is [logographic](logographic.md) (or more precisely still, [logosyllabary](logosyllabary.md)), not ideographic. True ideographs, signs for a concept with no commitment to a particular word or its sounds, are rare as a full writing system. The term earns a node mainly to mark this distinction clearly.
+"Ideographic" is one of the most misused terms in writing-systems vocabulary, and the misuse has a specific home: people routinely call Chinese characters "ideographic," meaning each character is a little picture of an idea understood independently of any language. That is mostly wrong. Chinese characters are tied to specific words and morphemes of spoken Chinese, and most contain a component that hints at pronunciation, so the precise term is [logographic](logographic.md) (or more precisely still, [logosyllabary](logosyllabary.md)), not ideographic. True ideographs, signs for a concept with no commitment to a particular word or its sounds, are rare as a full writing system.
 
 ## Example
 A "no entry" road sign is close to a genuine ideograph: it stands for the prohibition itself, not for any particular word, so speakers of different languages read the same idea from it.
