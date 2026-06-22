@@ -9,7 +9,7 @@ summary: >
   Script rules are the behaviors a script imposes on its own signs and marks,
   such as direction and joining, independent of any language.
 related: [script, complex-text-layout, text-direction, joining, reordering, stacking-script]
-status: draft
+status: voice-passed
 version_added: 0.1
 updated: 2026-06-22
 contributors: [sam-gordashko]

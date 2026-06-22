@@ -9,7 +9,7 @@ summary: >
   Joining is the behavior in some scripts where signs connect and change shape
   based on their position in a word.
 related: [arabic-script, text-shaping, complex-text-layout, ligature, script-rules]
-status: draft
+status: voice-passed
 version_added: 0.1
 updated: 2026-06-22
 contributors: [sam-gordashko]
