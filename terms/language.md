@@ -7,9 +7,9 @@ level: foundational
 depth: deep
 summary: "A language is a system a community uses to communicate in speech or sign; writing is a separate layer added on top of it."
 related: [language-family, dialect, macrolanguage, orthography, writing-system, script]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Language (Wikipedia)"
@@ -24,7 +24,7 @@ license: CC-BY-4.0
 A language is a system a community uses to communicate in speech or sign; writing is a separate layer added on top of it.
 
 ## Why it matters
-The language and linguistics terms in this glossary, [language family](language-family.md), [dialect](dialect.md), [macrolanguage](macrolanguage.md), and the rest, all sit under one idea that had no home page. This is that root node. The single most useful thing it establishes is the separation that the whole writing-systems cluster depends on: a language is spoken or signed, and writing is a technology layered on top of it. A language exists whether or not it is written, one language can be written with more than one [script](script.md), and the rules for writing a particular language are its [orthography](orthography.md). Keeping "language" distinct from "script" and "writing system" is what stops the most common category error in interface work, treating "languages supported" as if it answered "which scripts and layouts do we render."
+The most useful thing this term pins down is a separation the whole writing-systems cluster depends on: a language is spoken or signed, and writing is a technology layered on top of it. A language exists whether or not it is written, one language can be written with more than one [script](script.md), and the rules for writing a particular language are its [orthography](orthography.md). It is also the root the other linguistics terms hang from, [language family](language-family.md), [dialect](dialect.md), and [macrolanguage](macrolanguage.md). Keeping "language" distinct from "script" and "writing system" is what stops the most common category error in interface work: treating "languages supported" as if it answered "which scripts and layouts do we render."
 
 ## Example
 Spoken Mandarin and spoken Cantonese are different languages that have historically shared one written form; Serbian is one language written in two scripts. Neither fact makes sense if "language" and "writing" are treated as the same thing.

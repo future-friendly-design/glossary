@@ -7,9 +7,9 @@ level: foundational
 depth: deep
 summary: "A writing system is a script applied to a specific language together with the orthographic rules for using it; the script is the sign set, the writing system is that set put to work for one language."
 related: [language, script, orthography, latin-script]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Writing system (Wikipedia)"
@@ -24,7 +24,7 @@ license: CC-BY-4.0
 A writing system is a script applied to a specific language together with the orthographic rules for using it; the script is the sign set, the writing system is that set put to work for one language.
 
 ## Why it matters
-This is the missing rung between [language](language.md) and [script](script.md). A script is a set of signs, the [Latin script](latin-script.md) is just the letters, available to anyone. A writing system is what you get when one language adopts that script and settles how to use it: which letters, what spelling and capitalization, which punctuation, how words are separated. The English writing system and the Vietnamese writing system both use the Latin script, but they are different writing systems because each adds its own [orthography](orthography.md). Keeping this distinct from "script" is practical, not pedantic: font coverage and shaping are properties of the script, while spelling, casing, hyphenation, and punctuation rules are properties of the writing system, and a product that supports the script still has to get the writing system's rules right.
+This is the rung between [language](language.md) and [script](script.md). A script is a set of signs, the [Latin script](latin-script.md) is just the letters, available to anyone. A writing system is what you get when one language adopts that script and settles how to use it: which letters, what spelling and capitalization, which punctuation, how words are separated. The English writing system and the Vietnamese writing system both use the Latin script, but they are different writing systems because each adds its own [orthography](orthography.md). Keeping this distinct from "script" is practical, not pedantic: font coverage and shaping are properties of the script, while spelling, casing, hyphenation, and punctuation rules are properties of the writing system, and a product that supports the script still has to get the writing system's rules right.
 
 ## Example
 English and Turkish are two writing systems built on the same Latin script: Turkish adds the dotless "ı" and the dotted "İ" and capitalizes them as a matched pair, a rule the English writing system does not have.
