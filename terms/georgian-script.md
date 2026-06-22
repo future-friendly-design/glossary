@@ -7,9 +7,9 @@ level: intermediate
 depth: core
 summary: "The Georgian script is an alphabet used to write Georgian; its modern everyday form is called Mkhedruli and has no separate uppercase."
 related: [alphabet, script, armenian-script]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Georgian scripts (Wikipedia)"
@@ -35,4 +35,4 @@ Georgian written in Mkhedruli has a single set of letters with no capital forms,
 ## Further reading
 - Foundations: [Georgian scripts (Wikipedia)](https://en.wikipedia.org/wiki/Georgian_scripts)
 
-<!-- NEEDS EXPERT REVIEW: source is Wikipedia (interim). Upgrade to an authoritative primary (Unicode Standard Section 7.7 Georgian, ScriptSource: Geor) vetted by the SILCON cohort. The single-language characterization, the unicameral claim for Mkhedruli, and the existence of older script forms (Asomtavruli, Nuskhuri) need cohort confirmation; no letter counts are asserted. -->
+<!-- NEEDS EXPERT REVIEW: source is Wikipedia (interim). Upgrade to an authoritative primary (Unicode Standard Section 7.7 Georgian, ScriptSource: Geor) vetted by the SILCON cohort. The single-language characterization, the unicameral claim for Mkhedruli (note Unicode 11 added Mtavruli capital letters used for all-caps styling, which complicates a flat "no uppercase" claim), and the existence of older script forms (Asomtavruli, Nuskhuri) need cohort confirmation; no letter counts are asserted. -->

@@ -7,9 +7,9 @@ level: intermediate
 depth: core
 summary: "The Armenian script is an alphabet used to write the Armenian language, with its own distinct letters for consonants and vowels."
 related: [alphabet, script, greek-script]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Armenian alphabet (Wikipedia)"
