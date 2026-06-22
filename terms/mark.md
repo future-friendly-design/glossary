@@ -7,9 +7,9 @@ level: intermediate
 depth: deep
 summary: "Mark is an umbrella term for a sign added to or around a base character; in Unicode it is also a top-level character category split into nonspacing, spacing combining, and enclosing marks."
 related: [combining-mark, spacing-combining-mark, enclosing-mark, diacritic, nukta, harakat, punctuation-mark]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Unicode Standard Annex #44: General Category Values"
@@ -27,7 +27,7 @@ license: CC-BY-4.0
 Mark is an umbrella term for a sign added to or around a base character; in Unicode it is also a top-level character category split into nonspacing, spacing combining, and enclosing marks.
 
 ## Why it matters
-"Mark" is one of the most overloaded words in this glossary, and the entries it covers were drifting without a parent to point back to. The word is used in at least four different senses depending on who is talking, so reaching for it without context invites confusion. This entry is the disambiguation hub: it names the senses and links each to its own page. The anchor that ties the technical senses together is Unicode, which makes "Mark" a top-level General Category (abbreviated M) for characters that combine with a base, and splits it three ways: nonspacing (Mn), spacing combining (Mc), and enclosing (Me).
+"Mark" is one of the most overloaded words in typography and text encoding. It gets used in at least four different senses depending on who is talking, so the same word might mean a typographic accent, a Unicode category, a script feature, or a comma, and reaching for it without context invites confusion. This page sorts those senses out and links each to its own entry. The thread that ties the technical senses together is Unicode, which makes "Mark" a top-level General Category (abbreviated M) for characters that combine with a base, split three ways: nonspacing (Mn), spacing combining (Mc), and enclosing (Me).
 
 ## The four senses of "mark"
 - **Diacritical sense:** a [diacritic](diacritic.md), an accent or similar sign that modifies a letter (the acute in "é", the tilde in "ñ"). This is the visual/typographic sense.
