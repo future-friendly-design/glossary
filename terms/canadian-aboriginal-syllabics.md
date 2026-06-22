@@ -5,11 +5,11 @@ aliases: [CAS, UCAS, Cree syllabics]
 tags: [writing-systems-scripts]
 level: advanced
 depth: core
-summary: Canadian Aboriginal Syllabics is a family of writing systems that uses rotating geometric symbols to write several Indigenous languages of Canada.
+summary: Canadian Aboriginal Syllabics is a unified script (a related family of writing systems) that uses rotating geometric symbols to write several Indigenous languages of Canada.
 related: [syllabary, abugida, featural-alphabet, script]
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Canadian Aboriginal syllabics (Wikipedia)"
@@ -21,7 +21,7 @@ license: CC-BY-4.0
 # Canadian Aboriginal Syllabics
 
 ## Definition
-Canadian Aboriginal Syllabics is a family of writing systems that uses rotating geometric symbols to write several Indigenous languages of Canada.
+Canadian Aboriginal Syllabics is a unified script (a related family of writing systems) that uses rotating geometric symbols to write several Indigenous languages of Canada.
 
 ## Why it matters
 Canadian Aboriginal Syllabics is a family of related systems used for languages such as Cree, Ojibwe, and Inuktitut, in which a consonant's symbol is rotated or flipped to show the following vowel. Because the orientation of a sign systematically encodes the vowel, it is often described as featural, like [Hangul](hangul.md), though structurally it behaves much like an [abugida](abugida.md) (hence the label "featural abugida"). The systems grew from work that culminated in 1840 by the missionary James Evans, probably with Indigenous language experts, and the syllabics are co-official with the [Latin script](latin-script.md) for Inuktitut in Nunavut and Nunavik. It was first encoded in Unicode in version 3.0 (1999), in the Unified Canadian Aboriginal Syllabics block (U+1400 to U+167F), with later extended blocks, so font and input support is a real obligation for products serving these communities.
