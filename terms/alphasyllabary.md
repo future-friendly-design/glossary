@@ -7,9 +7,9 @@ level: intermediate
 entry_type: pointer
 summary: "Alphasyllabary is another name for an abugida, a script where each consonant carries an inherent vowel that is changed by added marks."
 related: [abugida]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Unicode Glossary: Abugida"

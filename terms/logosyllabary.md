@@ -7,9 +7,9 @@ level: advanced
 entry_type: pointer
 summary: "Logosyllabary is a more precise name for a logographic system like Chinese, where each character stands for a word or morpheme and also for a syllable."
 related: [logographic, ideographic]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Unicode Glossary: Logogram"
