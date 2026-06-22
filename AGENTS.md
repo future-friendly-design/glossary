@@ -57,7 +57,7 @@ If you add GitBook custom blocks (hints, tabs, cards, content-refs, includes) or
 
 ## Tracker relationships (Airtable)
 The tracker records how terms relate, using two structures that must stay separate; see [adr-decisions/0010](adr-decisions/0010-term-relationships-is-a-tree-vs-faceted-groupings.md).
-Parent/Child in the Terms table is the strict is-a taxonomy: a term's parent is the broader category it is a kind of (Cyrillic is-a Alphabet is-a Script), one parent per term.
+Parent/Child in the Terms table is a single nesting hierarchy: a term's parent is what it is nested under, one parent per term (Cyrillic under Alphabet under Script; Ethnologue under Language). This is broader/narrower in the thesaurus sense, usually "is a kind of" but also "belongs under / is scoped to".
 The Groupings table holds faceted, cross-cutting views of the same terms (anatomy, rules, classifications, examples, reference/measurement); a term can be in several, and a grouping can pull terms from any topic.
 Do not tangle the two: classifications, parts, and instances are facets (Groupings), not parent edges.
 The Airtable field descriptions carry the short version of these rules.
