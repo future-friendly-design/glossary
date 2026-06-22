@@ -24,7 +24,7 @@ license: CC-BY-4.0
 GPOS is the OpenType table that tells a font how to position glyphs, such as kerning and accent placement.
 
 ## Why it matters
-The Glyph Positioning table stores rules that adjust where glyphs sit: [kerning](kerning.md) between pairs, cursive joining, and attaching marks like accents to their base. Positioning is applied after substitution, so GPOS works on the glyph sequence that [gsub](gsub.md) produced. Together GSUB and GPOS, which share the same script, feature, and lookup structures, drive most [opentype](opentype.md) layout behavior.
+The Glyph Positioning table stores rules that adjust where glyphs sit: [kerning](kerning.md) between pairs, [cursive joining](joining.md), and attaching marks like accents to their base. Positioning is applied after substitution, so GPOS works on the glyph sequence that [gsub](gsub.md) produced. Together GSUB and GPOS, which share the same script, feature, and lookup structures, drive most [opentype](opentype.md) layout behavior.
 
 ## Example
 A GPOS rule shifts a combining accent so it sits centered over its base letter.
