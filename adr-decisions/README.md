@@ -43,3 +43,4 @@ Prose in these records uses semantic line breaks (one sentence per line); see
 - [0006. Prose in repo docs uses semantic line breaks](0006-semantic-line-breaks-in-docs.md)
 - [0007. Credit contributors collectively, not with per-entry bylines](0007-collective-contributor-attribution.md)
 - [0008. A-Z letter folders are the canonical navigation; topics are presentational views](0008-alphabetical-backbone-topics-as-views.md)
+- [0009. Disambiguation-hub entries may replace the middle beats with custom sections](0009-disambiguation-hub-entries-may-use-custom-sections.md)
