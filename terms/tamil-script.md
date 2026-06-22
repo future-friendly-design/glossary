@@ -7,9 +7,9 @@ level: intermediate
 depth: core
 summary: "Tamil script is a Brahmic abugida used to write Tamil, a Dravidian language of South India and Sri Lanka."
 related: [abugida, brahmic-scripts, script, matra]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Tamil script (Wikipedia)"
@@ -24,10 +24,10 @@ license: CC-BY-4.0
 Tamil script is a Brahmic abugida used to write Tamil, a Dravidian language of South India and Sri Lanka.
 
 ## Why it matters
-Tamil is a member of the [Brahmic family](brahmic-scripts.md) and works as an [abugida](abugida.md): each consonant carries an inherent vowel that is changed by attached vowel signs ([matra](matra.md)s), which can sit before, after, above, or below the consonant. It earns a node because it is the glossary's first Dravidian script, a different language family from the North Indian scripts (such as Devanagari) that the writing-systems entries have leaned on. For product work that distinction matters: a font or shaping setup tuned for one Brahmic script does not automatically render another, because the letterforms, vowel-sign placements, and reordering rules differ.
+Tamil is a member of the [Brahmic family](brahmic-scripts.md) and works as an [abugida](abugida.md): each consonant carries an inherent vowel that is changed by attached vowel signs ([matra](matra.md)s), which can sit before, after, above, or below the consonant. It is a Dravidian script, a different language family from the North Indian scripts such as Devanagari, and that difference matters for product work: a font or shaping setup tuned for one Brahmic script does not automatically render another, because the letterforms, vowel-sign placements, and reordering rules differ.
 
 ## Example
-A Tamil vowel sign can be written to the left of the consonant it modifies even though it is pronounced after it, so typed order and display order are not the same.
+A Tamil vowel sign can be written to the left of the consonant it modifies even though it is pronounced after it, so typed order and display order are not the same. See [reordering](reordering.md).
 
 ## Related terms
 [Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Script](script.md) · [Matra](matra.md)
