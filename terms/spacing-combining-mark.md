@@ -7,9 +7,9 @@ level: advanced
 depth: core
 summary: "A spacing combining mark is a combining character that takes up its own horizontal width while still belonging to the base character it attaches to."
 related: [combining-mark, mark, enclosing-mark, matra, grapheme-cluster]
-status: draft
+status: voice-passed
 version_added: 0.1
-updated: 2026-06-21
+updated: 2026-06-22
 contributors: [sam-gordashko]
 further_reading:
   - title: "Spacing Mark (Unicode Glossary)"
@@ -24,7 +24,7 @@ license: CC-BY-4.0
 A spacing combining mark is a combining character that takes up its own horizontal width while still belonging to the base character it attaches to.
 
 ## Why it matters
-The [combining mark](combining-mark.md) entry covers the nonspacing case, marks that add no width and stack on top of a base. Unicode's "Mark" category has a second member this completes: the spacing combining mark, General Category Mc. Unlike a nonspacing mark, it advances the text by its own width, yet it is still a combining mark that forms a single unit with its base. These are common in [Brahmic scripts](brahmic-scripts.md), where many vowel signs ([matra](matra.md)s) sit beside the consonant and occupy real horizontal space. Knowing the distinction matters because code that assumes "combining means zero width" will mishandle them, and because the base plus its spacing mark count as one [grapheme cluster](grapheme-cluster.md), not two.
+The [combining mark](combining-mark.md) entry covers the nonspacing case, marks that add no width and stack on top of a base. The spacing combining mark is the second member of Unicode's Mark category, General Category Mc. Unlike a nonspacing mark, it advances the text by its own width, yet it still forms a single unit with its base. These are common in [Brahmic scripts](brahmic-scripts.md), where many vowel signs ([matra](matra.md)s) sit beside the consonant and occupy real horizontal space. Knowing the distinction matters because code that assumes "combining means zero width" will mishandle them, and because the base plus its spacing mark count as one [grapheme cluster](grapheme-cluster.md), not two.
 
 ## Example
 A Devanagari consonant followed by a right-side vowel sign forms one unit, but the vowel sign occupies its own width, which makes it a spacing combining mark rather than a nonspacing one.
