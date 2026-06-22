@@ -11,6 +11,12 @@
 > Where a clean parent exists, nest to it; accept a small number of genuine roots; mint an intermediate concept term only where it earns its place.
 > This does not change the two-structure model, it just stops the tree from being left sparse.
 
+> Revision note (2026-06-22c): the seven topic anchors now serve as the roots of the nesting tree.
+> Each cluster's top concept(s) are nested under its topic anchor (Typography -> Typeface, Tracking, Line height, Measure; Characters -> Character, Unicode, Character encoding; Shaping -> OpenType, Complex text layout, Ligature; Language & linguistics -> Language; Writing systems & scripts -> Writing system; Internationalization & engineering -> Internationalization; Reference sources -> Noto fonts, SIL).
+> So every topic has children and every term traces up to a topic root, giving one rooted tree per cluster.
+> Tags / "Terms in this topic" still records topic membership as before; Parent/Child now additionally roots each tree at its topic anchor, so the anchor rows participate in both structures.
+> Side effect: Writing system moved from under Language to under the Writing systems & scripts topic, severing the earlier Language -> Writing system edge (a language and its writing system now sit in sibling topic trees).
+
 ### What we learned:
 The tracker needs to express how terms relate, and several different relationships kept getting tangled into one field, which made the structure hard to learn and to navigate.
 We separated them into two structures.
