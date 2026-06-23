@@ -37,7 +37,7 @@ The script, not the country or the language, is the real unit of support in prod
 
 A guided tour of the writing-systems terms in this glossary, grouped by what they help you reason about:
 
-* **Where this sits in the bigger picture:** a [language](../language-terms/writing-systems-and-scripts/language.md) is spoken or signed, a [script](../language-terms/writing-systems-and-scripts/script.md) is the sign set, and a [writing system](../language-terms/writing-systems-and-scripts/writing-system.md) is a script applied to one language with its rules.
+* **Where this sits in the bigger picture:** a [language](../language-terms/linguistics/language.md) is spoken or signed, a [script](../language-terms/writing-systems-and-scripts/script.md) is the sign set, and a [writing system](../language-terms/writing-systems-and-scripts/writing-system.md) is a script applied to one language with its rules.
 * **What a script is, and how scripts are classified:** [Script](../language-terms/writing-systems-and-scripts/script.md), [Alphabet](alphabet.md), [Abugida](abugida.md), [Abjad](abjad.md), [Syllabary](syllabary.md), [Logographic](logographic.md), [Featural alphabet](featural-alphabet.md), [Pictographic](pictographic.md), [Ideographic](ideographic.md)
 * **Script families:** [Brahmic scripts](brahmic-scripts.md)
 * **Alphabets:** [Latin script](latin-script.md), [Cyrillic](cyrillic.md), [Greek script](greek-script.md), [Armenian script](armenian-script.md), [Georgian script](georgian-script.md)

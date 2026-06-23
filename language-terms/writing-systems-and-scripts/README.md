@@ -9,9 +9,9 @@ From a zoomed-out perspective, a writing system consists of:
 * at least one script - the visual symbols used to write a language
 * an orthography - the language-specific rules on how to use a script to write the language.
 
-### Why it matters
-
 When a written language is represented digitally, we can zoom in to the various parts of its writing system to understand how each part connects to typography.
+
+### Why it matters
 
 The goal is to look at a part of a writing system, identify which typography properties it maps to, and make user-friendly decisions when working with text in a design system.
 
@@ -29,21 +29,19 @@ Stacked marks take up more vertical space on a letter. That extra height needs r
 ### Script terms by topic
 
 {% hint style="info" %}
-This glossary does not support every script. Its coverage is limited to the examples and related terms that came up during the [SILCON](https://silicon.stanford.edu/) UX incubator that Sam, the founder of Future Friendly Designs, was teaching.&#x20;
+This glossary does not support every script. Its coverage is limited to the examples and related terms that came up during the [SILCON](https://silicon.stanford.edu/) UX incubator that Sam, the founder of Future Friendly Designs, was teaching.
 
 If you've got a script or related term you'd like see added, head to the [contributing page](../../CONTRIBUTING.md) to learn more!
 {% endhint %}
 
-
-
 #### Anatomy of a writing system
 
-A script is a part of a language-specific writing system. The orthography defines the rules on how to use that script to write a language.&#x20;
+A script is a part of a language-specific writing system. The orthography defines the rules on how to use that script to write a language.
 
 The same script can be used to write more than one language, and single language may have more than one script!
 
-{% content-ref url="language.md" %}
-[language.md](language.md)
+{% content-ref url="../linguistics/language.md" %}
+[language.md](../linguistics/language.md)
 {% endcontent-ref %}
 
 {% content-ref url="orthography.md" %}
@@ -58,11 +56,9 @@ The same script can be used to write more than one language, and single language
 [writing-system.md](writing-system.md)
 {% endcontent-ref %}
 
-
-
 #### Anatomy of a script
 
-A script consists of the visual symbols and marks used to write a language and the rules on how to use the script.&#x20;
+A script consists of the visual symbols and marks used to write a language and the rules on how to use the script.
 
 {% content-ref url="script.md" %}
 [script.md](script.md)
@@ -80,13 +76,9 @@ A script consists of the visual symbols and marks used to write a language and t
 [mark.md](mark.md)
 {% endcontent-ref %}
 
-
-
-
-
 #### Symbol terms
 
-Symbol refers to the individual visual elements that make up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.&#x20;
+Symbol refers to the individual visual elements that make up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.
 
 {% content-ref url="../../terms/grapheme.md" %}
 [grapheme.md](../../terms/grapheme.md)
@@ -100,13 +92,11 @@ Symbol refers to the individual visual elements that make up a script. Scripts h
 [symbol.md](../../terms/symbol.md)
 {% endcontent-ref %}
 
-
-
 #### Mark terms
 
 A mark is a symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
 
-These mark terms span across many scripts. Script specific marks are not listed here, see the script examples.&#x20;
+These mark terms span across many scripts. Script specific marks are not listed here, see the script examples.
 
 {% content-ref url="../../terms/diacritic.md" %}
 [diacritic.md](../../terms/diacritic.md)
@@ -120,13 +110,9 @@ These mark terms span across many scripts. Script specific marks are not listed 
 [tone-mark.md](../../terms/tone-mark.md)
 {% endcontent-ref %}
 
-
-
-
-
 #### Script rule terms
 
-Script rules are the behaviors a script imposes on its own symbols and that applies to any language using the script in its writing system. For example, the latin script has a text direction rule of left-to-right. <br>
+Script rules are the behaviors a script imposes on its own symbols and that applies to any language using the script in its writing system. For example, the latin script has a text direction rule of left-to-right.<br>
 
 {% content-ref url="../../terms/bidirectional-text.md" %}
 [bidirectional-text.md](../../terms/bidirectional-text.md)
@@ -156,11 +142,9 @@ Script rules are the behaviors a script imposes on its own symbols and that appl
 [text-direction.md](../../terms/text-direction.md)
 {% endcontent-ref %}
 
+#### Script classification terms
 
-
-#### Script classification terms&#x20;
-
-Scripts are classified by what their symbols represent. For example, if a script is to be classified as an alphabet, it must have separate symbols (called letters) representing consonants and vowels.&#x20;
+Scripts are classified by what their symbols represent. For example, if a script is to be classified as an alphabet, it must have separate symbols (called letters) representing consonants and vowels.
 
 {% content-ref url="../../terms/abjad.md" %}
 [abjad.md](../../terms/abjad.md)
@@ -209,8 +193,6 @@ Scripts are classified by what their symbols represent. For example, if a script
 {% content-ref url="../../terms/syllabary.md" %}
 [syllabary.md](../../terms/syllabary.md)
 {% endcontent-ref %}
-
-
 
 ### Scripts to explore
 

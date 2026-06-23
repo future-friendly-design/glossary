@@ -7,11 +7,12 @@
 ## language and linguistics terms <a href="#language-terms" id="language-terms"></a>
 
 * [Writing systems & scripts](language-terms/writing-systems-and-scripts/README.md)
-  * [Language](language-terms/writing-systems-and-scripts/language.md)
   * [Mark](language-terms/writing-systems-and-scripts/mark.md)
   * [Orthography](language-terms/writing-systems-and-scripts/orthography.md)
   * [Script](language-terms/writing-systems-and-scripts/script.md)
   * [Writing system](language-terms/writing-systems-and-scripts/writing-system.md)
+* [Linguistics](language-terms/linguistics/README.md)
+  * [Language](language-terms/linguistics/language.md)
 
 ## Browse by topic
 
