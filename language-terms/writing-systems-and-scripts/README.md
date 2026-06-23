@@ -56,6 +56,8 @@ The same script can be used to write more than one language, and single language
 [writing-system.md](writing-system.md)
 {% endcontent-ref %}
 
+
+
 #### Anatomy of a script
 
 A script consists of the visual symbols and marks used to write a language and the rules on how to use the script.
@@ -76,6 +78,8 @@ A script consists of the visual symbols and marks used to write a language and t
 [mark.md](mark.md)
 {% endcontent-ref %}
 
+
+
 #### Symbol terms
 
 Symbol refers to the individual visual elements that make up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.
@@ -91,6 +95,8 @@ Symbol refers to the individual visual elements that make up a script. Scripts h
 {% content-ref url="../../terms/symbol.md" %}
 [symbol.md](../../terms/symbol.md)
 {% endcontent-ref %}
+
+
 
 #### Mark terms
 
@@ -109,6 +115,8 @@ These mark terms span across many scripts. Script specific marks are not listed 
 {% content-ref url="../../terms/tone-mark.md" %}
 [tone-mark.md](../../terms/tone-mark.md)
 {% endcontent-ref %}
+
+
 
 #### Script rule terms
 
@@ -141,6 +149,8 @@ Script rules are the behaviors a script imposes on its own symbols and that appl
 {% content-ref url="../../terms/text-direction.md" %}
 [text-direction.md](../../terms/text-direction.md)
 {% endcontent-ref %}
+
+
 
 #### Script classification terms
 
@@ -194,11 +204,13 @@ Scripts are classified by what their symbols represent. For example, if a script
 [syllabary.md](../../terms/syllabary.md)
 {% endcontent-ref %}
 
+
+
 ### Scripts to explore
 
 Now that you understand what scripts are and how they work, you can explore these scripts to learn more about its symbols, marks and rules:
 
-Abjad scripts:
+#### Abjad scripts:
 
 {% content-ref url="../../terms/arabic-script.md" %}
 [arabic-script.md](../../terms/arabic-script.md)
@@ -208,7 +220,7 @@ Abjad scripts:
 [hebrew-script.md](../../terms/hebrew-script.md)
 {% endcontent-ref %}
 
-Abugida scripts:
+#### Abugida scripts:
 
 {% content-ref url="../../terms/bengali-assamese.md" %}
 [bengali-assamese.md](../../terms/bengali-assamese.md)
@@ -242,7 +254,7 @@ Abugida scripts:
 [tibetan-script.md](../../terms/tibetan-script.md)
 {% endcontent-ref %}
 
-Alphabet scripts:
+#### Alphabet scripts:
 
 {% content-ref url="../../terms/armenian-script.md" %}
 [armenian-script.md](../../terms/armenian-script.md)
@@ -280,19 +292,19 @@ Alphabet scripts:
 [warang-citi.md](../../terms/warang-citi.md)
 {% endcontent-ref %}
 
-Featural scripts:
+#### Featural scripts:
 
 {% content-ref url="../../terms/hangul.md" %}
 [hangul.md](../../terms/hangul.md)
 {% endcontent-ref %}
 
-Logographic scripts:
+#### Logographic scripts:
 
 {% content-ref url="../../terms/han-characters.md" %}
 [han-characters.md](../../terms/han-characters.md)
 {% endcontent-ref %}
 
-Syllabary scripts:
+#### Syllabary scripts:
 
 {% content-ref url="../../terms/hiragana.md" %}
 [hiragana.md](../../terms/hiragana.md)
