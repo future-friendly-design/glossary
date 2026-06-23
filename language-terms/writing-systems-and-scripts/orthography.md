@@ -50,7 +50,7 @@ None of them come from the font or the script, so multi-language support that st
 
 #### Example
 
-American and British English share one language and the same [Latin script](../../terms/latin-script.md), but follow different orthographies: "color" and "organize" in one, "colour" and "organise" in the other. Same words, same letters available, different spelling rules. Orthographies can differ more deeply than spelling, down to the script itself: Serbian is written in both [Cyrillic](../../terms/cyrillic.md) and [Latin](../../terms/latin-script.md), which makes it two [writing systems](writing-system.md) for one language.
+American and British English share one language and the same [Latin script](../../terms/latin-script.md), but follow different orthographies: "color" and "organize" in one, "colour" and "organise" in the other.<sup>1</sup> Same words, same letters available, different spelling rules. Orthographies can differ more deeply than spelling, down to the script itself: Serbian is written in both [Cyrillic](../../terms/cyrillic.md) and [Latin](../../terms/latin-script.md),<sup>2</sup> which makes it two [writing systems](writing-system.md) for one language.
 
 
 
@@ -86,4 +86,5 @@ Choosing a script gets the symbols on screen; it says nothing about the spelling
 
 ### Sources
 
-*
+1. American and British English spelling differences - Britannica Dictionary [https://www.britannica.com/dictionary/eb/qa/what-are-the-differences-between-British-and-American-English](https://www.britannica.com/dictionary/eb/qa/what-are-the-differences-between-British-and-American-English)
+2. Serbian script names - Unicode CLDR [https://cldr.unicode.org/translation/displaynames/script-names](https://cldr.unicode.org/translation/displaynames/script-names)
