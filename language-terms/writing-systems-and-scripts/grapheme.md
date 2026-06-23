@@ -34,7 +34,7 @@ A grapheme is the smallest unit of a writing system that distinguishes meaning, 
 
 ## Why it matters
 
-A grapheme is the abstract "letter": the unit a writing system treats as meaningfully distinct, the way a phoneme is the unit of sound. It is worth separating from three things it gets confused with. A [glyph](glyph.md) is how a grapheme is drawn, and one grapheme can have many glyphs (the same "a" across fonts, or a letter's initial and final forms). A [character](character.md) in Unicode is a [code point](code-point.md), and graphemes do not map to code points one to one: the single grapheme "é" can be one code point or two (an "e" plus a combining accent). Because of that gap, Unicode uses [grapheme cluster](grapheme-cluster.md) for what a reader perceives as one character. Keeping grapheme (the unit of writing), glyph (the drawn shape), and code point (the stored value) distinct is what prevents the classic counting and rendering bugs.
+A grapheme is the abstract "letter": the unit a writing system treats as meaningfully distinct, the way a phoneme is the unit of sound. It is worth separating from three things it gets confused with. A [glyph](../../terms/glyph.md) is how a grapheme is drawn, and one grapheme can have many glyphs (the same "a" across fonts, or a letter's initial and final forms). A [character](../../terms/character.md) in Unicode is a [code point](../../terms/code-point.md), and graphemes do not map to code points one to one: the single grapheme "é" can be one code point or two (an "e" plus a combining accent). Because of that gap, Unicode uses [grapheme cluster](../../terms/grapheme-cluster.md) for what a reader perceives as one character. Keeping grapheme (the unit of writing), glyph (the drawn shape), and code point (the stored value) distinct is what prevents the classic counting and rendering bugs.
 
 ## Example
 
@@ -42,7 +42,7 @@ The letter "b" is one grapheme; it can be set in countless glyphs across typefac
 
 ## Related terms
 
-[Grapheme cluster](grapheme-cluster.md) · [Glyph](glyph.md) · [Character](character.md) · [Code point](code-point.md)
+[Grapheme cluster](../../terms/grapheme-cluster.md) · [Glyph](../../terms/glyph.md) · [Character](../../terms/character.md) · [Code point](../../terms/code-point.md)
 
 ## Further reading
 

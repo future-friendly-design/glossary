@@ -36,7 +36,7 @@ tags:
 
 Orthography is the set of language-specific rules for using a script to write a particular language: its spelling, capitalization, and punctuation conventions.
 
-A [writing system](writing-system.md) is made of two parts: a [script](script.md) and an orthography. The script supplies the [symbols](../../terms/symbol.md); the orthography is the language-specific layer that decides how one language uses them.
+A [writing system](writing-system.md) is made of two parts: a [script](script.md) and an orthography. The script supplies the [symbols](symbol.md); the orthography is the language-specific layer that decides how one language uses them.
 
 
 

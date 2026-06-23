@@ -44,12 +44,12 @@ Script rules are the behaviors a script imposes on its own signs and marks, such
 
 A script is not a passive set of shapes you place in a row. Each script carries behaviors that a design tool, a font, and a layout engine all have to handle, and those behaviors hold no matter which language you write with the script. There are six common ones:
 
-* **Direction**: which way the script runs, such as left-to-right or right-to-left. See [text direction](text-direction.md).
+* **Direction**: which way the script runs, such as left-to-right or right-to-left. See [text direction](../../terms/text-direction.md).
 * **Joining**: whether signs connect and change shape based on their position in a word. See [joining](joining.md).
-* **Combination**: how [marks](combining-mark.md) attach to signs and how signs cluster or fuse, as in a [conjunct](conjunct.md).
-* **Ordering**: when the order signs are stored in differs from the order they are displayed in. See [reordering](reordering.md).
-* **Stacking and positioning**: how signs pile into blocks or stack, as in a [stacking script](stacking-script.md).
-* **Breaking**: how the script marks word and line boundaries, which is not always a space. See [segmentation](segmentation.md).
+* **Combination**: how [marks](../../terms/combining-mark.md) attach to signs and how signs cluster or fuse, as in a [conjunct](../../terms/conjunct.md).
+* **Ordering**: when the order signs are stored in differs from the order they are displayed in. See [reordering](../../terms/reordering.md).
+* **Stacking and positioning**: how signs pile into blocks or stack, as in a [stacking script](../../terms/stacking-script.md).
+* **Breaking**: how the script marks word and line boundaries, which is not always a space. See [segmentation](../../terms/segmentation.md).
 
 These belong to the script itself, which is why they are separate from orthography, the spelling rules of a single language.
 
@@ -67,7 +67,7 @@ This is a checklist for bringing a script to life in a design tool. Take your fo
 
 ## Related terms
 
-[Script](../language-terms/writing-systems-and-scripts/script.md) · [Complex text layout](complex-text-layout.md) · [Text direction](text-direction.md) · [Joining](joining.md) · [Reordering](reordering.md) · [Stacking script](stacking-script.md)
+[Script](script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Text direction](../../terms/text-direction.md) · [Joining](joining.md) · [Reordering](../../terms/reordering.md) · [Stacking script](../../terms/stacking-script.md)
 
 ## Further reading
 

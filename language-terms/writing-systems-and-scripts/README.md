@@ -50,17 +50,17 @@ The same script can be used to write more than one language, and single language
 A script consists of the visual symbols and marks used to write a language and the rules on how to use the script.
 
 * [Script](script.md)
-* [Symbol](../../terms/symbol.md)
-* [Script rules](../../terms/script-rules.md)
+* [Symbol](symbol.md)
+* [Script rules](script-rules.md)
 * [Mark](mark.md)
 
 #### Symbol terms
 
 Symbol refers to the individual visual elements that make up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.
 
-* [Grapheme](../../terms/grapheme.md)
+* [Grapheme](grapheme.md)
 * [Grapheme cluster](../../terms/grapheme-cluster.md)
-* [Symbol](../../terms/symbol.md)
+* [Symbol](symbol.md)
 
 #### Mark terms
 
@@ -77,9 +77,9 @@ These mark terms span across many scripts. Script specific marks are not listed 
 Script rules are the behaviors a script imposes on its own symbols and that applies to any language using the script in its writing system. For example, the latin script has a text direction rule of left-to-right.<br>
 
 * [Bidirectional text](../../terms/bidirectional-text.md)
-* [Joining](../../terms/joining.md)
+* [Joining](joining.md)
 * [Reph](../../terms/reph.md)
-* [Script rules](../../terms/script-rules.md)
+* [Script rules](script-rules.md)
 * [Stacking script](../../terms/stacking-script.md)
 * [Tategaki](../../terms/tategaki.md)
 * [Text direction](../../terms/text-direction.md)

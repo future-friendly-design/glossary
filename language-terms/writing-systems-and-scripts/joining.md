@@ -53,7 +53,7 @@ Write a short Arabic word whose letters all connect. Each letter takes its initi
 
 ## Common mistake
 
-Assuming that a font containing Arabic characters will display Arabic correctly. Without shaping, those characters appear in their isolated forms, unconnected, which reads as broken. Joining is also not the same as a [ligature](ligature.md). A ligature fuses two specific signs into one glyph for one combination. Joining is the systematic reshaping of letters as they connect along a whole word.
+Assuming that a font containing Arabic characters will display Arabic correctly. Without shaping, those characters appear in their isolated forms, unconnected, which reads as broken. Joining is also not the same as a [ligature](../../terms/ligature.md). A ligature fuses two specific signs into one glyph for one combination. Joining is the systematic reshaping of letters as they connect along a whole word.
 
 ## In practice
 
@@ -61,7 +61,7 @@ When you choose a design tool for a joining script, check that it shapes the tex
 
 ## Related terms
 
-[Arabic script](arabic-script.md) · [Text shaping](text-shaping.md) · [Complex text layout](complex-text-layout.md) · [Ligature](ligature.md) · [Script rules](script-rules.md)
+[Arabic script](../../terms/arabic-script.md) · [Text shaping](../../terms/text-shaping.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Ligature](../../terms/ligature.md) · [Script rules](script-rules.md)
 
 ## Further reading
 

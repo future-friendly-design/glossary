@@ -35,11 +35,11 @@ A symbol is an individual sign that makes up a script or writing system. TEST
 
 ## Why it matters
 
-Symbol is the word most people reach for when naming the pieces of a script, and it is useful precisely because it does not assume a script type. The basic signs are called letters in an [alphabet](alphabet.md), consonant signs in an [abjad](abjad.md), syllable signs in a [syllabary](syllabary.md), and characters in a [logographic](logographic.md) script, and "symbol" is the one word that covers them all. It is the sign-level layer of a script's anatomy, alongside the marks added to those signs ([mark](../language-terms/writing-systems-and-scripts/mark.md)) and the [script rules](script-rules.md) that govern how they combine and lay out. Because it is the casual umbrella, it helps to know the more precise terms it blurs together: a [character](character.md) is the abstract unit of text, a [glyph](glyph.md) is the shape a font draws for it, and a [grapheme](grapheme.md) is the smallest unit a reader treats as one sign.
+Symbol is the word most people reach for when naming the pieces of a script, and it is useful precisely because it does not assume a script type. The basic signs are called letters in an [alphabet](../../terms/alphabet.md), consonant signs in an [abjad](../../terms/abjad.md), syllable signs in a [syllabary](../../terms/syllabary.md), and characters in a [logographic](../../terms/logographic.md) script, and "symbol" is the one word that covers them all. It is the sign-level layer of a script's anatomy, alongside the marks added to those signs ([mark](mark.md)) and the [script rules](script-rules.md) that govern how they combine and lay out. Because it is the casual umbrella, it helps to know the more precise terms it blurs together: a [character](../../terms/character.md) is the abstract unit of text, a [glyph](../../terms/glyph.md) is the shape a font draws for it, and a [grapheme](grapheme.md) is the smallest unit a reader treats as one sign.
 
 ## Example
 
-The signs of a script are its symbols, whatever that script calls them: a letter in the [Latin alphabet](alphabet.md), a syllable sign in [Hiragana](hiragana.md), or a [Han character](han-characters.md). A vowel sign or accent added to one of those signs is a [mark](../language-terms/writing-systems-and-scripts/mark.md), not a separate symbol.
+The signs of a script are its symbols, whatever that script calls them: a letter in the [Latin alphabet](../../terms/alphabet.md), a syllable sign in [Hiragana](../../terms/hiragana.md), or a [Han character](../../terms/han-characters.md). A vowel sign or accent added to one of those signs is a [mark](mark.md), not a separate symbol.
 
 ## Common mistake
 
@@ -47,12 +47,12 @@ Assuming "symbol" is a precise technical category. In Unicode it is one, and it 
 
 ## In practice
 
-* **Pick the precise term when it matters:** [character](character.md) for the abstract unit (counting, encoding), [glyph](glyph.md) for the drawn shape (fonts, fallback), [grapheme](grapheme.md) for what a reader counts as one sign. Keep "symbol" for the casual umbrella.
+* **Pick the precise term when it matters:** [character](../../terms/character.md) for the abstract unit (counting, encoding), [glyph](../../terms/glyph.md) for the drawn shape (fonts, fallback), [grapheme](grapheme.md) for what a reader counts as one sign. Keep "symbol" for the casual umbrella.
 * **Watch the Unicode category in code:** a regex class like `\p{S}` matches symbols (math, currency, emoji) but not letters or marks, so "match every sign in the text" needs `\p{L}`, `\p{M}`, and `\p{S}` together, not `\p{S}` alone.
 
 ## Related terms
 
-[Character](character.md) · [Glyph](glyph.md) · [Grapheme](grapheme.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](script-rules.md)
+[Character](../../terms/character.md) · [Glyph](../../terms/glyph.md) · [Grapheme](grapheme.md) · [Mark](mark.md) · [Script](script.md) · [Script rules](script-rules.md)
 
 ## Further reading
 
