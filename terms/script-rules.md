@@ -6,7 +6,9 @@ aliases:
   - script-specific behavior
 level: foundational
 depth: deep
-summary: Script rules are the behaviors a script imposes on its own signs and marks, such as direction and joining, independent of any language.
+summary: >-
+  Script rules are the behaviors a script imposes on its own signs and marks,
+  such as direction and joining, independent of any language.
 related:
   - script
   - complex-text-layout
@@ -36,7 +38,7 @@ tags:
 
 ## Definition
 
-Script rules are the behaviors a script imposes on its own signs and marks, such as direction and joining, independent of any language.
+Script rules are the behaviors a script imposes on its own signs and marks, such as direction and joining, independent of any language. TEST
 
 ## Why it matters
 

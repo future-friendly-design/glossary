@@ -31,7 +31,7 @@ tags:
 
 ## Definition
 
-A symbol is an individual sign that makes up a script or writing system.
+A symbol is an individual sign that makes up a script or writing system. TEST
 
 ## Why it matters
 
