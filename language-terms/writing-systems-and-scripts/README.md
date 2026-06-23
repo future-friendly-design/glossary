@@ -88,16 +88,16 @@ A script consists of the visual symbols and marks used to write a language and t
 
 Symbol refers to the individual visual elements that make up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.&#x20;
 
-{% content-ref url="../../terms/symbol.md" %}
-[symbol.md](../../terms/symbol.md)
-{% endcontent-ref %}
-
 {% content-ref url="../../terms/grapheme.md" %}
 [grapheme.md](../../terms/grapheme.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../terms/grapheme-cluster.md" %}
 [grapheme-cluster.md](../../terms/grapheme-cluster.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/symbol.md" %}
+[symbol.md](../../terms/symbol.md)
 {% endcontent-ref %}
 
 
@@ -112,12 +112,12 @@ These mark terms span across many scripts. Script specific marks are not listed 
 [diacritic.md](../../terms/diacritic.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../terms/tone-mark.md" %}
-[tone-mark.md](../../terms/tone-mark.md)
-{% endcontent-ref %}
-
 {% content-ref url="../../terms/punctuation-mark.md" %}
 [punctuation-mark.md](../../terms/punctuation-mark.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/tone-mark.md" %}
+[tone-mark.md](../../terms/tone-mark.md)
 {% endcontent-ref %}
 
 
@@ -128,20 +128,20 @@ These mark terms span across many scripts. Script specific marks are not listed 
 
 Script rules are the behaviors a script imposes on its own symbols and that applies to any language using the script in its writing system. For example, the latin script has a text direction rule of left-to-right. <br>
 
-{% content-ref url="../../terms/script-rules.md" %}
-[script-rules.md](../../terms/script-rules.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/text-direction.md" %}
-[text-direction.md](../../terms/text-direction.md)
-{% endcontent-ref %}
-
 {% content-ref url="../../terms/bidirectional-text.md" %}
 [bidirectional-text.md](../../terms/bidirectional-text.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../terms/joining.md" %}
 [joining.md](../../terms/joining.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/reph.md" %}
+[reph.md](../../terms/reph.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/script-rules.md" %}
+[script-rules.md](../../terms/script-rules.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../terms/stacking-script.md" %}
@@ -152,8 +152,8 @@ Script rules are the behaviors a script imposes on its own symbols and that appl
 [tategaki.md](../../terms/tategaki.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../terms/reph.md" %}
-[reph.md](../../terms/reph.md)
+{% content-ref url="../../terms/text-direction.md" %}
+[text-direction.md](../../terms/text-direction.md)
 {% endcontent-ref %}
 
 
@@ -161,10 +161,6 @@ Script rules are the behaviors a script imposes on its own symbols and that appl
 #### Script classification terms&#x20;
 
 Scripts are classified by what their symbols represent. For example, if a script is to be classified as an alphabet, it must have separate symbols (called letters) representing consonants and vowels.&#x20;
-
-{% content-ref url="../../terms/alphabet.md" %}
-[alphabet.md](../../terms/alphabet.md)
-{% endcontent-ref %}
 
 {% content-ref url="../../terms/abjad.md" %}
 [abjad.md](../../terms/abjad.md)
@@ -174,32 +170,12 @@ Scripts are classified by what their symbols represent. For example, if a script
 [abugida.md](../../terms/abugida.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../terms/syllabary.md" %}
-[syllabary.md](../../terms/syllabary.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/logographic.md" %}
-[logographic.md](../../terms/logographic.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/logosyllabary.md" %}
-[logosyllabary.md](../../terms/logosyllabary.md)
+{% content-ref url="../../terms/alphabet.md" %}
+[alphabet.md](../../terms/alphabet.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../terms/alphasyllabary.md" %}
 [alphasyllabary.md](../../terms/alphasyllabary.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/featural-alphabet.md" %}
-[featural-alphabet.md](../../terms/featural-alphabet.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/pictographic.md" %}
-[pictographic.md](../../terms/pictographic.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/ideographic.md" %}
-[ideographic.md](../../terms/ideographic.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../terms/brahmic-scripts.md" %}
@@ -210,49 +186,35 @@ Scripts are classified by what their symbols represent. For example, if a script
 [cjk.md](../../terms/cjk.md)
 {% endcontent-ref %}
 
+{% content-ref url="../../terms/featural-alphabet.md" %}
+[featural-alphabet.md](../../terms/featural-alphabet.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/ideographic.md" %}
+[ideographic.md](../../terms/ideographic.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/logographic.md" %}
+[logographic.md](../../terms/logographic.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/logosyllabary.md" %}
+[logosyllabary.md](../../terms/logosyllabary.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/pictographic.md" %}
+[pictographic.md](../../terms/pictographic.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/syllabary.md" %}
+[syllabary.md](../../terms/syllabary.md)
+{% endcontent-ref %}
+
 
 
 ### Scripts to explore
 
 Now that you understand what scripts are and how they work, you can explore these scripts to learn more about its symbols, marks and rules:
-
-Alphabet scripts:
-
-{% content-ref url="../../terms/armenian-script.md" %}
-[armenian-script.md](../../terms/armenian-script.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/cyrillic.md" %}
-[cyrillic.md](../../terms/cyrillic.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/georgian-script.md" %}
-[georgian-script.md](../../terms/georgian-script.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/greek-script.md" %}
-[greek-script.md](../../terms/greek-script.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/latin-script.md" %}
-[latin-script.md](../../terms/latin-script.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/mongolian-script.md" %}
-[mongolian-script.md](../../terms/mongolian-script.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/ol-chiki.md" %}
-[ol-chiki.md](../../terms/ol-chiki.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/wancho-script.md" %}
-[wancho-script.md](../../terms/wancho-script.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../terms/warang-citi.md" %}
-[warang-citi.md](../../terms/warang-citi.md)
-{% endcontent-ref %}
 
 Abjad scripts:
 
@@ -298,14 +260,48 @@ Abugida scripts:
 [tibetan-script.md](../../terms/tibetan-script.md)
 {% endcontent-ref %}
 
-Syllabary scripts:
+Alphabet scripts:
 
-{% content-ref url="../../terms/hiragana.md" %}
-[hiragana.md](../../terms/hiragana.md)
+{% content-ref url="../../terms/armenian-script.md" %}
+[armenian-script.md](../../terms/armenian-script.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../terms/katakana.md" %}
-[katakana.md](../../terms/katakana.md)
+{% content-ref url="../../terms/cyrillic.md" %}
+[cyrillic.md](../../terms/cyrillic.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/georgian-script.md" %}
+[georgian-script.md](../../terms/georgian-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/greek-script.md" %}
+[greek-script.md](../../terms/greek-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/latin-script.md" %}
+[latin-script.md](../../terms/latin-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/mongolian-script.md" %}
+[mongolian-script.md](../../terms/mongolian-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/ol-chiki.md" %}
+[ol-chiki.md](../../terms/ol-chiki.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/wancho-script.md" %}
+[wancho-script.md](../../terms/wancho-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/warang-citi.md" %}
+[warang-citi.md](../../terms/warang-citi.md)
+{% endcontent-ref %}
+
+Featural scripts:
+
+{% content-ref url="../../terms/hangul.md" %}
+[hangul.md](../../terms/hangul.md)
 {% endcontent-ref %}
 
 Logographic scripts:
@@ -314,8 +310,12 @@ Logographic scripts:
 [han-characters.md](../../terms/han-characters.md)
 {% endcontent-ref %}
 
-Featural scripts:
+Syllabary scripts:
 
-{% content-ref url="../../terms/hangul.md" %}
-[hangul.md](../../terms/hangul.md)
+{% content-ref url="../../terms/hiragana.md" %}
+[hiragana.md](../../terms/hiragana.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/katakana.md" %}
+[katakana.md](../../terms/katakana.md)
 {% endcontent-ref %}
