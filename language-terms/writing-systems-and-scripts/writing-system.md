@@ -16,9 +16,12 @@ updated: 2026-06-22T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
-  - title: Writing system (Wikipedia)
-    url: https://en.wikipedia.org/wiki/Writing_system
+  - title: "Internationalization Glossary: writing system (W3C)"
+    url: https://www.w3.org/TR/i18n-glossary/
     type: authority
+  - title: "Language support in fonts (Google Fonts Knowledge)"
+    url: https://fonts.google.com/knowledge/using_type/language_support_in_fonts
+    type: resource
 license: CC-BY-4.0
 tags:
   - writing-systems-scripts
@@ -93,7 +96,7 @@ When a language has more than one writing system, let the reader choose instead 
 
 ### Further reading
 
-* Foundations: [Writing system (Wikipedia)](https://en.wikipedia.org/wiki/Writing_system) <!-- NEEDS EXPERT REVIEW: Wikipedia is an interim authority; replace with a primary source for the writing-system concept when the cohort confirms one. -->
+* Foundations: [Internationalization Glossary: writing system (W3C)](https://www.w3.org/TR/i18n-glossary/)
 * Resource library: [Language support in fonts (Google Fonts Knowledge)](https://fonts.google.com/knowledge/using_type/language_support_in_fonts)
 
 
