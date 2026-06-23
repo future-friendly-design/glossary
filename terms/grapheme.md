@@ -2,7 +2,7 @@
 term: Grapheme
 slug: grapheme
 aliases: []
-tags: [characters-encoding]
+tags: [language-linguistics]
 level: intermediate
 depth: core
 summary: "A grapheme is the smallest unit of a writing system that distinguishes meaning, such as a letter, a digit, or a punctuation mark."
