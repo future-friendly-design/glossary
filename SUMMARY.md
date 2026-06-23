@@ -148,6 +148,7 @@
   * [Surrogate pair](terms/surrogate-pair.md)
   * [Syllabary](terms/syllabary.md)
   * [Syloti Nagri](terms/syloti-nagri.md)
+  * [Symbol](terms/symbol.md)
 * [T](browse-all-terms/t/README.md)
   * [Tamil script](terms/tamil-script.md)
   * [Tategaki](terms/tategaki.md)
