@@ -68,7 +68,9 @@ A script consists of the visual symbols and marks used to write a language and t
 [script.md](script.md)
 {% endcontent-ref %}
 
-ADD SYMBOL
+{% content-ref url="../../terms/symbol.md" %}
+[symbol.md](../../terms/symbol.md)
+{% endcontent-ref %}
 
 {% content-ref url="../../terms/script-rules.md" %}
 [script-rules.md](../../terms/script-rules.md)
@@ -86,7 +88,9 @@ ADD SYMBOL
 
 Symbol refers to the individual visual elements that make up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.&#x20;
 
-ADD SYMBOL
+{% content-ref url="../../terms/symbol.md" %}
+[symbol.md](../../terms/symbol.md)
+{% endcontent-ref %}
 
 {% content-ref url="../../terms/grapheme.md" %}
 [grapheme.md](../../terms/grapheme.md)
@@ -212,4 +216,94 @@ Scripts are classified by what their symbols represent. For example, if a script
 
 Now that you understand what scripts are and how they work, you can explore these scripts to learn more about its symbols, marks and rules:
 
-CLAUDE ADD PAGE LINKS HERE
+{% content-ref url="../../terms/latin-script.md" %}
+[latin-script.md](../../terms/latin-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/greek-script.md" %}
+[greek-script.md](../../terms/greek-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/cyrillic.md" %}
+[cyrillic.md](../../terms/cyrillic.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/armenian-script.md" %}
+[armenian-script.md](../../terms/armenian-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/georgian-script.md" %}
+[georgian-script.md](../../terms/georgian-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/mongolian-script.md" %}
+[mongolian-script.md](../../terms/mongolian-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/ol-chiki.md" %}
+[ol-chiki.md](../../terms/ol-chiki.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/warang-citi.md" %}
+[warang-citi.md](../../terms/warang-citi.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/wancho-script.md" %}
+[wancho-script.md](../../terms/wancho-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/arabic-script.md" %}
+[arabic-script.md](../../terms/arabic-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/hebrew-script.md" %}
+[hebrew-script.md](../../terms/hebrew-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/devanagari.md" %}
+[devanagari.md](../../terms/devanagari.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/bengali-assamese.md" %}
+[bengali-assamese.md](../../terms/bengali-assamese.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/tamil-script.md" %}
+[tamil-script.md](../../terms/tamil-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/thai-script.md" %}
+[thai-script.md](../../terms/thai-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/tibetan-script.md" %}
+[tibetan-script.md](../../terms/tibetan-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/syloti-nagri.md" %}
+[syloti-nagri.md](../../terms/syloti-nagri.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/ethiopic-script.md" %}
+[ethiopic-script.md](../../terms/ethiopic-script.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/canadian-aboriginal-syllabics.md" %}
+[canadian-aboriginal-syllabics.md](../../terms/canadian-aboriginal-syllabics.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/hiragana.md" %}
+[hiragana.md](../../terms/hiragana.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/katakana.md" %}
+[katakana.md](../../terms/katakana.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/han-characters.md" %}
+[han-characters.md](../../terms/han-characters.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../terms/hangul.md" %}
+[hangul.md](../../terms/hangul.md)
+{% endcontent-ref %}
