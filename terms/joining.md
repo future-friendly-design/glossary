@@ -5,9 +5,7 @@ aliases: [cursive joining, joining forms, contextual forms]
 tags: [shaping-layout]
 level: intermediate
 depth: deep
-summary: >
-  Joining is the behavior in some scripts where signs connect and change shape
-  based on their position in a word.
+summary: Joining is the behavior in some scripts where signs connect and change shape based on their position in a word.
 related: [arabic-script, text-shaping, complex-text-layout, ligature, script-rules]
 status: voice-passed
 version_added: 0.1
