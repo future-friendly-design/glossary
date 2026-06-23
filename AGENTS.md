@@ -9,6 +9,8 @@ The notes below are the operational rules an agent most often gets wrong.
 - Each term is one markdown file under `terms/{slug}.md`; the filename is the slug.
 - `terms/*.md` is the content source of truth.
   Do not rewrite an entry's meaning to make an unrelated change.
+- Layout is hybrid: most entries are flat in `terms/`, but reviewed linguistic clusters move into topic subfolders (for example `language-terms/writing-systems-and-scripts/`) with a `README.md` landing page; see [adr-decisions/0011](adr-decisions/0011-linguistic-clusters-as-dedicated-sections.md) and `agent-progress-handover.md`.
+  The slug stays stable when a file moves.
 
 ## Frontmatter must be strict-YAML-safe (the sync depends on it)
 This content publishes through GitBook Git Sync, which parses strictly.
@@ -16,6 +18,9 @@ One malformed file fails the entire sync, not just that page.
 - **Quote any frontmatter value** containing a colon-space (`: `), a leading special character (`@ \` # ! & * | > % ?`), or a wrapping quote.
   Double quotes, escape interior `"`.
   The usual culprit is `summary` (prose, often has a colon).
+- **No folded or literal block scalars** for a value (`summary: >` or `summary: |` continued on indented lines).
+  Keep every frontmatter value on one line.
+  GitBook mishandles multi-line scalars and the page silently fails to register, which once broke content-ref links to two entries.
 - **Validate before opening a PR:** every file's frontmatter parses under a strict YAML loader, no `[[` remains in any body, and every `(slug.md)` link resolves to a real file.
   ```bash
   python3 - <<'PY'
@@ -45,6 +50,11 @@ If you add GitBook custom blocks (hints, tabs, cards, content-refs, includes) or
 > Keep a copy committed in the repo root and refresh it from GitBook's docs (https://gitbook.com/docs/creating-content/ai-coding-assistants-and-skillmd) when GitBook ships new block types.
 > Do not hand-write or paraphrase it; the file stays verbatim, so this note carries the date instead.
 > Last refreshed: 2026-06-20.
+
+- **Content-ref cards re-bind on edit, not on every git change.**
+  When you edit a term file that a content-ref card points to, the card may show "Broken link" in GitBook's synced/view mode until GitBook re-resolves; opening the edit branch or re-syncing fixes it.
+  The file is not broken, so do not chase it with commits.
+  For sync-proof cross-references, plain relative markdown links resolve by path with no page-binding to go stale.
 
 ## Accuracy and honesty
 - Verify every fact and URL against a primary source before adding it.
