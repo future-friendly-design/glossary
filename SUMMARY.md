@@ -4,6 +4,15 @@
 * [Contributing](CONTRIBUTING.md)
 * [Changelog](CHANGELOG.md)
 
+## language and linguistics terms <a href="#language-terms" id="language-terms"></a>
+
+* [Writing systems & scripts](language-terms/writing-systems-and-scripts/README.md)
+  * [Language](language-terms/writing-systems-and-scripts/language.md)
+  * [Mark](language-terms/writing-systems-and-scripts/mark.md)
+  * [Orthography](language-terms/writing-systems-and-scripts/orthography.md)
+  * [Script](language-terms/writing-systems-and-scripts/script.md)
+  * [Writing system](language-terms/writing-systems-and-scripts/writing-system.md)
+
 ## Browse by topic
 
 * [Typography](terms/typography.md)
@@ -97,7 +106,6 @@
 * [L](browse-all-terms/l/README.md)
   * [L1 speakers](terms/l1-speakers.md)
   * [L2 speakers](terms/l2-speakers.md)
-  * [Language](terms/language.md)
   * [Language family](terms/language-family.md)
   * [Latin script](terms/latin-script.md)
   * [Leading](terms/leading.md)
@@ -111,7 +119,6 @@
   * [Logosyllabary](terms/logosyllabary.md)
 * [M](browse-all-terms/m/README.md)
   * [Macrolanguage](terms/macrolanguage.md)
-  * [Mark](terms/mark.md)
   * [Matra](terms/matra.md)
   * [Measure](terms/measure.md)
   * [Mongolian script (traditional)](terms/mongolian-script.md)
@@ -123,7 +130,6 @@
   * [Ol Chiki](terms/ol-chiki.md)
   * [OpenType](terms/opentype.md)
   * [OpenType features](terms/opentype-features.md)
-  * [Orthography](terms/orthography.md)
 * [P](browse-all-terms/p/README.md)
   * [Pictographic](terms/pictographic.md)
   * [Pidgin](terms/pidgin.md)
@@ -135,7 +141,6 @@
   * [Reordering](terms/reordering.md)
   * [Reph](terms/reph.md)
 * [S](browse-all-terms/s/README.md)
-  * [Script](terms/script.md)
   * [Script (typeface)](terms/script-typeface.md)
   * [Script rules](terms/script-rules.md)
   * [Segmentation](terms/segmentation.md)
@@ -176,7 +181,6 @@
 * [W](browse-all-terms/w/README.md)
   * [Wancho script](terms/wancho-script.md)
   * [Warang Citi](terms/warang-citi.md)
-  * [Writing system](terms/writing-system.md)
 * [X](browse-all-terms/x/README.md)
   * [x-height](terms/x-height.md)
 

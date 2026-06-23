@@ -2,35 +2,47 @@
 term: Alphabet
 slug: alphabet
 aliases: []
-tags: [writing-systems-scripts]
 level: foundational
 depth: core
 summary: An alphabet is a script with separate letters for both consonants and vowels.
-related: [script, abugida, abjad, syllabary, featural-alphabet]
+related:
+  - script
+  - abugida
+  - abjad
+  - syllabary
+  - featural-alphabet
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18
-contributors: [sam-gordashko]
+updated: 2026-06-18T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Unicode Glossary: Alphabet"
+  - title: 'Unicode Glossary: Alphabet'
     url: https://www.unicode.org/glossary/#alphabet
     type: authority
 license: CC-BY-4.0
+tags:
+  - writing-systems-scripts
 ---
 
 # Alphabet
 
 ## Definition
+
 An alphabet is a script with separate letters for both consonants and vowels.
 
 ## Why it matters
+
 In an alphabet, individual letters stand for individual sounds, and both consonants and vowels get their own distinct letters written in sequence. This is the structure most familiar to Western readers and the one most interface and typeface tooling assumes by default. Knowing it is one category among several (alongside [abjad](abjad.md)s, which mark mainly consonants, and [abugida](abugida.md)s, where vowels attach to consonant bases) is what stops you from treating alphabetic behavior as universal. The [Latin](latin-script.md), [Greek](greek-script.md), and [Cyrillic](cyrillic.md) scripts are alphabets.
 
 ## Example
+
 In the English word "cat", the letters c, a, and t each represent one sound, with the vowel written as its own letter.
 
 ## Related terms
-[Script](script.md) · [Abugida](abugida.md) · [Abjad](abjad.md) · [Syllabary](syllabary.md) · [Featural alphabet](featural-alphabet.md)
+
+[Script](../language-terms/writing-systems-and-scripts/script.md) · [Abugida](abugida.md) · [Abjad](abjad.md) · [Syllabary](syllabary.md) · [Featural alphabet](featural-alphabet.md)
 
 ## Further reading
-- Foundations: [Unicode Glossary: Alphabet](https://www.unicode.org/glossary/#alphabet)
+
+* Foundations: [Unicode Glossary: Alphabet](https://www.unicode.org/glossary/#alphabet)
