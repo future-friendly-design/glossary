@@ -33,9 +33,9 @@ tags:
 
 A writing system defines the symbols and rules for writing a specific language.&#x20;
 
-Symbols belong to a script, and they follow their own script rules regardless of the language they are applied to.
+[Symbols](symbol.md) belong to a [script](script.md), and they follow their own script rules regardless of the language they are applied to.
 
-When a community sets rules on how a script can be used to write their specific language it becomes an orthography.&#x20;
+When a community sets rules on how a script can be used to write their specific language it becomes an [orthography](orthography.md).&#x20;
 
 A single language may use more than one script within one writing system (Japanese mixes four scripts: kanji, hiragana, katakana, and Latin<sup>1</sup>), or more than one writing system (Serbian can be written in either Cyrillic or Latin script depending on context<sup>2</sup>).
 
@@ -49,7 +49,7 @@ This is especially important when working with languages that are not commonly d
 
 #### Example
 
-For example, both French and Vietnamese languages use the Latin script in their writing systems. However, the orthography of each calls for differences in the marks used to modify the Latin symbols, which map to the line-height typographic property.
+For example, both French and Vietnamese languages use the Latin script in their writing systems. However, the orthography of each calls for differences in the [marks](mark.md) used to modify the Latin symbols, which map to the [line-height](../../terms/line-height.md) typographic property.
 
 * French - one mark per letter
 * Vietnamese - stacks multiple marks per letter<sup>3</sup>

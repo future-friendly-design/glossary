@@ -5,10 +5,7 @@ aliases:
   - spelling system
 level: intermediate
 depth: deep
-summary: >-
-  Orthography is the set of language-specific rules for using a script to write
-  a particular language: its spelling, capitalization, and punctuation
-  conventions.
+summary: "Orthography is the set of language-specific rules for using a script to write a particular language: its spelling, capitalization, and punctuation conventions."
 related:
   - dialect
   - script
@@ -50,7 +47,7 @@ None of them come from the font or the script, so multi-language support that st
 
 #### Example
 
-American and British English share one language and the same [Latin script](../../terms/latin-script.md), but follow different orthographies: "color" and "organize" in one, "colour" and "organise" in the other.<sup>1</sup> Same words, same letters available, different spelling rules. Orthographies can differ more deeply than spelling, down to the script itself: Serbian is written in both [Cyrillic](../../terms/cyrillic.md) and [Latin](../../terms/latin-script.md),<sup>2</sup> which makes it two [writing systems](writing-system.md) for one language.
+American and British English share one language and the same [Latin script](../../terms/latin-script.md), but follow different orthographies: "color" and "organize" in one, "colour" and "organise" in the other.<sup>1</sup> Same words, same letters available, different spelling rules. Orthographies can differ more deeply than spelling, down to the script itself: Serbian is written in both [Cyrillic](../../terms/cyrillic.md) and Latin,<sup>2</sup> which makes it two writing systems for one language.
 
 
 
@@ -66,7 +63,7 @@ Choosing a script gets the symbols on screen; it says nothing about the spelling
 
 * **Treat orthography as configurable, not implied:** where a language has more than one orthography, let the choice be set (a locale variant, a user preference) rather than assuming it from the language or the script. This connects to [segmentation](../../terms/segmentation.md) (line-breaking and capitalization rules differ by orthography) and [input methods](../../terms/input-method-editor.md) (how users type the orthography they want).
 * **Punctuation and casing are orthography, not afterthoughts:** quotation marks, decimal separators, and capitalization conventions vary by language, so they belong in localization data, not hardcoded UI strings.
-* **Orthographies change:** which orthography a language uses, and which is current or preferred, is community-specific and shifts over time (spelling reforms, script revivals). Treat it as expert-verified, and confirm specifics with the language cohort.
+* **Orthographies change:** which orthography a language uses, and which is current or preferred, is community-specific and shifts over time (spelling reforms, script revivals), so treat a language's current convention as something to verify with its speakers, not a constant you hardcode once.
 
 
 
