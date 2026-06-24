@@ -4,9 +4,7 @@ slug: writing-system
 aliases: []
 level: foundational
 depth: deep
-summary: >-
-  A writing system is a script applied to a specific language, together with the
-  orthographic rules for writing it.
+summary: A writing system defines the symbols and rules for writing a specific language.
 related:
   - language
   - script
