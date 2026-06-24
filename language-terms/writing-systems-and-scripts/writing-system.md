@@ -49,7 +49,7 @@ This is especially important when working with languages that are not commonly d
 
 #### Example
 
-For example, both French and Vietnamese languages use the Latin script in their writing systems. However, the orthography of each calls for differences in the [marks](mark.md) used to modify the Latin symbols, which map to the [line-height](../../terms/line-height.md) typographic property.
+For example, both French and Vietnamese languages use the [Latin script](../../terms/latin-script.md) in their writing systems. However, the orthography of each calls for differences in the [marks](mark.md) used to modify the Latin symbols, which map to the [line-height](../../terms/line-height.md) typographic property.
 
 * French - one mark per letter
 * Vietnamese - stacks multiple marks per letter<sup>3</sup>
