@@ -74,7 +74,7 @@ These mark terms span across many scripts. Script specific marks are not listed 
 
 #### Script rule terms
 
-Script rules are the behaviors a script imposes on its own symbols and that applies to any language using the script in its writing system. For example, the latin script has a text direction rule of left-to-right.<br>
+Script rules are the behaviors a script imposes on its own symbols and that applies to any language using the script in its writing system. For example, the latin script has a text direction rule of left-to-right.
 
 * [Bidirectional text](../../terms/bidirectional-text.md)
 * [Joining](joining.md)
@@ -103,7 +103,7 @@ Scripts are classified by what their symbols represent. For example, if a script
 
 ### Scripts to explore
 
-Now that you understand what scripts are and how they work, you can explore these scripts to learn more about its symbols, marks and rules:
+Now that you understand what scripts are and how they work, you can explore these scripts (organized by classification) to learn more about its symbols, marks and rules.
 
 #### Abjad scripts:
 
