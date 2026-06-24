@@ -4,10 +4,7 @@ slug: mark
 aliases: []
 level: intermediate
 depth: deep
-summary: >-
-  Mark is an umbrella term for a sign added to or around a base character; in
-  Unicode it is also a top-level character category split into nonspacing,
-  spacing combining, and enclosing marks.
+summary: A mark is a symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
 related:
   - combining-mark
   - spacing-combining-mark
@@ -37,28 +34,46 @@ tags:
 
 ## Definition
 
-Mark is an umbrella term for a sign added to or around a base character; in Unicode it is also a top-level character category split into nonspacing, spacing combining, and enclosing marks.
+A mark is a symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
 
-## Why it matters
+It is the modifying layer of a script's anatomy, attached to the base [symbols](symbol.md) it acts on and governed, like them, by the script's [rules](script-rules.md). "Mark" is an umbrella over several more precise terms: a [diacritic](../../terms/diacritic.md) is an accent that modifies a letter (the acute in "é", the tilde in "ñ"), a [tone mark](../../terms/tone-mark.md) records tone, script-specific marks such as the Arabic vowel marks ([harakat](../../terms/harakat.md)) or the Indic [nukta](../../terms/nukta.md) belong to one script's structure, and a [punctuation mark](../../terms/punctuation-mark.md) like a comma shares the word for a separate idea. Unicode gathers the technical senses under a top-level [combining mark](../../terms/combining-mark.md) category, split by how the mark occupies space into nonspacing, [spacing combining](../../terms/spacing-combining-mark.md), and [enclosing](../../terms/enclosing-mark.md) marks.<sup>1</sup>
 
-"Mark" is one of the most overloaded words in typography and text encoding. It gets used in at least four different senses depending on who is talking, so the same word might mean a typographic accent, a Unicode category, a script feature, or a comma, and reaching for it without context invites confusion. This page sorts those senses out and links each to its own entry. The thread that ties the technical senses together is Unicode, which makes "Mark" a top-level General Category (abbreviated M) for characters that combine with a base, split three ways: nonspacing (Mn), spacing combining (Mc), and enclosing (Me).
+## Why it matters in design systems
 
-## The four senses of "mark"
+The trap is treating marks as cosmetic: optional accents a font will "just handle" once it has the letters. Marks are part of the writing system, and they drive concrete decisions. Font coverage is the first: a typeface has to include the marks a language uses and the logic to position them, not only the base letters, or the text renders broken even though every letter is present. [Line height](../../terms/line-height.md) is the second: when a language stacks more than one mark on a letter, those marks climb above the cap height and need extra vertical room, so the same component can need a larger line-height value for one language than another. Encoding is the third: the same accented letter can be stored as one precomposed [code point](../../terms/code-point.md) or as a base letter plus a combining mark, which changes how text is searched, counted, and compared. And [shaping](../../terms/text-shaping.md) is the fourth: the layout engine, not the font alone, positions each mark over its base, so a tool that does not shape will misplace them. Covering the marks in the font is necessary but not sufficient; the encoding and the shaping have to line up too.
 
-* **Diacritical sense:** a [diacritic](../../terms/diacritic.md), an accent or similar sign that modifies a letter (the acute in "é", the tilde in "ñ"). This is the visual/typographic sense.
-* **Combining / encoding sense:** in Unicode, a character that attaches to the preceding base. This is the General Category M, covered by [combining mark](../../terms/combining-mark.md) (the nonspacing case), [spacing combining mark](../../terms/spacing-combining-mark.md), and [enclosing mark](../../terms/enclosing-mark.md).
-* **Script-structural sense:** marks that are part of how a particular script writes, such as the Arabic vowel marks ([harakat](../../terms/harakat.md)) or the Indic dot ([nukta](../../terms/nukta.md)) that changes a consonant's value.
-* **Punctuation sense:** a [punctuation mark](../../terms/punctuation-mark.md) such as a comma or question mark, a separate idea that happens to share the word.
+## Examples
 
-## In Unicode
+**One mark.** The acute over "é" is a single diacritic on a base letter. It can be stored as one precomposed code point (U+00E9) or as "e" followed by a combining acute accent (U+0301).<sup>2</sup>
 
-The General Category M groups the combining marks and divides them by how they occupy space. A nonspacing mark (Mn) adds no width and renders on top of its base. A spacing combining mark (Mc) takes its own advance width while still belonging to the base character, common in Indic scripts. An enclosing mark (Me) surrounds its base, like an enclosing circle. These categories drive text segmentation, normalization, and rendering, so software that processes text by category has to handle all three.
+**Stacked marks.** Vietnamese piles two marks on one vowel: the letter "Ẩ" (U+1EA8) carries a circumflex and a hook above, decomposing to the sequence &lt;U+0041, U+0302, U+0309&gt;. Not every rendering system places two marks on one base correctly, and the stack needs more vertical room than a single accent.<sup>3</sup>
 
-## Related terms
+**Script-structural marks.** Arabic writes its short vowels as harakat, marks set above and below the consonants and usually left out in everyday text. They belong to how the script works, not to one language.
 
-[Combining mark](../../terms/combining-mark.md) · [Spacing combining mark](../../terms/spacing-combining-mark.md) · [Enclosing mark](../../terms/enclosing-mark.md) · [Diacritic](../../terms/diacritic.md) · [Nukta](../../terms/nukta.md) · [Harakat](../../terms/harakat.md) · [Punctuation mark](../../terms/punctuation-mark.md)
+**Enclosing marks.** An enclosing mark surrounds its base instead of sitting over it, like the circle around an enclosed keycap.<sup>1</sup>
+
+## Common mistake
+
+Comparing two strings that look identical and getting "not equal." The accented "é" a user types might be one code point or a base "e" plus a combining acute; on screen they are indistinguishable, but as stored bytes they differ, so a search, a deduplication check, a uniqueness constraint, or a length count can quietly fail on real input. The fix is normalization: convert text to a single canonical form (NFC is the usual choice) before you store, compare, or count it. This is an encoding decision, separate from whether the font draws the mark correctly.<sup>2</sup>
+
+## In practice
+
+* **Check the font covers the marks, not just the base letters:** a typeface can include every letter a language needs and still be missing the marks or the logic to place them, which leaves accented text rendering broken. Set a string with real marks, not just A to Z, before you commit to a font. See [font coverage](../../terms/font-coverage.md).
+* **Budget line height for stacked marks:** languages such as Vietnamese put a vowel mark and a tone mark on one letter, and that stack rises higher than a single accent. Give those scripts room in your line-height tokens so marks are not clipped by the line above.
+* **Normalize text before you store or compare it:** pick a canonical form (commonly NFC) and apply it on input, so two visually identical strings match and counts stay correct no matter how the marks were entered.
+
+## Related terms and mentions
+
+[Code point](../../terms/code-point.md) · [Combining mark](../../terms/combining-mark.md) · [Diacritic](../../terms/diacritic.md) · [Enclosing mark](../../terms/enclosing-mark.md) · [Font coverage](../../terms/font-coverage.md) · [Harakat](../../terms/harakat.md) · [Line height](../../terms/line-height.md) · [Nukta](../../terms/nukta.md) · [Punctuation mark](../../terms/punctuation-mark.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tone mark](../../terms/tone-mark.md) · [Writing systems & scripts](./)
 
 ## Further reading
 
 * Code & specs: [Unicode Standard Annex #44: General Category Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
 * Foundations: [Combining Character (Unicode Glossary)](https://www.unicode.org/glossary/#combining_character)
+
+### Sources
+
+1. Unicode's top-level General Category "Mark" (M) splits into nonspacing (Mn), spacing combining (Mc), and enclosing (Me) marks - Unicode Standard Annex #44: General Category Values [https://www.unicode.org/reports/tr44/#General_Category_Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
+2. Precomposed and decomposed spellings of an accented letter are canonically equivalent and normalization removes the difference for comparison - Unicode Glossary: Canonical Equivalence [https://www.unicode.org/glossary/#canonical_equivalence](https://www.unicode.org/glossary/#canonical_equivalence)
+3. Vietnamese "Ẩ" (U+1EA8) decomposes to <U+0041, U+0302, U+0309>, stacking two marks on one base, and not all rendering systems handle multiple marks on a single base - The Unicode Standard 17.0, Chapter 7 [https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/](https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/)
+</content>
