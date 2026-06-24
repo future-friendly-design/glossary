@@ -73,7 +73,7 @@ The script was covered; the writing system was not. That is two different checks
 Check support at both levels, because a font passing the script check tells you nothing about the writing-system check.
 
 * Script level: can the font draw and position the symbols and marks at all.
-* Writing-system level: does the language's own behavior survive, line-height room for stacked marks, plus locale-correct casing, hyphenation, quotation marks, and number formatting.
+* Writing-system level: does the language's own behaviour survive, line-height room for stacked marks, plus locale-correct casing, hyphenation, quotation marks, and number formatting.
 
 For multi-language design systems, map out all the font properties that need to change for each language, line-height is going to be one of them. Vietnamese needs more vertical room than French at the same size; if line-height is a single hardcoded number, the language with the tallest mark stacks is the one that clips.
 
