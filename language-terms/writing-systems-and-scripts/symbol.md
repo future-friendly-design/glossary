@@ -53,6 +53,24 @@ In computing, each symbol also maps to a character, the abstract unit of text so
 
 ### Why it matters in design systems
 
+A single symbol is three things at once, depending on who is handling it: a grapheme to the reader, a glyph to the font in your design tool, and a character to your code. A design system has to satisfy all three, and they fail independently, so choosing a font that includes the right symbols still isn't the whole answer when supporting a language in your design system.&#x20;
+
+
+
+
+
+
+
+Text is a functional part of the design system, and the way the glyphs look contributes to the visual identity, so its common for brand or marketing cross-functional teams to choose the typefaces and fonts that best represent the brand identity.&#x20;
+
+
+
+Picking a typeface feels like a one-time brand decision, but coverage and legibility get decided per symbol and per use case. The script a language uses narrows which typefaces are even eligible, the ones with coverage for it. Then every symbol your content actually uses has to exist as a glyph in the font you picked and be drawn clearly enough for where it lands. A symbol with no glyph falls back or renders as tofu. A symbol that is present but ambiguous, a lowercase "l" that reads as "1", is technically covered and still wrong in the spot that matters. The same typeface can be right for a headline and a liability in a dense form, because which symbols carry risk, and the size they are read at, change with the use case.
+
+The other two views bite where you are not looking. Stored as a character, the same symbol can take more than one form: "é" is one code point or two, so text that looks right can still break search, counting, and input. Read as a grapheme, what a person counts as "one character" is not what your code counts, so field limits and truncation surprise people. Getting the glyph right is necessary, not sufficient: the character and grapheme handling have to hold up too.<br>
+
+
+
 Picking a typeface feels like a brand decision you make once, but it cascades all the way down to the symbol. The [script](script.md) a language uses decides which [typefaces](../../terms/typeface.md) are even eligible: the ones with coverage for that script. The symbol is the next zoom in. Every symbol your content actually uses has to exist as a glyph in the font you picked ([font coverage](../../terms/font-coverage.md)), and it has to be drawn clearly enough for where it appears. A symbol with no glyph falls back to another font or renders as tofu. A symbol that is present but ambiguous, a lowercase "l" that reads as a "1", is technically covered and still wrong in the spot that matters. So coverage is necessary, not sufficient: the same typeface can be the right call for a headline and the wrong one for a dense form, because which symbols carry risk, and the size they are read at, change with the use case.
 
 #### Example
