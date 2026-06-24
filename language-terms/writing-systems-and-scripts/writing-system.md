@@ -83,12 +83,9 @@ When a language has more than one writing system, let the reader choose instead 
 
 ***
 
-### Related terms
+### Related terms and mentions
 
-* [Language](../linguistics/language.md)
-* [Latin script](../../terms/latin-script.md)
-* [Orthography](orthography.md)
-* [Script](script.md)
+[Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Hiragana](../../terms/hiragana.md) · [Katakana](../../terms/katakana.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](../../terms/tone-mark.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](README.md)
 
 ### Further reading
 

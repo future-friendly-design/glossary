@@ -74,7 +74,7 @@ Choosing a script gets the symbols on screen; it says nothing about the spelling
 
 ### Related terms and mentions
 
-[Dialect](../../terms/dialect.md) · [Script](script.md) · [Writing system](writing-system.md) · [Segmentation](../../terms/segmentation.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Autonym](../../terms/autonym.md)
+[Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Localization](../../terms/localization.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Symbol](symbol.md) · [Writing system](writing-system.md) · [Writing systems & scripts](README.md)
 
 
 
