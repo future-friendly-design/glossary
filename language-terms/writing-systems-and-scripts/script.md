@@ -42,7 +42,7 @@ A script is the set of visual [symbols](symbol.md), [marks](mark.md), and [rules
 
 ### Why it matters in design systems
 
-Script and language are not the same thing, and conflating them is one of the most common mistakes in interface work. A single script can serve many languages (the [Latin script](../../terms/latin-script.md) writes English, Vietnamese, and Swahili<sup>1</sup>), and a single language can be written in more than one script.
+Script and language are not the same thing, and conflating them is one of the most common mistakes in interface work. A single script can serve many languages (the [Latin script](../../terms/latin-script.md) writes languages as varied as English, Vietnamese, and Swahili<sup>1</sup>), and a single language can be written in more than one script.
 
 In a design system, the script is the unit that drives your typography decisions. The scripts you support determine which [typefaces](../../terms/typeface.md) and [fonts](../../terms/font.md) you can use (a font only helps if it has [coverage](../../terms/font-coverage.md) for the script), the [line height](../../terms/line-height.md) and spacing the text needs, the [text direction](../../terms/text-direction.md) it runs in, and the [shaping](../../terms/text-shaping.md) and input it requires. So "we support English and Hindi" is not one job done twice; it is two scripts with different fonts, different vertical metrics, and different layout behavior.
 
