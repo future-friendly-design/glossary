@@ -51,10 +51,10 @@ The combination of script and orthography is also known as the [writing system](
 
 Scripts are classified by what each symbol represents: [alphabets](../../terms/alphabet.md), [abjads](../../terms/abjad.md), [abugidas](../../terms/abugida.md), [alphasyllabaries](../../terms/alphasyllabary.md), [syllabaries](../../terms/syllabary.md), [logographic](../../terms/logographic.md), [logosyllabary](../../terms/logosyllabary.md), [ideographic](../../terms/ideographic.md), [featural](../../terms/featural-alphabet.md), and [pictographic](../../terms/pictographic.md) systems. They are often grouped into families like [Brahmic scripts](../../terms/brahmic-scripts.md) and [CJK](../../terms/cjk.md) to help us understand the common properties across related scripts.&#x20;
 
-To make that concrete, here is a greeting written in four scripts, each a different type, and how differently they behave:
+The same greeting in four scripts:
 
 | Script | Looks like | Direction | What makes it different |
-| --- | --- | --- | --- |
+| --- | :---: | --- | --- |
 | Latin (alphabet) | Hello | Left to right | Mostly one shape per letter |
 | Arabic (abjad) | مرحبا | Right to left | Letters join into cursive forms |
 | Devanagari (abugida) | नमस्ते | Left to right | Marks reorder and stack |
