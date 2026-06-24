@@ -4,9 +4,7 @@ slug: script
 aliases: []
 level: foundational
 depth: deep
-summary: >-
-  A script is the set of visual symbols and rules used to write one or more
-  languages.
+summary: A script is the set of visual symbols, marks, and rules used to write one or more languages.
 related:
   - alphabet
   - abugida
@@ -40,30 +38,37 @@ This is the writing-systems sense of "script." For the type-design classificatio
 
 ## Definition
 
-A script is the set of visual symbols and rules used to write one or more languages.
+A script is the set of visual symbols, marks, and rules used to write one or more languages.
 
-## Why it matters
+### Why it matters in design systems
 
-Script and language are not the same thing, and conflating them is one of the most common mistakes in interface work. A single script can serve many languages (the Latin script writes English, Vietnamese, and Swahili), and a single language can be written in more than one script. Scripts are classified by what each sign represents: [alphabet](../../terms/alphabet.md)s, [abugida](../../terms/abugida.md)s, [abjad](../../terms/abjad.md)s, [syllabaries](../../terms/syllabary.md), and [logographic](../../terms/logographic.md) systems each behave differently when it comes to spacing, line height, input, and font support. For a design system that means the unit you actually have to support is the script, not the country or the language, and the scripts you choose to cover define the typographic and engineering work ahead.
+Script and language are not the same thing, and conflating them is one of the most common mistakes in interface work. A single script can serve many languages (the [Latin script](../../terms/latin-script.md) writes English, Vietnamese, and Swahili<sup>1</sup>), and a single language can be written in more than one script. Scripts are also classified by what each symbol represents, and each type behaves differently for spacing, line height, input, and font support: [alphabets](../../terms/alphabet.md), [abjads](../../terms/abjad.md), [abugidas](../../terms/abugida.md), [alphasyllabaries](../../terms/alphasyllabary.md), [syllabaries](../../terms/syllabary.md), [logographic](../../terms/logographic.md), [logosyllabary](../../terms/logosyllabary.md), [ideographic](../../terms/ideographic.md), [featural](../../terms/featural-alphabet.md), and [pictographic](../../terms/pictographic.md) systems. Scripts also group into families such as [Brahmic scripts](../../terms/brahmic-scripts.md) and [CJK](../../terms/cjk.md). For a design system that means the unit you actually have to support is the script, not the country or the language, and the scripts you choose to cover define the typographic and engineering work ahead.
 
-## Example
+#### Example
 
-English, Vietnamese, and Turkish are all written with the same script (Latin) but are different languages. Conversely, Serbian is written in both Cyrillic and Latin.
+English, Vietnamese, and Turkish are all written with the same script (Latin) but are different languages. Conversely, Serbian is written in both Cyrillic and Latin.<sup>2</sup>
 
-## Common mistake
+### Common mistake
 
 Treating "languages supported" as the planning unit and assuming a font or layout that works for one language works for the rest. Coverage is per script: a typeface that handles English fine may have no glyphs for Devanagari or Arabic, and a layout that works left to right may break entirely for a right-to-left or [stacking](../../terms/stacking-script.md) script.
 
-## In practice
+### In practice
 
-* **Plan support by script, then verify** [**font-coverage**](../../terms/font-coverage.md)**:** the question "do we support Hindi?" is really "do our fonts and shaping cover Devanagari, and does our layout handle its reordering and conjuncts?" Pick fonts with genuine coverage for every script you ship, not just Latin.
+* **Plan support by script, then verify** [**font coverage**](../../terms/font-coverage.md)**:** the question "do we support Hindi?" is really "do our fonts and shaping cover Devanagari, and does our layout handle its reordering and conjuncts?" Pick fonts with genuine coverage for every script you ship, not just Latin.
 * **Do not assume Latin defaults:** spacing, capitalization, line breaking, and input all vary by script. What looks correct in English is not evidence the script is rendering correctly.
-* **Languages:** which languages use which script, and the finer points of each script's behavior, are exactly the material the language cohort verifies. NEEDS EXPERT REVIEW for any specific script-to-language mapping you rely on.
+* **Confirm the script before the font:** which script a language uses is not always obvious, and some languages use more than one, so verify the script-to-language mapping from a reliable source before committing fonts and layout.
 
-## Related terms
+***
 
-[Alphabet](../../terms/alphabet.md) · [Abugida](../../terms/abugida.md) · [Abjad](../../terms/abjad.md) · [Syllabary](../../terms/syllabary.md) · [Logographic](../../terms/logographic.md) · [Featural alphabet](../../terms/featural-alphabet.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Font coverage](../../terms/font-coverage.md)
+### Related terms and mentions
 
-## Further reading
+[Abjad](../../terms/abjad.md) · [Abugida](../../terms/abugida.md) · [Alphabet](../../terms/alphabet.md) · [Alphasyllabary](../../terms/alphasyllabary.md) · [Arabic script](../../terms/arabic-script.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [CJK](../../terms/cjk.md) · [Conjunct](../../terms/conjunct.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Featural alphabet](../../terms/featural-alphabet.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Ideographic](../../terms/ideographic.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Logographic](../../terms/logographic.md) · [Logosyllabary](../../terms/logosyllabary.md) · [Mark](mark.md) · [Pictographic](../../terms/pictographic.md) · [Reordering](../../terms/reordering.md) · [Script (typeface)](../../terms/script-typeface.md) · [Stacking script](../../terms/stacking-script.md) · [Syllabary](../../terms/syllabary.md) · [Symbol](symbol.md) · [Text direction](../../terms/text-direction.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](README.md)
+
+### Further reading
 
 * Foundations: [Unicode Glossary: Script](https://www.unicode.org/glossary/#script)
+
+### Sources
+
+1. A script serves multiple languages - Unicode Glossary: Script [https://www.unicode.org/glossary/#script](https://www.unicode.org/glossary/#script)
+2. Serbian script names - Unicode CLDR [https://cldr.unicode.org/translation/displaynames/script-names](https://cldr.unicode.org/translation/displaynames/script-names)
