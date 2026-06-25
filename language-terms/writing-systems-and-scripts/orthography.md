@@ -40,12 +40,12 @@ A [writing system](writing-system.md) is made of two parts: a [script](script.md
 
 Two languages can share the same script and still follow different orthographies. Here are the layers an orthography sets, with examples of how the same script changes between languages:
 
-| Layer | What it sets | Example (same script) |
-| --- | --- | --- |
-| Spelling | which letters spell a word | `color` → `colour` |
-| Capitalization | which words take a capital | German capitalizes every noun |
-| Punctuation | which marks, placed how | `"…"` → `« … »` |
-| Numbers | how digits are grouped | `1,000.5` → `1 000,5` |
+| Layer | What it sets | Example | Differs between |
+| --- | --- | --- | --- |
+| Spelling | which letters spell a word | `color` vs `colour` | US and British English |
+| Capitalization | which words take a capital | every noun capitalized, or not | German and English |
+| Punctuation | which marks, placed how | `"…"` vs `« … »` | English and French |
+| Numbers | how digits are grouped | `1,000.5` vs `1 000,5` | English and French |
 
 ### Why it matters in design systems
 
