@@ -64,13 +64,15 @@ Symbol refers to the individual visual elements that make up a script. Scripts h
 
 #### Mark terms
 
-A mark is a symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
+A mark is a kind of symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
 
 These mark terms span across many scripts. Script specific marks are not listed here, see the script examples.
 
 * [Diacritic](../../terms/diacritic.md)
 * [Punctuation mark](../../terms/punctuation-mark.md)
 * [Tone mark](../../terms/tone-mark.md)
+
+One of these shares the word but not the sense. A [punctuation mark](../../terms/punctuation-mark.md) stands alone instead of modifying another symbol, so [Unicode](../../terms/unicode.md) files it under punctuation, not marks. It is listed here because it carries the word "mark", not because it works like one.
 
 #### Script rule terms
 

@@ -33,7 +33,7 @@ A punctuation mark is a symbol such as a comma, period, or question mark that st
 
 ## Why it matters
 
-Punctuation is the fourth sense of "[mark](../language-terms/writing-systems-and-scripts/mark.md)", unrelated to combining marks or diacritics even though it shares the word. The reason it matters: punctuation is genuinely language and script specific, which is easy to forget when English defaults are baked into a product. Which symbols are used, how quotation marks look, whether a question mark is reversed or a sentence-ender is a different glyph: these are part of a language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md), not universal constants. In Unicode, punctuation is its own family of General Categories (the P groups), distinct from letters and from combining marks.
+Punctuation shares the word "[mark](../language-terms/writing-systems-and-scripts/mark.md)" but not the sense: unlike a combining mark or a diacritic, a punctuation mark does not modify another symbol, it stands alone. The reason it matters: punctuation is genuinely language and script specific, which is easy to forget when English defaults are baked into a product. Which symbols are used, how quotation marks look, whether a question mark is reversed or a sentence-ender is a different glyph: these are part of a language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md), not universal constants. In Unicode, punctuation is its own family of General Categories (the P groups), distinct from letters and from combining marks.
 
 ## Example
 
