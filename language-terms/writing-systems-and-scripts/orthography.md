@@ -5,7 +5,10 @@ aliases:
   - spelling system
 level: intermediate
 depth: deep
-summary: "Orthography is the set of language-specific rules for using a script to write a particular language: its spelling, capitalization, and punctuation conventions."
+summary: >-
+  Orthography is the set of language-specific rules for using a script to write
+  a particular language: its spelling, capitalization, and punctuation
+  conventions.
 related:
   - dialect
   - script
@@ -22,7 +25,7 @@ further_reading:
   - title: W3C Internationalization (i18n)
     url: https://www.w3.org/International/
     type: authority
-  - title: 'CSS Color Module Level 4'
+  - title: CSS Color Module Level 4
     url: https://www.w3.org/TR/css-color-4/
     type: code
 license: CC-BY-4.0
@@ -38,14 +41,16 @@ Orthography is the set of language-specific rules for using a script to write a 
 
 A [writing system](writing-system.md) is made of two parts: a [script](script.md) and an orthography. The script supplies the [symbols](symbol.md); the orthography is the language-specific layer that decides how one language uses them.
 
-Two languages can share the same script and still follow different orthographies. Here are the layers an orthography sets, with examples of how the same script changes between languages:
+Two languages can share the same script and still follow different orthographies. \
+\
+Here are some of the rules an orthography sets, with examples of how the same script (Latin) changes between languages:
 
-| Layer | What it sets | Example | Differs between |
-| --- | --- | --- | --- |
-| Spelling | which letters spell a word | `color` vs `colour` | US and British English |
-| Capitalization | which words take a capital | every noun capitalized, or not | German and English |
-| Punctuation | which marks, placed how | `"…"` vs `« … »` | English and French |
-| Numbers | how digits are grouped | `1,000.5` vs `1 000,5` | English and French |
+| Rule included in orthography | What it sets               | Example                        | Differs between        |
+| ---------------------------- | -------------------------- | ------------------------------ | ---------------------- |
+| Spelling                     | Which letters spell a word | `color` vs `colour`            | US and British English |
+| Capitalization               | Which words take a capital | every noun capitalized, or not | German and English     |
+| Punctuation                  | Which marks, placed how    | `"…"` vs `« … »`               | English and French     |
+| Numbers                      | How digits are grouped     | `1,000.5` vs `1 000,5`         | English and French     |
 
 ### Why it matters in design systems
 
@@ -82,7 +87,7 @@ So orthography forks into two layers that must not be mixed. The words a person 
 
 ### Related terms and mentions
 
-[CLDR](../../terms/cldr.md) · [Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Locale](../../terms/locale.md) · [Localization](../../terms/localization.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](README.md)
+[CLDR](../../terms/cldr.md) · [Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Locale](../../terms/locale.md) · [Localization](../../terms/localization.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
