@@ -51,9 +51,9 @@ From a linguistics perspective, the [symbol](symbol.md) sits inside a larger str
 
 When a written language is read, the smallest symbol, or combination of symbols, that distinguishes one meaning from another is a [grapheme](../linguistics/grapheme.md). For example, `e` is one symbol and one grapheme; `é` is two symbols, a letter plus an accent mark, but still one grapheme.
 
-When a written language is to be printed or shown on a screen, typography refers to the specific shape a [font](../../terms/font.md) draws for a symbol as a [glyph](../../terms/glyph.md). For example, the `e` and `é` you see on this page are glyphs. The same symbol in the same font can have more than one glyph. For example `e`, _`e`_, **`e`**, _**`e`**_, are the same symbol represented as four different glyphs. &#x20;
+When a written language is to be printed or shown on a screen, [typography](../../terms/typography.md) refers to the specific shape a [font](../../terms/font.md) draws for a symbol as a [glyph](../../terms/glyph.md). For example, the `e` and `é` you see on this page are glyphs. The same symbol in the same font can have more than one glyph. For example `e`, _`e`_, **`e`**, _**`e`**_, are the same symbol represented as four different glyphs. &#x20;
 
-In computer programming, there is a universal coding standard called Unicode. What this glossary calls a symbol, Unicode refers to as a [character](../../terms/character.md). Each character is given a unique ID number called a code point. They reserve the term `symbol` for math symbols like `+`, currency symbols like `$`, modifier symbols, and other symbols such as `©` and emoji `🔠`.<sup>1</sup>
+In computer programming, there is a universal coding standard called [Unicode](../../terms/unicode.md). What this glossary calls a symbol, Unicode refers to as a [character](../../terms/character.md). Each character is given a unique ID number called a [code point](../../terms/code-point.md). They reserve the term `symbol` for math symbols like `+`, currency symbols like `$`, modifier symbols, and other symbols such as `©` and emoji `🔠`.<sup>1</sup>
 
 In design systems, the designers and developers working on software, websites, and other user interfaces use `character` as the abstract unit used to measure a single piece of text. For example, if a form had a limit of how much text could be entered into the input, both `e` and `é` would be measured as one character of the allowed text.&#x20;
 
@@ -63,7 +63,7 @@ _In case you missed it, `character` is also the name for the symbols within a lo
 
 A common mistake is assuming that all languages that have the same script in their writing system use the same symbols for the same purpose. It's important to look at the [orthography](orthography.md) of each language alongside the symbols. \
 \
-For example, English and French both use the Latin script. However, the English orthography requires speech wrapped in the curly quote symbol, `“like this”`, while French requires guillemets with a space sitting inside each one, `« like this »`.<sup>2</sup>
+For example, English and French both use the [Latin script](../../terms/latin-script.md). However, the English orthography requires speech wrapped in the curly quote symbol, `“like this”`, while French requires guillemets with a space sitting inside each one, `« like this »`.<sup>2</sup>
 
 
 
@@ -79,7 +79,7 @@ The colon never changed. What it meant changed in every system it crossed: an as
 
 ### In practice
 
-* **Check the orthography, not just the script, before reusing symbols across languages:** two languages can share a script and still differ in which symbols they use and how, like English's curly quotes versus French's guillemets. Do not hardcode one language's choices; pull them from locale data. Unicode's [CLDR](../../terms/cldr.md) publishes per-language conventions such as quotation marks as machine-readable data, and the internationalization libraries built on it apply the right symbol for the language automatically.<sup>4</sup>
+* **Check the orthography, not just the script, before reusing symbols across languages:** two languages can share a script and still differ in which symbols they use and how, like English's curly quotes versus French's guillemets. Do not hardcode one language's choices; pull them from [locale](../../terms/locale.md) data. Unicode's [CLDR](../../terms/cldr.md) publishes per-language conventions such as quotation marks as machine-readable data, and the internationalization libraries built on it apply the right symbol for the language automatically.<sup>4</sup>
 * **When the rules are not lookup-able, capture them, because you may be the source:** for an under-resourced or newly digitized language, the conventions often are not in any library yet; they live with the people who read and write it. Get them from fluent readers, write them into your specs and tokens next to the symbols, and contribute them upstream so the next team can find them. CLDR's [Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and brand-new locales, which is how "I know the rule but it is not online" becomes part of the commons.<sup>5</sup>
 * **Keep machine-facing names to a safe character set:** name tokens, files, components, and assets with plain ASCII (letters, digits, hyphens, underscores) and leave emojis, accents, quotes, and slashes for human-readable content, so a name that works in your design tool does not break when it becomes a filename or a code identifier.<sup>3</sup>
 
@@ -87,7 +87,7 @@ The colon never changed. What it meant changed in every system it crossed: an as
 
 ### Related terms and mentions
 
-[Abjad](../../terms/abjad.md) · [Alphabet](../../terms/alphabet.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Han characters](../../terms/han-characters.md) · [Legibility](../linguistics/legibility.md) · [Logographic](../../terms/logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Readability](../linguistics/readability.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](../../terms/syllabary.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](../../terms/abjad.md) · [Alphabet](../../terms/alphabet.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Code point](../../terms/code-point.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Latin script](../../terms/latin-script.md) · [Legibility](../linguistics/legibility.md) · [Locale](../../terms/locale.md) · [Logographic](../../terms/logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](../../terms/syllabary.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
