@@ -4,9 +4,7 @@ slug: mark
 aliases: []
 level: intermediate
 depth: deep
-summary: >-
-  A mark is a symbol that modifies or accompanies another symbol, changing how
-  it is pronounced, what it means, or how it functions.
+summary: A mark is a kind of symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
 related:
   - combining-mark
   - spacing-combining-mark
@@ -36,43 +34,35 @@ tags:
 
 ## Definition
 
-A mark is a kind of symbol, that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
+A mark is a kind of symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
 
-Symbols (including marks) are the visual elements that makes up a [script](script.md). The [script rules](script-rules.md) define how marks can be attached to symbols, how it stacks, or where it can be placed within a word.&#x20;
+Symbols (including marks) are the visual elements that make up a [script](script.md). The [script rules](script-rules.md) define how marks can be attached to symbols, how they stack, or where they can be placed within a word.&#x20;
 
-When a community sets rules on how a script can be used to write their specific language it becomes an [orthography](orthography.md). The combination of script and orthography is also known as the [writing system](writing-system.md) of a language.
+When a community sets rules on how a script can be used to write their specific language, it becomes an [orthography](orthography.md). The combination of script and orthography is also known as the [writing system](writing-system.md) of a language.
 
-While this glossary doesn't cover every mark for every script, heres the list of marks you may want to explore:
+While this glossary doesn't cover every mark for every script, here's the list of marks you may want to explore:
 
-| Mark term                                           | What it does                        | Examples                                                                          |
-| --------------------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------- |
-| [Diacritic](../../terms/diacritic.md)               | changes a letter's sound or meaning | é, ñ                                                                              |
-| [Tone mark](../../terms/tone-mark.md)               | marks the tone of a syllable        | tonal languages                                                                   |
-| Vowel mark                                          | adds a vowel to a consonant         | [harakat](../../terms/harakat.md) (Arabic), [matra](../../terms/matra.md) (Indic) |
-| [Nukta](../../terms/nukta.md)                       | changes a consonant's value         | Devanagari                                                                        |
-| [Punctuation mark](../../terms/punctuation-mark.md) | structures text, a separate sense   | comma, question mark                                                              |
+| Mark term | What it does | Example | Found in |
+| --- | --- | :---: | --- |
+| [Diacritic](../../terms/diacritic.md) | changes a letter's sound or meaning | e → é | [Latin script](../../terms/latin-script.md) |
+| [Tone mark](../../terms/tone-mark.md) | marks the tone of a syllable | a → á | Vietnamese, Mandarin pinyin |
+| Vowel mark | adds a vowel to a consonant | क → कि | [Arabic](../../terms/arabic-script.md) ([harakat](../../terms/harakat.md)), [Devanagari](../../terms/devanagari.md) ([matra](../../terms/matra.md)) |
+| [Nukta](../../terms/nukta.md) | changes a consonant's value | क → क़ | Devanagari |
+| [Punctuation mark](../../terms/punctuation-mark.md) | structures text, a separate sense | stands alone | most scripts |
 
-Unicode gathers the technical senses under a top-level [combining mark](../../terms/combining-mark.md) category, split by how the mark occupies space into nonspacing, [spacing combining](../../terms/spacing-combining-mark.md), and [enclosing](../../terms/enclosing-mark.md) marks.<sup>1</sup>
+Unicode gathers the technical senses under a top-level [combining mark](../../terms/combining-mark.md) category, split by how the mark sits on its base: nonspacing, [spacing combining](../../terms/spacing-combining-mark.md), and [enclosing](../../terms/enclosing-mark.md). An enclosing mark wraps all the way around, the way the keycap emoji `1️⃣` puts a box around the digit "1".<sup>1</sup>
 
 ### Why it matters in design systems
 
 Like the [symbol](symbol.md) it attaches to, a mark is rarely where you make a decision; it matters because each discipline a design system spans handles the same mark differently, and a mark the font can draw is still not a mark the system handles correctly.
 
-To a linguist, a mark modifies meaning or sound: it is a diacritic, a tone mark, or a script-specific mark like the Arabic harakat.&#x20;
+To a linguist, a mark changes a symbol's meaning or sound.&#x20;
 
 To typography, a mark is a [glyph](../../terms/glyph.md) the font must both contain and position on its base, and how many marks stack on a letter is set by the language's [orthography](orthography.md), not the shared script: Vietnamese piles a vowel mark and a tone mark where French uses one,<sup>3</sup> so the same Latin script needs more [line height](../../terms/line-height.md) for Vietnamese than for French.&#x20;
 
 To a computer, a mark is a combining character: the same accented letter can be stored as one precomposed [code point](../../terms/code-point.md) or as a base letter plus a combining mark, which quietly changes how text is searched, counted, and compared.
 
 So covering the marks in the font is necessary, not sufficient: the [shaping](../../terms/text-shaping.md) that positions them and the encoding that stores them have to line up too.
-
-#### Examples
-
-**One mark.** The acute over "é" is a single diacritic mark on a base letter `e`. A computer may store it as one [character](../../terms/character.md) `"é"`, or as the letter `e` plus a separate combining mark. .<sup>2</sup>
-
-**Stacked marks.** Vietnamese stacks two marks on one base letter `Ẩ`. In this example, the typography system may decide to have a larger line height for body fonts when supporting the Vietnamese language compared to English or French, even though all three languages use the same script (Latin).<sup>3</sup>
-
-**Enclosing marks.** An enclosing mark surrounds its base instead of sitting over it.<sup>1</sup> For example, the keycap emoji `1️⃣` is the digit "1" with an enclosing mark drawn around it.
 
 ### Common mistake
 
@@ -90,7 +80,7 @@ Comparing two strings that look identical and getting "not equal." The accented 
 
 ### Related terms and mentions
 
-[Code point](../../terms/code-point.md) · [Combining mark](../../terms/combining-mark.md) · [Diacritic](../../terms/diacritic.md) · [Enclosing mark](../../terms/enclosing-mark.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Line height](../../terms/line-height.md) · [Matra](../../terms/matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](../../terms/nukta.md) · [Orthography](orthography.md) · [Punctuation mark](../../terms/punctuation-mark.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tone mark](../../terms/tone-mark.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Code point](../../terms/code-point.md) · [Combining mark](../../terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](../../terms/diacritic.md) · [Enclosing mark](../../terms/enclosing-mark.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Matra](../../terms/matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](../../terms/nukta.md) · [Orthography](orthography.md) · [Punctuation mark](../../terms/punctuation-mark.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tone mark](../../terms/tone-mark.md) · [Writing systems & scripts](./)
 
 
 
