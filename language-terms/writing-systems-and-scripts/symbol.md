@@ -69,9 +69,9 @@ For example, English and French both use the Latin script. However, the English 
 
 Another common mistake is assuming that a symbol means the same thing in every discipline. A designer names a hero image export `hero image (16:9)` in their design tool, where the colon is just an aspect ratio. They push the file to a shared repository and email a copy to the client, and both break. Why?
 
-On the client's Windows computer the file will not open, because Windows forbids the colon in filenames (it is the drive-letter separator, as in `C:`).<sup>3</sup>
+On the client's Windows computer the file will not open, because Windows forbids the `:` in filenames (it is the drive-letter separator, as in `C:`).<sup>3</sup>
 
-In the developer's code the path breaks, because the colon, the parentheses, and the spaces all have to be escaped or quoted to be read as a name; unescaped, they get parsed as something else.
+The developer hits the same kind of break, because in code the `:`, `(`, `)`, and the spaces already mean something specific, so the computer reads them as instructions instead of as part of the name.
 
 The colon never changed. What it meant changed in every system it crossed: an aspect ratio to the designer, a forbidden character to Windows, reserved syntax in code.
 
@@ -80,7 +80,7 @@ The colon never changed. What it meant changed in every system it crossed: an as
 ### In practice
 
 * **Check the orthography, not just the script, before reusing symbols across languages:** two languages can share a script and still differ in which symbols they use and how, like English's curly quotes versus French's guillemets. Do not hardcode one language's choices; pull them from locale data. Unicode's [CLDR](../../terms/cldr.md) publishes per-language conventions such as quotation marks as machine-readable data, and the internationalization libraries built on it apply the right symbol for the language automatically.<sup>4</sup>
-* **When the rules are not lookup-able, capture them, because you may be the source:** for an under-resourced or newly digitized language, the conventions often are not in any library yet; they live with the people who read and write it. Get them from fluent readers, write them into your specs and tokens next to the symbols, and contribute them upstream so the next team can find them. CLDR's Survey Tool accepts community submissions and brand-new locales, which is how "I know the rule but it is not online" becomes part of the commons.<sup>5</sup>
+* **When the rules are not lookup-able, capture them, because you may be the source:** for an under-resourced or newly digitized language, the conventions often are not in any library yet; they live with the people who read and write it. Get them from fluent readers, write them into your specs and tokens next to the symbols, and contribute them upstream so the next team can find them. CLDR's [Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and brand-new locales, which is how "I know the rule but it is not online" becomes part of the commons.<sup>5</sup>
 * **Keep machine-facing names to a safe character set:** name tokens, files, components, and assets with plain ASCII (letters, digits, hyphens, underscores) and leave emojis, accents, quotes, and slashes for human-readable content, so a name that works in your design tool does not break when it becomes a filename or a code identifier.<sup>3</sup>
 
 ***
