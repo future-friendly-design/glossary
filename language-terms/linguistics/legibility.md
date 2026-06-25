@@ -5,17 +5,24 @@ aliases: []
 level: foundational
 depth: deep
 summary: Legibility is how easily a reader can tell one character apart from another.
-related: [readability, glyph, typeface, x-height, symbol]
+related:
+  - readability
+  - glyph
+  - typeface
+  - x-height
+  - symbol
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-25
-contributors: [sam-gordashko]
+updated: 2026-06-25T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Legibility, Readability, and Comprehension (Nielsen Norman Group)"
+  - title: Legibility, Readability, and Comprehension (Nielsen Norman Group)
     url: https://www.nngroup.com/articles/legibility-readability-comprehension/
     type: authority
 license: CC-BY-4.0
-tags: [typography]
+tags:
+  - typography
 ---
 
 # Legibility
@@ -24,7 +31,7 @@ tags: [typography]
 
 Legibility is how easily a reader can tell one character apart from another.
 
-It is a typographic property decided at the level of the individual [symbol](../language-terms/writing-systems-and-scripts/symbol.md): whether a lowercase "l" can be mistaken for a capital "I" or the digit "1", an "O" for a "0". It lives in the [typeface](typeface.md) and its [glyph](glyph.md) shapes, so it is set by font choice and letterform style: weight, [x-height](x-height.md), how open the counters are, whether the zero is slashed. Its partner is [readability](readability.md), how comfortably a reader moves through whole lines and paragraphs; legibility is the zoomed-in view, readability the zoomed-out one.
+It is a typographic property decided at the level of the individual [symbol](../writing-systems-and-scripts/symbol.md): whether a lowercase "l" can be mistaken for a capital "I" or the digit "1", an "O" for a "0". It lives in the [typeface](../../terms/typeface.md) and its [glyph](../../terms/glyph.md) shapes, so it is set by font choice and letterform style: weight, [x-height](../../terms/x-height.md), how open the counters are, whether the zero is slashed. Its partner is [readability](readability.md), how comfortably a reader moves through whole lines and paragraphs; legibility is the zoomed-in view, readability the zoomed-out one.
 
 ## Why it matters in design systems
 
@@ -46,7 +53,7 @@ Treating legibility and readability as the same thing, or as "how good the font 
 
 ## Related terms and mentions
 
-[Glyph](glyph.md) · [Readability](readability.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Typeface](typeface.md) · [X-height](x-height.md)
+[Glyph](../../terms/glyph.md) · [Readability](readability.md) · [Symbol](../writing-systems-and-scripts/symbol.md) · [Typeface](../../terms/typeface.md) · [X-height](../../terms/x-height.md)
 
 ## Further reading
 
@@ -55,4 +62,3 @@ Treating legibility and readability as the same thing, or as "how good the font 
 ### Sources
 
 1. Legibility is the lowest-level consideration in content usability, whether people can see, distinguish, and recognize the characters in the text, and is mainly determined by typography - Nielsen Norman Group: Legibility, Readability, and Comprehension [https://www.nngroup.com/articles/legibility-readability-comprehension/](https://www.nngroup.com/articles/legibility-readability-comprehension/)
-</content>

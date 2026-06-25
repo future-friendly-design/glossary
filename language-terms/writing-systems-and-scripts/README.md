@@ -58,7 +58,7 @@ A script consists of the visual symbols and marks used to write a language and t
 
 Symbol refers to the individual visual elements that make up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.
 
-* [Grapheme](grapheme.md)
+* [Grapheme](../linguistics/grapheme.md)
 * [Grapheme cluster](../../terms/grapheme-cluster.md)
 * [Symbol](symbol.md)
 

@@ -7,7 +7,6 @@
 ## language and linguistics terms <a href="#language-terms" id="language-terms"></a>
 
 * [Writing systems & scripts](language-terms/writing-systems-and-scripts/README.md)
-  * [Grapheme](language-terms/writing-systems-and-scripts/grapheme.md)
   * [Joining](language-terms/writing-systems-and-scripts/joining.md)
   * [Mark](language-terms/writing-systems-and-scripts/mark.md)
   * [Orthography](language-terms/writing-systems-and-scripts/orthography.md)
@@ -17,6 +16,9 @@
   * [Writing system](language-terms/writing-systems-and-scripts/writing-system.md)
 * [Linguistics](language-terms/linguistics/README.md)
   * [Language](language-terms/linguistics/language.md)
+  * [Grapheme](language-terms/linguistics/grapheme.md)
+  * [Legibility](language-terms/linguistics/legibility.md)
+  * [Readability](language-terms/linguistics/readability.md)
 
 ## Browse by topic
 
@@ -111,7 +113,6 @@
   * [Language family](terms/language-family.md)
   * [Latin script](terms/latin-script.md)
   * [Leading](terms/leading.md)
-  * [Legibility](terms/legibility.md)
   * [Letter spacing](terms/letter-spacing.md)
   * [Lexifier](terms/lexifier.md)
   * [Ligature](terms/ligature.md)
@@ -141,7 +142,6 @@
   * [Pseudolocalization](terms/pseudolocalization.md)
   * [Punctuation mark](terms/punctuation-mark.md)
 * [R](browse-all-terms/r/README.md)
-  * [Readability](terms/readability.md)
   * [Reordering](terms/reordering.md)
   * [Reph](terms/reph.md)
 * [S](browse-all-terms/s/README.md)

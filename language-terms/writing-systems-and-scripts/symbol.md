@@ -41,31 +41,41 @@ The term symbol is used to describe the visual elements of any script in general
 | [Syllabary](../../terms/syllabary.md)     | syllable symbols            |   あ, い  |
 | [Logographic](../../terms/logographic.md) | characters                  |   山, 川  |
 
-It's important to understand how the concept of a symbol, regardless of its script specific name, maps to writing, reading, [typography](../../terms/typography.md) and computer programming terms.&#x20;
-
-When a written language is read, the smallest symbol or combination of symbols that distinguishes one meaning from another is a [grapheme](grapheme.md). For example, `e` is one symbol and one grapheme. `é` is two symbols, a letter plus an accent mark, but still one grapheme.
-
-Thinking about typography, the specific shape a [font](../../terms/font.md) draws for a symbol is its [glyph](../../terms/glyph.md), and the same symbol can have many glyphs within the same font. The `e` and `é` you see on this page are glyphs.&#x20;
-
-In computing, each symbol also maps to a [character](../../terms/character.md), the abstract unit of text software stores and counts: `e` is one character, while `é` is one character when stored precomposed or two when stored as a letter plus a combining accent mark.
-
 ### Why it matters in design systems
 
-A single symbol is three things at once, depending on who is handling it: a grapheme to the reader, a glyph to the font in your design tool, and a character to your code. A design system has to satisfy all three, and they fail independently, so choosing a font that includes the right symbols still isn't the whole answer when you support a language.
+In a design system the symbol of a script is rarely where you make a decision, it matters because it's a shared reference point for language support across liguistics, typography and computer programming. While these disciplines are all related to a design system, they are unique, and often use the same terms to mean different things, which can get pretty confusing!&#x20;
 
-Zooming out, the script entry is the matching move: it asks whether you showed up with the right characters, layout, and direction for the whole writing system. The symbol is the opposite zoom. You go all the way in to the smallest visual unit and check the same symbols across every context the text actually appears in. Context is the variable this level adds. Because the symbol is the atom where the writing system becomes marks a person reads, every layer above it has to resolve right here: the script decides which [typefaces](../../terms/typeface.md) are even eligible, the ones whose [font coverage](../../terms/font-coverage.md) includes it (miss that and the symbol drops to a fallback or to tofu, the box that stands in for an absent glyph); the use context decides whether the glyphs that are there stay legible; and, more often than designers expect, the brand decides which font you actually get.
+The goal is to understand how the concept of a symbol, regardless of its script specific name, maps to related terms across linguistics, typography, and computer programming, so you can make user friendly design decisions specific to the language you are working on.&#x20;
 
-That last one is the catch. Text is functional and it is identity: because the glyph shapes carry the brand, the typeface is usually chosen by brand or marketing to look right on the surfaces it was made for, not by the design system to work everywhere. You rarely pick a font from scratch; you inherit a brand guideline and have to make it hold up across every context and script the product needs. A typeface built to make a brand unmistakable on a billboard can contain every symbol you need and still be the wrong tool in a 14px form field. Whether a reader can still tell one symbol from another there is [legibility](../../terms/legibility.md), and it is the symbol's job; arranging legible symbols into comfortable lines and paragraphs is [readability](../../terms/readability.md), the zoomed-out sibling that lives in spacing and layout.
+From a linguistics perspective, the [symbol](symbol.md) sits inside a larger structure: a [script](script.md) is the set of symbols a language is written with, and that script is one part of the language's [writing system](writing-system.md).
 
-And the glyph is only one of the three views. Stored as a character, the same symbol can take more than one form ("é" is one code point or two), so text that looks right can still break search, counting, and input. Read as a grapheme, what a person counts as "one character" is not what your code counts, so field limits and truncation surprise people. So the real question is never just "does the font include the symbols," it is "do these symbols, drawn in this font at this size and stored this way, hold up." Coverage is necessary, not sufficient.
+When a written language is read, the smallest symbol, or combination of symbols, that distinguishes one meaning from another is a [grapheme](../linguistics/grapheme.md). For example, `e` is one symbol and one grapheme; `é` is two symbols, a letter plus an accent mark, but still one grapheme.
 
-### Example
+When a written language is to be printed or shown on a screen, typography refers to the specific shape a [font](../../terms/font.md) draws for a symbol as a [glyph](../../terms/glyph.md),. For example, the  `e` and `é` you see on this page are glyphs. The same symbol in the same font can have more than one glyph. For example `e`, _`e`_, **`e`**, _**`e`**_, are the same symbol represented as four different glyphs. &#x20;
 
-English wraps speech in curly quotes, “like this”, while French uses guillemets, « like this », with a space sitting inside each one. Getting that right is a writing-system win, a matter of [orthography](orthography.md), and the script entry is where you catch it. But zoom all the way in: if a reader cannot tell the letters apart between those quotes on a 320px-wide screen, the small end of the range like an original iPhone SE, the typeface is still the wrong choice for that context. The quotes are correct and the line is still unreadable, because correctness and legibility are decided at different zoom levels.<sup>1</sup>
+In computer programming, there is a universal coding standard called Unicode. What this glossary calls a symbol, Unicode refers to as a [character](../../terms/character.md). Each character is given a unique ID number called a code point. They reserve the term  `symbol` for math symbols like `+`, currency symbols like `$`, modifier symbols, and other symbols such as `©` and emoji `🔠`.
+
+In design systems, the designers and developers working on software, websites, and other user interfaces use `character` as the the abstract unit used to measure single piece of text. For example, if a form had a limit of how much text could be entered into the input, both `e` and `é` would be measured as one character of the allowed text.&#x20;
+
+_In case you missed it, `character` is also the name for the symbols within a logographic script._
 
 ### Common mistake
 
-Assuming "symbol" is a precise technical category. In [Unicode](../../terms/unicode.md), the standard that gives every character a unique number and sorts them into categories, it is one, and it is not "any element of a script." Unicode's "Symbol" is a top-level General Category (abbreviated S) covering math symbols like +, currency symbols like $, modifier symbols, and other symbols such as © and emoji. It specifically excludes the elements that make up writing systems, which Unicode encodes as letters (category L, whose "Other Letter" value covers caseless writing such as Han characters and syllabary symbols) or as marks (category M). So the elements of a script are letters or marks in Unicode terms, not "Symbols." Treat "symbol" the everyday word and "Symbol" the Unicode category as two different things.<sup>2</sup>
+A common mistake is assuming that all languages that have the same script in their writing system use the same symbols for the same purpose. It's important to look at the [orthography](orthography.md) of each language along side the symbols. \
+\
+For example, English and French both use the Latin script. However, the English orthography requires speech wrapped in the curly quote symbol, `“like this”`, while French requires guillemets with a space sitting inside each one, `« like this »`. &#x20;
+
+
+
+Another common mistake is assuming that all symbols mean the same thing across disciplines. &#x20;
+
+For example, a designer names the hero image asset for a website project `hero image (16:9)` in their design tool. They export the image file and push it to a shared code repository for their developers to use and email a copy of the file to the client. Both the developer and the client are having issues with the file. Why?&#x20;
+
+The designer using an Apple computer didn't realize the client was using a Windows operating system on their computer which forbids the use of some symbols `:` in file names so the image wouldn't open.&#x20;
+
+The developer working in code experiences a breaking changing change because the `(` `:` and `)` symbols are reserved in their programming language for a specific purpose.&#x20;
+
+
 
 ### In practice
 
@@ -77,7 +87,7 @@ Assuming "symbol" is a precise technical category. In [Unicode](../../terms/unic
 
 ### Related terms and mentions
 
-[Abjad](../../terms/abjad.md) · [Alphabet](../../terms/alphabet.md) · [Character](../../terms/character.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Grapheme](grapheme.md) · [Han characters](../../terms/han-characters.md) · [Legibility](../../terms/legibility.md) · [Logographic](../../terms/logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Readability](../../terms/readability.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](../../terms/syllabary.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](../../terms/abjad.md) · [Alphabet](../../terms/alphabet.md) · [Character](../../terms/character.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Han characters](../../terms/han-characters.md) · [Legibility](../linguistics/legibility.md) · [Logographic](../../terms/logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Readability](../linguistics/readability.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](../../terms/syllabary.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
@@ -88,4 +98,3 @@ Assuming "symbol" is a precise technical category. In [Unicode](../../terms/unic
 1. French and English mark quotations with different characters: French uses guillemets « » where English uses straight or curly quotes - W3C: Quotation marks and how to mark them up [https://www.w3.org/Style/2013/quote-marks](https://www.w3.org/Style/2013/quote-marks)
 2. Unicode's General Category "Symbol" (S) covers math, currency, modifier, and other symbols including emoji; the elements of writing systems are instead encoded as Letters (category L, whose Other\_Letter value covers Han characters and syllabary symbols) or Marks (category M) - Unicode Standard Annex #44: General Category Values [https://www.unicode.org/reports/tr44/#General\_Category\_Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
 3. Unicode maintains cross-script "confusables" data mapping characters that are visually confusable with one another, used to detect deceptive look-alikes - Unicode Technical Standard #39: Unicode Security Mechanisms [https://www.unicode.org/reports/tr39/](https://www.unicode.org/reports/tr39/)
-</content>
