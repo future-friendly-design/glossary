@@ -36,11 +36,25 @@ tags:
 
 A mark is a symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
 
-It is the modifying layer of a script's anatomy, attached to the base [symbols](symbol.md) it acts on and governed, like them, by the script's [rules](script-rules.md). "Mark" is an umbrella over several more precise terms: a [diacritic](../../terms/diacritic.md) is an accent that modifies a letter (the acute in "é", the tilde in "ñ"), a [tone mark](../../terms/tone-mark.md) records tone, script-specific marks such as the Arabic vowel marks ([harakat](../../terms/harakat.md)) or the Indic [nukta](../../terms/nukta.md) belong to one script's structure, and a [punctuation mark](../../terms/punctuation-mark.md) like a comma shares the word for a separate idea. Unicode gathers the technical senses under a top-level [combining mark](../../terms/combining-mark.md) category, split by how the mark occupies space into nonspacing, [spacing combining](../../terms/spacing-combining-mark.md), and [enclosing](../../terms/enclosing-mark.md) marks.<sup>1</sup>
+It is the modifying layer of a script's anatomy, attached to the base [symbols](symbol.md) it acts on and governed, like them, by the script's [rules](script-rules.md). "Mark" is an umbrella over several kinds:
+
+| Kind of mark | What it does | Examples |
+| --- | --- | --- |
+| [Diacritic](../../terms/diacritic.md) | changes a letter's sound or meaning | é, ñ |
+| [Tone mark](../../terms/tone-mark.md) | marks the tone of a syllable | tonal languages |
+| Vowel mark | adds a vowel to a consonant | [harakat](../../terms/harakat.md) (Arabic), [matra](../../terms/matra.md) (Indic) |
+| [Nukta](../../terms/nukta.md) | changes a consonant's value | Devanagari |
+| [Punctuation mark](../../terms/punctuation-mark.md) | structures text, a separate sense | comma, question mark |
+
+Unicode gathers the technical senses under a top-level [combining mark](../../terms/combining-mark.md) category, split by how the mark occupies space into nonspacing, [spacing combining](../../terms/spacing-combining-mark.md), and [enclosing](../../terms/enclosing-mark.md) marks.<sup>1</sup>
 
 ## Why it matters in design systems
 
-The trap is treating marks as cosmetic: optional accents a font will "just handle" once it has the letters. Marks are part of the writing system, and they drive concrete decisions. Font coverage is the first: a typeface has to include the marks a language uses and the logic to position them, not only the base letters, or the text renders broken even though every letter is present. [Line height](../../terms/line-height.md) is the second: when a language stacks more than one mark on a letter, those marks climb above the cap height and need extra vertical room, so the same component can need a larger line-height value for one language than another. Encoding is the third: the same accented letter can be stored as one precomposed [code point](../../terms/code-point.md) or as a base letter plus a combining mark, which changes how text is searched, counted, and compared. And [shaping](../../terms/text-shaping.md) is the fourth: the layout engine, not the font alone, positions each mark over its base, so a tool that does not shape will misplace them. Covering the marks in the font is necessary but not sufficient; the encoding and the shaping have to line up too.
+Like the [symbol](symbol.md) it attaches to, a mark is rarely where you make a decision; it matters because each discipline a design system spans handles the same mark differently, and a mark the font can draw is still not a mark the system handles correctly.
+
+To a linguist, a mark modifies meaning or sound: it is a diacritic, a tone mark, or a script-specific mark like the Arabic harakat. To typography, a mark is a [glyph](../../terms/glyph.md) the font must both contain and position on its base, and how many marks stack on a letter is set by the language's [orthography](orthography.md), not the shared script: Vietnamese piles a vowel mark and a tone mark where French uses one,<sup>3</sup> so the same Latin script needs more [line height](../../terms/line-height.md) for Vietnamese than for French. To a computer, a mark is a combining character: the same accented letter can be stored as one precomposed [code point](../../terms/code-point.md) or as a base letter plus a combining mark, which quietly changes how text is searched, counted, and compared.
+
+So covering the marks in the font is necessary, not sufficient: the [shaping](../../terms/text-shaping.md) that positions them and the encoding that stores them have to line up too.
 
 ## Examples
 
@@ -48,13 +62,11 @@ The trap is treating marks as cosmetic: optional accents a font will "just handl
 
 **Stacked marks.** Vietnamese piles two marks on one vowel: the letter "Ẩ" (U+1EA8) carries a circumflex and a hook above, decomposing to the sequence &lt;U+0041, U+0302, U+0309&gt;. Not every rendering system places two marks on one base correctly, and the stack needs more vertical room than a single accent.<sup>3</sup>
 
-**Script-structural marks.** Arabic writes its short vowels as harakat, marks set above and below the consonants and usually left out in everyday text. They belong to how the script works, not to one language.
-
 **Enclosing marks.** An enclosing mark surrounds its base instead of sitting over it, like the circle around an enclosed keycap.<sup>1</sup>
 
 ## Common mistake
 
-Comparing two strings that look identical and getting "not equal." The accented "é" a user types might be one code point or a base "e" plus a combining acute; on screen they are indistinguishable, but as stored bytes they differ, so a search, a deduplication check, a uniqueness constraint, or a length count can quietly fail on real input. The fix is normalization: convert text to a single canonical form (NFC is the usual choice) before you store, compare, or count it. This is an encoding decision, separate from whether the font draws the mark correctly.<sup>2</sup>
+Comparing two strings that look identical and getting "not equal." The accented "é" a user types might be one code point or a base "e" plus a combining acute; on screen they are indistinguishable, but as stored bytes they differ, so a search, a deduplication check, a uniqueness constraint, or a length count can quietly fail on real input. The fix is [normalization](../../terms/normalization.md): convert text to a single canonical form (NFC is the usual choice) before you store, compare, or count it. This is an encoding decision, separate from whether the font draws the mark correctly.<sup>2</sup>
 
 ## In practice
 
@@ -64,7 +76,7 @@ Comparing two strings that look identical and getting "not equal." The accented 
 
 ## Related terms and mentions
 
-[Code point](../../terms/code-point.md) · [Combining mark](../../terms/combining-mark.md) · [Diacritic](../../terms/diacritic.md) · [Enclosing mark](../../terms/enclosing-mark.md) · [Font coverage](../../terms/font-coverage.md) · [Harakat](../../terms/harakat.md) · [Line height](../../terms/line-height.md) · [Nukta](../../terms/nukta.md) · [Punctuation mark](../../terms/punctuation-mark.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tone mark](../../terms/tone-mark.md) · [Writing systems & scripts](./)
+[Code point](../../terms/code-point.md) · [Combining mark](../../terms/combining-mark.md) · [Diacritic](../../terms/diacritic.md) · [Enclosing mark](../../terms/enclosing-mark.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Line height](../../terms/line-height.md) · [Matra](../../terms/matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](../../terms/nukta.md) · [Orthography](orthography.md) · [Punctuation mark](../../terms/punctuation-mark.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tone mark](../../terms/tone-mark.md) · [Writing systems & scripts](./)
 
 ## Further reading
 
