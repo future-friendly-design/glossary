@@ -7,8 +7,8 @@ aliases:
 level: foundational
 depth: deep
 summary: >-
-  Script rules are the behaviours a script imposes on its own symbols, such as
-  direction and joining, that apply to any language written in the script.
+  Script rules define the behaviour of individual visual elements of a script
+  (its symbols, including marks).
 related:
   - script
   - complex-text-layout
@@ -38,9 +38,11 @@ tags:
 
 ## Definition
 
-Script rules are the behaviours a script imposes on its own symbols, such as direction and joining, that apply to any language written in the script.
+Script rules define the behaviour of individual visual elements of a [script](script.md) (its [symbols](symbol.md), including [marks](mark.md)). They determine possible combinations and positioning of symbols, layout and direction for any language using the script in its [writing system](writing-system.md).
 
-A [script](script.md) is not a passive set of shapes you place in a row. Each script carries behaviours that a design tool, a [font](../../terms/font.md), and a layout engine all have to handle, and those behaviours hold no matter which language you write with the script. They belong to the script itself, which is why they are separate from [orthography](orthography.md), the spelling rules of a single language. Here are six common ones:
+Each writing system defines additional rules on how to use a script for a specific language, known as [orthography](orthography.md). This means each written language has two sets of rules to consider, the script rules and its orthography.
+
+While this glossary doesn't cover every script rule (or every script), here's a list of script rule terms you may want to explore:
 
 | Script rule | What it does | Example | Learn more |
 | --- | --- | --- | --- |
@@ -80,7 +82,7 @@ Treating script rules and orthography as the same thing. Script rules belong to 
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Joining](joining.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Reph](../../terms/reph.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Tategaki](../../terms/tategaki.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Joining](joining.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Reph](../../terms/reph.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Tategaki](../../terms/tategaki.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
