@@ -45,7 +45,7 @@ The same sequence of Arabic consonants can be read as different words; adding ha
 
 ## Related terms
 
-[Arabic script](arabic-script.md) · [Abjad](abjad.md) · [Diacritic](diacritic.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Combining mark](combining-mark.md)
+[Arabic script](arabic-script.md) · [Abjad](abjad.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Combining mark](combining-mark.md)
 
 ## Further reading
 

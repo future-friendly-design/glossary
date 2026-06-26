@@ -36,7 +36,7 @@ The Latin script is the alphabet used for English and most Western European lang
 
 ## Why it matters
 
-Descended from the [Greek](greek-script.md) and Etruscan alphabets, the Latin script is an [alphabet](alphabet.md) with separate consonant and vowel letters written left to right. It is used by hundreds of languages, often extended with [diacritic](diacritic.md)s (accents, cedillas, tildes) and additional letters to fit local sound systems. Its dominance in technology is exactly why it tends to become the unspoken default in typeface and interface design, and naming it as one script among many is the first step to not treating its behavior as universal.
+Descended from the [Greek](greek-script.md) and Etruscan alphabets, the Latin script is an [alphabet](alphabet.md) with separate consonant and vowel letters written left to right. It is used by hundreds of languages, often extended with [diacritic](../language-terms/writing-systems-and-scripts/diacritic.md)s (accents, cedillas, tildes) and additional letters to fit local sound systems. Its dominance in technology is exactly why it tends to become the unspoken default in typeface and interface design, and naming it as one script among many is the first step to not treating its behavior as universal.
 
 ## Example
 
@@ -44,7 +44,7 @@ English, Spanish, Vietnamese, and Turkish all use the Latin script, each adding 
 
 ## Related terms
 
-[Alphabet](alphabet.md) · [Cyrillic](cyrillic.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Diacritic](diacritic.md)
+[Alphabet](alphabet.md) · [Cyrillic](cyrillic.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md)
 
 ## Further reading
 

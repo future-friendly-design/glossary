@@ -35,7 +35,7 @@ Tamil script is a Brahmic abugida used to write Tamil, a Dravidian language of S
 
 ## Why it matters
 
-Tamil is a member of the [Brahmic family](brahmic-scripts.md) and works as an [abugida](abugida.md): each consonant carries an inherent vowel that is changed by attached vowel signs ([matra](matra.md)s), which can sit before, after, above, or below the consonant. It is a Dravidian script, a different language family from the North Indian scripts such as Devanagari, and that difference matters for product work: a font or shaping setup tuned for one Brahmic script does not automatically render another, because the letterforms, vowel-sign placements, and reordering rules differ.
+Tamil is a member of the [Brahmic family](brahmic-scripts.md) and works as an [abugida](abugida.md): each consonant carries an inherent vowel that is changed by attached vowel signs ([matra](../language-terms/writing-systems-and-scripts/matra.md)s), which can sit before, after, above, or below the consonant. It is a Dravidian script, a different language family from the North Indian scripts such as Devanagari, and that difference matters for product work: a font or shaping setup tuned for one Brahmic script does not automatically render another, because the letterforms, vowel-sign placements, and reordering rules differ.
 
 ## Example
 
@@ -43,7 +43,7 @@ A Tamil vowel sign can be written to the left of the consonant it modifies even 
 
 ## Related terms
 
-[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Matra](matra.md)
+[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md)
 
 ## Further reading
 

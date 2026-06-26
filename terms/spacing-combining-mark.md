@@ -36,7 +36,7 @@ A spacing combining mark is a combining character that takes up its own horizont
 
 ## Why it matters
 
-The [combining mark](combining-mark.md) entry covers the nonspacing case, marks that add no width and stack on top of a base. The spacing combining mark is the second member of Unicode's Mark category, General Category Mc. Unlike a nonspacing mark, it advances the text by its own width, yet it still forms a single unit with its base. These are common in [Brahmic scripts](brahmic-scripts.md), where many vowel signs ([matra](matra.md)s) sit beside the consonant and occupy real horizontal space. Knowing the distinction matters because code that assumes "combining means zero width" will mishandle them, and because the base plus its spacing mark count as one [grapheme cluster](grapheme-cluster.md), not two.
+The [combining mark](combining-mark.md) entry covers the nonspacing case, marks that add no width and stack on top of a base. The spacing combining mark is the second member of Unicode's Mark category, General Category Mc. Unlike a nonspacing mark, it advances the text by its own width, yet it still forms a single unit with its base. These are common in [Brahmic scripts](brahmic-scripts.md), where many vowel signs ([matra](../language-terms/writing-systems-and-scripts/matra.md)s) sit beside the consonant and occupy real horizontal space. Knowing the distinction matters because code that assumes "combining means zero width" will mishandle them, and because the base plus its spacing mark count as one [grapheme cluster](grapheme-cluster.md), not two.
 
 ## Example
 
@@ -44,7 +44,7 @@ A Devanagari consonant followed by a right-side vowel sign forms one unit, but t
 
 ## Related terms
 
-[Combining mark](combining-mark.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Enclosing mark](enclosing-mark.md) · [Matra](matra.md) · [Grapheme cluster](grapheme-cluster.md)
+[Combining mark](combining-mark.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Enclosing mark](enclosing-mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Grapheme cluster](grapheme-cluster.md)
 
 ## Further reading
 

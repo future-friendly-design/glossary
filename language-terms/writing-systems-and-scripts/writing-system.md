@@ -4,7 +4,9 @@ slug: writing-system
 aliases: []
 level: foundational
 depth: deep
-summary: A writing system defines the symbols and rules for writing a specific language.
+summary: >-
+  A writing system defines the symbols and rules for writing a specific
+  language.
 related:
   - language
   - script
@@ -31,15 +33,13 @@ tags:
 
 ## Definition
 
-A writing system defines the symbols and rules for writing a specific language.&#x20;
+A writing system defines the symbols and rules for writing a specific language.
 
 [Symbols](symbol.md) belong to a [script](script.md), and they follow their own script rules regardless of the language they are applied to.
 
-When a community sets rules on how a script can be used to write their specific language it becomes an [orthography](orthography.md).&#x20;
+When a community sets rules on how a script can be used to write their specific language it becomes an [orthography](orthography.md).
 
 A single language may use more than one script within one writing system (Japanese mixes four scripts: kanji, hiragana, katakana, and Latin<sup>1</sup>), or more than one writing system (Serbian can be written in either Cyrillic or Latin script depending on context<sup>2</sup>).
-
-
 
 ### Why it matters in design systems
 
@@ -83,7 +83,7 @@ When a language has more than one writing system, let the reader choose instead 
 
 ### Related terms and mentions
 
-[Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Hiragana](../../terms/hiragana.md) · [Katakana](../../terms/katakana.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](../../terms/tone-mark.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](README.md)
+[Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Hiragana](../../terms/hiragana.md) · [Katakana](../../terms/katakana.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

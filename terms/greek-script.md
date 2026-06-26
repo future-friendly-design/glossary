@@ -38,7 +38,7 @@ The Greek script is an alphabet with separate consonant and vowel letters, writt
 
 ## Why it matters
 
-The Greek script is an [alphabet](alphabet.md): consonants and vowels each get their own letters written in sequence, the structure most Western tooling assumes by default. It is worth knowing as the common root behind scripts you already support, since the [Latin script](latin-script.md) and [Cyrillic](cyrillic.md) both descend from it, which is why those entries name Greek as their ancestor. The practical catch is that Greek is a cased script, with separate uppercase and lowercase forms, and it carries accent marks ([diacritic](diacritic.md)s) on vowels, so covering Greek in a font means covering both cases and the accented combinations, not just the bare letters.
+The Greek script is an [alphabet](alphabet.md): consonants and vowels each get their own letters written in sequence, the structure most Western tooling assumes by default. It is worth knowing as the common root behind scripts you already support, since the [Latin script](latin-script.md) and [Cyrillic](cyrillic.md) both descend from it, which is why those entries name Greek as their ancestor. The practical catch is that Greek is a cased script, with separate uppercase and lowercase forms, and it carries accent marks ([diacritic](../language-terms/writing-systems-and-scripts/diacritic.md)s) on vowels, so covering Greek in a font means covering both cases and the accented combinations, not just the bare letters.
 
 ## Example
 
@@ -46,7 +46,7 @@ The Greek letters alpha, beta, and gamma gave their shapes and order to the Lati
 
 ## Related terms
 
-[Alphabet](alphabet.md) · [Latin script](latin-script.md) · [Cyrillic](cyrillic.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Diacritic](diacritic.md)
+[Alphabet](alphabet.md) · [Latin script](latin-script.md) · [Cyrillic](cyrillic.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md)
 
 ## Further reading
 
