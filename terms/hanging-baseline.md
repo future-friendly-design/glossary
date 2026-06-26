@@ -46,7 +46,7 @@ CSS exposes this directly: the `hanging` value of `dominant-baseline` aligns con
 
 ## Related terms and mentions
 
-[Baseline](baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Devanagari](devanagari.md) · [Latin script](latin-script.md) · [Line height](line-height.md) · [Shirorekha](shirorekha.md) · [Tibetan script](tibetan-script.md) · [Typography](typography.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Baseline](baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Devanagari](devanagari.md) · [Latin script](latin-script.md) · [Line height](line-height.md) · [Shaping & layout](shaping-layout.md) · [Shirorekha](shirorekha.md) · [Tibetan script](tibetan-script.md) · [Typography](typography.md)
 
 ## Further reading
 
