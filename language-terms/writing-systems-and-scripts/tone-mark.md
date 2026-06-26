@@ -45,7 +45,7 @@ Vietnamese can stack a tone mark on top of another vowel mark, so one vowel may 
 
 ### Related terms and mentions
 
-[Diacritic](diacritic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Line height](../../terms/line-height.md)
+[Alphabet](../../terms/alphabet.md) · [Diacritic](diacritic.md) · [Language](../linguistics/language.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md)
 
 ### Further reading
 

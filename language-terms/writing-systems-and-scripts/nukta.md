@@ -46,7 +46,7 @@ A nukta (the word means "dot") is a small [combining mark](../../programming-ter
 
 ### Related terms and mentions
 
-[Matra](matra.md) · [Virama](virama.md) · [Diacritic](diacritic.md) · [Mark](mark.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Precomposed character](../../terms/precomposed-character.md) · [Normalization](../../terms/normalization.md)
+[Matra](matra.md) · [Virama](virama.md) · [Diacritic](diacritic.md) · [Mark](mark.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Precomposed character](../../terms/precomposed-character.md) · [Normalization](../../terms/normalization.md) · [Language](../linguistics/language.md) · [Script](script.md)
 
 ### Further reading
 
