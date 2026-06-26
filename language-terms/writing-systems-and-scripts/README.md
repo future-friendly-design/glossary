@@ -76,7 +76,7 @@ One of these shares the word but not the sense. A [punctuation mark](punctuation
 
 #### Script rule terms
 
-Script rules are the behaviors a script imposes on its own symbols and that applies to any language using the script in its writing system. For example, the latin script has a text direction rule of left-to-right.
+Script rules are the behaviours a script imposes on its own symbols, such as direction and joining, that apply to any language written in the script. For example, the Latin script has a text direction rule of left-to-right.
 
 * [Bidirectional text](../../terms/bidirectional-text.md)
 * [Joining](joining.md)

@@ -8,8 +8,8 @@ aliases:
 level: intermediate
 depth: deep
 summary: >-
-  Joining is the behavior in some scripts where signs connect and change shape
-  based on their position in a word.
+  Joining is the behaviour in some scripts where symbols connect and change
+  shape based on their position in a word.
 related:
   - arabic-script
   - text-shaping
@@ -30,6 +30,7 @@ further_reading:
     type: authority
 license: CC-BY-4.0
 tags:
+  - writing-systems-scripts
   - shaping-layout
 ---
 
@@ -37,33 +38,44 @@ tags:
 
 ## Definition
 
-Joining is the behavior in some scripts where signs connect and change shape based on their position in a word. TEST
+Joining is the behaviour in some scripts where symbols connect and change shape based on their position in a word.
 
-## Why it matters
+For example, the letters of an Arabic word link into one continuous cursive run rather than sitting apart like printed Latin letters.
 
-In a joining script, a letter is not one fixed shape. It takes a different form depending on where it sits and what it connects to, usually one of four: initial, medial, final, or isolated. The correct form is chosen during shaping, the step that turns stored characters into the positioned glyphs you see. Arabic is the clearest case, and joining is the single most important behavior to confirm when you prototype an Arabic-script interface, because a tool that does not join will leave the letters as separate, disconnected shapes that a reader cannot follow. Joining is a property of the script, so it applies across every language written in that script, such as Arabic, Persian, and Urdu.
+### Why it matters in design systems
 
-## Also called
+In a joining script, a letter is not one fixed shape. It takes a different form depending on where it sits and what it connects to, usually one of four: initial, medial, final, or isolated.<sup>1</sup>
 
-OpenType selects joining forms through the `init`, `medi`, `fina`, and `isol` features.
+To a [font](../../terms/font.md), that means the right form has to be chosen during [shaping](../../terms/text-shaping.md), the step that turns stored characters into the positioned [glyphs](../../terms/glyph.md) you see. The font must contain those positional forms, and OpenType selects them with the `isol`, `init`, `medi`, and `fina` features.<sup>1</sup>
 
-## Example
+To a design tool, joining is the single most important behaviour to confirm when you prototype an [Arabic](../../terms/arabic-script.md) interface, because many tools display the characters but never shape them, which leaves the letters as separate, disconnected shapes a reader cannot follow.
 
-Write a short Arabic word whose letters all connect. Each letter takes its initial, medial, or final form so the word renders as one continuous cursive run rather than three separate shapes sitting side by side. Change one letter's neighbor and the connected form changes with it.
+So a font that contains Arabic characters is necessary but not sufficient: without the positional forms and the shaping logic to pick them, the text still renders broken. Joining is a property of the script, so it applies across every language written in that script, such as Arabic, Persian, and Urdu.
 
-## Common mistake
+### Example
 
-Assuming that a font containing Arabic characters will display Arabic correctly. Without shaping, those characters appear in their isolated forms, unconnected, which reads as broken. Joining is also not the same as a [ligature](../../terms/ligature.md). A ligature fuses two specific signs into one glyph for one combination. Joining is the systematic reshaping of letters as they connect along a whole word.
+Write a short Arabic word whose letters all connect. Each letter takes its initial, medial, or final form so the word renders as one continuous cursive run rather than three separate shapes sitting side by side. Change one letter's neighbour and the connected form changes with it.
 
-## In practice
+### Common mistake
 
-When you choose a design tool for a joining script, check that it shapes the text, not just that it can show the characters. Type a real word and confirm the letters connect and pick up their positional forms. Support varies between tools, so this is worth testing early rather than discovering at handoff. On the font side, the typeface has to include the positional forms and the OpenType features that select them, so verify the font covers the script fully, not only its base letters.
+Assuming that a font containing Arabic characters will display Arabic correctly. Without shaping, those characters appear in their isolated forms, unconnected, which reads as broken. Joining is also not the same as a [ligature](../../terms/ligature.md). A ligature fuses two specific symbols into one glyph for one combination. Joining is the systematic reshaping of letters as they connect along a whole word.
 
-## Related terms
+### In practice
 
-[Arabic script](../../terms/arabic-script.md) · [Text shaping](../../terms/text-shaping.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Ligature](../../terms/ligature.md) · [Script rules](script-rules.md)
+* **Test the tool with a real word, not a glyph table:** check that a design tool shapes the text, not just that it can show the characters. Type a real word and confirm the letters connect and pick up their positional forms. Support varies between tools, so test it early rather than discovering it at handoff.
+* **Verify the font covers the script, not just the letters:** the typeface has to include the positional forms and the OpenType features that select them. A font missing those will leave joining text disconnected even though every base letter is present. See [font coverage](../../terms/font-coverage.md).
 
-## Further reading
+***
+
+### Related terms and mentions
+
+[Arabic script](../../terms/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Ligature](../../terms/ligature.md) · [Script rules](script-rules.md) · [Text shaping](../../terms/text-shaping.md) · [Writing systems & scripts](./)
+
+### Further reading
 
 * Code & specs: [The Unicode Standard (latest version)](https://www.unicode.org/versions/latest/)
 * Foundations: [Internationalization (W3C)](https://www.w3.org/International/)
+
+### Sources
+
+1. The shaping engine determines each letter's contextual form (isolated, initial, medial, final) from the characters before and after it, and OpenType selects them with the `isol`, `init`, `medi`, and `fina` features - Developing OpenType Fonts for Arabic Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/arabic](https://learn.microsoft.com/en-us/typography/script-development/arabic)

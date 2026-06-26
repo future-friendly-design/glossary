@@ -7,8 +7,8 @@ aliases:
 level: foundational
 depth: deep
 summary: >-
-  Script rules are the behaviors a script imposes on its own signs and marks,
-  such as direction and joining, independent of any language.
+  Script rules are the behaviours a script imposes on its own symbols, such as
+  direction and joining, that apply to any language written in the script.
 related:
   - script
   - complex-text-layout
@@ -38,38 +38,55 @@ tags:
 
 ## Definition
 
-Script rules are the behaviors a script imposes on its own signs and marks, such as direction and joining, independent of any language. TEST
+Script rules are the behaviours a script imposes on its own symbols, such as direction and joining, that apply to any language written in the script.
 
-## Why it matters
+A [script](script.md) is not a passive set of shapes you place in a row. Each script carries behaviours that a design tool, a [font](../../terms/font.md), and a layout engine all have to handle, and those behaviours hold no matter which language you write with the script. They belong to the script itself, which is why they are separate from [orthography](orthography.md), the spelling rules of a single language. Here are six common ones:
 
-A script is not a passive set of shapes you place in a row. Each script carries behaviors that a design tool, a font, and a layout engine all have to handle, and those behaviors hold no matter which language you write with the script. There are six common ones:
+| Script rule | What it does | Example | Learn more |
+| --- | --- | --- | --- |
+| Direction | which way the script runs, left to right or right to left | Arabic runs right to left | [Text direction](../../terms/text-direction.md) |
+| Joining | whether letters connect and change shape by their position in a word | Arabic letters join | [Joining](joining.md) |
+| Combination | how [marks](../../programming-terms/combining-mark.md) attach to symbols and how symbols cluster or fuse | Devanagari conjuncts | [Conjunct](../../terms/conjunct.md) |
+| Ordering | when the order symbols are stored in differs from the order they are displayed in | Indic reph | [Reordering](../../terms/reordering.md) |
+| Stacking | how symbols pile into a vertical stack | Tibetan stacks | [Stacking script](../../terms/stacking-script.md) |
+| Breaking | how the script marks word and line boundaries, which is not always a space | Thai has no word spaces | [Segmentation](../../terms/segmentation.md) |
 
-* **Direction**: which way the script runs, such as left-to-right or right-to-left. See [text direction](../../terms/text-direction.md).
-* **Joining**: whether signs connect and change shape based on their position in a word. See [joining](joining.md).
-* **Combination**: how [marks](../../programming-terms/combining-mark.md) attach to signs and how signs cluster or fuse, as in a [conjunct](../../terms/conjunct.md).
-* **Ordering**: when the order signs are stored in differs from the order they are displayed in. See [reordering](../../terms/reordering.md).
-* **Stacking and positioning**: how signs pile into blocks or stack, as in a [stacking script](../../terms/stacking-script.md).
-* **Breaking**: how the script marks word and line boundaries, which is not always a space. See [segmentation](../../terms/segmentation.md).
+### Why it matters in design systems
 
-These belong to the script itself, which is why they are separate from orthography, the spelling rules of a single language.
+Like the [symbols](symbol.md) it governs, a script rule is rarely where you make a decision; it matters because each discipline a design system spans handles the same rule differently, and a rule the font can draw is still not a rule the system applies on its own.
 
-## Example
+To a linguist, these behaviours are properties of the script, shared by every language written in it.
 
-The Arabic script runs right to left, joins its letters into cursive forms that change by position, and places short vowel marks above and below the letters. A designer prototyping an Arabic interface has to account for all three behaviors before any Arabic-language spelling rules enter the picture, because they are properties of the script, not the language.
+To [typography](../../terms/typography.md), each rule is work the font and the layout engine have to do: the font must carry the joined, stacked, or reordered forms, and the engine has to apply them during [shaping](../../terms/text-shaping.md).
 
-## Common mistake
+To a design tool, the rules are the catch. Many tools display the characters of a script but never apply its behaviours, so a prototype can look correct in a glyph table and still render wrong in a real sentence.
+
+So covering a script's symbols is necessary but not sufficient. The rules that direct, join, reorder, and stack those symbols have to be applied too, which is the heart of [complex text layout](../../terms/complex-text-layout.md).
+
+### Example
+
+The [Arabic](../../terms/arabic-script.md) script runs right to left, joins its letters into cursive forms that change by position, and places short vowel marks above and below the letters.<sup>1</sup> A designer prototyping an Arabic interface has to account for all three behaviours before any Arabic-language spelling rules enter the picture, because they are properties of the script, not the language.
+
+### Common mistake
 
 Treating script rules and orthography as the same thing. Script rules belong to the script and hold for every language written in it. Orthography belongs to one language. The Latin script runs left to right whether you write English or Vietnamese, so direction is a script rule. The spelling, capitalization, and diacritic conventions change between those two languages, so those are orthography. Switch the language and the orthography changes while the script rules stay put.
 
-## In practice
+### In practice
 
-This is a checklist for bringing a script to life in a design tool. Take your focus script and walk the six behaviors: does it run right to left, do its letters join, do marks stack on the signs, does anything reorder, does it form blocks, and how does it break into words. The answers tell you what your tool and fonts must support before you build. Many tools display the characters of a script but do not apply its rules, so a prototype can look correct in a glyph table and still render wrong in a real sentence. Test with a real word, not a single letter.
+* **Walk the six behaviours for your focus script:** does it run right to left, do its letters join, do marks stack on the symbols, does anything reorder, does it form vertical stacks, and how does it break into words. The answers tell you what your tool and fonts must support before you build.
+* **Test with a real word, not a single letter:** many tools show the characters but do not apply the rules, so a glyph table can look correct while a real sentence renders wrong. Type a real word in your design tool and confirm it shapes.
 
-## Related terms
+***
 
-[Script](script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Text direction](../../terms/text-direction.md) · [Joining](joining.md) · [Reordering](../../terms/reordering.md) · [Stacking script](../../terms/stacking-script.md)
+### Related terms and mentions
 
-## Further reading
+[Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Font](../../terms/font.md) · [Joining](joining.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
+
+### Further reading
 
 * Foundations: [Internationalization (W3C)](https://www.w3.org/International/)
 * Code & specs: [The Unicode Standard (latest version)](https://www.unicode.org/versions/latest/)
+
+### Sources
+
+1. The Arabic script is written right to left and its letters take contextual joined forms (isolated, initial, medial, final); diacritic marks are positioned above and below the base letters - Developing OpenType Fonts for Arabic Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/arabic](https://learn.microsoft.com/en-us/typography/script-development/arabic)

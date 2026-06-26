@@ -2,7 +2,7 @@
 term: Stacking script
 slug: stacking-script
 aliases: [vertical stacking, stacked consonants]
-tags: [shaping-layout]
+tags: [writing-systems-scripts, shaping-layout]
 level: advanced
 depth: core
 summary: A stacking script is one where consonants pile up vertically to form a cluster, as in Tibetan and many Indic scripts.
@@ -21,16 +21,29 @@ license: CC-BY-4.0
 # Stacking script
 
 ## Definition
+
 A stacking script is one where consonants pile up vertically to form a cluster, as in Tibetan and many Indic scripts.
 
-## Why it matters
-In stacking behavior, a consonant cluster is drawn with letters placed above and below each other rather than side by side, forming a single vertical stack. Tibetan stacks a root letter with subjoined consonants beneath it, and Indic scripts can stack [conjunct](conjunct.md)s vertically. This complicates line height and glyph composition, and a practical tell of weak rendering support is stacks that come apart and sit horizontally instead. It is a reason vertical space and font support need real testing for these scripts, not Latin assumptions.
+For example, a [Tibetan](tibetan-script.md) cluster draws a subjoined consonant directly beneath the root letter rather than after it.
 
-## Example
-A Tibetan cluster with a subjoined consonant draws the second consonant directly beneath the first.
+### Why it matters in design systems
 
-## Related terms
-[Conjunct](conjunct.md) · [Reordering](reordering.md) · [Complex text layout](complex-text-layout.md) · [Tsheg](tsheg.md)
+In a stacking script, a consonant cluster is drawn with letters placed above and below each other rather than side by side, forming a single vertical stack. Tibetan stacks a root letter with subjoined consonants beneath it, using separate characters for those subjoined forms,<sup>1</sup> and Indic scripts can stack [conjuncts](conjunct.md) vertically.
 
-## Further reading
-- Foundations: [Requirements for Tibetan Text Layout (W3C)](https://www.w3.org/TR/tlreq/)
+To [typography](typography.md), that vertical pile is what complicates the layout: a stack rises and drops further than a single letter, so it needs more vertical room and more careful glyph composition. A practical tell of weak rendering support is a stack that comes apart and sits horizontally instead.
+
+So for a design system, the lesson is that vertical space and font support need real testing for these scripts, not Latin assumptions. Budget [line height](line-height.md) for the tallest stacks, and check the font composes them rather than leaving the pieces side by side.
+
+***
+
+### Related terms and mentions
+
+[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Line height](line-height.md) · [Reordering](reordering.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Typography](typography.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+
+### Further reading
+
+* Foundations: [Requirements for Tibetan Text Layout (W3C)](https://www.w3.org/TR/tlreq/)
+
+### Sources
+
+1. Tibetan uses separate code points for subjoined consonants to create consonant stacks; of the 77 combining characters in the Tibetan block, 48 represent subjoined consonant forms - Requirements for Tibetan Text Layout (W3C) [https://www.w3.org/TR/tlreq/](https://www.w3.org/TR/tlreq/)
