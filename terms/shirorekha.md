@@ -49,7 +49,7 @@ The second is alignment. Because these scripts hang from the shirorekha, its han
 
 The third is that covering the script is necessary, not sufficient. For the font, the shirorekha still has to join continuously across a whole word, including where consonants form [conjuncts](conjunct.md) or half-forms, or the word looks broken.<sup>2</sup> (It is sometimes called the matra line, which is not the same as a [matra](../language-terms/writing-systems-and-scripts/matra.md) vowel mark.) A font that covers every letter can still render the join wrong; the connection and the alignment both have to be right.
 
-Remember that a script rule like the shirorekha applies to every language written in the script, not just one. When you add support for a particular language, explore its [orthography](../language-terms/writing-systems-and-scripts/orthography.md) too: the language-specific rules that sit on top of the script and raise considerations this page does not cover.
+A quick thing to keep in mind: a script rule like the shirorekha applies to every language that uses the script, not just one. When you add a new language to your design system, you'll also want to look at its [orthography](../language-terms/writing-systems-and-scripts/orthography.md). That's the rules for that one specific language, and it can add things this page doesn't cover.
 
 ***
 
