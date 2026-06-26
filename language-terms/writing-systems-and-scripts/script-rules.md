@@ -45,7 +45,7 @@ A [script](script.md) is not a passive set of shapes you place in a row. Each sc
 | Script rule | What it does | Example | Learn more |
 | --- | --- | --- | --- |
 | Direction | which way the script runs: left to right, right to left, or top to bottom | [Arabic](../../terms/arabic-script.md) runs right to left; Japanese [tategaki](../../terms/tategaki.md) runs top to bottom | [Text direction](../../terms/text-direction.md) |
-| Joining | whether letters connect and change shape by their position in a word | Arabic letters join | [Joining](joining.md) |
+| Joining | whether letters connect and change shape by their position in a word | Arabic letters join: ب ح ث → بحث | [Joining](joining.md) |
 | Combination | how [marks](../../programming-terms/combining-mark.md) attach to symbols and how symbols cluster or fuse | [Devanagari](../../terms/devanagari.md) conjuncts | [Conjunct](../../terms/conjunct.md) |
 | Ordering | when the order symbols are stored in differs from the order they are displayed in | Indic [reph](../../terms/reph.md) | [Reordering](../../terms/reordering.md) |
 | Stacking | how symbols pile into a vertical stack | [Tibetan](../../terms/tibetan-script.md) stacks | [Stacking script](../../terms/stacking-script.md) |
