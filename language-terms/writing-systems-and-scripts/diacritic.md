@@ -39,7 +39,7 @@ For example, the cedilla mark under the `c` in `façade` is a diacritic.
 
 ### Why it matters in design systems
 
-A diacritic is a kind of [mark](mark.md), it attaches to a [symbol](symbol.md) within a [script](script.md) rather than standing on its own. Placed above, below, or through the symbol, it can signal stress, a different vowel sound, or tone, and it can tell apart two words that would otherwise look the same.
+A diacritic is a kind of [mark](mark.md), it attaches to a [symbol](symbol.md) within a [script](script.md) rather than standing on its own. Placed above, below, or through the symbol, it can signal stress, a different vowel sound, or [tone](tone-mark.md), and it can tell apart two words that would otherwise look the same.
 
 Like all marks, when a diacritic is added to a symbol, the individual piece of text takes up more space. When working with digital text, fonts supporting symbols with diacritic marks may require larger [line height](../../terms/line-height.md) values to avoid clipping.
 

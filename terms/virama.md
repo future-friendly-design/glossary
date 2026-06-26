@@ -12,13 +12,16 @@ summary: >-
   A virama is a mark in Brahmic scripts that cancels the vowel sound built into
   a consonant.
 related:
+  - mark
   - conjunct
   - reph
   - matra
   - complex-text-layout
+  - abugida
+  - devanagari
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18T00:00:00.000Z
+updated: 2026-06-25T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -36,18 +39,22 @@ tags:
 
 A virama is a mark in Brahmic scripts that cancels the vowel sound built into a consonant.
 
-## Why it matters
+For example, in [Devanagari](devanagari.md) `क` (ka) plus a virama gives `क्` (a bare k); `क्` plus `त` (ta) then forms the conjunct `क्त` (kta).
 
-In an abugida, each consonant carries an inherent vowel, and the virama (called halant in Hindi) suppresses that vowel to leave a bare consonant. It does double duty in Unicode: placed between two consonants it also acts as the joiner that requests a [conjunct](conjunct.md) form during shaping. Depending on the font and context it may show as a small visible stroke or be consumed into a combined conjunct shape. That makes the virama the small but pivotal control behind much Indic [conjunct](conjunct.md) formation and [reordering](reordering.md).
+### Why it matters in design systems
 
-## Example
+A virama is a kind of [mark](../language-terms/writing-systems-and-scripts/mark.md). In an [abugida](abugida.md), each consonant carries a built-in vowel, and the virama (called halant in Hindi) strips that vowel to leave a bare consonant. It also does double duty: placed between two consonants, it asks the shaping software to join them into a [conjunct](conjunct.md) form.<sup>1</sup> Depending on the font and context, the virama may show as a small visible stroke or be absorbed into the combined conjunct shape. That makes it the small but pivotal control behind much Devanagari conjunct formation and [reordering](reordering.md).
 
-In Devanagari, क (ka) plus virama gives क् (k with no vowel); क् + त then forms the conjunct क्त (kta).
+***
 
-## Related terms
+### Related terms and mentions
 
-[Conjunct](conjunct.md) · [Reph](reph.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Complex text layout](complex-text-layout.md)
+[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Abugida](abugida.md) · [Conjunct](conjunct.md) · [Reph](reph.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md)
 
-## Further reading
+### Further reading
 
 * Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+
+### Sources
+
+1. The halant (virama) is the character used after a consonant to strip it of its inherent vowel, and Consonant + Halant sequences drive conjunct (half-form or ligature) formation during shaping - Microsoft: Developing OpenType Fonts for Devanagari Script [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
