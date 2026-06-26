@@ -11,6 +11,7 @@ related:
   - mark
   - orthography
   - script
+  - unicode
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-22T00:00:00.000Z
@@ -33,7 +34,7 @@ A punctuation mark is a symbol such as a comma, period, or question mark that st
 
 ## Why it matters
 
-Punctuation shares the word "[mark](../language-terms/writing-systems-and-scripts/mark.md)" but not the sense: unlike a combining mark or a diacritic, a punctuation mark does not modify another symbol, it stands alone. The reason it matters: punctuation is genuinely language and script specific, which is easy to forget when English defaults are baked into a product. Which symbols are used, how quotation marks look, whether a question mark is reversed or a sentence-ender is a different glyph: these are part of a language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md), not universal constants. In Unicode, punctuation is its own family of General Categories (the P groups), distinct from letters and from combining marks.
+Punctuation shares the word "[mark](../language-terms/writing-systems-and-scripts/mark.md)" but not the sense: unlike a combining mark or a diacritic, a punctuation mark does not modify another symbol, it stands alone. The reason it matters: punctuation is genuinely language and script specific, which is easy to forget when English defaults are baked into a product. Which symbols are used, how quotation marks look, whether a question mark is reversed or a sentence-ender is a different glyph: these are part of a language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md), not universal constants. [Unicode](unicode.md), the standard that gives every character a number, sorts punctuation into its own group, kept separate from letters and from the marks that attach to other symbols.
 
 ## Example
 
@@ -41,7 +42,7 @@ Spanish opens a question with an inverted "¿" and closes it with "?"; Greek use
 
 ## Related terms
 
-[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
+[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Unicode](unicode.md)
 
 ## Further reading
 
