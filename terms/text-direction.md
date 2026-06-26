@@ -6,7 +6,7 @@ tags: [writing-systems-scripts]
 level: foundational
 depth: core
 summary: Text direction is the way a script flows, such as left-to-right or right-to-left.
-related: [bidirectional-text, complex-text-layout]
+related: [bidirectional-text, complex-text-layout, left-to-right, right-to-left]
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-18
@@ -27,7 +27,7 @@ license: CC-BY-4.0
 
 Text direction is the way a script flows, such as left-to-right or right-to-left.
 
-For example, [Latin](latin-script.md) runs left to right, while [Arabic](arabic-script.md) and [Hebrew](hebrew-script.md) run right to left.
+For example, [Latin](latin-script.md) runs [left to right](left-to-right.md), while [Arabic](arabic-script.md) and [Hebrew](hebrew-script.md) run [right to left](right-to-left.md).
 
 ### Why it matters in design systems
 
@@ -41,7 +41,7 @@ So for a design system, getting direction right is necessary but not sufficient.
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

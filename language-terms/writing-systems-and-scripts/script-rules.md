@@ -44,12 +44,12 @@ A [script](script.md) is not a passive set of shapes you place in a row. Each sc
 
 | Script rule | What it does | Example | Learn more |
 | --- | --- | --- | --- |
-| Direction | which way the script runs, left to right or right to left | Arabic runs right to left | [Text direction](../../terms/text-direction.md) |
+| Direction | which way the script runs: left to right, right to left, or top to bottom | [Arabic](../../terms/arabic-script.md) runs right to left; Japanese [tategaki](../../terms/tategaki.md) runs top to bottom | [Text direction](../../terms/text-direction.md) |
 | Joining | whether letters connect and change shape by their position in a word | Arabic letters join | [Joining](joining.md) |
-| Combination | how [marks](../../programming-terms/combining-mark.md) attach to symbols and how symbols cluster or fuse | Devanagari conjuncts | [Conjunct](../../terms/conjunct.md) |
-| Ordering | when the order symbols are stored in differs from the order they are displayed in | Indic reph | [Reordering](../../terms/reordering.md) |
-| Stacking | how symbols pile into a vertical stack | Tibetan stacks | [Stacking script](../../terms/stacking-script.md) |
-| Breaking | how the script marks word and line boundaries, which is not always a space | Thai has no word spaces | [Segmentation](../../terms/segmentation.md) |
+| Combination | how [marks](../../programming-terms/combining-mark.md) attach to symbols and how symbols cluster or fuse | [Devanagari](../../terms/devanagari.md) conjuncts | [Conjunct](../../terms/conjunct.md) |
+| Ordering | when the order symbols are stored in differs from the order they are displayed in | Indic [reph](../../terms/reph.md) | [Reordering](../../terms/reordering.md) |
+| Stacking | how symbols pile into a vertical stack | [Tibetan](../../terms/tibetan-script.md) stacks | [Stacking script](../../terms/stacking-script.md) |
+| Breaking | how the script marks word and line boundaries, which is not always a space | [Thai](../../terms/thai-script.md) has no word spaces | [Segmentation](../../terms/segmentation.md) |
 
 ### Why it matters in design systems
 
@@ -65,7 +65,7 @@ So covering a script's symbols is necessary but not sufficient. The rules that d
 
 ### Example
 
-The [Arabic](../../terms/arabic-script.md) script runs right to left, joins its letters into cursive forms that change by position, and places short vowel marks above and below the letters.<sup>1</sup> A designer prototyping an Arabic interface has to account for all three behaviours before any Arabic-language spelling rules enter the picture, because they are properties of the script, not the language.
+The Arabic script runs right to left, joins its letters into cursive forms that change by position, and places short vowel marks above and below the letters.<sup>1</sup> A designer prototyping an Arabic interface has to account for all three behaviours before any Arabic-language spelling rules enter the picture, because they are properties of the script, not the language.
 
 ### Common mistake
 
@@ -80,7 +80,7 @@ Treating script rules and orthography as the same thing. Script rules belong to 
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Font](../../terms/font.md) · [Joining](joining.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Joining](joining.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Reph](../../terms/reph.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Tategaki](../../terms/tategaki.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

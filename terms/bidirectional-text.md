@@ -6,7 +6,7 @@ tags: [writing-systems-scripts, shaping-layout]
 level: advanced
 depth: deep
 summary: Bidirectional text mixes left-to-right and right-to-left scripts in the same line.
-related: [text-direction, unicode, complex-text-layout]
+related: [text-direction, unicode, complex-text-layout, left-to-right, right-to-left]
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-18
@@ -25,7 +25,7 @@ license: CC-BY-4.0
 
 ## Definition
 
-Bidirectional text mixes left-to-right and right-to-left scripts in the same line.
+Bidirectional text mixes [left-to-right](left-to-right.md) and [right-to-left](right-to-left.md) scripts in the same line.
 
 For example, an Arabic sentence with the English brand name `iPhone` and the year `2026` in it runs both ways at once.
 
@@ -55,7 +55,7 @@ Assuming the algorithm handles everything once the text is marked right to left.
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Text direction](text-direction.md) · [Unicode](unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](arabic-script.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Text direction](text-direction.md) · [Unicode](unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

@@ -85,6 +85,8 @@ Script rules are the behaviours a script imposes on its own symbols, such as dir
 * [Stacking script](../../terms/stacking-script.md)
 * [Tategaki](../../terms/tategaki.md)
 * [Text direction](../../terms/text-direction.md)
+  * [Left-to-right (LTR)](../../terms/left-to-right.md)
+  * [Right-to-left (RTL)](../../terms/right-to-left.md)
 
 #### Script classification terms
 
