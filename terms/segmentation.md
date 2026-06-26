@@ -41,7 +41,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 - **Languages:** word segmentation quality is language-specific; confirm space-less scripts with the language experts and test with real content.
 
 ## Related terms
-[ICU](icu.md) · [CLDR](cldr.md) · [Internationalization](internationalization.md) · [Grapheme cluster](grapheme-cluster.md)
+[ICU](icu.md) · [CLDR](cldr.md) · [Internationalization](internationalization.md) · [Grapheme cluster](grapheme-cluster.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md)
 
 ## Further reading
 - Code & specs: [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter)

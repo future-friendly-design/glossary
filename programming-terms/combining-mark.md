@@ -52,7 +52,7 @@ The point that matters for software: the same accented letter can be stored as o
 
 ### Related terms and mentions
 
-[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Character](../terms/character.md) · [Spacing combining mark](spacing-combining-mark.md) · [Enclosing mark](enclosing-mark.md) · [Precomposed character](../terms/precomposed-character.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Normalization](../terms/normalization.md) · [Unicode](../terms/unicode.md)
+[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Character](../terms/character.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Spacing combining mark](spacing-combining-mark.md) · [Enclosing mark](enclosing-mark.md) · [Precomposed character](../terms/precomposed-character.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Normalization](../terms/normalization.md) · [Unicode](../terms/unicode.md)
 
 ### Further reading
 

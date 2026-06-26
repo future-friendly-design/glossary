@@ -55,7 +55,7 @@ Assuming the order characters are stored in is the order they appear on screen. 
 
 ## Related terms
 
-[Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Stacking script](stacking-script.md) · [Complex text layout](complex-text-layout.md) · [Bidirectional text](bidirectional-text.md)
+[Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](stacking-script.md) · [Complex text layout](complex-text-layout.md) · [Bidirectional text](bidirectional-text.md)
 
 ## Further reading
 

@@ -46,7 +46,7 @@ In Devanagari, क (ka) + [virama](../language-terms/writing-systems-and-scripts
 
 ## Related terms
 
-[Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Complex text layout](complex-text-layout.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md)
+[Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Complex text layout](complex-text-layout.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md)
 
 ## Further reading
 

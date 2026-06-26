@@ -44,7 +44,7 @@ So for a design system, getting direction right is necessary but not sufficient.
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

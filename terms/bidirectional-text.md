@@ -58,7 +58,7 @@ Assuming the algorithm handles everything once the text is marked right to left.
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Text direction](text-direction.md) · [Unicode](unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](arabic-script.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](text-direction.md) · [Unicode](unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

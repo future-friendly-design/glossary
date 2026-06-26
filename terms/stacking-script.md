@@ -38,7 +38,7 @@ So for a design system, the lesson is that vertical space and font support need 
 
 ### Related terms and mentions
 
-[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Line height](line-height.md) · [Reordering](reordering.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Typography](typography.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Line height](line-height.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Typography](typography.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

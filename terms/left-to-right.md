@@ -42,7 +42,7 @@ So for a design system, the risk is building as if LTR is the only direction. A 
 
 ### Related terms and mentions
 
-[Bidirectional text](bidirectional-text.md) · [Latin script](latin-script.md) · [Right-to-left](right-to-left.md) · [Text direction](text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Bidirectional text](bidirectional-text.md) · [Latin script](latin-script.md) · [Right-to-left](right-to-left.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
