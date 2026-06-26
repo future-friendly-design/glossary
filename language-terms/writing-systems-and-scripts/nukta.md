@@ -35,7 +35,7 @@ tags:
 
 A nukta is a dot added below a consonant in many Indic scripts to extend the script to sounds the base letters do not cover.
 
-For example, in [Devanagari](../../terms/devanagari.md) a nukta under a consonant turns it into a related sound used mainly in loanwords, while the rest of the letter stays the same.
+For example, in [Devanagari](../../terms/devanagari.md) `क` (ka) plus a nukta becomes `क़` (qa), a sound that mainly came in through loanwords.
 
 ### Why it matters in design systems
 
