@@ -37,7 +37,7 @@ Reordering is when a shaping engine changes the display order of characters rela
 
 ## Why it matters
 
-In several Indic and Brahmic scripts the logical (typed) order of a vowel sign or special consonant differs from its visual position, so the shaper has to move it during layout. The classic cases are a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) that displays before its consonant and a [reph](reph.md) that jumps to the top of a cluster. This is distinct from bidi reordering, which flips whole runs for right-to-left text; reordering rearranges characters within a single syllable.
+In several Indic and Brahmic scripts the logical (typed) order of a vowel mark or special consonant differs from its visual position, so the shaper has to move it during layout. The classic cases are a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) that displays before its consonant and a [reph](reph.md) that jumps to the top of a cluster. This is distinct from bidi reordering, which flips whole runs for right-to-left text; reordering rearranges characters within a single syllable.
 
 ## Example
 

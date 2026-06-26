@@ -37,15 +37,15 @@ Complex text layout is rendering scripts where glyph shape, order, or position d
 
 ## Why it matters
 
-Many scripts cannot be laid out by placing one fixed glyph after another. Arabic letters join and change form, Indic scripts reorder vowel signs and stack consonants into conjuncts, and right-to-left scripts need bidi handling. Supporting these needs a [shaping-engine](shaping-engine.md) plus fonts with the right [opentype](opentype.md) layout rules. Latin needs only minimal shaping by comparison, which is exactly why "complex text layout" is named as a distinct capability: it is the work a system has to do beyond the simple case.
+Many scripts cannot be laid out by placing one fixed glyph after another. Arabic letters join and change form, Indic scripts reorder vowel marks and stack consonants into conjuncts, and right-to-left scripts need bidi handling. Supporting these needs a [shaping-engine](shaping-engine.md) plus fonts with the right [opentype](opentype.md) layout rules. Latin needs only minimal shaping by comparison, which is exactly why "complex text layout" is named as a distinct capability: it is the work a system has to do beyond the simple case.
 
 ## Example
 
-Rendering the Devanagari "कि" requires moving the i-vowel sign to the left of the consonant it follows, which is complex text layout.
+Rendering the Devanagari "कि" requires moving the i-vowel mark to the left of the consonant it follows, which is complex text layout.
 
 ## Common mistake
 
-Assuming that what works for English generalizes. A UI tested only in Latin can silently mangle complex scripts: glyphs that should join stay separate, vowel signs land in the wrong place, conjuncts fail to form. "It looks fine in English" is not evidence that text layout is correct.
+Assuming that what works for English generalizes. A UI tested only in Latin can silently mangle complex scripts: glyphs that should join stay separate, vowel marks land in the wrong place, conjuncts fail to form. "It looks fine in English" is not evidence that text layout is correct.
 
 ## In practice
 

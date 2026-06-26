@@ -36,11 +36,11 @@ An abugida is a script where each consonant carries a built-in vowel that is cha
 
 ## Why it matters
 
-Unlike an [alphabet](alphabet.md), which gives consonants and vowels separate letters, an abugida attaches vowel signs to a base consonant that has a default inherent vowel. Most [Brahmic scripts](brahmic-scripts.md), such as Devanagari and Thai, work this way. This matters for layout because those attached vowel signs (called [matra](../language-terms/writing-systems-and-scripts/matra.md)s) can sit to the left, right, above, or below the consonant, and one typed after its consonant may need to display before it. That reordering and mark placement is why abugidas need real shaping support rather than simple left-to-right glyph placement.
+Unlike an [alphabet](alphabet.md), which gives consonants and vowels separate letters, an abugida attaches vowel marks to a base consonant that has a default inherent vowel. Most [Brahmic scripts](brahmic-scripts.md), such as Devanagari and Thai, work this way. This matters for layout because those attached vowel marks (called [matra](../language-terms/writing-systems-and-scripts/matra.md)s) can sit to the left, right, above, or below the consonant, and one typed after its consonant may need to display before it. That reordering and mark placement is why abugidas need real shaping support rather than simple left-to-right glyph placement.
 
 ## Example
 
-In Devanagari, the consonant "k" carries an inherent "a"; a vowel sign changes it to "ki" or "ku".
+In Devanagari, the consonant "k" carries an inherent "a"; a vowel mark changes it to "ki" or "ku".
 
 ## Related terms
 

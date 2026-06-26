@@ -37,7 +37,7 @@ Brahmic scripts are a large family of South and Southeast Asian writing systems 
 
 ## Why it matters
 
-The Brahmic family includes most scripts of South and Southeast Asia, such as Devanagari, Bengali-Assamese, Tibetan, and Thai, all derived from the ancient Brahmi script. The great majority are [abugida](abugida.md)s: consonants carry an inherent vowel altered by attached vowel signs ([matra](../language-terms/writing-systems-and-scripts/matra.md)s), clusters combine into [conjunct](conjunct.md) forms, and a [virama](../language-terms/writing-systems-and-scripts/virama.md) can suppress the inherent vowel. Members share these structural features even when their letterforms look very different, which is why supporting one Brahmic script teaches you much of what the others need: real shaping, reordering, and [complex text layout](complex-text-layout.md) rather than simple glyph placement.
+The Brahmic family includes most scripts of South and Southeast Asia, such as Devanagari, Bengali-Assamese, Tibetan, and Thai, all derived from the ancient Brahmi script. The great majority are [abugida](abugida.md)s: consonants carry an inherent vowel altered by attached vowel marks ([matra](../language-terms/writing-systems-and-scripts/matra.md)s), clusters combine into [conjunct](conjunct.md) forms, and a [virama](../language-terms/writing-systems-and-scripts/virama.md) can suppress the inherent vowel. Members share these structural features even when their letterforms look very different, which is why supporting one Brahmic script teaches you much of what the others need: real shaping, reordering, and [complex text layout](complex-text-layout.md) rather than simple glyph placement.
 
 ## Example
 

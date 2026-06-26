@@ -31,7 +31,7 @@ Shaping and layout are how a string of characters becomes correctly formed, orde
 
 ## Why it matters
 
-For Latin text it is easy to assume rendering is just "draw each character in order," and that assumption quietly breaks for much of the world's writing. Arabic letters join and change shape, Indic scripts reorder vowel signs and fuse consonants into conjuncts, Tibetan stacks letters vertically, and ligatures fuse pairs even in Latin. Getting this right is what separates software that genuinely supports a language from software that merely stores its characters. This category covers the machinery (the OpenType format and its tables, the shaping engine) and the script-specific behaviors that machinery exists to handle, so you can reason about why complex text renders the way it does and what it takes to support it.
+For Latin text it is easy to assume rendering is just "draw each character in order," and that assumption quietly breaks for much of the world's writing. Arabic letters join and change shape, Indic scripts reorder vowel marks and fuse consonants into conjuncts, Tibetan stacks letters vertically, and ligatures fuse pairs even in Latin. Getting this right is what separates software that genuinely supports a language from software that merely stores its characters. This category covers the machinery (the OpenType format and its tables, the shaping engine) and the script-specific behaviors that machinery exists to handle, so you can reason about why complex text renders the way it does and what it takes to support it.
 
 ## Key terms
 
