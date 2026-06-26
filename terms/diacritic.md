@@ -7,7 +7,7 @@ aliases:
 level: foundational
 depth: core
 summary: >-
-  A diacritic is a small mark added to a letter to change its pronunciation or
+  A diacritic is a small mark added to a symbol to change its pronunciation or
   meaning.
 related:
   - mark
@@ -33,7 +33,7 @@ tags:
 
 ## Definition
 
-A diacritic is a small mark added to a symbol to change its pronunciation or meaning.
+A diacritic is a small mark added to a symbol to change its pronunciation or meaning.<sup>1</sup>
 
 For example, the cedilla mark under the `c` in `façade` is a diacritic.
 
@@ -45,7 +45,7 @@ Like all marks, when a diacritic is added to a symbol, the individual piece of t
 
 For software, there are known issues with the way accented text is stored. [Unicode](unicode.md), the standard that gives every character (their term for a symbol) a unique number, describes accented text as being stored as a [precomposed character](precomposed-character.md), or as the plain letter plus a separate [combining mark](combining-mark.md).&#x20;
 
-So `café` can be stored two different ways that look identical on screen. Getting accented text to match and count correctly comes back to [normalization](normalization.md), where the computer rewrites the text into one standard form.
+So `café` can be stored two different ways that look identical on screen. Getting accented text to match and count correctly comes back to [normalization](normalization.md), where the computer rewrites the text into one standard form.<sup>2</sup>
 
 
 
@@ -61,4 +61,5 @@ So `café` can be stored two different ways that look identical on screen. Getti
 
 ### Sources
 
-*
+1. Unicode defines a diacritic as a mark applied to a symbol, not only a letter - Unicode Glossary: Diacritic [https://www.unicode.org/glossary/#diacritic](https://www.unicode.org/glossary/#diacritic)
+2. Precomposed and decomposed spellings of an accented letter are canonically equivalent, and normalization removes the difference for comparison - Unicode Glossary: Canonical Equivalence [https://www.unicode.org/glossary/#canonical_equivalence](https://www.unicode.org/glossary/#canonical_equivalence)
