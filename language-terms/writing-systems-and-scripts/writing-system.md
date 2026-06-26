@@ -35,7 +35,7 @@ tags:
 
 A writing system defines the symbols and rules for writing a specific language.
 
-[Symbols](symbol.md) belong to a [script](script.md), and they follow their own script rules regardless of the language they are applied to.
+[Symbols](symbol.md) belong to a [script](script.md), and they follow their own [script rules](script-rules.md) regardless of the language they are applied to.
 
 When a community sets rules on how a script can be used to write their specific language it becomes an [orthography](orthography.md).
 
