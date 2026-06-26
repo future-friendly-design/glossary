@@ -103,6 +103,7 @@
   * [GSUB](terms/gsub.md)
 * [H](browse-all-terms/h/README.md)
   * [Han characters](terms/han-characters.md)
+  * [Hanging baseline](terms/hanging-baseline.md)
   * [Hangul](terms/hangul.md)
   * [Harakat](terms/harakat.md)
   * [Hebrew script](terms/hebrew-script.md)
