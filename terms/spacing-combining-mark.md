@@ -14,9 +14,11 @@ related:
   - enclosing-mark
   - matra
   - grapheme-cluster
+  - brahmic-scripts
+  - devanagari
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-22T00:00:00.000Z
+updated: 2026-06-25T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -34,18 +36,23 @@ tags:
 
 A spacing combining mark is a combining character that takes up its own horizontal width while still belonging to the base character it attaches to.
 
-## Why it matters
+For example, in [Devanagari](devanagari.md) the consonant `क` (ka) plus the aa-mark `ा` becomes `का` (kaa); the mark sits to the right and takes its own width.
 
-The [combining mark](combining-mark.md) entry covers the nonspacing case, marks that add no width and stack on top of a base. The spacing combining mark is the second member of Unicode's Mark category, General Category Mc. Unlike a nonspacing mark, it advances the text by its own width, yet it still forms a single unit with its base. These are common in [Brahmic scripts](brahmic-scripts.md), where many vowel signs ([matra](../language-terms/writing-systems-and-scripts/matra.md)s) sit beside the consonant and occupy real horizontal space. Knowing the distinction matters because code that assumes "combining means zero width" will mishandle them, and because the base plus its spacing mark count as one [grapheme cluster](grapheme-cluster.md), not two.
+### Why it matters in design systems
 
-## Example
+The [combining mark](combining-mark.md) entry covers the nonspacing case, marks that add no width and stack on top of a base. The spacing combining mark is the second member of Unicode's Mark category, General Category Mc.<sup>1</sup> Unlike a nonspacing mark, it advances the text by its own width, yet it still forms a single unit with its base.<sup>2</sup> These are common in [Brahmic scripts](brahmic-scripts.md), where many vowel marks ([matra](../language-terms/writing-systems-and-scripts/matra.md)s) sit beside the consonant and occupy real horizontal space. Knowing the distinction matters because code that assumes "combining means zero width" will mishandle them, and because the base plus its spacing mark count as one [grapheme cluster](grapheme-cluster.md), not two.
 
-A Devanagari consonant followed by a right-side vowel sign forms one unit, but the vowel sign occupies its own width, which makes it a spacing combining mark rather than a nonspacing one.
+***
 
-## Related terms
+### Related terms and mentions
 
-[Combining mark](combining-mark.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Enclosing mark](enclosing-mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Grapheme cluster](grapheme-cluster.md)
+[Combining mark](combining-mark.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Enclosing mark](enclosing-mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Brahmic scripts](brahmic-scripts.md) · [Devanagari](devanagari.md) · [Grapheme cluster](grapheme-cluster.md)
 
-## Further reading
+### Further reading
 
 * Foundations: [Spacing Mark (Unicode Glossary)](https://www.unicode.org/glossary/#spacing_mark)
+
+### Sources
+
+1. Unicode's Mark category (M) splits into nonspacing (Mn), spacing combining (Mc), and enclosing (Me) marks - Unicode Standard Annex #44: General Category Values [https://www.unicode.org/reports/tr44/#General_Category_Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
+2. A spacing mark is a combining character that is not a nonspacing mark, so it advances its own width - Unicode Glossary: Spacing Mark [https://www.unicode.org/glossary/#spacing_mark](https://www.unicode.org/glossary/#spacing_mark)
