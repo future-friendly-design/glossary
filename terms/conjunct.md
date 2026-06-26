@@ -51,7 +51,7 @@ So for a design system, a font that contains the consonants is necessary but not
 
 ### Related terms and mentions
 
-[Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

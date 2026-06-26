@@ -39,35 +39,39 @@ The shirorekha is a horizontal stroke at the top of a series of symbols in Devan
 
 For example, in Devanagari `नमस्ते`, the unbroken line across the top of the word is the shirorekha.
 
+While this glossary doesn't cover every script, here's a list of scripts to explore that include shirorekha:
+
+TABLE HERE
+
 ### Why it matters in design systems
 
-In scripts such as [Devanagari](devanagari.md) and [Bengali](bengali-assamese.md), most letters hang from the shirorekha, the line along the top, instead of sitting on a [baseline](baseline.md) the way [Latin](latin-script.md) does.<sup>1</sup> The shirorekha is part of the shapes of the letters themselves, not a separate [mark](../language-terms/writing-systems-and-scripts/mark.md) added on top; neighbouring letters are drawn so it runs unbroken from one to the next, and that join is what visually ties the letters of a word together.<sup>2</sup> Which scripts carry a shirorekha, and that it joins across a word, are [script rules](../language-terms/writing-systems-and-scripts/script-rules.md): they hold for every language written in the script.
+In scripts such as [Devanagari](../../terms/devanagari.md) and [Bengali](../../terms/bengali-assamese.md), most letters hang from the shirorekha, the line along the top, instead of sitting on a [baseline](../../terms/baseline.md) the way [Latin](../../terms/latin-script.md) does.<sup>1</sup> The shirorekha is part of the shapes of the letters themselves, not a separate [mark](mark.md) added on top; neighbouring letters are drawn so it runs unbroken from one to the next, and that join is what visually ties the letters of a word together.<sup>2</sup> Which scripts carry a shirorekha, and that it joins across a word, are [script rules](script-rules.md): they hold for every language written in the script.
 
 A script with a shirorekha influences several design system decisions including spacing, alignment, and font coverage.
 
-[Letter-spacing](letter-spacing.md), the [tracking](tracking.md) you might add to Latin headings or labels, should not be applied character by character to a script with a shirorekha.
+[Letter-spacing](../../terms/letter-spacing.md), the [tracking](../../terms/tracking.md) you might add to Latin headings or labels, should not be applied character by character to a script with a shirorekha.
 
 * It inserts a gap between each unit, the gap lands on the seam where the shirorekha joins, and the top line breaks so the word looks split.<sup>3</sup>
-* It is the same reason connected scripts like [Arabic](arabic-script.md) reject letter-spacing.<sup>4</sup>
+* It is the same reason connected scripts like [Arabic](../../terms/arabic-script.md) reject letter-spacing.<sup>4</sup>
 * A tracking token that is safe, even useful, on Latin cannot be applied once across the board; letter-spacing has to be scoped by script.
 
-Letters hanging from the shirorekha at the top means the design system has to account for the text alignment as a [hanging baseline](hanging-baseline.md) which is different from the baseline Latin sits on.
+Letters hanging from the shirorekha at the top means the design system has to account for the text alignment as a [hanging baseline](../../terms/hanging-baseline.md) which is different from the baseline Latin sits on.
 
 * Script rules may also define marks that stack above and below the shirorekha.
-* This means if you have a fixed value as your [line-height](line-height.md) that works for Latin script using languages, it may need to be adjusted to ensure scripts with shirorekha don't appear clipped or cut off.
+* This means if you have a fixed value as your [line-height](../../terms/line-height.md) that works for Latin script using languages, it may need to be adjusted to ensure scripts with shirorekha don't appear clipped or cut off.
 
 In digital design and programming, ensuring you have chosen a font with coverage for the specific script with the shirorekha is important.
 
-* The shirorekha has to join continuously across a whole word, including where consonants form [conjuncts](conjunct.md) or half-forms, or the word looks broken.<sup>2</sup> (It is sometimes called the matra line, which is not the same as a [matra](../language-terms/writing-systems-and-scripts/matra.md) vowel mark.)
+* The shirorekha has to join continuously across a whole word, including where consonants form [conjuncts](../../terms/conjunct.md) or half-forms, or the word looks broken.<sup>2</sup> (It is sometimes called the matra line, which is not the same as a [matra](matra.md) vowel mark.)
 * A font that covers every letter can still render the join wrong if it doesn't have coverage for letters with shirorekha; the connection and the alignment both have to be right.
 
-A quick thing to keep in mind: the shirorekha is just one of a script's rules. A script usually has several, and they all apply to every language that uses the script. So check the other [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) too, not only this page. After that, look at the [orthography](../language-terms/writing-systems-and-scripts/orthography.md) for each language you support. Orthography is the language-specific layer: how that one language uses the script, like its spelling and punctuation.
+A quick thing to keep in mind: the shirorekha is just one of a script's rules. A script usually has several, and they all apply to every language that uses the script. So check the other [script rules](script-rules.md) too, not only this page. After that, look at the [orthography](orthography.md) for each language you support. Orthography is the language-specific layer: how that one language uses the script, like its spelling and punctuation.
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Baseline](baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](latin-script.md) · [Letter spacing](letter-spacing.md) · [Line height](line-height.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reph](reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Tracking](tracking.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](../../terms/arabic-script.md) · [Baseline](../../terms/baseline.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Hanging baseline](../../terms/hanging-baseline.md) · [Latin script](../../terms/latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](../../terms/reph.md) · [Script rules](script-rules.md) · [Tracking](../../terms/tracking.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

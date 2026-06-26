@@ -40,7 +40,7 @@ A guided tour of the shaping and layout terms in this glossary, grouped by what 
 * **The shaping pipeline:** [Text shaping](text-shaping.md), [Shaping engine](shaping-engine.md), [Complex text layout](complex-text-layout.md), [Reordering](reordering.md)
 * **The OpenType format and its tables:** [OpenType](opentype.md), [OpenType features](opentype-features.md), [GSUB](gsub.md), [GPOS](gpos.md)
 * **Joining and combining glyphs:** [Ligature](ligature.md), [Conjunct](conjunct.md)
-* **Indic script features:** [Matra](../language-terms/writing-systems-and-scripts/matra.md), [Reph](reph.md), [Shirorekha](shirorekha.md), [Virama](../language-terms/writing-systems-and-scripts/virama.md)
+* **Indic script features:** [Matra](../language-terms/writing-systems-and-scripts/matra.md), [Reph](reph.md), [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md), [Virama](../language-terms/writing-systems-and-scripts/virama.md)
 * **Tibetan and vertical stacking:** [Tsheg](tsheg.md), [Stacking script](stacking-script.md)
 
 ## Further reading
