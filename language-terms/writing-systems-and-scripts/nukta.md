@@ -39,13 +39,13 @@ For example, in [Devanagari](../../terms/devanagari.md) `क` (ka) plus a nukta 
 
 ### Why it matters in design systems
 
-A nukta (the word means "dot") is a small combining mark that sits beneath a consonant and changes the sound it represents, letting an [abugida](../../terms/abugida.md) such as Devanagari write sounds borrowed from other languages without inventing whole new letters. It belongs to the same family of attached marks as the vowel mark ([matra](matra.md)) and the vowel-killer ([virama](../../terms/virama.md)). For software, two practical points follow. A base letter plus a nukta can often also be stored as a single [precomposed character](../../terms/precomposed-character.md), so the same word can exist in two forms that need [normalization](../../terms/normalization.md) to match.<sup>1</sup> And the nukta is one more combining [mark](mark.md) that the software laying out the text has to position correctly, since the standard encodes it immediately after its consonant.<sup>2</sup>
+A nukta (the word means "dot") is a small combining mark that sits beneath a consonant and changes the sound it represents, letting an [abugida](../../terms/abugida.md) such as Devanagari write sounds borrowed from other languages without inventing whole new letters. It belongs to the same family of attached marks as the vowel mark ([matra](matra.md)) and the vowel-killer ([virama](virama.md)). For software, two practical points follow. A base letter plus a nukta can often also be stored as a single [precomposed character](../../terms/precomposed-character.md), so the same word can exist in two forms that need [normalization](../../terms/normalization.md) to match.<sup>1</sup> And the nukta is one more combining [mark](mark.md) that the software laying out the text has to position correctly, since the standard encodes it immediately after its consonant.<sup>2</sup>
 
 ***
 
 ### Related terms and mentions
 
-[Matra](matra.md) · [Virama](../../terms/virama.md) · [Diacritic](diacritic.md) · [Mark](mark.md) · [Devanagari](../../terms/devanagari.md) · [Precomposed character](../../terms/precomposed-character.md) · [Normalization](../../terms/normalization.md)
+[Matra](matra.md) · [Virama](virama.md) · [Diacritic](diacritic.md) · [Mark](mark.md) · [Devanagari](../../terms/devanagari.md) · [Precomposed character](../../terms/precomposed-character.md) · [Normalization](../../terms/normalization.md)
 
 ### Further reading
 

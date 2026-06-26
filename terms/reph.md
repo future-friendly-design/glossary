@@ -35,7 +35,7 @@ A reph is the special mark form that the consonant "ra" takes when it begins a c
 
 ## Why it matters
 
-When "ra" is the first consonant of a cluster (a syllable-initial ra followed by a [virama](virama.md), the mark that cancels its inherent vowel), it is not written as a full letter. Instead the shaper reorders it to the end of the cluster and draws it as a small hook-like mark above the following consonant. Producing a reph takes both a glyph substitution and a move into position, which makes it one of the clearest examples of Indic [reordering](reordering.md) and why [complex-text-layout](complex-text-layout.md) cannot be done by placing glyphs in typed order.
+When "ra" is the first consonant of a cluster (a syllable-initial ra followed by a [virama](../language-terms/writing-systems-and-scripts/virama.md), the mark that cancels its inherent vowel), it is not written as a full letter. Instead the shaper reorders it to the end of the cluster and draws it as a small hook-like mark above the following consonant. Producing a reph takes both a glyph substitution and a move into position, which makes it one of the clearest examples of Indic [reordering](reordering.md) and why [complex-text-layout](complex-text-layout.md) cannot be done by placing glyphs in typed order.
 
 ## Example
 
@@ -43,7 +43,7 @@ In Devanagari "कर्म" (karma), the "ra" before "ma" becomes a reph drawn 
 
 ## Related terms
 
-[Conjunct](conjunct.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reordering](reordering.md) · [Shirorekha](shirorekha.md) · [Virama](virama.md)
+[Conjunct](conjunct.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reordering](reordering.md) · [Shirorekha](shirorekha.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md)
 
 ## Further reading
 

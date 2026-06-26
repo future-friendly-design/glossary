@@ -39,17 +39,17 @@ tags:
 
 A virama is a mark in Brahmic scripts that cancels the vowel sound built into a consonant.
 
-For example, in [Devanagari](devanagari.md) `क` (ka) plus a virama gives `क्` (a bare k); `क्` plus `त` (ta) then forms the conjunct `क्त` (kta).
+For example, in [Devanagari](../../terms/devanagari.md) `क` (ka) plus a virama gives `क्` (a bare k); `क्` plus `त` (ta) then forms the conjunct `क्त` (kta).
 
 ### Why it matters in design systems
 
-A virama is a kind of [mark](../language-terms/writing-systems-and-scripts/mark.md). In an [abugida](abugida.md), each consonant carries a built-in vowel, and the virama (called halant in Hindi) strips that vowel to leave a bare consonant. It also does double duty: placed between two consonants, it asks the shaping software to join them into a [conjunct](conjunct.md) form.<sup>1</sup> Depending on the font and context, the virama may show as a small visible stroke or be absorbed into the combined conjunct shape. That makes it the small but pivotal control behind much Devanagari conjunct formation and [reordering](reordering.md).
+A virama is a kind of [mark](mark.md). In an [abugida](../../terms/abugida.md), each consonant carries a built-in vowel, and the virama (called halant in Hindi) strips that vowel to leave a bare consonant. It also does double duty: placed between two consonants, it asks the shaping software to join them into a [conjunct](../../terms/conjunct.md) form.<sup>1</sup> Depending on the font and context, the virama may show as a small visible stroke or be absorbed into the combined conjunct shape. That makes it the small but pivotal control behind much Devanagari conjunct formation and [reordering](../../terms/reordering.md).
 
 ***
 
 ### Related terms and mentions
 
-[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Abugida](abugida.md) · [Conjunct](conjunct.md) · [Reph](reph.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md)
+[Mark](mark.md) · [Abugida](../../terms/abugida.md) · [Conjunct](../../terms/conjunct.md) · [Reph](../../terms/reph.md) · [Matra](matra.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md)
 
 ### Further reading
 

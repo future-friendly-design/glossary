@@ -46,7 +46,7 @@ A script is not a passive set of shapes you place in a row. Each script carries 
 
 * **Direction**: which way the script runs, such as left-to-right or right-to-left. See [text direction](../../terms/text-direction.md).
 * **Joining**: whether signs connect and change shape based on their position in a word. See [joining](joining.md).
-* **Combination**: how [marks](../../terms/combining-mark.md) attach to signs and how signs cluster or fuse, as in a [conjunct](../../terms/conjunct.md).
+* **Combination**: how [marks](../../programming-terms/combining-mark.md) attach to signs and how signs cluster or fuse, as in a [conjunct](../../terms/conjunct.md).
 * **Ordering**: when the order signs are stored in differs from the order they are displayed in. See [reordering](../../terms/reordering.md).
 * **Stacking and positioning**: how signs pile into blocks or stack, as in a [stacking script](../../terms/stacking-script.md).
 * **Breaking**: how the script marks word and line boundaries, which is not always a space. See [segmentation](../../terms/segmentation.md).
