@@ -53,7 +53,7 @@ While this glossary doesn't cover every mark for every script, here's the list o
 | [Virama](virama.md)                     | cancels a consonant's built-in vowel |  `क` → `क्`  | Devanagari                                                                                                                              |
 | [Punctuation mark](punctuation-mark.md) | structures text, a separate sense    | stands alone | most scripts                                                                                                                            |
 
-[Unicode](../../terms/unicode.md), the standard that gives every character a unique number, groups marks a different way: not by what they do, but by how they sit on the base. A [combining mark](../../programming-terms/combining-mark.md) can be nonspacing, [spacing combining](../../programming-terms/spacing-combining-mark.md), or [enclosing](../../programming-terms/enclosing-mark.md). An enclosing mark wraps all the way around, the way the keycap emoji `1️⃣` puts a box around the digit `1`.<sup>1</sup>
+[Unicode](../../terms/unicode.md), the standard that gives every [character](../../terms/character.md) a unique number, groups marks a different way: not by what they do, but by how they sit on the base. A [combining mark](../../programming-terms/combining-mark.md) can be nonspacing, [spacing combining](../../programming-terms/spacing-combining-mark.md), or [enclosing](../../programming-terms/enclosing-mark.md). An enclosing mark wraps all the way around, the way the keycap emoji `1️⃣` puts a box around the digit `1`.<sup>1</sup>
 
 ### Why it matters in design systems
 
@@ -61,7 +61,7 @@ Like the [symbol](symbol.md) it attaches to, a mark is rarely where you make a d
 
 To a linguist, a mark changes a symbol's meaning or sound.
 
-To typography, a mark is a [glyph](../../terms/glyph.md) the font must both contain and position on its base, and how many marks stack on a letter is set by the language's [orthography](orthography.md), not the shared script: Vietnamese piles a vowel mark and a tone mark where French uses one,<sup>3</sup> so the same Latin script needs more [line height](../../terms/line-height.md) for Vietnamese than for French.
+To [typography](../../terms/typography.md), a mark is a [glyph](../../terms/glyph.md) the [font](../../terms/font.md) must both contain and position on its base, and how many marks stack on a letter is set by the language's [orthography](orthography.md), not the shared script: Vietnamese piles a vowel mark and a tone mark where French uses one,<sup>3</sup> so the same Latin script needs more [line height](../../terms/line-height.md) for Vietnamese than for French.
 
 To a computer, a mark is a combining character: the same accented letter can be stored as a single [code point](../../terms/code-point.md) or as a base letter plus a combining mark, which quietly changes how text is searched, counted, and compared.
 
@@ -73,7 +73,7 @@ This one is about software, not type. A computer can store the same accented let
 
 ### In practice
 
-* **Check the font covers the marks, not just the base letters:** a typeface can include every letter a language needs and still be missing the marks or the logic to place them, which leaves accented text rendering broken. Set a string with real marks, not just A to Z, before you commit to a font. See [font coverage](../../terms/font-coverage.md).
+* **Check the font covers the marks, not just the base letters:** a [typeface](../../terms/typeface.md) can include every letter a language needs and still be missing the marks or the logic to place them, which leaves accented text rendering broken. Set a string with real marks, not just A to Z, before you commit to a font. See [font coverage](../../terms/font-coverage.md).
 * **Budget line height for stacked marks:** languages such as Vietnamese put a vowel mark and a tone mark on one letter, and that stack rises higher than a single accent. Give those scripts room in your line-height tokens so marks are not clipped by the line above.
 * **Normalize text before you store or compare it:** have the system rewrite incoming text into one standard form, so two spellings that look the same actually match and counts stay correct.
 
@@ -81,7 +81,7 @@ This one is about software, not type. A computer can store the same accented let
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Code point](../../terms/code-point.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](diacritic.md) · [Enclosing mark](../../programming-terms/enclosing-mark.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Matra](matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](nukta.md) · [Orthography](orthography.md) · [Punctuation mark](punctuation-mark.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../programming-terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tone mark](tone-mark.md) · [Unicode](../../terms/unicode.md) · [Virama](virama.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Code point](../../terms/code-point.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](diacritic.md) · [Enclosing mark](../../programming-terms/enclosing-mark.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Matra](matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](nukta.md) · [Orthography](orthography.md) · [Punctuation mark](punctuation-mark.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../programming-terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tone mark](tone-mark.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Virama](virama.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

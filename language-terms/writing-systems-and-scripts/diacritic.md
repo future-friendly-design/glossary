@@ -13,8 +13,10 @@ related:
   - mark
   - tone-mark
   - combining-mark
+  - character
   - precomposed-character
   - normalization
+  - font
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-18T00:00:00.000Z
@@ -41,9 +43,9 @@ For example, the cedilla mark under the `c` in `façade` is a diacritic.
 
 A diacritic is a kind of [mark](mark.md), it attaches to a [symbol](symbol.md) within a [script](script.md) rather than standing on its own. Placed above, below, or through the symbol, it can signal stress, a different vowel sound, or [tone](tone-mark.md), and it can tell apart two words that would otherwise look the same.
 
-Like all marks, when a diacritic is added to a symbol, the individual piece of text takes up more space. When working with digital text, fonts supporting symbols with diacritic marks may require larger [line height](../../terms/line-height.md) values to avoid clipping.
+Like all marks, when a diacritic is added to a symbol, the individual piece of text takes up more space. When working with digital text, [fonts](../../terms/font.md) supporting symbols with diacritic marks may require larger [line height](../../terms/line-height.md) values to avoid clipping.
 
-For software, there are known issues with the way accented text is stored. [Unicode](../../terms/unicode.md), the standard that gives every character (their term for a symbol) a unique number, describes accented text as being stored as a [precomposed character](../../terms/precomposed-character.md), or as the plain letter plus a separate [combining mark](../../programming-terms/combining-mark.md).
+For software, there are known issues with the way accented text is stored. [Unicode](../../terms/unicode.md), the standard that gives every [character](../../terms/character.md) (their term for a symbol) a unique number, describes accented text as being stored as a [precomposed character](../../terms/precomposed-character.md), or as the plain letter plus a separate [combining mark](../../programming-terms/combining-mark.md).
 
 So `café` can be stored two different ways that look identical on screen. Getting accented text to match and count correctly comes back to [normalization](../../terms/normalization.md), where the computer rewrites the text into one standard form.<sup>2</sup>
 
@@ -51,7 +53,7 @@ So `café` can be stored two different ways that look identical on screen. Getti
 
 ### Related terms and mentions
 
-[Mark](mark.md) · [Tone mark](tone-mark.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Precomposed character](../../terms/precomposed-character.md) · [Normalization](../../terms/normalization.md)
+[Mark](mark.md) · [Tone mark](tone-mark.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Character](../../terms/character.md) · [Precomposed character](../../terms/precomposed-character.md) · [Normalization](../../terms/normalization.md) · [Font](../../terms/font.md)
 
 ### Further reading
 

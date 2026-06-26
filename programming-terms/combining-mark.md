@@ -11,6 +11,7 @@ summary: >-
 related:
   - mark
   - diacritic
+  - character
   - precomposed-character
   - normalization
   - grapheme-cluster
@@ -35,7 +36,7 @@ tags:
 
 ## Definition
 
-A combining mark is a character that attaches to the one before it, such as an accent.
+A combining mark is a [character](../terms/character.md) that attaches to the one before it, such as an accent.
 
 For example, the letter `n` followed by a combining tilde displays as `ñ`.
 
@@ -51,7 +52,7 @@ The point that matters for software: the same accented letter can be stored as o
 
 ### Related terms and mentions
 
-[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Spacing combining mark](spacing-combining-mark.md) · [Enclosing mark](enclosing-mark.md) · [Precomposed character](../terms/precomposed-character.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Normalization](../terms/normalization.md) · [Unicode](../terms/unicode.md)
+[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Character](../terms/character.md) · [Spacing combining mark](spacing-combining-mark.md) · [Enclosing mark](enclosing-mark.md) · [Precomposed character](../terms/precomposed-character.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Normalization](../terms/normalization.md) · [Unicode](../terms/unicode.md)
 
 ### Further reading
 
