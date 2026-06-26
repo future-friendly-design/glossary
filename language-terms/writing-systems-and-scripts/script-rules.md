@@ -53,7 +53,7 @@ A [script](script.md) is not a passive set of shapes you place in a row. Each sc
 
 ### Why it matters in design systems
 
-Like the [symbols](symbol.md) it governs, a script rule is rarely where you make a decision; it matters because each discipline a design system spans handles the same rule differently, and a rule the font can draw is still not a rule the system applies on its own.
+You do not choose a script rule; the script imposes it. But you do have to design around it, and that touches real decisions: which way a layout mirrors, how much [line height](../../terms/line-height.md) a stacked script needs, and whether your font and layout engine can join or reorder the letters.
 
 To a linguist, these behaviours are properties of the script, shared by every language written in it.
 
@@ -80,7 +80,7 @@ Treating script rules and orthography as the same thing. Script rules belong to 
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Joining](joining.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Reph](../../terms/reph.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Tategaki](../../terms/tategaki.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Joining](joining.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Reph](../../terms/reph.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Tategaki](../../terms/tategaki.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
