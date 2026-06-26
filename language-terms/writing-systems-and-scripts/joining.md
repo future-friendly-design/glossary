@@ -54,28 +54,34 @@ While this glossary doesn't cover every script, here are the scripts that use jo
 
 ### Why it matters in design systems
 
-In a joining script, a letter is not one fixed shape. It takes a different form depending on where it sits and what it connects to, usually one of four: initial, medial, final, or isolated.<sup>1</sup>
+In a joining script, a letter is not one fixed shape. It takes a different form depending on where it sits and what it connects to, usually one of four: initial, medial, final, or isolated.<sup>1</sup> Whether letters join, and that they join across a word, is a [script rule](script-rules.md): it holds for every language written in the script, such as Arabic, Persian, and Urdu.
 
-To a [font](../../terms/font.md), that means the right form has to be chosen during [shaping](../../terms/text-shaping.md), the step that turns stored characters into the positioned [glyphs](../../terms/glyph.md) you see. The font must contain those positional forms, and OpenType selects them with the `isol`, `init`, `medi`, and `fina` features.<sup>1</sup>
+A joining script influences several design system decisions including shaping, font coverage, and tool support.
 
-To a design tool, joining is the single most important behaviour to confirm when you prototype an [Arabic](../../terms/arabic-script.md) interface, because many tools display the characters but never shape them, which leaves the letters as separate, disconnected shapes a reader cannot follow.
+The right form for each letter has to be chosen during [shaping](../../terms/text-shaping.md), the step that turns stored characters into the positioned [glyphs](../../terms/glyph.md) you see.
 
-So a font that contains Arabic characters is necessary but not sufficient: without the positional forms and the shaping logic to pick them, the text still renders broken. Joining is a property of the script, so it applies across every language written in that script, such as Arabic, Persian, and Urdu.
+* OpenType selects the positional forms with the `isol`, `init`, `medi`, and `fina` features.<sup>1</sup>
+* Without shaping, the letters fall back to their isolated forms, sitting apart, which reads as broken.
+
+A [font](../../terms/font.md) that contains the script's characters is necessary but not sufficient.
+
+* It has to include the positional forms and the features that select them, not just the base letters.
+* A font missing those leaves the text disconnected even though every letter is present.
+
+In a design tool, joining is the behaviour to confirm first when you prototype an [Arabic](../../terms/arabic-script.md) interface.
+
+* Many tools display the characters but never shape them, which leaves the letters as separate shapes a reader cannot follow.
 
 A quick thing to keep in mind: joining is just one of a script's rules. A script usually has several, and they all apply to every language that uses the script. So check the other [script rules](script-rules.md) too, not only this page. After that, look at the [orthography](orthography.md) for each language you support. Orthography is the language-specific layer: how that one language uses the script, like its spelling and punctuation.
 
-### Example
-
-Write a short Arabic word whose letters all connect. Each letter takes its initial, medial, or final form so the word renders as one continuous cursive run rather than three separate shapes sitting side by side. Change one letter's neighbour and the connected form changes with it.
-
 ### Common mistake
 
-Assuming that a font containing Arabic characters will display Arabic correctly. Without shaping, those characters appear in their isolated forms, unconnected, which reads as broken. Joining is also not the same as a [ligature](../../terms/ligature.md). A ligature fuses two specific symbols into one glyph for one combination. Joining is the systematic reshaping of letters as they connect along a whole word.
+Treating joining like a [ligature](../../terms/ligature.md). A ligature fuses two specific symbols into one glyph for one fixed combination, the way an `f` and an `i` can merge into a single `fi` shape. Joining is different: it is the systematic reshaping of letters as they connect along a whole word, not a one-off fusion. Mixing the two up sends you looking for the wrong fix, a ligature setting, when the text actually needs shaping.
 
 ### In practice
 
-* **Test the tool with a real word, not a glyph table:** check that a design tool shapes the text, not just that it can show the characters. Type a real word and confirm the letters connect and pick up their positional forms. Support varies between tools, so test it early rather than discovering it at handoff.
-* **Verify the font covers the script, not just the letters:** the typeface has to include the positional forms and the OpenType features that select them. A font missing those will leave joining text disconnected even though every base letter is present. See [font coverage](../../terms/font-coverage.md).
+* **Test the tool with a real word, not a glyph table:** type a connected word and confirm the letters join and pick up their positional forms, not just that the characters appear. Tool support varies, so test early, not at handoff.
+* **Confirm positional-form coverage before you commit a typeface:** the font has to ship the joining forms and the features that select them, not just the base letters. See [font coverage](../../terms/font-coverage.md).
 
 ***
 
