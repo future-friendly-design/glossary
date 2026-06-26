@@ -35,19 +35,31 @@ tags:
 
 ## Definition
 
-The shirorekha is a horizontal stroke at the top of a series of symbols in Devanagari and related scripts that joins the letters of a word into one connected line. It's considered part of the shape of the letterform, not a separate mark.&#x20;
+The shirorekha is a horizontal stroke at the top of a series of symbols in Devanagari and related scripts that joins the letters of a word into one connected line. It's considered part of the shape of the letterform, not a separate mark.
 
-For example, in this Devanagari script example  `नमस्ते`, the unbroken line across the top of the word is the shirorekha.
+For example, in this Devanagari script example `नमस्ते`, the unbroken line across the top of the word is the shirorekha.
 
 ### Why it matters in design systems
 
 In scripts such as [Devanagari](devanagari.md) and [Bengali](bengali-assamese.md), most letters hang from the shirorekha, the line along the top, instead of sitting on a [baseline](baseline.md) the way [Latin](latin-script.md) does.<sup>1</sup> The shirorekha is part of the shapes of the letters themselves, not a separate [mark](../language-terms/writing-systems-and-scripts/mark.md) added on top; neighbouring letters are drawn so it runs unbroken from one to the next, and that join is what visually ties the letters of a word together.<sup>2</sup> Which scripts carry a shirorekha, and that it joins across a word, are [script rules](../language-terms/writing-systems-and-scripts/script-rules.md): they hold for every language written in the script.
 
-That one property reaches several design-system decisions. The first is spacing. [Letter-spacing](letter-spacing.md), the [tracking](tracking.md) you might add to Latin headings or labels, has to be turned off for a script with a shirorekha: it inserts a gap between each unit, the gap lands on the seam where the shirorekha joins, and the top line breaks so the word looks split.<sup>3</sup> It is the same reason connected scripts like [Arabic](arabic-script.md) reject letter-spacing.<sup>4</sup> A tracking token that is safe, even useful, on Latin cannot be applied once across the board; letter-spacing has to be scoped by script.
+A script with a shirorekha influences several design system decisions including spacing, alignment, and font coverage.&#x20;
 
-The second is alignment. Because these scripts hang from the shirorekha, its hanging baseline is not the baseline Latin sits on, so mixing Devanagari with Latin on one line, or setting [line-height](line-height.md) tokens, has to account for the hanging baseline rather than Latin assumptions.<sup>1</sup> Marks stack above and below the shirorekha too, so a line-height tuned to Latin can clip them.
+[Letter-spacing](letter-spacing.md), the [tracking](tracking.md) you might add to Latin headings or labels, has to be turned off for a script with a shirorekha.&#x20;
 
-The third is that covering the script is necessary, not sufficient. For the font, the shirorekha still has to join continuously across a whole word, including where consonants form [conjuncts](conjunct.md) or half-forms, or the word looks broken.<sup>2</sup> (It is sometimes called the matra line, which is not the same as a [matra](../language-terms/writing-systems-and-scripts/matra.md) vowel mark.) A font that covers every letter can still render the join wrong; the connection and the alignment both have to be right.
+* It inserts a gap between each unit, the gap lands on the seam where the shirorekha joins, and the top line breaks so the word looks split.<sup>3</sup>&#x20;
+* It is the same reason connected scripts like [Arabic](arabic-script.md) reject letter-spacing.<sup>4</sup>&#x20;
+* A tracking token that is safe, even useful, on Latin cannot be applied once across the board; letter-spacing has to be scoped by script.
+
+Letters hanging from the shirorekha at the top means the design system has to account for the text alignment as a hanging baseline which is different from the baseline latin sits on. &#x20;
+
+* Script rules may also define marks that stack above and below the shirorekha.&#x20;
+* This means if you have a fixed value as your [line-height](line-height.md) that works for Latin script using languages, it may need to be adjusted to ensure scripts with shirorekha don't appear clipped or cut off. &#x20;
+
+In digital design and programming, ensuring you have chosen a font with coverage for the specific script with the shirorekha is import.&#x20;
+
+* The shirorekha has to join continuously across a whole word, including where consonants form [conjuncts](conjunct.md) or half-forms, or the word looks broken.<sup>2</sup> (It is sometimes called the matra line, which is not the same as a [matra](../language-terms/writing-systems-and-scripts/matra.md) vowel mark.)&#x20;
+* A font that covers every letter can still render the join wrong if it doesn't have coverage for letters with shirorekha; the connection and the alignment both have to be right.
 
 A quick thing to keep in mind: the shirorekha is just one of a script's rules. A script usually has several, and they all apply to every language that uses the script. So check the other [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) too, not only this page. After that, look at the [orthography](../language-terms/writing-systems-and-scripts/orthography.md) for each language you support. Orthography is the language-specific layer: how that one language uses the script, like its spelling and punctuation.
 
