@@ -27,6 +27,7 @@ further_reading:
     type: authority
 license: CC-BY-4.0
 tags:
+  - writing-systems-scripts
   - shaping-layout
 ---
 
@@ -36,18 +37,26 @@ tags:
 
 A conjunct is a combined consonant cluster glyph in Indic scripts, formed when consonants join without a vowel between them.
 
-## Why it matters
+For example, in [Devanagari](devanagari.md), क (ka) plus a [virama](../language-terms/writing-systems-and-scripts/virama.md) plus ष (sha) forms the single conjunct क्ष (kṣa).
 
-In scripts like Devanagari, when two or more consonants meet with no vowel between them (the absence is marked by a [virama](../language-terms/writing-systems-and-scripts/virama.md), the mark that cancels a consonant's built-in vowel), they merge into a single conjunct form rather than standing as separate letters. This is often drawn by rendering the first consonant in a reduced "half-form" and attaching the next, sometimes stacking them vertically. A [shaping-engine](shaping-engine.md) selects conjuncts through OpenType rules, and which clusters form conjuncts is language- and font-dependent, so it is a core piece of [complex-text-layout](complex-text-layout.md) rather than something an app can fake.
+### Why it matters in design systems
 
-## Example
+In scripts like Devanagari, when two or more consonants meet with no vowel between them (the absence is marked by a [virama](../language-terms/writing-systems-and-scripts/virama.md), the mark that cancels a consonant's built-in vowel), they merge into a single conjunct form instead of standing as separate letters.<sup>1</sup>
 
-In Devanagari, क (ka) + [virama](../language-terms/writing-systems-and-scripts/virama.md) + ष (sha) forms the conjunct क्ष (kṣa).
+To a font, that merge is drawn by rendering the first consonant in a reduced half-form and attaching the next, sometimes stacking them vertically. A [shaping engine](shaping-engine.md) selects which conjuncts form through OpenType rules, and which clusters join is language- and font-dependent.<sup>1</sup>
 
-## Related terms
+So for a design system, a font that contains the consonants is necessary but not sufficient. Producing the right conjunct needs the cluster forms and the shaping logic to pick them, which is why conjuncts are a core piece of [complex text layout](complex-text-layout.md) and not something an app can fake by placing glyphs in typed order.
 
-[Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Complex text layout](complex-text-layout.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md)
+***
 
-## Further reading
+### Related terms and mentions
+
+[Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+
+### Further reading
 
 * Foundations: [Developing OpenType Fonts for Devanagari Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+
+### Sources
+
+1. A consonant followed by a halant (virama) with no vowel forms a half form or conjunct; the Indic shaping engine selects these forms through OpenType features, and the set of conjuncts is font-dependent - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)

@@ -2,7 +2,7 @@
 term: Tsheg
 slug: tsheg
 aliases: [tsek, syllable dot]
-tags: [shaping-layout]
+tags: [writing-systems-scripts, shaping-layout]
 level: intermediate
 depth: core
 summary: The tsheg is a small dot used in Tibetan script to separate syllables.
@@ -23,14 +23,20 @@ license: CC-BY-4.0
 ## Definition
 The tsheg is a small dot used in Tibetan script to separate syllables.
 
-## Why it matters
-Tibetan does not put spaces between words. Instead a tsheg (U+0F0B) marks the boundary between syllables, and the unit of text between two tshegs is called a tsheg-bar. Because many Tibetan words are a single syllable, the tsheg often behaves much like a space, which makes it important for finding line-break and reading boundaries. A non-breaking variant exists at U+0F0C, so line-breaking logic has to treat the two differently.
+For example, the dot between the syllables in [Tibetan](tibetan-script.md) `བོད་ཡིག` is a tsheg.
 
-## Example
-The dot between syllables in Tibetan "བོད་ཡིག" is a tsheg.
+### Why it matters in design systems
+Tibetan does not put spaces between words. Instead a tsheg marks the boundary between syllables, and the unit of text between two tshegs is called a tsheg-bar.<sup>1</sup> Because many Tibetan words are a single syllable, the tsheg often behaves much like a space.
 
-## Related terms
-[Complex text layout](complex-text-layout.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](stacking-script.md)
+So for a design system, the tsheg is what line breaking and word finding have to key on instead of a space. A non-breaking variant also exists, so the layout engine has to treat the two differently when deciding where a line may break. That makes Tibetan another case where segmentation cannot follow Latin assumptions, part of [complex text layout](complex-text-layout.md).
 
-## Further reading
+***
+
+### Related terms and mentions
+[Complex text layout](complex-text-layout.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](stacking-script.md) · [Tibetan script](tibetan-script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+
+### Further reading
 - Foundations: [Requirements for Tibetan Text Layout (W3C)](https://www.w3.org/TR/tlreq/)
+
+### Sources
+1. Tibetan words comprise units called tsheg-bar (phonological syllables), separated using the mark U+0F0B Tibetan Mark Intersyllabic Tsheg - Requirements for Tibetan Text Layout (W3C) [https://www.w3.org/TR/tlreq/](https://www.w3.org/TR/tlreq/)
