@@ -39,9 +39,13 @@ The shirorekha is a horizontal stroke at the top of a series of symbols in Devan
 
 For example, in Devanagari `नमस्ते`, the unbroken line across the top of the word is the shirorekha.
 
-While this glossary doesn't cover every script, here's a list of scripts to explore that include shirorekha:
+While this glossary doesn't cover every script, here are the scripts that use a shirorekha. The linked ones have a page in the glossary.
 
-TABLE HERE
+| Script | Languages | How the shirorekha works here |
+| --- | --- | --- |
+| [Devanagari](../../terms/devanagari.md) | Hindi, Marathi, Nepali, Sanskrit | Most letters hang from a continuous shirorekha that runs unbroken across the word.<sup>2</sup> |
+| [Bengali-Assamese](../../terms/bengali-assamese.md) | Bengali, Assamese | A top bar joins the letters along the top, and the script's hanging baseline is based on it.<sup>5</sup> |
+| Gurmukhi | Punjabi | Letters are joined at the top bar; a few letters leave a gap but still join on either side.<sup>6</sup> |
 
 ### Why it matters in design systems
 
@@ -83,3 +87,5 @@ A quick thing to keep in mind: the shirorekha is just one of a script's rules. A
 2. Unicode calls this top stroke the headstroke; it instructs that the editorial character U+A8FB DEVANAGARI HEADSTROKE "should be designed so that it does not connect to the headstroke of the letters beside it", which indicates that the headstrokes of ordinary letters do connect across a word - The Unicode Standard, Version 16.0, Chapter 12 (South Asia-I) [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
 3. Letter spacing inserted between the orthographic syllables of an Indic word breaks the top line; ILREQ shows a museum name plate where "the top bar is broken in letter spacing and the space letter is added between orthographic syllable", and notes that for Indic languages the space "needs to be introduced after each syllable" rather than between every character - Indic Layout Requirements (W3C), section 6 [https://www.w3.org/TR/ilreq/](https://www.w3.org/TR/ilreq/)
 4. Some written languages should have no letter spacing applied; languages that use the Arabic script "expect connected letters to remain visually connected", and applying letter spacing "may lead to the text looking broken" - letter-spacing (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)
+5. Bengali has a "top bar that joins the letters", and its hanging baseline is based on that top bar - Bengali/Bangla Orthography Notes, r12a (W3C i18n) [https://r12a.github.io/scripts/beng/bn.html](https://r12a.github.io/scripts/beng/bn.html)
+6. "Within a Gurmukhi word, spacing glyphs are joined together at the top bar (shirorekha)", though "some letters create a gap in the line (while still joining at either side)" - Gurmukhi/Punjabi Orthography Notes, r12a (W3C i18n) [https://r12a.github.io/scripts/guru/pa.html](https://r12a.github.io/scripts/guru/pa.html)

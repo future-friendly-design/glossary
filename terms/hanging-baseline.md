@@ -34,7 +34,7 @@ license: CC-BY-4.0
 
 The hanging baseline is the top alignment line that letters hang from in scripts like [Devanagari](devanagari.md) and [Tibetan](tibetan-script.md), rather than the bottom line that [Latin](latin-script.md) letters sit on.
 
-It is one of several baseline types. Latin and most European scripts use the alphabetic [baseline](baseline.md), the line letters sit on; Chinese, Japanese, and Korean align to ideographic baselines; and Brahmic scripts like Devanagari and Bengali hang from a top line.<sup>1</sup> For example, in Devanagari `नमस्ते`, the letters line up along the [shirorekha](shirorekha.md) at the top of the word, and that top line is the hanging baseline.
+It is one of several baseline types. Latin and most European scripts use the alphabetic [baseline](baseline.md), the line letters sit on; Chinese, Japanese, and Korean align to ideographic baselines; and Brahmic scripts like Devanagari and Bengali hang from a top line.<sup>1</sup> For example, in Devanagari `नमस्ते`, the letters line up along the [shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) at the top of the word, and that top line is the hanging baseline.
 
 ## Why it matters in design systems
 
@@ -46,7 +46,7 @@ CSS exposes this directly: the `hanging` value of `dominant-baseline` aligns con
 
 ## Related terms and mentions
 
-[Baseline](baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Devanagari](devanagari.md) · [Latin script](latin-script.md) · [Line height](line-height.md) · [Shaping & layout](shaping-layout.md) · [Shirorekha](shirorekha.md) · [Tibetan script](tibetan-script.md) · [Typography](typography.md)
+[Baseline](baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Devanagari](devanagari.md) · [Latin script](latin-script.md) · [Line height](line-height.md) · [Shaping & layout](shaping-layout.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Tibetan script](tibetan-script.md) · [Typography](typography.md)
 
 ## Further reading
 
