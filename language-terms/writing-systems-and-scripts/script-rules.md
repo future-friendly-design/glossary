@@ -8,7 +8,8 @@ level: foundational
 depth: deep
 summary: >-
   Script rules define the behaviour of individual visual elements of a script
-  (its symbols, including marks).
+  (its symbols, including marks), such as how they can be combined or which
+  direction they run.
 related:
   - script
   - complex-text-layout
@@ -22,12 +23,15 @@ updated: 2026-06-22T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
+  - title: CSS logical properties and values (MDN)
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values
+    type: code
   - title: Internationalization (W3C)
     url: https://www.w3.org/International/
     type: authority
-  - title: The Unicode Standard (latest version)
-    url: https://www.unicode.org/versions/latest/
-    type: code
+  - title: Bidirectionality and RTL (Material Design 3)
+    url: https://m3.material.io/foundations/layout/bidirectionality-rtl
+    type: resource
 license: CC-BY-4.0
 tags:
   - writing-systems-scripts
@@ -37,12 +41,6 @@ tags:
 # Script rules
 
 ## Definition
-
-Script rules define the behaviour of individual visual elements of a [script](script.md) (its [symbols](symbol.md), including [marks](mark.md)). They determine possible combinations and positioning of symbols, layout and direction for any language using the script in its [writing system](writing-system.md).
-
-Each writing system defines additional rules on how to use a script for a specific language, known as [orthography](orthography.md). This means each written language has two sets of rules to consider, the script rules and its orthography.
-
-While this glossary doesn't cover every script rule (or every script), here's a list of script rule terms you may want to explore:
 
 Script rules define the behaviour of individual visual elements of a [script](script.md) (its [symbols](symbol.md), including [marks](mark.md)), such as how they can be combined or which direction they run. They determine positioning of symbols, layout and reading direction for any [language](../linguistics/language.md) using the script in its [writing system](writing-system.md).
 
@@ -73,17 +71,17 @@ A script rule can affect design system decisions at multiple levels:
 
 
 
-#### Example
+### Example
 
 A design system supports English, French, and German. All three languages use the Latin script, which runs left to right. From a script rules perspective, the system requirements are the same across all three: the same text direction, the same joining behaviour, the same glyph rendering model. Adding French or German is primarily an orthography and translation concern, not a script rules concern.
 
 The system then needs to expand to support Arabic. Arabic uses a different script with different rules. The direction rule alone changes requirements at every level: text alignment and line start position at the text layer, internal component layout and icon orientation at the component layer, navigation placement and reading flow at the page level, and document-level direction and logical CSS properties at the code layer.
 
-This is where component naming becomes a problem. A button component with a prop named `icon-right` assumes a physical position. In a right-to-left layout, that icon now sits on the leading edge of the button, which is the opposite of the intended position. A component built with physical naming (`left`, `right`) requires overrides or separate definitions for each direction. A component built with logical naming (`icon-start`, `icon-end`) adapts automatically when direction changes at the document level.
+This is where component naming becomes a problem. A button component with a prop named `icon-right` assumes a physical position. In a right-to-left layout, that icon now sits on the leading edge of the button, which is the opposite of the intended position. A component built with physical naming (`left`, `right`) requires overrides or separate definitions for each direction. A component built with logical naming (`icon-start`, `icon-end`) adapts automatically when direction changes at the document level.<sup>2</sup>
 
-Arabic also has a joining rule: letters connect to their neighbours and change shape depending on their position in a word. This affects the code and functional systems to ensure glyph rendering is accurate and requires a shaping engine to produce correct output. A font that covers Arabic characters but lacks the correct OpenType shaping tables will render the script incorrectly even if the direction is set right.
+Arabic also has a joining rule: letters connect to their neighbours and change shape depending on their position in a word. This affects the code and functional systems to ensure glyph rendering is accurate and requires a shaping engine to produce correct output. A font that covers Arabic characters but lacks the correct [OpenType](../../terms/opentype.md) shaping tables will render the script incorrectly even if the direction is set right.<sup>1</sup>
 
-Two script rules, direction and joining, and the scope of work to add a single language using a has expanded well beyond what adding both French and German language support required.
+Two script rules, direction and joining, and the scope of work to add a single language using a different script has expanded well beyond what adding both French and German required.
 
 
 
@@ -97,23 +95,26 @@ These are not translation problems. They are structural problems, and they are s
 
 
 
-### **In practice**
+### In practice
 
 * **Audit component naming for physical assumptions before adding a new script. -** Props and layer names like `icon-left`, `button-right`, and `label-start` are design decisions, not just labels. Physical names (`left`, `right`) break when direction changes. Logical names (`start`, `end`) adapt automatically. Review component props, token names, and Figma layer names for physical positioning language before committing to a new script, not after.
-* **Treat icons as part of the text layout, not separate from it. -** An icon that sits beside a text label, points in a direction, or indicates sequence is affected by script rules. A forward arrow that means "next" in a left-to-right layout points the wrong way in a right-to-left one. Document which icons in your system are directional and which are not, and define how each behaves when direction changes. See text direction and bidirectional text.
+* **Treat icons as part of the text layout, not separate from it. -** An icon that sits beside a text label, points in a direction, or indicates sequence is affected by script rules. A forward arrow that means "next" in a left-to-right layout points the wrong way in a right-to-left one. Document which icons in your system are directional and which are not, and define how each behaves when direction changes.<sup>3</sup> See [text direction](../../terms/text-direction.md) and [bidirectional text](../../terms/bidirectional-text.md).
 * **Test with real content in every script you support. -** A single English word in a component does not reveal script rule failures. Use real content in the actual scripts you are testing, at realistic lengths, including mixed-script content where a right-to-left paragraph contains a left-to-right product name or URL. Script rendering problems are often invisible until real content is in place.
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Joining](joining.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Reph](../../terms/reph.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Tategaki](../../terms/tategaki.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Left-to-right](../../terms/left-to-right.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [OpenType](../../terms/opentype.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Reph](../../terms/reph.md) · [Right-to-left](../../terms/right-to-left.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Stacking script](../../terms/stacking-script.md) · [Symbol](symbol.md) · [Tategaki](../../terms/tategaki.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
+* Code & specs: [CSS logical properties and values (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
 * Foundations: [Internationalization (W3C)](https://www.w3.org/International/)
-* Code & specs: [The Unicode Standard (latest version)](https://www.unicode.org/versions/latest/)
+* Resource library: [Bidirectionality and RTL (Material Design 3)](https://m3.material.io/foundations/layout/bidirectionality-rtl)
 
 ### Sources
 
 1. The Arabic script is written right to left and its letters take contextual joined forms (isolated, initial, medial, final); diacritic marks are positioned above and below the base letters - Developing OpenType Fonts for Arabic Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/arabic](https://learn.microsoft.com/en-us/typography/script-development/arabic)
+2. Logical properties define direction-relative equivalents to their corresponding physical properties, so a layout built with them adapts when the writing direction changes - CSS logical properties and values (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
+3. In right-to-left layouts, directional UI icons such as back and forward should be mirrored, while not all elements mirror (for example, charts can keep a left-to-right orientation) - Bidirectionality and RTL (Material Design 3) [https://m3.material.io/foundations/layout/bidirectionality-rtl](https://m3.material.io/foundations/layout/bidirectionality-rtl)

@@ -18,6 +18,9 @@ further_reading:
   - title: "Unicode Bidirectional Algorithm basics (W3C)"
     url: https://www.w3.org/International/articles/inline-bidi-markup/uba-basics
     type: authority
+  - title: "Bidirectionality and RTL (Material Design 3)"
+    url: https://m3.material.io/foundations/layout/bidirectionality-rtl
+    type: resource
 license: CC-BY-4.0
 ---
 
@@ -61,6 +64,7 @@ Assuming the algorithm handles everything once the text is marked right to left.
 
 * Code & specs: [unicode-bidi (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
 * Foundations: [Unicode Bidirectional Algorithm basics (W3C)](https://www.w3.org/International/articles/inline-bidi-markup/uba-basics)
+* Resource library: [Bidirectionality and RTL (Material Design 3)](https://m3.material.io/foundations/layout/bidirectionality-rtl)
 
 ### Sources
 

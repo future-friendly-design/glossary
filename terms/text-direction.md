@@ -18,6 +18,9 @@ further_reading:
   - title: "Structural markup and right-to-left text in HTML (W3C)"
     url: https://www.w3.org/International/questions/qa-html-dir
     type: authority
+  - title: "Bidirectionality and RTL (Material Design 3)"
+    url: https://m3.material.io/foundations/layout/bidirectionality-rtl
+    type: resource
 license: CC-BY-4.0
 ---
 
@@ -47,6 +50,7 @@ So for a design system, getting direction right is necessary but not sufficient.
 
 * Code & specs: [dir (MDN HTML global attribute)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
 * Foundations: [Structural markup and right-to-left text in HTML (W3C)](https://www.w3.org/International/questions/qa-html-dir)
+* Resource library: [Bidirectionality and RTL (Material Design 3)](https://m3.material.io/foundations/layout/bidirectionality-rtl)
 
 ### Sources
 
