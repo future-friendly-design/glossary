@@ -37,11 +37,11 @@ A diacritic is a small mark added to a symbol to change its pronunciation or mea
 
 For example, the cedilla mark under the `c` in `façade` is a diacritic.
 
-### Why it matters
+### Why it matters in design systems
 
-A diacritic is a kind of [mark](../language-terms/writing-systems-and-scripts/mark.md): it attaches to a letter rather than standing on its own. Placed above, below, or through the letter, it can signal stress, a different vowel sound, or tone, and it can tell apart two words that would otherwise look the same.
+A diacritic is a kind of [mark](../language-terms/writing-systems-and-scripts/mark.md), it attaches to a symbol within a script rather than standing on its own. Placed above, below, or through the symbol, it can signal stress, a different vowel sound, or tone, and it can tell apart two words that would otherwise look the same.
 
-Like all marks, when a diacritic is added to a symbol, the individual piece of text takes up more vertical space. When working with digital text, fonts supporting symbols with diacritic marks may require larger [line height](line-height.md) values.&#x20;
+Like all marks, when a diacritic is added to a symbol, the individual piece of text takes up more space. When working with digital text, fonts supporting symbols with diacritic marks may require larger [line height](line-height.md) values to avoid clipping.&#x20;
 
 For software, there are known issues with the way accented text is stored. [Unicode](unicode.md), the standard that gives every character (their term for a symbol) a unique number, describes accented text as being stored as a [precomposed character](precomposed-character.md), or as the plain letter plus a separate [combining mark](combining-mark.md).&#x20;
 
