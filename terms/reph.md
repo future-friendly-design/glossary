@@ -33,9 +33,9 @@ tags:
 
 ## Definition
 
-In some South Asian (Indic) Brahmic scripts, a reph is the above-base form the consonant ra takes when it is the initial symbol in a consonant cluster (two or more consonants that come together with no vowel between them). It's a common example of a script's reordering rule in action.
+In some South Asian (Indic) Brahmic scripts, a reph is the above-base form the consonant ra takes when it is the initial symbol in a consonant cluster (two or more consonants that come together with no vowel between them).<sup>1</sup> It's a common example of a script's reordering rule in action.
 
-For example, in Devanagari `कर्म` (karma), the ra that begins the cluster र्म is not drawn as a full consonant but as a small hook-like shape, the reph, sitting above the next consonant, ma.<sup>1</sup>
+For example, in Devanagari `कर्म` (karma), the ra that begins the cluster र्म is not drawn as a full consonant but as a small hook-like shape, the reph, sitting above the next consonant, ma.<sup>2</sup>
 
 ### Why it matters in design systems
 
@@ -57,4 +57,5 @@ It's important to remember that supporting another language in a design system i
 
 ### Sources
 
-1. The reph is the above-base form of the consonant "Ra", used when Ra is the first consonant in the syllable and is not the base consonant; the shaping engine reorders the cluster before positioning it - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+1. In Devanagari and other scripts of India, the above-base form of RA used at the start of a cluster is a nonspacing combining-mark glyph form of the consonant RA, also known as "repha"; the same cluster-initial RA behaviour occurs in Bengali, Telugu, and Kannada - The Unicode Standard, Version 16.0, Chapter 12 (South Asia-I) [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+2. The reph is the above-base form of the consonant "Ra", used when Ra is the first consonant in the syllable and is not the base consonant; the shaping engine reorders the cluster before positioning it - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
