@@ -5,14 +5,14 @@ aliases: [vertical stacking, stacked consonants]
 tags: [writing-systems-scripts, shaping-layout]
 level: advanced
 depth: core
-summary: A stacking script is one where consonants pile up vertically to form a cluster, as in Tibetan and many Indic scripts.
+summary: A stacking script writes a group of consonants as a vertical pile rather than side by side.
 related: [conjunct, reordering, complex-text-layout, tsheg]
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-18
 contributors: [sam-gordashko]
 further_reading:
-  - title: "Requirements for Tibetan Text Layout (W3C)"
+  - title: "Tibetan Layout Requirements (W3C)"
     url: https://www.w3.org/TR/tlreq/
     type: authority
 license: CC-BY-4.0
@@ -22,30 +22,29 @@ license: CC-BY-4.0
 
 ## Definition
 
-A stacking script is one where consonants pile up vertically to form a cluster, as in Tibetan and many Indic scripts.
+A stacking script writes a group of consonants as a vertical pile rather than side by side.
 
-For example, a [Tibetan](tibetan-script.md) cluster draws a subjoined consonant below the root consonant rather than after it.
+For example, [Tibetan](tibetan-script.md) draws the extra consonants of a stack directly below the main one, rather than writing them after it.
 
 ### Why it matters in design systems
 
-In a stacking script, a consonant cluster is drawn with consonants placed above and below each other rather than side by side, forming a single vertical stack. Tibetan stacks a root consonant with subjoined consonants beneath it, using separate [characters](character.md) for those subjoined forms,<sup>1</sup> and Indic scripts can stack [conjuncts](conjunct.md) vertically.
+Tibetan builds these stacks from separate [code points](code-point.md): one for the main consonant, and a different one for each consonant stacked beneath it.<sup>1</sup> Some Indic scripts also stack consonants, but by a different route: a [virama](../language-terms/writing-systems-and-scripts/virama.md) joins consonants into a [conjunct](conjunct.md) that the font may draw as a vertical stack.<sup>2</sup> Either way, the result is one tall shape instead of a row of separate consonants.
 
-To [typography](typography.md), that vertical pile is what complicates the layout: a stack rises and drops further than a single [symbol](../language-terms/writing-systems-and-scripts/symbol.md), so it needs more vertical room and more careful [glyph](glyph.md) composition. A practical tell of weak rendering support is a stack that comes apart and sits horizontally instead.
+For a design system, the consequence is vertical. A stack rises and drops further than a single [symbol](../language-terms/writing-systems-and-scripts/symbol.md), so it needs more room and more careful [glyph](glyph.md) work to assemble the pieces into one shape. A common sign of weak support is a stack that breaks apart and sits in a row instead. So budget [line height](line-height.md) for the tallest stacks, and test that the [font](font.md) actually builds them, rather than carrying over assumptions from the Latin script.
 
-So for a design system, the lesson is that vertical space and [font](font.md) support need real testing for these scripts, not assumptions carried over from the Latin script. Budget [line height](line-height.md) for the tallest stacks, and check the font composes them rather than leaving the pieces side by side.
-
-A quick thing to keep in mind: stacking is just one of a script's rules. A script usually has several, and they all apply to every language that uses it. So check the other [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) too, not only this page. After that, look at the [orthography](../language-terms/writing-systems-and-scripts/orthography.md) for each language you support: the language-specific layer, like its spelling and punctuation.
+Stacking is one of several [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) a script can have, and each language that uses the script also has its own [orthography](../language-terms/writing-systems-and-scripts/orthography.md), its spelling and punctuation conventions.
 
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](font.md) · [Glyph](glyph.md) · [Line height](line-height.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Typography](typography.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Code point](code-point.md) · [Conjunct](conjunct.md) · [Font](font.md) · [Glyph](glyph.md) · [Line height](line-height.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tibetan script](tibetan-script.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
-* Foundations: [Requirements for Tibetan Text Layout (W3C)](https://www.w3.org/TR/tlreq/)
+* Foundations: [Tibetan Layout Requirements (W3C)](https://www.w3.org/TR/tlreq/)
 
 ### Sources
 
-1. Tibetan uses separate code points for subjoined consonants to create consonant stacks; of the 77 combining characters in the Tibetan block, 48 represent subjoined consonant forms - Requirements for Tibetan Text Layout (W3C) [https://www.w3.org/TR/tlreq/](https://www.w3.org/TR/tlreq/)
+1. A distinguishing feature of Tibetan is the set of separate code points for subjoined consonants, used to create consonant stacks; of the 77 combining characters in the Tibetan block, 48 represent subjoined consonant forms - Tibetan Layout Requirements (W3C) [https://www.w3.org/TR/tlreq/](https://www.w3.org/TR/tlreq/)
+2. Unlike many other Indic scripts, modern Tibetan orthography does not use a virama to create stacks; in those scripts a virama joins consonants into a conjunct that a font may render as a vertical stack - Tibetan Layout Requirements (W3C) [https://www.w3.org/TR/tlreq/](https://www.w3.org/TR/tlreq/)
