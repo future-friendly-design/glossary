@@ -38,39 +38,43 @@ tags:
 
 ## Definition
 
-Joining is the behaviour in some scripts where symbols connect and change shape based on their position in a word.
+Joining is a script rules that defines the the behaviour where the symbols of a script may connect and change shape based on their position in a word.&#x20;
 
-For example, the letters of an Arabic word link into one continuous cursive run rather than sitting apart like printed Latin letters.
+For example, the letters of an Arabic word are joined to each other, like this `EXAMPLE HERE`&#x20;
 
-While this glossary doesn't cover every script, here are the scripts that use joining. The linked ones have a page in the glossary.
+Like all script rules, joining applies to any language using the script in its writing system.&#x20;
 
-| Script | Languages | How joining works here |
-| --- | --- | --- |
-| [Arabic](../../terms/arabic-script.md) | Arabic, Persian, Urdu | Letters connect cursively, each taking an initial, medial, final, or isolated form. |
-| [Mongolian (traditional)](../../terms/mongolian-script.md) | Mongolian | Cursive and joining like Arabic, but written vertically, top to bottom. |
-| Syriac | Syriac (a form of Aramaic) | Cursive joining with the same four positional forms. |
-| N'Ko | Manding languages (Bambara, Maninka) | Cursive joining with positional forms; a 20th-century script for these languages. |
-| Adlam | Fula (Fulani) | Cursive joining with positional forms; a modern script created for Fula. |
+While this glossary doesn't cover every script, here are some to be aware of that have a joining script rule. You can select a linked term to navigate to its glossary page.&#x20;
+
+| Script                                                     | Languages                            | How joining works here                                                              | Example |
+| ---------------------------------------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------- | ------- |
+| [Arabic](../../terms/arabic-script.md)                     | Arabic, Persian, Urdu                | Letters connect cursively, each taking an initial, medial, final, or isolated form. |         |
+| [Mongolian (traditional)](../../terms/mongolian-script.md) | Mongolian                            | Cursive and joining like Arabic, but written vertically, top to bottom.             |         |
+| Syriac                                                     | Syriac (a form of Aramaic)           | Cursive joining with the same four positional forms.                                |         |
+| N'Ko                                                       | Manding languages (Bambara, Maninka) | Cursive joining with positional forms; a 20th-century script for these languages.   |         |
+| Adlam                                                      | Fula (Fulani)                        | Cursive joining with positional forms; a modern script created for Fula.            |         |
 
 ### Why it matters in design systems
 
-In a joining script, a letter is not one fixed shape. It takes a different form depending on where it sits and what it connects to, usually one of four: initial, medial, final, or isolated.<sup>1</sup> Whether letters join, and that they join across a word, is a [script rule](script-rules.md): it holds for every language written in the script, such as Arabic, Persian, and Urdu.
+In a script with a joining script rule, each symbol is not one fixed shape.&#x20;
 
-A joining script influences several design system decisions including shaping, font coverage, and tool support.
+The shape of a symbol changes depending on **where it sits in the word** and **which neighbourbouring symbols it connects to**. Each symbol can appear as these shapes:
 
-The right form for each letter has to be chosen during [shaping](../../terms/text-shaping.md), the step that turns stored characters into the positioned [glyphs](../../terms/glyph.md) you see.
+* **isolated** - When the symbols stands **alone**, it is not joined to anything.
+* **initial** - When the symbol is positioned at the **start** of a joined run, connecting to the symbol after it.
+* **medial** - When the symbol is positioned in the **middle** of a joined run, connecting to a symbol on both sides.&#x20;
+* **final** - When the symbol is positioned at the **end**, of a joined run, connecting to the symbol before it.
 
-* OpenType selects the positional forms with the `isol`, `init`, `medi`, and `fina` features.<sup>1</sup>
-* Without shaping, the letters fall back to their isolated forms, sitting apart, which reads as broken.
+As you can imagine, supporting a language whose writing system has a joining script rule influences multiple parts of the design system across typography, design, and development.&#x20;
 
-A [font](../../terms/font.md) that contains the script's characters is necessary but not sufficient.
+In typography the typeface must have glyps for all positional forms of the scripts symbols. In design, font styles need to ensure properties like tracking and letter spacing have values that enable characters to join.&#x20;
 
-* It has to include the positional forms and the features that select them, not just the base letters.
-* A font missing those leaves the text disconnected even though every letter is present.
+Design tooling needs have the features that enable joining behaviour of characters, otherwise the tool will display the chatacters but not shape them for joining, which leaves the script symbols as separate shapes a reader can not follow.&#x20;
 
-In a design tool, joining is the behaviour to confirm first when you prototype an [Arabic](../../terms/arabic-script.md) interface.
+In development, the backend systems need to support text shaping so the right form of the symbol is displayed when the text string is translated into a language with a joining rule.&#x20;
 
-* Many tools display the characters but never shape them, which leaves the letters as separate shapes a reader cannot follow.
+* Text shaping is the step that turns stored characters into properly positioned glyphs.&#x20;
+* OpenType is a widely supported standard for formatting font data for digital typography with features for supporting script rules like joining automatically. OpenType selects the positional forms of glyphs with the `isol`, `init`, `medi`, and `fina` features.&#x20;
 
 A quick thing to keep in mind: joining is just one of a script's rules. A script usually has several, and they all apply to every language that uses the script. So check the other [script rules](script-rules.md) too, not only this page. After that, look at the [orthography](orthography.md) for each language you support. Orthography is the language-specific layer: how that one language uses the script, like its spelling and punctuation.
 
