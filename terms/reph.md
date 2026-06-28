@@ -5,8 +5,9 @@ aliases: []
 level: advanced
 depth: core
 summary: >-
-  A reph is the special mark form that the consonant "ra" takes when it begins a
-  cluster in Indic scripts.
+  A reph is the form the consonant ra takes when it begins a consonant cluster in
+  some Indic scripts, drawn as a small mark above a later consonant instead of as
+  a full consonant.
 related:
   - conjunct
   - matra
@@ -32,23 +33,25 @@ tags:
 
 ## Definition
 
-A reph is the special mark form that the consonant "ra" takes when it begins a cluster in Indic scripts.
+A reph is the form the consonant ra takes when it begins a consonant cluster in some Indic scripts, drawn as a small mark above a later consonant instead of as a full consonant.
 
-For example, in Devanagari `कर्म` (karma), the "ra" before "ma" is drawn not as a full letter but as a small hook-like mark above the following consonant.
+For example, in Devanagari `कर्म` (karma), the "ra" before "ma" is drawn not as a full consonant but as a small hook-like mark above the following consonant.
 
 ### Why it matters in design systems
 
-When "ra" is the first consonant of a cluster, a syllable-initial ra followed by a [virama](../language-terms/writing-systems-and-scripts/virama.md) (the mark that cancels its inherent vowel), it is not written as a full letter. The shaper moves it to a new position in the cluster and substitutes a small above-base mark in its place.<sup>1</sup>
+When "ra" is the first consonant of a cluster and is followed by a [virama](../language-terms/writing-systems-and-scripts/virama.md) (the mark that cancels its inherent vowel), it is not drawn as a full consonant. The [shaping](text-shaping.md) engine moves it to a new position in the cluster and substitutes the reph, a small above-base glyph, in its place.<sup>1</sup>
 
-That is the point for a design system. Producing a reph takes both a glyph substitution and a move into position, so it is one of the clearest cases of Indic [reordering](reordering.md): the order the letters are stored in is not the order they are drawn in.
+That is the point for a design system. Producing a reph takes both a [glyph](glyph.md) substitution and a move into position, so it is one of the clearest cases of Indic [reordering](reordering.md): the order the [symbols](../language-terms/writing-systems-and-scripts/symbol.md) are stored in is not the order they are drawn in.
 
-So placing [Devanagari](devanagari.md) glyphs in the order they are typed is necessary but not sufficient. A reph only appears correctly when the font carries the reph form and the shaper reorders the cluster, which is why [complex text layout](complex-text-layout.md) cannot be done by setting glyphs in stored order.
+So placing [Devanagari](devanagari.md) glyphs in the order they are typed is necessary but not sufficient. A reph only appears correctly when the [font](font.md) carries the reph form and the shaping engine reorders the cluster, which is why [complex text layout](complex-text-layout.md) cannot be done by setting glyphs in stored order.
+
+A quick thing to keep in mind: the reordering that produces a reph is just one of a script's rules. A script usually has several, and they all apply to every language that uses it. So check the other [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) too, not only this page. After that, look at the [orthography](../language-terms/writing-systems-and-scripts/orthography.md) for each language you support: the language-specific layer, like its spelling and punctuation.
 
 ***
 
 ### Related terms and mentions
 
-[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Text shaping](text-shaping.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
@@ -56,4 +59,4 @@ So placing [Devanagari](devanagari.md) glyphs in the order they are typed is nec
 
 ### Sources
 
-1. The reph is the above-base form of the letter "Ra", used when Ra is the first consonant in the syllable and is not the base consonant; the shaping engine reorders the cluster before positioning it - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+1. The reph is the above-base form of the consonant "Ra", used when Ra is the first consonant in the syllable and is not the base consonant; the shaping engine reorders the cluster before positioning it - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
