@@ -24,21 +24,23 @@ license: CC-BY-4.0
 
 A stacking script is one where consonants pile up vertically to form a cluster, as in Tibetan and many Indic scripts.
 
-For example, a [Tibetan](tibetan-script.md) cluster draws a subjoined consonant directly beneath the root letter rather than after it.
+For example, a [Tibetan](tibetan-script.md) cluster draws a subjoined consonant below the root consonant rather than after it.
 
 ### Why it matters in design systems
 
-In a stacking script, a consonant cluster is drawn with letters placed above and below each other rather than side by side, forming a single vertical stack. Tibetan stacks a root letter with subjoined consonants beneath it, using separate characters for those subjoined forms,<sup>1</sup> and Indic scripts can stack [conjuncts](conjunct.md) vertically.
+In a stacking script, a consonant cluster is drawn with consonants placed above and below each other rather than side by side, forming a single vertical stack. Tibetan stacks a root consonant with subjoined consonants beneath it, using separate [characters](character.md) for those subjoined forms,<sup>1</sup> and Indic scripts can stack [conjuncts](conjunct.md) vertically.
 
-To [typography](typography.md), that vertical pile is what complicates the layout: a stack rises and drops further than a single letter, so it needs more vertical room and more careful glyph composition. A practical tell of weak rendering support is a stack that comes apart and sits horizontally instead.
+To [typography](typography.md), that vertical pile is what complicates the layout: a stack rises and drops further than a single [symbol](../language-terms/writing-systems-and-scripts/symbol.md), so it needs more vertical room and more careful [glyph](glyph.md) composition. A practical tell of weak rendering support is a stack that comes apart and sits horizontally instead.
 
-So for a design system, the lesson is that vertical space and font support need real testing for these scripts, not Latin assumptions. Budget [line height](line-height.md) for the tallest stacks, and check the font composes them rather than leaving the pieces side by side.
+So for a design system, the lesson is that vertical space and [font](font.md) support need real testing for these scripts, not assumptions carried over from the Latin script. Budget [line height](line-height.md) for the tallest stacks, and check the font composes them rather than leaving the pieces side by side.
+
+A quick thing to keep in mind: stacking is just one of a script's rules. A script usually has several, and they all apply to every language that uses it. So check the other [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) too, not only this page. After that, look at the [orthography](../language-terms/writing-systems-and-scripts/orthography.md) for each language you support: the language-specific layer, like its spelling and punctuation.
 
 ***
 
 ### Related terms and mentions
 
-[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Line height](line-height.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Typography](typography.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Character](character.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](font.md) · [Glyph](glyph.md) · [Line height](line-height.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Typography](typography.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
