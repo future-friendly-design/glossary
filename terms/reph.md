@@ -45,7 +45,7 @@ That is the point for a design system. Producing a reph takes both a [glyph](gly
 
 So placing [Devanagari](devanagari.md) glyphs in the order they are typed is necessary but not sufficient. A reph only appears correctly when the [font](font.md) carries the reph form and the shaping engine reorders the cluster, which is why [complex text layout](complex-text-layout.md) cannot be done by setting glyphs in stored order.
 
-A quick thing to keep in mind: the reordering that produces a reph is just one of a script's rules. A script usually has several, and they all apply to every language that uses it. So check the other [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) too, not only this page. After that, look at the [orthography](../language-terms/writing-systems-and-scripts/orthography.md) for each language you support: the language-specific layer, like its spelling and punctuation.
+Reph comes from reordering, one of several [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) a script can have; each language that uses the script also has its own [orthography](../language-terms/writing-systems-and-scripts/orthography.md), its spelling and punctuation conventions.
 
 ***
 
