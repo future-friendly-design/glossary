@@ -35,11 +35,11 @@ tags:
 
 A reph is the form the consonant ra takes when it begins a consonant cluster in some Indic scripts, drawn as a small mark above a later consonant instead of as a full consonant.
 
-For example, in Devanagari `कर्म` (karma), the "ra" before "ma" is drawn not as a full consonant but as a small hook-like mark above the following consonant.
+For example, in Devanagari `कर्म` (karma), the ra that begins the cluster र्म is not drawn as a full consonant but as a small hook-like mark, the reph, sitting above the next consonant ma.<sup>1</sup>
 
 ### Why it matters in design systems
 
-When "ra" is the first consonant of a cluster and is followed by a [virama](../language-terms/writing-systems-and-scripts/virama.md) (the mark that cancels its inherent vowel), it is not drawn as a full consonant. The [shaping](text-shaping.md) engine moves it to a new position in the cluster and substitutes the reph, a small above-base glyph, in its place.<sup>1</sup>
+A cluster is two or more consonants written together with no vowel between them. When ra is the first consonant of a cluster, a [virama](../language-terms/writing-systems-and-scripts/virama.md) follows it (the mark that removes the default "a" vowel a consonant carries on its own), and another consonant comes after, ra is not drawn in full. The [shaping engine](shaping-engine.md) moves it and replaces it with the reph, a small glyph above the next consonant.<sup>1</sup>
 
 That is the point for a design system. Producing a reph takes both a [glyph](glyph.md) substitution and a move into position, so it is one of the clearest cases of Indic [reordering](reordering.md): the order the [symbols](../language-terms/writing-systems-and-scripts/symbol.md) are stored in is not the order they are drawn in.
 
@@ -51,7 +51,7 @@ A quick thing to keep in mind: the reordering that produces a reph is just one o
 
 ### Related terms and mentions
 
-[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Text shaping](text-shaping.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
