@@ -24,21 +24,21 @@ license: CC-BY-4.0
 
 A stacking script writes a group of consonants as a vertical pile rather than side by side.
 
-For example, [Tibetan](tibetan-script.md) draws the extra consonants of a stack directly below the main one, rather than writing them after it.
+For example, [Tibetan](tibetan-script.md) stacks a group of consonants vertically, above and below a main consonant, instead of writing them one after another.
 
 ### Why it matters in design systems
 
-Tibetan builds these stacks from separate [code points](code-point.md): one for the main consonant, and a different one for each consonant stacked beneath it.<sup>1</sup> Some Indic scripts also stack consonants, but by a different route: a [virama](../language-terms/writing-systems-and-scripts/virama.md) joins consonants into a [conjunct](conjunct.md) that the font may draw as a vertical stack.<sup>2</sup> Either way, the result is one tall shape instead of a row of separate consonants.
+For a design system, the consequence is vertical. A stack rises and falls further than a single [symbol](../language-terms/writing-systems-and-scripts/symbol.md), so it needs more vertical room, and the [font](font.md) has to do [glyph](glyph.md) work to assemble the separate consonants into one shape. A common giveaway of weak support is a stack that breaks apart and sits in a row instead. So budget [line height](line-height.md) for the tallest stacks, and test that the font actually builds them, rather than carrying over assumptions from the Latin script.
 
-For a design system, the consequence is vertical. A stack rises and drops further than a single [symbol](../language-terms/writing-systems-and-scripts/symbol.md), so it needs more room and more careful [glyph](glyph.md) work to assemble the pieces into one shape. A common sign of weak support is a stack that breaks apart and sits in a row instead. So budget [line height](line-height.md) for the tallest stacks, and test that the [font](font.md) actually builds them, rather than carrying over assumptions from the Latin script. Because the stack has to be assembled rather than placed in sequence, this is a [complex text layout](complex-text-layout.md) behaviour, in the same family as [joining](../language-terms/writing-systems-and-scripts/joining.md) and [reordering](reordering.md).
+Scripts build these stacks in two ways. Tibetan has separate [code points](code-point.md) for the stacked (subjoined) consonants, so the stack is encoded directly.<sup>1</sup> Many [Indic scripts](brahmic-scripts.md) instead use a [virama](../language-terms/writing-systems-and-scripts/virama.md) to join consonants into a [conjunct](conjunct.md) that the font may draw as a vertical stack; modern Tibetan does not use a virama for this.<sup>2</sup> Either way, characters stored in sequence end up drawn as one tall shape.
 
-Stacking is one of several [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) a script can have, and each language that uses the script also has its own [orthography](../language-terms/writing-systems-and-scripts/orthography.md), its spelling and punctuation conventions.
+Because the stack is assembled rather than placed in sequence, this is a [complex text layout](complex-text-layout.md) behaviour, in the same family as [joining](../language-terms/writing-systems-and-scripts/joining.md) and [reordering](reordering.md). Stacking is just one of a script's [script rules](../language-terms/writing-systems-and-scripts/script-rules.md); each language that uses the script also has its own [orthography](../language-terms/writing-systems-and-scripts/orthography.md), the language-specific spelling and punctuation rules that apply on top of the script's behaviour.
 
 ***
 
 ### Related terms and mentions
 
-[Code point](code-point.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](font.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Line height](line-height.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Brahmic scripts](brahmic-scripts.md) · [Code point](code-point.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](font.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Line height](line-height.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
