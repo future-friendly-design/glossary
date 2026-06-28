@@ -61,9 +61,9 @@ In a script with a joining script rule, each [symbol](symbol.md) is not one fixe
 The shape of a symbol changes depending on **where it sits in the word** and **which neighbouring symbols it connects to**. Depending on the symbol, it can take up to four shapes:
 
 * **isolated** - When the symbol stands **alone**, not joined to anything.
-* **initial** - When the symbol is at the **start** of a joined run, connecting to the symbol after it.
-* **medial** - When the symbol is in the **middle** of a joined run, connecting to a symbol on both sides.
-* **final** - When the symbol is at the **end** of a joined run, connecting to the symbol before it.
+* **initial** - When the symbol is at the **start** of a cursive run, connecting to the symbol after it.
+* **medial** - When the symbol is in the **middle** of a cursive run, connecting to a symbol on both sides.
+* **final** - When the symbol is at the **end** of a cursive run, connecting to the symbol before it.
 
 Not every symbol takes all four. Some join on one side only, so they appear just in the isolated and final shapes.
 
