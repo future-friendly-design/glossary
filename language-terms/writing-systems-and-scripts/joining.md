@@ -40,7 +40,7 @@ tags:
 
 Joining is a script rule that defines the behaviour where the symbols of a script may connect and change shape based on their position in a word.&#x20;
 
-For example, the Arabic letters kāf, tāʾ and bāʾ each have their own standalone shape, but in the word كتب they connect into one cursive run.&#x20;
+For example, the Arabic letters kāf ك, tāʾ ت and bāʾ ب each have their own standalone shape, but in the word كتب they connect into one cursive run.&#x20;
 
 Like all script rules, joining applies to any language using the script in its writing system.&#x20;
 
