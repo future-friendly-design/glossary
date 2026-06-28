@@ -66,9 +66,11 @@ one idea per sentence.
   table precedes "Why it matters", so its sources are 1, 2, 3...).
 - **no citation marker on a navigational sentence** (e.g. an opener table lead-in); the
   source goes in Further reading or on the specific claim/cell.
-- **"Related terms and mentions"** = every term actually **mentioned in the body** + the
-  parent MOC anchor; a frontmatter `related` peer that is never mentioned should be
-  **earned with a real sentence or left out**.
+- **"Related terms and mentions"** is a knowledge-graph relationship list: include every
+  term **mentioned in the body** + **genuine related peers** (the frontmatter `related`
+  set and true conceptual neighbours, even if not yet mentioned) + the parent MOC
+  anchor. Flag only **genuinely-unrelated** terms (junk edges) or a **missing genuine
+  relationship**, not a peer that is merely unmentioned.
 - the closing reminder is **a short paragraph on genuine rule pages, one sentence on
   narrow feature/classification pages**; flag if it overstates ("applies to every
   language" when some behaviours are language-specific).

@@ -38,7 +38,7 @@ Stacking is one of several [script rules](../language-terms/writing-systems-and-
 
 ### Related terms and mentions
 
-[Code point](code-point.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](font.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Line height](line-height.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tibetan script](tibetan-script.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Code point](code-point.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](font.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Line height](line-height.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
