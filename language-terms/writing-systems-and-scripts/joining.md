@@ -22,8 +22,8 @@ updated: 2026-06-22T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
-  - title: The Unicode Standard (latest version)
-    url: https://www.unicode.org/versions/latest/
+  - title: ArabicShaping.txt (Unicode Character Database)
+    url: https://www.unicode.org/Public/UCD/latest/ucd/ArabicShaping.txt
     type: code
   - title: Internationalization (W3C)
     url: https://www.w3.org/International/
@@ -42,7 +42,7 @@ Joining is the behaviour in some scripts where symbols connect and change shape 
 
 For example, the letters of an Arabic word link into one continuous cursive run rather than sitting apart like printed Latin letters.
 
-While this glossary doesn't cover every script, here are the scripts that use joining.<sup>1</sup> The linked ones have a page in the glossary.
+While this glossary doesn't cover every script, here are the scripts that use joining. The linked ones have a page in the glossary.
 
 | Script | Languages | How joining works here |
 | --- | --- | --- |
@@ -54,13 +54,13 @@ While this glossary doesn't cover every script, here are the scripts that use jo
 
 ### Why it matters in design systems
 
-In a joining script, a letter is not one fixed shape. It takes a different form depending on where it sits and what it connects to, usually one of four: initial, medial, final, or isolated.<sup>2</sup> Whether letters join, and that they join across a word, is a [script rule](script-rules.md): it holds for every language written in the script, such as Arabic, Persian, and Urdu.
+In a joining script, a letter is not one fixed shape. It takes a different form depending on where it sits and what it connects to, usually one of four: initial, medial, final, or isolated.<sup>1</sup> Whether letters join, and that they join across a word, is a [script rule](script-rules.md): it holds for every language written in the script, such as Arabic, Persian, and Urdu.
 
 A joining script influences several design system decisions including shaping, font coverage, and tool support.
 
 The right form for each letter has to be chosen during [shaping](../../terms/text-shaping.md), the step that turns stored characters into the positioned [glyphs](../../terms/glyph.md) you see.
 
-* OpenType selects the positional forms with the `isol`, `init`, `medi`, and `fina` features.<sup>2</sup>
+* OpenType selects the positional forms with the `isol`, `init`, `medi`, and `fina` features.<sup>1</sup>
 * Without shaping, the letters fall back to their isolated forms, sitting apart, which reads as broken.
 
 A [font](../../terms/font.md) that contains the script's characters is necessary but not sufficient.
@@ -91,10 +91,9 @@ Treating joining like a [ligature](../../terms/ligature.md). A ligature fuses tw
 
 ### Further reading
 
-* Code & specs: [The Unicode Standard (latest version)](https://www.unicode.org/versions/latest/)
+* Code & specs: [ArabicShaping.txt (Unicode Character Database)](https://www.unicode.org/Public/UCD/latest/ucd/ArabicShaping.txt)
 * Foundations: [Internationalization (W3C)](https://www.w3.org/International/)
 
 ### Sources
 
-1. Unicode defines the Joining_Type property for cursive scripts whose letters join and take positional shapes (isolated, initial, medial, final); the scripts it covers include Arabic, Syriac, N'Ko, Mandaic, Mongolian, Adlam, and Hanifi Rohingya - ArabicShaping.txt, Unicode Character Database [https://www.unicode.org/Public/UCD/latest/ucd/ArabicShaping.txt](https://www.unicode.org/Public/UCD/latest/ucd/ArabicShaping.txt)
-2. The shaping engine determines each letter's contextual form (isolated, initial, medial, final) from the characters before and after it, and OpenType selects them with the `isol`, `init`, `medi`, and `fina` features - Developing OpenType Fonts for Arabic Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/arabic](https://learn.microsoft.com/en-us/typography/script-development/arabic)
+1. The shaping engine determines each letter's contextual form (isolated, initial, medial, final) from the characters before and after it, and OpenType selects them with the `isol`, `init`, `medi`, and `fina` features - Developing OpenType Fonts for Arabic Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/arabic](https://learn.microsoft.com/en-us/typography/script-development/arabic)
