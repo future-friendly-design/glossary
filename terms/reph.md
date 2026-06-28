@@ -5,9 +5,8 @@ aliases: []
 level: advanced
 depth: core
 summary: >-
-  A reph is the form the consonant ra takes when it begins a consonant cluster
-  in some Indic scripts, drawn as a small mark above a later consonant instead
-  of as a full consonant.
+  In some South Asian (Indic) Brahmic scripts, a reph is the above-base form the
+  consonant ra takes when it is the initial symbol in a consonant cluster.
 related:
   - conjunct
   - matra
@@ -33,23 +32,23 @@ tags:
 
 ## Definition
 
-In some South Asian (Indic) Brahmic scripts, a reph is the above-base form the consonant ra takes when it is the initial symbol in a consonant cluster (two or more consonants that come together with no vowel between them).<sup>1</sup> It's a common example of a script's reordering rule in action.
+In some South Asian (Indic) Brahmic scripts, a reph is the above-base form the consonant ra takes when it is the initial symbol in a consonant cluster.<sup>1</sup> A cluster is two or more consonants that come together with no vowel between them. It's a common example of a script's [reordering](reordering.md) rule in action.
 
-For example, in Devanagari `कर्म` (karma), the ra that begins the cluster र्म is not drawn as a full consonant but as a small hook-like shape, the reph, sitting above the next consonant, ma.<sup>2</sup>
+For example, in [Devanagari](devanagari.md) `कर्म` (karma), the ra that begins the cluster र्म is not drawn as a full consonant but as a small hook-like shape, the reph, sitting above the next consonant, ma.<sup>2</sup>
 
 ### Why it matters in design systems
 
-On a multi-language website, a Devanagari word is stored in the order its characters are typed (क, र, virama, म), but it is not shown in that order: the reph moves up to sit above म. So a design system supporting Devanagari can't treat the stored order of text as the displayed order of text.
+On a multi-language website, a Devanagari word is stored in the order its [characters](character.md) are typed (क, र, [virama](../language-terms/writing-systems-and-scripts/virama.md), म), but it is not shown in that order: the reph moves up to sit above म. So a design system supporting Devanagari can't treat the stored order of text as the displayed order of text.
 
-Displaying a reph correctly on a website requires both a font that includes the reph form of the ra symbol and a shaping engine that performs the glyph substitution and reorders the cluster of symbols to position the reph.
+Displaying a reph correctly on a website requires both a [font](font.md) that includes the reph form of the ra symbol and a [shaping engine](shaping-engine.md) that performs the [glyph](glyph.md) substitution and reorders the cluster of [symbols](../language-terms/writing-systems-and-scripts/symbol.md) to position the reph.
 
-It's important to remember that supporting another language in a design system isn't limited to translation. Some writing systems have script rules, such as reordering (reph is one example), joining, and stacking, that require the system to handle complex text layout, not just translated strings. Even among languages that share the same script, each adds its own language-specific rules, defined in its orthography, that can place further requirements on the design system.
+It's important to remember that supporting another language in a design system isn't limited to translation. Some [writing systems](../language-terms/writing-systems-and-scripts/writing-system.md) have [script rules](../language-terms/writing-systems-and-scripts/script-rules.md), such as reordering (reph is one example), [joining](../language-terms/writing-systems-and-scripts/joining.md), and [stacking](stacking-script.md), that require the system to handle [complex text layout](complex-text-layout.md), not just translated strings. Even among languages that share the same script, each adds its own language-specific rules, defined in its [orthography](../language-terms/writing-systems-and-scripts/orthography.md), that can place further requirements on the design system.
 
 ***
 
 ### Related terms and mentions
 
-[Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Character](character.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](reordering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](stacking-script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
