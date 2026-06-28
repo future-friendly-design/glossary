@@ -42,7 +42,7 @@ Joining is a script rule that defines the behaviour where the symbols of a scrip
 
 For example, the Arabic letters kāf ك, tāʾ ت and bāʾ ب each have their own standalone shape, but in the word كتب they connect into one cursive run.&#x20;
 
-Like all script rules, joining applies to any language using the script in its writing system.&#x20;
+Like all script rules, joining applies to any [language](../linguistics/language.md) using the [script](script.md) in its [writing system](writing-system.md).&#x20;
 
 While this glossary doesn't cover every script, here are some to be aware of that have a joining script rule. You can select a linked term to navigate to its glossary page.&#x20;
 
@@ -56,7 +56,7 @@ While this glossary doesn't cover every script, here are some to be aware of tha
 
 ### Why it matters in design systems
 
-In a script with a joining script rule, each symbol is not one fixed shape.&#x20;
+In a script with a joining script rule, each [symbol](symbol.md) is not one fixed shape.&#x20;
 
 The shape of a symbol changes depending on **where it sits in the word** and **which neighbouring symbols it connects to**. Depending on the symbol, it can take up to four shapes:
 
@@ -69,20 +69,20 @@ Not every symbol takes all four. Some join on one side only, so they appear just
 
 As you can imagine, supporting a language whose writing system has a joining script rule influences multiple parts of the design system across typography, design, and development.&#x20;
 
-In typography, the typeface must include glyphs for all positional forms of the script's symbols. In design, tracking and letter-spacing must stay at zero for these scripts, because adding space between symbols breaks the joins.<sup>1</sup>&#x20;
+In typography, the [typeface](../../terms/typeface.md) must include [glyphs](../../terms/glyph.md) for all positional forms of the script's symbols. In design, [tracking](../../terms/tracking.md) and [letter-spacing](../../terms/letter-spacing.md) must stay at zero for these scripts, because adding space between symbols breaks the joins.<sup>1</sup>&#x20;
 
-Design tooling needs to support shaping; otherwise the tool will display the characters but not join them, leaving the script's symbols as separate shapes a reader cannot follow.&#x20;
+Design tooling needs to support shaping; otherwise the tool will display the [characters](../../terms/character.md) but not join them, leaving the script's symbols as separate shapes a reader cannot follow.&#x20;
 
 In development, the text-rendering layer (the browser, OS, or app's text engine) needs to support shaping, so the right form of each symbol appears when text is displayed in a language written in a joining script.&#x20;
 
-* Text shaping is the step that turns stored characters into properly positioned glyphs.&#x20;
-* [OpenType](../../terms/opentype.md) is a widely supported standard for formatting font data for digital typography, with features for supporting script rules like joining automatically. OpenType selects the positional forms of glyphs with the `isol`, `init`, `medi`, and `fina` features.<sup>2</sup>&#x20;
+* [Text shaping](../../terms/text-shaping.md) is the step that turns stored characters into properly positioned glyphs.&#x20;
+* [OpenType](../../terms/opentype.md) is a widely supported standard for formatting [font](../../terms/font.md) data for digital typography, with features for supporting script rules like joining automatically. OpenType selects the positional forms of glyphs with the `isol`, `init`, `medi`, and `fina` features.<sup>2</sup>&#x20;
 
 A quick thing to keep in mind: joining is just one of a script's rules. A script usually has several, and they all apply to every language that uses the script. So check the other [script rules](script-rules.md) too, not only this page. After that, look at the [orthography](orthography.md) for each language you support. Orthography is the language-specific layer: how that one language uses the script, like its spelling and punctuation.
 
 ### Common mistake
 
-Treating joining like a [ligature](../../terms/ligature.md). A ligature fuses two specific symbols into one glyph for one fixed combination, the way an `f` and an `i` can merge into a single `fi` shape. Joining is different: it is the systematic reshaping of symbols as they connect along a whole word, not a one-off fusion. Mixing the two up sends you looking for the wrong fix, a ligature setting, when the text actually needs shaping.
+Treating joining as an optional styling choice. A [ligature](../../terms/ligature.md), like the fi pair you see in English text, is a typographic refinement you can switch on or off.<sup>3</sup> Joining is not like that: it is required shaping. Skip it, with a tool or font that cannot shape, and the text does not just look plainer, it becomes unreadable. So when joined text renders broken, what it needs is shaping, not a font's ligature setting.
 
 ### In practice
 
@@ -93,7 +93,7 @@ Treating joining like a [ligature](../../terms/ligature.md). A ligature fuses tw
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Ligature](../../terms/ligature.md) · [OpenType](../../terms/opentype.md) · [Script rules](script-rules.md) · [Text shaping](../../terms/text-shaping.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../terms/letter-spacing.md) · [Ligature](../../terms/ligature.md) · [OpenType](../../terms/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tracking](../../terms/tracking.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
@@ -104,3 +104,4 @@ Treating joining like a [ligature](../../terms/ligature.md). A ligature fuses tw
 
 1. Some written languages should have no letter spacing applied; languages that use the Arabic script "expect connected letters to remain visually connected", and applying letter spacing "may lead to the text looking broken" - letter-spacing (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)
 2. The shaping engine determines each letter's contextual form (isolated, initial, medial, final) from the characters before and after it, and OpenType selects them with the `isol`, `init`, `medi`, and `fina` features - Developing OpenType Fonts for Arabic Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/arabic](https://learn.microsoft.com/en-us/typography/script-development/arabic)
+3. Common and discretionary ligatures, such as fi, are optional and can be switched on or off through the CSS `font-variant-ligatures` property and the OpenType `liga` and `dlig` features - font-variant-ligatures (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures)
