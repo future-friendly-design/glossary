@@ -8,8 +8,8 @@ aliases:
 level: intermediate
 depth: deep
 summary: >-
-  Joining is the behaviour in some scripts where symbols connect and change
-  shape based on their position in a word.
+  Joining is a script rule that defines the behaviour where the symbols of a
+  script may connect and change shape based on their position in a word.
 related:
   - arabic-script
   - text-shaping
@@ -82,12 +82,12 @@ A quick thing to keep in mind: joining is just one of a script's rules. A script
 
 ### Common mistake
 
-Treating joining like a [ligature](../../terms/ligature.md). A ligature fuses two specific symbols into one glyph for one fixed combination, the way an `f` and an `i` can merge into a single `fi` shape. Joining is different: it is the systematic reshaping of letters as they connect along a whole word, not a one-off fusion. Mixing the two up sends you looking for the wrong fix, a ligature setting, when the text actually needs shaping.
+Treating joining like a [ligature](../../terms/ligature.md). A ligature fuses two specific symbols into one glyph for one fixed combination, the way an `f` and an `i` can merge into a single `fi` shape. Joining is different: it is the systematic reshaping of symbols as they connect along a whole word, not a one-off fusion. Mixing the two up sends you looking for the wrong fix, a ligature setting, when the text actually needs shaping.
 
 ### In practice
 
-* **Test the tool with a real word, not a glyph table:** type a connected word and confirm the letters join and pick up their positional forms, not just that the characters appear. Tool support varies, so test early, not at handoff.
-* **Confirm positional-form coverage before you commit a typeface:** the font has to ship the joining forms and the features that select them, not just the base letters. See [font coverage](../../terms/font-coverage.md).
+* **Test the tool with a real word, not a glyph table:** type a connected word and confirm the symbols join and pick up their positional forms, not just that the characters appear. Tool support varies, so test early, not at handoff.
+* **Confirm positional-form coverage before you commit a typeface:** the font has to ship the joining forms and the features that select them, not just the base symbols. See [font coverage](../../terms/font-coverage.md).
 
 ***
 
