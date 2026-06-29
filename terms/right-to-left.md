@@ -42,7 +42,7 @@ So for a design system, supporting RTL is more than flipping the text. The whole
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](left-to-right.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](left-to-right.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

@@ -34,7 +34,7 @@ For example, the [Latin](latin-script.md) script used for English runs left to r
 
 ### Why it matters in design systems
 
-Most of the world's scripts run left to right, and on the web left to right is the default [base direction](text-direction.md) when none is set.<sup>1</sup> Because it is the default, LTR rarely asks you to make a decision, which is exactly why it is easy to bake in by accident.
+Most of the world's scripts run left to right, and on the web left to right is the default [base direction](../language-terms/writing-systems-and-scripts/text-direction.md) when none is set.<sup>1</sup> Because it is the default, LTR rarely asks you to make a decision, which is exactly why it is easy to bake in by accident.
 
 So for a design system, the risk is building as if LTR is the only direction. A layout pinned to the left edge breaks the moment it meets a [right-to-left](right-to-left.md) script. Setting direction with logical CSS properties (such as `text-align: start` and `margin-inline`) lets the same layout serve both directions, so supporting LTR is necessary but not sufficient on its own.
 
@@ -42,7 +42,7 @@ So for a design system, the risk is building as if LTR is the only direction. A 
 
 ### Related terms and mentions
 
-[Bidirectional text](bidirectional-text.md) · [Latin script](latin-script.md) · [Right-to-left](right-to-left.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Bidirectional text](bidirectional-text.md) · [Latin script](latin-script.md) · [Right-to-left](right-to-left.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

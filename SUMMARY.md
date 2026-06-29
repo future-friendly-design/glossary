@@ -21,6 +21,8 @@
   * [Stacking script](language-terms/writing-systems-and-scripts/stacking-script.md)
   * [Symbol](language-terms/writing-systems-and-scripts/symbol.md)
   * [Text direction](language-terms/writing-systems-and-scripts/text-direction.md)
+    * [Left-to-right](terms/left-to-right.md)
+    * [Right-to-left](terms/right-to-left.md)
   * [Tone mark](language-terms/writing-systems-and-scripts/tone-mark.md)
   * [Virama](language-terms/writing-systems-and-scripts/virama.md)
   * [Writing system](language-terms/writing-systems-and-scripts/writing-system.md)
