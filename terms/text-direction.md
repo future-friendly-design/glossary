@@ -40,7 +40,7 @@ While this glossary doesn't cover every script, here are the directions text can
 | --- | --- | --- |
 | [Left to right](left-to-right.md) (LTR) | Horizontal, starting at the left edge; lines stack down the page. | [Latin script](latin-script.md), [Greek script](greek-script.md), [Cyrillic](cyrillic.md), [Devanagari](devanagari.md) |
 | [Right to left](right-to-left.md) (RTL) | Horizontal, starting at the right edge; lines stack down the page. | [Arabic script](arabic-script.md), [Hebrew script](hebrew-script.md), Thaana, Syriac, N'Ko, Adlam |
-| Top to bottom | Stacked in vertical columns; for CJK the columns advance right to left ([tategaki](tategaki.md)), while traditional Mongolian columns advance left to right. | [CJK](cjk.md), [Mongolian script (traditional)](mongolian-script.md) |
+| Top to bottom | Stacked in vertical columns. CJK usually runs horizontally but can be set vertically, its columns advancing right to left ([tategaki](tategaki.md)); traditional Mongolian is written vertically, its columns advancing left to right. | [CJK](cjk.md), [Mongolian script (traditional)](mongolian-script.md) |
 
 ### Why it matters in design systems
 
@@ -54,13 +54,13 @@ So for a design system, getting direction right is necessary but not sufficient.
 
 ### Common mistake
 
-Assuming the page's language or locale sets the text direction. It does not. A `lang="ar"` declaration, even one carrying a script subtag, has no effect on how the text is ordered, and the browser will not infer direction from the content either. Leave the base direction unset and right-to-left text can lay out left to right and align to the wrong edge. Direction is a decision you make on purpose, with the `dir` attribute or the CSS `direction` property, not something the language carries for you.
+Assuming the page's language or locale sets the text direction. It does not. A `lang="ar"` declaration, even one carrying a script subtag such as `-Arab`, has no effect on how the text is ordered, and the browser will not infer direction from the content either. Leave the base direction unset and right-to-left text can lay out left to right and align to the wrong edge. Direction is a decision you make on purpose, with the `dir` attribute or the CSS `direction` property, not something the language carries for you.
 
 ### In practice
 
-* **Set base direction explicitly, do not rely on the language. -** Use the HTML `dir` attribute (or `dir="auto"` for content whose direction you do not know) or the CSS `direction` property. A `lang` attribute, even with a script subtag, does not set direction. The mixed-direction case is [bidirectional text](bidirectional-text.md).
-* **Build layouts with logical CSS properties. -** Properties like `margin-inline` and `text-align: start` follow the text's direction instead of being pinned to the left or right edge, so one layout flips correctly between left to right and right to left.<sup>4</sup>
-* **Test every direction you support with real content. -** Include a right-to-left paragraph with an embedded left-to-right run such as a brand name or a URL, and if you support vertical text, test the whole component in `writing-mode: vertical-rl`, not just the body copy. Confirm right-to-left and vertical behaviour with readers of those languages.
+* **Set base direction explicitly, do not rely on the language:** use the HTML `dir` attribute (or `dir="auto"` for content whose direction you do not know) or the CSS `direction` property. A `lang` attribute, even with a script subtag, does not set direction. The mixed-direction case is [bidirectional text](bidirectional-text.md).
+* **Build layouts with logical CSS properties:** properties like `margin-inline` and `text-align: start` follow the text's direction instead of being pinned to the left or right edge, so one layout flips correctly between left to right and right to left.<sup>4</sup>
+* **Test every direction you support with real content:** include a right-to-left paragraph with an embedded left-to-right run such as a brand name or a URL, and if you support vertical text, test the whole component in `writing-mode: vertical-rl`, not just the body copy. Confirm right-to-left and vertical behaviour with readers of those languages.
 
 ***
 
