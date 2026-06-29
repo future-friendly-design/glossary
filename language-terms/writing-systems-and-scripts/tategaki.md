@@ -1,31 +1,40 @@
 ---
 term: Tategaki
 slug: tategaki
-aliases: [vertical writing, 縦書き]
-tags: [writing-systems-scripts, shaping-layout]
+aliases:
+  - vertical writing
+  - 縦書き
 level: advanced
 depth: deep
-summary: Tategaki is vertical writing, set top to bottom with columns running right to left, traditional in Japanese and other East Asian scripts.
-related: [full-width, font-coverage]
+summary: >-
+  Tategaki is vertical writing, set top to bottom with columns running right to
+  left, traditional in Japanese and other East Asian scripts.
+related:
+  - full-width
+  - font-coverage
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18
-contributors: [sam-gordashko]
+updated: 2026-06-18T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "writing-mode (MDN)"
+  - title: writing-mode (MDN)
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode
     type: code
-  - title: "Vertical text (W3C Internationalization)"
+  - title: Vertical text (W3C Internationalization)
     url: https://www.w3.org/International/articles/vertical-text/
     type: authority
 license: CC-BY-4.0
+tags:
+  - writing-systems-scripts
+  - shaping-layout
 ---
 
 # Tategaki
 
 ## Definition
 
-Tategaki is vertical writing, set top to bottom with columns running right to left, traditional in Japanese and other East Asian scripts.
+Tategaki refers to the vertical writing found in traditional Japanese and other East Asian scripts where the text is read in columns from top to bottom, arranged from right to left.&#x20;
 
 For example, a Japanese novel is typically set in tategaki, read down each column and then leftward to the next.
 
@@ -35,7 +44,7 @@ Tategaki was long the standard for Japanese and is still everywhere in novels, n
 
 It is also not a rotation. In vertical text, ordinary digits lie on their side by default while fullwidth digits and enclosed numbers stand upright, and short runs of Latin letters or numbers are set upright in a horizontal cluster called tate-chu-yoko.<sup>1</sup> Each of those follows its own rule, so turning a horizontal block ninety degrees produces something a reader of the script sees as wrong.
 
-So for a design system, setting the writing direction is necessary but not sufficient. CSS `writing-mode: vertical-rl` is what makes vertical layout possible on the web,<sup>2</sup> but the rest of the component, scroll direction, form controls, line breaking, and bidirectional runs, all shift with it. [CJK](cjk.md) products often need both directions, so vertical layout is a real requirement to design and test for, not a niche.
+So for a design system, setting the writing direction is necessary but not sufficient. CSS `writing-mode: vertical-rl` is what makes vertical layout possible on the web,<sup>2</sup> but the rest of the component, scroll direction, form controls, line breaking, and bidirectional runs, all shift with it. [CJK](../../terms/cjk.md) products often need both directions, so vertical layout is a real requirement to design and test for, not a niche.
 
 ### Example
 
@@ -55,7 +64,7 @@ Assuming vertical text is just horizontal text rotated ninety degrees. It is not
 
 ### Related terms and mentions
 
-[CJK](cjk.md) · [Font coverage](font-coverage.md) · [Full-width](full-width.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[CJK](../../terms/cjk.md) · [Font coverage](../../terms/font-coverage.md) · [Full-width](../../terms/full-width.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

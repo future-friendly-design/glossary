@@ -7,7 +7,10 @@ aliases:
   - directionality
 level: foundational
 depth: deep
-summary: Text direction is a script rule that defines the intended direction of reading and writing the symbols in the script, such as left to right, right to left, or top to bottom.
+summary: >-
+  Text direction is a script rule that defines the intended direction of reading
+  and writing the symbols in the script, such as left to right, right to left,
+  or top to bottom.
 related:
   - bidirectional-text
   - complex-text-layout
@@ -21,7 +24,8 @@ contributors:
   - sam-gordashko
 further_reading:
   - title: dir (MDN HTML global attribute)
-    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/dir
+    url: >-
+      https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/dir
     type: code
   - title: Structural markup and right-to-left text in HTML (W3C)
     url: https://www.w3.org/International/questions/qa-html-dir
@@ -41,17 +45,17 @@ tags:
 
 Text direction is a script rule that defines the intended direction of reading and writing the symbols in the script, such as left to right, right to left, or top to bottom.
 
-For example, the [Latin script](../../terms/latin-script.md) runs [left to right](../../terms/left-to-right.md), the [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) scripts run [right to left](../../terms/right-to-left.md), and Japanese can be set top to bottom in vertical columns.
+For example, the [Latin script](../../terms/latin-script.md) runs [left to right](left-to-right.md), the [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) scripts run [right to left](right-to-left.md), and Japanese can be set top to bottom in vertical columns.
 
 Like all script rules, text direction applies to any [language](../linguistics/language.md) using the [script](script.md) in its [writing system](writing-system.md).
 
 While this glossary doesn't cover every script, here are some of the scripts to explore, organized by text direction. You can select a linked term to navigate to its glossary page.
 
-| Direction | How it runs | Example scripts |
-| --- | --- | --- |
-| [Left to right](../../terms/left-to-right.md) (LTR) | Horizontal, starting at the left edge; lines stack down the page. | [Latin script](../../terms/latin-script.md), [Greek script](../../terms/greek-script.md), [Cyrillic](../../terms/cyrillic.md), [Devanagari](../../terms/devanagari.md) |
-| [Right to left](../../terms/right-to-left.md) (RTL) | Horizontal, starting at the right edge; lines stack down the page. | [Arabic script](../../terms/arabic-script.md), [Hebrew script](../../terms/hebrew-script.md), Thaana, Syriac, N'Ko, Adlam |
-| Top to bottom | Stacked in vertical columns. CJK usually runs horizontally but can be set vertically, its columns advancing right to left ([tategaki](../../terms/tategaki.md)); traditional Mongolian is written vertically, its columns advancing left to right. | [CJK](../../terms/cjk.md), [Mongolian script (traditional)](../../terms/mongolian-script.md) |
+| Direction                               | How it runs                                                                                                                                                                                                                            | Example scripts                                                                                                                                                        |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Left to right](left-to-right.md) (LTR) | Horizontal, starting at the left edge; lines stack down the page.                                                                                                                                                                      | [Latin script](../../terms/latin-script.md), [Greek script](../../terms/greek-script.md), [Cyrillic](../../terms/cyrillic.md), [Devanagari](../../terms/devanagari.md) |
+| [Right to left](right-to-left.md) (RTL) | Horizontal, starting at the right edge; lines stack down the page.                                                                                                                                                                     | [Arabic script](../../terms/arabic-script.md), [Hebrew script](../../terms/hebrew-script.md), Thaana, Syriac, N'Ko, Adlam                                              |
+| Top to bottom                           | Stacked in vertical columns. CJK usually runs horizontally but can be set vertically, its columns advancing right to left ([tategaki](tategaki.md)); traditional Mongolian is written vertically, its columns advancing left to right. | [CJK](../../terms/cjk.md), [Mongolian script (traditional)](../../terms/mongolian-script.md)                                                                           |
 
 ### Why it matters in design systems
 
@@ -95,7 +99,7 @@ On the web you set base direction with the HTML `dir` attribute or the CSS `dire
 
 Base direction is what makes mixed text (like an English brand name in an Arabic sentence) come out right. When one line holds both right-to-left and left-to-right text, the Unicode Bidirectional Algorithm uses the base direction to work out the visual order and to resolve neutral characters like spaces and punctuation.<sup>3</sup>
 
-Direction is not only horizontal. Some scripts run top to bottom in vertical columns: Japanese, Chinese, and Korean can be set this way (the traditional Japanese mode is [tategaki](../../terms/tategaki.md)), and traditional [Mongolian](../../terms/mongolian-script.md) is written vertically. On the web this is the CSS `writing-mode` property, where `vertical-rl` sets the columns of [CJK](../../terms/cjk.md) text to advance right to left and `vertical-lr` advances them left to right for Mongolian.<sup>4</sup>
+Direction is not only horizontal. Some scripts run top to bottom in vertical columns: Japanese, Chinese, and Korean can be set this way (the traditional Japanese mode is [tategaki](tategaki.md)), and traditional [Mongolian](../../terms/mongolian-script.md) is written vertically. On the web this is the CSS `writing-mode` property, where `vertical-rl` sets the columns of [CJK](../../terms/cjk.md) text to advance right to left and `vertical-lr` advances them left to right for Mongolian.<sup>4</sup>
 
 Direction is just one of a script's [script rules](script-rules.md), and the same cross-level cascade applies to each of them, so check the others a script you support might have, such as [joining](joining.md) and [stacking](stacking-script.md). And on top of the script rules, each language that uses the script has its own orthography, the spelling and punctuation conventions that can add further requirements.
 
@@ -109,7 +113,7 @@ Direction is just one of a script's [script rules](script-rules.md), and the sam
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [CJK](../../terms/cjk.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Glyph](../../terms/glyph.md) · [Greek script](../../terms/greek-script.md) · [Hebrew script](../../terms/hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](../../terms/left-to-right.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](../../terms/right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](../../terms/tategaki.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [CJK](../../terms/cjk.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Glyph](../../terms/glyph.md) · [Greek script](../../terms/greek-script.md) · [Hebrew script](../../terms/hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](left-to-right.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](tategaki.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
@@ -123,4 +127,4 @@ Direction is just one of a script's [script rules](script-rules.md), and the sam
 2. Most scripts are left to right, while Adlam, Arabic, Hebrew, N'Ko, Syriac, and Thaana are right to left; a language declaration does not set directionality, "even if the language declaration has a script subtag", so the base direction must be declared with the `dir` attribute - Structural markup and right-to-left text in HTML (W3C) [https://www.w3.org/International/questions/qa-html-dir](https://www.w3.org/International/questions/qa-html-dir)
 3. The Unicode Bidirectional Algorithm reorders text for display from the prevailing base direction, which also resolves neutral characters such as spaces and punctuation - Unicode Bidirectional Algorithm basics (W3C) [https://www.w3.org/International/articles/inline-bidi-markup/uba-basics](https://www.w3.org/International/articles/inline-bidi-markup/uba-basics)
 4. Vertical text is set with the CSS `writing-mode` property: `vertical-rl` lays out lines top to bottom with columns advancing right to left, and `vertical-lr` advances columns left to right; Chinese, Japanese, Korean, and Mongolian are written vertically - writing-mode (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode)
-5. Logical properties such as `margin-inline` and `text-align: start` are direction-relative, so a layout built with them adapts when the writing direction changes instead of being pinned to a physical side - CSS logical properties and values (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
+5. Logical properties such as `margin-inline` and `text-align: start` are direction-relative, so a layout built with them adapts when the writing direction changes instead of being pinned to a physical side - CSS logical properties and values (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical\_properties\_and\_values](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
