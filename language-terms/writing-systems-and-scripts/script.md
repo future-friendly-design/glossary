@@ -43,48 +43,44 @@ This is the writing-systems sense of "script." For the type-design classificatio
 
 ## Definition
 
-A script is the set of visual [symbols](symbol.md), [marks](mark.md), and [rules](script-rules.md) used to write one or more languages.&#x20;
+A script is the set of visual [symbols](symbol.md), [marks](mark.md), and [rules](script-rules.md) used to write one or more languages.
 
-When a community sets rules on how a script can be used to write their specific language it becomes an [orthography](orthography.md).&#x20;
+When a community sets rules on how a script can be used to write their specific language it becomes an [orthography](orthography.md).
 
-The combination of script and orthography is also known as the [writing system](writing-system.md) of a language.&#x20;
+The combination of script and orthography is also known as the [writing system](writing-system.md) of a language.
 
-Scripts are classified by what each symbol represents: [alphabets](../../terms/alphabet.md), [abjads](../../terms/abjad.md), [abugidas](../../terms/abugida.md), [alphasyllabaries](../../terms/alphasyllabary.md), [syllabaries](../../terms/syllabary.md), [logographic](../../terms/logographic.md), [logosyllabary](../../terms/logosyllabary.md), [ideographic](../../terms/ideographic.md), [featural](../../terms/featural-alphabet.md), and [pictographic](../../terms/pictographic.md) systems. They are often grouped into families like [Brahmic scripts](../../terms/brahmic-scripts.md) and [CJK](../../terms/cjk.md) to help us understand the common properties across related scripts.&#x20;
+Scripts are classified by what each symbol represents: [alphabets](../../terms/alphabet.md), [abjads](../../terms/abjad.md), [abugidas](../../terms/abugida.md), [alphasyllabaries](../../terms/alphasyllabary.md), [syllabaries](../../terms/syllabary.md), [logographic](../../terms/logographic.md), [logosyllabary](../../terms/logosyllabary.md), [ideographic](../../terms/ideographic.md), [featural](../../terms/featural-alphabet.md), and [pictographic](../../terms/pictographic.md) systems. They are often grouped into families like [Brahmic scripts](../../terms/brahmic-scripts.md) and [CJK](../../terms/cjk.md) to help us understand the common properties across related scripts.
 
 The same greeting in four scripts:
 
-| Script | Looks like | Direction | What makes it different |
-| --- | :---: | --- | --- |
-| Latin (alphabet) | Hello | Left to right | Mostly one shape per letter |
-| Arabic (abjad) | مرحبا | Right to left | Letters join into cursive forms |
-| Devanagari (abugida) | नमस्ते | Left to right | Marks reorder and stack |
-| Han (logographic) | 你好 | Left to right or vertical | Thousands of characters |
+| Script               | Looks like | Direction                 | What makes it different         |
+| -------------------- | :--------: | ------------------------- | ------------------------------- |
+| Latin (alphabet)     |    Hello   | Left to right             | Mostly one shape per letter     |
+| Arabic (abjad)       |    مرحبا   | Right to left             | Letters join into cursive forms |
+| Devanagari (abugida) |   नमस्ते   | Left to right             | Marks reorder and stack         |
+| Han (logographic)    |     你好     | Left to right or vertical | Thousands of characters         |
 
 ### Why it matters in design systems
 
-The goal is to zoom out and realize the script is a part of the larger writing system you need to consider when working with text within a design system. This is especially important when you need to support multiple languages.&#x20;
+The goal is to zoom out and realize the script is a part of the larger writing system you need to consider when working with text within a design system. This is especially important when you need to support multiple languages.
 
-Script, language, and writing system are not the same thing. Requirements for a design system to support multiple languages are often thought of as language = script, for example, "We have already purchased this font for the website for English which is a Latin script, so adding French language support should be fast and easy because they use the same alphabet!"&#x20;
+Script, language, and writing system are not the same thing. Requirements for a design system to support multiple languages are often thought of as language = script, for example, "We have already purchased this font for the website for English which is a Latin script, so adding French language support should be fast and easy because they use the same alphabet!"
 
-While it's true that the script will drive the font design decisions for what typefaces you can use in a project, implementing a language in a design system by only thinking about its script is a recipe for poor user experience.&#x20;
+While it's true that the script will drive the font design decisions for what typefaces you can use in a project, implementing a language in a design system by only thinking about its script is a recipe for poor user experience.
 
-If the script defines the [typeface](../../terms/typeface.md) choices, the script rules will help you decide the [text direction](../../terms/text-direction.md) it runs in, and the [shaping](../../terms/text-shaping.md) and input it requires which influence layout behaviour of components and patterns within your system.&#x20;
+If the script defines the [typeface](../../terms/typeface.md) choices, the script rules will help you decide the [text direction](../../terms/text-direction.md) it runs in, and the [shaping](../../terms/text-shaping.md) and input it requires which influence layout behaviour of components and patterns within your system.
 
-Many of the other typography and font styling decisions are influenced by the language-specific application of the script within the writing system, so looking at the orthography is just as important.&#x20;
+Many of the other typography and font styling decisions are influenced by the language-specific application of the script within the writing system, so looking at the orthography is just as important.
 
 You may discover that a language has more than one writing system, and instead of assuming by location, your site may need to provide a setting to enable a user to choose between different scripts!
 
-
-
 #### Examples
 
-English, French, Vietnamese, and Turkish are all written with the same script (Latin)<sup>1</sup> but are different languages. While you could use a typeface that has font coverage for all four, looking at each language's writing system would tell you that the quotation marks used for English are different from French.<sup>2</sup>  \
+English, French, Vietnamese, and Turkish are all written with the same script (Latin)<sup>1</sup> but are different languages. While you could use a typeface that has font coverage for all four, looking at each language's writing system would tell you that the quotation marks used for English are different from French.<sup>2</sup>\
 \
-Serbian can be written in both Cyrillic and Latin scripts.<sup>3</sup> They both share a script rule of left to right text direction, meaning the layout of the design system does not have to change when a user changes between the two script options.&#x20;
+Serbian can be written in both Cyrillic and Latin scripts.<sup>3</sup> They both share a script rule of left to right text direction, meaning the layout of the design system does not have to change when a user changes between the two script options.
 
-Punjabi is one language written in two scripts: Gurmukhi in India, which runs left to right, and Shahmukhi, an Arabic-based script used in Pakistan, which runs right to left.<sup>4</sup> This would require a layout change based on which script was selected. While you could infer which script to load based on the location of the person using a website, providing a setting to choose between the two would be an ideal user experience.&#x20;
-
-
+Punjabi is one language written in two scripts: Gurmukhi in India, which runs left to right, and Shahmukhi, an Arabic-based script used in Pakistan, which runs right to left.<sup>4</sup> This would require a layout change based on which script was selected. While you could infer which script to load based on the location of the person using a website, providing a setting to choose between the two would be an ideal user experience.
 
 ### Common mistake
 
@@ -104,7 +100,7 @@ When the new language uses a different script, the scope of work is larger. The 
 
 ### Related terms and mentions
 
-[Abjad](../../terms/abjad.md) · [Abugida](../../terms/abugida.md) · [Alphabet](../../terms/alphabet.md) · [Alphasyllabary](../../terms/alphasyllabary.md) · [Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [CJK](../../terms/cjk.md) · [Conjunct](../../terms/conjunct.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Featural alphabet](../../terms/featural-alphabet.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Ideographic](../../terms/ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Keyboard layout](../../terms/keyboard-layout.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Logographic](../../terms/logographic.md) · [Logosyllabary](../../terms/logosyllabary.md) · [Mark](mark.md) · [Pictographic](../../terms/pictographic.md) · [Reordering](../../terms/reordering.md) · [Script (typeface)](../../terms/script-typeface.md) · [Script rules](script-rules.md) · [Segmentation](../../terms/segmentation.md) · [Shaping engine](../../terms/shaping-engine.md) · [Stacking script](../../terms/stacking-script.md) · [Syllabary](../../terms/syllabary.md) · [Symbol](symbol.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](../../terms/abjad.md) · [Abugida](../../terms/abugida.md) · [Alphabet](../../terms/alphabet.md) · [Alphasyllabary](../../terms/alphasyllabary.md) · [Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [CJK](../../terms/cjk.md) · [Conjunct](../../terms/conjunct.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Featural alphabet](../../terms/featural-alphabet.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Ideographic](../../terms/ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Keyboard layout](../../terms/keyboard-layout.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Logographic](../../terms/logographic.md) · [Logosyllabary](../../terms/logosyllabary.md) · [Mark](mark.md) · [Pictographic](../../terms/pictographic.md) · [Reordering](../../terms/reordering.md) · [Script (typeface)](../../terms/script-typeface.md) · [Script rules](script-rules.md) · [Segmentation](../../terms/segmentation.md) · [Shaping engine](../../terms/shaping-engine.md) · [Stacking script](stacking-script.md) · [Syllabary](../../terms/syllabary.md) · [Symbol](symbol.md) · [Text direction](../../terms/text-direction.md) · [Text shaping](../../terms/text-shaping.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

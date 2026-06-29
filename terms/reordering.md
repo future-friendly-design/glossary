@@ -38,7 +38,7 @@ Reordering is when a shaping engine changes the display order of characters rela
 
 ### Why it matters in design systems
 
-In several Indic and Brahmic scripts, the logical (typed) order of a vowel mark or a special consonant differs from its visual position, so the shaper has to move it during layout.<sup>1</sup> The classic cases are a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) that displays before its consonant and a [reph](reph.md) that jumps to the top of a cluster.
+In several Indic and Brahmic scripts, the logical (typed) order of a vowel mark or a special consonant differs from its visual position, so the shaper has to move it during layout.<sup>1</sup> The classic cases are a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) that displays before its consonant and a [reph](../language-terms/writing-systems-and-scripts/reph.md) that jumps to the top of a cluster.
 
 This is distinct from bidi reordering, which flips whole runs for right-to-left text; reordering rearranges characters within a single syllable.
 
@@ -62,7 +62,7 @@ Assuming the order characters are stored in is the order they appear on screen. 
 
 ### Related terms and mentions
 
-[Bidirectional text](bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Grapheme cluster](grapheme-cluster.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](stacking-script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Bidirectional text](bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Grapheme cluster](grapheme-cluster.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../language-terms/writing-systems-and-scripts/reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

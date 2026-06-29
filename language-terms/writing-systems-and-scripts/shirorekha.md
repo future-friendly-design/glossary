@@ -41,11 +41,11 @@ For example, in Devanagari `नमस्ते`, the unbroken line across the to
 
 While this glossary doesn't cover every script, here are the scripts that use a shirorekha. The linked ones have a page in the glossary.
 
-| Script | Languages | How the shirorekha works here |
-| --- | --- | --- |
-| [Devanagari](../../terms/devanagari.md) | Hindi, Marathi, Nepali, Sanskrit | Most letters hang from a continuous shirorekha that runs unbroken across the word.<sup>1</sup> |
-| [Bengali-Assamese](../../terms/bengali-assamese.md) | Bengali, Assamese | A top bar joins the letters along the top, and the script's hanging baseline is based on it.<sup>2</sup> |
-| Gurmukhi | Punjabi | Letters are joined at the top bar; a few letters leave a gap but still join on either side.<sup>3</sup> |
+| Script                                              | Languages                        | How the shirorekha works here                                                                            |
+| --------------------------------------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [Devanagari](../../terms/devanagari.md)             | Hindi, Marathi, Nepali, Sanskrit | Most letters hang from a continuous shirorekha that runs unbroken across the word.<sup>1</sup>           |
+| [Bengali-Assamese](../../terms/bengali-assamese.md) | Bengali, Assamese                | A top bar joins the letters along the top, and the script's hanging baseline is based on it.<sup>2</sup> |
+| Gurmukhi                                            | Punjabi                          | Letters are joined at the top bar; a few letters leave a gap but still join on either side.<sup>3</sup>  |
 
 ### Why it matters in design systems
 
@@ -75,7 +75,7 @@ A quick thing to keep in mind: the shirorekha is just one of a script's rules. A
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Baseline](../../terms/baseline.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Hanging baseline](../../terms/hanging-baseline.md) · [Latin script](../../terms/latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](../../terms/reph.md) · [Script rules](script-rules.md) · [Tracking](../../terms/tracking.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Baseline](../../terms/baseline.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Hanging baseline](../../terms/hanging-baseline.md) · [Latin script](../../terms/latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](../../terms/tracking.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
