@@ -21,7 +21,7 @@ contributors:
   - sam-gordashko
 further_reading:
   - title: dir (MDN HTML global attribute)
-    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/dir
     type: code
   - title: Structural markup and right-to-left text in HTML (W3C)
     url: https://www.w3.org/International/questions/qa-html-dir
@@ -61,7 +61,7 @@ If you suspect your design system will support languages with more than one text
 
 #### Typography and font styling
 
-For typography and font styling, it's generally a good idea to choose a typeface that explicitly supports the script you are working in, so its script rules, like text direction, are handled by the font. For example, a typeface built specifically for the Latin script won't have the glyphs required to support Arabic symbols, and vice versa.
+For typography and font styling, it's generally a good idea to choose a typeface that explicitly supports the script you are working in, so its script rules, like text direction, are handled by the font. For example, a typeface built specifically for the Latin script won't have the [glyphs](../../terms/glyph.md) required to support Arabic symbols, and vice versa.
 
 Once you have script-specific typefaces, font styling also has to account for how spacing changes with direction. In a horizontal script the space between lines runs vertically (line height); set the same text top to bottom and that line spacing runs horizontally instead, as the gap between columns. So the axis your spacing applies to flips with the direction.
 
@@ -109,11 +109,11 @@ Direction is just one of a script's [script rules](script-rules.md), and the sam
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [CJK](../../terms/cjk.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Greek script](../../terms/greek-script.md) · [Hebrew script](../../terms/hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](../../terms/left-to-right.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](../../terms/right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](../../terms/tategaki.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [CJK](../../terms/cjk.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Glyph](../../terms/glyph.md) · [Greek script](../../terms/greek-script.md) · [Hebrew script](../../terms/hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](../../terms/left-to-right.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](../../terms/right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](../../terms/tategaki.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
-* Code & specs: [dir (MDN HTML global attribute)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
+* Code & specs: [dir (MDN HTML global attribute)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/dir)
 * Foundations: [Structural markup and right-to-left text in HTML (W3C)](https://www.w3.org/International/questions/qa-html-dir)
 * Resource library: [Bidirectionality and RTL (Material Design 3)](https://m3.material.io/foundations/layout/bidirectionality-rtl)
 
