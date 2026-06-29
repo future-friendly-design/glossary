@@ -84,7 +84,7 @@ Script rules define the behaviour of individual visual elements of a script (its
 * [Script rules](script-rules.md)
 * [Stacking script](stacking-script.md)
 * [Tategaki](../../terms/tategaki.md)
-* [Text direction](../../terms/text-direction.md)
+* [Text direction](text-direction.md)
   * [Left-to-right (LTR)](../../terms/left-to-right.md)
   * [Right-to-left (RTL)](../../terms/right-to-left.md)
 

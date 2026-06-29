@@ -44,7 +44,7 @@ A Hebrew sentence with the English word "email" and a price in digits needs the 
 
 ## Related terms
 
-[Abjad](abjad.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Text direction](text-direction.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md)
+[Abjad](abjad.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md)
 
 ## Further reading
 
