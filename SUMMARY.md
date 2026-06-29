@@ -23,7 +23,7 @@
   * [Text direction](language-terms/writing-systems-and-scripts/text-direction.md)
     * [Left-to-right](terms/left-to-right.md)
     * [Right-to-left](terms/right-to-left.md)
-    * [Vertical text](language-terms/writing-systems-and-scripts/vertical-text.md)
+    * [Vertical text](terms/vertical-text.md)
   * [Tone mark](language-terms/writing-systems-and-scripts/tone-mark.md)
   * [Virama](language-terms/writing-systems-and-scripts/virama.md)
   * [Writing system](language-terms/writing-systems-and-scripts/writing-system.md)

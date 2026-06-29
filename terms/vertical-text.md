@@ -31,15 +31,15 @@ For example, Japanese can be set vertically (tategaki), and traditional Mongolia
 
 ### Why it matters in design systems
 
-Several East Asian scripts can be set vertically, including Chinese, Japanese, and Korean, the traditional Japanese mode being [tategaki](../../terms/tategaki.md), as well as traditional [Mongolian](../../terms/mongolian-script.md). On the web you set vertical text with the CSS `writing-mode` property: `vertical-rl` stacks lines top to bottom with columns advancing right to left, as in [CJK](../../terms/cjk.md), and `vertical-lr` advances them left to right, as in Mongolian.<sup>1</sup>
+Several East Asian scripts can be set vertically, including Chinese, Japanese, and Korean, the traditional Japanese mode being [tategaki](tategaki.md), as well as traditional [Mongolian](mongolian-script.md). On the web you set vertical text with the CSS `writing-mode` property: `vertical-rl` stacks lines top to bottom with columns advancing right to left, as in [CJK](cjk.md), and `vertical-lr` advances them left to right, as in Mongolian.<sup>1</sup>
 
-So for a design system, vertical text is more than turning a horizontal block on its side. The [font](../../terms/font.md) has to provide vertical forms and spacing for its symbols, not only the horizontal ones,<sup>2</sup> and the rest of the component shifts with the text: scroll direction, form controls, and line breaking. Like the other directions, setting it is necessary but not sufficient on its own. It is one way a script's [text direction](text-direction.md) can run, alongside [left to right](../../terms/left-to-right.md) and [right to left](../../terms/right-to-left.md).
+So for a design system, vertical text is more than turning a horizontal block on its side. The [font](font.md) has to provide vertical forms and spacing for its symbols, not only the horizontal ones,<sup>2</sup> and the rest of the component shifts with the text: scroll direction, form controls, and line breaking. Like the other directions, setting it is necessary but not sufficient on its own. It is one way a script's [text direction](../language-terms/writing-systems-and-scripts/text-direction.md) can run, alongside [left to right](left-to-right.md) and [right to left](right-to-left.md).
 
 ***
 
 ### Related terms and mentions
 
-[CJK](../../terms/cjk.md) · [Font](../../terms/font.md) · [Left-to-right](../../terms/left-to-right.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [Right-to-left](../../terms/right-to-left.md) · [Tategaki](../../terms/tategaki.md) · [Text direction](text-direction.md) · [Writing systems & scripts](./)
+[CJK](cjk.md) · [Font](font.md) · [Left-to-right](left-to-right.md) · [Mongolian script (traditional)](mongolian-script.md) · [Right-to-left](right-to-left.md) · [Tategaki](tategaki.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
