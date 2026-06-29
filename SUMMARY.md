@@ -7,6 +7,7 @@
 ## language and linguistics terms <a href="#language-terms" id="language-terms"></a>
 
 * [Writing systems & scripts](language-terms/writing-systems-and-scripts/README.md)
+  * [Bidirectional text](language-terms/writing-systems-and-scripts/bidirectional-text.md)
   * [Diacritic](language-terms/writing-systems-and-scripts/diacritic.md)
   * [Joining](language-terms/writing-systems-and-scripts/joining.md)
   * [Mark](language-terms/writing-systems-and-scripts/mark.md)
@@ -65,7 +66,6 @@
 * [B](browse-all-terms/b/README.md)
   * [Baseline](terms/baseline.md)
   * [Bengali-Assamese](terms/bengali-assamese.md)
-  * [Bidirectional text](terms/bidirectional-text.md)
   * [Brahmic scripts](terms/brahmic-scripts.md)
 * [C](browse-all-terms/c/README.md)
   * [Canadian Aboriginal Syllabics](terms/canadian-aboriginal-syllabics.md)

@@ -50,12 +50,12 @@ Assuming that what works for English generalizes. A UI tested only in Latin can 
 ## In practice
 
 * **Rely on platform shaping, with the right fonts:** complex layout comes from the OS or browser shaping engine combined with fonts that carry the necessary OpenType tables. Your job is to not break that path (avoid manual glyph positioning, image-of-text shortcuts, or naive truncation) and to pick fonts with real [font-coverage](font-coverage.md) and shaping for the scripts you ship.
-* **Test with real content:** include genuine Arabic, Indic, and other complex-script samples in design and QA, not Latin placeholder text. This connects to [reordering](reordering.md), [stacking-script](../language-terms/writing-systems-and-scripts/stacking-script.md)s, and [bidirectional-text](bidirectional-text.md).
+* **Test with real content:** include genuine Arabic, Indic, and other complex-script samples in design and QA, not Latin placeholder text. This connects to [reordering](reordering.md), [stacking-script](../language-terms/writing-systems-and-scripts/stacking-script.md)s, and [bidirectional-text](../language-terms/writing-systems-and-scripts/bidirectional-text.md).
 * **Languages:** treat complex-script correctness as expert-verified, not assumed; confirm specifics with the language experts.
 
 ## Related terms
 
-[Text shaping](text-shaping.md) · [Reordering](reordering.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Bidirectional text](bidirectional-text.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md)
+[Text shaping](text-shaping.md) · [Reordering](reordering.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md)
 
 ## Further reading
 

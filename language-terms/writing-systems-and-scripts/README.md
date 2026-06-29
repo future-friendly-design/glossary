@@ -78,7 +78,7 @@ One of these shares the word but not the sense. A [punctuation mark](punctuation
 
 Script rules define the behaviour of individual visual elements of a script (its symbols, including marks), such as how they can be combined or which direction they run. For example, the Latin script has a text direction rule of left-to-right.
 
-* [Bidirectional text](../../terms/bidirectional-text.md)
+* [Bidirectional text](bidirectional-text.md)
 * [Joining](joining.md)
 * [Reph](reph.md)
 * [Script rules](script-rules.md)

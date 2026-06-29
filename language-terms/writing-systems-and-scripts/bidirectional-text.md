@@ -6,7 +6,9 @@ aliases:
   - bidi text
 level: advanced
 depth: deep
-summary: Bidirectional text mixes left-to-right and right-to-left text in the same line.
+summary: >-
+  Bidirectional text mixes left-to-right and right-to-left text in the same
+  line.
 related:
   - text-direction
   - unicode
@@ -39,17 +41,17 @@ tags:
 
 ## Definition
 
-Bidirectional text mixes left-to-right and right-to-left text in the same line.
+Bidirectional text refers to mixing both left-to-right and right-to-left text directions in the same line of text.
 
 For example, an Arabic sentence with the English brand name `iPhone` and the year `2026` in it runs both ways at once.
 
 ### Why it matters in design systems
 
-Scripts like [Arabic](arabic-script.md) and [Hebrew](hebrew-script.md) run right to left, but numbers and embedded Latin-script text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
+Scripts like [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) run right to left, but numbers and embedded Latin-script text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
 
-A computer cannot guess that order. The [Unicode](unicode.md) Bidirectional Algorithm works it out from each character's direction property, and it leans on the [base direction](../language-terms/writing-systems-and-scripts/text-direction.md) of the line to resolve neutral characters like spaces and punctuation.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
+A computer cannot guess that order. The [Unicode](../../terms/unicode.md) Bidirectional Algorithm works it out from each character's direction property, and it leans on the [base direction](text-direction.md) of the line to resolve neutral characters like spaces and punctuation.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
 
-So for a design system, bidirectional text is necessary but not sufficient on its own. Marking a block right to left is only the start; embedded runs that go the other way, such as a brand name or a file path, still need to be isolated, and the layout around them has to flip with logical CSS properties. That wider work is [complex text layout](complex-text-layout.md).
+So for a design system, bidirectional text is necessary but not sufficient on its own. Marking a block right to left is only the start; embedded runs that go the other way, such as a brand name or a file path, still need to be isolated, and the layout around them has to flip with logical CSS properties. That wider work is [complex text layout](../../terms/complex-text-layout.md).
 
 ### Example
 
@@ -61,15 +63,15 @@ Assuming the algorithm handles everything once the text is marked right to left.
 
 ### In practice
 
-* **Set base direction; do not fight the algorithm:** use the HTML `dir` attribute (or `dir="auto"` for data whose direction you do not know) and the CSS `direction` property, the [text direction](../language-terms/writing-systems-and-scripts/text-direction.md) concept. Avoid manually overriding `unicode-bidi`, which MDN flags as not intended for web authors.
+* **Set base direction; do not fight the algorithm:** use the HTML `dir` attribute (or `dir="auto"` for data whose direction you do not know) and the CSS `direction` property, the [text direction](text-direction.md) concept. Avoid manually overriding `unicode-bidi`, which MDN flags as not intended for web authors.
 * **Isolate embedded runs:** wrap inserted opposite- or unknown-direction content (user names, brands, paths) in a `<bdi>` element or `unicode-bidi: isolate` so it cannot disturb the surrounding text.<sup>2</sup>
-* **Use logical CSS properties:** `margin-inline`, `text-align: start`, and the like let a layout flip correctly between [left-to-right](../language-terms/writing-systems-and-scripts/left-to-right.md) and [right-to-left](../language-terms/writing-systems-and-scripts/right-to-left.md) instead of being pinned to physical sides. This is part of [complex text layout](complex-text-layout.md). Confirm right-to-left behaviour with the language experts for those locales.
+* **Use logical CSS properties:** `margin-inline`, `text-align: start`, and the like let a layout flip correctly between [left-to-right](left-to-right.md) and [right-to-left](right-to-left.md) instead of being pinned to physical sides. This is part of [complex text layout](../../terms/complex-text-layout.md). Confirm right-to-left behaviour with the language experts for those locales.
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](../language-terms/writing-systems-and-scripts/left-to-right.md) · [Right-to-left](../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Unicode](unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](../../terms/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](../../terms/hebrew-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

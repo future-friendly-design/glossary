@@ -46,13 +46,13 @@ For example, the [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms
 
 Several widely used scripts run right to left, including Arabic, Hebrew, Adlam, N'Ko, Syriac, and Thaana. On the web, right to left is never the default: you have to declare it with the `dir` attribute, because a language or script declaration alone does not set direction.<sup>1</sup>
 
-So for a design system, supporting RTL is more than flipping the text. The whole layout mirrors, so spacing, alignment, and icons should be set with logical CSS properties rather than pinned to physical sides, and any [left-to-right](left-to-right.md) runs inside an RTL line, such as a brand name or a number, need the bidirectional algorithm to place them. That wider work is [bidirectional text](../../terms/bidirectional-text.md), which is why declaring RTL is necessary but not sufficient on its own.
+So for a design system, supporting RTL is more than flipping the text. The whole layout mirrors, so spacing, alignment, and icons should be set with logical CSS properties rather than pinned to physical sides, and any [left-to-right](left-to-right.md) runs inside an RTL line, such as a brand name or a number, need the bidirectional algorithm to place them. That wider work is [bidirectional text](bidirectional-text.md), which is why declaring RTL is necessary but not sufficient on its own.
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [Hebrew script](../../terms/hebrew-script.md) · [Left-to-right](left-to-right.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Hebrew script](../../terms/hebrew-script.md) · [Left-to-right](left-to-right.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

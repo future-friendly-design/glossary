@@ -85,7 +85,7 @@ Zooming out from individual elements to components, patterns, and whole pages, t
 
 When naming design system components, patterns, and design elements, prefer logical names like `icon-start` or `padding-end` over physical names like `icon-left` and `padding-right`, so a component follows the reading direction instead of being pinned to one side.
 
-Zoom out further to the content itself, and a single line can hold more than one direction at once, known as [bidirectional text](../../terms/bidirectional-text.md). For example, an Arabic sentence (RTL) that mentions an English brand name or a number (LTR).
+Zoom out further to the content itself, and a single line can hold more than one direction at once, known as [bidirectional text](bidirectional-text.md). For example, an Arabic sentence (RTL) that mentions an English brand name or a number (LTR).
 
 Separately, one language may use more than one writing system, or a single script that can be written in more than one direction. For example, traditional Mongolian is written vertically (top to bottom), but can also be set left to right.
 
@@ -105,7 +105,7 @@ Direction is just one of a script's [script rules](script-rules.md), and the sam
 
 ### In practice
 
-* **Set base direction explicitly, do not rely on the language:** use the HTML `dir` attribute (or `dir="auto"` for content whose direction you do not know) or the CSS `direction` property. A `lang` attribute, even with a script subtag, does not set direction. The mixed-direction case is [bidirectional text](../../terms/bidirectional-text.md).
+* **Set base direction explicitly, do not rely on the language:** use the HTML `dir` attribute (or `dir="auto"` for content whose direction you do not know) or the CSS `direction` property. A `lang` attribute, even with a script subtag, does not set direction. The mixed-direction case is [bidirectional text](bidirectional-text.md).
 * **Build layouts with logical CSS properties:** properties like `margin-inline` and `text-align: start` follow the text's direction instead of being pinned to the left or right edge, so one layout flips correctly between left to right and right to left.<sup>5</sup>
 * **Test every direction you support with real content:** include a right-to-left paragraph with an embedded left-to-right run such as a brand name or a URL, and if you support vertical text, test the whole component in `writing-mode: vertical-rl`, not just the body copy. Confirm right-to-left and vertical behaviour with readers of those languages.
 
@@ -113,7 +113,7 @@ Direction is just one of a script's [script rules](script-rules.md), and the sam
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](../../terms/bidirectional-text.md) · [CJK](../../terms/cjk.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Glyph](../../terms/glyph.md) · [Greek script](../../terms/greek-script.md) · [Hebrew script](../../terms/hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](left-to-right.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](tategaki.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [CJK](../../terms/cjk.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic](../../terms/cyrillic.md) · [Devanagari](../../terms/devanagari.md) · [Glyph](../../terms/glyph.md) · [Greek script](../../terms/greek-script.md) · [Hebrew script](../../terms/hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](left-to-right.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](tategaki.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

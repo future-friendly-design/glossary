@@ -55,14 +55,14 @@ Assuming the order characters are stored in is the order they appear on screen. 
 ### In practice
 
 * **Never derive visual position from logical order:** for cursor movement, selection, and truncation in these scripts, rely on the platform's text APIs (which know the shaped result), not raw string indexing. This is the same discipline [grapheme cluster](grapheme-cluster.md) segmentation calls for, applied to order rather than counting.
-* **Distinguish it from bidi:** [bidirectional text](bidirectional-text.md) reordering and intra-syllable reordering are different mechanisms; a layout can need both, so do not assume handling one covers the other.
+* **Distinguish it from bidi:** [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) reordering and intra-syllable reordering are different mechanisms; a layout can need both, so do not assume handling one covers the other.
 * **Languages:** which sequences reorder is script- and language-specific; confirm behaviour with the language experts and test with real content rather than transliterations.
 
 ***
 
 ### Related terms and mentions
 
-[Bidirectional text](bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Grapheme cluster](grapheme-cluster.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../language-terms/writing-systems-and-scripts/reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Grapheme cluster](grapheme-cluster.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../language-terms/writing-systems-and-scripts/reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

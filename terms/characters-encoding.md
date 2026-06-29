@@ -40,7 +40,7 @@ A guided tour of the characters and encoding terms in this glossary, grouped by 
 * **The standard and its structure:** [Unicode](unicode.md), [Plane / Basic Multilingual Plane](plane-bmp.md)
 * **Encodings:** [Character encoding](character-encoding.md), [UTF-8](utf-8.md), [UTF-16](utf-16.md), [Surrogate pair](surrogate-pair.md)
 * **Combining and normalizing:** [Combining mark](../programming-terms/combining-mark.md), [Precomposed character](precomposed-character.md), [Normalization](normalization.md), [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md), [Tone mark](../language-terms/writing-systems-and-scripts/tone-mark.md)
-* **Direction:** [Bidirectional text](bidirectional-text.md), [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md)
+* **Direction:** [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md), [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md)
 * **Rendering gaps:** [Tofu](tofu.md)
 
 ## Further reading
