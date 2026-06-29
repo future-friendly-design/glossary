@@ -40,7 +40,7 @@ tags:
 
 ## Definition
 
-Bidirectional text mixes [left-to-right](left-to-right.md) and [right-to-left](right-to-left.md) scripts in the same line.
+Bidirectional text mixes [left-to-right](../language-terms/writing-systems-and-scripts/left-to-right.md) and [right-to-left](../language-terms/writing-systems-and-scripts/right-to-left.md) scripts in the same line.
 
 For example, an Arabic sentence with the English brand name `iPhone` and the year `2026` in it runs both ways at once.
 
@@ -70,7 +70,7 @@ Assuming the algorithm handles everything once the text is marked right to left.
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Unicode](unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](arabic-script.md) · [Complex text layout](complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](../language-terms/writing-systems-and-scripts/left-to-right.md) · [Right-to-left](../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Unicode](unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

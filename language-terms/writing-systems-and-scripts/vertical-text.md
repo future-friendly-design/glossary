@@ -6,9 +6,7 @@ aliases:
   - top to bottom
 level: foundational
 depth: core
-summary: >-
-  Vertical text is a text direction where a script is written and read in
-  columns running from top to bottom.
+summary: Vertical text refers to the text direction script rule that defines reading and writing the script in columns running from top to bottom.
 related:
   - text-direction
   - tategaki
@@ -36,7 +34,7 @@ tags:
 
 ## Definition
 
-Vertical text refers the text direction script rule that defines reading and writing the script in columns running from top to bottom.
+Vertical text refers to the text direction script rule that defines reading and writing the script in columns running from top to bottom.
 
 For example, Japanese can be set vertically (tategaki), and traditional Mongolian is written vertically.
 

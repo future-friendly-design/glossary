@@ -2,14 +2,13 @@
 term: Tategaki
 slug: tategaki
 aliases:
-  - vertical writing
   - 縦書き
 level: advanced
-depth: deep
-summary: >-
-  Tategaki is vertical writing, set top to bottom with columns running right to
-  left, traditional in Japanese and other East Asian scripts.
+depth: core
+summary: Tategaki is the traditional Japanese form of vertical text, set in columns that run from top to bottom and are ordered from right to left.
 related:
+  - vertical-text
+  - text-direction
   - full-width
   - font-coverage
 status: voice-passed
@@ -34,37 +33,21 @@ tags:
 
 ## Definition
 
-Tategaki refers to the vertical writing found in traditional Japanese and other East Asian scripts where the text is read in columns from top to bottom, arranged from right to left.&#x20;
+Tategaki is the traditional Japanese form of vertical text, set in columns that run from top to bottom and are ordered from right to left.
 
 For example, a Japanese novel is typically set in tategaki, read down each column and then leftward to the next.
 
 ### Why it matters in design systems
 
-Tategaki was long the standard for Japanese and is still everywhere in novels, newspapers, manga, signage, and formal correspondence, while horizontal writing (yokogaki) became common later. The direction reshapes the whole object: a book set in tategaki binds on the right and its pages advance leftward, the reverse of an English book.
+Tategaki is the Japanese name for this form of [vertical text](vertical-text.md); the same top-to-bottom, right-to-left setting is used across [CJK](../../terms/cjk.md) more broadly. It was long the standard for Japanese and is still everywhere in novels, newspapers, manga, and signage, while horizontal writing, called yokogaki, came later and now dominates the web and technical text. Both are still in use, and which one fits depends on the content and audience, not a fixed rule, so a Japanese product may need to support both and let the content or reader choose, much as [text direction](text-direction.md) can call for letting a user pick between scripts. Confirm the expected mode with readers rather than guessing.
 
-It is also not a rotation. In vertical text, ordinary digits lie on their side by default while fullwidth digits and enclosed numbers stand upright, and short runs of Latin letters or numbers are set upright in a horizontal cluster called tate-chu-yoko.<sup>1</sup> Each of those follows its own rule, so turning a horizontal block ninety degrees produces something a reader of the script sees as wrong.
-
-So for a design system, setting the writing direction is necessary but not sufficient. CSS `writing-mode: vertical-rl` is what makes vertical layout possible on the web,<sup>2</sup> but the rest of the component, scroll direction, form controls, line breaking, and bidirectional runs, all shift with it. [CJK](../../terms/cjk.md) products often need both directions, so vertical layout is a real requirement to design and test for, not a niche.
-
-### Example
-
-A Japanese novel is typically set in tategaki, read top to bottom and right to left. A short run of Western digits inside it, such as a year, is set upright as one horizontal cluster (tate-chu-yoko) rather than tipped on its side.
-
-### Common mistake
-
-Assuming vertical text is just horizontal text rotated ninety degrees. It is not: individual glyph orientation, punctuation placement, and runs of embedded Latin letters or numbers all follow their own rules.<sup>1</sup> Rotating a whole text block produces something a reader of the script will see as wrong.
-
-### In practice
-
-* **CSS:** `writing-mode: vertical-rl` sets top-to-bottom, right-to-left flow, and `text-orientation` controls whether embedded Latin stands upright or lies on its side. Prefer logical (flow-relative) CSS properties so the layout adapts instead of being pinned to physical sides.
-* **UI:** vertical text changes more than the paragraph. Scroll direction, form controls, line breaking, and bidirectional runs all shift, so test the whole component in vertical mode, not just the body copy.
-* **Languages:** whether tategaki or yokogaki is expected is a culturally specific judgment, so confirm the usage with readers of the language rather than guessing from the general rule.
+Setting it is more than turning a horizontal block ninety degrees. Digits and short runs of Latin letters follow their own orientation rules (a short horizontal run set upright inside a vertical line is called tate-chu-yoko),<sup>1</sup> and the whole component shifts with the text: scroll direction, form controls, line breaking, and bidirectional runs. On the web the mode is the CSS `writing-mode: vertical-rl` property.<sup>2</sup> So, like any text direction, setting it is necessary but not sufficient.
 
 ***
 
 ### Related terms and mentions
 
-[CJK](../../terms/cjk.md) · [Font coverage](../../terms/font-coverage.md) · [Full-width](../../terms/full-width.md) · [Writing systems & scripts](./)
+[CJK](../../terms/cjk.md) · [Font coverage](../../terms/font-coverage.md) · [Full-width](../../terms/full-width.md) · [Text direction](text-direction.md) · [Vertical text](vertical-text.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
