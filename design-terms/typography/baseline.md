@@ -3,7 +3,7 @@ term: Baseline
 slug: baseline
 aliases: []
 level: foundational
-depth: deep
+depth: core
 summary: The baseline is the invisible line that most letters sit on.
 related:
   - cap-height
@@ -36,23 +36,13 @@ tags:
 
 The baseline is the invisible line that most letters sit on.
 
+For example, the bottoms of "o," "n," and "m" rest on the baseline, while the tail of "g" drops below it.
+
 ### Why it matters in design systems
 
-The baseline is the anchor the whole vertical system is measured from. [x-height](../../terms/x-height.md), [cap-height](../../terms/cap-height.md), and the reach of [ascender](../../terms/ascender.md)s and [descender](../../terms/descender.md)s are all distances from it, and line spacing is measured baseline to baseline.<sup>1</sup> Most letters rest on it; descenders, like the tails of "g," "p," and "y," drop below it.<sup>2</sup> Once you can see the baseline, a lot of vertical alignment stops being guesswork.
+The baseline is the anchor the whole vertical system is measured from: [x-height](../../terms/x-height.md), [cap-height](../../terms/cap-height.md), and the reach of [ascender](../../terms/ascender.md)s and [descender](../../terms/descender.md)s are all distances from it, and [leading](../../terms/leading.md), the spacing the [line-height](../../terms/line-height.md) control sets, is measured baseline to baseline.<sup>1</sup> Most letters rest on it while descenders drop below, and the font reserves extra space above and below on top of that, which is why a line of text rarely sits where you expect inside a fixed-height box.<sup>2</sup>
 
-### Example
-
-The bottoms of "o," "n," and "m" rest on the baseline, while the tail of "g" hangs below it.
-
-### Common mistake
-
-Treating the baseline as the bottom of the text. It is not: descenders extend below it, and the font also reserves extra space above and below the letters on top of that. That reserved space is why a line of text rarely sits where you expect inside a fixed-height box, and why centring a label often needs a nudge.
-
-### In practice
-
-* **Tools and tokens:** the baseline is what [vertical-trim](../../terms/vertical-trim.md) and the CSS `text-box-trim` feature align to when they strip a font's built-in over and under space, so a label sits optically centred in a button with no manual padding.<sup>3</sup> That makes the baseline the reference point for tight, predictable vertical rhythm.
-* **Line spacing:** because leading is measured baseline to baseline, the baseline is the reference for [line-height](../../terms/line-height.md) and [leading](../../terms/leading.md). Reasoning about spacing in baseline terms is more reliable than eyeballing the gap between lines.
-* **Languages:** the single sit-on-the-line baseline is a Latin-centric model. Some scripts align differently: Devanagari hangs its letters from a top line, a [hanging baseline](../../language-terms/writing-systems-and-scripts/hanging-baseline.md), rather than sitting them on a bottom one, so do not assume every script shares one baseline behaviour when you set type in more than one script.<sup>4</sup>
+The baseline is also what [vertical-trim](../../terms/vertical-trim.md) and the CSS `text-box-trim` feature align to when they strip that built-in space, so a label can sit optically centred in a button with no manual padding.<sup>3</sup> One caveat for multilingual work: the sit-on-the-line baseline is a Latin-centric model, and some scripts align differently, like Devanagari, which hangs its letters from a top line called a [hanging baseline](../../language-terms/writing-systems-and-scripts/hanging-baseline.md).<sup>4</sup>
 
 ***
 
