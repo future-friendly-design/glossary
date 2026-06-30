@@ -39,7 +39,7 @@ For example, a Japanese novel is typically set in tategaki, read down each colum
 
 ### Why it matters in design systems
 
-Tategaki is the Japanese name for this form of [vertical text](vertical-text.md); the same top-to-bottom, right-to-left setting is used across [CJK](../../terms/cjk.md) more broadly. It was long the standard for Japanese and is still everywhere in novels, newspapers, manga, and signage, while horizontal writing, called yokogaki, came later and now dominates the web and technical text. Both are still in use, and which one fits depends on the content and audience, not a fixed rule, so a Japanese product may need to support both and let the content or reader choose, much as [text direction](text-direction.md) can call for letting a user pick between scripts. Confirm the expected mode with readers rather than guessing.
+Tategaki is the Japanese name for this form of [vertical text](../../terms/vertical-text.md); the same top-to-bottom, right-to-left setting is used across [CJK](../../terms/cjk.md) more broadly. It was long the standard for Japanese and is still everywhere in novels, newspapers, manga, and signage, while horizontal writing, called yokogaki, came later and now dominates the web and technical text. Both are still in use, and which one fits depends on the content and audience, not a fixed rule, so a Japanese product may need to support both and let the content or reader choose, much as [text direction](text-direction.md) can call for letting a user pick between scripts. Confirm the expected mode with readers rather than guessing.
 
 Setting it is more than turning a horizontal block ninety degrees. Digits and short runs of Latin letters follow their own orientation rules (a short horizontal run set upright inside a vertical line is called tate-chu-yoko),<sup>1</sup> and the whole component shifts with the text: scroll direction, form controls, line breaking, and bidirectional runs. On the web the mode is the CSS `writing-mode: vertical-rl` property.<sup>2</sup> So, like any text direction, setting it is necessary but not sufficient.
 
@@ -47,7 +47,7 @@ Setting it is more than turning a horizontal block ninety degrees. Digits and sh
 
 ### Related terms and mentions
 
-[CJK](../../terms/cjk.md) · [Font coverage](../../terms/font-coverage.md) · [Full-width](../../terms/full-width.md) · [Text direction](text-direction.md) · [Vertical text](vertical-text.md) · [Writing systems & scripts](./)
+[CJK](../../terms/cjk.md) · [Font coverage](../../terms/font-coverage.md) · [Full-width](../../terms/full-width.md) · [Text direction](text-direction.md) · [Vertical text](../../terms/vertical-text.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

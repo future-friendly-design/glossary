@@ -87,7 +87,7 @@ Script rules define the behaviour of individual visual elements of a script (its
 * [Stacking script](stacking-script.md)
 * [Tategaki](tategaki.md)
 * [Text direction](text-direction.md)
-* [Vertical text](vertical-text.md)
+* [Vertical text](../../terms/vertical-text.md)
 
 #### Script classification terms
 
