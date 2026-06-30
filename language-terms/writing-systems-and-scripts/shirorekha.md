@@ -7,10 +7,7 @@ aliases:
   - matra line
 level: intermediate
 depth: core
-summary: >-
-  The shirorekha is a horizontal stroke at the top of a series of symbols in
-  Devanagari and related scripts that joins the letters of a word into one
-  connected line.
+summary: The shirorekha is a horizontal stroke at the top of a series of symbols in Devanagari and related scripts that joins the letters of a word into one connected line.
 related:
   - conjunct
   - matra

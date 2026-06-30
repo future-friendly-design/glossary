@@ -6,10 +6,7 @@ aliases:
   - script-specific behavior
 level: foundational
 depth: deep
-summary: >-
-  Script rules define the behaviour of individual visual elements of a script
-  (its symbols, including marks), such as how they can be combined or which
-  direction they run.
+summary: Script rules define the behaviour of individual visual elements of a script (its symbols, including marks), such as how they can be combined or which direction they run.
 related:
   - script
   - complex-text-layout

@@ -5,9 +5,7 @@ aliases:
   - line spacing
 level: foundational
 depth: deep
-summary: >-
-  Leading is the vertical space between lines of text, measured from one
-  baseline to the next.
+summary: Leading is the vertical space between lines of text, measured from one baseline to the next.
 related:
   - line-height
   - tracking
