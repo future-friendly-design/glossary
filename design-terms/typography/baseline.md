@@ -41,12 +41,12 @@ In typography, the baseline refers to an invisible line that aligns glyphs that 
 
 However, not every script sits its symbols on top of a baseline. The line a script aligns to depends on the script, and there are several baseline types:
 
-| Script | Example languages | Baseline it aligns to | How symbols sit |
+| Script | Example languages | Baseline | How symbols sit |
 | --- | --- | --- | --- |
-| [Latin](../../terms/latin-script.md) | English, French, Vietnamese | Alphabetic (a bottom line) | Symbols sit on the line, and descenders drop below it.<sup>1</sup> |
-| [Devanagari](../../terms/devanagari.md) | Hindi, Marathi, Nepali | Hanging (a top line) | Symbols hang from a top line, the [shirorekha](../../language-terms/writing-systems-and-scripts/shirorekha.md); that top line is the [hanging baseline](../../language-terms/writing-systems-and-scripts/hanging-baseline.md).<sup>2</sup> |
-| [Tamil](../../terms/tamil-script.md) | Tamil | Alphabetic (a bottom line) | An abugida like Devanagari, but its symbols sit on a bottom line instead of hanging.<sup>3</sup> |
-| [CJK](../../terms/cjk.md) (Han, Hangul, Kana) | Chinese, Japanese, Korean | Ideographic (the square's edges) | Glyphs are drawn to fill a square and align to its top and bottom edges, not a letter baseline.<sup>4</sup> |
+| [Latin](../../terms/latin-script.md) | English, French, Vietnamese | Alphabetic baseline | Symbols sit on the baseline, and descenders drop below it.<sup>1</sup> |
+| [Devanagari](../../terms/devanagari.md) | Hindi, Marathi, Nepali | [Hanging baseline](../../language-terms/writing-systems-and-scripts/hanging-baseline.md) | Symbols hang from a top line, the [shirorekha](../../language-terms/writing-systems-and-scripts/shirorekha.md).<sup>2</sup> |
+| [Tamil](../../terms/tamil-script.md) | Tamil | Alphabetic baseline | An abugida like Devanagari, but its symbols sit on the baseline instead of hanging.<sup>3</sup> |
+| [CJK](../../terms/cjk.md) (Han, Hangul, Kana) | Chinese, Japanese, Korean | Ideographic baseline | Glyphs fill a square and align to its top and bottom edges, not a letter baseline.<sup>4</sup> |
 
 ### Why it matters in design systems
 
