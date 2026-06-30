@@ -8,6 +8,7 @@
 
 * [Writing systems & scripts](language-terms/writing-systems-and-scripts/README.md)
   * [Bidirectional text](language-terms/writing-systems-and-scripts/bidirectional-text.md)
+  * [Conjunct](language-terms/writing-systems-and-scripts/conjunct.md)
   * [Diacritic](language-terms/writing-systems-and-scripts/diacritic.md)
   * [Joining](language-terms/writing-systems-and-scripts/joining.md)
   * [Mark](language-terms/writing-systems-and-scripts/mark.md)
@@ -29,6 +30,8 @@
   * [Virama](language-terms/writing-systems-and-scripts/virama.md)
   * [Vertical text](terms/vertical-text.md)
   * [Writing system](language-terms/writing-systems-and-scripts/writing-system.md)
+  * [Tracking](language-terms/writing-systems-and-scripts/tracking.md)
+  * [Hanging baseline](language-terms/writing-systems-and-scripts/hanging-baseline.md)
 * [Linguistics](language-terms/linguistics/README.md)
   * [Language](language-terms/linguistics/language.md)
   * [Grapheme](language-terms/linguistics/grapheme.md)
@@ -39,7 +42,15 @@
 
 * [Combining mark](programming-terms/combining-mark.md)
 * [Enclosing mark](programming-terms/enclosing-mark.md)
+* [Text shaping](programming-terms/text-shaping.md)
+* [Reordering](programming-terms/reordering.md)
+* [Segmentation](programming-terms/segmentation.md)
 * [Spacing combining mark](programming-terms/spacing-combining-mark.md)
+
+## Design Terms
+
+* [Typography](design-terms/typography/README.md)
+  * [Baseline](design-terms/typography/baseline.md)
 
 ## Browse by topic
 
@@ -64,7 +75,6 @@
   * [Ascender](terms/ascender.md)
   * [Autonym](terms/autonym.md)
 * [B](browse-all-terms/b/README.md)
-  * [Baseline](terms/baseline.md)
   * [Bengali-Assamese](terms/bengali-assamese.md)
   * [Brahmic scripts](terms/brahmic-scripts.md)
 * [C](browse-all-terms/c/README.md)
@@ -77,7 +87,6 @@
   * [Code point](terms/code-point.md)
   * [Collation](terms/collation.md)
   * [Complex text layout](terms/complex-text-layout.md)
-  * [Conjunct](terms/conjunct.md)
   * [Creole](terms/creole.md)
   * [Cyrillic](terms/cyrillic.md)
 * [D](browse-all-terms/d/README.md)
@@ -110,7 +119,6 @@
   * [GSUB](terms/gsub.md)
 * [H](browse-all-terms/h/README.md)
   * [Han characters](terms/han-characters.md)
-  * [Hanging baseline](terms/hanging-baseline.md)
   * [Hangul](terms/hangul.md)
   * [Harakat](terms/harakat.md)
   * [Hebrew script](terms/hebrew-script.md)
@@ -156,11 +164,9 @@
   * [Plane / Basic Multilingual Plane](terms/plane-bmp.md)
   * [Precomposed character](terms/precomposed-character.md)
   * [Pseudolocalization](terms/pseudolocalization.md)
-* [R](browse-all-terms/r/README.md)
-  * [Reordering](terms/reordering.md)
+* [R](browse-all-terms/r.md)
 * [S](browse-all-terms/s/README.md)
   * [Script (typeface)](terms/script-typeface.md)
-  * [Segmentation](terms/segmentation.md)
   * [Shaping engine](terms/shaping-engine.md)
   * [SIL](terms/sil.md)
   * [Small caps](terms/small-caps.md)
@@ -170,11 +176,9 @@
 * [T](browse-all-terms/t/README.md)
   * [Tamil script](terms/tamil-script.md)
   * [Text expansion](terms/text-expansion.md)
-  * [Text shaping](terms/text-shaping.md)
   * [Thai script](terms/thai-script.md)
   * [Tibetan script](terms/tibetan-script.md)
   * [Tofu](terms/tofu.md)
-  * [Tracking](terms/tracking.md)
   * [Tsheg](terms/tsheg.md)
   * [Typeface](terms/typeface.md)
 * [U](browse-all-terms/u/README.md)

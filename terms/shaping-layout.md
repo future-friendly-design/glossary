@@ -37,11 +37,11 @@ For Latin text it is easy to assume rendering is just "draw each character in or
 
 A guided tour of the shaping and layout terms in this glossary, grouped by what they help you reason about:
 
-* **The shaping pipeline:** [Text shaping](text-shaping.md), [Shaping engine](shaping-engine.md), [Complex text layout](complex-text-layout.md), [Reordering](reordering.md)
+* **The shaping pipeline:** [Text shaping](../programming-terms/text-shaping.md), [Shaping engine](shaping-engine.md), [Complex text layout](complex-text-layout.md), [Reordering](../programming-terms/reordering.md)
 * **The OpenType format and its tables:** [OpenType](opentype.md), [OpenType features](opentype-features.md), [GSUB](gsub.md), [GPOS](gpos.md)
-* **Joining and combining glyphs:** [Ligature](ligature.md), [Conjunct](conjunct.md)
+* **Joining and combining glyphs:** [Ligature](ligature.md), [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md)
 * **Indic script features:** [Matra](../language-terms/writing-systems-and-scripts/matra.md), [Reph](../language-terms/writing-systems-and-scripts/reph.md), [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md), [Virama](../language-terms/writing-systems-and-scripts/virama.md)
-* **Baseline and alignment:** [Hanging baseline](hanging-baseline.md)
+* **Baseline and alignment:** [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md)
 * **Tibetan and vertical stacking:** [Tsheg](tsheg.md), [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md)
 
 ## Further reading

@@ -45,13 +45,13 @@ For example, in [Devanagari](../../terms/devanagari.md) `क` (ka) plus a virama
 
 ### Why it matters in design systems
 
-A virama is a kind of [mark](mark.md). In an [abugida](../../terms/abugida.md), each consonant carries a built-in vowel, and the virama (called halant in Hindi) strips that vowel to leave a bare consonant. It also does double duty: placed between two consonants, it asks the shaping software to join them into a [conjunct](../../terms/conjunct.md) form.<sup>1</sup> Depending on the [font](../../terms/font.md) and context, the virama may show as a small visible stroke or be absorbed into the combined conjunct shape. That makes it the small but pivotal control behind much Devanagari conjunct formation and [reordering](../../terms/reordering.md).
+A virama is a kind of [mark](mark.md). In an [abugida](../../terms/abugida.md), each consonant carries a built-in vowel, and the virama (called halant in Hindi) strips that vowel to leave a bare consonant. It also does double duty: placed between two consonants, it asks the shaping software to join them into a [conjunct](conjunct.md) form.<sup>1</sup> Depending on the [font](../../terms/font.md) and context, the virama may show as a small visible stroke or be absorbed into the combined conjunct shape. That makes it the small but pivotal control behind much Devanagari conjunct formation and [reordering](../../programming-terms/reordering.md).
 
 ***
 
 ### Related terms and mentions
 
-[Mark](mark.md) · [Abugida](../../terms/abugida.md) · [Conjunct](../../terms/conjunct.md) · [Reph](reph.md) · [Matra](matra.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md)
+[Mark](mark.md) · [Abugida](../../terms/abugida.md) · [Conjunct](conjunct.md) · [Reph](reph.md) · [Matra](matra.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md)
 
 ### Further reading
 

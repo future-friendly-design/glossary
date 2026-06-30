@@ -41,7 +41,7 @@ Orthography is the set of language-specific rules for using a script to write a 
 
 A [writing system](writing-system.md) is made of two parts: a [script](script.md) and an orthography. The script supplies the [symbols](symbol.md); the orthography is the language-specific layer that decides how one language uses them.
 
-Two languages can share the same script and still follow different orthographies. \
+Two languages can share the same script and still follow different orthographies.\
 \
 Here are some of the rules an orthography sets, with examples of how the same script (Latin) changes between languages:
 
@@ -79,7 +79,7 @@ So orthography forks into two layers that must not be mixed. The words a person 
 ### In practice
 
 * **Localize the human-facing text, not the code:** pull UI spelling, quotation marks, and capitalization from locale data, and keep CSS properties, token names, and identifiers in their canonical form. The two layers never merge, no matter how the rest of the site is spelled.
-* **Treat orthography as configurable, not implied:** where a language has more than one orthography, let the choice be set (a locale variant, a user preference) rather than assuming it from the language or the script. This connects to [segmentation](../../terms/segmentation.md) (line-breaking and capitalization rules differ by orthography) and [input methods](../../terms/input-method-editor.md) (how users type the orthography they want).
+* **Treat orthography as configurable, not implied:** where a language has more than one orthography, let the choice be set (a locale variant, a user preference) rather than assuming it from the language or the script. This connects to [segmentation](../../programming-terms/segmentation.md) (line-breaking and capitalization rules differ by orthography) and [input methods](../../terms/input-method-editor.md) (how users type the orthography they want).
 * **Punctuation and casing are orthography, not afterthoughts:** quotation marks, decimal separators, and capitalization conventions vary by language, so they belong in localization data, not hardcoded UI strings.
 * **Orthographies change:** which orthography a language uses, and which is current or preferred, is community-specific and shifts over time (spelling reforms, script revivals), so treat a language's current convention as something to verify with its speakers, not a constant you hardcode once.
 
@@ -87,7 +87,7 @@ So orthography forks into two layers that must not be mixed. The words a person 
 
 ### Related terms and mentions
 
-[CLDR](../../terms/cldr.md) · [Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Locale](../../terms/locale.md) · [Localization](../../terms/localization.md) · [Script](script.md) · [Segmentation](../../terms/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[CLDR](../../terms/cldr.md) · [Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Locale](../../terms/locale.md) · [Localization](../../terms/localization.md) · [Script](script.md) · [Segmentation](../../programming-terms/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

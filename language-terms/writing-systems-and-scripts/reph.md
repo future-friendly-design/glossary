@@ -32,7 +32,7 @@ tags:
 
 ## Definition
 
-In some South Asian (Indic) Brahmic scripts, a reph is the above-base form the consonant ra takes when it is the initial symbol in a consonant cluster.<sup>1</sup> A cluster is two or more consonants that come together with no vowel between them. It's a common example of a script's [reordering](../../terms/reordering.md) rule in action.
+In some South Asian (Indic) Brahmic scripts, a reph is the above-base form the consonant ra takes when it is the initial symbol in a consonant cluster.<sup>1</sup> A cluster is two or more consonants that come together with no vowel between them. It's a common example of a script's [reordering](../../programming-terms/reordering.md) rule in action.
 
 For example, in [Devanagari](../../terms/devanagari.md) `कर्म` (karma), the ra that begins the cluster र्म is not drawn as a full consonant but as a small hook-like shape, the reph, sitting above the next consonant, ma.<sup>2</sup>
 
@@ -48,7 +48,7 @@ It's important to remember that supporting another language in a design system i
 
 ### Related terms and mentions
 
-[Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Joining](joining.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Symbol](symbol.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Joining](joining.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reordering](../../programming-terms/reordering.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Symbol](symbol.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

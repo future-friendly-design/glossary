@@ -46,13 +46,13 @@ A matra is a kind of [mark](mark.md): it attaches to a consonant rather than sta
 
 "Matra" is the word from the Devanagari tradition. [Unicode](../../terms/unicode.md) calls the same thing a dependent vowel.<sup>1</sup> Other Brahmic scripts have their own names for it.
 
-For software, the key point is order. A matra is typed after its consonant but may display before it, so the program laying out the text has to move it into the right visual spot. That [reordering](../../terms/reordering.md) is a hallmark of [complex text layout](../../terms/complex-text-layout.md): typed order cannot be assumed to equal display order.<sup>2</sup>
+For software, the key point is order. A matra is typed after its consonant but may display before it, so the program laying out the text has to move it into the right visual spot. That [reordering](../../programming-terms/reordering.md) is a hallmark of [complex text layout](../../terms/complex-text-layout.md): typed order cannot be assumed to equal display order.<sup>2</sup>
 
 ***
 
 ### Related terms and mentions
 
-[Mark](mark.md) · [Reordering](../../terms/reordering.md) · [Conjunct](../../terms/conjunct.md) · [Reph](reph.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Devanagari](../../terms/devanagari.md) · [Unicode](../../terms/unicode.md)
+[Mark](mark.md) · [Reordering](../../programming-terms/reordering.md) · [Conjunct](conjunct.md) · [Reph](reph.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Devanagari](../../terms/devanagari.md) · [Unicode](../../terms/unicode.md)
 
 ### Further reading
 

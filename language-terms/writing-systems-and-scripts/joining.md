@@ -38,17 +38,17 @@ tags:
 
 ## Definition
 
-Joining is a script rule that defines the behaviour where the symbols of a script may connect and change shape based on their position in a word.&#x20;
+Joining is a script rule that defines the behaviour where the symbols of a script may connect and change shape based on their position in a word.
 
-For example, the Arabic letters kāf ك, tāʾ ت and bāʾ ب each have their own standalone shape, but in the word كتب they connect, flowing together instead of standing apart.&#x20;
+For example, the Arabic letters kāf ك, tāʾ ت and bāʾ ب each have their own standalone shape, but in the word كتب they connect, flowing together instead of standing apart.
 
-Like all script rules, joining applies to any [language](../linguistics/language.md) using the [script](script.md) in its [writing system](writing-system.md).&#x20;
+Like all script rules, joining applies to any [language](../linguistics/language.md) using the [script](script.md) in its [writing system](writing-system.md).
 
-While this glossary doesn't cover every script, here are some to be aware of that have a joining script rule. You can select a linked term to navigate to its glossary page.&#x20;
+While this glossary doesn't cover every script, here are some to be aware of that have a joining script rule. You can select a linked term to navigate to its glossary page.
 
 | Script                                                     | Languages                            | How joining works here                                                              | Example |
 | ---------------------------------------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------- | ------- |
-| [Arabic](../../terms/arabic-script.md)                     | Arabic, Persian, Urdu                | Letters connect cursively, each taking an initial, medial, final, or isolated form. | كتب |
+| [Arabic](../../terms/arabic-script.md)                     | Arabic, Persian, Urdu                | Letters connect cursively, each taking an initial, medial, final, or isolated form. | كتب     |
 | [Mongolian (traditional)](../../terms/mongolian-script.md) | Mongolian                            | Cursive and joining like Arabic, but written vertically, top to bottom.             |         |
 | Syriac                                                     | Syriac (a form of Aramaic)           | Cursive joining with the same four positional forms.                                |         |
 | N'Ko                                                       | Manding languages (Bambara, Maninka) | Cursive joining with positional forms; a 20th-century script for these languages.   |         |
@@ -56,7 +56,7 @@ While this glossary doesn't cover every script, here are some to be aware of tha
 
 ### Why it matters in design systems
 
-In a script with a joining script rule, each [symbol](symbol.md) is not one fixed shape.&#x20;
+In a script with a joining script rule, each [symbol](symbol.md) is not one fixed shape.
 
 The shape of a symbol changes depending on **where it sits in the word** and **which neighbouring symbols it connects to**. Depending on the symbol, it can take up to four shapes:
 
@@ -67,16 +67,16 @@ The shape of a symbol changes depending on **where it sits in the word** and **w
 
 Not every symbol takes all four. Some join on one side only, so they appear just in the isolated and final shapes.
 
-As you can imagine, supporting a language whose writing system has a joining script rule influences multiple parts of the design system across typography, design, and development.&#x20;
+As you can imagine, supporting a language whose writing system has a joining script rule influences multiple parts of the design system across typography, design, and development.
 
-In typography, the [typeface](../../terms/typeface.md) must include [glyphs](../../terms/glyph.md) for all positional forms of the script's symbols. In design, [tracking](../../terms/tracking.md) and [letter-spacing](../../terms/letter-spacing.md) must stay at zero for these scripts, because adding space between symbols breaks the joins.<sup>1</sup>&#x20;
+In typography, the [typeface](../../terms/typeface.md) must include [glyphs](../../terms/glyph.md) for all positional forms of the script's symbols. In design, [tracking](tracking.md) and [letter-spacing](../../terms/letter-spacing.md) must stay at zero for these scripts, because adding space between symbols breaks the joins.<sup>1</sup>
 
-Design tooling needs to support shaping; otherwise the tool will display the [characters](../../terms/character.md) but not join them, leaving the script's symbols as separate shapes a reader cannot follow.&#x20;
+Design tooling needs to support shaping; otherwise the tool will display the [characters](../../terms/character.md) but not join them, leaving the script's symbols as separate shapes a reader cannot follow.
 
-In development, the text-rendering layer (the browser, OS, or app's text engine) needs to support shaping, so the right form of each symbol appears when text is displayed in a language written in a joining script.&#x20;
+In development, the text-rendering layer (the browser, OS, or app's text engine) needs to support shaping, so the right form of each symbol appears when text is displayed in a language written in a joining script.
 
-* [Text shaping](../../terms/text-shaping.md) is the step that turns stored characters into properly positioned glyphs.&#x20;
-* [OpenType](../../terms/opentype.md) is a widely supported standard for formatting [font](../../terms/font.md) data for digital typography, with features for supporting script rules like joining automatically. OpenType selects the positional forms of glyphs with the `isol`, `init`, `medi`, and `fina` features.<sup>2</sup>&#x20;
+* [Text shaping](../../programming-terms/text-shaping.md) is the step that turns stored characters into properly positioned glyphs.
+* [OpenType](../../terms/opentype.md) is a widely supported standard for formatting [font](../../terms/font.md) data for digital typography, with features for supporting script rules like joining automatically. OpenType selects the positional forms of glyphs with the `isol`, `init`, `medi`, and `fina` features.<sup>2</sup>
 
 A quick thing to keep in mind: joining is just one of a script's rules. A script usually has several, and they all apply to every language that uses the script. So check the other [script rules](script-rules.md) too, not only this page. After that, look at the [orthography](orthography.md) for each language you support. Orthography is the language-specific layer: how that one language uses the script, like its spelling and punctuation.
 
@@ -93,7 +93,7 @@ Treating joining as an optional styling choice. A [ligature](../../terms/ligatur
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../terms/letter-spacing.md) · [Ligature](../../terms/ligature.md) · [OpenType](../../terms/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tracking](../../terms/tracking.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../terms/letter-spacing.md) · [Ligature](../../terms/ligature.md) · [OpenType](../../terms/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-shaping.md) · [Tracking](tracking.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

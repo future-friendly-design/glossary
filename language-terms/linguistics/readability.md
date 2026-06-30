@@ -31,7 +31,7 @@ tags:
 
 Readability is how comfortably a reader can move through a block of text.
 
-Where [legibility](legibility.md) is about recognizing a single character, readability is about the whole passage: how easily the eye takes in the words and travels along each line and down to the next. It is a typographic property set by spacing and layout: the [line length](../../terms/measure.md), the [leading](../../terms/leading.md) between lines, the letter and word spacing ([tracking](../../terms/tracking.md)), the alignment, and the size. Legibility is the zoomed-in view of type, readability the zoomed-out one.
+Where [legibility](legibility.md) is about recognizing a single character, readability is about the whole passage: how easily the eye takes in the words and travels along each line and down to the next. It is a typographic property set by spacing and layout: the [line length](../../terms/measure.md), the [leading](../../terms/leading.md) between lines, the letter and word spacing ([tracking](../writing-systems-and-scripts/tracking.md)), the alignment, and the size. Legibility is the zoomed-in view of type, readability the zoomed-out one.
 
 A note on the word: "readability" is also used, in a different field, to mean how complex the language is, the reading level a text demands, scored by formulas like Flesch-Kincaid. That sense is about words and sentences, not type. This entry is the typographic one, about how the text is set.<sup>1</sup>
 
@@ -55,7 +55,7 @@ Assuming a clear, legible font guarantees a readable page. Legibility is necessa
 
 ## Related terms and mentions
 
-[Leading](../../terms/leading.md) · [Legibility](legibility.md) · [Line height](../../terms/line-height.md) · [Measure](../../terms/measure.md) · [Tracking](../../terms/tracking.md)
+[Leading](../../terms/leading.md) · [Legibility](legibility.md) · [Line height](../../terms/line-height.md) · [Measure](../../terms/measure.md) · [Tracking](../writing-systems-and-scripts/tracking.md)
 
 ## Further reading
 

@@ -6,7 +6,9 @@ aliases:
   - stacked consonants
 level: advanced
 depth: core
-summary: A stacking script follows a script rule that vertically arranges the symbols within a consonant cluster.
+summary: >-
+  A stacking script follows a script rule that vertically arranges the symbols
+  within a consonant cluster.
 related:
   - conjunct
   - reordering
@@ -39,11 +41,11 @@ Like all script rules, stacking applies to any [language](../linguistics/languag
 
 While this glossary doesn't cover every script, here are some to be aware of that have a stacking script rule. You can select a linked term to navigate to its glossary page.
 
-| Script | Languages | How stacking works here | Example |
-| --- | --- | --- | --- |
-| [Tibetan](../../terms/tibetan-script.md) | Tibetan, Dzongkha | Subjoined consonant forms pile below a root consonant, and a superscript consonant can sit above it. | རྒྱུད |
-| Khmer | Khmer, Pali | A second consonant takes a subscript form, called coeng, written below the base consonant. | ស្ន |
-| Myanmar | Burmese, Mon, Shan | A second consonant is written below the first to mark a cluster with no vowel between them, mostly in words borrowed from Pali. | ဗុဒ္ဓ |
+| Script                                   | Languages          | How stacking works here                                                                                                         | Example |
+| ---------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| [Tibetan](../../terms/tibetan-script.md) | Tibetan, Dzongkha  | Subjoined consonant forms pile below a root consonant, and a superscript consonant can sit above it.                            | རྒྱུད   |
+| Khmer                                    | Khmer, Pali        | A second consonant takes a subscript form, called coeng, written below the base consonant.                                      | ស្ន     |
+| Myanmar                                  | Burmese, Mon, Shan | A second consonant is written below the first to mark a cluster with no vowel between them, mostly in words borrowed from Pali. | ဗុဒ္ဓ   |
 
 ### Why it matters in design systems
 
@@ -53,13 +55,13 @@ Displaying a stacking script correctly requires both a [font](../../terms/font.m
 
 Because a stack piles several consonants into one shape, it is taller than a single consonant and needs more vertical room. Set your [line height](../../terms/line-height.md) tall enough that the tallest stacks are not clipped.
 
-Because the stack is assembled rather than placed in sequence, this is a [complex text layout](../../terms/complex-text-layout.md) behaviour, in the same family as [joining](joining.md) and [reordering](../../terms/reordering.md). Stacking is just one of a script's [script rules](script-rules.md); each language that uses the script also has its own [orthography](orthography.md), the language-specific spelling and punctuation rules that apply on top of the script's behaviour.
+Because the stack is assembled rather than placed in sequence, this is a [complex text layout](../../terms/complex-text-layout.md) behaviour, in the same family as [joining](joining.md) and [reordering](../../programming-terms/reordering.md). Stacking is just one of a script's [script rules](script-rules.md); each language that uses the script also has its own [orthography](orthography.md), the language-specific spelling and punctuation rules that apply on top of the script's behaviour.
 
 ***
 
 ### Related terms and mentions
 
-[Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](../../terms/conjunct.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Line height](../../terms/line-height.md) · [Orthography](orthography.md) · [Reordering](../../terms/reordering.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Tibetan script](../../terms/tibetan-script.md) · [Tsheg](../../terms/tsheg.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Line height](../../terms/line-height.md) · [Orthography](orthography.md) · [Reordering](../../programming-terms/reordering.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Tibetan script](../../terms/tibetan-script.md) · [Tsheg](../../terms/tsheg.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

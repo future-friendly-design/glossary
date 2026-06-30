@@ -22,7 +22,7 @@ A variable font is a single font file that can produce many styles by adjusting 
 
 ## Anatomy and vertical metrics
 
-[**Baseline**](../terms/baseline.md)
+[**Baseline**](../design-terms/typography/baseline.md)
 
 The baseline is the invisible line that most letters sit on.
 
@@ -48,7 +48,7 @@ A descender is the part of a letter that drops below the baseline.
 
 Kerning is the adjustment of space between two specific letters so their pairing looks evenly balanced.
 
-[**Tracking**](../terms/tracking.md)
+[**Tracking**](../language-terms/writing-systems-and-scripts/tracking.md)
 
 Tracking is uniform spacing applied evenly across a run of letters, words, or a whole block of text.
 

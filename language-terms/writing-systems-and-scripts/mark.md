@@ -65,7 +65,7 @@ To [typography](../../terms/typography.md), a mark is a [glyph](../../terms/glyp
 
 To a computer, a mark is a combining character: the same accented letter can be stored as a single [code point](../../terms/code-point.md) or as a base letter plus a combining mark, which quietly changes how text is searched, counted, and compared.
 
-So covering the marks in the font is necessary, not sufficient: the [shaping](../../terms/text-shaping.md) that positions them and the encoding that stores them have to line up too.
+So covering the marks in the font is necessary, not sufficient: the [shaping](../../programming-terms/text-shaping.md) that positions them and the encoding that stores them have to line up too.
 
 ### Common mistake
 
@@ -81,7 +81,7 @@ This one is about software, not type. A computer can store the same accented let
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Code point](../../terms/code-point.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](diacritic.md) · [Enclosing mark](../../programming-terms/enclosing-mark.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Matra](matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](nukta.md) · [Orthography](orthography.md) · [Punctuation mark](punctuation-mark.md) · [Script](script.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../programming-terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../terms/text-shaping.md) · [Tone mark](tone-mark.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Virama](virama.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Code point](../../terms/code-point.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](diacritic.md) · [Enclosing mark](../../programming-terms/enclosing-mark.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Matra](matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](nukta.md) · [Orthography](orthography.md) · [Punctuation mark](punctuation-mark.md) · [Script](script.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../programming-terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-shaping.md) · [Tone mark](tone-mark.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Virama](virama.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
