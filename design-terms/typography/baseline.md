@@ -34,9 +34,11 @@ tags:
 
 ## Definition
 
-The baseline is the invisible line that most letters sit on.
+In typography, the baseline refers to an invisible line that aligns ghyphs that are placed together to form words. For example, in the latin script, the bottoms of the letters "o," "n," and "m" rest on top of the alphabetic baseline, while the tail of "g" (known as the descender) drops below it.
 
-For example, the bottoms of "o," "n," and "m" rest on the baseline, while the tail of "g" drops below it.
+However, not all scripts have baselines that align the its symbols on top of a baseline.&#x20;
+
+ADD TABLE HERE&#x20;
 
 ### Why it matters in design systems
 
