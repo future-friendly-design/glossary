@@ -52,7 +52,7 @@ Whether a script hangs is decided per script, not by family: Gujarati, Marathi, 
 
 ### Why it matters in design systems
 
-Which baseline a script uses is a [script rule](script-rules.md): it holds for every language written in that script, and it is set before any font or styling choice. A hanging-baseline script takes its top line as the main alignment point, not a line at the bottom, so it does not drop into a Latin vertical rhythm unchanged.
+Which baseline a script uses is a [script rule](script-rules.md): it holds for every language written in that script, and it is set before any font or styling choice. A hanging-baseline script takes its top line as its primary alignment point, so it does not drop into a Latin vertical rhythm unchanged.
 
 Set a hanging-baseline script and Latin on the same line and the two align to different reference lines, so a text box and any vertical centring cannot assume a single baseline. The script also carries [marks](mark.md) that stack above and below the base [symbol](symbol.md), reaching past where Latin [ascender](../../terms/ascender.md)s and [descender](../../terms/descender.md)s stop, so [line-height](../../terms/line-height.md) tokens tuned to Latin can clip them, and these scripts usually need a taller line box than a Latin default gives.<sup>5</sup> Covering the script is not only about glyphs, either: the font has to render the continuous top line and the hanging behaviour correctly, or a word looks broken even when every symbol is present.
 
