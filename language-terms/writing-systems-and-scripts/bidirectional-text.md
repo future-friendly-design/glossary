@@ -47,17 +47,17 @@ For example, a line like `مرحبا iPhone 2026` mixes an Arabic greeting (righ
 
 ### Why it matters in design systems
 
-Scripts like [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) run right to left, but numbers and embedded Latin-script text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
+Scripts like [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) run right to left, but numbers and embedded [Latin-script](../../terms/latin-script.md) text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
 
-A computer cannot guess that order. The [Unicode](../../terms/unicode.md) Bidirectional Algorithm works it out from each character's direction property, and it leans on the [base direction](text-direction.md) of the line to resolve neutral characters like spaces and punctuation.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
+A computer cannot guess that order. The [Unicode](../../terms/unicode.md) Bidirectional Algorithm works it out from each character's direction property, and it leans on the [base direction](text-direction.md) of the line to resolve neutral characters like spaces and punctuation that sit between text of opposite directions.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
 
-So for a design system, bidirectional text is necessary but not sufficient on its own. Marking a block right to left is only the start; embedded runs that go the other way, such as a brand name or a file path, still need to be isolated, and the layout around them has to flip with logical CSS properties. That wider work is [complex text layout](../../terms/complex-text-layout.md).
+So for a design system, bidirectional text is necessary but not sufficient on its own. Marking a block right to left is only the start; embedded runs (unbroken stretches of same-direction text) that go the other way, such as a brand name or a file path, still need to be isolated, and the layout around them has to flip with logical CSS properties. That wider work is [complex text layout](../../terms/complex-text-layout.md).
 
 ### Example
 
 Take an English sentence with an Arabic phrase dropped into it, such as `The title is مفتاح معايير الويب in Arabic`. Its base direction is left to right, so the line reads left to right overall, but the embedded Arabic phrase مفتاح معايير الويب runs right to left inside it.<sup>2</sup>
 
-That reordering is also why punctuation can land in an unexpected spot. A neutral character like a comma takes on the base direction, so a comma placed after the Arabic run in this left-to-right line displays to the right of the Arabic text, not on the side an Arabic reader expects.<sup>3</sup> Setting the base direction correctly, and isolating each embedded run, is what keeps the brand name, the digits, and the punctuation in the right place.
+That reordering is also why punctuation can land in the wrong spot. A comma that belongs to the English sentence correctly sits to the right of the Arabic, because as a neutral character between opposite-direction runs it takes on the left-to-right base direction.<sup>3</sup> The trap is punctuation that belongs to the embedded run itself: if the Arabic phrase ended with an exclamation mark you would expect it at the left edge of the Arabic, but by default it is treated the same way and lands on the right instead.<sup>4</sup> Setting the base direction correctly, and isolating each embedded run, is what keeps the brand name, the digits, and the punctuation in the right place.
 
 ### Common mistake
 
@@ -65,15 +65,15 @@ Assuming the algorithm handles everything once the text is marked right to left.
 
 ### In practice
 
-* **Set base direction; do not fight the algorithm:** use the HTML `dir` attribute (or `dir="auto"` for data whose direction you do not know) and the CSS `direction` property, the [text direction](text-direction.md) concept. Avoid manually overriding `unicode-bidi`, which MDN flags as not intended for web authors.
-* **Isolate embedded runs:** wrap inserted opposite- or unknown-direction content (user names, brands, paths) in a `<bdi>` element or `unicode-bidi: isolate` so it cannot disturb the surrounding text.<sup>4</sup>
+* **Set base direction; do not fight the algorithm:** use the HTML `dir` attribute (or `dir="auto"` for data whose direction you do not know) and the CSS `direction` property, the text direction concept. Avoid manually overriding `unicode-bidi`, which MDN flags as not intended for web authors.
+* **Isolate embedded runs:** wrap inserted opposite- or unknown-direction content (user names, brands, paths) in a `<bdi>` element<sup>5</sup> or `unicode-bidi: isolate`<sup>6</sup> so it cannot disturb the surrounding text.
 * **Use logical CSS properties:** `margin-inline`, `text-align: start`, and the like let a layout flip correctly between [left-to-right](left-to-right.md) and [right-to-left](right-to-left.md) instead of being pinned to physical sides. This is part of [complex text layout](../../terms/complex-text-layout.md). Confirm right-to-left behaviour with readers of those languages.
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](../../terms/hebrew-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](../../terms/hebrew-script.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
@@ -83,7 +83,9 @@ Assuming the algorithm handles everything once the text is marked right to left.
 
 ### Sources
 
-1. The order of characters in memory (logical order) is not the same as the order in which they are displayed (visual order), and neutral characters such as spaces and punctuation are resolved from the prevailing base direction - Unicode Bidirectional Algorithm basics (W3C) [https://www.w3.org/International/articles/inline-bidi-markup/uba-basics](https://www.w3.org/International/articles/inline-bidi-markup/uba-basics)
+1. The order of characters in memory (logical order) is not the same as the order in which they are displayed (visual order); a neutral character between two strong characters of the same direction assumes that direction and extends the run, while a neutral between opposite-direction runs is treated as having the prevailing base direction - Unicode Bidirectional Algorithm basics (W3C) [https://www.w3.org/International/articles/inline-bidi-markup/uba-basics](https://www.w3.org/International/articles/inline-bidi-markup/uba-basics)
 2. When an Arabic phrase such as مفتاح معايير الويب is embedded in a left-to-right sentence, the Arabic runs right to left while the surrounding text runs left to right - Unicode Bidirectional Algorithm basics (W3C) [https://www.w3.org/International/articles/inline-bidi-markup/uba-basics](https://www.w3.org/International/articles/inline-bidi-markup/uba-basics)
-3. A neutral character such as a comma is treated as having the direction of the base direction, so a comma added after an Arabic run in a left-to-right context is displayed to the right of the Arabic text - Unicode Bidirectional Algorithm basics (W3C) [https://www.w3.org/International/articles/inline-bidi-markup/uba-basics](https://www.w3.org/International/articles/inline-bidi-markup/uba-basics)
-4. The `bdi` element and `unicode-bidi: isolate` isolate a run of text so its direction does not affect the surrounding text - unicode-bidi (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
+3. A comma added after the last Arabic character is regarded as left to right (the base direction) and is therefore displayed to the right of the Arabic text, as part of the right-hand directional run - Unicode Bidirectional Algorithm basics (W3C) [https://www.w3.org/International/articles/inline-bidi-markup/uba-basics](https://www.w3.org/International/articles/inline-bidi-markup/uba-basics)
+4. An exclamation mark ending an Arabic title is treated just like that comma and ends up to the right of the Arabic by default, rather than at the left edge where it belongs - Unicode Bidirectional Algorithm basics (W3C) [https://www.w3.org/International/articles/inline-bidi-markup/uba-basics](https://www.w3.org/International/articles/inline-bidi-markup/uba-basics)
+5. The `bdi` element tells the bidirectional algorithm to treat the text it contains in isolation, so its direction neither influences nor is influenced by the surrounding text - bdi (MDN) [https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/bdi)
+6. The `unicode-bidi: isolate` value calculates the element's directionality without considering its content, isolating it from its siblings - unicode-bidi (MDN) [https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
