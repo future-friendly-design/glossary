@@ -61,7 +61,7 @@ That reordering is also why punctuation can land in the wrong spot. A comma that
 
 ### Common mistake
 
-Assuming the algorithm handles everything once the text is marked right to left. The classic bug is an embedded opposite-direction run, a Latin-script product name, a URL, or a user-entered value inside Arabic, reordering wrongly because the surrounding base direction or isolation is off, so a bracket or period jumps to the wrong end. Joining strings of unknown direction (a name, a file path) without isolating them is the usual cause.
+Assuming that marking the block right to left is enough, and the algorithm will handle whatever goes inside it. The real trap is concatenation: building a string from data whose direction you do not control, a user name, a file path, a URL, or a translated label, and inserting it without isolating it. A run whose direction disagrees with the surrounding line reorders against its neighbours, and the block direction you set does nothing to contain it; each inserted run of unknown direction has to be isolated on its own.
 
 ### In practice
 
