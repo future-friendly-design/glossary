@@ -4,7 +4,9 @@ slug: baseline
 aliases: []
 level: foundational
 depth: core
-summary: In typography, the baseline refers to an invisible line that aligns glyphs that are placed together to form words.
+summary: >-
+  In typography, the baseline refers to an invisible line that aligns glyphs
+  that are placed together to form words.
 related:
   - cap-height
   - x-height
@@ -41,24 +43,34 @@ In typography, the baseline refers to an invisible line that aligns glyphs that 
 
 However, not every script sits its symbols on top of a baseline. The line a script aligns to depends on the script, and there are several baseline types:
 
-| Script | Example languages | Baseline | How symbols sit |
-| --- | --- | --- | --- |
-| [Latin](../../terms/latin-script.md) | English, French, Vietnamese | Alphabetic baseline | Symbols sit on the baseline, and descenders drop below it.<sup>1</sup> |
-| [Devanagari](../../terms/devanagari.md) | Hindi, Marathi, Nepali | [Hanging baseline](../../language-terms/writing-systems-and-scripts/hanging-baseline.md) | Symbols hang from a top line, the [shirorekha](../../language-terms/writing-systems-and-scripts/shirorekha.md).<sup>2</sup> |
-| [Tamil](../../terms/tamil-script.md) | Tamil | Alphabetic baseline | An abugida like Devanagari, but its symbols sit on the baseline instead of hanging.<sup>3</sup> |
-| [CJK](../../terms/cjk.md) (Han, Hangul, Kana) | Chinese, Japanese, Korean | Ideographic baseline | Glyphs fill a square and align to its top and bottom edges, not a letter baseline.<sup>4</sup> |
+| Script                                        | Example languages           | Baseline                                                                                 | How symbols sit                                                                                                             |
+| --------------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [Latin](../../terms/latin-script.md)          | English, French, Vietnamese | Alphabetic baseline                                                                      | Symbols sit on the baseline, and descenders drop below it.<sup>1</sup>                                                      |
+| [Devanagari](../../terms/devanagari.md)       | Hindi, Marathi, Nepali      | [Hanging baseline](../../language-terms/writing-systems-and-scripts/hanging-baseline.md) | Symbols hang from a top line, the [shirorekha](../../language-terms/writing-systems-and-scripts/shirorekha.md).<sup>2</sup> |
+| [Tamil](../../terms/tamil-script.md)          | Tamil                       | Alphabetic baseline                                                                      | An abugida like Devanagari, but its symbols sit on the baseline instead of hanging.<sup>3</sup>                             |
+| [CJK](../../terms/cjk.md) (Han, Hangul, Kana) | Chinese, Japanese, Korean   | Ideographic baseline                                                                     | Glyphs fill a square and align to its top and bottom edges, not a letter baseline.<sup>4</sup>                              |
 
 ### Why it matters in design systems
 
-In horizontal Latin typesetting, the baseline is the reference all of a font's vertical measurements are taken from: [x-height](../../terms/x-height.md), [cap-height](../../terms/cap-height.md), and the reach of [ascender](../../terms/ascender.md)s and descenders are all distances from it, and [leading](../../terms/leading.md), the spacing the [line-height](../../terms/line-height.md) control sets, is measured from one line's baseline to the next.<sup>5</sup> Most symbols rest on it while descenders drop below, and the font keeps extra space above and below on top of that, which is why a line of text rarely sits where you expect inside a fixed-height box. The baseline is also the edge that [vertical-trim](../../terms/vertical-trim.md) and the CSS `text-box-trim` feature trim to when they strip that built-in space, so a label sits optically centred in a button with no manual padding.<sup>6</sup>
+At the script level of the design system, the position of symbols along its baseline is defined by the script rules. When we zoom into the typography part of the system, the baseline determines many sizing properties and glyph alignment defined within the font styling design decisions.&#x20;
 
-Those measurements describe horizontal text. Set the same text vertically, as in Japanese [tategaki](../../language-terms/writing-systems-and-scripts/tategaki.md), and the line everything aligns to becomes a central one running down the middle of each line, not a bottom baseline.<sup>7</sup> Japanese vertical text does not even measure line spacing baseline to baseline: it spaces lines by the box each character sits in, from the edge of one to the next.<sup>8</sup> So line-height tokens, vertical centring, and any baseline-based reasoning tuned to Latin will misalign other scripts and writing directions; the baseline you know is one script's behaviour, not a universal.
+Recall that in the Latin script, the symbols are aligned horizontally. Most of the symbols sit on top of the baseline, with descenders dropping below the baseline. This allow words like `script` to appear horizonally aligned along the baseline, even though the tail of the `p` drops below it. In longform text, the next row of text is placed below.&#x20;
+
+In scripts with their text direction set as horizontal (right-to-left or left-to-right), the baseline is used to calculate all of a font's vertical measurements: [x-height](../../terms/x-height.md), [cap-height](../../terms/cap-height.md), and the reach of [ascender](../../terms/ascender.md)s and [descenders](../../terms/descender.md). [Leading](../../terms/leading.md), the vertical spacing controlled by [line-height](../../terms/line-height.md), is measured from the baseline of the top line of text to the baseline of the line of text below it.<sup>5</sup>&#x20;
+
+Beyond the space the letters themselves take up, every font also reserves empty space above its tallest glyphs and below its lowest, built into the font's own metrics, so a line of text rarely sits flush against the edges of its bounding box. Both design tools and code offer a way to trim that reserved space back to the cap height and baseline (see known as [vertical-trim](../../terms/vertical-trim.md) in design and `text-box-trim` in CSS).&#x20;
+
+All of that describes horizontal text, in scripts that run vertically, the symbols no longer sit on a bottom baseline. For example, in CJK scripts such as Japanese [tategaki](../../language-terms/writing-systems-and-scripts/tategaki.md), symbols are aligned to the center axis running down the middle of a column, and these vertical lines of text are positioned side by side .&#x20;
+
+The line spacing in vertical text is not measured from baseline to baseline. In Japanese for example, each symbol (character) sits in an invisible bounding box, and the line spacing is measured between the bounding boxes from one vertical line of text to the next.&#x20;
+
+Thinking about a multi-language design system, it's important to remember that the a baseline is one script's way of aligning text, it is not universal. Calculating typography design decisions using the baseline of one script (most commonly Latin for English language support) will not scale across all languages. Line-height, vertical-trim, text-box-trim and any text alignment pinned to a bottom baseline may need to be rebuilt when adding support for new languages in your design system.&#x20;
 
 ***
 
 ### Related terms and mentions
 
-[Ascender](../../terms/ascender.md) · [Cap height](../../terms/cap-height.md) · [CJK](../../terms/cjk.md) · [Descender](../../terms/descender.md) · [Devanagari](../../terms/devanagari.md) · [Glyph](../../terms/glyph.md) · [Hanging baseline](../../language-terms/writing-systems-and-scripts/hanging-baseline.md) · [Latin script](../../terms/latin-script.md) · [Leading](../../terms/leading.md) · [Line height](../../terms/line-height.md) · [Shirorekha](../../language-terms/writing-systems-and-scripts/shirorekha.md) · [Tamil script](../../terms/tamil-script.md) · [Tategaki](../../language-terms/writing-systems-and-scripts/tategaki.md) · [Typography](../../terms/typography.md) · [Vertical trim](../../terms/vertical-trim.md) · [x-height](../../terms/x-height.md)
+[Ascender](../../terms/ascender.md) · [Cap height](../../terms/cap-height.md) · [CJK](../../terms/cjk.md) · [Descender](../../terms/descender.md) · [Devanagari](../../terms/devanagari.md) · [Glyph](../../terms/glyph.md) · [Hanging baseline](../../language-terms/writing-systems-and-scripts/hanging-baseline.md) · [Latin script](../../terms/latin-script.md) · [Leading](../../terms/leading.md) · [Line height](../../terms/line-height.md) · [Shirorekha](../../language-terms/writing-systems-and-scripts/shirorekha.md) · [Tamil script](../../terms/tamil-script.md) · [Tategaki](../../language-terms/writing-systems-and-scripts/tategaki.md) · [Typography](../../terms/typography.md) · [Vertical trim](../../terms/vertical-trim.md) · [x-heigh](../../terms/x-height.md);
 
 ### Further reading
 
