@@ -38,7 +38,9 @@ tags:
 
 The hanging baseline is a top line that a script's symbols hang from, instead of the bottom baseline that Latin and similar scripts sit on.
 
-The visible headstroke that runs along it in [Devanagari](../../terms/devanagari.md) is the [shirorekha](shirorekha.md); the hanging baseline is the invisible alignment line, not the stroke itself. In नमस्ते (namaste), for instance, every letter hangs from the unbroken line across the top of the word, and that top line is the hanging baseline. Several [Brahmic scripts](../../terms/brahmic-scripts.md), and Tibetan, use one:
+The visible headstroke that runs along it in [Devanagari](../../terms/devanagari.md) is the [shirorekha](shirorekha.md); the hanging baseline is the invisible alignment line, not the stroke itself. In नमस्ते (namaste), for instance, every letter hangs from the unbroken line across the top of the word, and that top line is the hanging baseline.
+
+While this glossary doesn't cover every script, here are some [Brahmic scripts](../../terms/brahmic-scripts.md), and Tibetan, that use a hanging baseline. Select a linked term to open its glossary page:
 
 | Script | Example languages | How the hanging baseline works | Example |
 | --- | --- | --- | --- |
