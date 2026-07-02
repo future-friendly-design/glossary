@@ -40,7 +40,7 @@ The hanging baseline is a top line that a script's symbols hang from, instead of
 
 The visible headstroke that runs along it in [Devanagari](../../terms/devanagari.md) is the [shirorekha](shirorekha.md); the hanging baseline is the invisible alignment line, not the stroke itself. In नमस्ते (namaste), for instance, every letter hangs from the unbroken line across the top of the word, and that top line is the hanging baseline.
 
-While this glossary doesn't cover every script, here are some [Brahmic scripts](../../terms/brahmic-scripts.md), and Tibetan, that use a hanging baseline. Select a linked term to open its glossary page:
+While this glossary doesn't cover every script, here are some scripts you may want to explore that use a hanging baseline. Select a linked term to open its glossary page:
 
 | Script | Example languages | How the hanging baseline works | Example |
 | --- | --- | --- | --- |
@@ -48,7 +48,7 @@ While this glossary doesn't cover every script, here are some [Brahmic scripts](
 | [Bengali-Assamese](../../terms/bengali-assamese.md) | Bengali, Assamese | Letters join along a top bar, and the hanging baseline is based on it.<sup>2</sup> | বাংলা (bangla) |
 | [Tibetan](../../terms/tibetan-script.md) | Tibetan, Dzongkha | Glyphs hang from a strong, though not absolute, top edge.<sup>3</sup> | བོད་ཡིག (böyig) |
 
-Whether a script hangs is decided per script, not by family: Gujarati, Marathi, and Punjabi hang as well, but other Brahmic scripts such as [Tamil](../../terms/tamil-script.md), Telugu, and Malayalam sit on a bottom [baseline](../../design-terms/typography/baseline.md) like [Latin](../../terms/latin-script.md).<sup>4</sup>
+Whether a script hangs is decided per script, not by family: Gujarati, Marathi, and Punjabi hang as well, but other [Brahmic scripts](../../terms/brahmic-scripts.md) such as [Tamil](../../terms/tamil-script.md), Telugu, and Malayalam sit on a bottom [baseline](../../design-terms/typography/baseline.md) like [Latin](../../terms/latin-script.md).<sup>4</sup>
 
 ### Why it matters in design systems
 
