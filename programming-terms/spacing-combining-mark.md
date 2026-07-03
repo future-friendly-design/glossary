@@ -48,7 +48,7 @@ The [combining mark](combining-mark.md) entry covers the nonspacing case, marks 
 
 ### Related terms and mentions
 
-[Combining mark](combining-mark.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Character](../terms/character.md) · [Enclosing mark](enclosing-mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Brahmic scripts](../terms/brahmic-scripts.md) · [Devanagari](../terms/devanagari.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Unicode](../terms/unicode.md)
+[Brahmic scripts](../terms/brahmic-scripts.md) · [Character](../terms/character.md) · [Combining mark](combining-mark.md) · [Devanagari](../terms/devanagari.md) · [Enclosing mark](enclosing-mark.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Unicode](../terms/unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
@@ -57,4 +57,4 @@ The [combining mark](combining-mark.md) entry covers the nonspacing case, marks 
 ### Sources
 
 1. Unicode's Mark category (M) splits into nonspacing (Mn), spacing combining (Mc), and enclosing (Me) marks - Unicode Standard Annex #44: General Category Values [https://www.unicode.org/reports/tr44/#General\_Category\_Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
-2. A spacing mark is a combining character that is not a nonspacing mark, so it advances its own width - Unicode Glossary: Spacing Mark [https://www.unicode.org/glossary/#spacing\_mark](https://www.unicode.org/glossary/#spacing_mark)
+2. A spacing mark is a combining character that is not a nonspacing mark - Unicode Glossary: Spacing Mark [https://www.unicode.org/glossary/#spacing\_mark](https://www.unicode.org/glossary/#spacing_mark)
