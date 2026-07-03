@@ -37,13 +37,13 @@ For example, the dot between the syllables in [Tibetan](../../terms/tibetan-scri
 
 Tibetan does not put spaces between words. Instead a tsheg marks the boundary between syllables, and the unit of text between two tshegs is called a tsheg-bar.<sup>1</sup> Because many Tibetan words are a single syllable, the tsheg often behaves much like a space.
 
-So for a design system, the tsheg is what line breaking and word finding have to key on instead of a space. A non-breaking variant also exists, so the layout engine has to treat the two differently when deciding where a line may break. That makes Tibetan another case where segmentation cannot follow Latin assumptions, part of [complex text layout](../../terms/complex-text-layout.md).
+So for a design system, the tsheg is what line breaking and word finding have to key on instead of a space. A non-breaking variant also exists, so the layout engine has to treat the two differently when deciding where a line may break. That makes Tibetan another case where [segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) cannot follow Latin assumptions, part of [complex text layout](../../terms/complex-text-layout.md).
 
 ***
 
 ### Related terms and mentions
 
-[Complex text layout](../../terms/complex-text-layout.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Writing systems & scripts](./)
+[Complex text layout](../../terms/complex-text-layout.md) · [Punctuation mark](punctuation-mark.md) · [Script rules](script-rules.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Stacking script](stacking-script.md) · [Symbol](symbol.md) · [Tibetan script](../../terms/tibetan-script.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
