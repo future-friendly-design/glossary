@@ -57,5 +57,5 @@ So for a design system, a font that contains the consonants is necessary but not
 
 ### Sources
 
-1. A consonant followed by a halant (virama) with no vowel between them forms a half form or conjunct - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+1. Consonant conjuncts are ligatures of two or more consonants, formed via the halant (virama) that strips a consonant's inherent vowel - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
 2. The Indic shaping engine selects the half-form and conjunct forms through OpenType features, and the set of conjuncts is font-dependent - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
