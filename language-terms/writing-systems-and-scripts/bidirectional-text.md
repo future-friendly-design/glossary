@@ -7,8 +7,8 @@ aliases:
 level: advanced
 depth: deep
 summary: >-
-  Bidirectional text mixes left-to-right and right-to-left text in the same
-  line.
+  Bidirectional text refers to both left-to-right (LTR) and right-to-left
+  (RTL) text appearing in the same line.
 related:
   - text-direction
   - unicode
@@ -41,21 +41,21 @@ tags:
 
 ## Definition
 
-Bidirectional text refers to both [left-to-right (LTR) ](left-to-right.md)and [right-to-left (RTL)](right-to-left.md) text appearing in the same line. This happens when content following one [text direction](text-direction.md) [script rule](script-rules.md), such as right-to-left Arabic, shares a line with content running the opposite direction, such as a Latin-script brand name or a number.
+Bidirectional text refers to both [left-to-right (LTR)](left-to-right.md) and [right-to-left (RTL)](right-to-left.md) text appearing in the same line. This happens when content following one [text direction](text-direction.md) [script rule](script-rules.md), such as right-to-left Arabic, shares a line with content running the opposite direction, such as a Latin-script brand name or a number.
 
 For example, a line like `مرحبا iPhone 2026` mixes an Arabic greeting (right to left) with a Latin-script brand name and digits (left to right).
 
 ### Why it matters in design systems
 
-Scripts like [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) run right-to-left, but numbers and embedded [Latin-script](../../terms/latin-script.md) text run left-to-right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
+Scripts like [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) run right to left, but numbers and embedded [Latin-script](../../terms/latin-script.md) text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
 
-A computer cannot guess that order. [Unicode](../../terms/unicode.md), the universal computer programming standard that assigns every symbol a unique ID number, has a Bidirectional Algorithm that considers each character's direction property and the [base direction](text-direction.md) of the line to resolve neutral characters like spaces and punctuation that sit between text of opposite directions.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
+A computer cannot guess that order. [Unicode](../../terms/unicode.md), the standard that gives every character a unique number, has a Bidirectional Algorithm that considers each character's direction property and the base direction of the line to resolve neutral characters like spaces and punctuation that sit between text of opposite directions.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
 
 Bidirectional text is a property of your content, not a mode you switch on. The moment a right-to-left interface shows a Latin-script brand name, a username, a URL, or a price, a single line of text carries both directions, and that turns up in real data whether or not anyone planned for it.
 
-So in a design-system, components and content slots have to hold mixed, and often unknown, text direction: text inputs, list rows, tables, breadcrumbs, tags, anything that displays user data or identifiers. Ideally these components get designed and reviewed with the bidirectional text content, and their spacing and alignment design decisions are given names that refer to a logical position (for example, start and end) rather than left and right, so one layout serves both directions.&#x20;
+So in a design system, components and content slots have to hold mixed, and often unknown, text direction: text inputs, list rows, tables, breadcrumbs, tags, anything that displays user data or identifiers. Ideally these components get designed and reviewed with the bidirectional text content, and their spacing and alignment design decisions are given names that refer to a logical position (for example, start and end) rather than left and right, so one layout serves both directions.&#x20;
 
-Bidirectional text is only the content-level reality here; mirroring the wider layout and flipping directional icons is the system-level response, which makes bidirectional text part of a [complex text layout](../../terms/complex-text-layout.md).
+Bidirectional text is only the content-level reality here; mirroring the wider layout and flipping directional icons is the system-level response, which makes bidirectional text part of [complex text layout](../../terms/complex-text-layout.md).
 
 ### Example
 
@@ -71,7 +71,7 @@ Assuming that marking the block right to left is enough, and the algorithm will 
 
 * **Set base direction; do not fight the algorithm:** use the HTML `dir` attribute (or `dir="auto"` for data whose direction you do not know) and the CSS `direction` property, the text direction concept. Avoid manually overriding `unicode-bidi`, which MDN flags as not intended for web authors.
 * **Isolate embedded runs:** wrap inserted opposite- or unknown-direction content (user names, brands, paths) in a `<bdi>` element<sup>5</sup> or `unicode-bidi: isolate`<sup>6</sup> so it cannot disturb the surrounding text.
-* **Use logical CSS properties:** `margin-inline`, `text-align: start`, and the like let a layout flip correctly between [left-to-right](left-to-right.md) and [right-to-left](right-to-left.md) instead of being pinned to physical sides. This is part of [complex text layout](../../terms/complex-text-layout.md). Confirm right-to-left behaviour with readers of those languages.
+* **Use logical CSS properties:** `margin-inline`, `text-align: start`, and the like let a layout flip correctly between left-to-right and right-to-left instead of being pinned to physical sides. This is part of complex text layout. Confirm right-to-left behaviour with readers of those languages.
 
 ***
 
