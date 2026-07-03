@@ -91,5 +91,5 @@ This one is about software, not type. A computer can store the same accented let
 ### Sources
 
 1. Unicode's top-level General Category "Mark" (M) splits into nonspacing (Mn), spacing combining (Mc), and enclosing (Me) marks - Unicode Standard Annex #44: General Category Values [https://www.unicode.org/reports/tr44/#General\_Category\_Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
-2. Precomposed and decomposed spellings of an accented letter are canonically equivalent and normalization removes the difference for comparison - Unicode Glossary: Canonical Equivalence [https://www.unicode.org/glossary/#canonical\_equivalence](https://www.unicode.org/glossary/#canonical_equivalence)
+2. Normalization is a process of removing alternate representations of equivalent sequences from text, converting it into a form that can be binary-compared for equivalence - Unicode Glossary: Normalization [https://www.unicode.org/glossary/#normalization](https://www.unicode.org/glossary/#normalization)
 3. Vietnamese "Ẩ" (U+1EA8) decomposes to \<U+0041, U+0302, U+0309>, stacking two marks on one base, and not all rendering systems handle multiple marks on a single base - The Unicode Standard 17.0, Chapter 7 [https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/](https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/)
