@@ -13,3 +13,6 @@ pilot-5-terms.md
 
 # macOS
 .DS_Store
+
+# repo-local validation tooling (not synced to GitBook)
+check_entry.py
