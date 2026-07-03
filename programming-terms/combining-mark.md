@@ -46,13 +46,13 @@ A combining mark is how [Unicode](../terms/unicode.md) encodes a [mark](../langu
 
 Unicode's Mark category has three kinds: nonspacing marks that sit on the base without taking width (most accents), [spacing combining marks](spacing-combining-mark.md) that do take width (some Indic vowel marks), and [enclosing marks](enclosing-mark.md) that wrap around the base.<sup>1</sup>
 
-The point that matters for software: the same accented letter can be stored as one [precomposed character](../terms/precomposed-character.md) or as a base letter plus a combining mark, so `ñ` can exist in two forms that look identical. A base plus its combining marks counts as one [grapheme cluster](../terms/grapheme-cluster.md) on screen even though it is several characters underneath, and [normalization](../terms/normalization.md) is what makes the two storage forms compare as equal.<sup>2</sup>
+The point that matters for software: the same accented letter can be stored as one [precomposed character](../terms/precomposed-character.md) or as a base letter plus a combining mark, so `ñ` can exist in two forms that look identical.<sup>2</sup> A base plus its combining marks counts as one [grapheme cluster](../terms/grapheme-cluster.md) on screen even though it is several characters underneath, and [normalization](../terms/normalization.md) is what makes the two storage forms compare as equal.<sup>3</sup>
 
 ***
 
 ### Related terms and mentions
 
-[Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Character](../terms/character.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Spacing combining mark](spacing-combining-mark.md) · [Enclosing mark](enclosing-mark.md) · [Precomposed character](../terms/precomposed-character.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Normalization](../terms/normalization.md) · [Unicode](../terms/unicode.md)
+[Character](../terms/character.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Enclosing mark](enclosing-mark.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Normalization](../terms/normalization.md) · [Precomposed character](../terms/precomposed-character.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Spacing combining mark](spacing-combining-mark.md) · [Unicode](../terms/unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
@@ -61,4 +61,5 @@ The point that matters for software: the same accented letter can be stored as o
 ### Sources
 
 1. Unicode's Mark category (M) splits into nonspacing (Mn), spacing combining (Mc), and enclosing (Me) marks - Unicode Standard Annex #44: General Category Values [https://www.unicode.org/reports/tr44/#General\_Category\_Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
-2. A precomposed character and a base plus a combining mark are canonically equivalent, and normalization removes the difference for comparison - Unicode Glossary: Canonical Equivalence [https://www.unicode.org/glossary/#canonical\_equivalence](https://www.unicode.org/glossary/#canonical_equivalence)
+2. A precomposed character and a base plus a combining mark are canonically equivalent, that is, their full canonical decompositions are identical - Unicode Glossary: Canonical Equivalence [https://www.unicode.org/glossary/#canonical\_equivalence](https://www.unicode.org/glossary/#canonical_equivalence)
+3. Normalization is a process of removing alternate representations of equivalent sequences from text, converting it into a form that can be binary-compared for equivalence - Unicode Glossary: Normalization [https://www.unicode.org/glossary/#normalization](https://www.unicode.org/glossary/#normalization)
