@@ -38,7 +38,7 @@ Supporting the world's languages is not one feature you add at the end; it is a 
 A guided tour of the internationalization and engineering terms in this glossary, grouped by what they help you do:
 
 * **The i18n / l10n model:** [Internationalization](internationalization.md), [Localization](localization.md), [Locale](locale.md)
-* **Locale-aware text behavior:** [Collation](collation.md), [Segmentation](../programming-terms/segmentation.md)
+* **Locale-aware text behavior:** [Collation](collation.md), [Segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md)
 * **Locale data and libraries:** [CLDR](cldr.md), [ICU](icu.md)
 * **Designing for translation:** [Text expansion](text-expansion.md), [Pseudolocalization](pseudolocalization.md)
 * **Input:** [Input method editor (IME)](input-method-editor.md), [Keyboard layout](keyboard-layout.md)

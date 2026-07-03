@@ -8,7 +8,9 @@ aliases:
   - pulli
 level: advanced
 depth: core
-summary: A virama is a mark in Brahmic scripts that cancels the vowel sound built into a consonant.
+summary: >-
+  A virama is a mark in Brahmic scripts that cancels the vowel sound built into
+  a consonant.
 related:
   - mark
   - conjunct
@@ -43,13 +45,13 @@ For example, in [Devanagari](../../terms/devanagari.md) `क` (ka) plus a virama
 
 ### Why it matters in design systems
 
-A virama is a kind of [mark](mark.md). In an [abugida](../../terms/abugida.md), each consonant carries a built-in vowel, and the virama (called halant in Hindi) strips that vowel to leave a bare consonant. It also does double duty: placed between two consonants, it asks the shaping software to join them into a [conjunct](conjunct.md) form.<sup>1</sup> Depending on the [font](../../terms/font.md) and context, the virama may show as a small visible stroke or be absorbed into the combined conjunct shape. That makes it the small but pivotal control behind much Devanagari conjunct formation and [reordering](../../programming-terms/reordering.md).
+A virama is a kind of [mark](mark.md). In an [abugida](../../terms/abugida.md), each consonant carries a built-in vowel, and the virama (called halant in Hindi) strips that vowel to leave a bare consonant. It also does double duty: placed between two consonants, it asks the shaping software to join them into a [conjunct](conjunct.md) form.<sup>1</sup> Depending on the [font](../../terms/font.md) and context, the virama may show as a small visible stroke or be absorbed into the combined conjunct shape. That makes it the small but pivotal control behind much Devanagari conjunct formation and [reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md).
 
 ***
 
 ### Related terms and mentions
 
-[Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Mark](mark.md) · [Matra](matra.md) · [Reordering](../../programming-terms/reordering.md) · [Reph](reph.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Mark](mark.md) · [Matra](matra.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Reph](reph.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

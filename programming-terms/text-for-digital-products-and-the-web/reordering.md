@@ -38,15 +38,15 @@ Reordering is when a shaping engine changes the display order of characters rela
 
 ### Why it matters in design systems
 
-In several Indic and Brahmic scripts, the logical (typed) order of a vowel mark or a special consonant differs from its visual position, so the shaper has to move it during layout.<sup>1</sup> The classic cases are a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) that displays before its consonant and a [reph](../language-terms/writing-systems-and-scripts/reph.md) that jumps to the top of a cluster.
+In several Indic and Brahmic scripts, the logical (typed) order of a vowel mark or a special consonant differs from its visual position, so the shaper has to move it during layout.<sup>1</sup> The classic cases are a left-side [matra](../../language-terms/writing-systems-and-scripts/matra.md) that displays before its consonant and a [reph](../../language-terms/writing-systems-and-scripts/reph.md) that jumps to the top of a cluster.
 
 This is distinct from bidi reordering, which flips whole runs for right-to-left text; reordering rearranges characters within a single syllable.
 
-So for a design system, the stake is that you cannot assume the order characters are stored in is the order they appear on screen. The shaper decides display position, which is why reordering is a core part of [complex text layout](../terms/complex-text-layout.md) and why string logic that counts from the stored order can break.
+So for a design system, the stake is that you cannot assume the order characters are stored in is the order they appear on screen. The shaper decides display position, which is why reordering is a core part of [complex text layout](../../terms/complex-text-layout.md) and why string logic that counts from the stored order can break.
 
 ### Example
 
-A [Devanagari](../terms/devanagari.md) left i-matra typed after its consonant is reordered to display before it.
+A [Devanagari](../../terms/devanagari.md) left i-matra typed after its consonant is reordered to display before it.
 
 ### Common mistake
 
@@ -54,15 +54,15 @@ Assuming the order characters are stored in is the order they appear on screen. 
 
 ### In practice
 
-* **Never derive visual position from logical order:** for cursor movement, selection, and truncation in these scripts, rely on the platform's text APIs (which know the shaped result), not raw string indexing. This is the same discipline [grapheme cluster](../terms/grapheme-cluster.md) segmentation calls for, applied to order rather than counting.
-* **Distinguish it from bidi:** [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) reordering and intra-syllable reordering are different mechanisms; a layout can need both, so do not assume handling one covers the other.
+* **Never derive visual position from logical order:** for cursor movement, selection, and truncation in these scripts, rely on the platform's text APIs (which know the shaped result), not raw string indexing. This is the same discipline [grapheme cluster](../../terms/grapheme-cluster.md) segmentation calls for, applied to order rather than counting.
+* **Distinguish it from bidi:** [bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) reordering and intra-syllable reordering are different mechanisms; a layout can need both, so do not assume handling one covers the other.
 * **Languages:** which sequences reorder is script- and language-specific; confirm behaviour with the language experts and test with real content rather than transliterations.
 
 ***
 
 ### Related terms and mentions
 
-[Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Complex text layout](../terms/complex-text-layout.md) · [Devanagari](../terms/devanagari.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../language-terms/writing-systems-and-scripts/reph.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md) · [Grapheme cluster](../../terms/grapheme-cluster.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../../language-terms/writing-systems-and-scripts/reph.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

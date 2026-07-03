@@ -10,7 +10,9 @@
   * [Bidirectional text](language-terms/writing-systems-and-scripts/bidirectional-text.md)
   * [Conjunct](language-terms/writing-systems-and-scripts/conjunct.md)
   * [Diacritic](language-terms/writing-systems-and-scripts/diacritic.md)
+  * [Harakat](language-terms/writing-systems-and-scripts/harakat.md)
   * [Joining](language-terms/writing-systems-and-scripts/joining.md)
+  * [Hanging baseline](language-terms/writing-systems-and-scripts/hanging-baseline.md)
   * [Mark](language-terms/writing-systems-and-scripts/mark.md)
   * [Matra](language-terms/writing-systems-and-scripts/matra.md)
   * [Nukta](language-terms/writing-systems-and-scripts/nukta.md)
@@ -27,11 +29,10 @@
   * [Tategaki](language-terms/writing-systems-and-scripts/tategaki.md)
   * [Text direction](language-terms/writing-systems-and-scripts/text-direction.md)
   * [Tone mark](language-terms/writing-systems-and-scripts/tone-mark.md)
+  * [Tsheg](language-terms/writing-systems-and-scripts/tsheg.md)
   * [Virama](language-terms/writing-systems-and-scripts/virama.md)
   * [Vertical text](terms/vertical-text.md)
   * [Writing system](language-terms/writing-systems-and-scripts/writing-system.md)
-  * [Tracking](language-terms/writing-systems-and-scripts/tracking.md)
-  * [Hanging baseline](language-terms/writing-systems-and-scripts/hanging-baseline.md)
 * [Linguistics](language-terms/linguistics/README.md)
   * [Language](language-terms/linguistics/language.md)
   * [Grapheme](language-terms/linguistics/grapheme.md)
@@ -40,17 +41,19 @@
 
 ## Programming Terms
 
-* [Combining mark](programming-terms/combining-mark.md)
-* [Enclosing mark](programming-terms/enclosing-mark.md)
-* [Text shaping](programming-terms/text-shaping.md)
-* [Reordering](programming-terms/reordering.md)
-* [Segmentation](programming-terms/segmentation.md)
-* [Spacing combining mark](programming-terms/spacing-combining-mark.md)
+* [Text for digital products & the web](programming-terms/text-for-digital-products-and-the-web/README.md)
+  * [Combining mark](programming-terms/text-for-digital-products-and-the-web/combining-mark.md)
+  * [Enclosing mark](programming-terms/text-for-digital-products-and-the-web/enclosing-mark.md)
+  * [Reordering](programming-terms/text-for-digital-products-and-the-web/reordering.md)
+  * [Segmentation](programming-terms/text-for-digital-products-and-the-web/segmentation.md)
+  * [Spacing combining mark](programming-terms/text-for-digital-products-and-the-web/spacing-combining-mark.md)
+  * [Text shaping](programming-terms/text-for-digital-products-and-the-web/text-shaping.md)
 
 ## Design Terms
 
 * [Typography](design-terms/typography/README.md)
   * [Baseline](design-terms/typography/baseline.md)
+  * [Tracking](design-terms/typography/tracking.md)
 
 ## Browse by topic
 
@@ -120,7 +123,6 @@
 * [H](browse-all-terms/h/README.md)
   * [Han characters](terms/han-characters.md)
   * [Hangul](terms/hangul.md)
-  * [Harakat](terms/harakat.md)
   * [Hebrew script](terms/hebrew-script.md)
   * [Hiragana](terms/hiragana.md)
 * [I](browse-all-terms/i/README.md)
@@ -179,7 +181,6 @@
   * [Thai script](terms/thai-script.md)
   * [Tibetan script](terms/tibetan-script.md)
   * [Tofu](terms/tofu.md)
-  * [Tsheg](terms/tsheg.md)
   * [Typeface](terms/typeface.md)
 * [U](browse-all-terms/u/README.md)
   * [UNESCO Atlas of the World's Languages in Danger](terms/unesco-atlas-of-the-worlds-languages-in-danger.md)

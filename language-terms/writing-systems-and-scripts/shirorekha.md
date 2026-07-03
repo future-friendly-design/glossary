@@ -7,7 +7,10 @@ aliases:
   - matra line
 level: intermediate
 depth: core
-summary: The shirorekha is a horizontal stroke at the top of a series of symbols in Devanagari and related scripts that joins the letters of a word into one connected line.
+summary: >-
+  The shirorekha is a horizontal stroke at the top of a series of symbols in
+  Devanagari and related scripts that joins the letters of a word into one
+  connected line.
 related:
   - conjunct
   - matra
@@ -50,7 +53,7 @@ In scripts such as [Devanagari](../../terms/devanagari.md) and [Bengali](../../t
 
 A script with a shirorekha influences several design system decisions including spacing, alignment, and font coverage.
 
-[Letter-spacing](../../terms/letter-spacing.md), the [tracking](tracking.md) you might add to Latin headings or labels, should not be applied character by character to a script with a shirorekha.
+[Letter-spacing](../../terms/letter-spacing.md), the [tracking](../../design-terms/typography/tracking.md) you might add to Latin headings or labels, should not be applied character by character to a script with a shirorekha.
 
 * It inserts a gap between each unit, the gap lands on the seam where the shirorekha joins, and the top line breaks so the word looks split.<sup>5</sup>
 * It is the same reason connected scripts like [Arabic](../../terms/arabic-script.md) reject letter-spacing.<sup>6</sup>
@@ -72,7 +75,7 @@ A quick thing to keep in mind: the shirorekha is just one of a script's rules. A
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](../../terms/latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](tracking.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](../../terms/latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](../../design-terms/typography/tracking.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

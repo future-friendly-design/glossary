@@ -36,7 +36,7 @@ A precomposed character is a single code point for a letter-plus-accent combinat
 
 ## Why it matters
 
-Many accented letters exist as one code point even though the same shape can be assembled from a base letter plus a [combining-mark](../programming-terms/combining-mark.md). Because text can mix the two representations, two strings that look identical may not be equal byte-for-byte, which quietly breaks comparison, search, and deduplication. [normalization](normalization.md) is what resolves it: NFC tends to prefer precomposed characters, while NFD decomposes them into base plus marks.
+Many accented letters exist as one code point even though the same shape can be assembled from a base letter plus a [combining-mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md). Because text can mix the two representations, two strings that look identical may not be equal byte-for-byte, which quietly breaks comparison, search, and deduplication. [normalization](normalization.md) is what resolves it: NFC tends to prefer precomposed characters, while NFD decomposes them into base plus marks.
 
 ## Example
 
@@ -44,7 +44,7 @@ Many accented letters exist as one code point even though the same shape can be 
 
 ## Related terms
 
-[Combining mark](../programming-terms/combining-mark.md) · [Normalization](normalization.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Code point](code-point.md)
+[Combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Normalization](normalization.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Code point](code-point.md)
 
 ## Further reading
 

@@ -43,7 +43,7 @@ A GPOS rule shifts a combining accent so it sits centered over its base letter.
 
 ## Related terms
 
-[GSUB](gsub.md) · [OpenType](opentype.md) · [OpenType features](opentype-features.md) · [Text shaping](../programming-terms/text-shaping.md)
+[GSUB](gsub.md) · [OpenType](opentype.md) · [OpenType features](opentype-features.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md)
 
 ## Further reading
 

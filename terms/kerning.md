@@ -49,7 +49,7 @@ For a design system, kerning is mostly a font-choice decision, not a per-compone
 
 ## Related terms
 
-[Tracking](../language-terms/writing-systems-and-scripts/tracking.md) · [Leading](leading.md)
+[Tracking](../design-terms/typography/tracking.md) · [Leading](leading.md)
 
 ## Further reading
 

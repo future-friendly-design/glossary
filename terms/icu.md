@@ -37,7 +37,7 @@ ICU is a widely used software library that provides ready-made tools for Unicode
 
 ## Why it matters
 
-International Components for Unicode gives developers reusable services for formatting dates, numbers, and currencies, sorting text ([collation](collation.md)), segmenting text ([segmentation](../programming-terms/segmentation.md)), and converting between encodings, so they do not have to reimplement these per language. It is maintained as a technical committee of the Unicode Consortium and draws its locale data from [cldr](cldr.md). Because ICU is built into many operating systems, browsers, and programming languages, a lot of the i18n behavior you rely on is ICU underneath.
+International Components for Unicode gives developers reusable services for formatting dates, numbers, and currencies, sorting text ([collation](collation.md)), segmenting text ([segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md)), and converting between encodings, so they do not have to reimplement these per language. It is maintained as a technical committee of the Unicode Consortium and draws its locale data from [cldr](cldr.md). Because ICU is built into many operating systems, browsers, and programming languages, a lot of the i18n behavior you rely on is ICU underneath.
 
 ## Example
 
@@ -45,7 +45,7 @@ Java's and .NET's date and number formatting are backed by ICU and CLDR data.
 
 ## Related terms
 
-[CLDR](cldr.md) · [Collation](collation.md) · [Segmentation](../programming-terms/segmentation.md) · [Locale](locale.md)
+[CLDR](cldr.md) · [Collation](collation.md) · [Segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Locale](locale.md)
 
 ## Further reading
 

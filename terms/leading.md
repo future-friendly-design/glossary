@@ -5,7 +5,9 @@ aliases:
   - line spacing
 level: foundational
 depth: deep
-summary: Leading is the vertical space between lines of text, measured from one baseline to the next.
+summary: >-
+  Leading is the vertical space between lines of text, measured from one
+  baseline to the next.
 related:
   - line-height
   - tracking
@@ -54,7 +56,7 @@ For body text, a ratio of about 1.4 to 1.6 times the font size is a comfortable 
 
 ## Related terms
 
-[Line height](line-height.md) · [Tracking](../language-terms/writing-systems-and-scripts/tracking.md) · [Baseline](../design-terms/typography/baseline.md) · [Measure](measure.md)
+[Line height](line-height.md) · [Tracking](../design-terms/typography/tracking.md) · [Baseline](../design-terms/typography/baseline.md) · [Measure](measure.md)
 
 ## Further reading
 

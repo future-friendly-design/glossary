@@ -37,9 +37,9 @@ Text shaping turns a string of characters into the exact glyphs and positions a 
 
 ### Why it matters in design systems
 
-Shaping is the step between text and pixels. A shaper takes [Unicode](../terms/unicode.md) text, a font, and the script and language, then selects the correct glyph forms and computes their x and y positions before anything is rendered. For scripts where letters change shape by context ([Arabic](../terms/arabic-script.md)) or get reordered and stacked ([Devanagari](../terms/devanagari.md)), shaping is where that logic happens, driven by the font's [OpenType](../terms/opentype.md) layout tables ([GSUB](../terms/gsub.md) for substitution, [GPOS](../terms/gpos.md) for positioning).<sup>1</sup>
+Shaping is the step between text and pixels. A shaper takes [Unicode](../../terms/unicode.md) text, a font, and the script and language, then selects the correct glyph forms and computes their x and y positions before anything is rendered. For scripts where letters change shape by context ([Arabic](../../terms/arabic-script.md)) or get reordered and stacked ([Devanagari](../../terms/devanagari.md)), shaping is where that logic happens, driven by the font's [OpenType](../../terms/opentype.md) layout tables ([GSUB](../../terms/gsub.md) for substitution, [GPOS](../../terms/gpos.md) for positioning).<sup>1</sup>
 
-So for a design system, shaping is necessary but easy to skip by accident. It is the machinery that makes [complex text layout](../terms/complex-text-layout.md) possible, and any path that draws text without it, by counting characters or placing glyphs in order, will break every script that joins, reorders, or stacks.
+So for a design system, shaping is necessary but easy to skip by accident. It is the machinery that makes [complex text layout](../../terms/complex-text-layout.md) possible, and any path that draws text without it, by counting characters or placing glyphs in order, will break every script that joins, reorders, or stacks.
 
 ### Example
 
@@ -51,7 +51,7 @@ Assuming text is just glyphs placed one after another, an assumption that holds 
 
 ### In practice
 
-* **Let a real shaper do it:** on the web, in apps, and in OS text fields the platform shapes text for you (usually via the [shaping engine](../terms/shaping-engine.md) HarfBuzz). Do not hand-roll glyph layout; lean on the engine and supply fonts that carry the right OpenType tables. See [What is HarfBuzz? (HarfBuzz)](https://harfbuzz.github.io/what-is-harfbuzz.html).
+* **Let a real shaper do it:** on the web, in apps, and in OS text fields the platform shapes text for you (usually via the [shaping engine](../../terms/shaping-engine.md) HarfBuzz). Do not hand-roll glyph layout; lean on the engine and supply fonts that carry the right OpenType tables. See [What is HarfBuzz? (HarfBuzz)](https://harfbuzz.github.io/what-is-harfbuzz.html).
 * **Watch the boundaries:** when you render text outside the normal pipeline (canvas, PDF generation, image export), confirm that path actually shapes, or complex scripts will come out wrong.
 * **Languages:** correct shaping depends on the font declaring script and language support; verify it for every script you ship, and confirm complex-script results with the language experts.
 
@@ -59,7 +59,7 @@ Assuming text is just glyphs placed one after another, an assumption that holds 
 
 ### Related terms and mentions
 
-[Arabic script](../terms/arabic-script.md) · [Complex text layout](../terms/complex-text-layout.md) · [Devanagari](../terms/devanagari.md) · [GPOS](../terms/gpos.md) · [GSUB](../terms/gsub.md) · [OpenType](../terms/opentype.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](../terms/shaping-engine.md) · [Unicode](../terms/unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Arabic script](../../terms/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md) · [GPOS](../../terms/gpos.md) · [GSUB](../../terms/gsub.md) · [OpenType](../../terms/opentype.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

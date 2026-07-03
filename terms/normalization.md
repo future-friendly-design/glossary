@@ -41,7 +41,7 @@ Normalization rewrites text into a consistent form so that strings that look the
 
 ## Why it matters
 
-Unicode defines four normalization forms in UAX #15. NFC composes sequences into [precomposed-character](precomposed-character.md)s where possible, while NFD decomposes them into a base plus [combining-mark](../programming-terms/combining-mark.md)s; the compatibility forms NFKC and NFKD additionally fold formatting variants (like a ligature back into its letters, or a full-width form into a normal one). Normalization also fixes the order of combining marks. Without it, text that looks identical can fail to match.
+Unicode defines four normalization forms in UAX #15. NFC composes sequences into [precomposed-character](precomposed-character.md)s where possible, while NFD decomposes them into a base plus [combining-mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md)s; the compatibility forms NFKC and NFKD additionally fold formatting variants (like a ligature back into its letters, or a full-width form into a normal one). Normalization also fixes the order of combining marks. Without it, text that looks identical can fail to match.
 
 ## Example
 
@@ -59,7 +59,7 @@ Comparing, searching, or deduplicating user text without normalizing first. Two 
 
 ## Related terms
 
-[Precomposed character](precomposed-character.md) · [Combining mark](../programming-terms/combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Unicode](unicode.md)
+[Precomposed character](precomposed-character.md) · [Combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Unicode](unicode.md)
 
 ## Further reading
 

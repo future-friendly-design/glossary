@@ -41,7 +41,7 @@ A guided tour of the typography terms in this glossary, grouped by what they hel
 
 * **Typefaces and fonts:** [Typeface](typeface.md), [Font](font.md), [Font weight](font-weight.md), [Variable font](variable-font.md)
 * **Anatomy and vertical metrics:** [Baseline](../design-terms/typography/baseline.md), [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md), [Cap height](cap-height.md), [x-height](x-height.md), [Ascender](ascender.md), [Descender](descender.md)
-* **Spacing:** [Kerning](kerning.md), [Tracking](../language-terms/writing-systems-and-scripts/tracking.md), [Letter spacing](letter-spacing.md), [Leading](leading.md), [Line height](line-height.md), [Vertical trim](vertical-trim.md)
+* **Spacing:** [Kerning](kerning.md), [Tracking](../design-terms/typography/tracking.md), [Letter spacing](letter-spacing.md), [Leading](leading.md), [Line height](line-height.md), [Vertical trim](vertical-trim.md)
 * **Line and layout:** [Measure](measure.md)
 * **Style and detail:** [Small caps](small-caps.md), [Figure styles](figure-styles.md), [Faux bold](faux-bold.md), [Faux italic](faux-italic.md)
 * **Font technology and coverage:** [Font subsetting](font-subsetting.md), [Fallback font](fallback-font.md), [Font coverage](font-coverage.md)

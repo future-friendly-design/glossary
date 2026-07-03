@@ -35,7 +35,7 @@ Tibetan script is the Brahmic abugida used for Tibetan and related languages suc
 
 ## Why it matters
 
-The Tibetan script is a [Brahmic](brahmic-scripts.md) [abugida](abugida.md) of 30 consonant letters, each carrying an inherent vowel that four vowel signs can change. It writes Tibetic languages including Tibetan, Dzongkha, Sikkimese, and Ladakhi, written left to right. What makes it demanding to render is that consonant clusters are built as vertical [stacks](../language-terms/writing-systems-and-scripts/stacking-script.md) rather than placed side by side, and syllables are separated by a dot called a [tsheg](tsheg.md) instead of a space. Both mean line height and segmentation cannot follow Latin assumptions.
+The Tibetan script is a [Brahmic](brahmic-scripts.md) [abugida](abugida.md) of 30 consonant letters, each carrying an inherent vowel that four vowel signs can change. It writes Tibetic languages including Tibetan, Dzongkha, Sikkimese, and Ladakhi, written left to right. What makes it demanding to render is that consonant clusters are built as vertical [stacks](../language-terms/writing-systems-and-scripts/stacking-script.md) rather than placed side by side, and syllables are separated by a dot called a [tsheg](../language-terms/writing-systems-and-scripts/tsheg.md) instead of a space. Both mean line height and segmentation cannot follow Latin assumptions.
 
 ## Example
 
@@ -43,7 +43,7 @@ Tibetan stacks consonants vertically to write a cluster, rather than placing the
 
 ## Related terms
 
-[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Thai script](thai-script.md) · [Tsheg](tsheg.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md)
+[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Thai script](thai-script.md) · [Tsheg](../language-terms/writing-systems-and-scripts/tsheg.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md)
 
 ## Further reading
 

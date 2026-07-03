@@ -39,7 +39,7 @@ A grapheme cluster is what a reader thinks of as one character, even if it is ma
 
 ## Why it matters
 
-Unicode uses this term to sidestep the ambiguity of "character," which in code usually means a single [code-point](code-point.md). A base letter plus its [combining-mark](../programming-terms/combining-mark.md)s, or a multi-code-point emoji, counts as one grapheme cluster. The boundary rules are defined in UAX #29, and respecting them is what makes cursor movement, text selection, and "character" counting behave the way users actually expect.
+Unicode uses this term to sidestep the ambiguity of "character," which in code usually means a single [code-point](code-point.md). A base letter plus its [combining-mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md)s, or a multi-code-point emoji, counts as one grapheme cluster. The boundary rules are defined in UAX #29, and respecting them is what makes cursor movement, text selection, and "character" counting behave the way users actually expect.
 
 ## Example
 
@@ -57,7 +57,7 @@ Counting "characters" by code points (or worse, by UTF-16 code units) and callin
 
 ## Related terms
 
-[Character](character.md) · [Code point](code-point.md) · [Combining mark](../programming-terms/combining-mark.md) · [Normalization](normalization.md)
+[Character](character.md) · [Code point](code-point.md) · [Combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Normalization](normalization.md)
 
 ## Further reading
 

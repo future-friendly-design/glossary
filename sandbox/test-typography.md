@@ -48,7 +48,7 @@ A descender is the part of a letter that drops below the baseline.
 
 Kerning is the adjustment of space between two specific letters so their pairing looks evenly balanced.
 
-[**Tracking**](../language-terms/writing-systems-and-scripts/tracking.md)
+[**Tracking**](../design-terms/typography/tracking.md)
 
 Tracking is uniform spacing applied evenly across a run of letters, words, or a whole block of text.
 

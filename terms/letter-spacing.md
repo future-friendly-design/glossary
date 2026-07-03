@@ -45,7 +45,7 @@ Letter spacing is the design-tool and CSS control that adds or removes uniform s
 
 ## Why it matters
 
-This is the field you reach for in Figma, or the property you set in CSS, when you want to open up or tighten text evenly. It is the implementation of the typographic idea called [tracking](../language-terms/writing-systems-and-scripts/tracking.md): tracking is the concept, letter spacing is the control. Knowing they are the same thing (and that neither is [kerning](kerning.md), which adjusts single pairs) saves a lot of confusion when a designer and a developer are describing the same text with different words.
+This is the field you reach for in Figma, or the property you set in CSS, when you want to open up or tighten text evenly. It is the implementation of the typographic idea called [tracking](../design-terms/typography/tracking.md): tracking is the concept, letter spacing is the control. Knowing they are the same thing (and that neither is [kerning](kerning.md), which adjusts single pairs) saves a lot of confusion when a designer and a developer are describing the same text with different words.
 
 ## Example
 
@@ -53,7 +53,7 @@ In Figma, a small positive Letter spacing on an all-caps label spreads its chara
 
 ## Also called
 
-Figma: Letter spacing · CSS: `letter-spacing`. The typographic term for the concept this controls is [tracking](../language-terms/writing-systems-and-scripts/tracking.md).
+Figma: Letter spacing · CSS: `letter-spacing`. The typographic term for the concept this controls is [tracking](../design-terms/typography/tracking.md).
 
 ## Common mistake
 
@@ -69,7 +69,7 @@ In Figma the field is "Letter spacing," set in pixels or as a percentage of font
 
 ## Related terms
 
-[Tracking](../language-terms/writing-systems-and-scripts/tracking.md) · [Kerning](kerning.md)
+[Tracking](../design-terms/typography/tracking.md) · [Kerning](kerning.md)
 
 ## Further reading
 

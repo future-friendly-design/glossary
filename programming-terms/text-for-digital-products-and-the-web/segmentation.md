@@ -40,9 +40,9 @@ Segmentation is the process of dividing text into meaningful units such as chara
 
 ### Why it matters in design systems
 
-What counts as a character, word, or sentence boundary differs by writing system, so segmentation cannot rely on a simple rule like splitting on spaces. [Unicode](../terms/unicode.md) Standard Annex #29 defines default algorithms for [grapheme cluster](../terms/grapheme-cluster.md), word, and sentence boundaries, but it is explicit that scripts without spaces between words need dictionary-based tailoring rather than the default.<sup>1</sup>
+What counts as a character, word, or sentence boundary differs by writing system, so segmentation cannot rely on a simple rule like splitting on spaces. [Unicode](../../terms/unicode.md) Standard Annex #29 defines default algorithms for [grapheme cluster](../../terms/grapheme-cluster.md), word, and sentence boundaries, but it is explicit that scripts without spaces between words need dictionary-based tailoring rather than the default.<sup>1</sup>
 
-So for a design system, anything that counts, truncates, or indexes text has to use a Unicode-aware segmenter. [Thai](../terms/thai-script.md), Japanese, and Chinese put no spaces between words, so word segmentation there needs a dictionary or model, not a delimiter, and even a single "character" can be a grapheme cluster of several code points.
+So for a design system, anything that counts, truncates, or indexes text has to use a Unicode-aware segmenter. [Thai](../../terms/thai-script.md), Japanese, and Chinese put no spaces between words, so word segmentation there needs a dictionary or model, not a delimiter, and even a single "character" can be a grapheme cluster of several code points.
 
 ### Example
 
@@ -54,7 +54,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### In practice
 
-* **Use a Unicode-aware segmenter:** in JavaScript, `Intl.Segmenter` with `granularity: "word"` (or `"sentence"`, `"grapheme"`) follows UAX #29; server-side, [ICU](../terms/icu.md) provides the same, including dictionary-based word breaking for Thai and CJK. See [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter).
+* **Use a Unicode-aware segmenter:** in JavaScript, `Intl.Segmenter` with `granularity: "word"` (or `"sentence"`, `"grapheme"`) follows UAX #29; server-side, [ICU](../../terms/icu.md) provides the same, including dictionary-based word breaking for Thai and CJK. See [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter).
 * **Match the unit to the task:** count and truncate by grapheme cluster for "characters," segment by word for word counts and search, by sentence for snippets. Each is a different boundary.
 * **Languages:** word segmentation quality is language-specific; confirm space-less scripts with the language experts and test with real content.
 
@@ -62,7 +62,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### Related terms and mentions
 
-[CLDR](../terms/cldr.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [ICU](../terms/icu.md) · [Internationalization](../terms/internationalization.md) · [Internationalization & engineering](../terms/i18n-engineering.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../terms/thai-script.md) · [Unicode](../terms/unicode.md)
+[CLDR](../../terms/cldr.md) · [Grapheme cluster](../../terms/grapheme-cluster.md) · [ICU](../../terms/icu.md) · [Internationalization](../../terms/internationalization.md) · [Internationalization & engineering](../../terms/i18n-engineering.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../terms/thai-script.md) · [Unicode](../../terms/unicode.md)
 
 ### Further reading
 

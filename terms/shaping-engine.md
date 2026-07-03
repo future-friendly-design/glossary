@@ -37,7 +37,7 @@ A shaping engine is the software that performs text shaping; HarfBuzz is the mos
 
 ## Why it matters
 
-A shaping engine takes Unicode text, a font, and script and language information, then returns glyph IDs with positions for a renderer to draw. It implements the per-[script rules](../language-terms/writing-systems-and-scripts/script-rules.md) and reads the font's [gsub](gsub.md) and [gpos](gpos.md) tables, so it is the piece that actually carries out [text-shaping](../programming-terms/text-shaping.md). HarfBuzz, the open-source engine, powers text on Android, Chrome, Firefox, LibreOffice, and many other platforms, which means it shapes much of the text you see on screen every day.
+A shaping engine takes Unicode text, a font, and script and language information, then returns glyph IDs with positions for a renderer to draw. It implements the per-[script rules](../language-terms/writing-systems-and-scripts/script-rules.md) and reads the font's [gsub](gsub.md) and [gpos](gpos.md) tables, so it is the piece that actually carries out [text-shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md). HarfBuzz, the open-source engine, powers text on Android, Chrome, Firefox, LibreOffice, and many other platforms, which means it shapes much of the text you see on screen every day.
 
 ## Example
 
@@ -45,7 +45,7 @@ Chrome uses HarfBuzz to shape this sentence before it is painted on screen.
 
 ## Related terms
 
-[Text shaping](../programming-terms/text-shaping.md) · [GSUB](gsub.md) · [GPOS](gpos.md) · [OpenType](opentype.md) · [Complex text layout](complex-text-layout.md)
+[Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [GSUB](gsub.md) · [GPOS](gpos.md) · [OpenType](opentype.md) · [Complex text layout](complex-text-layout.md)
 
 ## Further reading
 

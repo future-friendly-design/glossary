@@ -39,7 +39,7 @@ Tamil is a member of the [Brahmic family](brahmic-scripts.md) and works as an [a
 
 ## Example
 
-A Tamil vowel mark can be written to the left of the consonant it modifies even though it is pronounced after it, so typed order and display order are not the same. See [reordering](../programming-terms/reordering.md).
+A Tamil vowel mark can be written to the left of the consonant it modifies even though it is pronounced after it, so typed order and display order are not the same. See [reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md).
 
 ## Related terms
 

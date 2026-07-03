@@ -5,7 +5,9 @@ aliases:
   - dependent vowel
 level: advanced
 depth: core
-summary: A matra is a mark added to a consonant in a Brahmic script to write the vowel that goes with it.
+summary: >-
+  A matra is a mark added to a consonant in a Brahmic script to write the vowel
+  that goes with it.
 related:
   - mark
   - reordering
@@ -44,13 +46,13 @@ A matra is a kind of [mark](mark.md): it attaches to a consonant rather than sta
 
 "Matra" is the word from the Devanagari tradition. [Unicode](../../terms/unicode.md) calls the same thing a dependent vowel.<sup>1</sup> Other Brahmic scripts have their own names for it.
 
-For software, the key point is order. A matra is typed after its consonant but may display before it, so the program laying out the text has to move it into the right visual spot. That [reordering](../../programming-terms/reordering.md) is a hallmark of [complex text layout](../../terms/complex-text-layout.md): typed order cannot be assumed to equal display order.<sup>2</sup>
+For software, the key point is order. A matra is typed after its consonant but may display before it, so the program laying out the text has to move it into the right visual spot. That [reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) is a hallmark of [complex text layout](../../terms/complex-text-layout.md): typed order cannot be assumed to equal display order.<sup>2</sup>
 
 ***
 
 ### Related terms and mentions
 
-[Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Mark](mark.md) · [Reordering](../../programming-terms/reordering.md) · [Reph](reph.md) · [Script](script.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
+[Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Mark](mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Reph](reph.md) · [Script](script.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
