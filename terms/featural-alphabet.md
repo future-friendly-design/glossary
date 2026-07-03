@@ -5,9 +5,7 @@ aliases:
   - featural script
 level: advanced
 depth: core
-summary: >-
-  A featural alphabet is a script whose letter shapes are built to reflect the
-  physical features of the sounds they represent.
+summary: A featural alphabet is a script whose letter shapes are built to reflect the physical features of the sounds they represent.
 related:
   - alphabet
   - syllabary
@@ -32,20 +30,27 @@ tags:
 
 ## Definition
 
-A featural alphabet is a script whose letter shapes are built to reflect the physical features of the sounds they represent.
+A featural alphabet is a [script](../language-terms/writing-systems-and-scripts/script.md) whose letter shapes are built to reflect the physical features of the sounds they represent, so related sounds get visually related letters. [Hangul](hangul.md), the Korean script, is the most cited example; the Unicode Standard calls it a featural syllabic script.<sup>1</sup> That sets it apart from an ordinary [alphabet](alphabet.md), where the link between a letter's shape and its sound is arbitrary.
 
-## Why it matters
+### Why it matters in design systems
 
-In a featural script the shape of a symbol systematically encodes phonetic features, such as where in the mouth a sound is made or whether it is voiced, so related sounds have visually related letters. [Hangul](hangul.md), the Korean script, is the most cited example: its consonant shapes are designed to suggest the position of the tongue and lips. [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) is also often described as featural, since the orientation of each sign systematically encodes its vowel (it is sometimes called a "featural abugida"). The category is worth knowing because it shows that script design can encode linguistic structure in the glyph shapes themselves, not just assign arbitrary symbols to sounds.
+Featural design shows that a script's shapes can carry linguistic structure directly, rather than assigning arbitrary symbols to sounds. In Hangul the consonant letters are traditionally described as suggesting the position of the tongue and lips, so related sounds look related; the letters are then grouped into square syllable blocks built from a set of alphabetic components, rather than written in a simple line.<sup>2</sup> [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) is also often described as featural, because rotating a consonant's symbol systematically encodes the following vowel (which is why it is sometimes called a featural abugida).
 
-## Example
+The practical consequence is the unit of layout. Because Hangul builds syllable blocks out of letter components, [font](font.md) design and rendering treat the block, not the single letter, as the shape that has to sit consistently in a square. That is a different problem from placing alphabetic letters one after another, so featural does not mean "just an alphabet" when you scope typeface and layout work.
 
-In Hangul, the consonant for "g/k" is shaped to suggest the back of the tongue raised toward the roof of the mouth.
+***
 
-## Related terms
+### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Syllabary](syllabary.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Hangul](hangul.md) · [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md)
+[Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) · [Font](font.md) · [Hangul](hangul.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Syllabary](syllabary.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
-## Further reading
+### Further reading
 
 * Foundations: [Featural writing system (Wikipedia)](https://en.wikipedia.org/wiki/Featural_writing_system)
+
+### Sources
+
+1. "Korean Hangul may be considered a featural syllabic script." - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+2. "As opposed to many other syllabic scripts, the syllables are formed from a set of alphabetic components in a regular fashion." - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+
+<!-- NEEDS EXPERT REVIEW: the "consonant shapes suggest the position of the tongue and lips" account of Hangul (from the Hunminjeongeum tradition) and the "featural abugida" characterization of Canadian Aboriginal Syllabics are the standard descriptions but are stated here without a fetched primary quote; the Unicode primary confirms only that Hangul is a "featural syllabic script." Cohort to confirm wording and attribution (Hangul created under King Sejong, 15th century). -->
