@@ -44,7 +44,7 @@ The Arabic script is an [abjad](abjad.md): it writes consonants and long vowels,
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Arabic script](arabic-script.md) · [Combining mark](../programming-terms/combining-mark.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Precomposed character](precomposed-character.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Abjad](abjad.md) · [Arabic script](arabic-script.md) · [Combining mark](../programming-terms/combining-mark.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Precomposed character](precomposed-character.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
