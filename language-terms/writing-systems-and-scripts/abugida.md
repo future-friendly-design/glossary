@@ -5,9 +5,7 @@ aliases:
   - alphasyllabary
 level: intermediate
 depth: core
-summary: >-
-  An abugida is a script where each consonant carries a built-in vowel that is
-  changed by adding marks.
+summary: An abugida is a type of script where each consonant carries a built-in vowel that is changed by adding marks.
 related:
   - alphabet
   - abjad
@@ -32,7 +30,7 @@ tags:
 
 ## Definition
 
-An abugida is a [script](script.md) where each consonant carries a built-in vowel that is changed by adding marks.<sup>1</sup> That makes it a middle path between an [alphabet](alphabet.md), which gives consonants and vowels their own separate letters,<sup>2</sup> and an [abjad](abjad.md), where vowels are usually left unwritten.<sup>3</sup> An abugida is also called an [alphasyllabary](alphasyllabary.md). Most [Brahmic scripts](../../terms/brahmic-scripts.md), the family that includes [Devanagari](../../terms/devanagari.md), are abugidas.
+An abugida is a type of [script](script.md) where each consonant carries a built-in vowel that is changed by adding marks.<sup>1</sup> That makes it a middle path between an [alphabet](alphabet.md), which gives consonants and vowels their own separate letters,<sup>2</sup> and an [abjad](abjad.md), where vowels are usually left unwritten.<sup>3</sup> An abugida is also called an [alphasyllabary](alphasyllabary.md). Most [Brahmic scripts](../../terms/brahmic-scripts.md), the family that includes [Devanagari](../../terms/devanagari.md), are abugidas.
 
 For example, in Devanagari the consonant `क` (ka) carries an inherent "a"; adding the i-matra writes `कि` (ki). The [matra](matra.md) is typed after `क` but displays to its left, so software has to reorder it for display.<sup>4</sup>
 

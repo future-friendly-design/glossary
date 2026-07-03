@@ -5,9 +5,7 @@ aliases:
   - consonantal alphabet
 level: intermediate
 depth: core
-summary: >-
-  An abjad is a script in which each letter represents a consonant and vowels
-  are usually left unwritten.
+summary: An abjad is a type of script in which each letter represents a consonant and vowels are usually left unwritten.
 related:
   - alphabet
   - abugida
@@ -30,7 +28,7 @@ tags:
 
 ## Definition
 
-An abjad is a [script](script.md) in which each letter represents a consonant and vowels are usually left unwritten.<sup>1</sup> The reader supplies the missing vowels from context, which is what sets an abjad apart from an [alphabet](alphabet.md), where consonants and vowels both get their own letters.<sup>2</sup> [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) are the abjads a design system is most likely to support.
+An abjad is a type of [script](script.md) in which each letter represents a consonant and vowels are usually left unwritten.<sup>1</sup> The reader supplies the missing vowels from context, which is what sets an abjad apart from an [alphabet](alphabet.md), where consonants and vowels both get their own letters.<sup>2</sup> [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) are the abjads a design system is most likely to support.
 
 For example, the Arabic greeting مرحبا ("hello") is written as a run of consonant letters, with the short vowels left for the reader to fill in.
 

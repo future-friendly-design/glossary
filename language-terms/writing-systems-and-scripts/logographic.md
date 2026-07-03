@@ -6,9 +6,7 @@ aliases:
   - logogram
 level: intermediate
 depth: core
-summary: >-
-  A logographic script uses symbols that stand for whole words or meaningful
-  units (morphemes) rather than for sounds alone.
+summary: Logographic is a type of script whose symbols stand for whole words or meaningful units (morphemes) rather than for sounds alone.
 related:
   - syllabary
   - alphabet
@@ -33,7 +31,7 @@ tags:
 
 ## Definition
 
-A logographic script uses symbols that stand for whole words or meaningful units (morphemes) rather than for sounds alone.<sup>1</sup> [Han characters](../../terms/han-characters.md) are the most widely used example; the Unicode Standard describes them as "logographic (each character represents a word, not just a sound)".<sup>2</sup> Because each symbol also maps to a spoken syllable, a system like Chinese is more precisely a [logosyllabary](logosyllabary.md).
+Logographic is a type of script whose symbols stand for whole words or meaningful units (morphemes) rather than for sounds alone.<sup>1</sup> [Han characters](../../terms/han-characters.md) are the most widely used example; the Unicode Standard describes them as "logographic (each character represents a word, not just a sound)".<sup>2</sup> Because each symbol also maps to a spoken syllable, a system like Chinese is more precisely a [logosyllabary](logosyllabary.md).
 
 For example, the Chinese character `山` writes the whole word "mountain", not the separate sounds in it.
 

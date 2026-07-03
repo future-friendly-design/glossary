@@ -99,7 +99,7 @@ Scripts are classified by what their symbols represent. For example, if a script
 * [Alphasyllabary](alphasyllabary.md)
 * [Brahmic scripts](../../terms/brahmic-scripts.md)
 * [CJK](../../terms/cjk.md)
-* [Featural alphabet](featural-alphabet.md)
+* [Featural script](featural-alphabet.md)
 * [Ideographic](ideographic.md)
 * [Logographic](logographic.md)
 * [Logosyllabary](logosyllabary.md)

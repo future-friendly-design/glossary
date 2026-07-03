@@ -1,14 +1,11 @@
 ---
-term: Featural alphabet
+term: Featural script
 slug: featural-alphabet
 aliases:
-  - featural script
+  - featural alphabet
 level: advanced
 depth: core
-summary: >-
-  A featural alphabet is a script whose letter shapes are built to reflect the
-  physical features of the sounds they represent, so related sounds get visually
-  related letters.
+summary: A featural script is a type of script whose letter shapes are built to reflect the physical features of the sounds they represent, so related sounds get visually related letters.
 related:
   - alphabet
   - syllabary
@@ -33,7 +30,7 @@ tags:
 
 ## Definition
 
-A featural alphabet is a [script](script.md) whose letter shapes are built to reflect the physical features of the sounds they represent, so related sounds get visually related letters. [Hangul](../../terms/hangul.md), the Korean script, is the most cited example; the Unicode Standard calls it a featural syllabic script.<sup>1</sup> That sets it apart from an ordinary [alphabet](alphabet.md), where the link between a letter's shape and its sound is arbitrary.
+A featural script is a type of [script](script.md) whose letter shapes are built to reflect the physical features of the sounds they represent, so related sounds get visually related letters. [Hangul](../../terms/hangul.md), the Korean script, is the most cited example; the Unicode Standard calls it a featural syllabic script.<sup>1</sup> That sets it apart from an ordinary [alphabet](alphabet.md), where the link between a letter's shape and its sound is arbitrary.
 
 While this glossary doesn't cover every script, here are some scripts described as featural to be aware of. Select a linked term to navigate to its glossary page.
 

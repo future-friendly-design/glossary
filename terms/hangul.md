@@ -44,7 +44,7 @@ The syllable "han" is written as a single square block stacking the letters for 
 
 ## Related terms
 
-[Featural alphabet](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [CJK](cjk.md) · [Syllabary](syllabary.md)
+[Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [CJK](cjk.md) · [Syllabary](syllabary.md)
 
 ## Further reading
 

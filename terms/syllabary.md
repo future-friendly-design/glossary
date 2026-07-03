@@ -4,9 +4,7 @@ slug: syllabary
 aliases: []
 level: intermediate
 depth: core
-summary: >-
-  A syllabary is a script where each symbol stands for a whole syllable rather
-  than a single sound.
+summary: A syllabary is a type of script where each symbol stands for a whole syllable rather than a single sound.
 related:
   - abugida
   - alphabet
@@ -29,7 +27,7 @@ tags:
 
 ## Definition
 
-A syllabary is a [script](../language-terms/writing-systems-and-scripts/script.md) where each symbol stands for a whole syllable rather than a single sound. Japanese hiragana and katakana are syllabaries,<sup>1</sup> and so is the Cherokee script that Sequoyah created.<sup>2</sup> That sets a syllabary apart from an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md), which spells a syllable out of separate consonant and vowel letters.
+A syllabary is a type of [script](../language-terms/writing-systems-and-scripts/script.md) where each symbol stands for a whole syllable rather than a single sound. Japanese hiragana and katakana are syllabaries,<sup>1</sup> and so is the Cherokee script that Sequoyah created.<sup>2</sup> That sets a syllabary apart from an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md), which spells a syllable out of separate consonant and vowel letters.
 
 For example, the hiragana `あ` (a) and `い` (i) are two separate, unrelated symbols, one for each syllable.
 
