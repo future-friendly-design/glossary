@@ -6,7 +6,9 @@ aliases:
   - pictograph
 level: foundational
 depth: deep
-summary: A pictographic symbol conveys meaning through a stylized picture of the thing it represents, rather than by spelling out sounds.
+summary: >-
+  A pictographic symbol conveys meaning through a stylized picture of the thing
+  it represents, rather than by spelling out sounds.
 related:
   - ideographic
   - logographic
@@ -29,7 +31,7 @@ tags:
 
 ## Definition
 
-A pictographic symbol conveys meaning through a stylized picture of the thing it represents, rather than by spelling out sounds. Unicode's example is `✈`, which denotes an airplane by a conventional visual likeness.<sup>1</sup> As a [script](../language-terms/writing-systems-and-scripts/script.md) category it is the historical precursor to writing, and it is distinct from an [ideographic](ideographic.md) symbol (an idea, shown more abstractly) and a [logographic](logographic.md) character (a specific word or morpheme of a language).
+A pictographic symbol conveys meaning through a stylized picture of the thing it represents, rather than by spelling out sounds. Unicode's example is `✈`, which denotes an airplane by a conventional visual likeness.<sup>1</sup> As a [script](script.md) category it is the historical precursor to writing, and it is distinct from an [ideographic](ideographic.md) symbol (an idea, shown more abstractly) and a [logographic](logographic.md) character (a specific word or morpheme of a language).
 
 ### Why it matters in design systems
 
@@ -49,7 +51,7 @@ Assuming a picture is universally understood. Pictographic legibility is cultura
 
 ### Related terms and mentions
 
-[Ideographic](ideographic.md) · [Logographic](logographic.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Ideographic](ideographic.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -38,7 +38,7 @@ Canadian Aboriginal Syllabics is a unified script (a related family of writing s
 
 ## Why it matters
 
-Canadian Aboriginal Syllabics is a family of related systems used for languages such as Cree, Ojibwe, and Inuktitut, in which a consonant's symbol is rotated or flipped to show the following vowel. Because the orientation of a symbol systematically encodes the vowel, it is often described as featural, like [Hangul](hangul.md), though structurally it behaves much like an [abugida](abugida.md) (hence the label "featural abugida"). The systems grew from work that culminated in 1840 by the missionary James Evans, probably with Indigenous language experts, and the syllabics are co-official with the [Latin script](latin-script.md) for Inuktitut in Nunavut and Nunavik. It was first encoded in Unicode in version 3.0 (1999), in the Unified Canadian Aboriginal Syllabics block (U+1400 to U+167F), with later extended blocks, so font and input support is a real obligation for products serving these communities.
+Canadian Aboriginal Syllabics is a family of related systems used for languages such as Cree, Ojibwe, and Inuktitut, in which a consonant's symbol is rotated or flipped to show the following vowel. Because the orientation of a symbol systematically encodes the vowel, it is often described as featural, like [Hangul](hangul.md), though structurally it behaves much like an [abugida](../language-terms/writing-systems-and-scripts/abugida.md) (hence the label "featural abugida"). The systems grew from work that culminated in 1840 by the missionary James Evans, probably with Indigenous language experts, and the syllabics are co-official with the [Latin script](latin-script.md) for Inuktitut in Nunavut and Nunavik. It was first encoded in Unicode in version 3.0 (1999), in the Unified Canadian Aboriginal Syllabics block (U+1400 to U+167F), with later extended blocks, so font and input support is a real obligation for products serving these communities.
 
 ## Example
 
@@ -46,7 +46,7 @@ In Cree, the "p" symbol points one way for "pi", and is rotated to other orienta
 
 ## Related terms
 
-[Syllabary](syllabary.md) · [Abugida](abugida.md) · [Featural alphabet](featural-alphabet.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
+[Syllabary](syllabary.md) · [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Featural alphabet](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
 
 ## Further reading
 

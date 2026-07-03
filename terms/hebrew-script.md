@@ -36,7 +36,7 @@ The Hebrew script is a right-to-left abjad used for Hebrew and several other lan
 
 ## Why it matters
 
-Like the [Arabic script](arabic-script.md), the Hebrew script is an [abjad](abjad.md): the letters are consonants, and the short vowels are normally left unwritten or shown only as optional points (niqqud) added around the base letters. It runs right to left, which is why it comes up beside Arabic any time you deal with [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md): the moment a Hebrew line includes a Latin brand name or a number, your layout has to handle runs going in two directions at once. One thing it does not share with Arabic is cursive joining; Hebrew letters stay separate. Five letters do take a distinct final form at the end of a word, which the shaper selects automatically.
+Like the [Arabic script](arabic-script.md), the Hebrew script is an [abjad](../language-terms/writing-systems-and-scripts/abjad.md): the letters are consonants, and the short vowels are normally left unwritten or shown only as optional points (niqqud) added around the base letters. It runs right to left, which is why it comes up beside Arabic any time you deal with [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md): the moment a Hebrew line includes a Latin brand name or a number, your layout has to handle runs going in two directions at once. One thing it does not share with Arabic is cursive joining; Hebrew letters stay separate. Five letters do take a distinct final form at the end of a word, which the shaper selects automatically.
 
 ## Example
 
@@ -44,7 +44,7 @@ A Hebrew sentence with the English word "email" and a price in digits needs the 
 
 ## Related terms
 
-[Abjad](abjad.md) · [Arabic script](arabic-script.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md)
+[Abjad](../language-terms/writing-systems-and-scripts/abjad.md) · [Arabic script](arabic-script.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md)
 
 ## Further reading
 

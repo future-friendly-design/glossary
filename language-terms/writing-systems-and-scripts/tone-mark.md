@@ -5,7 +5,9 @@ aliases:
   - tone diacritic
 level: intermediate
 depth: core
-summary: A tone mark is a diacritic that shows the pitch or tone of a syllable in tonal languages.
+summary: >-
+  A tone mark is a diacritic that shows the pitch or tone of a syllable in tonal
+  languages.
 related:
   - diacritic
   - mark
@@ -43,7 +45,7 @@ Vietnamese can stack a tone mark on a vowel letter that already carries a diacri
 
 ### Related terms and mentions
 
-[Alphabet](../../terms/alphabet.md) · [Diacritic](diacritic.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Diacritic](diacritic.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

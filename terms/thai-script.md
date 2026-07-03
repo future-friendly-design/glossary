@@ -34,7 +34,7 @@ Thai script is the Brahmic abugida used to write the Thai language, with marks f
 
 ## Why it matters
 
-The Thai script is an [abugida](abugida.md) in the [Brahmic family](brahmic-scripts.md) with 44 consonant letters, numerous vowel symbols, and four [tone-mark](../language-terms/writing-systems-and-scripts/tone-mark.md)s. Consonants carry an inherent vowel, and vowel marks may appear above, below, before, or after the consonant, sometimes in combination, which is real complex text layout. Two details bite interface work in particular: a vowel can be written before the consonant it follows in speech, and Thai is traditionally written without spaces between words, so line breaking depends on dictionary-based word segmentation rather than spaces.
+The Thai script is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md) in the [Brahmic family](brahmic-scripts.md) with 44 consonant letters, numerous vowel symbols, and four [tone-mark](../language-terms/writing-systems-and-scripts/tone-mark.md)s. Consonants carry an inherent vowel, and vowel marks may appear above, below, before, or after the consonant, sometimes in combination, which is real complex text layout. Two details bite interface work in particular: a vowel can be written before the consonant it follows in speech, and Thai is traditionally written without spaces between words, so line breaking depends on dictionary-based word segmentation rather than spaces.
 
 ## Example
 
@@ -42,7 +42,7 @@ A Thai vowel can be written to the left of the consonant even though it is prono
 
 ## Related terms
 
-[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Tibetan script](tibetan-script.md) · [Tone mark](../language-terms/writing-systems-and-scripts/tone-mark.md)
+[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Tibetan script](tibetan-script.md) · [Tone mark](../language-terms/writing-systems-and-scripts/tone-mark.md)
 
 ## Further reading
 

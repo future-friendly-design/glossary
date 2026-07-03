@@ -36,7 +36,7 @@ Syloti Nagri is the historical Brahmic abugida used to write the Sylheti languag
 
 ## Why it matters
 
-Syloti Nagri is an [abugida](abugida.md) descended from the Kaithi script, with around 32 letters (5 vowels and 28 consonants) used to record Sylheti, an eastern Indo-Aryan language. It was once used widely by literate Sylheti speakers for correspondence, records, and religious texts, was largely displaced by the [Bengali-Assamese script](bengali-assamese.md), and is now the focus of revival work. It was encoded in Unicode in version 4.1 (2005) in the block U+A800 to U+A82F. For digital teams it is a reminder that a script's encoding can outlast its everyday use, and that revival efforts depend on the fonts and input methods that encoding makes possible.
+Syloti Nagri is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md) descended from the Kaithi script, with around 32 letters (5 vowels and 28 consonants) used to record Sylheti, an eastern Indo-Aryan language. It was once used widely by literate Sylheti speakers for correspondence, records, and religious texts, was largely displaced by the [Bengali-Assamese script](bengali-assamese.md), and is now the focus of revival work. It was encoded in Unicode in version 4.1 (2005) in the block U+A800 to U+A82F. For digital teams it is a reminder that a script's encoding can outlast its everyday use, and that revival efforts depend on the fonts and input methods that encoding makes possible.
 
 ## Example
 
@@ -44,7 +44,7 @@ Syloti Nagri uses a compact set of about 32 letters, fewer than many other Brahm
 
 ## Related terms
 
-[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Bengali-Assamese](bengali-assamese.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
+[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Bengali-Assamese](bengali-assamese.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
 
 ## Further reading
 

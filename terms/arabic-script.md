@@ -41,7 +41,7 @@ The Arabic script is a right-to-left abjad whose letters join cursively and chan
 
 ## Why it matters
 
-The Arabic script is an [abjad](abjad.md), a script that writes consonants and long vowels while short vowels are normally left out, and it runs right to left. If your product has only ever shown Latin text, this is where two of those Latin assumptions break. First, Arabic is cursive: most letters connect to their neighbors, and one letter takes a different shape depending on whether it stands alone or sits at the start, middle, or end of a word. Second, because it runs right to left, the moment a Latin name, number, or symbol shares a line you are also handling [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md). So supporting Arabic is a question about shaping and layout, not just whether your font has the letters. It is also one of the most widely used scripts in the world, which makes it a high-value coverage target.
+The Arabic script is an [abjad](../language-terms/writing-systems-and-scripts/abjad.md), a script that writes consonants and long vowels while short vowels are normally left out, and it runs right to left. If your product has only ever shown Latin text, this is where two of those Latin assumptions break. First, Arabic is cursive: most letters connect to their neighbors, and one letter takes a different shape depending on whether it stands alone or sits at the start, middle, or end of a word. Second, because it runs right to left, the moment a Latin name, number, or symbol shares a line you are also handling [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md). So supporting Arabic is a question about shaping and layout, not just whether your font has the letters. It is also one of the most widely used scripts in the world, which makes it a high-value coverage target.
 
 ## Example
 
@@ -59,7 +59,7 @@ Treating Arabic like a Latin string with the direction flipped. Applying uniform
 
 ## Related terms
 
-[Abjad](abjad.md) · [Hebrew script](hebrew-script.md) · [Harakat](../language-terms/writing-systems-and-scripts/harakat.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Ligature](ligature.md) · [Complex text layout](complex-text-layout.md)
+[Abjad](../language-terms/writing-systems-and-scripts/abjad.md) · [Hebrew script](hebrew-script.md) · [Harakat](../language-terms/writing-systems-and-scripts/harakat.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Ligature](ligature.md) · [Complex text layout](complex-text-layout.md)
 
 ## Further reading
 

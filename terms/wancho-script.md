@@ -42,7 +42,7 @@ In the Wancho script, tone is shown by adding a diacritic to a vowel letter.
 
 ## Related terms
 
-[Alphabet](alphabet.md) · [Ol Chiki](ol-chiki.md) · [Warang Citi](warang-citi.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
+[Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Ol Chiki](ol-chiki.md) · [Warang Citi](warang-citi.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
 
 ## Further reading
 

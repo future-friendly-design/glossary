@@ -34,7 +34,7 @@ The Armenian script is an alphabet used to write the Armenian language, with its
 
 ## Why it matters
 
-The Armenian script is an [alphabet](alphabet.md), with separate letters for consonants and vowels written left to right, and it is a single-language script: it is used essentially for one language rather than shared across many the way [Latin](latin-script.md) is. That is exactly why it belongs in coverage planning. Single-language scripts are easy to forget precisely because they serve one community, so they are a standard row in any internationalization coverage matrix and a common gap in fonts that were drawn with only the big multi-language scripts in mind. It is a cased script, with separate uppercase and lowercase forms, so coverage means both cases.
+The Armenian script is an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md), with separate letters for consonants and vowels written left to right, and it is a single-language script: it is used essentially for one language rather than shared across many the way [Latin](latin-script.md) is. That is exactly why it belongs in coverage planning. Single-language scripts are easy to forget precisely because they serve one community, so they are a standard row in any internationalization coverage matrix and a common gap in fonts that were drawn with only the big multi-language scripts in mind. It is a cased script, with separate uppercase and lowercase forms, so coverage means both cases.
 
 ## Example
 
@@ -42,7 +42,7 @@ Armenian has its own alphabet, unrelated in letterforms to Latin or Cyrillic, so
 
 ## Related terms
 
-[Alphabet](alphabet.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Greek script](greek-script.md)
+[Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Greek script](greek-script.md)
 
 ## Further reading
 

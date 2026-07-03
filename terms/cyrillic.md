@@ -34,7 +34,7 @@ Cyrillic is the alphabet used for Russian and many other Slavic and Central Asia
 
 ## Why it matters
 
-The Cyrillic script is an [alphabet](alphabet.md) developed from the Greek alphabet and used across Eastern Europe, the Balkans, and parts of Central and North Asia for languages such as Russian, Ukrainian, Bulgarian, Serbian, and Mongolian (in its modern Cyrillic form). Like [Latin](latin-script.md), it has separate letters for consonants and vowels and is written left to right. The practical catch for type and product work is that different languages use overlapping but not identical letter sets, and some letters have distinct localized shapes (Bulgarian and Serbian forms differ from Russian), so "supports Cyrillic" is not a single guarantee.
+The Cyrillic script is an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) developed from the Greek alphabet and used across Eastern Europe, the Balkans, and parts of Central and North Asia for languages such as Russian, Ukrainian, Bulgarian, Serbian, and Mongolian (in its modern Cyrillic form). Like [Latin](latin-script.md), it has separate letters for consonants and vowels and is written left to right. The practical catch for type and product work is that different languages use overlapping but not identical letter sets, and some letters have distinct localized shapes (Bulgarian and Serbian forms differ from Russian), so "supports Cyrillic" is not a single guarantee.
 
 ## Example
 
@@ -42,7 +42,7 @@ The Russian word for "world", мир, is written in Cyrillic letters that each m
 
 ## Related terms
 
-[Alphabet](alphabet.md) · [Latin script](latin-script.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
+[Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Latin script](latin-script.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
 
 ## Further reading
 

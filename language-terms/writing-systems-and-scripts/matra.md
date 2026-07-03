@@ -42,7 +42,7 @@ For example, the i-matra in [Devanagari](../../terms/devanagari.md) `कि` (ki
 
 ### Why it matters in design systems
 
-A matra is a kind of [mark](mark.md): it attaches to a consonant rather than standing on its own. In an [abugida](../../terms/abugida.md) such as Devanagari, each consonant already carries a built-in vowel, and a matra changes it to a different one. A matra can sit to the left, right, above, or below the consonant.
+A matra is a kind of [mark](mark.md): it attaches to a consonant rather than standing on its own. In an [abugida](abugida.md) such as Devanagari, each consonant already carries a built-in vowel, and a matra changes it to a different one. A matra can sit to the left, right, above, or below the consonant.
 
 "Matra" is the word from the Devanagari tradition. [Unicode](../../terms/unicode.md) calls the same thing a dependent vowel.<sup>1</sup> Other Brahmic scripts have their own names for it.
 
@@ -52,7 +52,7 @@ For software, the key point is order. A matra is typed after its consonant but m
 
 ### Related terms and mentions
 
-[Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Mark](mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Reph](reph.md) · [Script](script.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Mark](mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Reph](reph.md) · [Script](script.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

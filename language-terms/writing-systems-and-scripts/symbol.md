@@ -34,38 +34,36 @@ A symbol is an individual visual element that makes up a [script](script.md). A 
 
 The term symbol is used to describe the visual elements of any script in general, because each script has its own name for them.
 
-| Script type                               | What its symbols are called | Example |
-| ----------------------------------------- | --------------------------- | :-----: |
-| [Alphabet](../../terms/alphabet.md)       | letters                     |   A, b  |
-| [Abjad](../../terms/abjad.md)             | consonant letters           |   ا, ب  |
-| [Syllabary](../../terms/syllabary.md)     | syllable symbols            |   あ, い  |
-| [Logographic](../../terms/logographic.md) | characters                  |   山, 川  |
+| Script type                           | What its symbols are called | Example |
+| ------------------------------------- | --------------------------- | :-----: |
+| [Alphabet](alphabet.md)               | letters                     |   A, b  |
+| [Abjad](abjad.md)                     | consonant letters           |   ا, ب  |
+| [Syllabary](../../terms/syllabary.md) | syllable symbols            |   あ, い  |
+| [Logographic](logographic.md)         | characters                  |   山, 川  |
 
 ### Why it matters in design systems
 
-In a design system the symbol of a script is rarely where you make a decision, it matters because it's a shared reference point for language support across linguistics, typography, and computer programming. While these disciplines are all related to a design system, they are unique, and often use the same terms to mean different things, which can get pretty confusing!&#x20;
+In a design system the symbol of a script is rarely where you make a decision, it matters because it's a shared reference point for language support across linguistics, typography, and computer programming. While these disciplines are all related to a design system, they are unique, and often use the same terms to mean different things, which can get pretty confusing!
 
-The goal is to understand how the concept of a symbol, regardless of its script-specific name, maps to related terms across linguistics, typography, and computer programming, so you can make user-friendly design decisions specific to the language you are working on.&#x20;
+The goal is to understand how the concept of a symbol, regardless of its script-specific name, maps to related terms across linguistics, typography, and computer programming, so you can make user-friendly design decisions specific to the language you are working on.
 
 From a linguistics perspective, the [symbol](symbol.md) sits inside a larger structure: a [script](script.md) is the set of symbols a language is written with, and that script is one part of the language's [writing system](writing-system.md).
 
 When a written language is read, the smallest symbol, or combination of symbols, that distinguishes one meaning from another is a [grapheme](../linguistics/grapheme.md). For example, `e` is one symbol and one grapheme; `é` is two symbols, a letter plus an accent mark, but still one grapheme.
 
-When a written language is to be printed or shown on a screen, [typography](../../terms/typography.md) refers to the specific shape a [font](../../terms/font.md) draws for a symbol as a [glyph](../../terms/glyph.md). For example, the `e` and `é` you see on this page are glyphs. The same symbol in the same font can have more than one glyph. For example `e`, _`e`_, **`e`**, _**`e`**_, are the same symbol represented as four different glyphs. &#x20;
+When a written language is to be printed or shown on a screen, [typography](../../terms/typography.md) refers to the specific shape a [font](../../terms/font.md) draws for a symbol as a [glyph](../../terms/glyph.md). For example, the `e` and `é` you see on this page are glyphs. The same symbol in the same font can have more than one glyph. For example `e`, _`e`_, **`e`**, _**`e`**_, are the same symbol represented as four different glyphs.
 
 In computer programming, there is a universal coding standard called [Unicode](../../terms/unicode.md). What this glossary calls a symbol, Unicode refers to as a [character](../../terms/character.md). Each character is given a unique ID number called a [code point](../../terms/code-point.md). They reserve the term `symbol` for math symbols like `+`, currency symbols like `$`, modifier symbols, and other symbols such as `©` and emoji `🔠`.<sup>1</sup>
 
-In design systems, the designers and developers working on software, websites, and other user interfaces use `character` as the abstract unit used to measure a single piece of text. For example, if a form had a limit of how much text could be entered into the input, both `e` and `é` would be measured as one character of the allowed text.&#x20;
+In design systems, the designers and developers working on software, websites, and other user interfaces use `character` as the abstract unit used to measure a single piece of text. For example, if a form had a limit of how much text could be entered into the input, both `e` and `é` would be measured as one character of the allowed text.
 
 _In case you missed it, `character` is also the name for the symbols within a logographic script._
 
 ### Common mistake
 
-A common mistake is assuming that all languages that have the same script in their writing system use the same symbols for the same purpose. It's important to look at the [orthography](orthography.md) of each language alongside the symbols. \
+A common mistake is assuming that all languages that have the same script in their writing system use the same symbols for the same purpose. It's important to look at the [orthography](orthography.md) of each language alongside the symbols.\
 \
 For example, English and French both use the [Latin script](../../terms/latin-script.md). However, the English orthography requires speech wrapped in the curly quote symbol, `“like this”`, while French requires guillemets with a space sitting inside each one, `« like this »`.<sup>2</sup>
-
-
 
 Another common mistake is assuming that a symbol means the same thing in every discipline. A designer names a hero image export `hero image (16:9)` in their design tool, where the colon is just an aspect ratio. They push the file to a shared repository and email a copy to the client, and both break. Why?
 
@@ -74,8 +72,6 @@ On the client's Windows computer the file will not open, because Windows forbids
 The developer hits the same kind of break, because in code the `:`, `(`, `)`, and the spaces already mean something specific, so the computer reads them as instructions instead of as part of the name.
 
 The colon never changed. What it meant changed in every system it crossed: an aspect ratio to the designer, a forbidden character to Windows, reserved syntax in code.
-
-
 
 ### In practice
 
@@ -87,7 +83,7 @@ The colon never changed. What it meant changed in every system it crossed: an as
 
 ### Related terms and mentions
 
-[Abjad](../../terms/abjad.md) · [Alphabet](../../terms/alphabet.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Code point](../../terms/code-point.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Latin script](../../terms/latin-script.md) · [Legibility](../linguistics/legibility.md) · [Locale](../../terms/locale.md) · [Logographic](../../terms/logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](../../terms/syllabary.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Code point](../../terms/code-point.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Latin script](../../terms/latin-script.md) · [Legibility](../linguistics/legibility.md) · [Locale](../../terms/locale.md) · [Logographic](logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](../../terms/syllabary.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
@@ -98,5 +94,5 @@ The colon never changed. What it meant changed in every system it crossed: an as
 1. Unicode's General Category "Symbol" (S) covers math, currency, modifier, and other symbols including emoji; the elements of writing systems are instead encoded as Letters (category L, whose Other\_Letter value covers Han characters and syllabary symbols) or Marks (category M) - Unicode Standard Annex #44: General Category Values [https://www.unicode.org/reports/tr44/#General\_Category\_Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
 2. French and English mark quotations with different characters: French uses guillemets « » where English uses curly quotes - W3C: Quotation marks and how to mark them up [https://www.w3.org/Style/2013/quote-marks](https://www.w3.org/Style/2013/quote-marks)
 3. Windows forbids the characters `< > : " / \ | ? *` in file and directory names and reserves device names such as CON and NUL - Microsoft: Naming Files, Paths, and Namespaces [https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file)
-4. CLDR publishes locale-specific quotation marks as machine-readable delimiter data - Unicode Locale Data Markup Language (UTS #35) [https://www.unicode.org/reports/tr35/tr35-general.html#Delimiter_Elements](https://www.unicode.org/reports/tr35/tr35-general.html#Delimiter_Elements)
+4. CLDR publishes locale-specific quotation marks as machine-readable delimiter data - Unicode Locale Data Markup Language (UTS #35) [https://www.unicode.org/reports/tr35/tr35-general.html#Delimiter\_Elements](https://www.unicode.org/reports/tr35/tr35-general.html#Delimiter_Elements)
 5. CLDR's Survey Tool lets the community review and submit locale data, including entirely new locales - Unicode CLDR Survey Tool [https://cldr.unicode.org/index/survey-tool](https://cldr.unicode.org/index/survey-tool)

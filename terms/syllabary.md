@@ -4,18 +4,20 @@ slug: syllabary
 aliases: []
 level: intermediate
 depth: core
-summary: A syllabary is a script where each symbol stands for a whole syllable rather than a single sound.
+summary: >-
+  A syllabary is a script where each symbol stands for a whole syllable rather
+  than a single sound.
 related:
   - abugida
   - alphabet
   - logographic
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18
+updated: 2026-06-18T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
-  - title: 'Syllabary (Wikipedia)'
+  - title: Syllabary (Wikipedia)
     url: https://en.wikipedia.org/wiki/Syllabary
     type: authority
 license: CC-BY-4.0
@@ -27,22 +29,22 @@ tags:
 
 ## Definition
 
-A syllabary is a [script](../language-terms/writing-systems-and-scripts/script.md) where each symbol stands for a whole syllable rather than a single sound. Japanese hiragana and katakana are syllabaries,<sup>1</sup> and so is the Cherokee script that Sequoyah created.<sup>2</sup> That sets a syllabary apart from an [alphabet](alphabet.md), which spells a syllable out of separate consonant and vowel letters.
+A syllabary is a [script](../language-terms/writing-systems-and-scripts/script.md) where each symbol stands for a whole syllable rather than a single sound. Japanese hiragana and katakana are syllabaries,<sup>1</sup> and so is the Cherokee script that Sequoyah created.<sup>2</sup> That sets a syllabary apart from an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md), which spells a syllable out of separate consonant and vowel letters.
 
 For example, the hiragana `あ` (a) and `い` (i) are two separate, unrelated symbols, one for each syllable.
 
 While this glossary doesn't cover every script, here are some syllabaries to be aware of. Select a linked term to navigate to its glossary page.
 
-| Script                    | Languages | Example |
-| ------------------------- | --------- | ------- |
-| [Hiragana](hiragana.md)   | Japanese  | あ      |
-| [Katakana](katakana.md)   | Japanese  |         |
-| Cherokee                  | Cherokee  |         |
-| Vai                       | Vai       |         |
+| Script                  | Languages | Example |
+| ----------------------- | --------- | ------- |
+| [Hiragana](hiragana.md) | Japanese  | あ       |
+| [Katakana](katakana.md) | Japanese  |         |
+| Cherokee                | Cherokee  |         |
+| Vai                     | Vai       |         |
 
 ### Why it matters in design systems
 
-In a syllabary each character usually stands for a consonant-plus-vowel unit, and the symbols for different syllables are not built from a shared, systematic set of parts. That is the line between a syllabary and an [abugida](abugida.md): in an abugida, syllables that share a consonant share a base shape with vowel marks added,<sup>3</sup> whereas a syllabary gives each syllable its own distinct symbol. It also differs from a [logographic](logographic.md) script, whose symbols stand for meaning rather than sound.
+In a syllabary each character usually stands for a consonant-plus-vowel unit, and the symbols for different syllables are not built from a shared, systematic set of parts. That is the line between a syllabary and an [abugida](../language-terms/writing-systems-and-scripts/abugida.md): in an abugida, syllables that share a consonant share a base shape with vowel marks added,<sup>3</sup> whereas a syllabary gives each syllable its own distinct symbol. It also differs from a [logographic](../language-terms/writing-systems-and-scripts/logographic.md) script, whose symbols stand for meaning rather than sound.
 
 For a design system the payoff is knowing what kind of set you are covering. A syllabary is a fixed, learnable inventory of symbols, so [font coverage](font-coverage.md) and keyboard or [input method](input-method-editor.md) support target that whole set rather than a small recombining alphabet. Syllabaries also tend to appear mixed with other scripts: everyday Japanese runs hiragana and katakana together with logographic kanji on one line, so "supports Japanese" is never a single-script decision.
 
@@ -50,7 +52,7 @@ For a design system the payoff is knowing what kind of set you are covering. A s
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Font coverage](font-coverage.md) · [Hiragana](hiragana.md) · [Input method editor (IME)](input-method-editor.md) · [Katakana](katakana.md) · [Logographic](logographic.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Font coverage](font-coverage.md) · [Hiragana](hiragana.md) · [Input method editor (IME)](input-method-editor.md) · [Katakana](katakana.md) · [Logographic](../language-terms/writing-systems-and-scripts/logographic.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

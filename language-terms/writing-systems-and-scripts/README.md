@@ -93,17 +93,17 @@ Script rules define the behaviour of individual visual elements of a script (its
 
 Scripts are classified by what their symbols represent. For example, if a script is to be classified as an alphabet, it must have separate symbols (called letters) representing consonants and vowels.
 
-* [Abjad](../../terms/abjad.md)
-* [Abugida](../../terms/abugida.md)
-* [Alphabet](../../terms/alphabet.md)
-* [Alphasyllabary](../../terms/alphasyllabary.md)
+* [Abjad](abjad.md)
+* [Abugida](abugida.md)
+* [Alphabet](alphabet.md)
+* [Alphasyllabary](alphasyllabary.md)
 * [Brahmic scripts](../../terms/brahmic-scripts.md)
 * [CJK](../../terms/cjk.md)
-* [Featural alphabet](../../terms/featural-alphabet.md)
-* [Ideographic](../../terms/ideographic.md)
-* [Logographic](../../terms/logographic.md)
-* [Logosyllabary](../../terms/logosyllabary.md)
-* [Pictographic](../../terms/pictographic.md)
+* [Featural alphabet](featural-alphabet.md)
+* [Ideographic](ideographic.md)
+* [Logographic](logographic.md)
+* [Logosyllabary](logosyllabary.md)
+* [Pictographic](pictographic.md)
 * [Syllabary](../../terms/syllabary.md)
 
 ### Scripts to explore

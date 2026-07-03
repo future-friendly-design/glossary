@@ -44,7 +44,7 @@ Warang Citi gives each vowel a full independent letter rather than relying on at
 
 ## Related terms
 
-[Alphabet](alphabet.md) · [Ol Chiki](ol-chiki.md) · [Wancho script](wancho-script.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
+[Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Ol Chiki](ol-chiki.md) · [Wancho script](wancho-script.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
 
 ## Further reading
 

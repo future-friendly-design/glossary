@@ -40,13 +40,13 @@ For example, the Arabic letter `ب` (b) takes a different short vowel with each 
 
 ### Why it matters in design systems
 
-The Arabic script is an [abjad](../../terms/abjad.md): it writes consonants and long vowels, while short vowels are normally left out and supplied by the reader. Harakat are the optional [marks](mark.md) that spell those short vowels out when needed, for example in the Quran, in children's books, in dictionaries, and anywhere ambiguity has to be removed.<sup>1</sup> They are [combining marks](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) layered on the base letters, so in software a letter plus its harakat is a sequence, not a single [precomposed character](../../terms/precomposed-character.md). That has direct consequences: search and matching usually need to ignore harakat so a word is found whether or not it is voweled, and input methods have to let users add the marks.
+The Arabic script is an [abjad](abjad.md): it writes consonants and long vowels, while short vowels are normally left out and supplied by the reader. Harakat are the optional [marks](mark.md) that spell those short vowels out when needed, for example in the Quran, in children's books, in dictionaries, and anywhere ambiguity has to be removed.<sup>1</sup> They are [combining marks](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) layered on the base letters, so in software a letter plus its harakat is a sequence, not a single [precomposed character](../../terms/precomposed-character.md). That has direct consequences: search and matching usually need to ignore harakat so a word is found whether or not it is voweled, and input methods have to let users add the marks.
 
 ***
 
 ### Related terms and mentions
 
-[Abjad](../../terms/abjad.md) · [Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Diacritic](diacritic.md) · [Mark](mark.md) · [Precomposed character](../../terms/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Diacritic](diacritic.md) · [Mark](mark.md) · [Precomposed character](../../terms/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
