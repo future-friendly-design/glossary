@@ -52,7 +52,7 @@ For software, the key point is order. A matra is typed after its consonant but m
 
 ### Related terms and mentions
 
-[Mark](mark.md) · [Reordering](../../programming-terms/reordering.md) · [Conjunct](conjunct.md) · [Reph](reph.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Devanagari](../../terms/devanagari.md) · [Unicode](../../terms/unicode.md)
+[Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Mark](mark.md) · [Reordering](../../programming-terms/reordering.md) · [Reph](reph.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
