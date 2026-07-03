@@ -49,7 +49,7 @@ When a community sets rules on how a script can be used to write their specific 
 
 The combination of script and orthography is also known as the [writing system](writing-system.md) of a language.
 
-Scripts are classified by what each symbol represents: [alphabets](../../terms/alphabet.md), [abjads](../../terms/abjad.md), [abugidas](../../terms/abugida.md), [alphasyllabaries](../../terms/alphasyllabary.md), [syllabaries](../../terms/syllabary.md), [logographic](../../terms/logographic.md), [logosyllabary](../../terms/logosyllabary.md), [ideographic](../../terms/ideographic.md), [featural](../../terms/featural-alphabet.md), and [pictographic](../../terms/pictographic.md) systems. They are often grouped into families like [Brahmic scripts](../../terms/brahmic-scripts.md) and [CJK](../../terms/cjk.md) to help us understand the common properties across related scripts.
+Scripts are classified by what each symbol represents: [alphabets](../../terms/alphabet.md), [abjads](../../terms/abjad.md), [abugidas](../../terms/abugida.md) (also called [alphasyllabaries](../../terms/alphasyllabary.md)), [syllabaries](../../terms/syllabary.md), [logographic](../../terms/logographic.md) (more precisely, [logosyllabary](../../terms/logosyllabary.md)), [ideographic](../../terms/ideographic.md), [featural](../../terms/featural-alphabet.md), and [pictographic](../../terms/pictographic.md) systems. They are often grouped into families like [Brahmic scripts](../../terms/brahmic-scripts.md) and [CJK](../../terms/cjk.md) to help us understand the common properties across related scripts.
 
 The same greeting in four scripts:
 
