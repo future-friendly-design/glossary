@@ -47,7 +47,7 @@ Punctuation shares the word "[mark](mark.md)" but not the sense: unlike a [combi
 
 ### Related terms and mentions
 
-[Mark](mark.md) · [Symbol](symbol.md) · [Diacritic](diacritic.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Orthography](orthography.md) · [Script](script.md) · [Character](../../terms/character.md) · [Unicode](../../terms/unicode.md)
+[Character](../../terms/character.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Diacritic](diacritic.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
