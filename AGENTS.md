@@ -18,9 +18,9 @@ One malformed file fails the entire sync, not just that page.
 - **Quote any frontmatter value** containing a colon-space (`: `), a leading special character (`@ \` # ! & * | > % ?`), or a wrapping quote.
   Double quotes, escape interior `"`.
   The usual culprit is `summary` (prose, often has a colon).
-- **No folded or literal block scalars** for a value (`summary: >` or `summary: |` continued on indented lines).
-  Keep every frontmatter value on one line.
-  GitBook mishandles multi-line scalars and the page silently fails to register, which once broke content-ref links to two entries.
+- **Author frontmatter values on one line** (especially `summary`).
+  Note: GitBook itself re-folds `summary` into a `>-` block scalar on every editor save, and those pages render and register fine, so a folded `>-` summary is harmless and not worth chasing (flattening it just gets undone on the next GitBook edit).
+  What to still avoid is a genuinely multi-line *literal* (`|`) value or a folded value that a strict YAML loader can't parse; keep the value semantically single-line.
 - **Validate before opening a PR:** every file's frontmatter parses under a strict YAML loader, no `[[` remains in any body, and every `(slug.md)` link resolves to a real file.
   ```bash
   python3 - <<'PY'
