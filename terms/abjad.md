@@ -32,6 +32,14 @@ An abjad is a [script](../language-terms/writing-systems-and-scripts/script.md) 
 
 For example, the Arabic greeting مرحبا ("hello") is written as a run of consonant letters, with the short vowels left for the reader to fill in.
 
+While this glossary doesn't cover every script, here are some abjads to be aware of. Select a linked term to navigate to its glossary page.
+
+| Script                          | Languages                  | Example |
+| ------------------------------- | -------------------------- | ------- |
+| [Arabic](arabic-script.md)      | Arabic, Persian, Urdu      | مرحبا   |
+| [Hebrew](hebrew-script.md)      | Hebrew, Yiddish            |         |
+| Syriac                          | Syriac (a form of Aramaic) |         |
+
 ### Why it matters in design systems
 
 Whether a script counts as an abjad is not even fixed: it describes how a script is used for a language. The Arabic script writes Arabic as an abjad, with short vowels omitted, but works as an [alphabet](alphabet.md) for languages such as Kashmiri or Uyghur, where every vowel is written.<sup>3</sup> So the abjad label is a fact about a language's [writing system](../language-terms/writing-systems-and-scripts/writing-system.md), not just its script.

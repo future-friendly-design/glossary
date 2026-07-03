@@ -34,6 +34,17 @@ An abugida is a [script](../language-terms/writing-systems-and-scripts/script.md
 
 For example, in Devanagari the consonant `क` (ka) carries an inherent "a"; adding the i-matra writes `कि` (ki). The [matra](../language-terms/writing-systems-and-scripts/matra.md) is typed after `क` but displays to its left, so software has to reorder it for display.<sup>4</sup>
 
+While this glossary doesn't cover every script, here are some abugidas to be aware of. Select a linked term to navigate to its glossary page.
+
+| Script                                   | Languages                | Example |
+| ---------------------------------------- | ------------------------ | ------- |
+| [Devanagari](devanagari.md)              | Hindi, Marathi, Sanskrit | नमस्ते  |
+| [Bengali–Assamese](bengali-assamese.md)  | Bengali, Assamese        |         |
+| [Tamil](tamil-script.md)                 | Tamil                    |         |
+| [Tibetan](tibetan-script.md)             | Tibetan, Dzongkha        |         |
+| [Thai](thai-script.md)                   | Thai                     |         |
+| [Ethiopic (Geʽez)](ethiopic-script.md)   | Amharic, Tigrinya        |         |
+
 ### Why it matters in design systems
 
 The built-in vowel is the whole reason an abugida cannot be treated as a row of letters placed left to right. Its vowel [matra](../language-terms/writing-systems-and-scripts/matra.md)s can sit to the left, right, above, or below the consonant they belong to, and one typed after its consonant may need to display before it. That is [reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md), and it is a hallmark of [complex text layout](complex-text-layout.md): the order text is stored in is not the order it is drawn in.
@@ -44,7 +55,7 @@ So an abugida needs real shaping support, not simple glyph-after-glyph placement
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Brahmic scripts](brahmic-scripts.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Syllabary](syllabary.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Bengali–Assamese](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Ethiopic script](ethiopic-script.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Syllabary](syllabary.md) · [Tamil script](tamil-script.md) · [Thai script](thai-script.md) · [Tibetan script](tibetan-script.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

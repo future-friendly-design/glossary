@@ -32,6 +32,13 @@ tags:
 
 A featural alphabet is a [script](../language-terms/writing-systems-and-scripts/script.md) whose letter shapes are built to reflect the physical features of the sounds they represent, so related sounds get visually related letters. [Hangul](hangul.md), the Korean script, is the most cited example; the Unicode Standard calls it a featural syllabic script.<sup>1</sup> That sets it apart from an ordinary [alphabet](alphabet.md), where the link between a letter's shape and its sound is arbitrary.
 
+While this glossary doesn't cover every script, here are some scripts described as featural to be aware of. Select a linked term to navigate to its glossary page.
+
+| Script                                                          | Languages                | Example |
+| -------------------------------------------------------------- | ------------------------ | ------- |
+| [Hangul](hangul.md)                                            | Korean                   |         |
+| [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut  |         |
+
 ### Why it matters in design systems
 
 Featural design shows that a script's shapes can carry linguistic structure directly, rather than assigning arbitrary symbols to sounds. In Hangul the consonant letters are traditionally described as suggesting the position of the tongue and lips, so related sounds look related; the letters are then grouped into square syllable blocks built from a set of alphabetic components, rather than written in a simple line.<sup>2</sup> [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) is also often described as featural, because rotating a consonant's symbol systematically encodes the following vowel (which is why it is sometimes called a featural abugida).

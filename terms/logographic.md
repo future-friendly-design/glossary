@@ -35,6 +35,13 @@ A logographic script uses symbols that stand for whole words or meaningful units
 
 For example, the Chinese character `山` writes the whole word "mountain", not the separate sounds in it.
 
+While this glossary doesn't cover every script, here are some logographic scripts to be aware of; fully logographic systems are rare, and Han characters are the main one in modern use. Select a linked term to navigate to its glossary page.
+
+| Script                            | Languages                       | Example |
+| --------------------------------- | ------------------------------- | ------- |
+| [Han characters](han-characters.md) | Chinese (also Japanese, Korean) | 山      |
+| Tangut                            | Tangut (historical)             |         |
+
 ### Why it matters in design systems
 
 The common shortcut is to call these characters "ideographic", as if each were a picture of an idea. That is mostly wrong: Han characters are tied to specific words and morphemes of a spoken language, and they represent them phonetically for the most part,<sup>3</sup> so [logographic](logographic.md) (or more precisely [logosyllabary](logosyllabary.md)) is the accurate term, not [ideographic](ideographic.md).
