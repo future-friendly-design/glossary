@@ -4,9 +4,7 @@ slug: mark
 aliases: []
 level: intermediate
 depth: deep
-summary: >-
-  A mark is a kind of symbol that modifies or accompanies another symbol,
-  changing how it is pronounced, what it means, or how it functions.
+summary: A mark is a kind of symbol that modifies or accompanies another symbol, changing how it is pronounced, what it means, or how it functions.
 related:
   - combining-mark
   - spacing-combining-mark
@@ -61,7 +59,7 @@ Like the [symbol](symbol.md) it attaches to, a mark is rarely where you make a d
 
 To a linguist, a mark changes a symbol's meaning or sound.
 
-To [typography](../../terms/typography.md), a mark is a [glyph](../../terms/glyph.md) the [font](../../terms/font.md) must both contain and position on its base, and how many marks stack on a letter is set by the language's [orthography](orthography.md), not the shared script: Vietnamese piles a vowel mark and a tone mark where French uses one,<sup>3</sup> so the same Latin script needs more [line height](../../terms/line-height.md) for Vietnamese than for French.
+To [typography](../../terms/typography.md), a mark is a [glyph](../../terms/glyph.md) the [font](../../terms/font.md) must both contain and position on its base, and how many marks stack on a letter is set by the language's [orthography](orthography.md), not the shared script: Vietnamese stacks two diacritics on one vowel where French uses one,<sup>2</sup> so the same Latin script needs more [line height](../../terms/line-height.md) for Vietnamese than for French.
 
 To a computer, a mark is a combining character: the same accented letter can be stored as a single [code point](../../terms/code-point.md) or as a base letter plus a combining mark, which quietly changes how text is searched, counted, and compared.
 
@@ -69,7 +67,7 @@ So covering the marks in the font is necessary, not sufficient: the [shaping](..
 
 ### Common mistake
 
-This one is about software, not type. A computer can store the same accented letter in more than one way: `é` as a single character, or as the letter `e` plus a separate combining mark. On screen they look identical, but to the computer they are different, so two words a person reads as the same can fail to match: a search misses them, a "remove duplicates" step keeps both, a character count comes out wrong. The fix is [normalization](../../terms/normalization.md): the computer rewrites the text into one standard form before it stores or compares it, so the two spellings become equal. This is a storage decision, separate from whether the font draws the mark correctly.<sup>2</sup>
+This one is about software, not type. A computer can store the same accented letter in more than one way: `é` as a single character, or as the letter `e` plus a separate combining mark. On screen they look identical, but to the computer they are different, so two words a person reads as the same can fail to match: a search misses them, a "remove duplicates" step keeps both, a character count comes out wrong. The fix is [normalization](../../terms/normalization.md): the computer rewrites the text into one standard form before it stores or compares it, so the two spellings become equal. This is a storage decision, separate from whether the font draws the mark correctly.<sup>3</sup>
 
 ### In practice
 
@@ -81,7 +79,7 @@ This one is about software, not type. A computer can store the same accented let
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Code point](../../terms/code-point.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](diacritic.md) · [Enclosing mark](../../programming-terms/enclosing-mark.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Matra](matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](nukta.md) · [Orthography](orthography.md) · [Punctuation mark](punctuation-mark.md) · [Script](script.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../programming-terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-shaping.md) · [Tone mark](tone-mark.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Virama](virama.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Code point](../../terms/code-point.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](diacritic.md) · [Enclosing mark](../../programming-terms/enclosing-mark.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Harakat](../../terms/harakat.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Matra](matra.md) · [Normalization](../../terms/normalization.md) · [Nukta](nukta.md) · [Orthography](orthography.md) · [Punctuation mark](punctuation-mark.md) · [Script](script.md) · [Script rules](script-rules.md) · [Spacing combining mark](../../programming-terms/spacing-combining-mark.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-shaping.md) · [Tone mark](tone-mark.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
@@ -91,5 +89,5 @@ This one is about software, not type. A computer can store the same accented let
 ### Sources
 
 1. Unicode's top-level General Category "Mark" (M) splits into nonspacing (Mn), spacing combining (Mc), and enclosing (Me) marks - Unicode Standard Annex #44: General Category Values [https://www.unicode.org/reports/tr44/#General\_Category\_Values](https://www.unicode.org/reports/tr44/#General_Category_Values)
-2. Normalization is a process of removing alternate representations of equivalent sequences from text, converting it into a form that can be binary-compared for equivalence - Unicode Glossary: Normalization [https://www.unicode.org/glossary/#normalization](https://www.unicode.org/glossary/#normalization)
-3. Vietnamese "Ẩ" (U+1EA8) decomposes to \<U+0041, U+0302, U+0309>, stacking two marks on one base, and not all rendering systems handle multiple marks on a single base - The Unicode Standard 17.0, Chapter 7 [https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/](https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/)
+2. Vietnamese "Ẩ" (U+1EA8) decomposes to \<U+0041, U+0302, U+0309>, two combining marks on one base letter, and some widely used implementations instead store the vowel letter and its tone mark separately - The Unicode Standard 17.0, Chapter 7 [https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/](https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/)
+3. Normalization is a process of removing alternate representations of equivalent sequences from text, converting it into a form that can be binary-compared for equivalence - Unicode Glossary: Normalization [https://www.unicode.org/glossary/#normalization](https://www.unicode.org/glossary/#normalization)
