@@ -53,7 +53,7 @@ So `café` can be stored two different ways that look identical on screen. Getti
 
 ### Related terms and mentions
 
-[Mark](mark.md) · [Tone mark](tone-mark.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Character](../../terms/character.md) · [Precomposed character](../../terms/precomposed-character.md) · [Normalization](../../terms/normalization.md) · [Font](../../terms/font.md)
+[Character](../../terms/character.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Font](../../terms/font.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Normalization](../../terms/normalization.md) · [Precomposed character](../../terms/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
@@ -62,4 +62,4 @@ So `café` can be stored two different ways that look identical on screen. Getti
 ### Sources
 
 1. Unicode defines a diacritic as a mark applied to a symbol, not only a letter - Unicode Glossary: Diacritic [https://www.unicode.org/glossary/#diacritic](https://www.unicode.org/glossary/#diacritic)
-2. Precomposed and decomposed spellings of an accented letter are canonically equivalent, and normalization removes the difference for comparison - Unicode Glossary: Canonical Equivalence [https://www.unicode.org/glossary/#canonical\_equivalence](https://www.unicode.org/glossary/#canonical_equivalence)
+2. Normalization is a process of removing alternate representations of equivalent sequences from text, converting it into a form that can be binary-compared for equivalence - Unicode Glossary: Normalization [https://www.unicode.org/glossary/#normalization](https://www.unicode.org/glossary/#normalization)
