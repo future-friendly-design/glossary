@@ -5,7 +5,7 @@ aliases: []
 level: intermediate
 depth: core
 entry_type: pointer
-summary: Alphasyllabary is another name for an abugida, a script where each consonant carries an inherent vowel that is changed by added marks.
+summary: Alphasyllabary is another name for an abugida, a script where each consonant carries an inherent vowel that is changed by adding marks.
 related:
   - abugida
 status: voice-passed
@@ -26,7 +26,7 @@ tags:
 
 ## Definition
 
-Alphasyllabary is another name for an [abugida](abugida.md): a [script](../language-terms/writing-systems-and-scripts/script.md) where each consonant carries an inherent vowel that is changed by adding marks.<sup>1</sup> The two terms are interchangeable; this glossary uses abugida as the main entry. See [abugida](abugida.md) for the full definition, the Devanagari example, and what it means for shaping and layout.
+Alphasyllabary is another name for an [abugida](abugida.md), a [script](../language-terms/writing-systems-and-scripts/script.md) where each consonant carries an inherent vowel that is changed by adding marks.<sup>1</sup> The two terms are interchangeable; this glossary uses abugida as the main entry. See [abugida](abugida.md) for the full definition, the Devanagari example, and what it means for shaping and layout.
 
 ***
 

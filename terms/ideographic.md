@@ -29,7 +29,7 @@ tags:
 
 ## Definition
 
-An ideographic symbol stands for an idea or concept directly, rather than for the sounds of a word; Unicode's example is `♻`, which denotes the concept of recycling.<sup>1</sup> As a [script](../language-terms/writing-systems-and-scripts/script.md) classification it would sit alongside [logographic](logographic.md), [alphabet](alphabet.md), and the other type categories, with one crucial difference: no complete writing system is actually ideographic.
+An ideographic symbol stands for an idea or concept directly, rather than for the sounds of a word. Unicode's example is `♻`, which denotes the concept of recycling.<sup>1</sup> As a [script](../language-terms/writing-systems-and-scripts/script.md) classification it would sit alongside [logographic](logographic.md), [alphabet](alphabet.md), and the other type categories, with one crucial difference: no complete writing system is actually ideographic.
 
 ### Why it matters in design systems
 
@@ -49,6 +49,6 @@ Getting this right is both an accuracy and a respect issue when you write docume
 
 ### Sources
 
-1. "Any symbol that primarily denotes an idea or concept in contrast to a sound or pronunciation - for example, ♻, which denotes the concept of recycling." - Unicode Glossary: Ideograph [https://www.unicode.org/glossary/#ideograph](https://www.unicode.org/glossary/#ideograph)
-2. "Chinese characters represent words (or better, morphemes), not ideas, and they represent them phonetically, for the most part, as do all real writing systems." - John DeFrancis, The Ideographic Myth [https://www.pinyin.info/readings/texts/ideographic_myth.html](https://www.pinyin.info/readings/texts/ideographic_myth.html)
+1. "Any symbol that primarily denotes an idea or concept in contrast to a sound or pronunciation" (the entry's example is ♻, the recycling concept) - Unicode Glossary: Ideograph [https://www.unicode.org/glossary/#ideograph](https://www.unicode.org/glossary/#ideograph)
+2. "Chinese characters represent words (or better, morphemes), not ideas, and they represent them phonetically, for the most part, as do all real writing systems…" - John DeFrancis, The Ideographic Myth [https://www.pinyin.info/readings/texts/ideographic_myth.html](https://www.pinyin.info/readings/texts/ideographic_myth.html)
 3. "Taken literally, the word 'ideograph' applies only to some of the ancient original character forms... The vast majority of Han characters were developed later via composition, borrowing, and other non-ideographic principles, but the term 'Han ideographs' remains in English usage as a conventional cover term for the script as a whole." - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)

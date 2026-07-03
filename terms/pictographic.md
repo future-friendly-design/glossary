@@ -29,7 +29,7 @@ tags:
 
 ## Definition
 
-A pictographic symbol conveys meaning through a stylized picture of the thing it represents, rather than by spelling out sounds; Unicode's example is `✈`, which denotes an airplane by a conventional visual likeness.<sup>1</sup> As a [script](../language-terms/writing-systems-and-scripts/script.md) category it is the historical precursor to writing, and it is distinct from an [ideographic](ideographic.md) symbol (an idea, shown more abstractly) and a [logographic](logographic.md) character (a specific word or morpheme of a language).
+A pictographic symbol conveys meaning through a stylized picture of the thing it represents, rather than by spelling out sounds. Unicode's example is `✈`, which denotes an airplane by a conventional visual likeness.<sup>1</sup> As a [script](../language-terms/writing-systems-and-scripts/script.md) category it is the historical precursor to writing, and it is distinct from an [ideographic](ideographic.md) symbol (an idea, shown more abstractly) and a [logographic](logographic.md) character (a specific word or morpheme of a language).
 
 ### Why it matters in design systems
 
@@ -57,4 +57,4 @@ Assuming a picture is universally understood. Pictographic legibility is cultura
 
 ### Sources
 
-1. "Any symbol that denotes an object by means of a more or less conventional visual likeness - for example, ✈." - Unicode Glossary: Pictograph [https://www.unicode.org/glossary/#pictograph](https://www.unicode.org/glossary/#pictograph)
+1. "Any symbol that denotes an object by means of a more or less conventional visual likeness" (the entry's example is ✈, an airplane) - Unicode Glossary: Pictograph [https://www.unicode.org/glossary/#pictograph](https://www.unicode.org/glossary/#pictograph)

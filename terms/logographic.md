@@ -6,7 +6,7 @@ aliases:
   - logogram
 level: intermediate
 depth: core
-summary: A logographic script uses symbols that stand for whole words or meaningful units rather than for sounds alone.
+summary: A logographic script uses symbols that stand for whole words or meaningful units (morphemes) rather than for sounds alone.
 related:
   - syllabary
   - alphabet
@@ -61,5 +61,5 @@ For type and product work the defining consequence is scale. A logographic scrip
 ### Sources
 
 1. "Any symbol that primarily represents a word (or morpheme) in contrast to a sound or pronunciation." - Unicode Glossary: Logogram [https://www.unicode.org/glossary/#logogram](https://www.unicode.org/glossary/#logogram)
-2. "They are logographic (each character represents a word, not just a sound) characters that developed from pictographic and ideographic principles." - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-3. "Chinese characters represent words (or better, morphemes), not ideas, and they represent them phonetically, for the most part, as do all real writing systems." - John DeFrancis, The Ideographic Myth [https://www.pinyin.info/readings/texts/ideographic_myth.html](https://www.pinyin.info/readings/texts/ideographic_myth.html)
+2. "They are logographic (each character represents a word, not just a sound) characters that developed from pictographic and ideographic principles." (Chapter 18 reproduces this from the dictionary Kōjien) - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+3. "Chinese characters represent words (or better, morphemes), not ideas, and they represent them phonetically, for the most part, as do all real writing systems…" - John DeFrancis, The Ideographic Myth [https://www.pinyin.info/readings/texts/ideographic_myth.html](https://www.pinyin.info/readings/texts/ideographic_myth.html)

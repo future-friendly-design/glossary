@@ -16,8 +16,8 @@ updated: 2026-06-22
 contributors:
   - sam-gordashko
 further_reading:
-  - title: 'Unicode Glossary: Logogram'
-    url: https://www.unicode.org/glossary/#logogram
+  - title: 'Unicode Glossary: Logosyllabary'
+    url: https://www.unicode.org/glossary/#logosyllabary
     type: authority
 license: CC-BY-4.0
 tags:
@@ -28,7 +28,7 @@ tags:
 
 ## Definition
 
-Logosyllabary (also morphosyllabary) is a more precise name for a [logographic](logographic.md) system such as Chinese: each character stands for a word or morpheme and, at the same time, for a spoken syllable. Unicode calls the unit of such a system the unit of writing of a "logosyllabic writing system".<sup>1</sup> The plain label "logographic" leaves that syllable part out. See [logographic](logographic.md) for the full entry, the [Han characters](han-characters.md) example, and what the scale means for fonts and input.
+Logosyllabary is a more precise name for a [logographic](logographic.md) system like Chinese, where each character stands for a word or morpheme and also for a syllable. It is also called a morphosyllabary. Unicode defines a logosyllabary as a writing system whose units "are used primarily to write words and/or morphemes of words, with some subsidiary usage to represent just syllabic sounds", with Han as the best example.<sup>1</sup> The plain label "logographic" leaves the syllable part out; see [logographic](logographic.md) for the full entry, the [Han characters](han-characters.md) example, and what the scale means for fonts and input.
 
 ***
 
@@ -38,8 +38,8 @@ Logosyllabary (also morphosyllabary) is a more precise name for a [logographic](
 
 ### Further reading
 
-* Foundations: [Unicode Glossary: Logogram](https://www.unicode.org/glossary/#logogram)
+* Foundations: [Unicode Glossary: Logosyllabary](https://www.unicode.org/glossary/#logosyllabary)
 
 ### Sources
 
-1. "A generic term for the unit of writing of a logosyllabic writing system." - Unicode Glossary: Logogram [https://www.unicode.org/glossary/#logogram](https://www.unicode.org/glossary/#logogram)
+1. "A writing system in which the units are used primarily to write words and/or morphemes of words, with some subsidiary usage to represent just syllabic sounds. The best example is the Han script." - Unicode Glossary: Logosyllabary [https://www.unicode.org/glossary/#logosyllabary](https://www.unicode.org/glossary/#logosyllabary)
