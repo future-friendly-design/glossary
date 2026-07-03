@@ -6,7 +6,7 @@ aliases:
   - syllable dot
 level: intermediate
 depth: core
-summary: The tsheg is a small dot used in Tibetan script to separate syllables.
+summary: The tsheg is a punctuation symbol used in Tibetan script to separate syllables.
 related:
   - complex-text-layout
   - stacking-script
@@ -16,8 +16,8 @@ updated: 2026-06-18T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
-  - title: Requirements for Tibetan Text Layout (W3C)
-    url: https://www.w3.org/TR/tlreq/
+  - title: Tibetan Script Resources (W3C)
+    url: https://www.w3.org/TR/tibt-lreq/
     type: authority
 license: CC-BY-4.0
 tags:
@@ -29,7 +29,7 @@ tags:
 
 ## Definition
 
-The tsheg is a small dot used in Tibetan script to separate syllables.
+The tsheg is a punctuation symbol used in Tibetan script to separate syllables.
 
 For example, the dot between the syllables in [Tibetan](../../terms/tibetan-script.md) `བོད་ཡིག` is a tsheg.
 
@@ -47,8 +47,8 @@ So for a design system, the tsheg is what line breaking and word finding have to
 
 ### Further reading
 
-* Foundations: [Requirements for Tibetan Text Layout (W3C)](https://www.w3.org/TR/tlreq/)
+* Foundations: [Tibetan Script Resources (W3C)](https://www.w3.org/TR/tibt-lreq/)
 
 ### Sources
 
-1. Tibetan words comprise units called tsheg-bar (phonological syllables), separated using the mark U+0F0B Tibetan Mark Intersyllabic Tsheg - Requirements for Tibetan Text Layout (W3C) [https://www.w3.org/TR/tlreq/](https://www.w3.org/TR/tlreq/)
+1. Tibetan words comprise units called tsheg-bar, basically phonological syllables, separated using the character U+0F0B (Unicode name: Tibetan Mark Intersyllabic Tsheg) - Tibetan Script Resources (W3C) [https://www.w3.org/TR/tibt-lreq/](https://www.w3.org/TR/tibt-lreq/)
