@@ -77,7 +77,7 @@ Assuming that marking the block right to left is enough, and the algorithm will 
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](../../terms/hebrew-script.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](left-to-right.md) · [Right-to-left](right-to-left.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](../../terms/hebrew-script.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
