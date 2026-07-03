@@ -4,7 +4,7 @@ slug: nukta
 aliases: []
 level: advanced
 depth: core
-summary: A nukta is a dot added below a consonant in many Indic scripts to extend the script to sounds the base letters do not cover.
+summary: A nukta is a dot-shaped mark added below a consonant in many Indic scripts to extend the script to sounds the base letters do not cover.
 related:
   - matra
   - virama
@@ -32,7 +32,7 @@ tags:
 
 ## Definition
 
-A nukta is a dot added below a consonant in many Indic scripts to extend the script to sounds the base letters do not cover.
+A nukta is a dot-shaped mark added below a consonant in many Indic scripts to extend the script to sounds the base letters do not cover.
 
 For example, in [Devanagari](../../terms/devanagari.md) `क` (ka) plus a nukta becomes `क़` (qa), a sound that mainly came in through loanwords.
 
@@ -44,7 +44,7 @@ A nukta (the word means "dot") is a small [combining mark](../../programming-ter
 
 ### Related terms and mentions
 
-[Abugida](../../terms/abugida.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](diacritic.md) · [Language](../linguistics/language.md) · [Mark](mark.md) · [Matra](matra.md) · [Normalization](../../terms/normalization.md) · [Precomposed character](../../terms/precomposed-character.md) · [Script](script.md) · [Virama](virama.md) · [Writing systems & scripts](./)
+[Abugida](../../terms/abugida.md) · [Combining mark](../../programming-terms/combining-mark.md) · [Devanagari](../../terms/devanagari.md) · [Diacritic](diacritic.md) · [Language](../linguistics/language.md) · [Mark](mark.md) · [Matra](matra.md) · [Normalization](../../terms/normalization.md) · [Precomposed character](../../terms/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Virama](virama.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
