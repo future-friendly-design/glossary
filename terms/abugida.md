@@ -5,9 +5,7 @@ aliases:
   - alphasyllabary
 level: intermediate
 depth: core
-summary: >-
-  An abugida is a script where each consonant carries a built-in vowel that is
-  changed by adding marks.
+summary: An abugida is a script where each consonant carries a built-in vowel that is changed by adding marks.
 related:
   - alphabet
   - abjad
@@ -32,20 +30,29 @@ tags:
 
 ## Definition
 
-An abugida is a script where each consonant carries a built-in vowel that is changed by adding marks.
+An abugida is a [script](../language-terms/writing-systems-and-scripts/script.md) where each consonant carries a built-in vowel that is changed by adding marks.<sup>1</sup> That makes it a middle path between an [alphabet](alphabet.md), which gives consonants and vowels their own separate letters,<sup>2</sup> and an [abjad](abjad.md), where vowels are usually left unwritten.<sup>3</sup> An abugida is also called an alphasyllabary. Most [Brahmic scripts](brahmic-scripts.md), the family that includes [Devanagari](devanagari.md), are abugidas.
 
-## Why it matters
+For example, in Devanagari the consonant `क` (ka) carries an inherent "a"; adding the i-matra writes `कि` (ki). The [matra](../language-terms/writing-systems-and-scripts/matra.md) is typed after `क` but displays to its left, so software has to reorder it for display.<sup>4</sup>
 
-Unlike an [alphabet](alphabet.md), which gives consonants and vowels separate letters, an abugida attaches vowel marks to a base consonant that has a default inherent vowel. Most [Brahmic scripts](brahmic-scripts.md), such as Devanagari and Thai, work this way. This matters for layout because those attached vowel marks (called [matra](../language-terms/writing-systems-and-scripts/matra.md)s) can sit to the left, right, above, or below the consonant, and one typed after its consonant may need to display before it. That reordering and mark placement is why abugidas need real shaping support rather than simple left-to-right glyph placement.
+### Why it matters in design systems
 
-## Example
+The built-in vowel is the whole reason an abugida cannot be treated as a row of letters placed left to right. Its vowel [matra](../language-terms/writing-systems-and-scripts/matra.md)s can sit to the left, right, above, or below the consonant they belong to, and one typed after its consonant may need to display before it. That is [reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md), and it is a hallmark of [complex text layout](complex-text-layout.md): the order text is stored in is not the order it is drawn in.
 
-In Devanagari, the consonant "k" carries an inherent "a"; a vowel mark changes it to "ki" or "ku".
+So an abugida needs real shaping support, not simple glyph-after-glyph placement, and a font passing a character-grid check can still lay these scripts out wrongly if its shaping rules are missing. When you scope support for a Brahmic language, treat the mark placement and reordering as the work, not an afterthought to picking a typeface with the right glyphs.
 
-## Related terms
+***
 
-[Alphabet](alphabet.md) · [Abjad](abjad.md) · [Syllabary](syllabary.md) · [Brahmic scripts](brahmic-scripts.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md)
+### Related terms and mentions
 
-## Further reading
+[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Brahmic scripts](brahmic-scripts.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Syllabary](syllabary.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+
+### Further reading
 
 * Foundations: [Unicode Glossary: Abugida](https://www.unicode.org/glossary/#abugida)
+
+### Sources
+
+1. An abugida's base letters carry an inherent vowel that additional distinguishing marks change - Unicode Glossary: Abugida [https://www.unicode.org/glossary/#abugida](https://www.unicode.org/glossary/#abugida)
+2. An alphabet indicates both consonants and vowels - Unicode Glossary: Alphabet [https://www.unicode.org/glossary/#alphabet](https://www.unicode.org/glossary/#alphabet)
+3. An abjad indicates only consonants - Unicode Glossary: Abjad [https://www.unicode.org/glossary/#abjad](https://www.unicode.org/glossary/#abjad)
+4. In Devanagari the i-matra is stored after its consonant but displayed to its left, so it must be reordered for display - Microsoft: Developing OpenType Fonts for Devanagari Script [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
