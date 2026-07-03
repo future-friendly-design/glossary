@@ -1,45 +1,54 @@
 ---
 term: Ideographic
 slug: ideographic
-aliases: [ideogram]
-tags: [writing-systems-scripts]
+aliases:
+  - ideogram
 level: intermediate
-depth: deep
-summary: "An ideographic sign represents an idea or concept directly, rather than spelling out the sounds of a word."
-related: [logographic, pictographic, logosyllabary, han-characters]
+depth: core
+summary: An ideographic symbol stands for an idea or concept directly, rather than for the sounds of a word.
+related:
+  - logographic
+  - pictographic
+  - logosyllabary
+  - han-characters
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-22
-contributors: [sam-gordashko]
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "The Ideographic Myth (John DeFrancis)"
+  - title: 'The Ideographic Myth (John DeFrancis)'
     url: https://www.pinyin.info/readings/texts/ideographic_myth.html
     type: authority
 license: CC-BY-4.0
+tags:
+  - writing-systems-scripts
 ---
 
 # Ideographic
 
 ## Definition
-An ideographic sign represents an idea or concept directly, rather than spelling out the sounds of a word.
 
-## Why it matters
-As a script classification, "ideographic" would name a writing system whose signs stand for ideas directly, sitting alongside [logographic](logographic.md), [alphabet](alphabet.md), and the other type categories. The catch is that no full writing system is actually ideographic, which is also why it is one of the most misused terms in the vocabulary. The misuse has a specific home: people routinely call Chinese characters "ideographic," meaning each character is a little picture of an idea understood independently of any language. That is mostly wrong. Chinese characters are tied to specific words and morphemes of spoken Chinese, and most contain a component that hints at pronunciation, so the precise term is [logographic](logographic.md) (or more precisely still, [logosyllabary](logosyllabary.md)), not ideographic. True ideographs, signs for a concept with no commitment to a particular word or its sounds, exist only as scattered individual symbols, never as a complete writing system.
+An ideographic symbol stands for an idea or concept directly, rather than for the sounds of a word; Unicode's example is `♻`, which denotes the concept of recycling.<sup>1</sup> As a [script](../language-terms/writing-systems-and-scripts/script.md) classification it would sit alongside [logographic](logographic.md), [alphabet](alphabet.md), and the other type categories, with one crucial difference: no complete writing system is actually ideographic.
 
-## Example
-A "no entry" road sign is close to a genuine ideograph: it stands for the prohibition itself, not for any particular word, so speakers of different languages read the same idea from it.
+### Why it matters in design systems
 
-## Common mistake
-Describing Chinese (or Japanese kanji) as "ideographic." The characters represent words and morphemes of a specific language, not free-floating ideas, which is why a reader still has to know the language. Reach for [logographic](logographic.md) when you mean "characters stand for words." The label survives in a few technical names (Unicode's "CJK Unified Ideographs" block, the older term "ideograph"), but those names are historical, not an endorsement of the analysis.
+Because no full writing system is ideographic, this is one of the most misused terms in the vocabulary, and the misuse has a specific home. People routinely call [Han characters](han-characters.md) "ideographic", meaning each character is a little picture of an idea understood independently of any language. That is mostly wrong: Han characters are tied to specific words and morphemes and represent them phonetically for the most part,<sup>2</sup> so the accurate term is [logographic](logographic.md), or more precisely [logosyllabary](logosyllabary.md). Even Unicode, whose "CJK Unified Ideographs" block keeps the older word, notes that "the term 'Han ideographs' remains in English usage as a conventional cover term for the script as a whole",<sup>3</sup> not a claim that the characters denote ideas.
 
-## In practice
-- **Use logographic for Chinese characters:** when you are writing documentation, specs, or UI copy about [Han characters](han-characters.md), "logographic" is the accurate description and avoids spreading the misnomer.
-- **Reserve ideographic for genuinely language-independent signs:** some symbols (certain mathematical, cartographic, or safety symbols) come closer to the ideographic ideal, and that is where the word fits.
+Getting this right is both an accuracy and a respect issue when you write documentation, specs, or UI copy about East Asian text: reach for logographic when you mean "characters stand for words". Reserve ideographic for genuinely language-independent symbols, the kind Unicode illustrates with the recycling mark, such as some mathematical, cartographic, or safety symbols, where the concept reads the same whatever language you speak.
 
-## Related terms
-[Logographic](logographic.md) · [Pictographic](pictographic.md) · [Logosyllabary](logosyllabary.md) · [Han characters](han-characters.md)
+***
 
-## Further reading
-- Foundations: [The Ideographic Myth (John DeFrancis)](https://www.pinyin.info/readings/texts/ideographic_myth.html)
+### Related terms and mentions
 
-<!-- NEEDS EXPERT REVIEW: primary source is DeFrancis, "The Ideographic Myth." The claim that no full writing system is ideographic follows DeFrancis and the writing-systems consensus (see also Daniels & Bright, The World's Writing Systems); SILCON cohort to confirm the wording and that "ideographic" is framed as a sign-level category, not a viable full-script type. -->
+[Alphabet](alphabet.md) · [Han characters](han-characters.md) · [Logographic](logographic.md) · [Logosyllabary](logosyllabary.md) · [Pictographic](pictographic.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+
+### Further reading
+
+* Foundations: [The Ideographic Myth (John DeFrancis)](https://www.pinyin.info/readings/texts/ideographic_myth.html)
+
+### Sources
+
+1. "Any symbol that primarily denotes an idea or concept in contrast to a sound or pronunciation - for example, ♻, which denotes the concept of recycling." - Unicode Glossary: Ideograph [https://www.unicode.org/glossary/#ideograph](https://www.unicode.org/glossary/#ideograph)
+2. "Chinese characters represent words (or better, morphemes), not ideas, and they represent them phonetically, for the most part, as do all real writing systems." - John DeFrancis, The Ideographic Myth [https://www.pinyin.info/readings/texts/ideographic_myth.html](https://www.pinyin.info/readings/texts/ideographic_myth.html)
+3. "Taken literally, the word 'ideograph' applies only to some of the ancient original character forms... The vast majority of Han characters were developed later via composition, borrowing, and other non-ideographic principles, but the term 'Han ideographs' remains in English usage as a conventional cover term for the script as a whole." - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
