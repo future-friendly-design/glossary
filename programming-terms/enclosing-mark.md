@@ -44,7 +44,7 @@ The enclosing mark is the third and last member of [Unicode](../terms/unicode.md
 
 ### Related terms and mentions
 
-[Combining mark](combining-mark.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Character](../terms/character.md) · [Spacing combining mark](spacing-combining-mark.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Unicode](../terms/unicode.md)
+[Character](../terms/character.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](../terms/grapheme-cluster.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Spacing combining mark](spacing-combining-mark.md) · [Unicode](../terms/unicode.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
