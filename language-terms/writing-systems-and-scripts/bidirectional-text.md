@@ -41,7 +41,7 @@ tags:
 
 ## Definition
 
-Bidirectional text refers to the [text direction](text-direction.md) [script rule](script-rules.md) where both [left-to-right (LTR) ](left-to-right.md)and [right-to-left (RTL)](right-to-left.md) text appears in the same line.&#x20;
+Bidirectional text refers to both [left-to-right (LTR) ](left-to-right.md)and [right-to-left (RTL)](right-to-left.md) text appearing in the same line. This happens when content following one [text direction](text-direction.md) [script rule](script-rules.md), such as right-to-left Arabic, shares a line with content running the opposite direction, such as a Latin-script brand name or a number.
 
 For example, a line like `مرحبا iPhone 2026` mixes an Arabic greeting (right to left) with a Latin-script brand name and digits (left to right).
 
