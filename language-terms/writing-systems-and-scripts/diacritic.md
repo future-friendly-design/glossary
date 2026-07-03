@@ -6,9 +6,7 @@ aliases:
   - accent
 level: foundational
 depth: core
-summary: >-
-  A diacritic is a small mark added to a symbol to change its pronunciation or
-  meaning.
+summary: A diacritic is a small mark added to a symbol to change its pronunciation or meaning.
 related:
   - mark
   - tone-mark

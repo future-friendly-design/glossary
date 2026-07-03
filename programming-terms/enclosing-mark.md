@@ -4,9 +4,7 @@ slug: enclosing-mark
 aliases: []
 level: advanced
 depth: core
-summary: >-
-  An enclosing mark is a combining character that surrounds the base character
-  it attaches to, such as an enclosing circle or square.
+summary: An enclosing mark is a combining character that surrounds the base character it attaches to, such as an enclosing circle or square.
 related:
   - combining-mark
   - mark

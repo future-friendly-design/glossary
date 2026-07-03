@@ -8,9 +8,7 @@ aliases:
   - pulli
 level: advanced
 depth: core
-summary: >-
-  A virama is a mark in Brahmic scripts that cancels the vowel sound built into
-  a consonant.
+summary: A virama is a mark in Brahmic scripts that cancels the vowel sound built into a consonant.
 related:
   - mark
   - conjunct

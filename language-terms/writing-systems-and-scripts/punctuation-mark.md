@@ -4,9 +4,7 @@ slug: punctuation-mark
 aliases: []
 level: foundational
 depth: core
-summary: >-
-  A punctuation mark is a symbol such as a comma, period, or question mark that
-  structures written text rather than representing a sound.
+summary: A punctuation mark is a symbol such as a comma, period, or question mark that structures written text rather than representing a sound.
 related:
   - mark
   - symbol

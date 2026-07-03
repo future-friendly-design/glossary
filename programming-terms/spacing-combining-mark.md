@@ -5,9 +5,7 @@ aliases:
   - spacing mark
 level: advanced
 depth: core
-summary: >-
-  A spacing combining mark is a combining character that takes up its own
-  horizontal width while still belonging to the base character it attaches to.
+summary: A spacing combining mark is a combining character that takes up its own horizontal width while still belonging to the base character it attaches to.
 related:
   - combining-mark
   - mark

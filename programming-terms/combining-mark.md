@@ -5,9 +5,7 @@ aliases:
   - combining character
 level: intermediate
 depth: core
-summary: >-
-  A combining mark is a character that attaches to the one before it, such as an
-  accent.
+summary: A combining mark is a character that attaches to the one before it, such as an accent.
 related:
   - mark
   - diacritic

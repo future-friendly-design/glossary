@@ -6,9 +6,7 @@ aliases:
   - arabic vowel marks
 level: advanced
 depth: core
-summary: >-
-  Harakat are the optional vowel marks of the Arabic script, written above and
-  below the consonants to show short vowels.
+summary: Harakat are the optional vowel marks of the Arabic script, written above and below the consonants to show short vowels.
 related:
   - arabic-script
   - abjad

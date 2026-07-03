@@ -4,9 +4,7 @@ slug: nukta
 aliases: []
 level: advanced
 depth: core
-summary: >-
-  A nukta is a dot added below a consonant in many Indic scripts to extend the
-  script to sounds the base letters do not cover.
+summary: A nukta is a dot added below a consonant in many Indic scripts to extend the script to sounds the base letters do not cover.
 related:
   - matra
   - virama

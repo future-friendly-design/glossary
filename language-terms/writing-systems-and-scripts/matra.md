@@ -5,9 +5,7 @@ aliases:
   - dependent vowel
 level: advanced
 depth: core
-summary: >-
-  A matra is a mark added to a consonant in a Brahmic script to write the vowel
-  that goes with it.
+summary: A matra is a mark added to a consonant in a Brahmic script to write the vowel that goes with it.
 related:
   - mark
   - reordering
