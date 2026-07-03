@@ -51,7 +51,7 @@ A virama is a kind of [mark](mark.md). In an [abugida](../../terms/abugida.md), 
 
 ### Related terms and mentions
 
-[Mark](mark.md) · [Abugida](../../terms/abugida.md) · [Conjunct](conjunct.md) · [Reph](reph.md) · [Matra](matra.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md)
+[Abugida](../../terms/abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Mark](mark.md) · [Matra](matra.md) · [Reordering](../../programming-terms/reordering.md) · [Reph](reph.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
