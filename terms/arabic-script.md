@@ -3,31 +3,35 @@ term: Arabic script
 slug: arabic-script
 aliases:
   - arabic
+  - arabic alphabet
 level: intermediate
-depth: deep
-summary: >-
-  The Arabic script is a right-to-left abjad whose letters join cursively and
-  change shape depending on their position in a word.
+depth: core
+summary: The Arabic script is a script used to write Arabic, Persian, Urdu, and many other languages of the Middle East, South Asia, and Africa.
 related:
   - abjad
   - hebrew-script
+  - joining
   - harakat
   - bidirectional-text
-  - text-direction
-  - ligature
   - complex-text-layout
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-22T00:00:00.000Z
+updated: 2026-07-04
 contributors:
   - sam-gordashko
 further_reading:
   - title: Developing OpenType Fonts for Arabic Script (Microsoft)
     url: https://learn.microsoft.com/en-us/typography/script-development/arabic
     type: code
-  - title: Arabic script (Wikipedia)
-    url: https://en.wikipedia.org/wiki/Arabic_script
+  - title: Noto Sans Arabic (Google Fonts)
+    url: https://fonts.google.com/noto/specimen/Noto+Sans+Arabic
+    type: design-tool
+  - title: 'Unicode Arabic code chart (U+0600)'
+    url: https://www.unicode.org/charts/PDF/U0600.pdf
     type: authority
+  - title: Bidirectionality and RTL (Material Design 3)
+    url: https://m3.material.io/foundations/layout/bidirectionality-rtl
+    type: resource
 license: CC-BY-4.0
 tags:
   - writing-systems-scripts
@@ -37,30 +41,70 @@ tags:
 
 ## Definition
 
-The Arabic script is a right-to-left abjad whose letters join cursively and change shape depending on their position in a word.
+The Arabic script is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Arabic, Persian, Urdu, and many other languages of the Middle East, South Asia, and Africa.<sup>1</sup> It is an [abjad](../language-terms/writing-systems-and-scripts/abjad.md): short vowels are normally left out for the reader to supply, though they can be shown with optional marks.<sup>2</sup>
 
-## Why it matters
+For example, the greeting مرحبا ("marhaba", "hello") is written as a run of consonants that join into cursive forms the way the script does throughout.
 
-The Arabic script is an [abjad](../language-terms/writing-systems-and-scripts/abjad.md), a script that writes consonants and long vowels while short vowels are normally left out, and it runs right to left. If your product has only ever shown Latin text, this is where two of those Latin assumptions break. First, Arabic is cursive: most letters connect to their neighbors, and one letter takes a different shape depending on whether it stands alone or sits at the start, middle, or end of a word. Second, because it runs right to left, the moment a Latin name, number, or symbol shares a line you are also handling [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md). So supporting Arabic is a question about shaping and layout, not just whether your font has the letters. It is also one of the most widely used scripts in the world, which makes it a high-value coverage target.
+The Arabic script is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
-## Example
+### At a glance
 
-Take a single Arabic letter and watch it change by position. On its own it has an isolated form; at the start of a word an initial form; in the middle a medial form; at the end a final form. It is the same stored character every time, and the shaper picks the right one automatically from the letters around it.
+| Property | Arabic script |
+| --- | --- |
+| Script type | [Abjad](../language-terms/writing-systems-and-scripts/abjad.md) |
+| Autonym | العربية |
+| Symbols | consonants and long vowels, with short vowels normally unwritten |
+| Marks | [harakat](../language-terms/writing-systems-and-scripts/harakat.md) (short-vowel marks) and other tashkil such as shadda and sukun |
+| Letter case | None (no uppercase and lowercase) |
+| Numerals | Arabic-Indic digits ٠ to ٩ (Persian and Urdu use a separate Extended Arabic-Indic set ۰ to ۹); common ASCII digits also appear |
+| Unicode block | Arabic, [U+0600 to U+06FF](https://www.unicode.org/charts/PDF/U0600.pdf) (plus Arabic Supplement, Arabic Extended, and Arabic Presentation Forms) |
+| [Complex text layout](complex-text-layout.md) | Yes, shaping required |
+| Languages | Arabic, Persian, Urdu, Pashto, Sindhi, Uyghur, and many others |
 
-## Common mistake
+### Script rules and features
 
-Treating Arabic like a Latin string with the direction flipped. Applying uniform [letter spacing](letter-spacing.md) pulls joined letters apart and breaks the cursive connection; faking a bold weight distorts the stroke shapes; and assuming the text is right to left "everywhere" scrambles embedded Latin words, numbers, and punctuation when the [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) handling is not set up. A font can contain every Arabic code point and still render words wrongly if its shaping rules are missing.
+Script rules apply to any language that uses the Arabic script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
 
-## In practice
+| Rule or feature | How it works in the Arabic script |
+| --- | --- |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Right to left; a Latin word or number that shares a line follows the [bidirectional](../language-terms/writing-systems-and-scripts/bidirectional-text.md) algorithm |
+| [Joining](../language-terms/writing-systems-and-scripts/joining.md) | letters connect cursively, most taking an isolated, initial, medial, or final form depending on their position in the word |
+| [Ligature](ligature.md) (lam-alef) | the lam-alef combination forms an obligatory ligature, present in almost all fonts |
+| [Harakat](../language-terms/writing-systems-and-scripts/harakat.md) | optional short-vowel marks sit above and below the consonants and are normally omitted |
 
-* **Verify shaping, not just glyph coverage:** the [joining](../language-terms/writing-systems-and-scripts/joining.md) behavior and contextual forms live in the font's OpenType shaping rules, so test real words and not just a character grid. See Microsoft's [guidance on developing OpenType fonts for Arabic script](https://learn.microsoft.com/en-us/typography/script-development/arabic) for what the shaper has to do.
-* **Plan for bidirectional layout from the start:** mirror your interface for right-to-left, and isolate embedded Latin or numeric runs so they do not reorder incorrectly. This connects to [text direction](../language-terms/writing-systems-and-scripts/text-direction.md) and [bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md).
-* **Short vowels are optional marks:** when vowel marks ([harakat](../language-terms/writing-systems-and-scripts/harakat.md)) are shown, they are combining marks layered on the consonants, which affects search, matching, and input. Whether and where they appear is language and context specific, so treat it as expert-verified.
+### Why it matters in design systems
 
-## Related terms
+Treat this entry as a starting playbook for the Arabic script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Arabic coverage, because the rules above will not render without it.
 
-[Abjad](../language-terms/writing-systems-and-scripts/abjad.md) · [Hebrew script](hebrew-script.md) · [Harakat](../language-terms/writing-systems-and-scripts/harakat.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Ligature](ligature.md) · [Complex text layout](complex-text-layout.md)
+Where you cannot be creative is the script rules. Text runs right to left, so a Latin word or number that shares a line is [bidirectional](../language-terms/writing-systems-and-scripts/bidirectional-text.md) and has to be reordered to read correctly.<sup>3</sup> Letters join cursively, so most take a different isolated, initial, medial, or final form depending on where they sit in the word,<sup>4</sup> and the lam-alef combination forms an obligatory [ligature](ligature.md).<sup>5</sup> These are shaping requirements, carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), the step that turns stored characters into positioned glyphs.<sup>6</sup> They are not styling choices: with a tool or font that cannot shape, the letters stand apart instead of connecting, so the text renders wrongly, not just unstyled.
 
-## Further reading
+Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows (you cannot add [letter spacing](letter-spacing.md) that pulls the joined letters apart) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since a typeface or style that suits Arabic may not suit Urdu, which is traditionally set in the flowing nastaliq style. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
-* Foundations: [Arabic script (Wikipedia)](https://en.wikipedia.org/wiki/Arabic_script)
+### In practice
+
+* **Cover the script before you commit a typeface:** confirm the font ships the Arabic glyphs AND the shaping rules (the four positional forms, the lam-alef ligature, mark placement), not just the base letters. [Noto Sans Arabic](https://fonts.google.com/noto/specimen/Noto+Sans+Arabic) is a free, open-licensed option, and [Noto](noto-fonts.md) reaches scripts where commercial fonts are scarce. See [font coverage](font-coverage.md).
+* **Test with a real word, not a glyph grid:** type a connected word such as كتب and confirm the letters join and pick up their positional forms; then test a line that mixes an Arabic phrase with a Latin name or a number and confirm the [bidirectional](../language-terms/writing-systems-and-scripts/bidirectional-text.md) order holds. Tool support for [complex text layout](complex-text-layout.md) varies, so test early.
+* **Check the orthography, not just the script, before reusing symbols across languages:** Arabic, Persian, and Urdu all use the Arabic script and still differ in which symbols and digits they use and how they are set. Do not hardcode one language's choices; pull them from [locale](locale.md) data. Unicode's [CLDR](cldr.md) publishes per-language conventions as machine-readable data.
+* **If a rule above is not documented, you may be the source:** for an under-resourced language the conventions may not be in any library yet. Capture them with fluent readers, write them into your specs and tokens, and add them here (see [how to contribute](../CONTRIBUTING.md)) or upstream, where Unicode's [CLDR Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and new locales.
+
+***
+
+### Related terms and mentions
+
+[Abjad](../language-terms/writing-systems-and-scripts/abjad.md) · [Autonym](autonym.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Harakat](../language-terms/writing-systems-and-scripts/harakat.md) · [Hebrew script](hebrew-script.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Language](../language-terms/linguistics/language.md) · [Letter spacing](letter-spacing.md) · [Ligature](ligature.md) · [Locale](locale.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+
+### Further reading
+
+* Code & specs: [Developing OpenType Fonts for Arabic Script (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/arabic)
+* Design tools: [Noto Sans Arabic (Google Fonts)](https://fonts.google.com/noto/specimen/Noto+Sans+Arabic)
+* Foundations: [Unicode Arabic code chart (U+0600)](https://www.unicode.org/charts/PDF/U0600.pdf)
+* Resource library: [Bidirectionality and RTL (Material Design 3)](https://m3.material.io/foundations/layout/bidirectionality-rtl)
+
+### Sources
+
+1. The Arabic script is used for the Arabic language and has been extended to represent a number of other languages such as Persian, Urdu, Pashto, Sindhi, and Uyghur, as well as many African languages - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
+2. The Middle Eastern scripts are mostly abjads; vowels and other marks may be written as combining marks called tashkil applied to the consonants, but in normal writing these marks are omitted - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
+3. The Arabic script is written from right to left - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
+4. The contextual analysis engine determines the correct contextual form a letter should take (isolated, initial, medial, or final) from the letters before and after it, and maps each to the OpenType isol, init, medi, and fina features - Developing OpenType Fonts for Arabic Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/arabic](https://learn.microsoft.com/en-us/typography/script-development/arabic)
+5. When supported by the style of the font, lam-alef ligatures are considered obligatory - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
+6. A font's OpenType rules select and position the correct Arabic forms (the positional forms, required ligatures such as lam-alef, and mark placement), which the shaping engine applies when the text is rendered - Developing OpenType Fonts for Arabic Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/arabic](https://learn.microsoft.com/en-us/typography/script-development/arabic)
