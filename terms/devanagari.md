@@ -15,7 +15,7 @@ related:
   - conjunct
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18T00:00:00.000Z
+updated: 2026-07-04
 contributors:
   - sam-gordashko
 further_reading:
@@ -37,7 +37,7 @@ tags:
 
 ## Definition
 
-Devanagari is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Hindi, Marathi, Sanskrit, Nepali, and many other South Asian languages.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md): each consonant carries an inherent vowel that added marks change.<sup>2</sup>
+Devanagari is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Hindi, Marathi, Sanskrit, Nepali, and many other South Asian languages.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md): each consonant carries an inherent vowel that added marks can override.<sup>2</sup>
 
 For example, the greeting नमस्ते ("namaste") stacks and reorders its marks the way the script does throughout.
 
@@ -64,8 +64,8 @@ Script rules apply to any language that uses Devanagari in its writing system. T
 | Rule or feature | How it works in Devanagari |
 | --- | --- |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right |
-| [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) | a headline stroke runs along the top of the letters, joining them across a word |
-| [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) | letters hang from the shirorekha rather than sitting on a bottom baseline |
+| [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) | a headline stroke runs along the top of the symbols, joining them across a word |
+| [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) | symbols hang from the shirorekha rather than sitting on a bottom baseline |
 | [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) | a left-side [i-matra](../language-terms/writing-systems-and-scripts/matra.md) is typed after its consonant but displays before it, so the renderer reorders it |
 | [Stacking](../language-terms/writing-systems-and-scripts/stacking-script.md) | consonant clusters combine into [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) forms |
 
@@ -73,13 +73,13 @@ Script rules apply to any language that uses Devanagari in its writing system. T
 
 Treat this entry as a starting playbook for Devanagari, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Devanagari coverage, because the rules above will not render without it.
 
-Where you cannot be creative is the script rules. Text runs left to right; a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) has to reorder;<sup>3</sup> consonant clusters have to form conjuncts;<sup>4</sup> and the [shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) has to join cleanly across a word. These are shaping requirements, carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), the step that turns stored characters into positioned glyphs.<sup>5</sup> They are not styling choices: with a tool or font that cannot shape, the text comes out wrong, not merely plain.
+Where you cannot be creative is the script rules. Text runs left to right; a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) has to reorder;<sup>3</sup> consonant clusters have to form conjuncts;<sup>4</sup> and the [shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) has to join cleanly across a word. These are shaping requirements, carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), the step that turns stored characters into positioned glyphs.<sup>5</sup> They are not styling choices: with a tool or font that cannot shape, the text renders incorrectly, not just unstyled.
 
 Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows (you cannot add letter spacing that breaks the headline) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since a typeface or style that suits one language written in Devanagari may not suit another. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 
-* **Cover the script before you commit a typeface:** confirm the font ships the Devanagari glyphs AND the shaping rules (conjuncts, matra reordering), not just the base letters. [Noto Sans Devanagari](https://fonts.google.com/noto/specimen/Noto+Sans+Devanagari) is a free, open-licensed option, and [Noto](noto-fonts.md) reaches scripts where commercial fonts are scarce. See [font coverage](font-coverage.md).
+* **Cover the script before you commit a typeface:** confirm the font ships the Devanagari glyphs AND the shaping rules (conjuncts, matra reordering), not just the base symbols. [Noto Sans Devanagari](https://fonts.google.com/noto/specimen/Noto+Sans+Devanagari) is a free, open-licensed option, and [Noto](noto-fonts.md) reaches scripts where commercial fonts are scarce. See [font coverage](font-coverage.md).
 * **Test with a real word, not a glyph grid:** type a word with a conjunct and a left-side matra and confirm they form and reorder; tool support for [complex text layout](complex-text-layout.md) varies, so test early.
 * **Check the orthography, not just the script, before reusing symbols across languages:** two languages can share Devanagari and still differ in which symbols they use and how. Do not hardcode one language's choices; pull them from [locale](locale.md) data. Unicode's [CLDR](cldr.md) publishes per-language conventions as machine-readable data.
 * **If a rule above is not documented, you may be the source:** for an under-resourced language the conventions may not be in any library yet. Capture them with fluent readers, write them into your specs and tokens, and add them here (see [how to contribute](../CONTRIBUTING.md)) or upstream, where Unicode's [CLDR Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and new locales.
@@ -88,7 +88,7 @@ Where you are free is the rest: the typeface's personality, weight, size, colour
 
 ### Related terms and mentions
 
-[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Bengali-Assamese](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) · [Locale](locale.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Noto fonts](noto-fonts.md) · [Nukta](../language-terms/writing-systems-and-scripts/nukta.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Autonym](autonym.md) · [Baseline](../design-terms/typography/baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Noto fonts](noto-fonts.md) · [Nukta](../language-terms/writing-systems-and-scripts/nukta.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
