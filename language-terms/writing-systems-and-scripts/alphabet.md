@@ -4,7 +4,9 @@ slug: alphabet
 aliases: []
 level: foundational
 depth: core
-summary: An alphabet is a type of script with separate letters for both consonants and vowels.
+summary: >-
+  An alphabet is a type of script with separate letters for both consonants and
+  vowels.
 related:
   - script
   - abugida
@@ -53,7 +55,7 @@ So the script alone does not tell you a language's needs. Knowing a language use
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](../../terms/arabic-script.md) · [Armenian script](../../terms/armenian-script.md) · [Cyrillic](../../terms/cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](../../terms/georgian-script.md) · [Greek script](../../terms/greek-script.md) · [Latin script](../../terms/latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](../../terms/syllabary.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](../../terms/arabic-script.md) · [Armenian script](../../terms/armenian-script.md) · [Cyrillic](../../terms/cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](../../terms/georgian-script.md) · [Greek script](../../terms/greek-script.md) · [Latin script](../../terms/latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

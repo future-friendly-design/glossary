@@ -34,12 +34,12 @@ A symbol is an individual visual element that makes up a [script](script.md). A 
 
 The term symbol is used to describe the visual elements of any script in general, because each script has its own name for them.
 
-| Script type                           | What its symbols are called | Example |
-| ------------------------------------- | --------------------------- | :-----: |
-| [Alphabet](alphabet.md)               | letters                     |   A, b  |
-| [Abjad](abjad.md)                     | consonant letters           |   ا, ب  |
-| [Syllabary](../../terms/syllabary.md) | syllable symbols            |   あ, い  |
-| [Logographic](logographic.md)         | characters                  |   山, 川  |
+| Script type                   | What its symbols are called | Example |
+| ----------------------------- | --------------------------- | :-----: |
+| [Alphabet](alphabet.md)       | letters                     |   A, b  |
+| [Abjad](abjad.md)             | consonant letters           |   ا, ب  |
+| [Syllabary](syllabary.md)     | syllable symbols            |   あ, い  |
+| [Logographic](logographic.md) | characters                  |   山, 川  |
 
 ### Why it matters in design systems
 
@@ -83,7 +83,7 @@ The colon never changed. What it meant changed in every system it crossed: an as
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Code point](../../terms/code-point.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Latin script](../../terms/latin-script.md) · [Legibility](../linguistics/legibility.md) · [Locale](../../terms/locale.md) · [Logographic](logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](../../terms/syllabary.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Code point](../../terms/code-point.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Latin script](../../terms/latin-script.md) · [Legibility](../linguistics/legibility.md) · [Locale](../../terms/locale.md) · [Logographic](logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](syllabary.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

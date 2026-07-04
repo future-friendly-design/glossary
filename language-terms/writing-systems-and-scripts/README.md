@@ -104,7 +104,7 @@ Scripts are classified by what their symbols represent. For example, if a script
 * [Logographic](logographic.md)
 * [Logosyllabary](logosyllabary.md)
 * [Pictographic](pictographic.md)
-* [Syllabary](../../terms/syllabary.md)
+* [Syllabary](syllabary.md)
 
 ### Scripts to explore
 

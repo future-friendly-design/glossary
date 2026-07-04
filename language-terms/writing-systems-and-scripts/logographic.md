@@ -6,7 +6,9 @@ aliases:
   - logogram
 level: intermediate
 depth: core
-summary: Logographic is a type of script whose symbols stand for whole words or meaningful units (morphemes) rather than for sounds alone.
+summary: >-
+  Logographic is a type of script whose symbols stand for whole words or
+  meaningful units (morphemes) rather than for sounds alone.
 related:
   - syllabary
   - alphabet
@@ -52,7 +54,7 @@ For type and product work the defining consequence is scale. A logographic scrip
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Font](../../terms/font.md) · [Font subsetting](../../terms/font-subsetting.md) · [Glyph](../../terms/glyph.md) · [Han characters](../../terms/han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](../../terms/syllabary.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Font](../../terms/font.md) · [Font subsetting](../../terms/font-subsetting.md) · [Glyph](../../terms/glyph.md) · [Han characters](../../terms/han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

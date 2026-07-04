@@ -36,7 +36,7 @@ Hangul is the featural alphabet used to write Korean, with its letters grouped i
 
 ## Why it matters
 
-Created under King Sejong in the 1440s, Hangul is a [featural alphabet](../language-terms/writing-systems-and-scripts/featural-alphabet.md): the shapes of its consonants are designed to suggest the position of the tongue and lips when making each sound. Its letters (around 24 basic ones) are not written in a simple line but combined into square blocks, each block representing one syllable. That blend of [alphabetic](../language-terms/writing-systems-and-scripts/alphabet.md) letters arranged [syllabically](syllabary.md) is what makes Hangul distinctive, and it is why rendering and font design treat the syllable block, not the individual letter, as the unit that has to fit a consistent square.
+Created under King Sejong in the 1440s, Hangul is a [featural alphabet](../language-terms/writing-systems-and-scripts/featural-alphabet.md): the shapes of its consonants are designed to suggest the position of the tongue and lips when making each sound. Its letters (around 24 basic ones) are not written in a simple line but combined into square blocks, each block representing one syllable. That blend of [alphabetic](../language-terms/writing-systems-and-scripts/alphabet.md) letters arranged [syllabically](../language-terms/writing-systems-and-scripts/syllabary.md) is what makes Hangul distinctive, and it is why rendering and font design treat the syllable block, not the individual letter, as the unit that has to fit a consistent square.
 
 ## Example
 
@@ -44,7 +44,7 @@ The syllable "han" is written as a single square block stacking the letters for 
 
 ## Related terms
 
-[Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [CJK](cjk.md) · [Syllabary](syllabary.md)
+[Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [CJK](cjk.md) · [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md)
 
 ## Further reading
 

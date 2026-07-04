@@ -46,7 +46,7 @@ In Cree, the "p" symbol points one way for "pi", and is rotated to other orienta
 
 ## Related terms
 
-[Syllabary](syllabary.md) · [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
+[Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) · [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Script](../language-terms/writing-systems-and-scripts/script.md)
 
 ## Further reading
 

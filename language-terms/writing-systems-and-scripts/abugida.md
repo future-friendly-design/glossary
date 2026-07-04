@@ -5,7 +5,9 @@ aliases:
   - alphasyllabary
 level: intermediate
 depth: core
-summary: An abugida is a type of script where each consonant carries a built-in vowel that is changed by adding marks.
+summary: >-
+  An abugida is a type of script where each consonant carries a built-in vowel
+  that is changed by adding marks.
 related:
   - alphabet
   - abjad
@@ -56,7 +58,7 @@ So an abugida needs real shaping support, not simple glyph-after-glyph placement
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Alphasyllabary](alphasyllabary.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md) · [Ethiopic script](../../terms/ethiopic-script.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Matra](matra.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](../../terms/syllabary.md) · [Tamil script](../../terms/tamil-script.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typeface](../../terms/typeface.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Alphasyllabary](alphasyllabary.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md) · [Ethiopic script](../../terms/ethiopic-script.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Matra](matra.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Tamil script](../../terms/tamil-script.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typeface](../../terms/typeface.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -5,7 +5,10 @@ aliases:
   - featural alphabet
 level: advanced
 depth: core
-summary: A featural script is a type of script whose letter shapes are built to reflect the physical features of the sounds they represent, so related sounds get visually related letters.
+summary: >-
+  A featural script is a type of script whose letter shapes are built to reflect
+  the physical features of the sounds they represent, so related sounds get
+  visually related letters.
 related:
   - alphabet
   - syllabary
@@ -49,7 +52,7 @@ The practical consequence is the unit of layout. Because Hangul builds syllable 
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Font](../../terms/font.md) · [Hangul](../../terms/hangul.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](../../terms/syllabary.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Font](../../terms/font.md) · [Hangul](../../terms/hangul.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
