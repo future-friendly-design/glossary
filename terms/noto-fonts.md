@@ -1,19 +1,22 @@
 ---
 term: Noto fonts
 slug: noto-fonts
-aliases: [Google Noto]
+aliases: [Google Noto, No Tofu]
 tags: [reference-sources]
 level: intermediate
 depth: core
-summary: Noto is Google's free font family that aims to cover every writing system in Unicode so no character shows up as a blank box.
-related: [unicode-standard, sil, font-coverage, tofu]
+summary: "Noto is Google's open-licensed font superfamily built to cover as many of the world's writing systems as possible so that no character renders as a blank box."
+related: [tofu, font, font-coverage, fallback-font, font-subsetting, unicode]
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18
+updated: 2026-07-04
 contributors: [sam-gordashko]
 further_reading:
   - title: "Noto Fonts (project site)"
     url: https://notofonts.github.io/
+    type: authority
+  - title: "SIL Open Font License"
+    url: https://openfontlicense.org/
     type: authority
 license: CC-BY-4.0
 ---
@@ -21,16 +24,38 @@ license: CC-BY-4.0
 # Noto fonts
 
 ## Definition
-Noto is Google's free font family that aims to cover every writing system in Unicode so no character shows up as a blank box.
 
-## Why it matters
-Noto ("no tofu") is an open-source font family commissioned by Google to provide consistent type for every script in the [unicode-standard](unicode-standard.md), covering more than 1,000 languages and over 150 writing systems. The name refers to eliminating [tofu](tofu.md), the blank boxes that appear when a device lacks a font for a character, which makes Noto a common safety net for broad [font-coverage](font-coverage.md) across multilingual interfaces. It is released under the SIL Open Font License, with design sources and the build pipeline freely available.
+Noto is Google's open-licensed font superfamily built to cover as many of the world's writing systems as possible so that no character renders as a blank box.<sup>1</sup>
 
-## Example
-A web page styled with Noto fonts can display Latin, Devanagari, and Han characters without missing-glyph boxes.
+### Why it matters in design systems
 
-## Related terms
-[Unicode Standard](unicode-standard.md) · [SIL](sil.md) · [Font coverage](font-coverage.md) · [Tofu](tofu.md)
+A common assumption is that "the font supports my languages" is a solved problem once you pick a typeface. For most commercial fonts it is not: coverage runs out at the edge of the scripts they were drawn for, and the gaps show up as [tofu](tofu.md), the empty boxes a renderer draws when no available [font](font.md) has a [glyph](glyph.md) for a character. Noto exists to close those gaps. Its name is short for "no tofu", and the project spans more than 1,000 languages and over 150 writing systems, released as sans, serif, mono, and other styles.<sup>2</sup> That breadth is why it is the usual recommendation for under-resourced scripts: Noto often has coverage where no commercial font exists at all.
 
-## Further reading
+For a design system, Noto earns its place in three concrete decisions. First, [font-coverage](font-coverage.md): it is a dependable primary or [fallback-font](fallback-font.md) for multilingual interfaces, so the character a designer forgot about still draws instead of breaking the layout. Second, performance: the full family is enormous, so you never ship all of it. You [subset](font-subsetting.md) it to the scripts and characters a product actually uses, letting a browser download only the slices a page needs. Third, licensing: Noto is released under the [SIL Open Font License](https://openfontlicense.org/), which permits use, modification, and bundling in commercial products, so it is safe to embed rather than merely link to.<sup>3</sup>
+
+The limit to keep in view: broad coverage is necessary but not sufficient. A script needs correct shaping (joining, reordering, conjuncts), not just the code points, and Noto's per-script quality varies because each script is built and maintained separately. Confirm the specific scripts you ship, rather than trusting "Noto covers everything" as a blanket claim.
+
+### Example(s)
+
+A page that sets `font-family: "Noto Sans", "Noto Sans Devanagari", "Noto Sans JP", sans-serif` can render Latin, Devanagari (`नमस्ते`), and Japanese (`こんにちは`) in a consistent style, with each script drawn by its matching Noto family instead of falling back to tofu.
+
+For an under-resourced script, Noto is often the only ready-made option: the Noto family for a newly encoded script may be the first freely available, embeddable font a language community has, which is why it is the common starting point for digitizing that script.
+
+***
+
+### Related terms and mentions
+
+[Tofu](tofu.md) · [Font](font.md) · [Glyph](glyph.md) · [Font coverage](font-coverage.md) · [Fallback font](fallback-font.md) · [Font subsetting](font-subsetting.md) · [Unicode](unicode.md) · [SIL](sil.md) · [Reference sources](reference-sources.md)
+
+### Further reading
+
 - Foundations: [Noto Fonts (project site)](https://notofonts.github.io/)
+- Foundations: [SIL Open Font License](https://openfontlicense.org/)
+
+### Sources
+
+1. "Noto is a collection of high-quality fonts with multiple weights and widths in sans, serif, mono, and other styles" - Noto Fonts project site [https://notofonts.github.io/](https://notofonts.github.io/)
+2. "in more than 1,000 languages and over 150 writing systems" - Noto Fonts project site [https://notofonts.github.io/](https://notofonts.github.io/)
+3. "All Noto fonts (in the `fonts/` directory) are licensed under the SIL Open Font License" - notofonts.github.io repository README [https://github.com/notofonts/notofonts.github.io](https://github.com/notofonts/notofonts.github.io)
+
+<!-- NEEDS EXPERT REVIEW: The name "no tofu" and Google's commissioning of Noto are well established but were sourced here to Wikipedia (Noto fonts), because the primary statements live on JS-rendered Google Fonts / notofonts.github.io pages that WebFetch could not read. A human should confirm the "no tofu" origin and Google authorship against the live Google Fonts Knowledge "Introducing Noto" page and eyeball the coverage figure (Wikipedia gives 162 writing systems as of Nov 2024; the project site says "over 150"). -->
