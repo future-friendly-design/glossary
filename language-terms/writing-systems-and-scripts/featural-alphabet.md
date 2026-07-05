@@ -44,7 +44,7 @@ While this glossary doesn't cover every script, here are some scripts described 
 
 ### Why it matters in design systems
 
-Featural design shows that a script's shapes can carry linguistic structure directly, rather than assigning arbitrary symbols to sounds. Hangul, created under King Sejong and published in 1446, was designed so its basic consonant shapes are based on the human speech organs used to make each sound, so related sounds look related;<sup>2</sup> the letters are then grouped into square syllable blocks built from a set of alphabetic components, rather than written in a simple line.<sup>3</sup> [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) is also often described as featural, because rotating a consonant's symbol systematically encodes the following vowel (which is why it is sometimes called a featural abugida).
+Featural design shows that a script's shapes can carry linguistic structure directly, rather than assigning arbitrary symbols to sounds. Hangul, developed under King Sejong and promulgated in 1446,<sup>2</sup> was designed so its five basic consonants are shaped after the human speech organs used to make each sound, so related sounds look related;<sup>3</sup> the letters are then grouped into square syllable blocks built from a set of alphabetic components, rather than written in a simple line.<sup>4</sup> [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) is also often described as featural, because rotating a consonant's symbol systematically encodes the following vowel (which is why it is sometimes called a featural abugida).
 
 The practical consequence is the unit of layout. Because Hangul builds syllable blocks out of letter components, [font](../../terms/font.md) design and rendering treat the block, not the single letter, as the shape that has to sit consistently in a square. That is a different problem from placing alphabetic letters one after another, so featural does not mean "just an alphabet" when you scope typeface and layout work.
 
@@ -52,7 +52,7 @@ The practical consequence is the unit of layout. Because Hangul builds syllable 
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Font](../../terms/font.md) · [Hangul](../../terms/hangul.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Font](../../terms/font.md) · [Hangul](../../terms/hangul.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Unicode Standard](../../terms/unicode-standard.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
@@ -61,5 +61,6 @@ The practical consequence is the unit of layout. Because Hangul builds syllable 
 ### Sources
 
 1. "Korean Hangul may be considered a featural syllabic script." - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-2. Hangul was created under King Sejong and published in 1446, and "The shapes of 5 basic consonants are based on those of human speech organs during the production of the letter's sound" - Hangul (Wikipedia) [https://en.wikipedia.org/wiki/Hangul](https://en.wikipedia.org/wiki/Hangul)
-3. "As opposed to many other syllabic scripts, the syllables are formed from a set of alphabetic components in a regular fashion." - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+2. The Hunminjeongeum manuscript, published in 1446, contains King Sejong's promulgation of the Korean alphabet now called Hangul, the development of which he completed in 1443 - UNESCO Memory of the World: Hunminjeongum Manuscript [https://www.unesco.org/en/memory-world/hunminjeongum-manuscript](https://www.unesco.org/en/memory-world/hunminjeongum-manuscript)
+3. The five basic consonants of Hangul were designed based on the shape of the human vocal organs used to make each sound - The spirit and principles behind Hangeul's creation (Korean Cultural Center) [https://www.koreanculture.org/gallery-korea/2024/04/07/hangeul](https://www.koreanculture.org/gallery-korea/2024/04/07/hangeul)
+4. "As opposed to many other syllabic scripts, the syllables are formed from a set of alphabetic components in a regular fashion." - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
