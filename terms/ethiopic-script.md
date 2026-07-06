@@ -7,7 +7,7 @@ aliases:
   - fidel
 level: intermediate
 depth: core
-summary: Ethiopic is a script used to write Amharic, Tigrinya, Tigre, Oromo, and the classical language Ge'ez.
+summary: Ethiopic is a script used to write Amharic, Tigrinya, Tigre, and other languages of Ethiopia and Eritrea, including the classical language Ge'ez.
 related:
   - abugida
   - syllabary
@@ -38,7 +38,7 @@ tags:
 
 ## Definition
 
-Ethiopic is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Amharic, Tigrinya, Tigre, Oromo, and the classical language Ge'ez.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md), but unlike the Brahmic abugidas each consonant-and-vowel syllable is a single character whose shape is modified to show the vowel, so one consonant has a series of related forms, one per vowel.<sup>2</sup>
+Ethiopic is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Amharic, Tigrinya, Tigre, and other languages of Ethiopia and Eritrea, including the classical language Ge'ez.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md), but unlike the Brahmic abugidas each consonant-and-vowel syllable is a single character whose shape is modified to show the vowel, so one consonant has a series of related forms, one per vowel.<sup>2</sup>
 
 For example, ሰላም ("selam", "peace", a common greeting) is written with three of those syllable characters.
 
@@ -49,11 +49,11 @@ Ethiopic is one script within the writing system of each language that uses it. 
 | Property | Ethiopic script |
 | --- | --- |
 | Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| Autonym | ግዕዝ (Ge'ez) or ፊደል (fidäl) |
+| Autonym | ግዕዝ (Ge'ez) |
 | Symbols | consonant-and-vowel syllables, each a single character; one consonant has a form for each vowel |
 | Marks | few; the vowel is built into the letterform rather than added as a separate mark |
 | Letter case | None (no uppercase and lowercase) |
-| Numerals | Ethiopic numerals ፩, ፪, ፫ … (an additive system; European digits also common) |
+| Numerals | Ethiopic numerals ፩, ፪, ፫ … (a traditional system; European digits also common) |
 | Unicode block | Ethiopic, [U+1200 to U+137F](https://www.unicode.org/charts/PDF/U1200.pdf) (plus Ethiopic Supplement and the Ethiopic Extended blocks) |
 | [Complex text layout](complex-text-layout.md) | Minimal shaping; the demand is coverage of a large syllable set, where each syllable is its own character |
 | Languages | Amharic, Tigrinya, Tigre, Oromo, Ge'ez, and others |
@@ -97,8 +97,8 @@ Where you are free is the rest: the typeface's personality, weight, size, colour
 
 ### Sources
 
-1. Ge'ez is now limited to liturgical usage, but the Ethiopic script has been adopted for modern use in writing several languages of central east Africa, including Amharic, Tigre, and Oromo - The Unicode Standard, Version 16.0, Chapter 19: Africa [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-19/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-19/)
-2. The syllables of the Ethiopic script are traditionally presented as a two-dimensional matrix of consonant-vowel combinations, with 43 consonants each crossed with 8 vowels - The Unicode Standard, Version 16.0, Chapter 19: Africa [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-19/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-19/)
+1. The Ethiopic script is widely used for writing the Semitic languages of Ethiopia and Eritrea, such as Amharic, Tigrinya, and Tigre, and it originally evolved for the classical language Ge'ez - Ethiopic (r12a script notes) [https://r12a.github.io/scripts/ethi/am.html](https://r12a.github.io/scripts/ethi/am.html)
+2. The syllables of the Ethiopic script are traditionally presented as a two-dimensional matrix of consonant-vowel combinations, with 43 consonants each crossed with 8 vowels, making 344 conceptual syllables - The Unicode Standard, Version 16.0, Chapter 19: Africa [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-19/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-19/)
 3. Ethiopic text runs left to right in horizontal lines - Ethiopic (r12a script notes) [https://r12a.github.io/scripts/ethi/am.html](https://r12a.github.io/scripts/ethi/am.html)
 4. Each Ethiopic syllable is a single character whose base consonant shape is given small changes to indicate the following vowel, so each consonant has a full series of vowel forms - Ethiopic (r12a script notes) [https://r12a.github.io/scripts/ethi/am.html](https://r12a.github.io/scripts/ethi/am.html)
 5. The traditional word separator in the Ethiopic script is U+1361 ETHIOPIC WORDSPACE - The Unicode Standard, Version 16.0, Chapter 19: Africa [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-19/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-19/)
