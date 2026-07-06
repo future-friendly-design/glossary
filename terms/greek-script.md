@@ -34,7 +34,7 @@ tags:
 
 ## Definition
 
-The Greek script is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write the Greek language. It is an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) with separate letters for consonants and vowels, and the ancestor of the [Latin](latin-script.md) and [Cyrillic](cyrillic.md) scripts that developed under its influence.<sup>1</sup>
+The Greek script is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write the Greek language. It is an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) with separate letters for consonants and vowels, and it strongly influenced the development of the [Latin](latin-script.md) and [Cyrillic](cyrillic.md) scripts.<sup>1</sup>
 
 For example, άσπρος ("white") shows the two forms of lowercase sigma, σ in the middle of the word and ς at its end, above the accented vowel ά.
 
