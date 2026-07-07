@@ -6,9 +6,7 @@ aliases:
   - Brahmic family
 level: intermediate
 depth: core
-summary: >-
-  Brahmic scripts are a large family of South and Southeast Asian writing
-  systems descended from the ancient Brahmi script.
+summary: Brahmic scripts are a family of related scripts used across South and Southeast Asia, all descended from the ancient Brahmi script.
 related:
   - abugida
   - conjunct
@@ -17,13 +15,16 @@ related:
   - complex-text-layout
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18T00:00:00.000Z
+updated: 2026-07-07
 contributors:
   - sam-gordashko
 further_reading:
-  - title: Brahmic scripts (Wikipedia)
-    url: https://en.wikipedia.org/wiki/Brahmic_scripts
+  - title: 'The Unicode Standard, Chapter 12: South Asia-I'
+    url: https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/
     type: authority
+  - title: Noto (Google Fonts)
+    url: https://fonts.google.com/noto
+    type: design-tool
 license: CC-BY-4.0
 tags:
   - writing-systems-scripts
@@ -33,20 +34,76 @@ tags:
 
 ## Definition
 
-Brahmic scripts are a large family of South and Southeast Asian writing systems descended from the ancient Brahmi script.
+Brahmic scripts are a family of related scripts used across South and Southeast Asia, all descended from the ancient Brahmi script.<sup>1</sup> They are almost all [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): most symbols stand for a consonant plus an inherent vowel, generally the short /a/, which dependent vowel signs ([matras](../language-terms/writing-systems-and-scripts/matra.md)) can change.<sup>2</sup>
 
-## Why it matters
+Brahmic is a family, not a single script. This page describes what the members share; how any one member works, its symbols, conjuncts, and rules, is that script's own page. The members share a structure but differ enough that you design for each one, not for "Brahmic" as a whole: Unicode itself warns that implementations should not assume the South Indian scripts work just as Devanagari does.<sup>3</sup>
 
-The Brahmic family includes most scripts of South and Southeast Asia, such as Devanagari, Bengali-Assamese, Tibetan, and Thai, all derived from the ancient Brahmi script. The great majority are [abugida](../language-terms/writing-systems-and-scripts/abugida.md)s: consonants carry an inherent vowel altered by attached vowel marks ([matra](../language-terms/writing-systems-and-scripts/matra.md)s), clusters combine into [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) forms, and a [virama](../language-terms/writing-systems-and-scripts/virama.md) can suppress the inherent vowel. Members share these structural features even when their letterforms look very different, which is why supporting one Brahmic script teaches you much of what the others need: real shaping, reordering, and [complex text layout](complex-text-layout.md) rather than simple glyph placement.
+### What unites the members
 
-## Example
+These are the traits the family holds in common. Individual members vary, so treat this as the shared starting point, not a specification for any one script.
 
-Devanagari, Bengali-Assamese, Thai, and Tibetan all belong to the Brahmic family and share the abugida structure.
+| Shared feature | Across the Brahmic family |
+| --- | --- |
+| Origin | all descend from the ancient Brahmi script |
+| Script type | almost all are [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): each consonant carries an inherent vowel, generally /a/ |
+| Vowel signs | dependent vowel signs ([matras](../language-terms/writing-systems-and-scripts/matra.md)) attach to a consonant to change its inherent vowel |
+| [Virama](../language-terms/writing-systems-and-scripts/virama.md) | a virama (halant) suppresses the inherent vowel |
+| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | consonant clusters can combine into conjunct forms |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | with minor historical exceptions, left to right |
+| Rendering | [complex text layout](complex-text-layout.md): real shaping, mark positioning, and sometimes reordering, not simple glyph placement |
 
-## Related terms
+### Members
 
-[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Complex text layout](complex-text-layout.md)
+The Brahmic family is large and this glossary doesn't cover every member; here are some to be aware of, spanning the South Asian and Southeast Asian branches, with a page linked where one exists. The Example column shows each linked script's own name. Select a linked term to navigate to its glossary page.
 
-## Further reading
+| Script | Languages | Example |
+| --- | --- | --- |
+| [Devanagari](devanagari.md) | Hindi, Marathi, Sanskrit, Nepali | देवनागरी |
+| [Bengali-Assamese](bengali-assamese.md) | Bengali, Assamese | বাংলা লিপি |
+| [Tamil](tamil-script.md) | Tamil | தமிழ் |
+| Telugu | Telugu | |
+| Kannada | Kannada | |
+| Malayalam | Malayalam | |
+| Gujarati | Gujarati | |
+| Gurmukhi | Punjabi | |
+| Odia | Odia | |
+| Sinhala | Sinhala | |
+| [Syloti Nagri](syloti-nagri.md) | Sylheti | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ |
+| [Thai](thai-script.md) | Thai | ภาษาไทย |
+| Lao, Khmer, Myanmar | Lao, Khmer, Burmese | |
+| [Tibetan](tibetan-script.md) | Tibetan, Dzongkha | བོད་ཡིག |
 
-* Foundations: [Brahmic scripts (Wikipedia)](https://en.wikipedia.org/wiki/Brahmic_scripts)
+### Why it matters in design systems
+
+Treat this entry as a map of the family, not a playbook for any one member: for that, follow the link to the specific script. The value of knowing the family is that it tells you what transfers and what does not.
+
+What transfers is the mental model and the infrastructure. Because the members share the abugida structure, a [virama](../language-terms/writing-systems-and-scripts/virama.md) that suppresses the inherent vowel,<sup>4</sup> [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) forms for consonant clusters,<sup>5</sup> and a predominantly left-to-right direction,<sup>6</sup> supporting one Brahmic script teaches you much of what the others need: real [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), [OpenType](opentype.md) rules, mark positioning, and sometimes [reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md), rather than simple glyph placement. If your stack handles one member well, it is closer to handling the rest.
+
+What does not transfer is the detail, and this is the trap: the members diverge enough that "Brahmic support" is not one deliverable. Devanagari hangs its symbols from a headline stroke ([shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md)) and reorders a left-side matra; Tamil sits on a [baseline](../design-terms/typography/baseline.md) and uses very few conjuncts; Thai runs its words together with no spaces, needing [word segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md); Tibetan [stacks](../language-terms/writing-systems-and-scripts/stacking-script.md) consonants vertically. So verify each member against its own rules and a real word, not by assuming it behaves like a sibling, and bound your choices by the member's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) as well as the script. Where the glossary is silent, a rule left undocumented is an open question, not a settled "no".
+
+### In practice
+
+* **Cover the specific member, not "Brahmic" in general:** confirm the [font](font.md) ships the glyphs AND the shaping rules for the exact script you need, not just a related one. The [Noto](noto-fonts.md) project covers the family with free, open-licensed families per script, and reaches scripts where commercial fonts are scarce. See [font coverage](font-coverage.md).
+* **Reuse the infrastructure, but re-test each member:** if you already support one Brahmic script, you likely have the [complex text layout](complex-text-layout.md) pieces in place, but test the new member with a real word, because conjuncts, reordering, and mark placement differ from script to script.
+* **Verify per script, not by family:** the shared structure is a starting point, not a guarantee; confirm each member's rules against its own page and a fluent reader rather than generalizing from Devanagari.
+* **If a rule is not documented, you may be the source:** for an under-resourced member the conventions may not be in any library yet. Capture them with fluent readers, write them into your specs and tokens, and add them here (see [how to contribute](../CONTRIBUTING.md)) or upstream, where Unicode's [CLDR Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and new locales.
+
+***
+
+### Related terms and mentions
+
+[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Baseline](../design-terms/typography/baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari](devanagari.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Syloti Nagri](syloti-nagri.md) · [Tamil](tamil-script.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Thai script](thai-script.md) · [Tibetan](tibetan-script.md) · [Unicode](unicode.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+
+### Further reading
+
+* Design tools: [Noto (Google Fonts)](https://fonts.google.com/noto)
+* Foundations: [The Unicode Standard, Chapter 12: South Asia-I](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+
+### Sources
+
+1. Most of the scripts of South Asia are derived from the ancient Brahmi script - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+2. They are all abugidas in which most symbols stand for a consonant plus an inherent vowel - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+3. Implementations should not assume that they work just as Devanagari does - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+4. Absence of the inherent vowel is frequently marked with a special sign, denoted by the Sanskrit word virama - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+5. A consonant cluster is depicted with a conjunct glyph if such a glyph is available in the current font - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+6. With minor historical exceptions, they are written from left to right - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
