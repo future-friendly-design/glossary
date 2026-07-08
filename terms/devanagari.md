@@ -41,41 +41,37 @@ Devanagari is a [script](../language-terms/writing-systems-and-scripts/script.md
 
 For example, the greeting नमस्ते ("namaste") stacks and reorders its marks the way the script does throughout.
 
-Devanagari is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Devanagari property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Devanagari profile
+
+These properties of Devanagari apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
 | Property | Devanagari |
 | --- | --- |
-| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| Autonym | देवनागरी |
-| Symbols | consonants carrying an inherent vowel, plus independent vowels |
-| Marks | [matra](../language-terms/writing-systems-and-scripts/matra.md) (dependent vowels), [virama](../language-terms/writing-systems-and-scripts/virama.md), [nukta](../language-terms/writing-systems-and-scripts/nukta.md), and nasalization marks (anusvara, chandrabindu) |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | Devanagari digits ० to ९ (alongside common ASCII digits) |
-| Unicode block | Devanagari, [U+0900 to U+097F](https://www.unicode.org/charts/PDF/U0900.pdf) (plus Devanagari Extended) |
-| [Complex text layout](complex-text-layout.md) | Yes, shaping required |
+| [Autonym](autonym.md) | देवनागरी |
 | Languages | Hindi, Marathi, Sanskrit, Nepali, and many others |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md)), the [virama](../language-terms/writing-systems-and-scripts/virama.md), the [nukta](../language-terms/writing-systems-and-scripts/nukta.md), and nasalization marks (anusvara, chandrabindu) |
+| Numerals | Devanagari digits ० to ९ (alongside common ASCII digits) |
+| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel, plus independent vowels |
 
-### Script rules and features
+### Devanagari rules and digital use considerations
 
-Script rules apply to any language that uses Devanagari in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use Devanagari, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in Devanagari |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right |
-| [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) | a headline stroke runs along the top of the symbols, joining them across a word |
-| [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) | symbols hang from the shirorekha rather than sitting on a bottom baseline |
-| [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) | a left-side [i-matra](../language-terms/writing-systems-and-scripts/matra.md) is typed after its consonant but displays before it, so the renderer reorders it |
-| [Stacking](../language-terms/writing-systems-and-scripts/stacking-script.md) | consonant clusters combine into [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) forms |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for Devanagari, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Devanagari coverage, because the rules above will not render without it.
-
-Where you cannot be creative is the script rules. Text runs left to right; a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) has to reorder;<sup>3</sup> consonant clusters have to form conjuncts;<sup>4</sup> and the [shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) has to join cleanly across a word. These are shaping requirements, carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), the step that turns stored characters into positioned glyphs.<sup>5</sup> They are not styling choices: with a tool or font that cannot shape, the text renders incorrectly, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (you cannot add letter spacing that breaks the headline) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since a typeface or style that suits one language written in Devanagari may not suit another. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in Devanagari | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Yes, shaping required | The reordering, conjuncts, and joined headline are shaping requirements carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), so a tool or font that cannot shape renders the text incorrectly, not just unstyled;<sup>3</sup> you need a [typeface](typeface.md) and [font](font.md) with Devanagari coverage before any of it will render |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right | Left-aligned text as the default |
+| [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) | a left-side i-matra (dependent vowel) is typed after its consonant but displays before it, so the renderer reorders it<sup>4</sup> | A tool or font that cannot reorder places the vowel in the wrong position, so test a word with a left-side [matra](../language-terms/writing-systems-and-scripts/matra.md) |
+| [Stacking](../language-terms/writing-systems-and-scripts/stacking-script.md) | consonant clusters combine into [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) forms<sup>5</sup> | Confirm the font forms conjunct glyphs; a cluster that does not fuse renders as separate letters instead |
+| [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) | a headline stroke runs along the top of the symbols, joining them across a word | The headline has to join cleanly across a word, so you cannot add [letter spacing](letter-spacing.md) that breaks it |
+| [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) | symbols hang from the shirorekha rather than sitting on a bottom baseline | Devanagari does not sit on a Latin bottom baseline, so do not align it to one by eye |
+| [Unicode](unicode.md) block | Devanagari, [U+0900 to U+097F](https://www.unicode.org/charts/PDF/U0900.pdf) (plus Devanagari Extended) | No special handling beyond ensuring [font coverage](font-coverage.md) of the block, including the conjunct and matra forms |
 
 ### In practice
 
@@ -88,7 +84,7 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 ### Related terms and mentions
 
-[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Autonym](autonym.md) · [Baseline](../design-terms/typography/baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Noto fonts](noto-fonts.md) · [Nukta](../language-terms/writing-systems-and-scripts/nukta.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Autonym](autonym.md) · [Baseline](../design-terms/typography/baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) · [Language](../language-terms/linguistics/language.md) · [Letter spacing](letter-spacing.md) · [Locale](locale.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Noto fonts](noto-fonts.md) · [Nukta](../language-terms/writing-systems-and-scripts/nukta.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
@@ -100,6 +96,8 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 1. Devanagari is written left to right and used for Sanskrit, Hindi, Marathi, Nepali, and many other languages - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
 2. Devanagari and the other Indic scripts are abugidas, a cross between syllabic and alphabetic writing systems, in which each consonant carries an inherent vowel - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-3. Indic-script rendering must reorder elements from the logical (character) store to the visual (glyph) order, which is why a left-side matra stored after its consonant displays before it - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-4. A consonant cluster is normally depicted with a conjunct glyph when the font provides one - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-5. A font's OpenType rules select and position the correct Devanagari forms (conjuncts, matra reordering, mark placement), which the shaping engine applies when the text is rendered - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+3. A font's OpenType rules select and position the correct Devanagari forms (conjuncts, matra reordering, mark placement), which the shaping engine applies when the text is rendered - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+4. Indic-script rendering must reorder elements from the logical (character) store to the visual (glyph) order, which is why a left-side matra stored after its consonant displays before it - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+5. A consonant cluster is normally depicted with a conjunct glyph when the font provides one - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+</content>
+</invoke>
