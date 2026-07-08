@@ -6,7 +6,7 @@ aliases:
   - mkhedruli
 level: intermediate
 depth: core
-summary: The Georgian script is a script used to write the Georgian language.
+summary: The Georgian script is used to write the Georgian language.
 related:
   - alphabet
   - armenian-script
@@ -19,6 +19,9 @@ updated: 2026-07-06T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
+  - title: Developing OpenType Fonts for Standard Scripts (Microsoft)
+    url: https://learn.microsoft.com/en-us/typography/script-development/standard
+    type: code
   - title: Noto Sans Georgian (Google Fonts)
     url: https://fonts.google.com/noto/specimen/Noto+Sans+Georgian
     type: design-tool
@@ -34,47 +37,43 @@ tags:
 
 ## Definition
 
-The Georgian script is a [script](script.md) used to write the Georgian language.<sup>1</sup> Its modern everyday form is called Mkhedruli, an [alphabet](alphabet.md) with its own letters for consonants and vowels;<sup>2</sup> unlike Latin, Greek, or Cyrillic, it is unicameral, with no separate uppercase and lowercase.<sup>3</sup> The Georgian script was devised in the fifth century, under the influence of Greek.<sup>4</sup>
+The Georgian [script](script.md) is used to write the Georgian language.<sup>1</sup> Its modern everyday form is called Mkhedruli, an [alphabet](alphabet.md) with its own letters for consonants and vowels;<sup>2</sup> unlike Latin, Greek, or Cyrillic, it is unicameral, with no separate uppercase and lowercase.<sup>3</sup> The Georgian script was devised in the fifth century, under the influence of Greek.<sup>4</sup>
 
 For example, ადამიანი ("person") is written in Mkhedruli's single set of letters, with no capital forms.
 
-The Georgian script is one script within the writing system of the language that uses it. This page describes the script itself; how Georgian uses it, its spelling, punctuation, and which symbols, is the language's [orthography](orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Georgian script property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Georgian script profile
 
-| Property                                                  | Georgian script                                                                                                                          |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Script type                                               | [Alphabet](alphabet.md)                                                                                                                  |
-| Autonym                                                   | მხედრული                                                                                                                                 |
-| Symbols                                                   | separate letters for consonants and vowels, a single set with no case                                                                    |
-| Marks                                                     | few; Georgian is written mostly with base letters                                                                                        |
-| Letter case                                               | None (unicameral); Mtavruli is an all-caps style for titles and emphasis, not a separate case                                            |
-| Numerals                                                  | common ASCII digits                                                                                                                      |
-| Unicode block                                             | Georgian, [U+10A0 to U+10FF](https://www.unicode.org/charts/PDF/U10A0.pdf) (plus Georgian Extended for Mtavruli and Georgian Supplement) |
-| [Complex text layout](../../terms/complex-text-layout.md) | Not required; Georgian lays out left to right, like Latin                                                                                |
-| Languages                                                 | Georgian                                                                                                                                 |
+These properties of the Georgian script apply to any language that uses it in its [writing system](writing-system.md). Beyond the [script rules](script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](orthography.md).
 
-### Script rules and features
+| Property | Georgian script |
+| --- | --- |
+| [Autonym](../../terms/autonym.md) | მხედრული |
+| Languages | Georgian |
+| Letter case | None (unicameral); Mtavruli is an all-caps style for titles and emphasis, not a separate case |
+| [Marks](mark.md) | few; Georgian is written mostly with base letters |
+| Numerals | common ASCII digits |
+| Script type | [Alphabet](alphabet.md) |
+| [Symbols](symbol.md) | separate letters for consonants and vowels, a single set with no case |
 
-Script rules apply to any language that uses the Georgian script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+### Georgian script rules and digital use considerations
 
-| Rule or feature                     | How it works in the Georgian script                                                                                             |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [Text direction](text-direction.md) | Left to right                                                                                                                   |
-| Letter case                         | none; modern Mkhedruli is unicameral, a single set of letters with no uppercase and lowercase                                   |
-| Mtavruli                            | an all-caps style of Mkhedruli used for titles and emphasis, which behaves like all-caps rather than a sentence-initial capital |
+If your design system supports languages that use the Georgian script, here are some considerations to keep in mind:
 
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for the Georgian script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](../../terms/typeface.md) and [font](../../terms/font.md) with Georgian coverage, because the rules below will not render without it.
-
-Where you cannot be creative is the script rules. Text runs left to right.<sup>5</sup> The feature that changes interface work is the one already in the Definition: Mkhedruli is unicameral, so styling and logic that assume a capital form have nothing to act on. Automatic title casing does nothing, [small caps](../../terms/small-caps.md) have no separate case to draw from, and a "capitalize each word" rule is a no-op. Georgian does have Mtavruli, an all-caps style used for titles and emphasis, but it behaves like all-caps rather than a sentence-initial capital,<sup>6</sup> so faking capitals by scaling letters or forcing Latin-style title casing is wrong. And like [Armenian](armenian-script.md), Georgian is a single-language script with its own letters, so a Latin-only font may carry no Georgian glyphs at all. These are not styling choices: without the glyphs the text is simply absent, and case-based styling built for Latin quietly does nothing here.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Georgian glyphs, and Mtavruli where you want an all-caps effect) and what the language's [orthography](orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in the Georgian script | Design systems |
+| --- | --- | --- |
+| [Complex text layout](../../terms/complex-text-layout.md) | Not required | A standard left-to-right script, with no reordering or contextual shaping<sup>5</sup> |
+| [Text direction](text-direction.md) | Left to right<sup>6</sup> | Left-aligned text as the default |
+| Letter case | none; modern Mkhedruli is unicameral, a single set of letters with no uppercase and lowercase | Case-based styling has nothing to act on: automatic title casing, [small caps](../../terms/small-caps.md), and "capitalize each word" are no-ops, so don't build interface logic that assumes a capital form |
+| Mtavruli | an all-caps style of Mkhedruli used for titles and emphasis, which behaves like all-caps rather than a sentence-initial capital<sup>7</sup> | Reach for Mtavruli deliberately when you want an all-caps effect; don't fake capitals by scaling letters or forcing Latin-style title casing |
+| [Unicode](../../terms/unicode.md) block | Georgian, [U+10A0 to U+10FF](https://www.unicode.org/charts/PDF/U10A0.pdf) (plus Georgian Extended for Mtavruli and Georgian Supplement) | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block; a single-language script, so a font built mainly for Latin or the other large scripts may carry no Georgian glyphs |
 
 ### In practice
 
-* **Cover the script before you commit a typeface:** a single-language script like Georgian is a common gap in fonts drawn for the big multi-language scripts, so a Latin-only font may have no Georgian glyphs. Confirm coverage explicitly. [Noto Sans Georgian](https://fonts.google.com/noto/specimen/Noto+Sans+Georgian) is a free, open-licensed option, and [Noto](../../terms/noto-fonts.md) reaches scripts where commercial fonts are scarce. See [font coverage](../../terms/font-coverage.md).
+* **Cover the script before you commit a typeface:** a single-language script like Georgian is a common gap in fonts built mainly for Latin or the other large scripts, so a font that looks complete may ship no Georgian glyphs. Confirm coverage explicitly. [Noto Sans Georgian](https://fonts.google.com/noto/specimen/Noto+Sans+Georgian) is a free, open-licensed option, and [Noto](../../terms/noto-fonts.md) reaches scripts where commercial fonts are scarce. See [font coverage](../../terms/font-coverage.md).
 * **Do not rely on case-based styling:** title casing, [small caps](../../terms/small-caps.md), and "capitalize each word" have nothing to act on in unicameral Mkhedruli. When you want an all-caps effect for a heading or emphasis, reach for Mtavruli deliberately rather than scaling letters or faking capitals.
 * **Confirm rendering with a reader, not just a glyph grid:** because the script serves essentially one community, check that the letters and any Mtavruli emphasis render and read correctly with people who read Georgian. Pull the conventions from [locale](../../terms/locale.md) data that Unicode's [CLDR](../../terms/cldr.md) publishes.
 * **If a rule above is not documented, you may be the source:** the conventions for a use you support may not be in any library yet. Capture them with fluent readers, write them into your specs and tokens, and add them here (see [how to contribute](../../CONTRIBUTING.md)) or upstream, where Unicode's [CLDR Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and new locales.
@@ -87,6 +86,7 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 ### Further reading
 
+* Code & specs: [Developing OpenType Fonts for Standard Scripts (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/standard)
 * Design tools: [Noto Sans Georgian (Google Fonts)](https://fonts.google.com/noto/specimen/Noto+Sans+Georgian)
 * Foundations: [Unicode Georgian code chart (U+10A0)](https://www.unicode.org/charts/PDF/U10A0.pdf)
 
@@ -96,5 +96,6 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 2. The everyday form of the Georgian script is an alphabet called Mkhedruli, which is used for nearly all modern Georgian writing - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
 3. Modern Georgian is unicameral, normally written with a single set of letters and no uppercase and lowercase distinction - Georgian (r12a script notes) [https://r12a.github.io/scripts/geor/ka.html](https://r12a.github.io/scripts/geor/ka.html)
 4. The Georgian and Armenian scripts were devised in the fifth century and are influenced by Greek - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
-5. Georgian text runs left to right in horizontal lines - Georgian (r12a script notes) [https://r12a.github.io/scripts/geor/ka.html](https://r12a.github.io/scripts/geor/ka.html)
-6. Mtavruli is a set of capital forms used for titles and emphasis that behaves like all-caps rather than a sentence-initial capital - Georgian (r12a script notes) [https://r12a.github.io/scripts/geor/ka.html](https://r12a.github.io/scripts/geor/ka.html)
+5. Georgian is one of the standard (non-complex) scripts, which do not require re-ordering or contextual analysis - Developing OpenType Fonts for Standard Scripts (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/standard](https://learn.microsoft.com/en-us/typography/script-development/standard)
+6. Georgian text runs left to right in horizontal lines - Georgian (r12a script notes) [https://r12a.github.io/scripts/geor/ka.html](https://r12a.github.io/scripts/geor/ka.html)
+7. Mtavruli is a set of capital forms used for titles and emphasis that behaves like all-caps rather than a sentence-initial capital - Georgian (r12a script notes) [https://r12a.github.io/scripts/geor/ka.html](https://r12a.github.io/scripts/geor/ka.html)
