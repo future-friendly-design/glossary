@@ -5,9 +5,7 @@ aliases:
   - Cyrillic script
 level: foundational
 depth: core
-summary: >-
-  Cyrillic is a script used to write Russian, Bulgarian, Serbian, and many other
-  languages of Eastern Europe, the Caucasus, and northern and central Asia.
+summary: Cyrillic is a script used to write Russian, Bulgarian, Serbian, and many other languages of Eastern Europe, the Caucasus, and northern and central Asia.
 related:
   - alphabet
   - latin-script
@@ -20,6 +18,9 @@ updated: 2026-07-06T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
+  - title: Developing OpenType Fonts for Standard Scripts (Microsoft)
+    url: https://learn.microsoft.com/en-us/typography/script-development/standard
+    type: code
   - title: Noto Sans (Google Fonts)
     url: https://fonts.google.com/noto/specimen/Noto+Sans
     type: design-tool
@@ -39,39 +40,34 @@ Cyrillic is a [script](script.md) used to write Russian, Bulgarian, Serbian, and
 
 For example, the Russian word мир ("world") is written with Cyrillic letters, each one standing for a sound.
 
-Cyrillic is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Cyrillic property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Cyrillic profile
 
-| Property                                                  | Cyrillic                                                                                                                               |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Script type                                               | [Alphabet](alphabet.md)                                                                                                                |
-| Autonym                                                   | Кириллица                                                                                                                              |
-| Symbols                                                   | separate letters for consonants and vowels, in uppercase and lowercase                                                                 |
-| Marks                                                     | few; Cyrillic is written mostly with base letters, and stress marks appear mainly in dictionaries and learning materials               |
-| Letter case                                               | Bicameral (uppercase and lowercase)                                                                                                    |
-| Numerals                                                  | common ASCII digits (an archaic Cyrillic numeral system also exists)                                                                   |
-| Unicode block                                             | Cyrillic, [U+0400 to U+04FF](https://www.unicode.org/charts/PDF/U0400.pdf) (plus Cyrillic Supplement and the Cyrillic Extended blocks) |
-| [Complex text layout](../../terms/complex-text-layout.md) | Not required; Cyrillic lays out left to right, like Latin                                                                              |
-| Languages                                                 | Russian, Ukrainian, Bulgarian, Serbian, Mongolian, and many others                                                                     |
+These properties of Cyrillic apply to any language that uses it in its [writing system](writing-system.md). Beyond the [script rules](script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](orthography.md).
 
-### Script rules and features
+| Property | Cyrillic |
+| --- | --- |
+| [Autonym](../../terms/autonym.md) | Кириллица |
+| Languages | Russian, Ukrainian, Bulgarian, Serbian, Mongolian, and many others |
+| Letter case | Bicameral (uppercase and lowercase)<sup>5</sup> |
+| [Marks](mark.md) | few; Cyrillic is written mostly with base letters, and stress marks appear mainly in dictionaries and learning materials |
+| Numerals | common ASCII digits (an archaic Cyrillic numeral system also exists) |
+| Script type | [Alphabet](alphabet.md) |
+| [Symbols](symbol.md) | separate letters for consonants and vowels, in uppercase and lowercase |
 
-Script rules apply to any language that uses Cyrillic in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+### Cyrillic rules and digital use considerations
 
-| Rule or feature                     | How it works in Cyrillic                                                                                                                                                                                                        |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Text direction](text-direction.md) | Left to right                                                                                                                                                                                                                   |
-| Letter case                         | bicameral: separate uppercase and lowercase forms                                                                                                                     |
-| Localized forms                     | some letters take language-specific shapes, which the [OpenType](../../terms/opentype.md) localized-forms feature selects from the text's language, so the same letters are set differently for Russian, Serbian, and Bulgarian |
+If your design system supports languages that use Cyrillic, here are some considerations to keep in mind:
 
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for Cyrillic, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](../../terms/typeface.md) and [font](../../terms/font.md) with Cyrillic coverage, because the rules below will not render without it.
-
-Where you cannot be creative is the script rules. Text runs left to right, the direction Western tools already assume,<sup>5</sup> and Cyrillic is bicameral, with two cases.<sup>6</sup> The constraint that catches teams is coverage across languages: Cyrillic serves dozens of them, so "supports Cyrillic" is not a single guarantee. Languages use overlapping but different letter sets, and some letters are shaped differently by language;<sup>7</sup> several italic letters, for example, differ in Serbian and Bulgarian from Russian. A font has to carry the letters AND the language's forms, which the [OpenType](../../terms/opentype.md) localized-forms feature selects from the text's declared language. Pick the wrong forms and the text reads as foreign to a native reader, even though every letter is present.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Cyrillic glyphs and the right per-language forms, not Latin lookalikes) and what the language's [orthography](orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in Cyrillic | Design systems |
+| --- | --- | --- |
+| [Complex text layout](../../terms/complex-text-layout.md) | Not required | A standard left-to-right script, with no reordering or contextual shaping<sup>6</sup> |
+| [Text direction](text-direction.md) | Left to right<sup>7</sup> | Left-aligned text as the default |
+| Localized forms | some letters take language-specific shapes, which the [OpenType](../../terms/opentype.md) localized-forms feature selects from the text's declared language<sup>8</sup> | "Supports Cyrillic" is not a single guarantee; declare each content language so Russian, Serbian, and Bulgarian get their own letterforms, or the text can read as foreign to a native reader |
+| [Unicode](../../terms/unicode.md) block | Cyrillic, [U+0400 to U+04FF](https://www.unicode.org/charts/PDF/U0400.pdf) (plus Cyrillic Supplement and the Cyrillic Extended blocks) | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block, including the Supplement and Extended blocks |
 
 ### In practice
 
@@ -88,6 +84,7 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 ### Further reading
 
+* Code & specs: [Developing OpenType Fonts for Standard Scripts (Microsoft)](https://learn.microsoft.com/en-us/typography/script-development/standard)
 * Design tools: [Noto Sans (Google Fonts)](https://fonts.google.com/noto/specimen/Noto+Sans)
 * Foundations: [Unicode Cyrillic code chart (U+0400)](https://www.unicode.org/charts/PDF/U0400.pdf)
 
@@ -97,6 +94,7 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 2. The Cyrillic script is one of several scripts that were ultimately derived from the Greek script - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
 3. The Cyrillic script is named in honour of Saint Cyril, one of the two Byzantine brothers Cyril and Methodius, though scholars believe it was developed and formalized by their disciples - Cyrillic (r12a script notes) [https://r12a.github.io/scripts/cyrl/ru.html](https://r12a.github.io/scripts/cyrl/ru.html)
 4. The details of the history of the development of the Cyrillic script, and of the relationship between early writing systems for Slavic languages, have been lost - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
-5. The Cyrillic script is written in linear sequence from left to right - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
-6. Cyrillic letters have uppercase and lowercase pairs - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
-7. The shapes of the italic forms of Cyrillic letters can vary by language - Cyrillic (r12a script notes) [https://r12a.github.io/scripts/cyrl/ru.html](https://r12a.github.io/scripts/cyrl/ru.html)
+5. Cyrillic letters have uppercase and lowercase pairs - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
+6. Cyrillic is one of the standard (non-complex) scripts, which do not require re-ordering or contextual analysis - Developing OpenType Fonts for Standard Scripts (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/standard](https://learn.microsoft.com/en-us/typography/script-development/standard)
+7. The Cyrillic script is written in linear sequence from left to right - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
+8. The shapes of the italic forms of Cyrillic letters can vary by language - Cyrillic (r12a script notes) [https://r12a.github.io/scripts/cyrl/ru.html](https://r12a.github.io/scripts/cyrl/ru.html)
