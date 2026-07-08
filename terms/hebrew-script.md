@@ -6,7 +6,7 @@ aliases:
   - hebrew alphabet
 level: intermediate
 depth: core
-summary: The Hebrew script is a script used to write Hebrew, Yiddish, Ladino, and other Jewish languages.
+summary: The Hebrew script is used to write Hebrew, Yiddish, Ladino, and other Jewish languages.
 related:
   - abjad
   - arabic-script
@@ -40,43 +40,39 @@ tags:
 
 ## Definition
 
-The Hebrew script is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Hebrew, Yiddish, Ladino, and other Jewish languages.<sup>1</sup> It is an [abjad](../language-terms/writing-systems-and-scripts/abjad.md): vowels are normally left unwritten, though they can be shown with optional points added to the consonants.<sup>2</sup>
+The Hebrew [script](../language-terms/writing-systems-and-scripts/script.md) is used to write Hebrew, Yiddish, Ladino, and other Jewish languages.<sup>1</sup> It is an [abjad](../language-terms/writing-systems-and-scripts/abjad.md): vowels are normally left unwritten, though they can be shown with optional points added to the consonants.<sup>2</sup>
 
 For example, the greeting שלום ("shalom", "hello") is written right to left, ending in ם, the form the letter mem takes at the end of a word.
 
-The Hebrew script is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Hebrew script property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Hebrew script profile
+
+These properties of the Hebrew script apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
 | Property | Hebrew script |
 | --- | --- |
-| Script type | [Abjad](../language-terms/writing-systems-and-scripts/abjad.md) |
-| Autonym | אלף־בית עברי |
-| Symbols | consonants, five of which take a distinct word-final form; vowels are normally unwritten |
-| Marks | vowel points (niqqud), the dagesh, and cantillation marks, positioned above, below, or within the consonants as combining [marks](../language-terms/writing-systems-and-scripts/mark.md) |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | common ASCII digits, written left to right; a traditional additive system using Hebrew letters is also used |
-| Unicode block | Hebrew, [U+0590 to U+05FF](https://www.unicode.org/charts/PDF/U0590.pdf) |
-| [Complex text layout](complex-text-layout.md) | Yes, for right-to-left and bidirectional layout, and for positioning vowel points when they are shown |
+| [Autonym](autonym.md) | אלף־בית עברי |
 | Languages | Hebrew, Yiddish, Ladino (Judezmo), and others |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | vowel points (niqqud), the dagesh, and cantillation marks, positioned above, below, or within the consonants as combining marks |
+| Numerals | common ASCII digits, written left to right; a traditional additive system using Hebrew letters is also used |
+| Script type | [Abjad](../language-terms/writing-systems-and-scripts/abjad.md) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants, five of which take a distinct word-final form; vowels are normally unwritten |
 
-### Script rules and features
+### Hebrew script rules and digital use considerations
 
-Script rules apply to any language that uses the Hebrew script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use the Hebrew script, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in the Hebrew script |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Right to left; a number or an embedded Latin word that shares a line follows the [bidirectional](../language-terms/writing-systems-and-scripts/bidirectional-text.md) algorithm |
-| Final letterforms | five consonants (final kaf, mem, nun, pe, and tsadi) take a distinct form at the end of a word |
-| Niqqud (vowel points) | optional vowel [marks](../language-terms/writing-systems-and-scripts/mark.md), positioned above, below, or within the consonants and normally omitted outside liturgical and learning texts |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for the Hebrew script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Hebrew coverage, because the rules above will not render without it.
-
-Where you cannot be creative is the script rules. Text runs right to left,<sup>3</sup> so a number or a Latin word that shares a line is [bidirectional](../language-terms/writing-systems-and-scripts/bidirectional-text.md) and has to be reordered by the Unicode bidirectional algorithm to read correctly.<sup>4</sup> Unlike the [Arabic script](arabic-script.md), Hebrew letters do not join, so a letter keeps its shape wherever it sits,<sup>5</sup> but five of them take a distinct form at the end of a word,<sup>6</sup> and when vowel points are shown they are combining marks that have to be positioned on the consonants.<sup>7</sup> This layout, the right-to-left order, the final forms, and any point placement, is carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), the step that turns stored characters into positioned glyphs. It is not a set of styling choices: get the direction or the final forms wrong and the text reads incorrectly, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing. Because Hebrew letters do not join, spacing is less constrained than in a cursive script like Arabic, but any vowel points or cantillation marks have to stay correctly placed on their letters, and the result still has to suit the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md), since a face that suits modern Hebrew may not suit pointed liturgical text or Yiddish. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in the Hebrew script | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Yes, for right-to-left and bidirectional layout, and for positioning vowel points when they are shown | Unlike the [Arabic script](arabic-script.md), Hebrew letters do not join, so a letter keeps its shape wherever it sits and spacing is less constrained than in a cursive script;<sup>3</sup> the right-to-left order, the final forms, and any point placement are still carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), so getting the direction or final forms wrong makes the text read incorrectly, not just unstyled |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Right to left<sup>4</sup> | A number or an embedded Latin word that shares a line is [bidirectional](../language-terms/writing-systems-and-scripts/bidirectional-text.md) and has to be reordered by the Unicode bidirectional algorithm to read correctly<sup>5</sup> |
+| Final letterforms | five consonants (final kaf, mem, nun, pe, and tsadi) take a distinct form at the end of a word<sup>6</sup> | These are separate encoded characters, so confirm the font renders them and test a word that ends in a final-form letter |
+| Niqqud (vowel points) | optional vowel [marks](../language-terms/writing-systems-and-scripts/mark.md), positioned above, below, or within the consonants and normally omitted outside liturgical and learning texts | When points are shown they are combining marks that have to stay correctly positioned on their consonants, handled by the OpenType mark feature, so test point placement, not just the base consonants<sup>7</sup> |
+| [Unicode](unicode.md) block | Hebrew, [U+0590 to U+05FF](https://www.unicode.org/charts/PDF/U0590.pdf) | No special handling beyond ensuring [font coverage](font-coverage.md) of the block, including the final forms and vowel points |
 
 ### In practice
 
@@ -102,8 +98,8 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 1. The Hebrew script is used for writing the Hebrew language as well as Yiddish, Judezmo (Ladino), and a number of other languages - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
 2. In Hebrew, vowels and other marks are written as points applied to the consonantal base letters, and these marks are usually omitted except in liturgical texts and other special applications - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
-3. The Hebrew script is written from right to left - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
-4. Conformant implementations of the Hebrew script must use the Unicode Bidirectional Algorithm, which reorders a right-to-left line for display so that embedded numbers and left-to-right words are placed in the correct order - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
-5. Arabic, Syriac, and Mandaic are cursive scripts even when typeset, unlike Hebrew and Samaritan, where the letters are unconnected - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
+3. Arabic, Syriac, and Mandaic are cursive scripts even when typeset, unlike Hebrew and Samaritan, where the letters are unconnected - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
+4. The Hebrew script is written from right to left - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
+5. Conformant implementations of the Hebrew script must use the Unicode Bidirectional Algorithm, which reorders a right-to-left line for display so that embedded numbers and left-to-right words are placed in the correct order - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
 6. Variant forms of five Hebrew letters are encoded as separate characters and are generally used in place of the nominal letterforms at the end of words - The Unicode Standard, Version 16.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/)
 7. In Hebrew most diacritic marks (nikud) are optional and omitted in most text; when they occur they need to be correctly positioned relative to the base character, which the shaping engine handles with the OpenType mark (mark-to-base) feature - Developing OpenType Fonts for Hebrew Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/hebrew](https://learn.microsoft.com/en-us/typography/script-development/hebrew)
