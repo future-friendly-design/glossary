@@ -39,38 +39,36 @@ Hiragana is a [script](../language-terms/writing-systems-and-scripts/script.md) 
 
 For example, the script's own name, ひらがな ("hiragana"), is four symbols: hi, ra, ga, na (が is か "ka" with the voiced-sound mark).
 
-Hiragana is one script within the writing system of the language that uses it. This page describes the script itself; how Japanese uses it, its spelling, punctuation, and which symbols, is the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every hiragana property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Hiragana profile
+
+These properties of hiragana apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
 | Property | Hiragana |
 | --- | --- |
-| Script type | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) |
-| Autonym | ひらがな |
-| Symbols | symbols each standing for a syllable (mora): a vowel alone, or a consonant plus a vowel |
-| Marks | voiced-sound mark (dakuten) and semi-voiced-sound mark (handakuten), which turn a base symbol into its voiced or semi-voiced counterpart; small kana modify the preceding sound |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | common ASCII digits (Japanese also uses kanji numerals) |
-| Unicode block | Hiragana, [U+3040 to U+309F](https://www.unicode.org/charts/PDF/U3040.pdf) |
-| [Complex text layout](complex-text-layout.md) | No reordering or contextual shaping, but Japanese supports vertical setting ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
+| [Autonym](autonym.md) | ひらがな |
 | Languages | Japanese |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | voiced-sound mark (dakuten) and semi-voiced-sound mark (handakuten), which turn a base symbol into its voiced or semi-voiced counterpart; small kana modify the preceding sound |
+| Numerals | common ASCII digits (Japanese also uses kanji numerals) |
+| Script type | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | symbols each standing for a syllable (mora): a vowel alone, or a consonant plus a vowel |
 
-### Script rules and features
+### Hiragana rules and digital use considerations
 
-Script rules apply to any language that uses hiragana in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use hiragana, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in hiragana |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
-| Voiced-sound marks | a base symbol takes a voiced mark (dakuten) or semi-voiced mark (handakuten) to form its voiced or semi-voiced counterpart |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for hiragana, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Japanese coverage, because hiragana never travels alone.
-
-Where you cannot be creative is the script rules. In ordinary Japanese, hiragana is interspersed with [katakana](katakana.md) and [kanji](han-characters.md), the Japanese [Han characters](han-characters.md),<sup>3</sup> so you are never setting hiragana by itself: the three scripts have to share one line, sit on compatible metrics, and read as one text. Hiragana itself is not complex to shape, no reordering or contextual analysis: a voiced or semi-voiced syllable is usually its own precomposed symbol, with the base-plus-[combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) form used mainly for kana outside that set,<sup>4</sup> and Japanese is traditionally set vertically as well as horizontally,<sup>5</sup> so vertical layout has to substitute the font's [OpenType](opentype.md) vertical forms, which the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies at render time, the step that turns stored characters into positioned glyphs. Hiragana is also used to show the pronunciation of kanji, set small as ruby (furigana) above or beside them.<sup>6</sup> These are not styling choices: get the script mixing, the vertical forms, or the ruby wrong and the text renders incorrectly, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the kana have to harmonize with the kanji they sit among, which is a real concern in Japanese type) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in hiragana | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Not required for shaping: no reordering or contextual analysis, and a voiced or semi-voiced syllable is usually its own precomposed symbol | Hiragana is simple to shape, so the design-critical work is layout, not glyph substitution. These are not styling choices, though: the mixed-script line, the vertical forms, and any ruby still have to resolve correctly at render time through the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md))<sup>3</sup> | Support vertical layout if your text calls for it; vertical setting substitutes the font's [OpenType](opentype.md) vertical forms, and the layout engine, not styling, places them |
+| Script mixing | in ordinary Japanese, hiragana is interspersed with [katakana](katakana.md) and [kanji](han-characters.md), the Japanese [Han characters](han-characters.md)<sup>4</sup> | You are never setting hiragana by itself, so the three scripts have to share one line, sit on compatible metrics, and read as one text; confirm the font covers all three with harmonized weights |
+| Voiced-sound marks | a base symbol takes a voiced mark (dakuten) or semi-voiced mark (handakuten) to form its voiced or semi-voiced counterpart | A voiced or semi-voiced syllable is usually its own precomposed symbol, with the base-plus-[combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) form used mainly for kana outside that set,<sup>5</sup> so confirm the marks render, not just the base symbols |
+| Ruby (furigana) | hiragana is set small above or beside [kanji](han-characters.md) to show their pronunciation<sup>6</sup> | If you support ruby, confirm it renders and positions correctly; it is a layout feature, not decorative styling |
+| [Unicode](unicode.md) block | Hiragana, [U+3040 to U+309F](https://www.unicode.org/charts/PDF/U3040.pdf) | No special handling beyond ensuring [font coverage](font-coverage.md) of the block, alongside the katakana and kanji hiragana shares a line with |
 
 ### In practice
 
@@ -95,7 +93,8 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 1. Hiragana is the cursive syllabary used to write Japanese words phonetically and to write sentence particles and inflectional endings - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 2. The Japanese developed two syllabaries, Hiragana and Katakana, whose shapes are simplified or stylized versions of certain ideographs - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-3. When used in writing Japanese or Korean, the Han characters are interspersed with other scripts unique to those languages (Hiragana and Katakana for Japanese; Hangul syllables for Korean) - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-4. All common precomposed combinations of base syllable forms using these marks are already encoded as characters, and use of these precomposed forms is the predominant JIS usage - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-5. Traditionally, the basic writing direction followed the conventions of Chinese handwriting, in top-down vertical lines arranged from right to left across the page; under the influence of Western printing technologies, a horizontal, left-to-right directionality has become common - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+3. Traditionally, the basic writing direction followed the conventions of Chinese handwriting, in top-down vertical lines arranged from right to left across the page; under the influence of Western printing technologies, a horizontal, left-to-right directionality has become common - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+4. When used in writing Japanese or Korean, the Han characters are interspersed with other scripts unique to those languages (Hiragana and Katakana for Japanese; Hangul syllables for Korean) - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+5. All common precomposed combinations of base syllable forms using these marks are already encoded as characters, and use of these precomposed forms is the predominant JIS usage - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 6. Hiragana is also commonly used to indicate the pronunciation of Japanese words - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+</content>
