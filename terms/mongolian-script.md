@@ -6,9 +6,7 @@ aliases:
   - Hudum Mongol bichig
 level: advanced
 depth: core
-summary: >-
-  The traditional Mongolian script is a script used to write Mongolian, written
-  vertically from top to bottom in columns that run left to right.
+summary: The traditional Mongolian script is used to write Mongolian, written vertically from top to bottom in columns that run left to right.
 related:
   - alphabet
   - cyrillic
@@ -17,7 +15,7 @@ related:
   - complex-text-layout
 status: voice-passed
 version_added: 0.1
-updated: 2026-07-07T00:00:00.000Z
+updated: 2026-07-08T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -39,43 +37,39 @@ tags:
 
 ## Definition
 
-The traditional Mongolian script is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Mongolian, written vertically from top to bottom in columns that run left to right.<sup>1</sup> It is an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md), with separate letters for consonants and vowels. The script is cursive, so the letters of a word normally join,<sup>2</sup> and many take different initial, medial, final, and isolate forms depending on their position.<sup>3</sup> It was created around the beginning of the thirteenth century, during the reign of Genghis Khan, and derives from the Old Uyghur script,<sup>4</sup> itself an adaptation of Sogdian Aramaic, a Semitic script written horizontally from right to left.<sup>5</sup>
+The traditional Mongolian [script](../language-terms/writing-systems-and-scripts/script.md) is used to write Mongolian, written vertically from top to bottom in columns that run left to right.<sup>1</sup> It is an [alphabet](../language-terms/writing-systems-and-scripts/alphabet.md), with separate letters for consonants and vowels. The script is cursive, so the letters of a word normally join,<sup>2</sup> and many take different initial, medial, final, and isolate forms depending on their position.<sup>3</sup> It was created around the beginning of the thirteenth century, during the reign of Genghis Khan, and derives from the Old Uyghur script,<sup>4</sup> itself an adaptation of Sogdian Aramaic, a Semitic script written horizontally from right to left.<sup>5</sup>
 
 For example, the script's own name ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ ("Mongol bichig", "Mongol script") is written down a column, its letters joined in one cursive line.
 
-The traditional Mongolian script is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Mongolian script property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Mongolian script profile
 
-| Property                                      | Mongolian script (traditional)                                                                                  |
-| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Script type                                   | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) (cursive)                                 |
-| Autonym                                       | ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ                                                                                                    |
-| Symbols                                       | letters for consonants and vowels, joining cursively, many with initial, medial, final, and isolate forms       |
-| Marks                                         | None (no combining vowel or tone marks); free variation selectors are appended to pick a letter's shape variant |
-| Letter case                                   | None (no uppercase and lowercase)                                                                               |
-| Numerals                                      | Mongolian digits (U+1810 to U+1819), alongside common ASCII digits                                              |
-| Unicode block                                 | Mongolian, [U+1800 to U+18AF](https://www.unicode.org/charts/PDF/U1800.pdf) (plus Mongolian Supplement)         |
-| [Complex text layout](complex-text-layout.md) | Yes: vertical layout, cursive joining, positional forms, and variation selectors                                |
-| Languages                                     | Mongolian (used especially in Inner Mongolia, China)                                                            |
+These properties of the traditional Mongolian script apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
-### Script rules and features
+| Property | Mongolian script (traditional) |
+| --- | --- |
+| [Autonym](autonym.md) | ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ |
+| Languages | Mongolian (used especially in Inner Mongolia, China) |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | None (no combining vowel or tone marks); free variation selectors are appended to pick a letter's shape variant |
+| Numerals | Mongolian digits (U+1810 to U+1819), alongside common ASCII digits |
+| Script type | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) (cursive) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | letters for consonants and vowels, joining cursively, many with initial, medial, final, and isolate forms |
 
-Script rules apply to any language that uses the traditional Mongolian script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+### Mongolian script rules and digital use considerations
 
-| Rule or feature                                                                   | How it works in the Mongolian script                                                                                                                                       |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Vertical, top to bottom, in columns that run left to right (the reverse of the right-to-left column order of Chinese, Japanese, and Korean vertical text)                  |
-| [Joining](../language-terms/writing-systems-and-scripts/joining.md)               | letters connect cursively, most taking an initial, medial, final, or isolate form depending on their position in the word                                                  |
-| Variation selectors                                                               | when the correct letter shape cannot be derived automatically, a free variation selector is appended to force it |
+If your design system supports languages that use the traditional Mongolian script, here are some considerations to keep in mind:
 
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for the traditional Mongolian script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Mongolian coverage, because the rules below will not render without it.
-
-Where you cannot be creative is the script rules, and the headline is direction. Mongolian runs [vertically](vertical-text.md), top to bottom, in columns that run left to right, which is genuinely different work: most layout engines, CSS defaults, and UI components assume horizontal lines, and the column order is even the reverse of Chinese, Japanese, and Korean vertical text, so you cannot reuse those assumptions either. On top of that the script is cursive, so letters join and take an initial, medial, final, or isolate form by position, which the font's [OpenType](opentype.md) rules select and the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies at render time, the step that turns stored characters into positioned glyphs. And Mongolian is a special case: its encoding model is, in Unicode's own words, in many respects the most complicated of any script,<sup>6</sup> because some letter shapes cannot be predicted algorithmically, so a free variation selector has to be appended to the letter to force the right form.<sup>7</sup> These are not styling choices: without vertical layout, cursive shaping, and the right variation selectors, the text runs the wrong way or shows the wrong forms, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, remembering that Mongolian is also written in [Cyrillic](../language-terms/writing-systems-and-scripts/cyrillic.md) in the country of Mongolia, so "Mongolian" is not one script. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in the Mongolian script | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Yes: vertical layout, cursive joining, positional forms, and variation selectors | Genuinely different work: most layout engines, CSS defaults, and UI components assume horizontal lines. Mongolian's encoding model is, in Unicode's words, in many respects the most complicated of any script,<sup>6</sup> so budget for it rather than treating it as a horizontal script turned sideways |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Vertical, top to bottom, in columns that run left to right (the reverse of the right-to-left column order of Chinese, Japanese, and Korean vertical text) | You cannot reuse horizontal-layout assumptions, and the column order is even the reverse of CJK vertical text, so verify your layout stack can set vertical, left-to-right columns, not just horizontal lines |
+| [Joining](../language-terms/writing-systems-and-scripts/joining.md) | letters connect cursively, most taking an initial, medial, final, or isolate form depending on their position in the word | The font's [OpenType](opentype.md) rules select the positional form and the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies it at render time, the step that turns stored characters into positioned glyphs |
+| Variation selectors | when the correct letter shape cannot be derived automatically, a free variation selector is appended to force it | Some letter shapes cannot be predicted algorithmically, so a free variation selector has to be appended to the letter to force the right form,<sup>7</sup> get this wrong and the text shows the wrong forms, not just unstyled |
+| [Unicode](unicode.md) block | Mongolian, [U+1800 to U+18AF](https://www.unicode.org/charts/PDF/U1800.pdf) (plus Mongolian Supplement) | A Latin or [Cyrillic](../language-terms/writing-systems-and-scripts/cyrillic.md) font will not render it, so confirm [font coverage](font-coverage.md) of the block, the positional forms, and the variation selectors |
 
 ### In practice
 
@@ -105,3 +99,4 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 5. Old Uyghur itself was an adaptation of Sogdian Aramaic, a Semitic script written horizontally from right to left - The Unicode Standard, Version 16.0, Chapter 13: South and Central Asia-II [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/)
 6. The encoding model for Mongolian is somewhat different from that for any other script within Unicode, and in many respects it is the most complicated - The Unicode Standard, Version 16.0, Chapter 13: South and Central Asia-II [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/)
 7. When a glyph form that cannot be predicted algorithmically is required, the user needs to append an appropriate variation selector to the letter - The Unicode Standard, Version 16.0, Chapter 13: South and Central Asia-II [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/)
+</content>
