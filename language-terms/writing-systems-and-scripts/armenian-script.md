@@ -47,8 +47,6 @@ This glossary doesn't cover every Armenian scrip property, feature, and rule; se
 
 These properties of the Armenian script which apply to all languages that include it in their [writing system](writing-system.md). In addition to the [script rules](script-rules.md) described below, its important to consider the specific rules each language defines for its usage of the Amenian script, known as its [othography](orthography.md).
 
-The Armenian script is one script within the writing system of the language that uses it. This page describes the script itself; how Armenian uses it, its spelling, punctuation, and which symbols, is the language's [orthography](orthography.md).
-
 | Property                          | Armenian script                                                                                                                                                      |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Autonym](../../terms/autonym.md) | Հայոց այբուբեն                                                                                                                                                       |
@@ -70,10 +68,6 @@ If your design system supports languages that use the Armenian script, here are 
 | [Noto Font](../../terms/noto-fonts.md)                    | [Noto Sans Armenian](https://fonts.google.com/noto/specimen/Noto+Sans+Armenian)                                                       | Free, open-licensed option from Google, should be installed in Figma by default. |
 | [Punctuation](punctuation-mark.md)                        | Armenian uses its own marks; the question and emphasis marks sit above a word's stressed vowel rather than at the end of the sentence | Test line-height so above-marks don't clip; don't tighten leading blindly        |
 | [Unicode](../../terms/unicode.md) block                   | Armenian, [U+0530 to U+058F](https://www.unicode.org/charts/PDF/U0530.pdf)                                                            |                                                                                  |
-
-Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Armenian glyphs, both cases, and its punctuation) and what the language's [orthography](orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 
