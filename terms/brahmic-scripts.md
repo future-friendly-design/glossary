@@ -34,7 +34,7 @@ tags:
 
 ## Definition
 
-Brahmic scripts are a family of related scripts used across South and Southeast Asia, all descended from the ancient Brahmi script.<sup>1</sup> They are almost all [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): most symbols stand for a consonant plus an inherent vowel, generally the short /a/, which dependent vowel signs ([matras](../language-terms/writing-systems-and-scripts/matra.md)) can change.<sup>2</sup>
+Brahmic scripts are a family of related scripts used across South and Southeast Asia, all descended from the ancient Brahmi script.<sup>1</sup> They are almost all [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): most symbols stand for a consonant plus an inherent vowel, generally the short /a/, which dependent vowels ([matras](../language-terms/writing-systems-and-scripts/matra.md)) can change.<sup>2</sup>
 
 Brahmic is a family, not a single script. This page describes what the members share; how any one member works, its symbols, conjuncts, and rules, is that script's own page. The members share a structure but differ enough that you design for each one, not for "Brahmic" as a whole: Unicode itself warns that implementations should not assume the South Indian scripts work just as Devanagari does.<sup>3</sup>
 
@@ -46,7 +46,7 @@ These are the traits the family holds in common. Individual members vary, so tre
 | --- | --- |
 | Origin | all descend from the ancient Brahmi script |
 | Script type | almost all are [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): each consonant carries an inherent vowel, generally /a/ |
-| Vowel signs | dependent vowel signs ([matras](../language-terms/writing-systems-and-scripts/matra.md)) attach to a consonant to change its inherent vowel |
+| Vowel marks | dependent vowels ([matras](../language-terms/writing-systems-and-scripts/matra.md)) attach to a consonant to change its inherent vowel |
 | [Virama](../language-terms/writing-systems-and-scripts/virama.md) | a virama (halant) suppresses the inherent vowel |
 | [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | consonant clusters can combine into conjunct forms |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | with minor historical exceptions, left to right |
@@ -58,10 +58,10 @@ The Brahmic family is large and this glossary doesn't cover every member; here a
 
 | Script | Languages | Example | Distinctive in the family |
 | --- | --- | --- | --- |
-| [Devanagari](devanagari.md) | Hindi, Marathi, Sanskrit, Nepali | देवनागरी | hangs from a headline stroke ([shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md)); reorders a left-side matra |
+| [Devanagari](devanagari.md) | Hindi, Marathi, Sanskrit, Nepali | देवनागरी | hangs its symbols from a continuous headline stroke ([shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md)) |
 | [Bengali-Assamese](bengali-assamese.md) | Bengali, Assamese | বাংলা লিপি | also written along a headline; its own conjunct forms |
-| [Tamil](tamil-script.md) | Tamil | தமிழ் | sits on a [baseline](../design-terms/typography/baseline.md); very few conjuncts |
-| Telugu | Telugu | | rounded southern forms; vowel signs mostly above the consonant |
+| [Tamil](tamil-script.md) | Tamil | தமிழ் அரிச்சுவடி | sits on a [baseline](../design-terms/typography/baseline.md); very few conjuncts |
+| Telugu | Telugu | | rounded southern forms; vowel marks mostly above the consonant |
 | Kannada | Kannada | | rounded southern forms, closely related to Telugu |
 | Malayalam | Malayalam | | rounded southern forms; historically rich in conjuncts |
 | Gujarati | Gujarati | | like Devanagari, but without the headline stroke |
@@ -69,7 +69,7 @@ The Brahmic family is large and this glossary doesn't cover every member; here a
 | Odia | Odia | | rounded, curved tops |
 | Sinhala | Sinhala | | rounded forms |
 | [Syloti Nagri](syloti-nagri.md) | Sylheti | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ | small consonant set; a hasanta forms conjuncts |
-| [Thai](thai-script.md) | Thai | ภาษาไทย | no spaces between words, needing [word segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md); some vowel signs sit to the left |
+| [Thai](thai-script.md) | Thai | อักษรไทย | no spaces between words, needing [word segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md); some vowel marks sit to the left |
 | Lao, Khmer, Myanmar | Lao, Khmer, Burmese | | Southeast Asian branch; Khmer stacks subscript consonants |
 | [Tibetan](tibetan-script.md) | Tibetan, Dzongkha | བོད་ཡིག | [stacks](../language-terms/writing-systems-and-scripts/stacking-script.md) consonants vertically; a [tsheg](../language-terms/writing-systems-and-scripts/tsheg.md) marks syllables |
 
@@ -92,7 +92,7 @@ What does not transfer is the detail, and this is the trap: the members diverge 
 
 ### Related terms and mentions
 
-[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Baseline](../design-terms/typography/baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari](devanagari.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Syloti Nagri](syloti-nagri.md) · [Tamil](tamil-script.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Thai script](thai-script.md) · [Tibetan](tibetan-script.md) · [Tsheg](../language-terms/writing-systems-and-scripts/tsheg.md) · [Unicode](unicode.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Baseline](../design-terms/typography/baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari](devanagari.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Syloti Nagri](syloti-nagri.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tamil](tamil-script.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Thai script](thai-script.md) · [Tibetan](tibetan-script.md) · [Tsheg](../language-terms/writing-systems-and-scripts/tsheg.md) · [Unicode](unicode.md) · [Virama](../language-terms/writing-systems-and-scripts/virama.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
