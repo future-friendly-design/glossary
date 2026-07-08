@@ -42,39 +42,35 @@ Ethiopic is a [script](../language-terms/writing-systems-and-scripts/script.md) 
 
 For example, ሰላም ("selam", "peace", a common greeting) is written with three of those syllable characters.
 
-Ethiopic is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Ethiopic property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Ethiopic profile
 
-| Property | Ethiopic script |
+These properties of Ethiopic apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+
+| Property | Ethiopic |
 | --- | --- |
-| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| Autonym | ግዕዝ (Ge'ez) |
-| Symbols | consonant-and-vowel syllables, each a single character; one consonant has a form for each vowel |
-| Marks | few; the vowel is built into the letterform rather than added as a separate mark |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | Ethiopic numerals ፩, ፪, ፫ … (a traditional system; European digits also common) |
-| Unicode block | Ethiopic, [U+1200 to U+137F](https://www.unicode.org/charts/PDF/U1200.pdf) (plus Ethiopic Supplement and the Ethiopic Extended blocks) |
-| [Complex text layout](complex-text-layout.md) | Minimal shaping; the demand is coverage of a large syllable set, where each syllable is its own character |
+| [Autonym](autonym.md) | ግዕዝ (Ge'ez) |
 | Languages | Amharic, Tigrinya, Tigre, Oromo, Ge'ez, and others |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | few; the vowel is built into the letterform rather than added as a separate mark |
+| Numerals | Ethiopic numerals ፩, ፪, ፫ … (a traditional system; European digits also common) |
+| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonant-and-vowel syllables, each a single character; one consonant has a form for each vowel |
 
-### Script rules and features
+### Ethiopic rules and digital use considerations
 
-Script rules apply to any language that uses the Ethiopic script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use Ethiopic, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in the Ethiopic script |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right |
-| Syllable characters | each consonant-and-vowel is one character; the vowel is shown by modifying the consonant's shape, so one consonant has a series of forms |
-| [Word separation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) | traditionally a wordspace mark separated words; modern Amharic generally uses spaces, so segmentation depends on the text's conventions |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for the Ethiopic script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Ethiopic coverage, because the rules below will not render without it.
-
-Where you cannot be creative is the script rules. Text runs left to right.<sup>3</sup> The structure to plan for is the syllable set: each consonant-and-vowel is its own character, formed by modifying the consonant's shape for the vowel, so a single consonant is a whole series of forms and the script runs to hundreds of characters, not a few dozen letters plus marks.<sup>4</sup> Covering Ethiopic therefore means supporting a large character set, and typing it means composing or selecting whole syllables, not letters with detachable vowels. Word separation is its own question: traditionally a wordspace mark divided words,<sup>5</sup> while modern text generally uses spaces,<sup>6</sup> so search and line breaking follow the text's convention rather than one fixed rule. These are not styling choices: without the full syllable set the text is simply missing characters.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script needs (the full syllable set, not a partial subset) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in Ethiopic | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Minimal shaping | The structure to plan for is the syllable set: covering Ethiopic means supporting a large character set, hundreds of characters rather than a few dozen letters plus marks, and typing it means composing or selecting whole syllables; without the full set the text is simply missing characters |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right<sup>3</sup> | Left-aligned text as the default |
+| Syllable characters | each consonant-and-vowel is one character; the vowel is shown by modifying the consonant's shape, so one consonant has a series of forms<sup>4</sup> | Plan input and search around syllables, not letters; do not assume letter-by-letter input or vowels that detach from the consonant |
+| [Word separation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) | traditionally a wordspace mark separated words;<sup>5</sup> modern Amharic generally uses spaces, so segmentation depends on the text's conventions<sup>6</sup> | Let [segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) follow the text's convention rather than one fixed rule, and pull it from [locale](locale.md) data; search and line breaking depend on it |
+| [Unicode](unicode.md) block | Ethiopic, [U+1200 to U+137F](https://www.unicode.org/charts/PDF/U1200.pdf) (plus Ethiopic Supplement and the Ethiopic Extended blocks) | Ensure [font coverage](font-coverage.md) of the block and its extensions; the large syllable set means a partial subset drops real syllables |
 
 ### In practice
 
