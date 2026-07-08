@@ -6,9 +6,7 @@ aliases:
   - Sylheti Nagari
 level: advanced
 depth: core
-summary: >-
-  Syloti Nagri is a script used to write Sylheti, a language spoken in northeast
-  Bangladesh and southeast Assam in India.
+summary: Syloti Nagri is a script used to write Sylheti, a language spoken in northeast Bangladesh and southeast Assam in India.
 related:
   - abugida
   - brahmic-scripts
@@ -40,39 +38,35 @@ Syloti Nagri is a [script](../language-terms/writing-systems-and-scripts/script.
 
 For example, the script's own name ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ ("Siloti Nagri") is written left to right, its vowel signs attached to the consonants.
 
-Syloti Nagri is one script within the writing system of the language that uses it. This page describes the script itself; how Sylheti uses it, its spelling, punctuation, and which symbols, is the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Syloti Nagri property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Syloti Nagri profile
 
-| Property                                      | Syloti Nagri                                                                                                             |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Script type                                   | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) (Brahmic)                                            |
-| Autonym                                       | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ                                                                                                              |
-| Symbols                                       | consonants carrying an inherent vowel /o/, plus independent vowels                                                       |
-| Marks                                         | dependent vowel signs; a hasanta (like a [virama](../language-terms/writing-systems-and-scripts/virama.md)) and anusvara |
-| Letter case                                   | None (no uppercase and lowercase)                                                                                        |
-| Numerals                                      | common ASCII digits                                                                                                      |
-| Unicode block                                 | Syloti Nagri, [U+A800 to U+A82F](https://www.unicode.org/charts/PDF/UA800.pdf)                                           |
-| [Complex text layout](complex-text-layout.md) | Yes: dependent vowel signs and the hasanta (conjuncts) need positioning and shaping                                      |
-| Languages                                     | Sylheti                                                                                                                  |
+These properties of Syloti Nagri apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
-### Script rules and features
+| Property | Syloti Nagri |
+| --- | --- |
+| [Autonym](autonym.md) | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ |
+| Languages | Sylheti |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | dependent vowel signs; a hasanta (like a [virama](../language-terms/writing-systems-and-scripts/virama.md)) and anusvara |
+| Numerals | common ASCII digits |
+| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) (Brahmic) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel /o/, plus independent vowels |
 
-Script rules apply to any language that uses Syloti Nagri in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+### Syloti Nagri rules and digital use considerations
 
-| Rule or feature                                                                   | How it works in Syloti Nagri                                                                                                                                                                                                               |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right                                                                                                                                                                                                                              |
-| Inherent vowel                                                                    | each consonant carries an inherent vowel /o/; dependent vowel signs attach to change it (see [abugida](../language-terms/writing-systems-and-scripts/abugida.md))                                                                          |
-| Hasanta                                                                           | a hasanta mark (like a [virama](../language-terms/writing-systems-and-scripts/virama.md)) suppresses the inherent vowel, marking a word-final consonant or forming a [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) |
+If your design system supports languages that use Syloti Nagri, here are some considerations to keep in mind:
 
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for Syloti Nagri, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Syloti Nagri coverage, because a Bengali or Latin font will not render it.
-
-Where you cannot be creative is the script rules. Unlike the region's recently devised community alphabets, Syloti Nagri is a Brahmic [abugida](../language-terms/writing-systems-and-scripts/abugida.md), so it does need shaping: each consonant carries an inherent vowel /o/, dependent vowel signs attach and have to be positioned, and a hasanta mark suppresses that inherent vowel to mark a word-final consonant or form a [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md).<sup>6</sup> The font's [OpenType](opentype.md) rules carry that positioning and conjunct behaviour, and the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies it at render time, the step that turns stored characters into positioned glyphs. It is lighter than [Devanagari](devanagari.md), but it is not a plain row of letters. These are not styling choices: get the vowel-sign placement or the conjuncts wrong and the text renders incorrectly, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, remembering that Sylheti is largely written in the [Bengali-Assamese script](bengali-assamese.md) today, and also in [Latin](../language-terms/writing-systems-and-scripts/latin-script.md), so Syloti Nagri is one option, not the only way the language is written. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in Syloti Nagri | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Yes, shaping required | Each consonant carries an inherent vowel, dependent vowel signs attach and have to be positioned, and a hasanta forms conjuncts, so the font's [OpenType](opentype.md) rules carry that positioning and conjunct behaviour and the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies it at render time; it is lighter than [Devanagari](devanagari.md), but not a plain row of letters, so a tool or font that cannot shape renders the vowel signs or conjuncts wrongly, not just unstyled, and a Bengali or Latin font will not render it at all |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right | Left-aligned text as the default |
+| Inherent vowel | each consonant carries an inherent vowel /o/; dependent vowel signs attach to change it (see [abugida](../language-terms/writing-systems-and-scripts/abugida.md)) | Dependent vowel signs have to be positioned on the consonant, so test a syllable that changes the inherent vowel |
+| Hasanta | a hasanta mark (like a [virama](../language-terms/writing-systems-and-scripts/virama.md)) suppresses the inherent vowel, marking a word-final consonant or forming a [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md)<sup>6</sup> | Confirm the font marks word-final consonants and forms conjuncts with the hasanta |
+| [Unicode](unicode.md) block | Syloti Nagri, [U+A800 to U+A82F](https://www.unicode.org/charts/PDF/UA800.pdf) | No special handling beyond ensuring [font coverage](font-coverage.md) of the block; pair it with a [keyboard layout](keyboard-layout.md) so people can type it |
 
 ### In practice
 
@@ -100,3 +94,4 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 4. There are 5 independent vowel letters, and 5 dependent vowel signs that are attached to a consonant letter - The Unicode Standard, Version 16.0, Chapter 15: South and Central Asia-IV [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-15/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-15/)
 5. Syloti Nagri is a historical script of the Sylhet region descended from the Kaithi script, with no single known inventor, now the focus of revival (secondary source, interim pending an upgrade to a primary attribution) - Sylheti Nagri (Wikipedia) [https://en.wikipedia.org/wiki/Syloti\_Nagri](https://en.wikipedia.org/wiki/Syloti_Nagri)
 6. U+A806 SYLOTI NAGRI SIGN HASANTA indicates a word-final consonant, or is inserted between consonants to represent a conjunct - The Unicode Standard, Version 16.0, Chapter 15: South and Central Asia-IV [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-15/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-15/)
+</content>
