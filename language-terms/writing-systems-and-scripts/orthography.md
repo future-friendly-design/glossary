@@ -66,7 +66,7 @@ So getting the script on screen is necessary, not sufficient. The symbols render
 
 #### Example
 
-American and British English share one language and the same [Latin script](../../terms/latin-script.md), but follow different orthographies: `color` and `organize` in one, `colour` and `organise` in the other.<sup>1</sup> Same words, same letters available, different spelling rules. Orthographies can differ more deeply than spelling, down to the script itself: Serbian is written in both [Cyrillic](../../terms/cyrillic.md) and Latin,<sup>2</sup> which makes it two writing systems for one language.
+American and British English share one language and the same [Latin script](latin-script.md), but follow different orthographies: `color` and `organize` in one, `colour` and `organise` in the other.<sup>1</sup> Same words, same letters available, different spelling rules. Orthographies can differ more deeply than spelling, down to the script itself: Serbian is written in both [Cyrillic](cyrillic.md) and Latin,<sup>2</sup> which makes it two writing systems for one language.
 
 ### Common mistake
 
@@ -87,7 +87,7 @@ So orthography forks into two layers that must not be mixed. The words a person 
 
 ### Related terms and mentions
 
-[CLDR](../../terms/cldr.md) · [Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Locale](../../terms/locale.md) · [Localization](../../terms/localization.md) · [Script](script.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[CLDR](../../terms/cldr.md) · [Cyrillic](cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Locale](../../terms/locale.md) · [Localization](../../terms/localization.md) · [Script](script.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

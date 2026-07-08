@@ -49,7 +49,7 @@ This is especially important when working with languages that are not commonly d
 
 #### Example
 
-For example, both French and Vietnamese languages use the [Latin script](../../terms/latin-script.md) in their writing systems. However, the orthography of each calls for differences in the [marks](mark.md) used to modify the Latin symbols, which map to the [line-height](../../terms/line-height.md) typographic property.
+For example, both French and Vietnamese languages use the [Latin script](latin-script.md) in their writing systems. However, the orthography of each calls for differences in the [marks](mark.md) used to modify the Latin symbols, which map to the [line-height](../../terms/line-height.md) typographic property.
 
 * French - one mark per letter
 * Vietnamese - stacks multiple marks per letter<sup>3</sup>
@@ -83,7 +83,7 @@ When a language has more than one writing system, let the reader choose instead 
 
 ### Related terms and mentions
 
-[Cyrillic](../../terms/cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Hiragana](../../terms/hiragana.md) · [Katakana](../../terms/katakana.md) · [Language](../linguistics/language.md) · [Latin script](../../terms/latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
+[Cyrillic](cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Hiragana](../../terms/hiragana.md) · [Katakana](../../terms/katakana.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

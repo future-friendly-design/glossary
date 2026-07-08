@@ -63,7 +63,7 @@ _In case you missed it, `character` is also the name for the symbols within a lo
 
 A common mistake is assuming that all languages that have the same script in their writing system use the same symbols for the same purpose. It's important to look at the [orthography](orthography.md) of each language alongside the symbols.\
 \
-For example, English and French both use the [Latin script](../../terms/latin-script.md). However, the English orthography requires speech wrapped in the curly quote symbol, `“like this”`, while French requires guillemets with a space sitting inside each one, `« like this »`.<sup>2</sup>
+For example, English and French both use the [Latin script](latin-script.md). However, the English orthography requires speech wrapped in the curly quote symbol, `“like this”`, while French requires guillemets with a space sitting inside each one, `« like this »`.<sup>2</sup>
 
 Another common mistake is assuming that a symbol means the same thing in every discipline. A designer names a hero image export `hero image (16:9)` in their design tool, where the colon is just an aspect ratio. They push the file to a shared repository and email a copy to the client, and both break. Why?
 
@@ -83,7 +83,7 @@ The colon never changed. What it meant changed in every system it crossed: an as
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Code point](../../terms/code-point.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Latin script](../../terms/latin-script.md) · [Legibility](../linguistics/legibility.md) · [Locale](../../terms/locale.md) · [Logographic](logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](syllabary.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Code point](../../terms/code-point.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Grapheme](../linguistics/grapheme.md) · [Latin script](latin-script.md) · [Legibility](../linguistics/legibility.md) · [Locale](../../terms/locale.md) · [Logographic](logographic.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Syllabary](syllabary.md) · [Typography](../../terms/typography.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

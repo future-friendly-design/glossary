@@ -31,19 +31,19 @@ tags:
 
 ## Definition
 
-An alphabet is a type of [script](script.md) with separate letters for both consonants and vowels.<sup>1</sup> Each letter stands for roughly one sound, and consonants and vowels alike get their own letters written in sequence. That sets an alphabet apart from an [abjad](abjad.md), where vowels are usually left unwritten,<sup>2</sup> and an [abugida](abugida.md), where each consonant carries a built-in vowel that added marks change.<sup>3</sup> The [Latin](../../terms/latin-script.md), [Greek](../../terms/greek-script.md), and [Cyrillic](../../terms/cyrillic.md) scripts are alphabets.
+An alphabet is a type of [script](script.md) with separate letters for both consonants and vowels.<sup>1</sup> Each letter stands for roughly one sound, and consonants and vowels alike get their own letters written in sequence. That sets an alphabet apart from an [abjad](abjad.md), where vowels are usually left unwritten,<sup>2</sup> and an [abugida](abugida.md), where each consonant carries a built-in vowel that added marks change.<sup>3</sup> The [Latin](latin-script.md), [Greek](greek-script.md), and [Cyrillic](cyrillic.md) scripts are alphabets.
 
 For example, the Russian word мир ("world") is written м, и, р: a consonant, a vowel, and a consonant, each its own letter.
 
 While this glossary doesn't cover every script, here are some alphabets to be aware of. Select a linked term to navigate to its glossary page.
 
-| Script                                     | Languages                            | Example |
-| ------------------------------------------ | ------------------------------------ | ------- |
-| [Latin](../../terms/latin-script.md)       | English, French, Spanish, Vietnamese | Hello   |
-| [Greek](../../terms/greek-script.md)       | Greek                                |         |
-| [Cyrillic](../../terms/cyrillic.md)        | Russian, Serbian, Ukrainian          | мир     |
-| [Armenian](../../terms/armenian-script.md) | Armenian                             |         |
-| [Georgian](../../terms/georgian-script.md) | Georgian                             |         |
+| Script                         | Languages                            | Example |
+| ------------------------------ | ------------------------------------ | ------- |
+| [Latin](latin-script.md)       | English, French, Spanish, Vietnamese | Hello   |
+| [Greek](greek-script.md)       | Greek                                |         |
+| [Cyrillic](cyrillic.md)        | Russian, Serbian, Ukrainian          | мир     |
+| [Armenian](armenian-script.md) | Armenian                             |         |
+| [Georgian](georgian-script.md) | Georgian                             |         |
 
 ### Why it matters in design systems
 
@@ -55,7 +55,7 @@ So the script alone does not tell you a language's needs. Knowing a language use
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](../../terms/arabic-script.md) · [Armenian script](../../terms/armenian-script.md) · [Cyrillic](../../terms/cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](../../terms/georgian-script.md) · [Greek script](../../terms/greek-script.md) · [Latin script](../../terms/latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](../../terms/arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

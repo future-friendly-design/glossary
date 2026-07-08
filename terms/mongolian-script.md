@@ -6,7 +6,9 @@ aliases:
   - Hudum Mongol bichig
 level: advanced
 depth: core
-summary: The traditional Mongolian script is a script used to write Mongolian, written vertically from top to bottom in columns that run left to right.
+summary: >-
+  The traditional Mongolian script is a script used to write Mongolian, written
+  vertically from top to bottom in columns that run left to right.
 related:
   - alphabet
   - cyrillic
@@ -15,7 +17,7 @@ related:
   - complex-text-layout
 status: voice-passed
 version_added: 0.1
-updated: 2026-07-07
+updated: 2026-07-07T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -25,7 +27,7 @@ further_reading:
   - title: Noto Sans Mongolian (Google Fonts)
     url: https://fonts.google.com/noto/specimen/Noto+Sans+Mongolian
     type: design-tool
-  - title: 'Unicode Mongolian code chart (U+1800)'
+  - title: Unicode Mongolian code chart (U+1800)
     url: https://www.unicode.org/charts/PDF/U1800.pdf
     type: authority
 license: CC-BY-4.0
@@ -45,27 +47,27 @@ The traditional Mongolian script is one script within the writing system of each
 
 ### At a glance
 
-| Property | Mongolian script (traditional) |
-| --- | --- |
-| Script type | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) (cursive) |
-| Autonym | ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ |
-| Symbols | letters for consonants and vowels, joining cursively, many with initial, medial, final, and isolate forms |
-| Marks | None (no combining vowel or tone marks); free variation selectors are appended to pick a letter's shape variant |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | Mongolian digits (U+1810 to U+1819), alongside common ASCII digits |
-| Unicode block | Mongolian, [U+1800 to U+18AF](https://www.unicode.org/charts/PDF/U1800.pdf) (plus Mongolian Supplement) |
-| [Complex text layout](complex-text-layout.md) | Yes: vertical layout, cursive joining, positional forms, and variation selectors |
-| Languages | Mongolian (used especially in Inner Mongolia, China) |
+| Property                                      | Mongolian script (traditional)                                                                                  |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Script type                                   | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) (cursive)                                 |
+| Autonym                                       | ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ                                                                                                    |
+| Symbols                                       | letters for consonants and vowels, joining cursively, many with initial, medial, final, and isolate forms       |
+| Marks                                         | None (no combining vowel or tone marks); free variation selectors are appended to pick a letter's shape variant |
+| Letter case                                   | None (no uppercase and lowercase)                                                                               |
+| Numerals                                      | Mongolian digits (U+1810 to U+1819), alongside common ASCII digits                                              |
+| Unicode block                                 | Mongolian, [U+1800 to U+18AF](https://www.unicode.org/charts/PDF/U1800.pdf) (plus Mongolian Supplement)         |
+| [Complex text layout](complex-text-layout.md) | Yes: vertical layout, cursive joining, positional forms, and variation selectors                                |
+| Languages                                     | Mongolian (used especially in Inner Mongolia, China)                                                            |
 
 ### Script rules and features
 
 Script rules apply to any language that uses the traditional Mongolian script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
 
-| Rule or feature | How it works in the Mongolian script |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Vertical, top to bottom, in columns that run left to right (the reverse of the right-to-left column order of Chinese, Japanese, and Korean vertical text) |
-| [Joining](../language-terms/writing-systems-and-scripts/joining.md) | letters connect cursively, most taking an initial, medial, final, or isolate form depending on their position in the word |
-| Variation selectors | when the correct letter shape cannot be derived automatically, a free variation selector is appended to force it; not yet documented as its own term, contribution welcome |
+| Rule or feature                                                                   | How it works in the Mongolian script                                                                                                                                       |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Vertical, top to bottom, in columns that run left to right (the reverse of the right-to-left column order of Chinese, Japanese, and Korean vertical text)                  |
+| [Joining](../language-terms/writing-systems-and-scripts/joining.md)               | letters connect cursively, most taking an initial, medial, final, or isolate form depending on their position in the word                                                  |
+| Variation selectors                                                               | when the correct letter shape cannot be derived automatically, a free variation selector is appended to force it; not yet documented as its own term, contribution welcome |
 
 Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
 
@@ -75,20 +77,20 @@ Treat this entry as a starting playbook for the traditional Mongolian script, as
 
 Where you cannot be creative is the script rules, and the headline is direction. Mongolian runs [vertically](vertical-text.md), top to bottom, in columns that run left to right, which is genuinely different work: most layout engines, CSS defaults, and UI components assume horizontal lines, and the column order is even the reverse of Chinese, Japanese, and Korean vertical text, so you cannot reuse those assumptions either. On top of that the script is cursive, so letters join and take an initial, medial, final, or isolate form by position, which the font's [OpenType](opentype.md) rules select and the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies at render time, the step that turns stored characters into positioned glyphs. And Mongolian is a special case: its encoding model is, in Unicode's own words, in many respects the most complicated of any script,<sup>6</sup> because some letter shapes cannot be predicted algorithmically, so a free variation selector has to be appended to the letter to force the right form.<sup>7</sup> These are not styling choices: without vertical layout, cursive shaping, and the right variation selectors, the text runs the wrong way or shows the wrong forms, not just unstyled.
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, remembering that Mongolian is also written in [Cyrillic](cyrillic.md) in the country of Mongolia, so "Mongolian" is not one script. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, remembering that Mongolian is also written in [Cyrillic](../language-terms/writing-systems-and-scripts/cyrillic.md) in the country of Mongolia, so "Mongolian" is not one script. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 
 * **Confirm vertical layout before you commit a typeface or a tool:** verify the font ships the cursive joining and positional forms AND that your layout stack can set vertical, left-to-right columns, not just horizontal lines. [Noto Sans Mongolian](https://fonts.google.com/noto/specimen/Noto+Sans+Mongolian) is a free, open-licensed option, and [Noto](noto-fonts.md) reaches scripts where commercial fonts are scarce. See [font coverage](font-coverage.md).
 * **Test with a real vertical line, not a row of glyphs:** set a real Mongolian word in a vertical column and confirm the letters join, pick up their positional forms, and show the intended shapes (adding free variation selectors where a shape cannot be derived automatically). Tool support for [complex text layout](complex-text-layout.md) and vertical text varies, so test early.
-* **Check the orthography, and which script the community uses:** Mongolian is written in the traditional script in Inner Mongolia and largely in [Cyrillic](cyrillic.md) in Mongolia, so do not assume one system. Pull per-language conventions from [locale](locale.md) data that Unicode's [CLDR](cldr.md) publishes.
+* **Check the orthography, and which script the community uses:** Mongolian is written in the traditional script in Inner Mongolia and largely in [Cyrillic](../language-terms/writing-systems-and-scripts/cyrillic.md) in Mongolia, so do not assume one system. Pull per-language conventions from [locale](locale.md) data that Unicode's [CLDR](cldr.md) publishes.
 * **If a rule above is not documented, you may be the source:** the conventions for a use you support may not be in any library yet. Capture them with fluent readers, write them into your specs and tokens, and add them here (see [how to contribute](../CONTRIBUTING.md)) or upstream, where Unicode's [CLDR Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and new locales.
 
 ***
 
 ### Related terms and mentions
 
-[Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Autonym](autonym.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Cyrillic](cyrillic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Vertical text](vertical-text.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Autonym](autonym.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Cyrillic](../language-terms/writing-systems-and-scripts/cyrillic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Vertical text](vertical-text.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

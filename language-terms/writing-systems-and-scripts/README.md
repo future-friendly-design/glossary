@@ -128,11 +128,11 @@ Now that you understand what scripts are and how they work, you can explore thes
 
 #### Alphabet scripts:
 
-* [Armenian script](../../terms/armenian-script.md)
-* [Cyrillic](../../terms/cyrillic.md)
-* [Georgian script](../../terms/georgian-script.md)
-* [Greek script](../../terms/greek-script.md)
-* [Latin script](../../terms/latin-script.md)
+* [Armenian script](armenian-script.md)
+* [Cyrillic](cyrillic.md)
+* [Georgian script](georgian-script.md)
+* [Greek script](greek-script.md)
+* [Latin script](latin-script.md)
 * [Mongolian script (traditional)](../../terms/mongolian-script.md)
 * [Ol Chiki](../../terms/ol-chiki.md)
 * [Wancho script](../../terms/wancho-script.md)

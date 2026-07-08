@@ -36,9 +36,9 @@ tags:
 
 ## Definition
 
-Left-to-right (LTR) refers to the text direction script rule that defines reading and writing the script in horizontal lines running from left to right.&#x20;
+Left-to-right (LTR) refers to the text direction script rule that defines reading and writing the script in horizontal lines running from left to right.
 
-For example, the [Latin](../../terms/latin-script.md) script used for English runs left to right.
+For example, the [Latin](latin-script.md) script used for English runs left to right.
 
 ### Why it matters in design systems
 
@@ -50,7 +50,7 @@ So for a design system, the risk is building as if LTR is the only direction. A 
 
 ### Related terms and mentions
 
-[Bidirectional text](bidirectional-text.md) · [Latin script](../../terms/latin-script.md) · [Right-to-left](right-to-left.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](./)
+[Bidirectional text](bidirectional-text.md) · [Latin script](latin-script.md) · [Right-to-left](right-to-left.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

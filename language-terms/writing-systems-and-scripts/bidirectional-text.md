@@ -7,8 +7,8 @@ aliases:
 level: advanced
 depth: deep
 summary: >-
-  Bidirectional text refers to both left-to-right (LTR) and right-to-left
-  (RTL) text appearing in the same line.
+  Bidirectional text refers to both left-to-right (LTR) and right-to-left (RTL)
+  text appearing in the same line.
 related:
   - text-direction
   - unicode
@@ -47,13 +47,13 @@ For example, a line like `مرحبا iPhone 2026` mixes an Arabic greeting (righ
 
 ### Why it matters in design systems
 
-Scripts like [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) run right to left, but numbers and embedded [Latin-script](../../terms/latin-script.md) text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
+Scripts like [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) run right to left, but numbers and embedded [Latin-script](latin-script.md) text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
 
 A computer cannot guess that order. [Unicode](../../terms/unicode.md), the standard that gives every character a unique number, has a Bidirectional Algorithm that considers each character's direction property and the base direction of the line to resolve neutral characters like spaces and punctuation that sit between text of opposite directions.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
 
 Bidirectional text is a property of your content, not a mode you switch on. The moment a right-to-left interface shows a Latin-script brand name, a username, a URL, or a price, a single line of text carries both directions, and that turns up in real data whether or not anyone planned for it.
 
-So in a design system, components and content slots have to hold mixed, and often unknown, text direction: text inputs, list rows, tables, breadcrumbs, tags, anything that displays user data or identifiers. Ideally these components get designed and reviewed with the bidirectional text content, and their spacing and alignment design decisions are given names that refer to a logical position (for example, start and end) rather than left and right, so one layout serves both directions.&#x20;
+So in a design system, components and content slots have to hold mixed, and often unknown, text direction: text inputs, list rows, tables, breadcrumbs, tags, anything that displays user data or identifiers. Ideally these components get designed and reviewed with the bidirectional text content, and their spacing and alignment design decisions are given names that refer to a logical position (for example, start and end) rather than left and right, so one layout serves both directions.
 
 Bidirectional text is only the content-level reality here; mirroring the wider layout and flipping directional icons is the system-level response, which makes bidirectional text part of [complex text layout](../../terms/complex-text-layout.md).
 
@@ -77,7 +77,7 @@ Assuming that marking the block right to left is enough, and the algorithm will 
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](../../terms/hebrew-script.md) · [Latin script](../../terms/latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
+[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](../../terms/hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

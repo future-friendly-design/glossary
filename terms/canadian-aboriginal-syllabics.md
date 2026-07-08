@@ -7,7 +7,9 @@ aliases:
   - Cree syllabics
 level: advanced
 depth: core
-summary: Canadian Aboriginal Syllabics is a script used to write several Indigenous languages of Canada.
+summary: >-
+  Canadian Aboriginal Syllabics is a script used to write several Indigenous
+  languages of Canada.
 related:
   - syllabary
   - abugida
@@ -16,14 +18,14 @@ related:
   - endangered-language
 status: voice-passed
 version_added: 0.1
-updated: 2026-07-06
+updated: 2026-07-06T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
   - title: Noto Sans Canadian Aboriginal (Google Fonts)
     url: https://fonts.google.com/noto/specimen/Noto+Sans+Canadian+Aboriginal
     type: design-tool
-  - title: 'Unicode Unified Canadian Aboriginal Syllabics code chart (U+1400)'
+  - title: Unicode Unified Canadian Aboriginal Syllabics code chart (U+1400)
     url: https://www.unicode.org/charts/PDF/U1400.pdf
     type: authority
 license: CC-BY-4.0
@@ -43,26 +45,26 @@ Canadian Aboriginal Syllabics is one script within the writing system of each la
 
 ### At a glance
 
-| Property | Canadian Aboriginal Syllabics |
-| --- | --- |
-| Script type | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) (often described as a featural syllabary or featural [abugida](../language-terms/writing-systems-and-scripts/abugida.md)) |
-| Autonym | No single autonym: the script is shared across many languages, each with its own name for it |
-| Symbols | syllabic symbols, each a consonant plus a vowel (or a standalone vowel), where the symbol's orientation shows the vowel; separate final and standalone-consonant symbols too |
-| Marks | None (vowel-modified forms are separate symbols, not a base plus a combining mark) |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | common ASCII digits |
-| Unicode block | Unified Canadian Aboriginal Syllabics, [U+1400 to U+167F](https://www.unicode.org/charts/PDF/U1400.pdf) (plus Extended and Extended-A) |
-| [Complex text layout](complex-text-layout.md) | No: each syllable is its own precomposed symbol, rendered directly (no reordering or contextual shaping) |
-| Languages | Cree, Ojibwe, Inuktitut, and other Algonquian, Inuit, and Athabaskan (Dene) languages |
+| Property                                      | Canadian Aboriginal Syllabics                                                                                                                                                                     |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Script type                                   | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) (often described as a featural syllabary or featural [abugida](../language-terms/writing-systems-and-scripts/abugida.md)) |
+| Autonym                                       | No single autonym: the script is shared across many languages, each with its own name for it                                                                                                      |
+| Symbols                                       | syllabic symbols, each a consonant plus a vowel (or a standalone vowel), where the symbol's orientation shows the vowel; separate final and standalone-consonant symbols too                      |
+| Marks                                         | None (vowel-modified forms are separate symbols, not a base plus a combining mark)                                                                                                                |
+| Letter case                                   | None (no uppercase and lowercase)                                                                                                                                                                 |
+| Numerals                                      | common ASCII digits                                                                                                                                                                               |
+| Unicode block                                 | Unified Canadian Aboriginal Syllabics, [U+1400 to U+167F](https://www.unicode.org/charts/PDF/U1400.pdf) (plus Extended and Extended-A)                                                            |
+| [Complex text layout](complex-text-layout.md) | No: each syllable is its own precomposed symbol, rendered directly (no reordering or contextual shaping)                                                                                          |
+| Languages                                     | Cree, Ojibwe, Inuktitut, and other Algonquian, Inuit, and Athabaskan (Dene) languages                                                                                                             |
 
 ### Script rules and features
 
 Script rules apply to any language that uses Canadian Aboriginal Syllabics in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
 
-| Rule or feature | How it works in Canadian Aboriginal Syllabics |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right |
-| Vowel by orientation | a consonant's symbol rotates or reflects to show the following vowel (down for /e/, up for /i/, right for /o/, left for /a/); each resulting syllable is a separate symbol, not documented as its own term yet, contribution welcome |
+| Rule or feature                                                                   | How it works in Canadian Aboriginal Syllabics                                                                                                                                                                                        |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right                                                                                                                                                                                                                        |
+| Vowel by orientation                                                              | a consonant's symbol rotates or reflects to show the following vowel (down for /e/, up for /i/, right for /o/, left for /a/); each resulting syllable is a separate symbol, not documented as its own term yet, contribution welcome |
 
 Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
 
@@ -78,14 +80,14 @@ Where you are free is the rest: the typeface's personality, weight, size, colour
 
 * **Cover the specific language, not "syllabics" in general:** confirm the font carries the symbols that language uses across the base and Extended blocks, not just the common Cree set. [Noto Sans Canadian Aboriginal](https://fonts.google.com/noto/specimen/Noto+Sans+Canadian+Aboriginal) is a free, open-licensed option, and [Noto](noto-fonts.md) reaches scripts where commercial fonts are scarce. See [font coverage](font-coverage.md).
 * **Never rotate or mirror the glyphs for style:** orientation encodes the vowel, so a flipped or turned symbol becomes a different syllable. Test with a real word and confirm each symbol points the right way.
-* **Check the orthography, and which writing system a community uses:** several of these languages are also written in the [Latin script](latin-script.md), and each has its own conventions, so do not assume one system or one language's symbols. Pull per-language conventions from [locale](locale.md) data that Unicode's [CLDR](cldr.md) publishes, and defer to the community.
+* **Check the orthography, and which writing system a community uses:** several of these languages are also written in the [Latin script](../language-terms/writing-systems-and-scripts/latin-script.md), and each has its own conventions, so do not assume one system or one language's symbols. Pull per-language conventions from [locale](locale.md) data that Unicode's [CLDR](cldr.md) publishes, and defer to the community.
 * **If a rule above is not documented, you may be the source:** for an [endangered](endangered-language.md) or under-resourced language the conventions may not be in any library yet. Capture them with fluent speakers, write them into your specs and tokens, and add them here (see [how to contribute](../CONTRIBUTING.md)) or upstream, where Unicode's [CLDR Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and new locales.
 
 ***
 
 ### Related terms and mentions
 
-[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Autonym](autonym.md) · [CLDR](cldr.md) · [Combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Complex text layout](complex-text-layout.md) · [Endangered language](endangered-language.md) · [Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Hangul](hangul.md) · [Language](../language-terms/linguistics/language.md) · [Latin script](latin-script.md) · [Locale](locale.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Abugida](../language-terms/writing-systems-and-scripts/abugida.md) · [Autonym](autonym.md) · [CLDR](cldr.md) · [Combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Complex text layout](complex-text-layout.md) · [Endangered language](endangered-language.md) · [Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Hangul](hangul.md) · [Language](../language-terms/linguistics/language.md) · [Latin script](../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
