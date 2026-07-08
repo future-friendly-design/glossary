@@ -77,7 +77,7 @@ Where you cannot be creative is the script rules. Text runs left to right.<sup>3
 
 One thing sets this script apart from a single-language one: it serves several languages, and they do not all use the same letters. Assamese uses symbols Bengali does not, among them ৰ for "ra" and ৱ for "wa",<sup>8</sup> so a font or a text pipeline built for Bengali can be missing exactly what Assamese needs. "Supports Bengali" is not the same as "supports Assamese".
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows (you cannot add spacing that breaks the top line) and what each language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since a typeface or style that suits one language may not suit another. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (you cannot add spacing that breaks the top line) and what each language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since a typeface or style that suits one language may not suit another. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 
