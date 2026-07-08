@@ -6,9 +6,7 @@ aliases:
   - Roman alphabet
 level: foundational
 depth: core
-summary: >-
-  The Latin script is a script used to write a wide variety of languages all
-  over the world.
+summary: The Latin script is used to write a wide variety of languages all over the world.
 related:
   - alphabet
   - cyrillic
@@ -40,44 +38,40 @@ tags:
 
 ## Definition
 
-The Latin script is a [script](script.md) used to write a wide variety of languages all over the world.<sup>1</sup> It is an [alphabet](alphabet.md), with separate symbols for consonants and vowels, and its letters come in uppercase and lowercase pairs.<sup>2</sup> The Latin alphabet descends from the one the Etruscans adopted from a Western variant of the classical [Greek](greek-script.md) alphabet.<sup>3</sup>
+The Latin [script](script.md) is used to write a wide variety of languages all over the world.<sup>1</sup> It is an [alphabet](alphabet.md), with separate symbols for consonants and vowels, and its letters come in uppercase and lowercase pairs.<sup>2</sup> The Latin alphabet descends from the one the Etruscans adopted from a Western variant of the classical [Greek](greek-script.md) alphabet.<sup>3</sup>
 
 For example, the Vietnamese phrase Tiếng Việt ("Vietnamese") extends the basic letters with stacked accent marks, one of countless ways languages adapt the script to their own sounds.
 
-The Latin script is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Latin script property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Latin script profile
 
-| Property                                                  | Latin script                                                                                                                              |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Script type                                               | [Alphabet](alphabet.md)                                                                                                                   |
-| Autonym                                                   | Latin                                                                                                                                     |
-| Symbols                                                   | letters for consonants and vowels (the basic 26), extended per language with accented and additional letters                              |
-| Marks                                                     | [diacritics](diacritic.md) (acute, grave, circumflex, tilde, cedilla, and others), available both precomposed and as combining marks      |
-| Letter case                                               | Bicameral: uppercase and lowercase pairs (case conversion is locale-sensitive, for example Turkish dotted and dotless i)                  |
-| Numerals                                                  | European digits 0 to 9 (shared "common" digits, not unique to the Latin script)                                                           |
-| Unicode block                                             | Basic Latin, [U+0000 to U+007F](https://www.unicode.org/charts/PDF/U0000.pdf) (plus Latin-1 Supplement, Latin Extended-A and B, and more) |
-| [Complex text layout](../../terms/complex-text-layout.md) | No, a standard (non-complex) script: no reordering or contextual analysis required                                                        |
-| Languages                                                 | English, Spanish, French, Vietnamese, Turkish, Yoruba, and hundreds of others                                                             |
+These properties of the Latin script apply to any language that uses it in its [writing system](writing-system.md). Beyond the [script rules](script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](orthography.md).
 
-### Script rules and features
+| Property | Latin script |
+| --- | --- |
+| [Autonym](../../terms/autonym.md) | Latin |
+| Languages | English, Spanish, French, Vietnamese, Turkish, Yoruba, and hundreds of others |
+| Letter case | Bicameral: uppercase and lowercase pairs (case conversion is locale-sensitive, for example Turkish dotted and dotless i) |
+| [Marks](mark.md) | [diacritics](diacritic.md) (acute, grave, circumflex, tilde, cedilla, and others), available both precomposed and as combining marks |
+| Numerals | European digits 0 to 9 (shared "common" digits, not unique to the Latin script) |
+| Script type | [Alphabet](alphabet.md) |
+| [Symbols](symbol.md) | letters for consonants and vowels (the basic 26), extended per language with accented and additional letters |
 
-Script rules apply to any language that uses the Latin script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+### Latin script rules and digital use considerations
 
-| Rule or feature                     | How it works in the Latin script                                                                                                     |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [Text direction](text-direction.md) | Left to right                                                                                                                        |
-| Letter case                         | letters come in uppercase and lowercase pairs, and case conversion follows rules that depend on the language, not just the letter    |
-| [Diacritics](diacritic.md)          | accents and other marks extend the basic letters; they exist both as precomposed letters and as combining marks positioned on a base |
-| [Ligature](../../terms/ligature.md) | optional typographic ligatures such as fi and fl are an aesthetic choice, not a requirement of the script                            |
+If your design system supports languages that use the Latin script, here are some considerations to keep in mind:
 
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for the Latin script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](../../terms/typeface.md) and [font](../../terms/font.md) with coverage for the languages you actually serve, because the basic 26 letters are only the start.
-
-Where you cannot be creative is the script rules. Text runs left to right.<sup>4</sup> The Latin script is a standard, non-complex script, meaning it needs no reordering or contextual analysis to shape, so almost every font and tool handles it.<sup>5</sup> The trap is a quieter one: only a small fraction of the languages written with the Latin script can be written with just the basic 26 uppercase and lowercase letters,<sup>6</sup> so treating "Latin" as "English" or "ASCII" drops the accented and additional letters that Vietnamese, Turkish, Polish, Yoruba, and many others require. Those letters exist both precomposed and as base letters plus combining [diacritics](diacritic.md), which the font's [OpenType](../../terms/opentype.md) rules position and the platform's [text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies at render time, the step that turns stored characters into positioned glyphs. Case is a rule too: uppercase and lowercase are paired, but converting between them is locale-sensitive, so the same letter can uppercase differently in different languages. These are not styling choices: drop a language's letters or mis-case them and the text is wrong, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the language's [orthography](orthography.md) calls for, since a typeface that suits English may lack the marks Vietnamese stacks or the letters Turkish needs. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in the Latin script | Design systems |
+| --- | --- | --- |
+| [Complex text layout](../../terms/complex-text-layout.md) | Not required | A standard, non-complex script that needs no reordering or contextual analysis to shape, so almost every font and tool handles it<sup>4</sup> |
+| [Text direction](text-direction.md) | Left to right<sup>5</sup> | Left-aligned text as the default |
+| Letter case | letters come in uppercase and lowercase pairs, and case conversion follows rules that depend on the language, not just the letter | Case conversion is locale-sensitive (for example Turkish dotted and dotless i), so use locale-aware case mapping, not a naive per-character upper or lower |
+| [Diacritics](diacritic.md) | accents and other marks extend the basic letters; they exist both as precomposed letters and as combining marks positioned on a base | Only a small fraction of Latin-written languages use just the basic 26 letters,<sup>6</sup> so ship the accented and additional letters your languages need; the font's [OpenType](../../terms/opentype.md) rules and the platform's [text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) position combining marks at render time |
+| [Ligature](../../terms/ligature.md) | optional typographic ligatures such as fi and fl are an aesthetic choice, not a requirement of the script | A free styling choice: enable them for polish, but nothing breaks without them |
+| [Unicode](../../terms/unicode.md) block | Basic Latin, [U+0000 to U+007F](https://www.unicode.org/charts/PDF/U0000.pdf) (plus Latin-1 Supplement, Latin Extended-A and B, and more) | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) across the blocks your languages need, not just Basic Latin |
 
 ### In practice
 
@@ -103,6 +97,6 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 1. The Latin script is used to write a wide variety of languages all over the world - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
 2. Latin letters come in uppercase and lowercase pairs - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
 3. The Latin alphabet is derived from the alphabet used by the Etruscans, who had adopted a Western variant of the classical Greek alphabet - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
-4. The Latin script is written in linear sequence from left to right - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
-5. In this document, "standard" refers to any non-complex script, that is, any script that does not require re-ordering or contextual analysis - Developing OpenType Fonts for Standard Scripts (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/standard](https://learn.microsoft.com/en-us/typography/script-development/standard)
+4. In this document, "standard" refers to any non-complex script, that is, any script that does not require re-ordering or contextual analysis - Developing OpenType Fonts for Standard Scripts (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/standard](https://learn.microsoft.com/en-us/typography/script-development/standard)
+5. The Latin script is written in linear sequence from left to right - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
 6. Only a small fraction of the languages written with the Latin script can be written entirely with the basic set of 26 uppercase and 26 lowercase Latin letters - The Unicode Standard, Version 16.0, Chapter 7: Europe-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/)
