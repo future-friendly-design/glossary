@@ -41,39 +41,35 @@ Hangul is a [script](../language-terms/writing-systems-and-scripts/script.md) us
 
 For example, 한글 ("Hangul") is two syllable blocks, 한 (han) and 글 (geul), each one built from letters stacked into a square rather than written in a line.
 
-Hangul is one script within the writing system of the language that uses it. This page describes the script itself; how Korean uses it, its spelling, punctuation, and which symbols, is the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Hangul property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Hangul profile
+
+These properties of Hangul apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
 | Property | Hangul |
 | --- | --- |
-| Script type | [Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) |
-| Autonym | 한글 |
-| Symbols | letters (jamo: an initial consonant, a vowel, and an optional final consonant) grouped into syllable blocks |
-| Marks | None (Hangul has no combining vowel or tone marks; the jamo themselves compose the syllable) |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | common ASCII digits (Korean also has native and Sino-Korean number words) |
-| Unicode block | Hangul Syllables, [U+AC00 to U+D7A3](https://www.unicode.org/charts/PDF/UAC00.pdf) (plus Hangul Jamo and Hangul Compatibility Jamo) |
-| [Complex text layout](complex-text-layout.md) | Precomposed syllables render directly; conjoining jamo compose into blocks |
+| [Autonym](autonym.md) | 한글 |
 | Languages | Korean |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | None (Hangul has no combining vowel or tone marks; the jamo themselves compose the syllable) |
+| Numerals | common ASCII digits (Korean also has native and Sino-Korean number words) |
+| Script type | [Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | letters (jamo: an initial consonant, a vowel, and an optional final consonant) grouped into syllable blocks |
 
-### Script rules and features
+### Hangul rules and digital use considerations
 
-Script rules apply to any language that uses Hangul in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use Hangul, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in Hangul |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right; traditionally it could also be set in vertical columns |
-| Syllable blocks | letters (jamo) are composed into square syllable blocks, and Unicode stores modern text either as precomposed blocks or as conjoining jamo |
-| [Normalization](normalization.md) | because a syllable can be stored precomposed or as separate jamo, matching and search need normalization to treat the two forms as equal |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for Hangul, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Korean coverage, because the rules above will not render without it.
-
-Where you cannot be creative is the script rules. Text runs left to right, and can also be set in vertical columns.<sup>4</sup> Hangul's real unit is the syllable block: its letters are not laid out one after another but composed into square blocks, each block a syllable built from an initial consonant, a vowel, and an optional final consonant.<sup>5</sup> A font has to fit those components into a consistent square, which is a different problem from placing letters in a row, and the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) composes conjoining jamo into blocks at render time. And a subtle one that bites software: the same syllable can be stored as a single precomposed block or as a sequence of jamo,<sup>6</sup> so comparing or searching Korean text needs [normalization](normalization.md) to remove the alternate representations and treat the two as equal.<sup>7</sup> These are not styling choices: get the composition or the normalization wrong and the text renders or matches incorrectly, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the syllable block, not the single letter, is the shape that has to sit consistently in its square) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in Hangul | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Precomposed syllables render directly; conjoining jamo compose into blocks | Hangul's letters are not laid out one after another but composed into square syllable blocks; the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) composes conjoining jamo into blocks at render time, so the composition, not styling, is what has to be right, or the text renders incorrectly |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right; traditionally it could also be set in vertical columns<sup>4</sup> | Left-aligned text as the default; support vertical layout only if your text calls for it |
+| Syllable blocks | letters (jamo: an initial consonant, a vowel, and an optional final consonant) are composed into square syllable blocks<sup>5</sup> | The syllable block, not the single letter, is the unit that has to sit consistently in its square; a font has to fit those components into a consistent square, which is a different problem from placing letters in a row |
+| [Normalization](normalization.md) | Unicode stores modern text either as precomposed blocks or as conjoining jamo, so the same syllable can be represented either way<sup>6</sup> | Comparing or searching Korean text needs normalization to remove the alternate representations and treat the two forms as equal,<sup>7</sup> or identical-looking text will fail to compare equal |
+| [Unicode](unicode.md) block | Hangul Syllables, [U+AC00 to U+D7A3](https://www.unicode.org/charts/PDF/UAC00.pdf) (plus Hangul Jamo and Hangul Compatibility Jamo) | No special handling beyond ensuring [font coverage](font-coverage.md) of the blocks your data uses, including conjoining jamo if present |
 
 ### In practice
 
@@ -103,3 +99,4 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 5. In Hangul the syllables are formed from a set of alphabetic components (jamo) in a regular fashion and grouped into square blocks - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 6. The Unicode Standard contains both the complete set of precomposed modern Hangul syllable blocks and a set of conjoining Hangul jamo, so the same syllable can be represented either way - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 7. Normalization removes alternate representations of equivalent sequences from text so that the data can be binary-compared for equivalence - Unicode Glossary: Normalization [https://www.unicode.org/glossary/#normalization](https://www.unicode.org/glossary/#normalization)
+</content>
