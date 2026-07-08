@@ -7,9 +7,7 @@ aliases:
   - Cree syllabics
 level: advanced
 depth: core
-summary: >-
-  Canadian Aboriginal Syllabics is a script used to write several Indigenous
-  languages of Canada.
+summary: Canadian Aboriginal Syllabics is a script used to write several Indigenous languages of Canada.
 related:
   - syllabary
   - abugida
@@ -18,7 +16,7 @@ related:
   - endangered-language
 status: voice-passed
 version_added: 0.1
-updated: 2026-07-06T00:00:00.000Z
+updated: 2026-07-08T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -41,38 +39,34 @@ Canadian Aboriginal Syllabics is a [script](../language-terms/writing-systems-an
 
 For example, the consonant p is a chevron: ᐱ (pi) points up, ᐯ (pe) points down, ᐸ (pa) points left, and ᐳ (po) points right.
 
-Canadian Aboriginal Syllabics is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Canadian Aboriginal Syllabics property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Canadian Aboriginal Syllabics profile
 
-| Property                                      | Canadian Aboriginal Syllabics                                                                                                                                                                     |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Script type                                   | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) (often described as a featural syllabary or featural [abugida](../language-terms/writing-systems-and-scripts/abugida.md)) |
-| Autonym                                       | No single autonym: the script is shared across many languages, each with its own name for it                                                                                                      |
-| Symbols                                       | syllabic symbols, each a consonant plus a vowel (or a standalone vowel), where the symbol's orientation shows the vowel; separate final and standalone-consonant symbols too                      |
-| Marks                                         | None (vowel-modified forms are separate symbols, not a base plus a combining mark)                                                                                                                |
-| Letter case                                   | None (no uppercase and lowercase)                                                                                                                                                                 |
-| Numerals                                      | common ASCII digits                                                                                                                                                                               |
-| Unicode block                                 | Unified Canadian Aboriginal Syllabics, [U+1400 to U+167F](https://www.unicode.org/charts/PDF/U1400.pdf) (plus Extended and Extended-A)                                                            |
-| [Complex text layout](complex-text-layout.md) | No: each syllable is its own precomposed symbol, rendered directly (no reordering or contextual shaping)                                                                                          |
-| Languages                                     | Cree, Ojibwe, Inuktitut, and other Algonquian, Inuit, and Athabaskan (Dene) languages                                                                                                             |
+These properties of Canadian Aboriginal Syllabics apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
-### Script rules and features
+| Property | Canadian Aboriginal Syllabics |
+| --- | --- |
+| [Autonym](autonym.md) | No single autonym: the script is shared across many languages, each with its own name for it |
+| Languages | Cree, Ojibwe, Inuktitut, and other Algonquian, Inuit, and Athabaskan (Dene) languages |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | None (vowel-modified forms are separate symbols, not a base plus a combining mark) |
+| Numerals | common ASCII digits |
+| Script type | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) (often described as a featural syllabary or featural [abugida](../language-terms/writing-systems-and-scripts/abugida.md)) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | syllabic symbols, each a consonant plus a vowel (or a standalone vowel), where the symbol's orientation shows the vowel; separate final and standalone-consonant symbols too |
 
-Script rules apply to any language that uses Canadian Aboriginal Syllabics in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+### Canadian Aboriginal Syllabics rules and digital use considerations
 
-| Rule or feature                                                                   | How it works in Canadian Aboriginal Syllabics                                                                                                                                                                                        |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right                                                                                                                                                                                                                        |
-| Vowel by orientation                                                              | a consonant's symbol rotates or reflects to show the following vowel (down for /e/, up for /i/, right for /o/, left for /a/); each resulting syllable is a separate symbol |
+If your design system supports languages that use Canadian Aboriginal Syllabics, here are some considerations to keep in mind:
 
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for Canadian Aboriginal Syllabics, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with coverage for the specific language you serve, because the syllabics span many symbols across more than one Unicode block.
-
-Where you cannot be creative is the script rules. Each syllable is its own precomposed symbol, not a base plus a [combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md),<sup>4</sup> so there is no reordering or contextual shaping, the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and the font's [OpenType](opentype.md) rules mostly map each symbol straight to its glyph. But orientation carries meaning: the way a symbol points is the vowel, so you must never rotate, flip, or mirror these glyphs for effect, a mirrored ᐱ (pi) is not a styled p, it is ᐯ (pe), a different syllable. The other constraint is coverage. The script unifies the syllabaries of many languages,<sup>5</sup> spread across a base block and extensions, so a font has to carry the particular symbols a language uses, and many of these are Indigenous, often under-resourced languages, so real font and input support is an obligation, not a nice-to-have. These are not styling choices: flip a glyph or miss a language's symbols and the text is wrong, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (you cannot re-orient the symbols) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with the people who read the language rather than guessing.
+| Rule or feature | How it works in Canadian Aboriginal Syllabics | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Not required: each syllable is its own precomposed symbol, rendered directly | Each syllable is its own symbol, not a base plus a [combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md),<sup>4</sup> so there is no reordering or contextual shaping; the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and the font's [OpenType](opentype.md) rules mostly map each symbol straight to its glyph |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right | Left-aligned text as the default |
+| Vowel by orientation | a consonant's symbol rotates or reflects to show the following vowel (down for /e/, up for /i/, right for /o/, left for /a/); each resulting syllable is a separate symbol | Orientation carries meaning, so never rotate, flip, or mirror these glyphs for effect: a mirrored ᐱ (pi) is not a styled p, it is ᐯ (pe), a different syllable |
+| [Unicode](unicode.md) block | Unified Canadian Aboriginal Syllabics, [U+1400 to U+167F](https://www.unicode.org/charts/PDF/U1400.pdf) (plus Extended and Extended-A) | The primary user community spans several Indigenous groups across Canada,<sup>5</sup> and the symbols spread across a base block and extensions, so confirm [font coverage](font-coverage.md) for the specific language, not just the common Cree set |
 
 ### In practice
 
@@ -99,3 +93,5 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 3. The syllabics were invented in the late 1830s by James Evans for Algonquian languages - The Unicode Standard, Version 16.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-20/)
 4. Such modified characters are considered unique syllables; they are not decomposed into base characters and one or more diacritics - The Unicode Standard, Version 16.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-20/)
 5. The primary user community for this script consists of several aboriginal groups throughout Canada, including Algonquian, Inuktitut, and Athapascan language families - The Unicode Standard, Version 16.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-20/)
+</content>
+</invoke>
