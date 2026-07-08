@@ -64,10 +64,8 @@ Script rules apply to any language that uses Hangul in its writing system. This 
 | Rule or feature | How it works in Hangul |
 | --- | --- |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right; traditionally it could also be set in vertical columns |
-| Syllable blocks | letters (jamo) are composed into square syllable blocks, and Unicode stores modern text either as precomposed blocks or as conjoining jamo; not yet documented as its own term, contribution welcome |
+| Syllable blocks | letters (jamo) are composed into square syllable blocks, and Unicode stores modern text either as precomposed blocks or as conjoining jamo |
 | [Normalization](normalization.md) | because a syllable can be stored precomposed or as separate jamo, matching and search need normalization to treat the two forms as equal |
-
-Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
 
 ### Why it matters in design systems
 
@@ -75,7 +73,7 @@ Treat this entry as a starting playbook for Hangul, as best as the glossary docu
 
 Where you cannot be creative is the script rules. Text runs left to right, and can also be set in vertical columns.<sup>4</sup> Hangul's real unit is the syllable block: its letters are not laid out one after another but composed into square blocks, each block a syllable built from an initial consonant, a vowel, and an optional final consonant.<sup>5</sup> A font has to fit those components into a consistent square, which is a different problem from placing letters in a row, and the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) composes conjoining jamo into blocks at render time. And a subtle one that bites software: the same syllable can be stored as a single precomposed block or as a sequence of jamo,<sup>6</sup> so comparing or searching Korean text needs [normalization](normalization.md) to remove the alternate representations and treat the two as equal.<sup>7</sup> These are not styling choices: get the composition or the normalization wrong and the text renders or matches incorrectly, not just unstyled.
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the syllable block, not the single letter, is the shape that has to sit consistently in its square) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the syllable block, not the single letter, is the shape that has to sit consistently in its square) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 

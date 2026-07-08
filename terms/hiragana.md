@@ -62,9 +62,7 @@ Script rules apply to any language that uses hiragana in its writing system. Thi
 | Rule or feature | How it works in hiragana |
 | --- | --- |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
-| Voiced-sound marks | a base symbol takes a voiced mark (dakuten) or semi-voiced mark (handakuten) to form its voiced or semi-voiced counterpart; not yet documented as its own term, contribution welcome |
-
-Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
+| Voiced-sound marks | a base symbol takes a voiced mark (dakuten) or semi-voiced mark (handakuten) to form its voiced or semi-voiced counterpart |
 
 ### Why it matters in design systems
 
@@ -72,7 +70,7 @@ Treat this entry as a starting playbook for hiragana, as best as the glossary do
 
 Where you cannot be creative is the script rules. In ordinary Japanese, hiragana is interspersed with [katakana](katakana.md) and [kanji](han-characters.md), the Japanese [Han characters](han-characters.md),<sup>3</sup> so you are never setting hiragana by itself: the three scripts have to share one line, sit on compatible metrics, and read as one text. Hiragana itself is not complex to shape, no reordering or contextual analysis: a voiced or semi-voiced syllable is usually its own precomposed symbol, with the base-plus-[combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) form used mainly for kana outside that set,<sup>4</sup> and Japanese is traditionally set vertically as well as horizontally,<sup>5</sup> so vertical layout has to substitute the font's [OpenType](opentype.md) vertical forms, which the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies at render time, the step that turns stored characters into positioned glyphs. Hiragana is also used to show the pronunciation of kanji, set small as ruby (furigana) above or beside them.<sup>6</sup> These are not styling choices: get the script mixing, the vertical forms, or the ruby wrong and the text renders incorrectly, not just unstyled.
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the kana have to harmonize with the kanji they sit among, which is a real concern in Japanese type) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the kana have to harmonize with the kanji they sit among, which is a real concern in Japanese type) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 

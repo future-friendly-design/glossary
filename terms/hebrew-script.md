@@ -67,10 +67,8 @@ Script rules apply to any language that uses the Hebrew script in its writing sy
 | Rule or feature | How it works in the Hebrew script |
 | --- | --- |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Right to left; a number or an embedded Latin word that shares a line follows the [bidirectional](../language-terms/writing-systems-and-scripts/bidirectional-text.md) algorithm |
-| Final letterforms | five consonants (final kaf, mem, nun, pe, and tsadi) take a distinct form at the end of a word; not yet documented in this glossary, contribution welcome |
+| Final letterforms | five consonants (final kaf, mem, nun, pe, and tsadi) take a distinct form at the end of a word |
 | Niqqud (vowel points) | optional vowel [marks](../language-terms/writing-systems-and-scripts/mark.md), positioned above, below, or within the consonants and normally omitted outside liturgical and learning texts |
-
-Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
 
 ### Why it matters in design systems
 
@@ -78,7 +76,7 @@ Treat this entry as a starting playbook for the Hebrew script, as best as the gl
 
 Where you cannot be creative is the script rules. Text runs right to left,<sup>3</sup> so a number or a Latin word that shares a line is [bidirectional](../language-terms/writing-systems-and-scripts/bidirectional-text.md) and has to be reordered by the Unicode bidirectional algorithm to read correctly.<sup>4</sup> Unlike the [Arabic script](arabic-script.md), Hebrew letters do not join, so a letter keeps its shape wherever it sits,<sup>5</sup> but five of them take a distinct form at the end of a word,<sup>6</sup> and when vowel points are shown they are combining marks that have to be positioned on the consonants.<sup>7</sup> This layout, the right-to-left order, the final forms, and any point placement, is carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), the step that turns stored characters into positioned glyphs. It is not a set of styling choices: get the direction or the final forms wrong and the text reads incorrectly, not just unstyled.
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing. Because Hebrew letters do not join, spacing is less constrained than in a cursive script like Arabic, but any vowel points or cantillation marks have to stay correctly placed on their letters, and the result still has to suit the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md), since a face that suits modern Hebrew may not suit pointed liturgical text or Yiddish. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing. Because Hebrew letters do not join, spacing is less constrained than in a cursive script like Arabic, but any vowel points or cantillation marks have to stay correctly placed on their letters, and the result still has to suit the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md), since a face that suits modern Hebrew may not suit pointed liturgical text or Yiddish. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 

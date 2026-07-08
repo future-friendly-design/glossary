@@ -61,11 +61,9 @@ Script rules apply to any language that uses the Greek script in its writing sys
 | Rule or feature                     | How it works in the Greek script                                                                                                           |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Text direction](text-direction.md) | Left to right                                                                                                                              |
-| Letter case                         | bicameral: separate uppercase and lowercase forms; not yet documented as its own term, contribution welcome                                |
+| Letter case                         | bicameral: separate uppercase and lowercase forms                                |
 | Final sigma                         | the lowercase sigma is written ς at the end of a word and σ elsewhere                                                                      |
 | [Diacritics](diacritic.md)          | modern (monotonic) Greek marks the stressed vowel with the tonos and uses the dialytika; classical (polytonic) spelling uses several marks |
-
-Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
 
 ### Why it matters in design systems
 
@@ -73,7 +71,7 @@ Treat this entry as a starting playbook for the Greek script, as best as the glo
 
 Where you cannot be creative is the script rules. Text runs left to right, the direction Western tools already assume.<sup>2</sup> The harder part is that Greek looks familiar but is not Latin: it has its own letters, its own two cases,<sup>3</sup> a lowercase sigma that is written ς at the end of a word and σ elsewhere,<sup>4</sup> and the accent marks its spelling puts on stressed vowels.<sup>5</sup> A font has to cover both cases and the accented vowels, and any change of case has to keep the accents and the final sigma right. These are not free choices: drop the accents or the second sigma form and the text is misspelled, not merely restyled.
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Greek glyphs, not Latin lookalikes) and what the language's [orthography](orthography.md) calls for, such as whether the text is set in modern monotonic or classical polytonic spelling. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Greek glyphs, not Latin lookalikes) and what the language's [orthography](orthography.md) calls for, such as whether the text is set in modern monotonic or classical polytonic spelling. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 

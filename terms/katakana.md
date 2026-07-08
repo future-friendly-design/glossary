@@ -62,9 +62,7 @@ Script rules apply to any language that uses katakana in its writing system. Thi
 | Rule or feature | How it works in katakana |
 | --- | --- |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
-| Sound marks | voiced (dakuten) and semi-voiced (handakuten) marks form voiced counterparts, and the prolonged sound mark lengthens a vowel; not yet documented as its own term, contribution welcome |
-
-Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
+| Sound marks | voiced (dakuten) and semi-voiced (handakuten) marks form voiced counterparts, and the prolonged sound mark lengthens a vowel |
 
 ### Why it matters in design systems
 
@@ -72,7 +70,7 @@ Treat this entry as a starting playbook for katakana, as best as the glossary do
 
 Where you cannot be creative is the script rules. In ordinary Japanese, katakana is interspersed with [hiragana](hiragana.md) and [kanji](han-characters.md), the Japanese [Han characters](han-characters.md),<sup>3</sup> so you are never setting katakana by itself: the three scripts share one line and have to read as one text. Katakana covers the same syllables as hiragana,<sup>4</sup> so which one a word uses is a meaning choice, not a free swap: katakana marks a word as a loanword or as emphasized, roughly the way italics work in Latin text. Katakana is not complex to shape, no reordering or contextual analysis, but the prolonged sound mark lengthens a vowel,<sup>5</sup> voiced syllables are usually their own precomposed symbols, with the base-plus-[combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) form used mainly for kana outside that set such as the Ainu phonetic extensions,<sup>6</sup> and Japanese is traditionally set vertically as well as horizontally,<sup>7</sup> so vertical layout has to substitute the font's [OpenType](opentype.md) vertical forms, which the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies at render time, the step that turns stored characters into positioned glyphs. Legacy systems also produce half-width katakana as separate compatibility characters, distinct from the [full-width](full-width.md) forms.<sup>8</sup> These are not styling choices: mix the scripts wrong, drop the vertical forms, or leave half-width katakana unnormalized and the text renders or matches incorrectly, not just unstyled.
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the kana have to harmonize with the kanji they sit among, which is a real concern in Japanese type) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the kana have to harmonize with the kanji they sit among, which is a real concern in Japanese type) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 

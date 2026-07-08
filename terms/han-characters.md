@@ -67,9 +67,7 @@ Script rules apply to any language that uses Han characters in its writing syste
 | Rule or feature | How it works with Han characters |
 | --- | --- |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
-| Han unification | one code point covers a character shared across Chinese, Japanese, and Korean, but its printed form can differ by region, so the correct glyph depends on the language; not yet documented as its own term, contribution welcome |
-
-Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
+| Han unification | one code point covers a character shared across Chinese, Japanese, and Korean, but its printed form can differ by region, so the correct glyph depends on the language |
 
 ### Why it matters in design systems
 
@@ -77,7 +75,7 @@ Treat this entry as a starting playbook for Han characters, as best as the gloss
 
 Where you cannot be creative is the script rules, and the first is scale. The Han characters number in the tens of thousands,<sup>4</sup> which drives [font](font.md) file size and [subsetting](font-subsetting.md), [glyph](glyph.md) coverage, and input: text entry relies on an [input method editor](input-method-editor.md) that converts typed sounds into characters, rather than one key per symbol. The second is Han unification: Unicode encodes a single set of unified Han characters shared across Chinese, Japanese, and Korean,<sup>5</sup> but the glyphs used can vary widely from country to country,<sup>6</sup> so the same [code point](code-point.md) should render with the region's expected form. That makes glyph selection language-dependent: you have to set the text's language and pick a matching font (a Chinese font and a Japanese font draw the same code point differently), or a reader sees the wrong regional forms. Text also runs horizontally now but is traditionally set vertically,<sup>7</sup> which layout has to support. These are not styling choices: miss the coverage, the language tag, or the vertical forms and the text renders wrongly or not at all, not just unstyled.
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script allows and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since which characters and which regional forms a language uses (Simplified versus Traditional Chinese, Japanese and Korean forms) is an orthographic choice, not a free one. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since which characters and which regional forms a language uses (Simplified versus Traditional Chinese, Japanese and Korean forms) is an orthographic choice, not a free one. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 

@@ -62,10 +62,8 @@ Script rules apply to any language that uses Cyrillic in its writing system. Thi
 | Rule or feature                     | How it works in Cyrillic                                                                                                                                                                                                        |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Text direction](text-direction.md) | Left to right                                                                                                                                                                                                                   |
-| Letter case                         | bicameral: separate uppercase and lowercase forms; not yet documented as its own term, contribution welcome                                                                                                                     |
+| Letter case                         | bicameral: separate uppercase and lowercase forms                                                                                                                     |
 | Localized forms                     | some letters take language-specific shapes, which the [OpenType](../../terms/opentype.md) localized-forms feature selects from the text's language, so the same letters are set differently for Russian, Serbian, and Bulgarian |
-
-Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
 
 ### Why it matters in design systems
 
@@ -73,7 +71,7 @@ Treat this entry as a starting playbook for Cyrillic, as best as the glossary do
 
 Where you cannot be creative is the script rules. Text runs left to right, the direction Western tools already assume,<sup>5</sup> and Cyrillic is bicameral, with two cases.<sup>6</sup> The constraint that catches teams is coverage across languages: Cyrillic serves dozens of them, so "supports Cyrillic" is not a single guarantee. Languages use overlapping but different letter sets, and some letters are shaped differently by language;<sup>7</sup> several italic letters, for example, differ in Serbian and Bulgarian from Russian. A font has to carry the letters AND the language's forms, which the [OpenType](../../terms/opentype.md) localized-forms feature selects from the text's declared language. Pick the wrong forms and the text reads as foreign to a native reader, even though every letter is present.
 
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Cyrillic glyphs and the right per-language forms, not Latin lookalikes) and what the language's [orthography](orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Cyrillic glyphs and the right per-language forms, not Latin lookalikes) and what the language's [orthography](orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 
