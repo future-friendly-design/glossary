@@ -8,7 +8,7 @@ aliases:
   - Chinese characters
 level: intermediate
 depth: core
-summary: Han characters are the logographic symbols used to write Chinese and, in part, Japanese and Korean.
+summary: Han characters are a script used to write Chinese and, in part, Japanese and Korean.
 related:
   - logographic
   - logosyllabary
@@ -40,42 +40,39 @@ tags:
 
 ## Definition
 
-Han characters are the [logographic](../language-terms/writing-systems-and-scripts/logographic.md) symbols used to write Chinese and, in part, Japanese and Korean. They are logographic: each character represents a word, not just a sound, and they developed from [pictographic](../language-terms/writing-systems-and-scripts/pictographic.md) and [ideographic](../language-terms/writing-systems-and-scripts/ideographic.md) principles.<sup>1</sup> They are known as hànzì in Chinese, kanji in Japanese, and hanja in Korean,<sup>2</sup> and although Unicode's block name calls them ideographs, that is a conventional cover term, not a claim that each is a picture of an idea.<sup>3</sup>
+Han characters are a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Chinese and, in part, Japanese and Korean. They are [logographic](../language-terms/writing-systems-and-scripts/logographic.md): each character represents a word, not just a sound, and they developed from [pictographic](../language-terms/writing-systems-and-scripts/pictographic.md) and [ideographic](../language-terms/writing-systems-and-scripts/ideographic.md) principles.<sup>1</sup> They are known as hànzì in Chinese, kanji in Japanese, and hanja in Korean,<sup>2</sup> and although Unicode's block name calls them ideographs, that is a conventional cover term, not a claim that each is a picture of an idea.<sup>3</sup>
 
 For example, the single character 人 ("person") is shared across the languages, read rén in Chinese and jin or nin in Japanese.
 
-Han characters make up one script within the writing system of each language that uses them. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which characters, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Han character property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Han characters profile
+
+These properties of Han characters apply to any language that uses them in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
 | Property | Han characters |
 | --- | --- |
-| Script type | [Logographic](../language-terms/writing-systems-and-scripts/logographic.md) (Chinese is more precisely a [logosyllabary](../language-terms/writing-systems-and-scripts/logosyllabary.md)) |
-| Autonym | 漢字 |
-| Symbols | logographic characters, each standing for a word or morpheme (and mapping to a spoken syllable) |
-| Marks | Rare: historic ideographic tone marks (U+302A to U+302D) mark unusual pronunciations in classical texts; no regular combining vowel or tone marks in modern use |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | Han numerals (一, 二, 三, and so on) alongside common ASCII digits |
-| Unicode block | CJK Unified Ideographs, [U+4E00 to U+9FFF](https://www.unicode.org/charts/PDF/U4E00.pdf) (plus many extension blocks) |
-| [Complex text layout](complex-text-layout.md) | No reordering or contextual shaping, but the correct glyph is language-dependent (Han unification) and Japanese and Chinese support vertical setting ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
+| [Autonym](autonym.md) | 漢字 |
 | Languages | Chinese, Japanese, Korean (historically also Vietnamese) |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Rare: historic ideographic tone marks (U+302A to U+302D) mark unusual pronunciations in classical texts; no regular combining vowel or tone marks in modern use |
+| Numerals | Han numerals (一, 二, 三, and so on) alongside common ASCII digits |
+| Script type | [Logographic](../language-terms/writing-systems-and-scripts/logographic.md) (Chinese is more precisely a [logosyllabary](../language-terms/writing-systems-and-scripts/logosyllabary.md)) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | logographic characters, each standing for a word or morpheme (and mapping to a spoken syllable) |
 
-### Script rules and features
+### Han characters rules and digital use considerations
 
-Script rules apply to any language that uses Han characters in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use Han characters, here are some considerations to keep in mind:
 
-| Rule or feature | How it works with Han characters |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
-| Han unification | one code point covers a character shared across Chinese, Japanese, and Korean, but its printed form can differ by region, so the correct glyph depends on the language |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for Han characters, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Han coverage for the languages you serve, and that is a bigger commitment than it sounds.
-
-Where you cannot be creative is the script rules, and the first is scale. The Han characters number in the tens of thousands,<sup>4</sup> which drives [font](font.md) file size and [subsetting](font-subsetting.md), [glyph](glyph.md) coverage, and input: text entry relies on an [input method editor](input-method-editor.md) that converts typed sounds into characters, rather than one key per symbol. The second is Han unification: Unicode encodes a single set of unified Han characters shared across Chinese, Japanese, and Korean,<sup>5</sup> but the glyphs used can vary widely from country to country,<sup>6</sup> so the same [code point](code-point.md) should render with the region's expected form. That makes glyph selection language-dependent: you have to set the text's language and pick a matching font (a Chinese font and a Japanese font draw the same code point differently), or a reader sees the wrong regional forms. Text also runs horizontally now but is traditionally set vertically,<sup>7</sup> which layout has to support. These are not styling choices: miss the coverage, the language tag, or the vertical forms and the text renders wrongly or not at all, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since which characters and which regional forms a language uses (Simplified versus Traditional Chinese, Japanese and Korean forms) is an orthographic choice, not a free one. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works with Han characters | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | No reordering or contextual shaping; the correct glyph is still language-dependent (Han unification), and Japanese and Chinese also support vertical setting ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) | Han characters do not reorder or join, so shaping is simpler than in a cursive script; the design-critical work is choosing the right regional glyph by language and supporting vertical layout where you need it, both applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md). These are not styling choices: miss the language tag or the vertical forms and the text renders wrongly, not just unstyled |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md))<sup>4</sup> | Text runs horizontally by default now, but the traditional vertical form is still used, so support vertical layout if your languages call for it; the layout engine has to substitute the font's vertical forms |
+| Han unification | one code point covers a character shared across Chinese, Japanese, and Korean, but its printed form can differ by region, so the correct glyph depends on the language | Unicode encodes a single set of unified Han characters shared across Chinese, Japanese, and Korean,<sup>5</sup> but the glyphs used can vary widely from country to country,<sup>6</sup> so set the text's language and pick a matching font (a Chinese font and a Japanese font draw the same [code point](code-point.md) differently), or a reader sees the wrong regional forms |
+| Character set size | the characters number in the tens of thousands<sup>7</sup> | Scale drives [font](font.md) file size and [subsetting](font-subsetting.md), [glyph](glyph.md) coverage, and input: text entry relies on an [input method editor](input-method-editor.md) that converts typed sounds into characters, rather than one key per symbol |
+| [Unicode](unicode.md) block | CJK Unified Ideographs, [U+4E00 to U+9FFF](https://www.unicode.org/charts/PDF/U4E00.pdf) (plus many extension blocks) | A Han font carries thousands of glyphs, so plan subsetting and loading, and confirm [font coverage](font-coverage.md) spans the characters your languages need |
 
 ### In practice
 
@@ -88,7 +85,7 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 ### Related terms and mentions
 
-[Autonym](autonym.md) · [CJK](cjk.md) · [CLDR](cldr.md) · [Code point](code-point.md) · [Complex text layout](complex-text-layout.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Hangul](hangul.md) · [Hiragana](hiragana.md) · [Ideographic](../language-terms/writing-systems-and-scripts/ideographic.md) · [Input method editor (IME)](input-method-editor.md) · [Katakana](katakana.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Logographic](../language-terms/writing-systems-and-scripts/logographic.md) · [Logosyllabary](../language-terms/writing-systems-and-scripts/logosyllabary.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Pictographic](../language-terms/writing-systems-and-scripts/pictographic.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tategaki](../language-terms/writing-systems-and-scripts/tategaki.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Vertical text](vertical-text.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Autonym](autonym.md) · [CJK](cjk.md) · [CLDR](cldr.md) · [Code point](code-point.md) · [Complex text layout](complex-text-layout.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Hangul](hangul.md) · [Hiragana](hiragana.md) · [Ideographic](../language-terms/writing-systems-and-scripts/ideographic.md) · [Input method editor (IME)](input-method-editor.md) · [Katakana](katakana.md) · [Language](../language-terms/linguistics/language.md) · [Locale](locale.md) · [Logographic](../language-terms/writing-systems-and-scripts/logographic.md) · [Logosyllabary](../language-terms/writing-systems-and-scripts/logosyllabary.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Pictographic](../language-terms/writing-systems-and-scripts/pictographic.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Tategaki](../language-terms/writing-systems-and-scripts/tategaki.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Vertical text](vertical-text.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
@@ -101,7 +98,9 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 1. They are logographic (each character represents a word, not just a sound) characters that developed from pictographic and ideographic principles - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 2. Several standard romanizations of the term used to refer to East Asian ideographic characters are commonly used, including hànzì (Chinese), kanzi and colloquial kanji (Japanese), hanja (Korean), and Chữ hán (Vietnamese) - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 3. Taken literally, the word "ideograph" applies only to some of the ancient original character forms, but the term "Han ideographs" remains in English usage as a conventional cover term for the script as a whole - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-4. The Han ideographic characters constitute a very large set, numbering in the tens of thousands - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+4. Traditionally, the basic writing direction followed the conventions of Chinese handwriting, in top-down vertical lines arranged from right to left across the page; under the influence of Western printing technologies, a horizontal, left-to-right directionality has become common - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 5. The Unicode Standard contains a set of unified Han ideographic characters used in the written Chinese, Japanese, and Korean languages - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 6. There may be a wide variation in the glyphs used in different countries and for different applications - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-7. Traditionally, the basic writing direction followed the conventions of Chinese handwriting, in top-down vertical lines arranged from right to left across the page; under the influence of Western printing technologies, a horizontal, left-to-right directionality has become common - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+7. The Han ideographic characters constitute a very large set, numbering in the tens of thousands - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+</content>
+</invoke>
