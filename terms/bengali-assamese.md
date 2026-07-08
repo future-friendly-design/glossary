@@ -42,42 +42,36 @@ Bengali-Assamese is a [script](../language-terms/writing-systems-and-scripts/scr
 
 For example, বাংলা ("Bangla") is the name of the Bengali language, written in this script.
 
-Bengali-Assamese is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Bengali-Assamese property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Bengali-Assamese profile
+
+These properties of the Bengali-Assamese script apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
 | Property | Bengali-Assamese |
 | --- | --- |
-| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| Autonym | বাংলা লিপি |
-| Symbols | consonants carrying an inherent vowel, plus independent vowels |
-| Marks | [matra](../language-terms/writing-systems-and-scripts/matra.md) (dependent vowels, some written to the left), the hasant ([virama](../language-terms/writing-systems-and-scripts/virama.md)) that forms conjuncts, and nasalization marks |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | Bengali digits ০ to ৯ (alongside common ASCII digits) |
-| Unicode block | Bengali, [U+0980 to U+09FF](https://www.unicode.org/charts/PDF/U0980.pdf) |
-| [Complex text layout](complex-text-layout.md) | Yes, shaping required |
+| [Autonym](autonym.md) | বাংলা লিপি |
 | Languages | Bengali (Bangla), Assamese, and others |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md), some written to the left), the hasant (the [virama](../language-terms/writing-systems-and-scripts/virama.md)) that forms conjuncts, and nasalization marks |
+| Numerals | Bengali digits ০ to ৯ (alongside common ASCII digits) |
+| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel, plus independent vowels |
 
-### Script rules and features
+### Bengali-Assamese rules and digital use considerations
 
-Script rules apply to any language that uses the Bengali-Assamese script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use the Bengali-Assamese script, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in the Bengali-Assamese script |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right |
-| [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) | symbols join along a top line and hang from it |
-| [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) | a left-side vowel mark is typed after its consonant but displays before it, so the renderer reorders it |
-| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | consonant clusters combine into conjunct forms using the hasant (the virama) |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for the Bengali-Assamese script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Bengali-Assamese coverage, because the rules below will not render without it.
-
-Where you cannot be creative is the script rules. Text runs left to right.<sup>3</sup> A left-side vowel mark is typed after its consonant but displays before it, so the renderer reorders it;<sup>4</sup> consonant clusters combine into conjunct forms;<sup>5</sup> and the symbols join along a top line and hang from it.<sup>6</sup> These are shaping requirements, carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), the step that turns stored characters into positioned glyphs.<sup>7</sup> They are not styling choices: with a tool or font that cannot shape, the text renders incorrectly, not just unstyled.
-
-One thing sets this script apart from a single-language one: it serves several languages, and they do not all use the same letters. Assamese uses symbols Bengali does not, among them ৰ for "ra" and ৱ for "wa",<sup>8</sup> so a font or a text pipeline built for Bengali can be missing exactly what Assamese needs. "Supports Bengali" is not the same as "supports Assamese".
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (you cannot add spacing that breaks the top line) and what each language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for, since a typeface or style that suits one language may not suit another. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in the Bengali-Assamese script | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Yes, shaping required | The reordering, the conjuncts, and the top-line join are shaping requirements carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), so a tool or font that cannot shape renders the text incorrectly, not just unstyled;<sup>3</sup> you need a [typeface](typeface.md) and [font](font.md) with Bengali-Assamese coverage before any of it will render |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right<sup>4</sup> | Left-aligned text as the default |
+| [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) | a left-side vowel mark (dependent vowel) is typed after its consonant but displays before it, so the renderer reorders it<sup>5</sup> | A tool or font that cannot reorder places the vowel in the wrong position, so test a word with a left-side vowel mark |
+| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | consonant clusters combine into conjunct forms using the hasant (the [virama](../language-terms/writing-systems-and-scripts/virama.md))<sup>6</sup> | Confirm the font forms conjunct glyphs; a cluster that does not fuse renders as separate letters instead |
+| [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md) | symbols join along a top line and hang from it<sup>7</sup> | You cannot add spacing that breaks the top line joining the symbols |
+| [Unicode](unicode.md) block | Bengali, [U+0980 to U+09FF](https://www.unicode.org/charts/PDF/U0980.pdf) | The block covers Bengali; Assamese uses letters Bengali does not, among them ৰ for "ra" and ৱ for "wa", so "supports Bengali" is not the same as "supports Assamese". Confirm [font coverage](font-coverage.md) of the Assamese letters too<sup>8</sup> |
 
 ### In practice
 
@@ -102,9 +96,10 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 1. The Bangla script is used for writing languages such as Bangla, Assamese, Bishnupriya Manipuri, Daphla, Garo, Hallam, Khasi, Mizo, Munda, Naga, Rian, and Santali - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
 2. The Bangla script is a North Indian script historically related to Devanagari, and, in common with the other scripts of the region, is an abugida in which each consonant carries an inherent vowel - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-3. The scripts of the Indic family, including Bangla, are written from left to right - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-4. Indic-script rendering reorders elements from the logical (character) order to the visual (glyph) order, which is why a left-side vowel sign stored after its consonant displays before it - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-5. Like other Brahmic scripts, Bangla uses the hasant to form conjunct characters from consonant clusters - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-6. In Bengali a top bar joins the symbols, and the hanging baseline is based on that top bar - Bengali (r12a script notes) [https://r12a.github.io/scripts/beng/bn.html](https://r12a.github.io/scripts/beng/bn.html)
-7. A font's OpenType rules select and position the correct Bengali forms (conjuncts, reordered vowel marks, mark placement), which the shaping engine applies when the text is rendered - Developing OpenType Fonts for Bengali Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/bengali](https://learn.microsoft.com/en-us/typography/script-development/bengali)
+3. A font's OpenType rules select and position the correct Bengali forms (conjuncts, reordered vowel marks, mark placement), which the shaping engine applies when the text is rendered - Developing OpenType Fonts for Bengali Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/bengali](https://learn.microsoft.com/en-us/typography/script-development/bengali)
+4. The scripts of the Indic family, including Bangla, are written from left to right - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+5. Indic-script rendering reorders elements from the logical (character) order to the visual (glyph) order, which is why a left-side vowel sign stored after its consonant displays before it - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+6. Like other Brahmic scripts, Bangla uses the hasant to form conjunct characters from consonant clusters - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+7. In Bengali a top bar joins the symbols, and the hanging baseline is based on that top bar - Bengali (r12a script notes) [https://r12a.github.io/scripts/beng/bn.html](https://r12a.github.io/scripts/beng/bn.html)
 8. Assamese employs letters not used for the Bangla language, including U+09F0 ৰ for the Assamese "ra" and U+09F1 ৱ for the Assamese "wa", along with some Assamese-specific ligature forms - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+</content>
