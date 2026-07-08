@@ -5,7 +5,7 @@ aliases:
   - tamil
 level: intermediate
 depth: core
-summary: The Tamil script is a script used to write the Tamil language and minority languages such as Badaga, in India, Sri Lanka, Singapore, and Malaysia.
+summary: The Tamil script is used to write the Tamil language and minority languages such as Badaga, in India, Sri Lanka, Singapore, and Malaysia.
 related:
   - abugida
   - brahmic-scripts
@@ -37,44 +37,40 @@ tags:
 
 ## Definition
 
-The Tamil script is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write the Tamil language and minority languages such as Badaga, in India, Sri Lanka, Singapore, and Malaysia.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md) in the [Brahmic](brahmic-scripts.md) family: each consonant carries an inherent vowel, which a visible dot called the pulli (the [virama](../language-terms/writing-systems-and-scripts/virama.md)) cancels where a consonant has no vowel.<sup>2</sup>
+The Tamil [script](../language-terms/writing-systems-and-scripts/script.md) is used to write the Tamil language and minority languages such as Badaga, in India, Sri Lanka, Singapore, and Malaysia.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md) in the [Brahmic](brahmic-scripts.md) family: each consonant carries an inherent vowel, which a visible dot called the pulli (the [virama](../language-terms/writing-systems-and-scripts/virama.md)) cancels where a consonant has no vowel.<sup>2</sup>
 
 For example, தமிழ் ("Tamil") ends in ழ் carrying that pulli dot, showing the final consonant has no vowel, the way the script marks a bare consonant throughout.
 
-The Tamil script is one script within the writing system of each language that uses it. This page describes the script itself; how a given language uses it, its spelling, punctuation, and which symbols, is that language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every Tamil script property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Tamil script profile
+
+These properties of the Tamil script apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
 | Property | Tamil script |
 | --- | --- |
-| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| Autonym | தமிழ் அரிச்சுவடி |
-| Symbols | consonants carrying an inherent vowel, plus independent vowels |
-| Marks | vowel marks ([matras](../language-terms/writing-systems-and-scripts/matra.md), some written to the left of the consonant) and the pulli, the visible [virama](../language-terms/writing-systems-and-scripts/virama.md) that cancels the inherent vowel |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | common ASCII digits; traditional Tamil digits ௦ to ௯ and number symbols exist but are largely archaic |
-| Unicode block | Tamil, [U+0B80 to U+0BFF](https://www.unicode.org/charts/PDF/U0B80.pdf) (plus Tamil Supplement) |
-| [Complex text layout](complex-text-layout.md) | Yes, shaping required |
+| [Autonym](autonym.md) | தமிழ் அரிச்சுவடி |
 | Languages | Tamil, Badaga, and others |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md), some written to the left of the consonant) and the pulli, the visible [virama](../language-terms/writing-systems-and-scripts/virama.md) that cancels the inherent vowel |
+| Numerals | common ASCII digits; traditional Tamil digits ௦ to ௯ and number symbols exist but are largely archaic |
+| Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel, plus independent vowels |
 
-### Script rules and features
+### Tamil script rules and digital use considerations
 
-Script rules apply to any language that uses the Tamil script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use the Tamil script, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in the Tamil script |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right |
-| [Baseline](../design-terms/typography/baseline.md) | symbols sit on the alphabetic baseline, like Latin, not hanging from a headstroke ([shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md)) as in Devanagari |
-| [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) | a left-side vowel mark is typed after its consonant but displays before it, and a two-part vowel mark is split to sit on both sides, so the renderer reorders and splits them |
-| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | Tamil forms very few conjuncts, writing most consonant clusters with a visible pulli instead |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for the Tamil script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Tamil coverage, because the rules above will not render without it.
-
-Where you cannot be creative is the script rules. Text runs left to right.<sup>3</sup> Its symbols sit on the alphabetic baseline, like Latin,<sup>4</sup> rather than hanging from a headstroke the way [Devanagari](devanagari.md) does. Tamil forms very few conjuncts, only one, and writes most consonant clusters with a visible pulli instead, so a cluster that Devanagari would fuse stays as separate letters marked with a dot.<sup>5</sup> A left-side vowel mark is typed after its consonant but displays before it, and a two-part vowel mark is split to sit on both sides, so the renderer has to [reorder](../programming-terms/text-for-digital-products-and-the-web/reordering.md) and split them.<sup>6</sup> These are shaping requirements, carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), the step that turns stored characters into positioned glyphs.<sup>7</sup> They are not styling choices: with a tool or font that cannot shape, the vowels do not reorder and the text renders incorrectly, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (loose [letter spacing](letter-spacing.md) can pull a vowel mark or the pulli away from the consonant it belongs to) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in the Tamil script | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Yes, shaping required | The reordering, the split vowel marks, and the pulli placement are shaping requirements carried by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), so a tool or font that cannot shape renders the vowels in the wrong place and the text incorrectly, not just unstyled;<sup>3</sup> you need a [typeface](typeface.md) and [font](font.md) with Tamil coverage before any of it will render |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right<sup>4</sup> | Left-aligned text as the default |
+| [Baseline](../design-terms/typography/baseline.md) | symbols sit on the alphabetic baseline, like Latin, not hanging from a headstroke ([shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md)) as in Devanagari<sup>5</sup> | Tamil aligns to the same baseline as Latin, so a line that mixes Tamil and Latin shares one baseline |
+| [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) | a left-side vowel mark is typed after its consonant but displays before it, and a two-part vowel mark is split to sit on both sides, so the renderer reorders and splits them<sup>6</sup> | A tool or font that cannot reorder or split places the vowel wrongly, so test a left-side vowel and a two-part vowel; loose [letter spacing](letter-spacing.md) can also pull a vowel mark or the pulli away from its consonant |
+| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | Tamil forms very few conjuncts, writing most consonant clusters with a visible pulli instead<sup>7</sup> | A cluster that Devanagari would fuse stays as separate letters marked with the pulli, so do not expect heavy conjunct behaviour |
+| [Unicode](unicode.md) block | Tamil, [U+0B80 to U+0BFF](https://www.unicode.org/charts/PDF/U0B80.pdf) (plus Tamil Supplement) | No special handling beyond ensuring [font coverage](font-coverage.md) of the block |
 
 ### In practice
 
@@ -99,8 +95,9 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 1. The Tamil script is used to write the Tamil language of the southern Indian state of Tamil Nadu, minority languages such as Badaga, and is also used in Sri Lanka, Singapore, and parts of Malaysia - Developing OpenType Fonts for Tamil Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/tamil](https://learn.microsoft.com/en-us/typography/script-development/tamil)
 2. Tamil is an abugida in which each consonant letter represents a syllable with an inherent vowel; the sign that suppresses that inherent vowel is called the pulli in Tamil - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-3. Tamil, in common with the other scripts of the Indic family, is written from left to right - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-4. Tamil uses the so-called alphabetic baseline, which is the same as for Latin and many other scripts - Tamil (r12a script notes) [https://r12a.github.io/scripts/taml/ta.html](https://r12a.github.io/scripts/taml/ta.html)
-5. The Tamil script has fewer consonants than other Indic scripts and has only one consonant conjunct - Developing OpenType Fonts for Tamil Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/tamil](https://learn.microsoft.com/en-us/typography/script-development/tamil)
+3. A font's OpenType rules select and position the correct Tamil forms, which the shaping engine applies when the text is rendered - Developing OpenType Fonts for Tamil Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/tamil](https://learn.microsoft.com/en-us/typography/script-development/tamil)
+4. Tamil, in common with the other scripts of the Indic family, is written from left to right - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+5. Tamil uses the so-called alphabetic baseline, which is the same as for Latin and many other scripts - Tamil (r12a script notes) [https://r12a.github.io/scripts/taml/ta.html](https://r12a.github.io/scripts/taml/ta.html)
 6. The Tamil shaping engine reorders a pre-base (left-side) vowel mark before its base consonant and decomposes a two-part (split) matra into pieces placed on both sides of the base - Developing OpenType Fonts for Tamil Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/tamil](https://learn.microsoft.com/en-us/typography/script-development/tamil)
-7. A font's OpenType rules select and position the correct Tamil forms, which the shaping engine applies when the text is rendered - Developing OpenType Fonts for Tamil Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/tamil](https://learn.microsoft.com/en-us/typography/script-development/tamil)
+7. The Tamil script has fewer consonants than other Indic scripts and has only one consonant conjunct - Developing OpenType Fonts for Tamil Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/tamil](https://learn.microsoft.com/en-us/typography/script-development/tamil)
+</content>
