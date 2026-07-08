@@ -82,7 +82,7 @@
 
 ## Browse all terms
 
-* [A](browse-all-terms/a/README.md)
+* [Ax](browse-all-terms/a/README.md)
   * [Agglutinative language](terms/agglutinative-language.md)
   * [Arabic script](terms/arabic-script.md)
   * [Ascender](terms/ascender.md)

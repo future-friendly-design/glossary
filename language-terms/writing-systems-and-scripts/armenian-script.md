@@ -33,45 +33,47 @@ tags:
 
 ## Definition
 
-The Armenian script is a [script](script.md) used to write the Armenian language. It is an [alphabet](alphabet.md) with its own letters for consonants and vowels, unrelated in shape to Latin or Cyrillic, devised about 406 CE by Mesrop Mashtots to give Armenians access to Christian texts then available only in Greek and Syriac.<sup>1</sup>
+The Armenian [script](script.md) is used to write the Armenian language. It is an [alphabet](alphabet.md) with its own letters for consonants and vowels, unrelated in shape to Latin or Cyrillic.&#x20;
 
 For example, ծուխ ("smoke") is written in letters unique to Armenian, sharing no shapes with the Latin or Cyrillic alphabets.
 
+The Armenian script was devised about 406 CE by Mesrop Mashtots to give Armenians access to Christian texts, which were previously available only in Greek and Syriac.<sup>1</sup>
+
+{% hint style="info" %}
+This glossary doesn't cover every Armenian scrip property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../../CONTRIBUTING.md), they will be linked.&#x20;
+{% endhint %}
+
+### Armenian script profile
+
+These properties of the Armenian script which apply to all languages that include it in their [writing system](writing-system.md). In addition to the [script rules](script-rules.md) described below, its important to consider the specific rules each language defines for its usage of the Amenian script, known as its [othography](orthography.md).
+
 The Armenian script is one script within the writing system of the language that uses it. This page describes the script itself; how Armenian uses it, its spelling, punctuation, and which symbols, is the language's [orthography](orthography.md).
 
-### At a glance
+| Property                          | Armenian script                                                                                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Autonym](../../terms/autonym.md) | Հայոց այբուբեն                                                                                                                                                       |
+| Languages                         | Armenian                                                                                                                                                             |
+| Letter case                       | Bicameral (uppercase and lowercase)                                                                                                                                  |
+| [Marks](mark.md)                  | No combining vowel or tone marks; Armenian has its own [punctuation marks](punctuation-mark.md) for questions, exclamation, and emphasis, and the ligature և ("and") |
+| Numerals                          | common ASCII digits (Armenian letters also carry traditional numeric values)                                                                                         |
+| Script type                       | [Alphabet](alphabet.md)                                                                                                                                              |
+| [Symbols](symbol.md)              | separate letters for consonants and vowels, in uppercase and lowercase                                                                                               |
 
-| Property                                                  | Armenian script                                                                                                                         |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Script type                                               | [Alphabet](alphabet.md)                                                                                                                 |
-| Autonym                                                   | Հայոց այբուբեն                                                                                                                          |
-| Symbols                                                   | separate letters for consonants and vowels, in uppercase and lowercase                                                                  |
-| Marks                                                     | few; Armenian has its own [punctuation marks](punctuation-mark.md) for questions, exclamation, and emphasis, and the ligature և ("and") |
-| Letter case                                               | Bicameral (uppercase and lowercase)                                                                                                     |
-| Numerals                                                  | common ASCII digits (Armenian letters also carry traditional numeric values)                                                            |
-| Unicode block                                             | Armenian, [U+0530 to U+058F](https://www.unicode.org/charts/PDF/U0530.pdf)                                                              |
-| [Complex text layout](../../terms/complex-text-layout.md) | Not required; Armenian lays out left to right, like Latin                                                                               |
-| Languages                                                 | Armenian                                                                                                                                |
+### Armenian script rules and digital use considerations
 
-### Script rules and features
+If your design system supports languages that use the Armenian script, here are some considerations to keep in mind:
 
-Script rules apply to any language that uses the Armenian script in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
-
-| Rule or feature                     | How it works in the Armenian script                                                                                                   |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| [Text direction](text-direction.md) | Left to right                                                                                                                         |
-| Letter case                         | bicameral: separate uppercase and lowercase forms; not yet documented as its own term, contribution welcome                           |
-| [Punctuation](punctuation-mark.md)  | Armenian uses its own marks; the question and emphasis marks sit above a word's stressed vowel rather than at the end of the sentence |
+| Rule or feature                                           | How it works in the Armenian script                                                                                                   | Design Systems                                                                   |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [Complex text layout](../../terms/complex-text-layout.md) | None                                                                                                                                  | A standard left-to-right script (no reordering or contextual shaping)            |
+| [Text direction](text-direction.md)                       | Left to right                                                                                                                         | Left aligned text as the default                                                 |
+| [Noto Font](../../terms/noto-fonts.md)                    | [Noto Sans Armenian](https://fonts.google.com/noto/specimen/Noto+Sans+Armenian)                                                       | Free, open-licensed option from Google, should be installed in Figma by default. |
+| [Punctuation](punctuation-mark.md)                        | Armenian uses its own marks; the question and emphasis marks sit above a word's stressed vowel rather than at the end of the sentence | Test line-height so above-marks don't clip; don't tighten leading blindly        |
+| [Unicode](../../terms/unicode.md) block                   | Armenian, [U+0530 to U+058F](https://www.unicode.org/charts/PDF/U0530.pdf)                                                            |                                                                                  |
 
 Where a rule doesn't have its own page yet, that's noted in the table; a contribution is welcome.
 
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for the Armenian script, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](../../terms/typeface.md) and [font](../../terms/font.md) with Armenian coverage, because the rules below will not render without it.
-
-Where you cannot be creative is the script rules. Text runs left to right, and Armenian is bicameral, with two cases.<sup>2</sup> The catch is coverage: Armenian has its own letters, unrelated to Latin or Cyrillic, so a font with full Latin coverage may carry no Armenian glyphs at all. Because it serves essentially one language, it is easy to leave off a coverage list exactly when the community that needs it is not large. It also has its own [punctuation](punctuation-mark.md), so a plain "?" or "!" is not how Armenian marks a question or an exclamation.<sup>3</sup> These are not styling choices: without the glyphs and the right marks, the text does not render or read correctly, it is simply absent or wrong.
-
-Where you are free is the rest: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Armenian glyphs, both cases, and its punctuation) and what the language's [orthography](orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script needs (real Armenian glyphs, both cases, and its punctuation) and what the language's [orthography](orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
 
 ### In practice
 
