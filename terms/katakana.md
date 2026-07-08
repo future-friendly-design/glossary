@@ -39,38 +39,37 @@ Katakana is a [script](../language-terms/writing-systems-and-scripts/script.md) 
 
 For example, the loanword コーヒー ("kōhī", from English "coffee") is written in katakana, using the prolonged sound mark (ー) to lengthen its vowels.
 
-Katakana is one script within the writing system of the language that uses it. This page describes the script itself; how Japanese uses it, its spelling, punctuation, and which symbols, is the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
+{% hint style="info" %}
+This glossary doesn't cover every katakana property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
-### At a glance
+### Katakana profile
+
+These properties of katakana apply to any language that uses it in its [writing system](../language-terms/writing-systems-and-scripts/writing-system.md). Beyond the [script rules](../language-terms/writing-systems-and-scripts/script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](../language-terms/writing-systems-and-scripts/orthography.md).
 
 | Property | Katakana |
 | --- | --- |
-| Script type | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) |
-| Autonym | カタカナ |
-| Symbols | symbols each standing for a syllable (mora), matching the [hiragana](hiragana.md) set but angular in form |
-| Marks | voiced-sound mark (dakuten) and semi-voiced-sound mark (handakuten); the prolonged sound mark (ー) lengthens a vowel; small kana modify the preceding sound |
-| Letter case | None (no uppercase and lowercase) |
-| Numerals | common ASCII digits (Japanese also uses kanji numerals) |
-| Unicode block | Katakana, [U+30A0 to U+30FF](https://www.unicode.org/charts/PDF/U30A0.pdf) (plus half-width forms and Katakana Phonetic Extensions) |
-| [Complex text layout](complex-text-layout.md) | No reordering or contextual shaping, but Japanese supports vertical setting ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
+| [Autonym](autonym.md) | カタカナ |
 | Languages | Japanese; extended katakana also writes Ainu |
+| Letter case | None (no uppercase and lowercase) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | voiced-sound mark (dakuten) and semi-voiced-sound mark (handakuten); the prolonged sound mark (ー) lengthens a vowel; small kana modify the preceding sound |
+| Numerals | common ASCII digits (Japanese also uses kanji numerals) |
+| Script type | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | symbols each standing for a syllable (mora), matching the [hiragana](hiragana.md) set but angular in form |
 
-### Script rules and features
+### Katakana rules and digital use considerations
 
-Script rules apply to any language that uses katakana in its writing system. This glossary doesn't cover every rule; select a linked term to navigate to its page.
+If your design system supports languages that use katakana, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in katakana |
-| --- | --- |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)) |
-| Sound marks | voiced (dakuten) and semi-voiced (handakuten) marks form voiced counterparts, and the prolonged sound mark lengthens a vowel |
-
-### Why it matters in design systems
-
-Treat this entry as a starting playbook for katakana, as best as the glossary documents it today. The Definition already settles one decision: you need a [typeface](typeface.md) and [font](font.md) with Japanese coverage, because katakana never travels alone.
-
-Where you cannot be creative is the script rules. In ordinary Japanese, katakana is interspersed with [hiragana](hiragana.md) and [kanji](han-characters.md), the Japanese [Han characters](han-characters.md),<sup>3</sup> so you are never setting katakana by itself: the three scripts share one line and have to read as one text. Katakana covers the same syllables as hiragana,<sup>4</sup> so which one a word uses is a meaning choice, not a free swap: katakana marks a word as a loanword or as emphasized, roughly the way italics work in Latin text. Katakana is not complex to shape, no reordering or contextual analysis, but the prolonged sound mark lengthens a vowel,<sup>5</sup> voiced syllables are usually their own precomposed symbols, with the base-plus-[combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) form used mainly for kana outside that set such as the Ainu phonetic extensions,<sup>6</sup> and Japanese is traditionally set vertically as well as horizontally,<sup>7</sup> so vertical layout has to substitute the font's [OpenType](opentype.md) vertical forms, which the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) applies at render time, the step that turns stored characters into positioned glyphs. Legacy systems also produce half-width katakana as separate compatibility characters, distinct from the [full-width](full-width.md) forms.<sup>8</sup> These are not styling choices: mix the scripts wrong, drop the vertical forms, or leave half-width katakana unnormalized and the text renders or matches incorrectly, not just unstyled.
-
-Everything else is a free design choice: the typeface's personality, weight, size, colour, and spacing, within what the script allows (the kana have to harmonize with the kanji they sit among, which is a real concern in Japanese type) and what the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) calls for. And where the glossary is silent, a rule left undocumented is an open question, not a settled "no", so verify it with people who read the language rather than guessing.
+| Rule or feature | How it works in katakana | Design systems |
+| --- | --- | --- |
+| [Complex text layout](complex-text-layout.md) | Not required for shaping: no reordering or contextual analysis, and voiced syllables are usually their own precomposed symbols | Katakana is simple to shape, so the design-critical work is layout and data handling, not glyph substitution; the vertical forms and the mixed-script line still resolve at render time through the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), not styling |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Horizontal left to right, and traditionally vertical: top to bottom in columns running right to left ([tategaki](../language-terms/writing-systems-and-scripts/tategaki.md))<sup>3</sup> | Support vertical layout if your text calls for it; vertical setting substitutes the font's [OpenType](opentype.md) vertical forms, placed by the layout engine rather than by styling |
+| Script mixing | in ordinary Japanese, katakana is interspersed with [hiragana](hiragana.md) and [kanji](han-characters.md), the Japanese [Han characters](han-characters.md)<sup>4</sup> | You are never setting katakana by itself: the three scripts share one line and have to read as one text, so confirm the font covers all three with harmonized weights and metrics |
+| Katakana versus hiragana | katakana covers the same syllables as [hiragana](hiragana.md)<sup>5</sup> | Which script a word uses is a meaning choice, not a free swap: katakana marks a word as a loanword or as emphasized, roughly the way italics work in Latin text, so do not switch scripts to fit a layout |
+| Sound marks | voiced (dakuten) and semi-voiced (handakuten) marks form voiced counterparts, and the prolonged sound mark lengthens a vowel<sup>6</sup> | Voiced syllables are usually their own precomposed symbols, with the base-plus-[combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) form used mainly for kana outside that set, such as the Ainu phonetic extensions,<sup>7</sup> so confirm the marks and the prolonged sound mark render, not just the base symbols |
+| Half-width katakana | legacy systems produce half-width katakana as separate compatibility characters, distinct from the [full-width](full-width.md) forms<sup>8</sup> | Apply [normalization](normalization.md) to the full-width forms before you compare or search, or identical-looking text will fail to match |
+| [Unicode](unicode.md) block | Katakana, [U+30A0 to U+30FF](https://www.unicode.org/charts/PDF/U30A0.pdf) (plus half-width forms and Katakana Phonetic Extensions) | No special handling beyond ensuring [font coverage](font-coverage.md) of the block, alongside the hiragana and kanji katakana shares a line with |
 
 ### In practice
 
@@ -95,9 +94,10 @@ Everything else is a free design choice: the typeface's personality, weight, siz
 
 1. Katakana is the noncursive syllabary used to write non-Japanese (usually Western) words phonetically in Japanese - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 2. Katakana is also used to write Japanese words with visual emphasis - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-3. When used in writing Japanese or Korean, the Han characters are interspersed with other scripts unique to those languages (Hiragana and Katakana for Japanese; Hangul syllables for Korean) - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-4. Katakana syllables are phonetically equivalent to corresponding Hiragana syllables - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-5. U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK is used predominantly with Katakana and occasionally with Hiragana to denote a lengthened vowel - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-6. All common precomposed combinations of base syllable forms using these marks are already encoded as characters, and use of these precomposed forms is the predominant JIS usage - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
-7. Traditionally, the basic writing direction followed the conventions of Chinese handwriting, in top-down vertical lines arranged from right to left across the page; under the influence of Western printing technologies, a horizontal, left-to-right directionality has become common - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+3. Traditionally, the basic writing direction followed the conventions of Chinese handwriting, in top-down vertical lines arranged from right to left across the page; under the influence of Western printing technologies, a horizontal, left-to-right directionality has become common - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+4. When used in writing Japanese or Korean, the Han characters are interspersed with other scripts unique to those languages (Hiragana and Katakana for Japanese; Hangul syllables for Korean) - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+5. Katakana syllables are phonetically equivalent to corresponding Hiragana syllables - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+6. U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK is used predominantly with Katakana and occasionally with Hiragana to denote a lengthened vowel - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+7. All common precomposed combinations of base syllable forms using these marks are already encoded as characters, and use of these precomposed forms is the predominant JIS usage - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
 8. The Halfwidth and Fullwidth Forms block contains halfwidth forms of the Katakana and Hangul Compatibility Jamo characters - The Unicode Standard, Version 16.0, Chapter 18: East Asia [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/)
+</content>
