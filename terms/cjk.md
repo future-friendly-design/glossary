@@ -36,20 +36,24 @@ tags:
 
 CJK is a collective term for the writing systems of China, Japan, and Korea.<sup>1</sup> The three traditions share a large stock of [Han characters](han-characters.md), which Unicode encodes once as a unified set used across the written Chinese, Japanese, and Korean languages.<sup>2</sup> The grouping is sometimes written CJKV, which is more accurate in a historical sense because earlier Vietnamese writing also used Han characters.<sup>3</sup>
 
-CJK is a convenience grouping, not a single script. This page describes what the members share; how any one of them works, its symbols and rules, is that script's own page. What they have in common is a set of shared engineering concerns, not a common ancestor.
+CJK is a convenience grouping, not a single script: what the members have in common is a set of shared engineering concerns, not a common ancestor, so you design for each script, not for "CJK" as a whole.
+
+{% hint style="info" %}
+This glossary doesn't cover every CJK script or every shared concern; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
 ### What unites the members
 
 These are the traits the group holds in common. The members are different scripts, so treat this as the shared starting point, not a specification for any one of them.
 
-| Shared feature | Across the CJK group |
-| --- | --- |
-| Grouping | the writing systems of China, Japan, and Korea (CJK; CJKV includes Vietnam historically) |
-| [Han characters](han-characters.md) | all three traditions use Han characters (hanzi, kanji, hanja), encoded once as CJK Unified Ideographs |
-| Square layout | characters are written within uniformly sized squares ([full-width](full-width.md)), so text sets on a fixed grid |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | traditionally [vertical](vertical-text.md) (top to bottom, columns right to left); horizontal left to right is now common |
-| Script mixing | Han characters are interspersed with the region's other scripts (kana in Japanese, hangul in Korean) |
-| Rendering | not complex in the reordering sense, but the correct glyph is language-dependent (Han unification) and fonts are very large |
+| Shared feature | Across the CJK group | Design systems |
+| --- | --- | --- |
+| Grouping | the writing systems of China, Japan, and Korea (CJK; CJKV includes Vietnam historically) | One region's coverage does not imply another's; scope each script you actually support |
+| [Han characters](han-characters.md) | all three traditions use Han characters (hanzi, kanji, hanja), encoded once as CJK Unified Ideographs | Set the text's language so the shared [code points](code-point.md) render with the right regional glyphs |
+| Square layout | characters are written within uniformly sized squares ([full-width](full-width.md)), so text sets on a fixed grid<sup>4</sup> | Design to a fixed character grid rather than proportional spacing |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | traditionally [vertical](vertical-text.md) (top to bottom, columns right to left); horizontal left to right is now common<sup>5</sup> | Vertical layout is a real requirement, not an edge case, if you support traditional setting |
+| Script mixing | Han characters are interspersed with the region's other scripts (kana in Japanese, hangul in Korean)<sup>6</sup> | Two or three scripts share one line, so the font has to harmonize them at compatible weights and metrics |
+| Rendering | not complex in the reordering sense, but the correct glyph is language-dependent (Han unification) and fonts are very large<sup>7</sup> | Budget for very large fonts ([subsetting](font-subsetting.md), loading) and an [input method editor](input-method-editor.md) for text entry |
 
 ### Members
 
@@ -62,14 +66,6 @@ The CJK group gathers a few different scripts; here they are, with a page linked
 | [Katakana](katakana.md) | Japanese | カタカナ | angular kana syllabary; loanwords and emphasis |
 | [Hangul](hangul.md) | Korean | 한글 | [featural](../language-terms/writing-systems-and-scripts/featural-alphabet.md); letters (jamo) composed into square syllable blocks |
 | Bopomofo (Zhuyin) | Mandarin Chinese | | phonetic symbols used to teach and annotate pronunciation, mainly in Taiwan |
-
-### Why it matters in design systems
-
-Treat this entry as a map of the group, not a playbook for any one member: for that, follow the link to the specific script. The value of the grouping is that it tells you what transfers and what does not.
-
-What transfers is a set of shared engineering concerns. CJK characters are written within uniformly sized squares,<sup>4</sup> so text sets on a fixed grid; the writing is traditionally [vertical](vertical-text.md) as well as horizontal,<sup>5</sup> so vertical layout is a real requirement; the fonts are very large, so file size, [subsetting](font-subsetting.md), and loading matter; and text entry relies on an [input method editor](input-method-editor.md) rather than one key per symbol. Build that infrastructure once, and it serves all three traditions.
-
-What does not transfer is the scripts themselves, and this is the trap: the members are genuinely different systems, so "CJK support" is not one deliverable. [Han characters](han-characters.md) are [logographic](../language-terms/writing-systems-and-scripts/logographic.md) and their glyphs vary by region, so you have to set the text's language or a reader sees the wrong forms; the Japanese kana are syllabaries interspersed with kanji;<sup>6</sup> Hangul composes letters into square blocks. Because the same Han [code point](code-point.md) can render with different regional glyphs,<sup>7</sup> glyph choice is language-dependent, so verify each member against its own page and a real word, and bound your choices by the language's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) as well as the script. Where the glossary is silent, a rule left undocumented is an open question, not a settled "no".
 
 ### In practice
 

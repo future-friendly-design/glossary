@@ -36,21 +36,25 @@ tags:
 
 Brahmic scripts are a family of related scripts used across South and Southeast Asia, all descended from the ancient Brahmi script.<sup>1</sup> They are almost all [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): most symbols stand for a consonant plus an inherent vowel, generally the short /a/, which dependent vowels ([matras](../language-terms/writing-systems-and-scripts/matra.md)) can change.<sup>2</sup>
 
-Brahmic is a family, not a single script. This page describes what the members share; how any one member works, its symbols, conjuncts, and rules, is that script's own page. The members share a structure but differ enough that you design for each one, not for "Brahmic" as a whole: Unicode itself warns that implementations should not assume the South Indian scripts work just as Devanagari does.<sup>3</sup>
+Brahmic is a family, not a single script: the members share a structure but differ enough that you design for each one, not for "Brahmic" as a whole. Unicode itself warns that implementations should not assume the South Indian scripts work just as Devanagari does.<sup>3</sup>
+
+{% hint style="info" %}
+This glossary doesn't cover every Brahmic script or every shared feature; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../CONTRIBUTING.md), they will be linked.
+{% endhint %}
 
 ### What unites the members
 
 These are the traits the family holds in common. Individual members vary, so treat this as the shared starting point, not a specification for any one script.
 
-| Shared feature | Across the Brahmic family |
-| --- | --- |
-| Origin | all descend from the ancient Brahmi script |
-| Script type | almost all are [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): each consonant carries an inherent vowel, generally /a/ |
-| Vowel marks | dependent vowels ([matras](../language-terms/writing-systems-and-scripts/matra.md)) attach to a consonant to change its inherent vowel |
-| [Virama](../language-terms/writing-systems-and-scripts/virama.md) | a virama (halant) suppresses the inherent vowel |
-| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | consonant clusters can combine into conjunct forms |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | with minor historical exceptions, left to right |
-| Rendering | [complex text layout](complex-text-layout.md): real shaping, mark positioning, and sometimes reordering, not simple glyph placement |
+| Shared feature | Across the Brahmic family | Design systems |
+| --- | --- | --- |
+| Origin | all descend from the ancient Brahmi script | Because the members share one ancestor and structure, supporting one Brahmic script builds much of the infrastructure the others need |
+| Script type | almost all are [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): each consonant carries an inherent vowel, generally /a/ | Plan for consonant-plus-vowel units, not one glyph per sound |
+| Vowel marks | dependent vowels ([matras](../language-terms/writing-systems-and-scripts/matra.md)) attach to a consonant to change its inherent vowel | Matras can attach above, below, or to either side, and some reorder ahead of their consonant, so the font's mark positioning and [reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) have to be in place |
+| [Virama](../language-terms/writing-systems-and-scripts/virama.md) | a virama (halant) suppresses the inherent vowel<sup>4</sup> | The shaping engine has to act on the virama to form the right cluster, so test it rather than assuming a bare glyph |
+| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | consonant clusters can combine into conjunct forms<sup>5</sup> | The font must ship the conjunct glyphs; confirm real clusters render, not just isolated consonants |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | with minor historical exceptions, left to right<sup>6</sup> | Left-aligned text as the default |
+| Rendering | [complex text layout](complex-text-layout.md): real shaping, mark positioning, and sometimes reordering, not simple glyph placement | You need real [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and [OpenType](opentype.md) rules; simple glyph placement renders the text wrong, not just unstyled |
 
 ### Members
 
@@ -72,14 +76,6 @@ The Brahmic family is large and this glossary doesn't cover every member; here a
 | [Thai](thai-script.md) | Thai | อักษรไทย | no spaces between words, needing [word segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md); some vowel marks sit to the left |
 | Lao, Khmer, Myanmar | Lao, Khmer, Burmese | | Southeast Asian branch; Khmer stacks subscript consonants |
 | [Tibetan](tibetan-script.md) | Tibetan, Dzongkha | བོད་ཡིག | [stacks](../language-terms/writing-systems-and-scripts/stacking-script.md) consonants vertically; a [tsheg](../language-terms/writing-systems-and-scripts/tsheg.md) marks syllables |
-
-### Why it matters in design systems
-
-Treat this entry as a map of the family, not a playbook for any one member: for that, follow the link to the specific script. The value of knowing the family is that it tells you what transfers and what does not.
-
-What transfers is the mental model and the infrastructure. Because the members share the abugida structure, a [virama](../language-terms/writing-systems-and-scripts/virama.md) that suppresses the inherent vowel,<sup>4</sup> [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) forms for consonant clusters,<sup>5</sup> and a predominantly left-to-right direction,<sup>6</sup> supporting one Brahmic script teaches you much of what the others need: real [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), [OpenType](opentype.md) rules, mark positioning, and sometimes [reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md), rather than simple glyph placement. If your stack handles one member well, it is closer to handling the rest.
-
-What does not transfer is the detail, and this is the trap: the members diverge enough that "Brahmic support" is not one deliverable. As the Members table shows, Devanagari's headline and matra reordering, Tamil's baseline and sparse conjuncts, Thai's spaceless words, and Tibetan's vertical stacking are all different problems. So verify each member against its own rules and a real word, not by assuming it behaves like a sibling, and bound your choices by the member's [orthography](../language-terms/writing-systems-and-scripts/orthography.md) as well as the script. Where the glossary is silent, a rule left undocumented is an open question, not a settled "no".
 
 ### In practice
 
