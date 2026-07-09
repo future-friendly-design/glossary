@@ -53,13 +53,13 @@ Alphabets are the structure most interface and typeface tooling assumes by defau
 
 For example, the [Arabic script](../../terms/arabic-script.md) is an [abjad](abjad.md) when it writes Arabic, with short vowels omitted, but it works as an alphabet when it writes languages such as Kashmiri or Uyghur, where every vowel is written.<sup>4</sup>
 
-So the script alone does not tell you a language's needs. Knowing a language uses an alphabet tells you consonants and vowels both get letters, so [font coverage](../../terms/font-coverage.md) has to include the vowel letters and any [diacritic](diacritic.md) marks the language adds to them. It does not tell you the alphabet behaves like Latin: case, sort order, and letter spacing all vary, and several alphabets have no uppercase and lowercase at all. Check the language's [writing system](writing-system.md), not just its script, before you commit to a typeface or a layout.
+So knowing that a script is being used as an alphabet is a starting point, not the whole picture. It does tell you the structure: both consonants and vowels are written as full letters, so [font coverage](../../terms/font-coverage.md) has to include the vowel letters and any [diacritic](diacritic.md) marks the language adds to them. It does not tell you the script behaves like the Latin alphabet: whether it has uppercase and lowercase, how its letters sort, and how they are spaced are all set by the individual script's [rules](script-rules.md) and the language's [orthography](orthography.md), and several alphabets have no letter case at all. Check the whole [writing system](writing-system.md), not just the fact that it is an alphabet, before you commit to a typeface or a layout.
 
 ***
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](../../terms/arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](../../terms/arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
