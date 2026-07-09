@@ -50,26 +50,26 @@ This glossary doesn't cover every Armenian script property, feature, and rule; s
 
 These properties of the Armenian script apply to any language that uses it in its [writing system](writing-system.md). Beyond the [script rules](script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](orthography.md).
 
-| Property | Armenian script |
-| --- | --- |
-| [Autonym](../../terms/autonym.md) | Հայոց այբուբեն |
-| Languages | Armenian |
-| Letter case | Bicameral (uppercase and lowercase)<sup>2</sup> |
-| [Marks](mark.md) | No combining vowel or tone marks; Armenian has its own [punctuation marks](punctuation-mark.md) for questions, exclamation, and emphasis, and the ligature և ("and") |
-| Numerals | common ASCII digits (Armenian letters also carry traditional numeric values) |
-| Script type | [Alphabet](alphabet.md) |
-| [Symbols](symbol.md) | separate letters for consonants and vowels, in uppercase and lowercase |
+| Property                          | Armenian script                                                                                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Autonym](../../terms/autonym.md) | Հայոց այբուբեն                                                                                                                                                       |
+| Languages                         | Armenian                                                                                                                                                             |
+| Letter case                       | Bicameral (uppercase and lowercase)<sup>2</sup>                                                                                                                      |
+| [Marks](mark.md)                  | No combining vowel or tone marks; Armenian has its own [punctuation marks](punctuation-mark.md) for questions, exclamation, and emphasis, and the ligature և ("and") |
+| Numerals                          | Common ASCII digits (Armenian letters also carry traditional numeric values)                                                                                         |
+| Script type                       | [Alphabet](alphabet.md)                                                                                                                                              |
+| [Symbols](symbol.md)              | Separate letters for consonants and vowels, in uppercase and lowercase                                                                                               |
 
 ### Armenian script rules and digital use considerations
 
 If your design system supports languages that use the Armenian script, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in the Armenian script | Design systems |
-| --- | --- | --- |
-| [Complex text layout](../../terms/complex-text-layout.md) | Not required | A standard left-to-right script, with no reordering or contextual shaping<sup>3</sup> |
-| [Text direction](text-direction.md) | Left to right<sup>4</sup> | Left-aligned text as the default |
-| [Punctuation mark](punctuation-mark.md) | Armenian uses its own marks; the question and emphasis marks sit above a word's stressed vowel rather than at the end of the sentence<sup>5</sup> | Test [line-height](../../terms/line-height.md) so the above-marks don't clip, and don't tighten [leading](../../terms/leading.md) blindly |
-| [Unicode](../../terms/unicode.md) block | Armenian, [U+0530 to U+058F](https://www.unicode.org/charts/PDF/U0530.pdf) | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block |
+| Rule or feature                                           | How it works in the Armenian script                                                                                                               | Design systems                                                                                                                            |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [Complex text layout](../../terms/complex-text-layout.md) | Not required                                                                                                                                      | A standard left-to-right script, with no reordering or contextual shaping<sup>3</sup>                                                     |
+| [Text direction](text-direction.md)                       | Left to right<sup>4</sup>                                                                                                                         | Left-aligned text as the default                                                                                                          |
+| [Punctuation mark](punctuation-mark.md)                   | Armenian uses its own marks; the question and emphasis marks sit above a word's stressed vowel rather than at the end of the sentence<sup>5</sup> | Test [line-height](../../terms/line-height.md) so the above-marks don't clip, and don't tighten [leading](../../terms/leading.md) blindly |
+| [Unicode](../../terms/unicode.md) block                   | Armenian, [U+0530 to U+058F](https://www.unicode.org/charts/PDF/U0530.pdf)                                                                        | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block                                            |
 
 ### In practice
 

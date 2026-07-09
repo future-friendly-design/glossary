@@ -6,7 +6,9 @@ aliases:
   - mkhedruli
 level: intermediate
 depth: core
-summary: The Georgian script is used mainly to write the Georgian language, and also the Mingrelian and Svan languages of the Caucasus.
+summary: >-
+  The Georgian script is used mainly to write the Georgian language, and also
+  the Mingrelian and Svan languages of the Caucasus.
 related:
   - alphabet
   - armenian-script
@@ -37,9 +39,11 @@ tags:
 
 ## Definition
 
-The Georgian [script](script.md) is used mainly to write the Georgian language, and also the Mingrelian and Svan languages of the Caucasus.<sup>1</sup> Its modern everyday form is called Mkhedruli, an [alphabet](alphabet.md) with its own letters for consonants and vowels;<sup>2</sup> unlike Latin, Greek, or Cyrillic, it is unicameral, with no separate uppercase and lowercase.<sup>3</sup> The Georgian script was devised in the fifth century, under the influence of Greek.<sup>4</sup>
+The Georgian [script](script.md) is used mainly to write the Georgian language, and also the Mingrelian and Svan languages of the Caucasus.<sup>1</sup> Its modern everyday form is called Mkhedruli, an [alphabet](alphabet.md) with its own letters for consonants and vowels;<sup>2</sup> unlike Latin, Greek, or Cyrillic, it is unicameral, with no separate uppercase and lowercase.<sup>3</sup>&#x20;
 
 For example, ადამიანი ("person") is written in Mkhedruli's single set of letters, with no capital forms.
+
+The Georgian script was devised in the fifth century, under the influence of Greek.<sup>4</sup>
 
 {% hint style="info" %}
 This glossary doesn't cover every Georgian script property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../../CONTRIBUTING.md), they will be linked.
@@ -49,27 +53,27 @@ This glossary doesn't cover every Georgian script property, feature, and rule; s
 
 These properties of the Georgian script apply to any language that uses it in its [writing system](writing-system.md). Beyond the [script rules](script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](orthography.md).
 
-| Property | Georgian script |
-| --- | --- |
-| [Autonym](../../terms/autonym.md) | მხედრული |
-| Languages | Georgian; also Mingrelian and Svan |
-| Letter case | None (unicameral); Mtavruli is an all-caps style for titles and emphasis, not a separate case |
-| [Marks](mark.md) | few; Georgian is written mostly with base letters |
-| Numerals | common ASCII digits |
-| Script type | [Alphabet](alphabet.md) |
-| [Symbols](symbol.md) | separate letters for consonants and vowels, a single set with no case |
+| Property                          | Georgian script                                                                                            |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [Autonym](../../terms/autonym.md) | მხედრული                                                                                                   |
+| Languages                         | Georgian; also Mingrelian and Svan                                                                         |
+| Letter case                       | None (unicameral); Mtavruli is an all-caps style for titles and emphasis, not a separate case              |
+| [Marks](mark.md)                  | No combining vowel or tone marks; Georgian is written with base letters and uses essentially no diacritics |
+| Numerals                          | Common ASCII digits                                                                                        |
+| Script type                       | [Alphabet](alphabet.md)                                                                                    |
+| [Symbols](symbol.md)              | Separate letters for consonants and vowels, a single set with no case                                      |
 
 ### Georgian script rules and digital use considerations
 
 If your design system supports languages that use the Georgian script, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in the Georgian script | Design systems |
-| --- | --- | --- |
-| [Complex text layout](../../terms/complex-text-layout.md) | Not required | A standard left-to-right script, with no reordering or contextual shaping<sup>5</sup> |
-| [Text direction](text-direction.md) | Left to right<sup>6</sup> | Left-aligned text as the default |
-| Letter case | none; modern Mkhedruli is unicameral, a single set of letters with no uppercase and lowercase | Case-based styling has nothing to act on: automatic title casing, [small caps](../../terms/small-caps.md), and "capitalize each word" are no-ops, so don't build interface logic that assumes a capital form |
-| Mtavruli | an all-caps style of Mkhedruli used for titles and emphasis, which behaves like all-caps rather than a sentence-initial capital<sup>7</sup> | Reach for Mtavruli deliberately when you want an all-caps effect; don't fake capitals by scaling letters or forcing Latin-style title casing |
-| [Unicode](../../terms/unicode.md) block | Georgian, [U+10A0 to U+10FF](https://www.unicode.org/charts/PDF/U10A0.pdf) (plus Georgian Extended for Mtavruli and Georgian Supplement) | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block; a less widely covered script, so a font built mainly for Latin or the other large scripts may carry no Georgian glyphs |
+| Rule or feature                                           | How it works in the Georgian script                                                                                                         | Design systems                                                                                                                                                                                                         |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Complex text layout](../../terms/complex-text-layout.md) | Not required                                                                                                                                | A standard left-to-right script, with no reordering or contextual shaping<sup>5</sup>                                                                                                                                  |
+| Letter case                                               | none; modern Mkhedruli is unicameral, a single set of letters with no uppercase and lowercase                                               | Case-based styling has nothing to act on: automatic title casing, [small caps](../../terms/small-caps.md), and "capitalize each word" are no-ops, so don't build interface logic that assumes a capital form           |
+| Mtavruli                                                  | an all-caps style of Mkhedruli used for titles and emphasis, which behaves like all-caps rather than a sentence-initial capital<sup>7</sup> | Reach for Mtavruli deliberately when you want an all-caps effect; don't fake capitals by scaling letters or forcing Latin-style title casing                                                                           |
+| [Text direction](text-direction.md)                       | Left to right<sup>6</sup>                                                                                                                   | Left-aligned text as the default                                                                                                                                                                                       |
+| [Unicode](../../terms/unicode.md) block                   | Georgian, [U+10A0 to U+10FF](https://www.unicode.org/charts/PDF/U10A0.pdf) (plus Georgian Extended for Mtavruli and Georgian Supplement)    | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block; a less widely covered script, so a font built mainly for Latin or the other large scripts may carry no Georgian glyphs |
 
 ### In practice
 

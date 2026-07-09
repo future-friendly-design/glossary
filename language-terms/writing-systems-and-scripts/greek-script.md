@@ -49,27 +49,27 @@ This glossary doesn't cover every Greek script property, feature, and rule; sele
 
 These properties of the Greek script apply to any language that uses it in its [writing system](writing-system.md). Beyond the [script rules](script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](orthography.md).
 
-| Property | Greek script |
-| --- | --- |
-| [Autonym](../../terms/autonym.md) | Ελληνικό αλφάβητο |
-| Languages | Greek |
-| Letter case | Bicameral (uppercase and lowercase)<sup>2</sup> |
-| [Marks](mark.md) | accent marks: the [diacritics](diacritic.md) tonos and dialytika in modern Greek, and more in classical (polytonic) spelling |
-| Numerals | common ASCII digits (Greek also has a traditional system that uses letters as numbers) |
-| Script type | [Alphabet](alphabet.md) |
-| [Symbols](symbol.md) | separate letters for consonants and vowels, in uppercase and lowercase |
+| Property                          | Greek script                                                                                                                                                    |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Autonym](../../terms/autonym.md) | Ελληνικό αλφάβητο                                                                                                                                               |
+| Languages                         | Greek                                                                                                                                                           |
+| Letter case                       | Bicameral (uppercase and lowercase)<sup>2</sup>                                                                                                                 |
+| [Marks](mark.md)                  | Modern Greek uses two diacritics, the tonos (stress accent) and the dialytika (diaeresis); classical (polytonic) spelling adds more accents and breathing marks |
+| Numerals                          | Common ASCII digits (Greek also has a traditional system that uses letters as numbers)                                                                          |
+| Script type                       | [Alphabet](alphabet.md)                                                                                                                                         |
+| [Symbols](symbol.md)              | Separate letters for consonants and vowels, in uppercase and lowercase                                                                                          |
 
 ### Greek script rules and digital use considerations
 
 If your design system supports languages that use the Greek script, here are some considerations to keep in mind:
 
-| Rule or feature | How it works in the Greek script | Design systems |
-| --- | --- | --- |
-| [Complex text layout](../../terms/complex-text-layout.md) | Not required | A standard left-to-right script, with no reordering or contextual shaping<sup>3</sup> |
-| [Text direction](text-direction.md) | Left to right<sup>4</sup> | Left-aligned text as the default |
-| Final sigma | the lowercase sigma is written ς at the end of a word and σ elsewhere<sup>5</sup> | A spelling rule, not a style choice: lowercasing Σ must choose ς at a word's end, so use locale-aware case mapping (for example [ICU](../../terms/icu.md)), not a naive per-character lower |
-| [Diacritics](diacritic.md) | modern (monotonic) Greek marks the stressed vowel with the tonos, and classical (polytonic) spelling uses several marks;<sup>6</sup> monotonic Greek also uses the dialytika, which shows that two adjacent vowel letters are read separately rather than as a digraph<sup>7</sup> | Cover the accented vowels, not just the bare letters; uppercasing drops most accents, so drop nothing by hand and let locale-aware case mapping decide, or the text is misspelled |
-| [Unicode](../../terms/unicode.md) block | Greek and Coptic, [U+0370 to U+03FF](https://www.unicode.org/charts/PDF/U0370.pdf) (plus Greek Extended, U+1F00 to U+1FFF, for polytonic spelling) | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block, including Greek Extended if you set polytonic text |
+| Rule or feature                                           | How it works in the Greek script                                                                                                                                                                                                                                                   | Design systems                                                                                                                                                                              |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Complex text layout](../../terms/complex-text-layout.md) | Not required                                                                                                                                                                                                                                                                       | A standard left-to-right script, with no reordering or contextual shaping<sup>3</sup>                                                                                                       |
+| [Diacritics](diacritic.md)                                | modern (monotonic) Greek marks the stressed vowel with the tonos, and classical (polytonic) spelling uses several marks;<sup>6</sup> monotonic Greek also uses the dialytika, which shows that two adjacent vowel letters are read separately rather than as a digraph<sup>7</sup> | Cover the accented vowels, not just the bare letters; uppercasing drops most accents, so drop nothing by hand and let locale-aware case mapping decide, or the text is misspelled           |
+| Final sigma                                               | the lowercase sigma is written ς at the end of a word and σ elsewhere<sup>5</sup>                                                                                                                                                                                                  | A spelling rule, not a style choice: lowercasing Σ must choose ς at a word's end, so use locale-aware case mapping (for example [ICU](../../terms/icu.md)), not a naive per-character lower |
+| [Text direction](text-direction.md)                       | Left to right<sup>4</sup>                                                                                                                                                                                                                                                          | Left-aligned text as the default                                                                                                                                                            |
+| [Unicode](../../terms/unicode.md) block                   | Greek and Coptic, [U+0370 to U+03FF](https://www.unicode.org/charts/PDF/U0370.pdf) (plus Greek Extended, U+1F00 to U+1FFF, for polytonic spelling)                                                                                                                                 | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block, including Greek Extended if you set polytonic text                                          |
 
 ### In practice
 
