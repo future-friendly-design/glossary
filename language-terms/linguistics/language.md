@@ -53,7 +53,7 @@ Equating a language with its writing, or with a country. Many languages are prim
 
 ## Related terms
 
-[Language family](../../terms/language-family.md) · [Dialect](../../terms/dialect.md) · [Macrolanguage](../../terms/macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Script](../writing-systems-and-scripts/script.md)
+[Language family](../../terms/language-family.md) · [Dialect](../../terms/dialect.md) · [Macrolanguage](../../terms/macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Script](../writing-systems-and-scripts/script.md) · [ISO 639-3](../../terms/iso-639-3.md) · [Locale](../../terms/locale.md)
 
 ## Further reading
 
