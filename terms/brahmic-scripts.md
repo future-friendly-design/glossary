@@ -20,7 +20,7 @@ contributors:
   - sam-gordashko
 further_reading:
   - title: 'The Unicode Standard, Chapter 12: South Asia-I'
-    url: https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/
+    url: https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/
     type: authority
   - title: Noto (Google Fonts)
     url: https://fonts.google.com/noto
@@ -93,13 +93,13 @@ The Brahmic family is large and this glossary doesn't cover every member; here a
 ### Further reading
 
 * Design tools: [Noto (Google Fonts)](https://fonts.google.com/noto)
-* Foundations: [The Unicode Standard, Chapter 12: South Asia-I](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+* Foundations: [The Unicode Standard, Chapter 12: South Asia-I](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/)
 
 ### Sources
 
-1. Most of the scripts of South Asia are derived from the ancient Brahmi script - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-2. They are all abugidas in which most symbols stand for a consonant plus an inherent vowel - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-3. Implementations should not assume that they work just as Devanagari does - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-4. Absence of the inherent vowel is frequently marked with a special sign, denoted by the Sanskrit word virama - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-5. A consonant cluster is depicted with a conjunct glyph if such a glyph is available in the current font - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
-6. With minor historical exceptions, they are written from left to right - The Unicode Standard, Version 16.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/)
+1. Most of the scripts of South Asia are derived from the ancient Brahmi script - The Unicode Standard, Version 17.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/)
+2. They are all abugidas in which most symbols stand for a consonant plus an inherent vowel - The Unicode Standard, Version 17.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/)
+3. Implementations should not assume that they work just as Devanagari does - The Unicode Standard, Version 17.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/)
+4. Absence of the inherent vowel is frequently marked with a special sign, denoted by the Sanskrit word virama - The Unicode Standard, Version 17.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/)
+5. A consonant cluster is depicted with a conjunct glyph if such a glyph is available in the current font - The Unicode Standard, Version 17.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/)
+6. With minor historical exceptions, they are written from left to right - The Unicode Standard, Version 17.0, Chapter 12: South Asia-I [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/)
