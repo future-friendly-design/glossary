@@ -68,7 +68,7 @@ If your design system supports languages that use the Armenian script, here are 
 | --- | --- | --- |
 | [Complex text layout](../../terms/complex-text-layout.md) | Not required | A standard left-to-right script, with no reordering or contextual shaping<sup>3</sup> |
 | [Text direction](text-direction.md) | Left to right<sup>4</sup> | Left-aligned text as the default |
-| [Punctuation](punctuation-mark.md) | Armenian uses its own marks; the question and emphasis marks sit above a word's stressed vowel rather than at the end of the sentence<sup>5</sup> | Test [line-height](../../terms/line-height.md) so the above-marks don't clip, and don't tighten [leading](../../terms/leading.md) blindly |
+| [Punctuation mark](punctuation-mark.md) | Armenian uses its own marks; the question and emphasis marks sit above a word's stressed vowel rather than at the end of the sentence<sup>5</sup> | Test [line-height](../../terms/line-height.md) so the above-marks don't clip, and don't tighten [leading](../../terms/leading.md) blindly |
 | [Unicode](../../terms/unicode.md) block | Armenian, [U+0530 to U+058F](https://www.unicode.org/charts/PDF/U0530.pdf) | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block |
 
 ### In practice
@@ -82,7 +82,7 @@ If your design system supports languages that use the Armenian script, here are 
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Autonym](../../terms/autonym.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic](cyrillic.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Glyph](../../terms/glyph.md) · [Greek script](greek-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Leading](../../terms/leading.md) · [Ligature](../../terms/ligature.md) · [Line height](../../terms/line-height.md) · [Locale](../../terms/locale.md) · [Noto fonts](../../terms/noto-fonts.md) · [Orthography](orthography.md) · [Punctuation mark](punctuation-mark.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Typeface](../../terms/typeface.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Autonym](../../terms/autonym.md) · [Character](../../terms/character.md) · [CLDR](../../terms/cldr.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic](cyrillic.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Glyph](../../terms/glyph.md) · [Greek script](greek-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Leading](../../terms/leading.md) · [Ligature](../../terms/ligature.md) · [Line height](../../terms/line-height.md) · [Locale](../../terms/locale.md) · [Mark](mark.md) · [Noto fonts](../../terms/noto-fonts.md) · [Orthography](orthography.md) · [Punctuation mark](punctuation-mark.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Typeface](../../terms/typeface.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
