@@ -55,9 +55,9 @@ These properties of Hangul apply to any language that uses it in its [writing sy
 | Languages | Korean |
 | Letter case | None (no uppercase and lowercase) |
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | None (Hangul has no combining vowel or tone marks; the jamo themselves compose the syllable) |
-| Numerals | common ASCII digits (Korean also has native and Sino-Korean number words) |
+| Numerals | Common ASCII digits (Korean also has native and Sino-Korean number words) |
 | Script type | [Featural script](../language-terms/writing-systems-and-scripts/featural-alphabet.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | letters (jamo: an initial consonant, a vowel, and an optional final consonant) grouped into syllable blocks |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Letters (jamo: an initial consonant, a vowel, and an optional final consonant) grouped into syllable blocks |
 
 ### Hangul rules and digital use considerations
 

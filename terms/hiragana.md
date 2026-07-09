@@ -52,10 +52,10 @@ These properties of hiragana apply to any language that uses it in its [writing 
 | [Autonym](autonym.md) | ひらがな |
 | Languages | Japanese |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | voiced-sound mark (dakuten) and semi-voiced-sound mark (handakuten), which turn a base symbol into its voiced or semi-voiced counterpart; small kana modify the preceding sound |
-| Numerals | common ASCII digits (Japanese also uses kanji numerals) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Voiced-sound mark (dakuten) and semi-voiced-sound mark (handakuten), which turn a base symbol into its voiced or semi-voiced counterpart; small kana modify the preceding sound |
+| Numerals | Common ASCII digits (Japanese also uses kanji numerals) |
 | Script type | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | symbols each standing for a syllable (mora): a vowel alone, or a consonant plus a vowel |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Symbols each standing for a syllable (mora): a vowel alone, or a consonant plus a vowel |
 
 ### Hiragana rules and digital use considerations
 

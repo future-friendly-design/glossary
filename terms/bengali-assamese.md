@@ -55,10 +55,10 @@ These properties of the Bengali-Assamese script apply to any language that uses 
 | [Autonym](autonym.md) | বাংলা লিপি |
 | Languages | Bengali (Bangla), Assamese, and others |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md), some written to the left), the hasant (the [virama](../language-terms/writing-systems-and-scripts/virama.md)) that forms conjuncts, and nasalization marks |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md), some written to the left), the hasant (the [virama](../language-terms/writing-systems-and-scripts/virama.md)) that forms conjuncts, and nasalization marks |
 | Numerals | Bengali digits ০ to ৯ (alongside common ASCII digits) |
 | Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel, plus independent vowels |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Consonants carrying an inherent vowel, plus independent vowels |
 
 ### Bengali-Assamese rules and digital use considerations
 

@@ -53,10 +53,10 @@ These properties of the Thai script apply to any language that uses it in its [w
 | [Autonym](autonym.md) | อักษรไทย |
 | Languages | Thai, Kuy, Lanna Tai, Pali, and others |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | vowel marks (written before, after, above, or below the consonant) and four [tone marks](../language-terms/writing-systems-and-scripts/tone-mark.md) above |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Vowel marks (written before, after, above, or below the consonant) and four [tone marks](../language-terms/writing-systems-and-scripts/tone-mark.md) above |
 | Numerals | Thai digits ๐ to ๙ (alongside common ASCII digits) |
 | Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel, plus vowel marks written around them |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Consonants carrying an inherent vowel, plus vowel marks written around them |
 
 ### Thai script rules and digital use considerations
 

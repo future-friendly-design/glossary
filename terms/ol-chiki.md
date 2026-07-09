@@ -55,7 +55,7 @@ These properties of Ol Chiki apply to any language that uses it in its [writing 
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Vowels are full letters, not dependent marks; a small set of modifier symbols is also encoded<sup>4</sup> |
 | Numerals | Ol Chiki digits (U+1C50 to U+1C59), alongside common ASCII digits |
 | Script type | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | full letters for consonants and vowels (30 letters)<sup>5</sup> |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Full letters for consonants and vowels (30 letters)<sup>5</sup> |
 
 ### Ol Chiki rules and digital use considerations
 

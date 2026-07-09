@@ -54,10 +54,10 @@ These properties of the Tamil script apply to any language that uses it in its [
 | [Autonym](autonym.md) | தமிழ் அரிச்சுவடி |
 | Languages | Tamil, Badaga, and others |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md), some written to the left of the consonant) and the pulli, the visible [virama](../language-terms/writing-systems-and-scripts/virama.md) that cancels the inherent vowel |
-| Numerals | common ASCII digits; traditional Tamil digits ௦ to ௯ and number symbols exist but are largely archaic |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md), some written to the left of the consonant) and the pulli, the visible [virama](../language-terms/writing-systems-and-scripts/virama.md) that cancels the inherent vowel |
+| Numerals | Common ASCII digits; traditional Tamil digits ௦ to ௯ and number symbols exist but are largely archaic |
 | Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel, plus independent vowels |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Consonants carrying an inherent vowel, plus independent vowels |
 
 ### Tamil script rules and digital use considerations
 

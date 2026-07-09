@@ -57,10 +57,10 @@ These properties of the Hebrew script apply to any language that uses it in its 
 | [Autonym](autonym.md) | אלף־בית עברי |
 | Languages | Hebrew, Yiddish, Ladino (Judezmo), and others |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | vowel points (niqqud), the dagesh, and cantillation marks, positioned above, below, or within the consonants as combining marks |
-| Numerals | common ASCII digits, written left to right; a traditional additive system using Hebrew letters is also used |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Vowel points (niqqud), the dagesh, and cantillation marks, positioned above, below, or within the consonants as combining marks |
+| Numerals | Common ASCII digits, written left to right; a traditional additive system using Hebrew letters is also used |
 | Script type | [Abjad](../language-terms/writing-systems-and-scripts/abjad.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants, five of which take a distinct word-final form; vowels are normally unwritten |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Consonants, five of which take a distinct word-final form; vowels are normally unwritten |
 
 ### Hebrew script rules and digital use considerations
 

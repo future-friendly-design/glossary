@@ -51,10 +51,10 @@ These properties of Syloti Nagri apply to any language that uses it in its [writ
 | [Autonym](autonym.md) | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ |
 | Languages | Sylheti |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | dependent vowel signs; a hasanta (like a [virama](../language-terms/writing-systems-and-scripts/virama.md)) and anusvara |
-| Numerals | common ASCII digits |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Dependent vowel signs; a hasanta (like a [virama](../language-terms/writing-systems-and-scripts/virama.md)) and anusvara |
+| Numerals | Common ASCII digits |
 | Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) (Brahmic) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel /o/, plus independent vowels |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Consonants carrying an inherent vowel /o/, plus independent vowels |
 
 ### Syloti Nagri rules and digital use considerations
 

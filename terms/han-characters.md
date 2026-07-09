@@ -60,7 +60,7 @@ These properties of Han characters apply to any language that uses them in its [
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Rare: historic ideographic tone marks (U+302A to U+302D) mark unusual pronunciations in classical texts; no regular combining vowel or tone marks in modern use |
 | Numerals | Han numerals (一, 二, 三, and so on) alongside common ASCII digits |
 | Script type | [Logographic](../language-terms/writing-systems-and-scripts/logographic.md) (Chinese is more precisely a [logosyllabary](../language-terms/writing-systems-and-scripts/logosyllabary.md)) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | logographic characters, each standing for a word or morpheme (and mapping to a spoken syllable) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Logographic characters, each standing for a word or morpheme (and mapping to a spoken syllable) |
 
 ### Han characters rules and digital use considerations
 

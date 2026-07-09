@@ -54,7 +54,7 @@ These properties of Warang Citi apply to any language that uses it in its [writi
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Vowels are written as full letters, not dependent marks |
 | Numerals | Warang Citi digits (U+118E0 to U+118E9), alongside common ASCII digits |
 | Script type | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | full letters for consonants and vowels |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Full letters for consonants and vowels |
 
 ### Warang Citi rules and digital use considerations
 

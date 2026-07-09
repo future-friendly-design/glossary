@@ -53,10 +53,10 @@ These properties of the Tibetan script apply to any language that uses it in its
 | [Autonym](autonym.md) | བོད་ཡིག |
 | Languages | Tibetan, Dzongkha, and others |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | four vowel marks placed above and below the consonant, and subjoined consonant forms that build a stack |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Four vowel marks placed above and below the consonant, and subjoined consonant forms that build a stack |
 | Numerals | Tibetan digits ༠ to ༩ (alongside common ASCII digits) |
 | Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | thirty consonants carrying an inherent vowel, plus vowel marks |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Thirty consonants carrying an inherent vowel, plus vowel marks |
 
 ### Tibetan script rules and digital use considerations
 

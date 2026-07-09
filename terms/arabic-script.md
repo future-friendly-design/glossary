@@ -61,7 +61,7 @@ These properties of the Arabic script apply to any language that uses it in its 
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | [harakat](../language-terms/writing-systems-and-scripts/harakat.md) (short-vowel marks) and other tashkil such as shadda and sukun |
 | Numerals | Arabic-Indic digits ٠ to ٩ (Persian and Urdu use a separate Extended Arabic-Indic set ۰ to ۹); common ASCII digits also appear |
 | Script type | [Abjad](../language-terms/writing-systems-and-scripts/abjad.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants and long vowels, with short vowels normally unwritten |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Consonants and long vowels, with short vowels normally unwritten |
 
 ### Arabic script rules and digital use considerations
 

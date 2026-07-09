@@ -54,10 +54,10 @@ These properties of Devanagari apply to any language that uses it in its [writin
 | [Autonym](autonym.md) | देवनागरी |
 | Languages | Hindi, Marathi, Sanskrit, Nepali, and many others |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md)), the [virama](../language-terms/writing-systems-and-scripts/virama.md), the [nukta](../language-terms/writing-systems-and-scripts/nukta.md), and nasalization marks (anusvara, chandrabindu) |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Dependent vowels ([matra](../language-terms/writing-systems-and-scripts/matra.md)), the [virama](../language-terms/writing-systems-and-scripts/virama.md), the [nukta](../language-terms/writing-systems-and-scripts/nukta.md), and nasalization marks (anusvara, chandrabindu) |
 | Numerals | Devanagari digits ० to ९ (alongside common ASCII digits) |
 | Script type | [Abugida](../language-terms/writing-systems-and-scripts/abugida.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | consonants carrying an inherent vowel, plus independent vowels |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Consonants carrying an inherent vowel, plus independent vowels |
 
 ### Devanagari rules and digital use considerations
 

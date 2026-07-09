@@ -57,7 +57,7 @@ These properties of the traditional Mongolian script apply to any language that 
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | None (no combining vowel or tone marks); free variation selectors are appended to pick a letter's shape variant |
 | Numerals | Mongolian digits (U+1810 to U+1819), alongside common ASCII digits |
 | Script type | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) (cursive) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | letters for consonants and vowels, joining cursively, many with initial, medial, final, and isolate forms |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Letters for consonants and vowels, joining cursively, many with initial, medial, final, and isolate forms |
 
 ### Mongolian script rules and digital use considerations
 

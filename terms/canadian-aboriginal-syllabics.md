@@ -53,9 +53,9 @@ These properties of Canadian Aboriginal Syllabics apply to any language that use
 | Languages | Cree, Ojibwe, Inuktitut, and other Algonquian, Inuit, and Athabaskan (Dene) languages |
 | Letter case | None (no uppercase and lowercase) |
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | None (vowel-modified forms are separate symbols, not a base plus a combining mark) |
-| Numerals | common ASCII digits |
+| Numerals | Common ASCII digits |
 | Script type | [Syllabary](../language-terms/writing-systems-and-scripts/syllabary.md) (often described as a featural syllabary or featural [abugida](../language-terms/writing-systems-and-scripts/abugida.md)) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | syllabic symbols, each a consonant plus a vowel (or a standalone vowel), where the symbol's orientation shows the vowel; separate final and standalone-consonant symbols too |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Syllabic symbols, each a consonant plus a vowel (or a standalone vowel), where the symbol's orientation shows the vowel; separate final and standalone-consonant symbols too |
 
 ### Canadian Aboriginal Syllabics rules and digital use considerations
 

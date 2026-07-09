@@ -52,7 +52,7 @@ These properties of the Wancho script apply to any language that uses it in its 
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | [Tone marks](../language-terms/writing-systems-and-scripts/tone-mark.md) sit on vowel letters to write tone (Wancho is a tonal language); the vowels themselves are full letters, not dependent marks |
 | Numerals | Wancho digits (U+1E2F0 to U+1E2F9), alongside common ASCII digits |
 | Script type | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | full letters for consonants and vowels |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | Full letters for consonants and vowels |
 
 ### Wancho script rules and digital use considerations
 
