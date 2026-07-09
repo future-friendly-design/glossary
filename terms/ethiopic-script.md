@@ -1,8 +1,9 @@
 ---
-term: Ethiopic script
+term: Ethiopic
 slug: ethiopic-script
 aliases:
   - ethiopic
+  - ethiopic script
   - geez
   - fidel
 level: intermediate
@@ -34,11 +35,11 @@ tags:
   - writing-systems-scripts
 ---
 
-# Ethiopic script
+# Ethiopic
 
 ## Definition
 
-Ethiopic is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Amharic, Tigrinya, Tigre, and other languages of Ethiopia and Eritrea, including the classical language Ge'ez.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md), but unlike the Brahmic abugidas each consonant-and-vowel syllable is a single character whose shape is modified to show the vowel, so one consonant has a series of related forms, one per vowel.<sup>2</sup>
+Ethiopic is a [script](../language-terms/writing-systems-and-scripts/script.md) used to write Amharic, Tigrinya, Tigre, and other languages of Ethiopia and Eritrea, including the classical language Ge'ez.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md) in which each consonant-and-vowel syllable is a single character whose shape is modified to show the vowel, so one consonant has a series of related forms, one per vowel.<sup>2</sup>
 
 For example, ሰላም ("selam", "peace", a common greeting) is written with three of those syllable characters.
 
@@ -52,7 +53,7 @@ These properties of Ethiopic apply to any language that uses it in its [writing 
 
 | Property | Ethiopic |
 | --- | --- |
-| [Autonym](autonym.md) | ግዕዝ (Ge'ez) |
+| [Autonym](autonym.md) | ግዕዝ |
 | Languages | Amharic, Tigrinya, Tigre, Oromo, Ge'ez, and others |
 | Letter case | None (no uppercase and lowercase) |
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | few; the vowel is built into the letterform rather than added as a separate mark |
@@ -66,7 +67,7 @@ If your design system supports languages that use Ethiopic, here are some consid
 
 | Rule or feature | How it works in Ethiopic | Design systems |
 | --- | --- | --- |
-| [Complex text layout](complex-text-layout.md) | Minimal shaping | The structure to plan for is the syllable set: covering Ethiopic means supporting a large character set, hundreds of characters rather than a few dozen letters plus marks, and typing it means composing or selecting whole syllables; without the full set the text is simply missing characters |
+| [Complex text layout](complex-text-layout.md) | Not required | The structure to plan for is the syllable set: covering Ethiopic means supporting a large character set, hundreds of characters rather than a few dozen letters plus marks, and typing it means composing or selecting whole syllables; without the full set the text is simply missing characters |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right<sup>3</sup> | Left-aligned text as the default |
 | Syllable characters | each consonant-and-vowel is one character; the vowel is shown by modifying the consonant's shape, so one consonant has a series of forms<sup>4</sup> | Plan input and search around syllables, not letters; do not assume letter-by-letter input or vowels that detach from the consonant |
 | [Word separation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) | traditionally a wordspace mark separated words;<sup>5</sup> modern Amharic generally uses spaces, so segmentation depends on the text's conventions<sup>6</sup> | Let [segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) follow the text's convention rather than one fixed rule, and pull it from [locale](locale.md) data; search and line breaking depend on it |
