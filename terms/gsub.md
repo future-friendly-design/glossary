@@ -44,7 +44,7 @@ A GSUB rule replaces the glyph sequence f + i with a single fi [ligature](ligatu
 
 ## Related terms
 
-[GPOS](gpos.md) · [OpenType](opentype.md) · [OpenType features](opentype-features.md) · [Ligature](ligature.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md)
+[GPOS](gpos.md) · [OpenType](opentype.md) · [OpenType features](opentype-features.md) · [Ligature](ligature.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Shaping engine](shaping-engine.md)
 
 ## Further reading
 

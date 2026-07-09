@@ -55,7 +55,7 @@ Assuming that what works for English generalizes. A UI tested only in Latin can 
 
 ## Related terms
 
-[Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md)
+[Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md) · [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Matra](../language-terms/writing-systems-and-scripts/matra.md) · [Font coverage](font-coverage.md) · [OpenType](opentype.md) · [Shaping engine](shaping-engine.md)
 
 ## Further reading
 
