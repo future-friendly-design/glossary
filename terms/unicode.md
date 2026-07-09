@@ -30,7 +30,7 @@ Maintained by the Unicode Consortium, Unicode defines a code space from U+0000 t
 Unicode assigns the same code point to "€" whether you type it in Tokyo or Paris.
 
 ## Related terms
-[Code point](code-point.md) · [Character encoding](character-encoding.md) · [UTF-8](utf-8.md) · [Plane / Basic Multilingual Plane](plane-bmp.md)
+[Code point](code-point.md) · [Character encoding](character-encoding.md) · [UTF-8](utf-8.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Glyph](glyph.md)
 
 ## Further reading
 - Foundations: [What is Unicode? (unicode.org)](https://www.unicode.org/standard/WhatIsUnicode.html)

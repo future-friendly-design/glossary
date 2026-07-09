@@ -46,7 +46,7 @@ Typing "f" then "i" can render as a single "fi" glyph so the dot of the i does n
 
 ## Related terms
 
-[Glyph](glyph.md) · [GSUB](gsub.md) · [OpenType features](opentype-features.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md)
+[Glyph](glyph.md) · [GSUB](gsub.md) · [OpenType features](opentype-features.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [OpenType](opentype.md)
 
 ## Further reading
 

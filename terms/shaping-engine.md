@@ -45,7 +45,7 @@ Chrome uses HarfBuzz to shape this sentence before it is painted on screen.
 
 ## Related terms
 
-[Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [GSUB](gsub.md) · [GPOS](gpos.md) · [OpenType](opentype.md) · [Complex text layout](complex-text-layout.md)
+[Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [GSUB](gsub.md) · [GPOS](gpos.md) · [OpenType](opentype.md) · [Complex text layout](complex-text-layout.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md)
 
 ## Further reading
 

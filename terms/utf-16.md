@@ -33,7 +33,7 @@ A single 16-bit code unit covers the Basic Multilingual Plane (U+0000 to U+FFFF)
 In JavaScript, `"😀".length` is 2 because the emoji is a surrogate pair in UTF-16.
 
 ## Related terms
-[UTF-8](utf-8.md) · [Surrogate pair](surrogate-pair.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Character encoding](character-encoding.md)
+[UTF-8](utf-8.md) · [Surrogate pair](surrogate-pair.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Character encoding](character-encoding.md) · [Grapheme cluster](grapheme-cluster.md)
 
 ## Further reading
 - Code & specs: [UTF-16 (MDN Glossary)](https://developer.mozilla.org/en-US/docs/Glossary/UTF-16)

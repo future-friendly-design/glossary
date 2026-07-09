@@ -30,7 +30,7 @@ When text contains a character that the current font and its [fallback-font](fal
 A page using a Latin-only font may show tofu boxes where Tibetan or emoji should appear.
 
 ## Related terms
-[Glyph](glyph.md) · [Font](font.md) · [Font coverage](font-coverage.md)
+[Glyph](glyph.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Fallback font](fallback-font.md)
 
 ## Further reading
 - Resource library: [Tofu (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/tofu)

@@ -30,7 +30,7 @@ Pidgins emerge in situations like trade or labor where people share no common la
 A trade pidgin might let merchants from different language backgrounds bargain over goods without either learning the other's full language.
 
 ## Related terms
-[Creole](creole.md) · [Lexifier](lexifier.md) · [L2 speakers](l2-speakers.md)
+[Creole](creole.md) · [Lexifier](lexifier.md) · [L2 speakers](l2-speakers.md) · [L1 speakers](l1-speakers.md)
 
 ## Further reading
 - Foundations: [Pidgin (Wikipedia)](https://en.wikipedia.org/wiki/Pidgin)
