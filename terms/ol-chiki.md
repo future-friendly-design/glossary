@@ -52,10 +52,10 @@ These properties of Ol Chiki apply to any language that uses it in its [writing 
 | [Autonym](autonym.md) | ᱚᱞ ᱪᱤᱠᱤ |
 | Languages | Santali |
 | Letter case | None (no uppercase and lowercase) |
-| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Vowels are full letters, not dependent marks; a small set of modifier symbols is also encoded |
+| [Marks](../language-terms/writing-systems-and-scripts/mark.md) | Vowels are full letters, not dependent marks; a small set of modifier symbols is also encoded<sup>4</sup> |
 | Numerals | Ol Chiki digits (U+1C50 to U+1C59), alongside common ASCII digits |
 | Script type | [Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) |
-| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | full letters for consonants and vowels (30 letters) |
+| [Symbols](../language-terms/writing-systems-and-scripts/symbol.md) | full letters for consonants and vowels (30 letters)<sup>5</sup> |
 
 ### Ol Chiki rules and digital use considerations
 
@@ -63,7 +63,7 @@ If your design system supports languages that use Ol Chiki, here are some consid
 
 | Rule or feature | How it works in Ol Chiki | Design systems |
 | --- | --- | --- |
-| [Complex text layout](complex-text-layout.md) | Not required: a linear alphabet, rendered directly (no conjuncts or reordering) | Not complex to shape, no reordering or contextual analysis; the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and the font's [OpenType](opentype.md) rules mostly map each letter straight to its glyph |
+| [Complex text layout](complex-text-layout.md) | Not required: a linear alphabet, rendered directly (no conjuncts or reordering)<sup>6</sup> | Not complex to shape, no reordering or contextual analysis; the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and the font's [OpenType](opentype.md) rules mostly map each letter straight to its glyph |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right | Left-aligned text as the default |
 | Full vowel letters | every vowel is a full letter, unlike the dependent vowel signs of the region's [Brahmic](brahmic-scripts.md) abugidas | A Latin or [Devanagari](devanagari.md) font will not render Ol Chiki, so you need a [typeface](typeface.md) and [font](font.md) with Ol Chiki coverage |
 | [Unicode](unicode.md) block | Ol Chiki, [U+1C50 to U+1C7F](https://www.unicode.org/charts/PDF/U1C50.pdf) | Santali is one of the scheduled languages of India with millions of speakers, and Ol Chiki has a real and growing digital footprint, so fonts, a [keyboard layout](keyboard-layout.md), and rendering for it are a concrete deliverable; confirm [font coverage](font-coverage.md) |
@@ -79,7 +79,7 @@ If your design system supports languages that use Ol Chiki, here are some consid
 
 ### Related terms and mentions
 
-[Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Autonym](autonym.md) · [Brahmic scripts](brahmic-scripts.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Dialect](dialect.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Keyboard layout](keyboard-layout.md) · [Language](../language-terms/linguistics/language.md) · [Latin script](../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Warang Citi](warang-citi.md) · [Wancho script](wancho-script.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[Alphabet](../language-terms/writing-systems-and-scripts/alphabet.md) · [Autonym](autonym.md) · [Brahmic scripts](brahmic-scripts.md) · [CLDR](cldr.md) · [Complex text layout](complex-text-layout.md) · [Devanagari](devanagari.md) · [Dialect](dialect.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [Keyboard layout](keyboard-layout.md) · [Language](../language-terms/linguistics/language.md) · [Latin script](../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Mark](../language-terms/writing-systems-and-scripts/mark.md) · [Noto fonts](noto-fonts.md) · [OpenType](opentype.md) · [Orthography](../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../language-terms/writing-systems-and-scripts/symbol.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](typeface.md) · [Unicode](unicode.md) · [Warang Citi](warang-citi.md) · [Wancho script](wancho-script.md) · [Writing system](../language-terms/writing-systems-and-scripts/writing-system.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
@@ -91,4 +91,7 @@ If your design system supports languages that use Ol Chiki, here are some consid
 1. Ol Chiki is an alphabetic script invented in the 20th century to write Santali, a Munda language of India - The Unicode Standard, Version 16.0, Chapter 13: South and Central Asia-II [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/)
 2. Ol Chiki was created in 1925 by Pandit Raghunath Murmu (secondary source, interim pending an upgrade to a primary attribution) - Ol Chiki script (Wikipedia) [https://en.wikipedia.org/wiki/Ol\_Chiki\_script](https://en.wikipedia.org/wiki/Ol_Chiki_script)
 3. It is used primarily for the southern dialect of Santali spoken in the state of Odisha - The Unicode Standard, Version 16.0, Chapter 13: South and Central Asia-II [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-13/)
+4. In addition to these, a number of modifier letters are used to indicate tone, nasalization, length, and deglottalization - Michael Everson, Final proposal to encode the Ol Chiki script in the UCS (L2/05-243R, N2984R) [https://www.unicode.org/L2/L2005/05243r-n2984-ol-chiki.pdf](https://www.unicode.org/L2/L2005/05243r-n2984-ol-chiki.pdf)
+5. Characters are arranged in a 5 by 6 matrix, named in a conventional way as shown in the names list - Michael Everson, Final proposal to encode the Ol Chiki script in the UCS (L2/05-243R, N2984R) [https://www.unicode.org/L2/L2005/05243r-n2984-ol-chiki.pdf](https://www.unicode.org/L2/L2005/05243r-n2984-ol-chiki.pdf)
+6. Ol Chiki is alphabetic, sharing none of the syllabic properties of the other Indic scripts - Michael Everson, Final proposal to encode the Ol Chiki script in the UCS (L2/05-243R, N2984R) [https://www.unicode.org/L2/L2005/05243r-n2984-ol-chiki.pdf](https://www.unicode.org/L2/L2005/05243r-n2984-ol-chiki.pdf)
 </content>
