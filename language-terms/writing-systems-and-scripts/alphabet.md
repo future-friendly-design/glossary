@@ -31,23 +31,27 @@ tags:
 
 ## Definition
 
-An alphabet is a type of [script](script.md) with separate letters for both consonants and vowels.<sup>1</sup> Each letter stands for roughly one sound, and consonants and vowels alike get their own letters written in sequence. That sets an alphabet apart from an [abjad](abjad.md), where vowels are usually left unwritten,<sup>2</sup> and an [abugida](abugida.md), where each consonant carries a built-in vowel that added marks change.<sup>3</sup> The [Latin](latin-script.md), [Greek](greek-script.md), and [Cyrillic](cyrillic.md) scripts are alphabets.
+An alphabet is a type of [script](script.md) with separate letters for both consonants and vowels.<sup>1</sup> The [Latin](latin-script.md), [Greek](greek-script.md), and [Cyrillic](cyrillic.md) scripts are alphabets.
 
 For example, the Russian word мир ("world") is written м, и, р: a consonant, a vowel, and a consonant, each its own letter.
+
+Each letter stands for roughly one sound, and consonants and vowels alike get their own letters written in sequence. That sets an alphabet apart from an [abjad](abjad.md), where vowels are usually left unwritten,<sup>2</sup> and an [abugida](abugida.md), where each consonant carries a built-in vowel that added marks change.<sup>3</sup>&#x20;
 
 While this glossary doesn't cover every script, here are some alphabets to be aware of. Select a linked term to navigate to its glossary page.
 
 | Script                         | Languages                            | Example |
 | ------------------------------ | ------------------------------------ | ------- |
-| [Latin](latin-script.md)       | English, French, Spanish, Vietnamese | Hello   |
-| [Greek](greek-script.md)       | Greek                                |         |
-| [Cyrillic](cyrillic.md)        | Russian, Serbian, Ukrainian          | мир     |
 | [Armenian](armenian-script.md) | Armenian                             |         |
+| [Cyrillic](cyrillic.md)        | Russian, Serbian, Ukrainian          | мир     |
 | [Georgian](georgian-script.md) | Georgian                             |         |
+| [Greek](greek-script.md)       | Greek                                |         |
+| [Latin](latin-script.md)       | English, French, Spanish, Vietnamese | Hello   |
 
 ### Why it matters in design systems
 
-Alphabets are the structure most interface and typeface tooling assumes by default, so it is easy to treat "one letter per sound, in a line" as how all writing works. It is one category among several, and "alphabet" is not even a fixed property of a script: it describes how a script is used for a given language. The [Arabic script](../../terms/arabic-script.md) is an [abjad](abjad.md) when it writes Arabic, with short vowels omitted, but it works as an alphabet when it writes languages such as Kashmiri or Uyghur, where every vowel is written.<sup>4</sup>
+Alphabets are the structure most interface and typeface tooling assumes by default, so it is easy to wrongly define "one letter per sound, in a line" as how all scripts work. However, it is one type of script among several, and "alphabet" is technically not fixed property of a script: it describes how a script is used for the writing system of a given language.&#x20;
+
+For example, the [Arabic script](../../terms/arabic-script.md) is an [abjad](abjad.md) when it writes Arabic, with short vowels omitted, but it works as an alphabet when it writes languages such as Kashmiri or Uyghur, where every vowel is written.<sup>4</sup>
 
 So the script alone does not tell you a language's needs. Knowing a language uses an alphabet tells you consonants and vowels both get letters, so [font coverage](../../terms/font-coverage.md) has to include the vowel letters and any [diacritic](diacritic.md) marks the language adds to them. It does not tell you the alphabet behaves like Latin: case, sort order, and letter spacing all vary, and several alphabets have no uppercase and lowercase at all. Check the language's [writing system](writing-system.md), not just its script, before you commit to a typeface or a layout.
 
