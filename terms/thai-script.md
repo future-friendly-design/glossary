@@ -5,7 +5,7 @@ aliases:
   - thai
 level: intermediate
 depth: core
-summary: The Thai script is used to write Thai and several other languages of the region, including Kuy, Pali, and Sanskrit.
+summary: The Thai script is used to write Thai and several other languages of the region, including Kuy, Lanna Tai, and Pali.
 related:
   - abugida
   - brahmic-scripts
@@ -36,7 +36,7 @@ tags:
 
 ## Definition
 
-The Thai [script](../language-terms/writing-systems-and-scripts/script.md) is used to write Thai and several other languages of the region, including Kuy, Pali, and Sanskrit.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md) descended from the [Brahmic](brahmic-scripts.md) family: each consonant carries an inherent vowel that vowel marks can change, and marks above the consonant set the tone.<sup>2</sup>
+The Thai [script](../language-terms/writing-systems-and-scripts/script.md) is used to write Thai and several other languages of the region, including Kuy, Lanna Tai, and Pali.<sup>1</sup> It is an [abugida](../language-terms/writing-systems-and-scripts/abugida.md) descended from the [Brahmic](brahmic-scripts.md) family: each consonant carries an inherent vowel that vowel marks can change,<sup>2</sup> and marks above the consonant set the tone.<sup>3</sup>
 
 For example, ภาษาไทย ("phasa Thai", "Thai language") is written solid, with no spaces between the words, the way Thai runs throughout.
 
@@ -51,7 +51,7 @@ These properties of the Thai script apply to any language that uses it in its [w
 | Property | Thai script |
 | --- | --- |
 | [Autonym](autonym.md) | อักษรไทย |
-| Languages | Thai, Kuy, Pali, Sanskrit, and others |
+| Languages | Thai, Kuy, Lanna Tai, Pali, and others |
 | Letter case | None (no uppercase and lowercase) |
 | [Marks](../language-terms/writing-systems-and-scripts/mark.md) | vowel marks (written before, after, above, or below the consonant) and four [tone marks](../language-terms/writing-systems-and-scripts/tone-mark.md) above |
 | Numerals | Thai digits ๐ to ๙ (alongside common ASCII digits) |
@@ -64,11 +64,11 @@ If your design system supports languages that use the Thai script, here are some
 
 | Rule or feature | How it works in the Thai script | Design systems |
 | --- | --- | --- |
-| [Complex text layout](complex-text-layout.md) | Yes, shaping and word segmentation required | The vowel marks and tone marks stacked above and below the consonant have to be positioned by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), and word breaking depends on segmentation rather than spaces, so a tool or font that cannot do both renders or wraps the text incorrectly, not just unstyled;<sup>3</sup> you need a [typeface](typeface.md) and [font](font.md) with Thai coverage before any of it will render |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right<sup>4</sup> | Left-aligned text as the default |
-| Vowel marks | a vowel mark can sit before, after, above, or below its consonant; the ones that appear to the left are stored in that visual order, so, unlike [Devanagari](devanagari.md), the renderer does not reorder them<sup>5</sup> | Thai does not reorder its left-side vowels, so do not apply Indic reordering logic to Thai text |
-| [Word segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) | Thai has no spaces between words, so line breaking relies on dictionary-based segmentation; a zero-width space can mark an explicit break point<sup>6</sup> | Do not split Thai on spaces or on individual characters; line breaking, search, and truncation need a segmenter such as [ICU](icu.md) |
-| [Tone marks](../language-terms/writing-systems-and-scripts/tone-mark.md) | four tone marks sit above the consonant, stacking above an upper vowel mark when both are present | Test a syllable with both an above-vowel and a tone mark so the marks stack in the right order; loose [letter spacing](letter-spacing.md) can collide with the stacked marks and does nothing to show word boundaries the text itself does not mark |
+| [Complex text layout](complex-text-layout.md) | Yes, shaping required | The vowel marks and tone marks stacked above and below the consonant have to be positioned by the font's [OpenType](opentype.md) rules and applied at render time by the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md), and word breaking depends on segmentation rather than spaces, so a tool or font that cannot do both renders or wraps the text incorrectly, not just unstyled;<sup>4</sup> you need a [typeface](typeface.md) and [font](font.md) with Thai coverage before any of it will render |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right<sup>5</sup> | Left-aligned text as the default |
+| Vowel marks | a vowel mark can sit before, after, above, or below its consonant; the ones that appear to the left are stored in that visual order, so, unlike [Devanagari](devanagari.md), the renderer does not reorder them<sup>6</sup> | Thai does not reorder its left-side vowels, so do not apply Indic reordering logic to Thai text |
+| [Word segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md) | Thai has no spaces between words, so line breaking relies on dictionary-based segmentation; a zero-width space can mark an explicit break point<sup>7</sup> | Do not split Thai on spaces or on individual characters; line breaking, search, and truncation need a segmenter such as [ICU](icu.md) |
+| [Tone marks](../language-terms/writing-systems-and-scripts/tone-mark.md) | four tone marks sit above the consonant, stacking above an upper vowel mark when both are present<sup>8</sup> | Test a syllable with both an above-vowel and a tone mark so the marks stack in the right order; loose [letter spacing](letter-spacing.md) can collide with the stacked marks and does nothing to show word boundaries the text itself does not mark |
 | [Unicode](unicode.md) block | Thai, [U+0E00 to U+0E7F](https://www.unicode.org/charts/PDF/U0E00.pdf) | No special handling beyond ensuring [font coverage](font-coverage.md) of the block |
 
 ### In practice
@@ -94,8 +94,10 @@ If your design system supports languages that use the Thai script, here are some
 
 1. The Thai script is used to write the Thai language and other Southeast Asian languages, such as Kuy, Lanna Tai, and Pali - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
 2. Thai is a member of the Indic family of scripts descended from Brahmi, and in common with most Brahmi-derived scripts each Thai consonant letter represents a syllable possessing an inherent vowel sound - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
-3. The Thai shaping engine positions the vowel marks and tone marks on the base consonant with the OpenType mark (mark-to-base) and mkmk (mark-to-mark) features - Developing OpenType Fonts for Thai Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/thai](https://learn.microsoft.com/en-us/typography/script-development/thai)
-4. As in all scripts of this family, the predominant writing direction of Thai is from left to right - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
-5. Vowels that occur to the left side of their consonant are represented in visual order before the consonant, even though they are pronounced afterward; this differs from other Indic scripts, which encode all vowels after the base consonant and reorder them for display - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
-6. Thai words are not separated by spaces; instead, spaces are introduced where Western typography would use a comma or period, and a zero-width space (U+200B) can be used to indicate explicit word or line break opportunities - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
+3. Thai modifies the original Brahmi letter shapes and extends the number of letters to accommodate features of the Thai language, including tone marks derived from superscript digits - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
+4. The Thai shaping engine positions the vowel marks and tone marks on the base consonant with the OpenType mark (mark-to-base) and mkmk (mark-to-mark) features - Developing OpenType Fonts for Thai Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/thai](https://learn.microsoft.com/en-us/typography/script-development/thai)
+5. As in all scripts of this family, the predominant writing direction of Thai is from left to right - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
+6. In the Thai encoding, the letter-sized glyphs that are placed before (left of) the base consonant letter, in full or partial representation of a vowel sign, are, in fact, encoded as separate characters that are typed and stored before the base consonant character. This encoding for left-side Thai vowel sign glyphs (and similarly in Lao and in Tai Viet) differs from the conventions for all other Indic scripts, which uniformly encode all vowels after the base consonant - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
+7. Thai words are not separated by spaces; instead, spaces are introduced where Western typography would use a comma or period, and a zero-width space (U+200B) can be used to indicate explicit word or line break opportunities - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
+8. For the purpose of rendering, the Thai combining marks above (U+0E31, U+0E34..U+0E37, U+0E47..U+0E4E) should be displayed outward from the base character they modify, in the order in which they appear in the text - The Unicode Standard, Version 16.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/)
 </content>
