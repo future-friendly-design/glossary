@@ -1,9 +1,10 @@
 ---
-term: Georgian script
+term: Georgian script (Mkhedruli)
 slug: georgian-script
 aliases:
   - georgian
   - mkhedruli
+  - Georgian script
 level: intermediate
 depth: core
 summary: >-
@@ -35,7 +36,7 @@ tags:
   - writing-systems-scripts
 ---
 
-# Georgian script
+# Georgian script (Mkhedruli)
 
 ## Definition
 
