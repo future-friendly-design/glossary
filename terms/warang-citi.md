@@ -63,8 +63,8 @@ If your design system supports languages that use Warang Citi, here are some con
 | Rule or feature | How it works in Warang Citi | Design systems |
 | --- | --- | --- |
 | [Complex text layout](complex-text-layout.md) | Not required: a linear alphabet, rendered directly (no conjuncts or reordering) | Not complex to shape, no reordering or contextual analysis; the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and the font's [OpenType](opentype.md) rules mostly map each letter straight to its glyph |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right | Left-aligned text as the default |
 | Letter case | it distinguishes capital and small letters (bicameral), unlike most scripts of the region<sup>5</sup> | Casing is real here, so confirm the font ships both the capital and small letters and that casing behaves as the community expects |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right | Left-aligned text as the default |
 | [Unicode](unicode.md) block | Warang Citi, [U+118A0 to U+118FF](https://www.unicode.org/charts/PDF/U118A0.pdf) | Ho has an emergent literary tradition and Warang Citi is a purpose-built community script, so fonts, a [keyboard layout](keyboard-layout.md), and rendering for it are a concrete deliverable; a Latin or [Devanagari](devanagari.md) font will not render it, so confirm [font coverage](font-coverage.md) |
 
 ### In practice
