@@ -48,13 +48,13 @@ These are the traits the family holds in common. Individual members vary, so tre
 
 | Shared feature | Across the Brahmic family | Design systems |
 | --- | --- | --- |
-| Origin | all descend from the ancient Brahmi script | Because the members share one ancestor and structure, supporting one Brahmic script builds much of the infrastructure the others need |
-| Script type | almost all are [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): each consonant carries an inherent vowel, generally /a/ | Plan for consonant-plus-vowel units, not one glyph per sound |
-| Vowel marks | dependent vowels ([matras](../language-terms/writing-systems-and-scripts/matra.md)) attach to a consonant to change its inherent vowel | Matras can attach above, below, or to either side, and some reorder ahead of their consonant, so the font's mark positioning and [reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) have to be in place |
-| [Virama](../language-terms/writing-systems-and-scripts/virama.md) | a virama (halant) suppresses the inherent vowel<sup>4</sup> | The shaping engine has to act on the virama to form the right cluster, so test it rather than assuming a bare glyph |
-| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | consonant clusters can combine into conjunct forms<sup>5</sup> | The font must ship the conjunct glyphs; confirm real clusters render, not just isolated consonants |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | with minor historical exceptions, left to right<sup>6</sup> | Left-aligned text as the default |
-| Rendering | [complex text layout](complex-text-layout.md): real shaping, mark positioning, and sometimes reordering, not simple glyph placement | You need real [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and [OpenType](opentype.md) rules; simple glyph placement renders the text wrong, not just unstyled |
+| Origin | All descend from the ancient Brahmi script | Because the members share one ancestor and structure, supporting one Brahmic script builds much of the infrastructure the others need |
+| Script type | Almost all are [abugidas](../language-terms/writing-systems-and-scripts/abugida.md): each consonant carries an inherent vowel, generally /a/ | Plan for consonant-plus-vowel units, not one glyph per sound |
+| Vowel marks | Dependent vowels ([matras](../language-terms/writing-systems-and-scripts/matra.md)) attach to a consonant to change its inherent vowel | Matras can attach above, below, or to either side, and some reorder ahead of their consonant, so the font's mark positioning and [reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) have to be in place |
+| [Virama](../language-terms/writing-systems-and-scripts/virama.md) | A virama (halant) suppresses the inherent vowel<sup>4</sup> | The shaping engine has to act on the virama to form the right cluster, so test it rather than assuming a bare glyph |
+| [Conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) | Consonant clusters can combine into conjunct forms<sup>5</sup> | The font must ship the conjunct glyphs; confirm real clusters render, not just isolated consonants |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | With minor historical exceptions, left to right<sup>6</sup> | Left-aligned text as the default |
+| Rendering | [Complex text layout](complex-text-layout.md): real shaping, mark positioning, and sometimes reordering, not simple glyph placement | You need real [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and [OpenType](opentype.md) rules; simple glyph placement renders the text wrong, not just unstyled |
 
 ### Members
 
@@ -62,20 +62,20 @@ The Brahmic family is large and this glossary doesn't cover every member; here a
 
 | Script | Languages | Example | Distinctive in the family |
 | --- | --- | --- | --- |
-| [Devanagari](devanagari.md) | Hindi, Marathi, Sanskrit, Nepali | देवनागरी | hangs its symbols from a continuous headline stroke ([shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md)) |
-| [Bengali-Assamese](bengali-assamese.md) | Bengali, Assamese | বাংলা লিপি | also written along a headline ([hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md)); its own [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) forms |
-| [Tamil](tamil-script.md) | Tamil, Badaga | தமிழ் அரிச்சுவடி | sits on a [baseline](../design-terms/typography/baseline.md); very few [conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) |
-| Telugu | Telugu | | rounded southern forms; vowel marks mostly above the consonant |
-| Kannada | Kannada | | rounded southern forms, closely related to Telugu |
-| Malayalam | Malayalam | | rounded southern forms; historically rich in conjuncts |
-| Gujarati | Gujarati | | like Devanagari, but without the headline stroke |
-| Gurmukhi | Punjabi | | written along a headline |
-| Odia | Odia | | rounded, curved tops |
-| Sinhala | Sinhala | | rounded forms |
-| [Syloti Nagri](syloti-nagri.md) | Sylheti | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ | small consonant set; a hasanta (like a [virama](../language-terms/writing-systems-and-scripts/virama.md)) forms [conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) |
-| [Thai](thai-script.md) | Thai | อักษรไทย | no spaces between words, needing [word segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md); some vowel marks sit to the left |
+| [Devanagari](devanagari.md) | Hindi, Marathi, Sanskrit, Nepali | देवनागरी | Hangs its symbols from a continuous headline stroke ([shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md)) |
+| [Bengali-Assamese](bengali-assamese.md) | Bengali, Assamese | বাংলা লিপি | Also written along a headline ([hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md)); its own [conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) forms |
+| [Tamil](tamil-script.md) | Tamil, Badaga | தமிழ் அரிச்சுவடி | Sits on a [baseline](../design-terms/typography/baseline.md); very few [conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) |
+| Telugu | Telugu | | Rounded southern forms; vowel marks mostly above the consonant |
+| Kannada | Kannada | | Rounded southern forms, closely related to Telugu |
+| Malayalam | Malayalam | | Rounded southern forms; historically rich in conjuncts |
+| Gujarati | Gujarati | | Like Devanagari, but without the headline stroke |
+| Gurmukhi | Punjabi | | Written along a headline |
+| Odia | Odia | | Rounded, curved tops |
+| Sinhala | Sinhala | | Rounded forms |
+| [Syloti Nagri](syloti-nagri.md) | Sylheti | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ | Small consonant set; a hasanta (like a [virama](../language-terms/writing-systems-and-scripts/virama.md)) forms [conjuncts](../language-terms/writing-systems-and-scripts/conjunct.md) |
+| [Thai](thai-script.md) | Thai | อักษรไทย | No spaces between words, needing [word segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md); some vowel marks sit to the left |
 | Lao, Khmer, Myanmar | Lao, Khmer, Burmese | | Southeast Asian branch; Khmer [stacks](../language-terms/writing-systems-and-scripts/stacking-script.md) subscript consonants |
-| [Tibetan](tibetan-script.md) | Tibetan, Dzongkha | བོད་ཡིག | [stacks](../language-terms/writing-systems-and-scripts/stacking-script.md) consonants vertically; a [tsheg](../language-terms/writing-systems-and-scripts/tsheg.md) marks syllables |
+| [Tibetan](tibetan-script.md) | Tibetan, Dzongkha | བོད་ཡིག | [Stacks](../language-terms/writing-systems-and-scripts/stacking-script.md) consonants vertically; a [tsheg](../language-terms/writing-systems-and-scripts/tsheg.md) marks syllables |
 
 ### In practice
 

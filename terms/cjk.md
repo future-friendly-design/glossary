@@ -48,12 +48,12 @@ These are the traits the group holds in common. The members are different script
 
 | Shared feature | Across the CJK group | Design systems |
 | --- | --- | --- |
-| Grouping | the writing systems of China, Japan, and Korea (CJK; CJKV includes Vietnam historically) | Because the members share the engineering concerns below, build that infrastructure once and it serves all three traditions; then scope which scripts you actually ship |
-| [Han characters](han-characters.md) | all three traditions use Han characters (hanzi, kanji, hanja), encoded once as CJK Unified Ideographs | Set the text's language so the shared [code points](code-point.md) render with the right regional glyphs |
-| Square layout | characters are written within uniformly sized squares ([full-width](full-width.md)), so text sets on a fixed grid<sup>5</sup> | Design to a fixed character grid rather than proportional spacing |
-| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | traditionally [vertical](vertical-text.md) (top to bottom, columns right to left); horizontal left to right is now common<sup>6</sup> | Vertical layout is a real requirement, not an edge case, if you support traditional setting |
+| Grouping | The writing systems of China, Japan, and Korea (CJK; CJKV includes Vietnam historically) | Because the members share the engineering concerns below, build that infrastructure once and it serves all three traditions; then scope which scripts you actually ship |
+| [Han characters](han-characters.md) | All three traditions use Han characters (hanzi, kanji, hanja), encoded once as CJK Unified Ideographs | Set the text's language so the shared [code points](code-point.md) render with the right regional glyphs |
+| Square layout | Characters are written within uniformly sized squares ([full-width](full-width.md)), so text sets on a fixed grid<sup>5</sup> | Design to a fixed character grid rather than proportional spacing |
+| [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Traditionally [vertical](vertical-text.md) (top to bottom, columns right to left); horizontal left to right is now common<sup>6</sup> | Vertical layout is a real requirement, not an edge case, if you support traditional setting |
 | Script mixing | Han characters are interspersed with the region's other scripts (kana in Japanese, hangul in Korean)<sup>7</sup> | Two or three scripts share one line, so the font has to harmonize them at compatible weights and metrics |
-| Rendering | it needs no [complex text layout](complex-text-layout.md) reordering, but the correct glyph is language-dependent (Han unification)<sup>8</sup> and the fonts are very large<sup>9</sup> | Budget for very large fonts ([subsetting](font-subsetting.md), loading) and an [input method editor](input-method-editor.md) for text entry |
+| Rendering | It needs no [complex text layout](complex-text-layout.md) reordering, but the correct glyph is language-dependent (Han unification)<sup>8</sup> and the fonts are very large<sup>9</sup> | Budget for very large fonts ([subsetting](font-subsetting.md), loading) and an [input method editor](input-method-editor.md) for text entry |
 
 ### Members
 
@@ -61,11 +61,11 @@ The CJK group gathers several scripts and this glossary doesn't cover every one;
 
 | Script | Languages | Example | Distinctive in the group |
 | --- | --- | --- | --- |
-| [Han characters](han-characters.md) | Chinese, Japanese, Korean | 漢字 | [logographic](../language-terms/writing-systems-and-scripts/logographic.md); tens of thousands of characters; the shared core, with language-dependent glyphs |
-| [Hiragana](hiragana.md) | Japanese | ひらがな | cursive kana [syllabary](../language-terms/writing-systems-and-scripts/syllabary.md); native words, particles, and inflections |
-| [Katakana](katakana.md) | Japanese (also Ainu) | カタカナ | angular kana syllabary; loanwords and emphasis |
-| [Hangul](hangul.md) | Korean | 한글 | [featural](../language-terms/writing-systems-and-scripts/featural-alphabet.md); letters (jamo) composed into square syllable blocks |
-| Bopomofo (Zhuyin) | Mandarin Chinese | | phonetic symbols used to teach and annotate pronunciation, mainly in Taiwan |
+| [Han characters](han-characters.md) | Chinese, Japanese, Korean | 漢字 | [Logographic](../language-terms/writing-systems-and-scripts/logographic.md); tens of thousands of characters; the shared core, with language-dependent glyphs |
+| [Hiragana](hiragana.md) | Japanese | ひらがな | Cursive kana [syllabary](../language-terms/writing-systems-and-scripts/syllabary.md); native words, particles, and inflections |
+| [Katakana](katakana.md) | Japanese (also Ainu) | カタカナ | Angular kana syllabary; loanwords and emphasis |
+| [Hangul](hangul.md) | Korean | 한글 | [Featural](../language-terms/writing-systems-and-scripts/featural-alphabet.md); letters (jamo) composed into square syllable blocks |
+| Bopomofo (Zhuyin) | Mandarin Chinese | | Phonetic symbols used to teach and annotate pronunciation, mainly in Taiwan |
 
 ### In practice
 

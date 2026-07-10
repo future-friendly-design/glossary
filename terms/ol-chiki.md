@@ -64,7 +64,7 @@ If your design system supports languages that use Ol Chiki, here are some consid
 | Rule or feature | How it works in Ol Chiki | Design systems |
 | --- | --- | --- |
 | [Complex text layout](complex-text-layout.md) | Not required: a linear alphabet, rendered directly (no conjuncts or reordering)<sup>6</sup> | Not complex to shape, no reordering or contextual analysis; the platform's [text shaping](../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and the font's [OpenType](opentype.md) rules mostly map each letter straight to its glyph |
-| Full vowel letters | every vowel is a full letter, unlike the dependent vowel signs of the region's [Brahmic](brahmic-scripts.md) abugidas | A Latin or [Devanagari](devanagari.md) font will not render Ol Chiki, so you need a [typeface](typeface.md) and [font](font.md) with Ol Chiki coverage |
+| Full vowel letters | Every vowel is a full letter, unlike the dependent vowel signs of the region's [Brahmic](brahmic-scripts.md) abugidas | A Latin or [Devanagari](devanagari.md) font will not render Ol Chiki, so you need a [typeface](typeface.md) and [font](font.md) with Ol Chiki coverage |
 | [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) | Left to right | Left-aligned text as the default |
 | [Unicode](unicode.md) block | Ol Chiki, [U+1C50 to U+1C7F](https://www.unicode.org/charts/PDF/U1C50.pdf) | Santali is one of the scheduled languages of India with millions of speakers, and Ol Chiki has a real and growing digital footprint, so fonts, a [keyboard layout](keyboard-layout.md), and rendering for it are a concrete deliverable; confirm [font coverage](font-coverage.md) |
 
