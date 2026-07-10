@@ -41,12 +41,12 @@ While this glossary doesn't cover every script, here are some abugidas to be awa
 | Script                                                                        | Languages                | Example |
 | ----------------------------------------------------------------------------- | ------------------------ | ------- |
 | [Devanagari](../../terms/devanagari.md)                                       | Hindi, Marathi, Sanskrit | नमस्ते  |
-| [Bengali-Assamese](../../terms/bengali-assamese.md)                           | Bengali, Assamese        |         |
-| [Tamil](../../terms/tamil-script.md)                                          | Tamil                    |         |
-| [Tibetan](../../terms/tibetan-script.md)                                      | Tibetan, Dzongkha        |         |
-| [Thai](../../terms/thai-script.md)                                            | Thai                     |         |
-| [Ethiopic (Geʽez)](../../terms/ethiopic-script.md)                            | Amharic, Tigrinya        |         |
-| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut  |         |
+| [Bengali-Assamese](../../terms/bengali-assamese.md)                           | Bengali, Assamese        | নমস্কার (nômôskar): "hello" (Bengali) |
+| [Tamil](../../terms/tamil-script.md)                                          | Tamil                    | வணக்கம் (vaṇakkam): "hello" |
+| [Tibetan](../../terms/tibetan-script.md)                                      | Tibetan, Dzongkha        | བཀྲ་ཤིས་བདེ་ལེགས (tashi delek): a greeting, literally "good fortune" |
+| [Thai](../../terms/thai-script.md)                                            | Thai                     | สวัสดี (sawatdee): "hello" |
+| [Ethiopic (Geʽez)](../../terms/ethiopic-script.md)                            | Amharic, Tigrinya        | ሰላም (selam): "hello" (Amharic; literally "peace") |
+| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut  | ᑖᓂᓯ (tânisi): "hello" (Cree) |
 
 ### Why it matters in design systems
 

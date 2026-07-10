@@ -39,8 +39,8 @@ While this glossary doesn't cover every script, here are some scripts described 
 
 | Script                                                                        | Languages               | Example |
 | ----------------------------------------------------------------------------- | ----------------------- | ------- |
-| [Hangul](../../terms/hangul.md)                                               | Korean                  |         |
-| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut |         |
+| [Hangul](../../terms/hangul.md)                                               | Korean                  | 안녕하세요 (annyeonghaseyo): "hello" |
+| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut | ᑖᓂᓯ (tânisi): "hello" (Cree) |
 
 ### Why it matters in design systems
 

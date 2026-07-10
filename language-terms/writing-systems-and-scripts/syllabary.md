@@ -37,10 +37,10 @@ While this glossary doesn't cover every script, here are some syllabaries to be 
 
 | Script                              | Languages | Example |
 | ----------------------------------- | --------- | ------- |
-| [Hiragana](../../terms/hiragana.md) | Japanese  | あ       |
-| [Katakana](../../terms/katakana.md) | Japanese  |         |
-| Cherokee                            | Cherokee  |         |
-| Vai                                 | Vai       |         |
+| [Hiragana](../../terms/hiragana.md) | Japanese  | こんにちは (konnichiwa): "hello" |
+| [Katakana](../../terms/katakana.md) | Japanese  | ハロー (harō): "hello" (English loanword) |
+| Cherokee                            | Cherokee  | ᎣᏏᏲ (osiyo): "hello" |
+| Vai                                 | Vai       | ꘋꕯ ꖬꕎ ꘃꗡ ꗪ ꔤ ꕮ (ŋna suwa kɛɛ ɓɛ i ma): "hello" |
 
 ### Why it matters in design systems
 
