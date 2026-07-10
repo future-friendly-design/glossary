@@ -38,9 +38,9 @@ tags:
 
 ## Definition
 
-Right-to-left (RTL) refers to the text direction script rule that defines reading and writing the script in horizontal lines running from right to left.&#x20;
+Right-to-left (RTL) refers to the text direction script rule that defines reading and writing the script in horizontal lines running from right to left.
 
-For example, the [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) scripts run right to left.
+For example, the [Arabic](arabic-script.md) and [Hebrew](hebrew-script.md) scripts run right to left.
 
 ### Why it matters in design systems
 
@@ -52,7 +52,7 @@ So for a design system, supporting RTL is more than flipping the text. The whole
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Hebrew script](../../terms/hebrew-script.md) · [Left-to-right](left-to-right.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Hebrew script](hebrew-script.md) · [Left-to-right](left-to-right.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

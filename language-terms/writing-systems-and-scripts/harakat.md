@@ -34,7 +34,7 @@ tags:
 
 ## Definition
 
-Harakat are the optional vowel marks of the [Arabic script](../../terms/arabic-script.md), written above and below the consonants to show short vowels.
+Harakat are the optional vowel marks of the [Arabic script](arabic-script.md), written above and below the consonants to show short vowels.
 
 For example, the Arabic letter `ب` (b) takes a different short vowel with each mark: `بَ` (ba), `بِ` (bi), `بُ` (bu).
 
@@ -46,7 +46,7 @@ The Arabic script is an [abjad](abjad.md): it writes consonants and long vowels,
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Arabic script](../../terms/arabic-script.md) · [Combining mark](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Diacritic](diacritic.md) · [Mark](mark.md) · [Precomposed character](../../terms/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Arabic script](arabic-script.md) · [Combining mark](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Diacritic](diacritic.md) · [Mark](mark.md) · [Precomposed character](../../terms/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

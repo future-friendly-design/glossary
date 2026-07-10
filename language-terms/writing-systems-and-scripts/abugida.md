@@ -38,15 +38,15 @@ For example, in Devanagari the consonant `क` (ka) carries an inherent "a"; add
 
 While this glossary doesn't cover every script, here are some abugidas to be aware of. Select a linked term to navigate to its glossary page.
 
-| Script                                                                        | Languages                | Example |
-| ----------------------------------------------------------------------------- | ------------------------ | ------- |
-| [Devanagari](../../terms/devanagari.md)                                       | Hindi, Marathi, Sanskrit | नमस्ते  |
-| [Bengali-Assamese](../../terms/bengali-assamese.md)                           | Bengali, Assamese        | নমস্কার (nômôskar): "hello" (Bengali) |
-| [Tamil](../../terms/tamil-script.md)                                          | Tamil                    | வணக்கம் (vaṇakkam): "hello" |
+| Script                                                                        | Languages                | Example                                                              |
+| ----------------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------- |
+| [Devanagari](../../terms/devanagari.md)                                       | Hindi, Marathi, Sanskrit | नमस्ते                                                               |
+| [Bengali-Assamese](../../terms/bengali-assamese.md)                           | Bengali, Assamese        | নমস্কার (nômôskar): "hello" (Bengali)                                |
+| [Tamil](../../terms/tamil-script.md)                                          | Tamil                    | வணக்கம் (vaṇakkam): "hello"                                          |
 | [Tibetan](../../terms/tibetan-script.md)                                      | Tibetan, Dzongkha        | བཀྲ་ཤིས་བདེ་ལེགས (tashi delek): a greeting, literally "good fortune" |
-| [Thai](../../terms/thai-script.md)                                            | Thai                     | สวัสดี (sawatdee): "hello" |
-| [Ethiopic (Geʽez)](../../terms/ethiopic-script.md)                            | Amharic, Tigrinya        | ሰላም (selam): "hello" (Amharic; literally "peace") |
-| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut  | ᑖᓂᓯ (tânisi): "hello" (Cree) |
+| [Thai](../../terms/thai-script.md)                                            | Thai                     | สวัสดี (sawatdee): "hello"                                           |
+| [Ethiopic (Geʽez)](ethiopic-script.md)                                        | Amharic, Tigrinya        | ሰላም (selam): "hello" (Amharic; literally "peace")                    |
+| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut  | ᑖᓂᓯ (tânisi): "hello" (Cree)                                         |
 
 ### Why it matters in design systems
 
@@ -58,7 +58,7 @@ So an abugida needs real shaping support, not simple glyph-after-glyph placement
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Alphasyllabary](alphasyllabary.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md) · [Ethiopic script](../../terms/ethiopic-script.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Matra](matra.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Tamil script](../../terms/tamil-script.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typeface](../../terms/typeface.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Alphasyllabary](alphasyllabary.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md) · [Ethiopic script](ethiopic-script.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Matra](matra.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Tamil script](../../terms/tamil-script.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typeface](../../terms/typeface.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

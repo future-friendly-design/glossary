@@ -112,15 +112,15 @@ Now that you understand what scripts are and how they work, you can explore thes
 
 #### Abjad scripts:
 
-* [Arabic script](../../terms/arabic-script.md)
-* [Hebrew script](../../terms/hebrew-script.md)
+* [Arabic script](arabic-script.md)
+* [Hebrew script](hebrew-script.md)
 
 #### Abugida scripts:
 
 * [Bengali-Assamese](../../terms/bengali-assamese.md)
 * [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md)
 * [Devanagari](../../terms/devanagari.md)
-* [Ethiopic script](../../terms/ethiopic-script.md)
+* [Ethiopic script](ethiopic-script.md)
 * [Syloti Nagri](../../terms/syloti-nagri.md)
 * [Tamil script](../../terms/tamil-script.md)
 * [Thai script](../../terms/thai-script.md)

@@ -47,7 +47,7 @@ For example, a line like `مرحبا iPhone 2026` mixes an Arabic greeting (righ
 
 ### Why it matters in design systems
 
-Scripts like [Arabic](../../terms/arabic-script.md) and [Hebrew](../../terms/hebrew-script.md) run right to left, but numbers and embedded [Latin-script](latin-script.md) text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
+Scripts like [Arabic](arabic-script.md) and [Hebrew](hebrew-script.md) run right to left, but numbers and embedded [Latin-script](latin-script.md) text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
 
 A computer cannot guess that order. [Unicode](../../terms/unicode.md), the standard that gives every character a unique number, has a Bidirectional Algorithm that considers each character's direction property and the base direction of the line to resolve neutral characters like spaces and punctuation that sit between text of opposite directions.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
 
@@ -77,7 +77,7 @@ Assuming that marking the block right to left is enough, and the algorithm will 
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](../../terms/hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -39,25 +39,25 @@ Each letter stands for roughly one sound, and consonants and vowels alike get th
 
 While this glossary doesn't cover every script, here are some alphabets to be aware of. Select a linked term to navigate to its glossary page.
 
-| Script                         | Languages                            | Example |
-| ------------------------------ | ------------------------------------ | ------- |
-| [Armenian](armenian-script.md) | Armenian                             | Բարև (Barev): "hello" |
+| Script                         | Languages                            | Example                                        |
+| ------------------------------ | ------------------------------------ | ---------------------------------------------- |
+| [Armenian](armenian-script.md) | Armenian                             | Բարև (Barev): "hello"                          |
 | [Cyrillic](cyrillic.md)        | Russian, Serbian, Ukrainian          | Здравствуйте (Zdravstvujte): "hello" (Russian) |
-| [Georgian](georgian-script.md) | Georgian                             | გამარჯობა (gamarjoba): "hello" |
-| [Greek](greek-script.md)       | Greek                                | Γεια σου (Ya su): "hello" |
-| [Latin](latin-script.md)       | English, French, Spanish, Vietnamese | Hello   |
+| [Georgian](georgian-script.md) | Georgian                             | გამარჯობა (gamarjoba): "hello"                 |
+| [Greek](greek-script.md)       | Greek                                | Γεια σου (Ya su): "hello"                      |
+| [Latin](latin-script.md)       | English, French, Spanish, Vietnamese | Hello                                          |
 
 ### Why it matters in design systems
 
 Alphabets are the structure most interface and typeface tooling assumes by default, so it is easy to wrongly define "one letter per sound, in a line" as how all scripts work. However, it is one type of script among several, and "alphabet" is technically not fixed property of a script: it describes how a script is used for the writing system of a given language.
 
-For example, the [Arabic script](../../terms/arabic-script.md) is an [abjad](abjad.md) when it writes Arabic, with short vowels omitted, but it works as an alphabet when it writes languages such as Kashmiri or Uyghur, where every vowel is written.<sup>4</sup>
+For example, the [Arabic script](arabic-script.md) is an [abjad](abjad.md) when it writes Arabic, with short vowels omitted, but it works as an alphabet when it writes languages such as Kashmiri or Uyghur, where every vowel is written.<sup>4</sup>
 
-So knowing that a script is being used as an alphabet is a starting point, not the whole picture.&#x20;
+So knowing that a script is being used as an alphabet is a starting point, not the whole picture.
 
-It does tell you the structure: both consonants and vowels are written as full letters, so [font coverage](../../terms/font-coverage.md) has to include the vowel letters and any [diacritic](diacritic.md) marks the language adds to them.&#x20;
+It does tell you the structure: both consonants and vowels are written as full letters, so [font coverage](../../terms/font-coverage.md) has to include the vowel letters and any [diacritic](diacritic.md) marks the language adds to them.
 
-It does not tell you the script behaves like the Latin alphabet: whether it has uppercase and lowercase, how its letters sort, and how they are spaced are all set by the individual script's [rules](script-rules.md) and the language's [orthography](orthography.md), and several alphabets have no letter case at all.&#x20;
+It does not tell you the script behaves like the Latin alphabet: whether it has uppercase and lowercase, how its letters sort, and how they are spaced are all set by the individual script's [rules](script-rules.md) and the language's [orthography](orthography.md), and several alphabets have no letter case at all.
 
 Check the whole [writing system](writing-system.md), not just the fact that it is an alphabet, before you commit to a typeface or a layout.
 
@@ -65,7 +65,7 @@ Check the whole [writing system](writing-system.md), not just the fact that it i
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](../../terms/arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

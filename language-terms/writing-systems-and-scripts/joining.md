@@ -48,7 +48,7 @@ While this glossary doesn't cover every script, here are some to be aware of tha
 
 | Script                                                     | Languages                            | How joining works here                                                              | Example |
 | ---------------------------------------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------- | ------- |
-| [Arabic](../../terms/arabic-script.md)                     | Arabic, Persian, Urdu                | Letters connect cursively, each taking an initial, medial, final, or isolated form. | كتب     |
+| [Arabic](arabic-script.md)                                 | Arabic, Persian, Urdu                | Letters connect cursively, each taking an initial, medial, final, or isolated form. | كتب     |
 | [Mongolian (traditional)](../../terms/mongolian-script.md) | Mongolian                            | Cursive and joining like Arabic, but written vertically, top to bottom.             |         |
 | Syriac                                                     | Syriac (a form of Aramaic)           | Cursive joining with the same four positional forms.                                |         |
 | N'Ko                                                       | Manding languages (Bambara, Maninka) | Cursive joining with positional forms; a 20th-century script for these languages.   |         |
@@ -93,7 +93,7 @@ Treating joining as an optional styling choice. A [ligature](../../terms/ligatur
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../terms/letter-spacing.md) · [Ligature](../../terms/ligature.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [OpenType](../../terms/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Tracking](../../design-terms/typography/tracking.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../terms/letter-spacing.md) · [Ligature](../../terms/ligature.md) · [Mongolian script (traditional)](../../terms/mongolian-script.md) · [OpenType](../../terms/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Tracking](../../design-terms/typography/tracking.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -56,7 +56,7 @@ A script with a shirorekha influences several design system decisions including 
 [Letter-spacing](../../terms/letter-spacing.md), the [tracking](../../design-terms/typography/tracking.md) you might add to Latin headings or labels, should not be applied character by character to a script with a shirorekha.
 
 * It inserts a gap between each unit, the gap lands on the seam where the shirorekha joins, and the top line breaks so the word looks split.<sup>6</sup>
-* It is the same reason connected scripts like [Arabic](../../terms/arabic-script.md) reject letter-spacing.<sup>7</sup>
+* It is the same reason connected scripts like [Arabic](arabic-script.md) reject letter-spacing.<sup>7</sup>
 * A tracking token that is safe, even useful, on Latin cannot be applied once across the board; letter-spacing has to be scoped by script.
 
 Letters hanging from the shirorekha at the top means the design system has to account for the text alignment as a [hanging baseline](hanging-baseline.md) which is different from the baseline Latin sits on.
@@ -75,7 +75,7 @@ A quick thing to keep in mind: the shirorekha is just one of a script's rules. A
 
 ### Related terms and mentions
 
-[Arabic script](../../terms/arabic-script.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](../../design-terms/typography/tracking.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](../../design-terms/typography/tracking.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
