@@ -41,16 +41,16 @@ While this glossary doesn't cover every script, here are some abjads to be aware
 | Script                     | Languages                  | Example of Hello! |
 | -------------------------- | -------------------------- | ----------------- |
 | [Arabic](arabic-script.md) | Arabic, Persian, Urdu      |    مرحبا          |
-| [Hebrew](hebrew-script.md) | Hebrew, Yiddish            |                   |
-| Syriac                     | Syriac (a form of Aramaic) |                   |
+| [Hebrew](hebrew-script.md) | Hebrew, Yiddish            |    שלום           |
+| Syriac                     | Syriac (a form of Aramaic) |    ܫܠܡܐ           |
 
 ### Why it matters in design systems
 
-If your design system supports languages that have scripts in their [writing system](writing-system.md) that are classified as Abjad's, it can require quite a substantial difference in typography, code, and design decisions when compared to the most common languages to support (English and other scripts which are classified as alphabets).&#x20;
+If your design system supports a language whose [writing system](writing-system.md) uses an abjad, that can require substantially different typography, code, and design decisions than the alphabets most projects start from, such as the Latin script used for English.&#x20;
 
-For example, [text direction](text-direction.md): Arabic and Hebrew run right to left,<sup>3</sup> so supporting them alongside english often means mirroring the entire layout of a component or pattern, and introducing complex text layouts and bidirectional text in code, its not as simple as choosing a new typeface and swapping a font. In contrast,&#x20;
+For example, [text direction](text-direction.md): Arabic and Hebrew run right to left,<sup>3</sup> so supporting them alongside English often means mirroring the entire layout of a component or pattern and handling complex text layouts and bidirectional text in code. It's not as simple as choosing a new typeface and swapping a font. In contrast, adding another same-direction alphabet is often much closer to that: choosing a font with the right coverage and moving on.&#x20;
 
-While its tempting to think that all abjad's will share the same design system requirements, this is not the case; be sure to consider the specific [script rules](script-rules.md) and language-specific rules ([orthography](orthography.md)).It's important to note that script type, in this case abjad, is technically not fixed property of a script: it describes how a script is used for the writing system of a given language.
+While it's tempting to think that all abjads share the same design system requirements, they don't; be sure to consider each script's specific [script rules](script-rules.md) and each language's [orthography](orthography.md). It's also worth noting that a script type, abjad in this case, is not a fixed property of a script: it describes how a script is used in the writing system of a given language.
 
 For example, the Arabic script writes Arabic as an abjad, with short vowels omitted, but works as an [alphabet](alphabet.md) for languages such as Kashmiri or Uyghur, where every vowel is written.<sup>4</sup> So the abjad label for the script is a fact about a language's [writing system](writing-system.md), not a universal property of the script.
 
@@ -58,7 +58,7 @@ For example, the Arabic script writes Arabic as an abjad, with short vowels omit
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Diacritic](diacritic.md) · [Hebrew script](hebrew-script.md) · [Language](../linguistics/language.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Diacritic](diacritic.md) · [Hebrew script](hebrew-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
