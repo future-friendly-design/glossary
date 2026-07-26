@@ -36,9 +36,9 @@ tags:
 
 ## Definition
 
-The Armenian [script](script.md) is used to write the Armenian language. It is an [alphabet](alphabet.md) with its own letters for consonants and vowels, unrelated in shape to Latin or Cyrillic.
+The Armenian [script](script.md) is used to write the Armenian language. It is an [alphabet](alphabet.md) with its own distinctive letters for consonants and vowels.
 
-For example, ծուխ ("smoke") is written in letters unique to Armenian, sharing no shapes with the Latin or Cyrillic alphabets.
+For example, ծուխ ("smoke") is written in letters unique to Armenian.
 
 The Armenian script was devised about 406 CE by Mesrop Mashtots to give Armenians access to Christian texts, which were previously available only in Greek and Syriac.<sup>1</sup>
 
