@@ -43,7 +43,7 @@ tags:
 
 ## Definition
 
-The Arabic [script](script.md) is used to write Arabic, Persian, Urdu, and many other languages of the Middle East, South Asia, and Africa.<sup>1</sup> It is an [abjad](abjad.md): short vowels are normally left out for the reader to supply, though they can be shown with optional marks.<sup>2</sup>
+The Arabic [script](script.md) is used to write Arabic, Persian, Urdu, and many other languages of the Middle East, South Asia, and Africa.<sup>1</sup> It is an [abjad](abjad.md): short vowels are normally left out for the reader to supply, though they can be shown with optional marks.<sup>2</sup> That abjad label describes how it writes Arabic; for some other languages, such as Kashmiri and Uyghur, every vowel is written and the same script works as a full [alphabet](alphabet.md).<sup>3</sup>
 
 For example, the greeting مرحبا ("marhaba", "hello") is written as a run of consonants, most of them joining into cursive forms.
 
@@ -62,7 +62,7 @@ These properties of the Arabic script apply to any language that uses it in its 
 | Letter case                       | None (no uppercase and lowercase)                                                                                              |
 | [Marks](mark.md)                  | [harakat](harakat.md) (short-vowel marks) and other tashkil such as shadda and sukun, e.g. كتب ("ktb") shown with harakat as كَتَبَ |
 | Numerals                          | Arabic-Indic digits ٠ to ٩ (Persian and Urdu use a separate Extended Arabic-Indic set ۰ to ۹), written left to right even though embedded in right-to-left running text (see Bidirectional text below); common ASCII digits also appear |
-| Script type                       | [Abjad](abjad.md) for Arabic, where short vowels are omitted; the same script works as a full [alphabet](alphabet.md) for languages such as Kashmiri and Uyghur, where every vowel is written<sup>3</sup> |
+| Script type                       | [Abjad](abjad.md) (also an [alphabet](alphabet.md) for some languages, see Definition) |
 | [Symbols](symbol.md)              | Consonants and long vowels, with short vowels normally unwritten                                                               |
 
 ### Arabic script rules and digital use considerations
