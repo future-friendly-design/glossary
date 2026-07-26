@@ -5,9 +5,7 @@ aliases:
   - alphasyllabary
 level: intermediate
 depth: core
-summary: >-
-  An abugida is a type of script where each consonant carries a built-in vowel
-  that is changed by adding marks.
+summary: An abugida is a type of script where each consonant carries a built-in vowel that added marks change to write a different one.
 related:
   - alphabet
   - abjad
@@ -32,21 +30,22 @@ tags:
 
 ## Definition
 
-An abugida is a type of [script](script.md) where each consonant carries a built-in vowel that is changed by adding marks.<sup>1</sup> That makes it a middle path between an [alphabet](alphabet.md), which gives consonants and vowels their own separate letters,<sup>2</sup> and an [abjad](abjad.md), where vowels are usually left unwritten.<sup>3</sup> An abugida is also called an [alphasyllabary](alphasyllabary.md). Most [Brahmic scripts](../../terms/brahmic-scripts.md), the family that includes [Devanagari](../../terms/devanagari.md), are abugidas.
+An abugida is a type of [script](script.md) where each consonant carries a built-in vowel that added marks change to write a different one.<sup>1</sup> Most [Brahmic scripts](../../terms/brahmic-scripts.md), the family that includes [Devanagari](../../terms/devanagari.md), are abugidas.
 
-For example, in Devanagari the consonant `क` (ka) carries an inherent "a"; adding the i-matra writes `कि` (ki). The [matra](matra.md) is typed after `क` but displays to its left, so software has to reorder it for display.<sup>4</sup>
+For example, in Devanagari the consonant `क` stands for "ka", the consonant with its built-in "a" already included. Adding the i-[matra](matra.md) writes `कि` ("ki"), swapping the built-in vowel for a new one. The matra is typed after `क` but displays to its left, so software has to reorder it for display.<sup>2</sup>
+
+This built-in vowel is what places an abugida between two other script types: an [alphabet](alphabet.md), which gives every consonant and vowel its own separate letter,<sup>3</sup> and an [abjad](abjad.md), which usually leaves vowels unwritten.<sup>4</sup>
 
 While this glossary doesn't cover every script, here are some abugidas to be aware of. Select a linked term to navigate to its glossary page.
 
 | Script                                                                        | Languages                | Example                                                              |
 | ----------------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------- |
-| [Devanagari](../../terms/devanagari.md)                                       | Hindi, Marathi, Sanskrit | नमस्ते                                                               |
 | [Bengali-Assamese](../../terms/bengali-assamese.md)                           | Bengali, Assamese        | নমস্কার (nômôskar): "hello" (Bengali)                                |
-| [Tamil](../../terms/tamil-script.md)                                          | Tamil                    | வணக்கம் (vaṇakkam): "hello"                                          |
-| [Tibetan](../../terms/tibetan-script.md)                                      | Tibetan, Dzongkha        | བཀྲ་ཤིས་བདེ་ལེགས (tashi delek): a greeting, literally "good fortune" |
-| [Thai](../../terms/thai-script.md)                                            | Thai                     | สวัสดี (sawatdee): "hello"                                           |
+| [Devanagari](../../terms/devanagari.md)                                       | Hindi, Marathi, Sanskrit | नमस्ते (namaste): "hello"                                            |
 | [Ethiopic (Geʽez)](ethiopic-script.md)                                        | Amharic, Tigrinya        | ሰላም (selam): "hello" (Amharic; literally "peace")                    |
-| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut  | ᑖᓂᓯ (tânisi): "hello" (Cree)                                         |
+| [Tamil](../../terms/tamil-script.md)                                          | Tamil                    | வணக்கம் (vaṇakkam): "hello"                                          |
+| [Thai](../../terms/thai-script.md)                                            | Thai                     | สวัสดี (sawatdee): "hello"                                           |
+| [Tibetan](../../terms/tibetan-script.md)                                      | Tibetan, Dzongkha        | བཀྲ་ཤིས་བདེ་ལེགས (tashi delek): a greeting, literally "good fortune" |
 
 ### Why it matters in design systems
 
@@ -67,6 +66,6 @@ So an abugida needs real shaping support, not simple glyph-after-glyph placement
 ### Sources
 
 1. An abugida's base letters carry an inherent vowel that additional distinguishing marks change - Unicode Glossary: Abugida [https://www.unicode.org/glossary/#abugida](https://www.unicode.org/glossary/#abugida)
-2. An alphabet indicates both consonants and vowels - Unicode Glossary: Alphabet [https://www.unicode.org/glossary/#alphabet](https://www.unicode.org/glossary/#alphabet)
-3. An abjad indicates only consonants - Unicode Glossary: Abjad [https://www.unicode.org/glossary/#abjad](https://www.unicode.org/glossary/#abjad)
-4. In Devanagari the i-matra is stored after its consonant but displayed to its left, so it must be reordered for display - Microsoft: Developing OpenType Fonts for Devanagari Script [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+2. In Devanagari the i-matra is stored after its consonant but displayed to its left, so it must be reordered for display - Microsoft: Developing OpenType Fonts for Devanagari Script [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+3. An alphabet indicates both consonants and vowels - Unicode Glossary: Alphabet [https://www.unicode.org/glossary/#alphabet](https://www.unicode.org/glossary/#alphabet)
+4. An abjad indicates only consonants - Unicode Glossary: Abjad [https://www.unicode.org/glossary/#abjad](https://www.unicode.org/glossary/#abjad)

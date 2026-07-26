@@ -37,6 +37,7 @@ While this glossary doesn't cover every script, here are some syllabaries to be 
 
 | Script                              | Languages | Example |
 | ----------------------------------- | --------- | ------- |
+| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut | ᑖᓂᓯ (tânisi): "hello" (Cree) |
 | [Hiragana](../../terms/hiragana.md) | Japanese  | こんにちは (konnichiwa): "hello" |
 | [Katakana](../../terms/katakana.md) | Japanese  | ハロー (harō): "hello" (English loanword) |
 | Cherokee                            | Cherokee  | ᎣᏏᏲ (osiyo): "hello" |
@@ -52,7 +53,7 @@ For a design system the payoff is knowing what kind of set you are covering. A s
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Hiragana](../../terms/hiragana.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Katakana](../../terms/katakana.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Font coverage](../../terms/font-coverage.md) · [Hiragana](../../terms/hiragana.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Katakana](../../terms/katakana.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
