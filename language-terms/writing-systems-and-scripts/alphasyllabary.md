@@ -31,7 +31,7 @@ Alphasyllabary is a near-synonym for [abugida](abugida.md), a type of [script](s
 
 This glossary uses abugida as the main entry. See [abugida](abugida.md) for the full definition, the Devanagari example, and what it means for shaping and layout.
 
-<!-- NEEDS EXPERT REVIEW: per Bright (1999), the ʼPhags-pa script is cited as an abugida (inherent vowel) but not an alphasyllabary (vowels written in linear order, not as matras). Confirm against Bright 1999 before promoting this example into the body. -->
+<!-- NEEDS EXPERT REVIEW: ʼPhags-pa is commonly cited as an abugida (it has an inherent vowel) but not an alphasyllabary (its vowels are written in linear order, not as matras), illustrating the Daniels/Bright distinction. The exact primary source for this specific example is unconfirmed (uncited on Wikipedia; the surrounding distinction traces to Daniels & Bright 1996 and Bright 1997/1999). A linguist should confirm the attribution before promoting this example into the body. -->
 
 ***
 
