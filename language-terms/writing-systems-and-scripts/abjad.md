@@ -30,25 +30,25 @@ tags:
 
 ## Definition
 
-An abjad is a type of [script](script.md) in which each letter represents a consonant and vowels are usually left unwritten.<sup>1</sup> The [Arabic](arabic-script.md), [Hebrew](hebrew-script.md) and Syriac scripts are abjads.
+An abjad is a type of [script](script.md) in which each letter represents a consonant and vowels are usually left unwritten.<sup>1</sup> The [Arabic](arabic-script.md), [Hebrew](hebrew-script.md), and Syriac scripts are abjads.
 
 For example, the Arabic greeting مرحبا ("hello") is written as a run of consonant letters, with the short vowels left for the reader to fill in.
 
-The reader supplies the missing vowels from context, which is what sets an abjad apart from an [alphabet](alphabet.md), where consonants and vowels both get their own letters.<sup>2</sup>&#x20;
+The reader supplies the missing vowels from context, which is what sets an abjad apart from an [alphabet](alphabet.md), where consonants and vowels both get their own letters.<sup>2</sup>
 
 While this glossary doesn't cover every script, here are some abjads to be aware of. Select a linked term to navigate to its glossary page.
 
-| Script                     | Languages                  | Example of Hello! |
-| -------------------------- | -------------------------- | ----------------- |
-| [Arabic](arabic-script.md) | Arabic, Persian, Urdu      |    مرحبا          |
-| [Hebrew](hebrew-script.md) | Hebrew, Yiddish            |    שלום           |
-| Syriac                     | Syriac (a form of Aramaic) |    ܫܠܡܐ           |
+| Script                     | Languages                  | Example |
+| -------------------------- | -------------------------- | ------- |
+| [Arabic](arabic-script.md) | Arabic, Persian, Urdu      | مرحبا (marhaba): "hello" |
+| [Hebrew](hebrew-script.md) | Hebrew, Yiddish            | שלום (shalom): "hello" |
+| Syriac                     | Syriac (a form of Aramaic) | ܫܠܡܐ (shlama): "hello" |
 
 ### Why it matters in design systems
 
-If your design system supports a language whose [writing system](writing-system.md) uses an abjad, that can require substantially different typography, code, and design decisions than the alphabets most projects start from, such as the Latin script used for English.&#x20;
+If your design system supports a language whose [writing system](writing-system.md) uses an abjad, that can require substantially different typography, code, and design decisions than the alphabets most projects start from, such as the Latin script used for English.
 
-For example, [text direction](text-direction.md): Arabic and Hebrew run right to left,<sup>3</sup> so supporting them alongside English often means mirroring the entire layout of a component or pattern and handling complex text layouts and bidirectional text in code. It's not as simple as choosing a new typeface and swapping a font. In contrast, adding another same-direction alphabet is often much closer to that: choosing a font with the right coverage and moving on.&#x20;
+For example, [text direction](text-direction.md): Arabic and Hebrew run right to left,<sup>3</sup> so supporting them alongside English often means mirroring the entire layout of a component or pattern and handling complex text layouts and bidirectional text in code. It's not as simple as choosing a new typeface and swapping a font. In contrast, adding another same-direction alphabet is often much closer to that: choosing a font with the right coverage and moving on.
 
 While it's tempting to think that all abjads share the same design system requirements, they don't; be sure to consider each script's specific [script rules](script-rules.md) and each language's [orthography](orthography.md). It's also worth noting that a script type, abjad in this case, is not a fixed property of a script: it describes how a script is used in the writing system of a given language.
 
