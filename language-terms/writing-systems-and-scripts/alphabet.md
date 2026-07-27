@@ -49,7 +49,7 @@ While this glossary doesn't cover every script, here are some alphabets to be aw
 
 ### Why it matters in design systems
 
-Alphabets are the structure most interface and typeface tooling assumes by default, so it is easy to wrongly define "one letter per sound, in a line" as how all scripts work. However, it is one type of script among several, and "alphabet" is technically not fixed property of a script: it describes how a script is used for the writing system of a given language.
+Alphabets are the structure most interface and typeface tooling assumes by default, so it is easy to wrongly define "one letter per sound, in a line" as how all scripts work. However, it is one type of script among several, and "alphabet" is technically not a fixed property of a script: it describes how a script is used for the writing system of a given language.
 
 For example, the [Arabic script](arabic-script.md) is an [abjad](abjad.md) when it writes Arabic, with short vowels omitted, but it works as an alphabet when it writes languages such as Kashmiri or Uyghur, where every vowel is written.<sup>4</sup>
 

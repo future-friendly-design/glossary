@@ -46,7 +46,7 @@ While this glossary doesn't cover every script, here are some logographic script
 
 ### Why it matters in design systems
 
-The common shortcut is to call these characters "ideographic", as if each were a picture of an idea. That is mostly wrong: Han characters are tied to specific words and morphemes of a spoken language, and they represent them phonetically for the most part,<sup>3</sup> so [logographic](logographic.md) (or more precisely [logosyllabary](logosyllabary.md)) is the accurate term, not [ideographic](ideographic.md).
+The common shortcut is to call these characters "ideographic", as if each were a picture of an idea. That is mostly wrong: Han characters are tied to specific words and morphemes of a spoken language, and they represent them phonetically for the most part,<sup>3</sup> so logographic (or more precisely [logosyllabary](logosyllabary.md)) is the accurate term, not [ideographic](ideographic.md).
 
 For type and product work the defining consequence is scale. A logographic script needs thousands of distinct symbols rather than a few dozen letters, which drives [font](../../terms/font.md) file size and [subsetting](../../terms/font-subsetting.md), [glyph](../../terms/glyph.md) coverage, and input: text entry relies on an [input method editor](../../terms/input-method-editor.md) that converts typed sounds into characters, rather than one key per symbol.
 
