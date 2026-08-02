@@ -41,10 +41,10 @@ While this glossary doesn't cover every script, here are some alphabets to be aw
 
 | Script                         | Languages                            | Example                                        |
 | ------------------------------ | ------------------------------------ | ---------------------------------------------- |
-| [Armenian](armenian-script.md) | Armenian                             | Բարև (Barev): "hello"                          |
-| [Cyrillic](cyrillic.md)        | Russian, Serbian, Ukrainian          | Здравствуйте (Zdravstvujte): "hello" (Russian) |
+| [Armenian](armenian-script.md) | Armenian                             | Բարև (barev): "hello"                          |
+| [Cyrillic](cyrillic.md)        | Russian, Serbian, Ukrainian          | Здравствуйте (zdravstvujte): "hello" (Russian) |
 | [Georgian](georgian-script.md) | Georgian                             | გამარჯობა (gamarjoba): "hello"                 |
-| [Greek](greek-script.md)       | Greek                                | Γεια σου (Ya su): "hello"                      |
+| [Greek](greek-script.md)       | Greek                                | Γεια σου (ya su): "hello"                      |
 | [Latin](latin-script.md)       | English, French, Spanish, Vietnamese | Hello                                          |
 
 ### Why it matters in design systems
