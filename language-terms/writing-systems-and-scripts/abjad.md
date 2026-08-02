@@ -40,9 +40,9 @@ While this glossary doesn't cover every script, here are some abjads to be aware
 
 | Script                     | Languages                  | Example |
 | -------------------------- | -------------------------- | ------- |
-| [Arabic](arabic-script.md) | Arabic, Persian, Urdu      | مرحبا (marhaba): "hello" |
-| [Hebrew](hebrew-script.md) | Hebrew, Yiddish            | שלום (shalom): "hello" |
-| Syriac                     | Syriac (a form of Aramaic) | ܫܠܡܐ (shlama): "hello" |
+| [Arabic](arabic-script.md) | Arabic, Persian, Urdu      | marhaba (مرحبا): "hello" |
+| [Hebrew](hebrew-script.md) | Hebrew, Yiddish            | shalom (שלום): "hello" |
+| Syriac                     | Syriac (a form of Aramaic) | shlama (ܫܠܡܐ): "hello" |
 
 ### Why it matters in design systems
 
