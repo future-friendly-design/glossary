@@ -40,14 +40,14 @@ While this glossary doesn't cover every script, here are some syllabaries to be 
 | Script                              | Languages | Example |
 | ----------------------------------- | --------- | ------- |
 | [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut | ᑖᓂᓯ (tânisi): "hello" (Cree) |
-| Cherokee                            | Cherokee  | ᎣᏏᏲ (osiyo): "hello" |
+| Cherokee                            | Cherokee  | ᎣᏏᏲ (osiyo): "hello"<sup>4</sup> |
 | [Hiragana](../../terms/hiragana.md) | Japanese  | こんにちは (konnichiwa): "hello" |
 | [Katakana](../../terms/katakana.md) | Japanese  | ハロー (harō): "hello" (English loanword) |
-| Vai                                 | Vai       | ꘋꕯ ꖬꕎ ꘃꗡ ꗪ ꔤ ꕮ (ŋna suwa kɛɛ ɓɛ i ma): "hello" |
+| Vai                                 | Vai       | ꘋꕯ ꖬꕎ ꘃꗡ ꗪ ꔤ ꕮ (ŋna suwa kɛɛ ɓɛ i ma): "hello"<sup>5</sup> |
 
 ### Why it matters in design systems
 
-In a syllabary each symbol usually stands for a consonant-plus-vowel unit, and the symbols for different syllables are not built from a shared, systematic set of parts. That is the line between a syllabary and an [abugida](abugida.md): in an abugida, syllables that share a consonant share a base shape with vowel marks added,<sup>4</sup> whereas a syllabary gives each syllable its own distinct symbol. It also differs from a [logographic](logographic.md) script, whose symbols stand for meaning rather than sound.
+In a syllabary each symbol usually stands for a consonant-plus-vowel unit, and the symbols for different syllables are not built from a shared, systematic set of parts. That is the line between a syllabary and an [abugida](abugida.md): in an abugida, syllables that share a consonant share a base shape with vowel marks added,<sup>6</sup> whereas a syllabary gives each syllable its own distinct symbol. It also differs from a [logographic](logographic.md) script, whose symbols stand for meaning rather than sound.
 
 For a design system the payoff is knowing what kind of set you are covering. A syllabary is a fixed, learnable inventory of symbols, so [font coverage](../../terms/font-coverage.md) and keyboard or [input method](../../terms/input-method-editor.md) support target that whole set rather than a small recombining alphabet. Syllabaries also tend to appear mixed with other scripts: everyday Japanese runs hiragana and katakana together with logographic kanji on one line, so "supports Japanese" is never a single-script decision.
 
@@ -66,4 +66,6 @@ For a design system the payoff is knowing what kind of set you are covering. A s
 1. "A collective term for the two syllabic scripts used (along with kanji and romaji) by the Japanese writing system." (hiragana and katakana) - Unicode Glossary: Kana [https://www.unicode.org/glossary/#kana](https://www.unicode.org/glossary/#kana)
 2. "The Cherokee script is a syllabary developed between 1815 and 1821, to write the Cherokee language... The Cherokee syllabary, as invented by Sequoyah between 1815 and 1821, contained 6 vowels and 17 consonants." - The Unicode Standard, Version 17.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/)
 3. An alphabet indicates both consonants and vowels - Unicode Glossary: Alphabet [https://www.unicode.org/glossary/#alphabet](https://www.unicode.org/glossary/#alphabet)
-4. An abugida's base letters carry an inherent vowel that additional distinguishing marks change - Unicode Glossary: Abugida [https://www.unicode.org/glossary/#abugida](https://www.unicode.org/glossary/#abugida)
+4. ᎣᏏᏲ (osiyo) is listed as the Cherokee word for "hello" (general greeting) - Omniglot: Useful phrases in Cherokee [https://www.omniglot.com/language/phrases/cherokee.php](https://www.omniglot.com/language/phrases/cherokee.php)
+5. ꘋꕯ ꖬꕎ ꘃꗡ ꗪ ꔤ ꕮ (ŋna suwa kɛɛ ɓɛ i ma) is listed as the Vai phrase for "hello" (general greeting, addressing one person) - Omniglot: Useful phrases in Vai [https://www.omniglot.com/language/phrases/vai.htm](https://www.omniglot.com/language/phrases/vai.htm)
+6. An abugida's base letters carry an inherent vowel that additional distinguishing marks change - Unicode Glossary: Abugida [https://www.unicode.org/glossary/#abugida](https://www.unicode.org/glossary/#abugida)
