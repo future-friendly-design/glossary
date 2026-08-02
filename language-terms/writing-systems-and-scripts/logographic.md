@@ -54,7 +54,7 @@ For type and product work the defining consequence is scale. A logographic scrip
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Font](../../terms/font.md) · [Font subsetting](../../terms/font-subsetting.md) · [Glyph](../../terms/glyph.md) · [Han characters](../../terms/han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Font](../../terms/font.md) · [Font subsetting](../../terms/font-subsetting.md) · [Glyph](../../terms/glyph.md) · [Han characters](../../terms/han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Unicode Standard](../../terms/unicode-standard.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

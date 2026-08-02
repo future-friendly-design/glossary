@@ -58,7 +58,7 @@ For example, the Arabic script writes Arabic as an abjad, with short vowels omit
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Diacritic](diacritic.md) · [Hebrew script](hebrew-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Diacritic](diacritic.md) · [Font](../../terms/font.md) · [Hebrew script](hebrew-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
