@@ -49,5 +49,3 @@ The tempting shortcut is to treat letters as sounds: one symbol, one sound. Spel
 1. "A phoneme is ... the smallest possible phonetic unit ... that helps distinguish one word from another." [Phoneme (Wikipedia)](https://en.wikipedia.org/wiki/Phoneme)
 2. "A pair of words like kátur and gátur that differ only in one phone is called a minimal pair." [Phoneme (Wikipedia)](https://en.wikipedia.org/wiki/Phoneme)
 3. "The correspondence between symbols and phonemes in alphabetic writing systems is not necessarily a one-to-one correspondence." [Phoneme (Wikipedia)](https://en.wikipedia.org/wiki/Phoneme)
-</content>
-</invoke>

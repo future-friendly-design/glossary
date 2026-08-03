@@ -67,4 +67,3 @@ Treating captions in the spoken language as sign-language access. Captions rende
 4. "Sign languages are not universal and are usually not mutually intelligible, although there are similarities among different sign languages." [Sign language (Wikipedia)](https://en.wikipedia.org/wiki/Sign_language)
 5. "British Sign Language (BSL) and American Sign Language (ASL) are quite different and mutually unintelligible, even though the hearing people of the United Kingdom and the United States share the same spoken language." [Sign language (Wikipedia)](https://en.wikipedia.org/wiki/Sign_language)
 6. "Sign languages do not have a traditional or formal written form." [Sign language (Wikipedia)](https://en.wikipedia.org/wiki/Sign_language)
-</content>
