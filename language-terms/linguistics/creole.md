@@ -1,21 +1,30 @@
 ---
 term: Creole
 slug: creole
-aliases: [creole language]
-tags: [language-linguistics]
+aliases:
+  - creole language
 level: intermediate
 depth: core
-summary: A creole is a stable, full natural language that developed from a mixture of languages and became the native language of a community.
-related: [pidgin, lexifier, l1-speakers, language-family]
+summary: >-
+  A creole is a stable, full natural language that developed from a mixture of
+  languages and became the native language of a community.
+related:
+  - pidgin
+  - lexifier
+  - l1-speakers
+  - language-family
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-19
-contributors: [sam-gordashko]
+updated: 2026-06-19T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "JPCL Glossary of Pidgin and Creole Terms: Creole (Ohio State)"
+  - title: 'JPCL Glossary of Pidgin and Creole Terms: Creole (Ohio State)'
     url: https://linguistics.osu.edu/jpcl/resources/glossary/terms-ac
     type: authority
 license: CC-BY-4.0
+tags:
+  - language-linguistics
 ---
 
 # Creole
@@ -32,13 +41,11 @@ The damaging misconception is that a creole is a "broken" or simplified version 
 
 Haitian Creole is a French-based creole spoken natively by roughly 13 million people (2020 estimate); it is a co-official language of Haiti alongside French, and its orthography was standardized in 1979.<sup>3</sup>
 
-<!-- NEEDS EXPERT REVIEW: the Haitian Creole native-speaker figure (~13 million, 2020) is a commonly cited estimate; confirm against a current primary (e.g. Ethnologue) before publish. -->
-
 ***
 
 ### Related terms and mentions
 
-[Ethnologue](ethnologue.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Ethnologue](ethnologue.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

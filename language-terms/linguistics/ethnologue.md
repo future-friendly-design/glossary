@@ -2,10 +2,12 @@
 term: Ethnologue
 slug: ethnologue
 aliases:
-  - "Ethnologue: Languages of the World"
+  - 'Ethnologue: Languages of the World'
 level: foundational
 depth: core
-summary: Ethnologue is a comprehensive reference catalogue of the world's living languages, with data on speakers, locations, and classification.
+summary: >-
+  Ethnologue is a comprehensive reference catalogue of the world's living
+  languages, with data on speakers, locations, and classification.
 related:
   - glottolog
   - unesco-atlas-of-the-worlds-languages-in-danger
@@ -43,7 +45,7 @@ Checking how many people use a given language, you can look up its Ethnologue en
 
 ### Related terms and mentions
 
-[Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [SIL Global](../../design-terms/typography/sil.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](../../terms/language-linguistics.md) · [Reference sources](../../terms/reference-sources.md)
+[Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [SIL Global](../../design-terms/typography/sil.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY) · [Reference sources](../../terms/reference-sources.md)
 
 ### Further reading
 

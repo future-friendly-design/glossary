@@ -1,21 +1,29 @@
 ---
 term: Lexifier
 slug: lexifier
-aliases: [superstrate]
-tags: [language-linguistics]
+aliases:
+  - superstrate
 level: advanced
 depth: core
-summary: A lexifier is the language that supplies most of the vocabulary for a pidgin or creole.
-related: [creole, pidgin, language-family]
+summary: >-
+  A lexifier is the language that supplies most of the vocabulary for a pidgin
+  or creole.
+related:
+  - creole
+  - pidgin
+  - language-family
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-19
-contributors: [sam-gordashko]
+updated: 2026-06-19T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "JPCL Glossary of Pidgin and Creole Terms (Ohio State)"
+  - title: JPCL Glossary of Pidgin and Creole Terms (Ohio State)
     url: https://linguistics.osu.edu/jpcl/resources/glossary/terms-gl
     type: authority
 license: CC-BY-4.0
+tags:
+  - language-linguistics
 ---
 
 # Lexifier
@@ -36,7 +44,7 @@ French is the lexifier of Haitian Creole, which draws most of its vocabulary fro
 
 ### Related terms and mentions
 
-[Creole](creole.md) · [Dialect](dialect.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Creole](creole.md) · [Dialect](dialect.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

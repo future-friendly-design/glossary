@@ -1,21 +1,32 @@
 ---
 term: L1 speakers
 slug: l1-speakers
-aliases: [first-language speakers, native speakers, mother-tongue speakers]
-tags: [language-linguistics]
+aliases:
+  - first-language speakers
+  - native speakers
+  - mother-tongue speakers
 level: foundational
 depth: core
-summary: L1 speakers are people who learned a language as their first or native language, usually in childhood.
-related: [l2-speakers, ethnologue, endangered-language, macrolanguage]
+summary: >-
+  L1 speakers are people who learned a language as their first or native
+  language, usually in childhood.
+related:
+  - l2-speakers
+  - ethnologue
+  - endangered-language
+  - macrolanguage
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-19
-contributors: [sam-gordashko]
+updated: 2026-06-19T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Ethnologue: Methodology"
+  - title: 'Ethnologue: Methodology'
     url: https://www.ethnologue.com/methodology/
     type: authority
 license: CC-BY-4.0
+tags:
+  - language-linguistics
 ---
 
 # L1 speakers
@@ -36,7 +47,7 @@ For someone raised speaking Spanish at home, Spanish is their L1, whatever other
 
 ### Related terms and mentions
 
-[Endangered language](endangered-language.md) · [Ethnologue](ethnologue.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Macrolanguage](macrolanguage.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Endangered language](endangered-language.md) · [Ethnologue](ethnologue.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Macrolanguage](macrolanguage.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

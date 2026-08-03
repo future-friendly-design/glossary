@@ -1,21 +1,30 @@
 ---
 term: L2 speakers
 slug: l2-speakers
-aliases: [second-language speakers]
-tags: [language-linguistics]
+aliases:
+  - second-language speakers
 level: foundational
 depth: core
-summary: L2 speakers are people who use a language as a second (or additional) language rather than their native one.
-related: [l1-speakers, ethnologue, pidgin, creole]
+summary: >-
+  L2 speakers are people who use a language as a second (or additional) language
+  rather than their native one.
+related:
+  - l1-speakers
+  - ethnologue
+  - pidgin
+  - creole
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-19
-contributors: [sam-gordashko]
+updated: 2026-06-19T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Ethnologue: Methodology"
+  - title: 'Ethnologue: Methodology'
     url: https://www.ethnologue.com/methodology/
     type: authority
 license: CC-BY-4.0
+tags:
+  - language-linguistics
 ---
 
 # L2 speakers
@@ -36,7 +45,7 @@ Many people speak English as an L2, having learned it after their first language
 
 ### Related terms and mentions
 
-[Creole](creole.md) · [Ethnologue](ethnologue.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Pidgin](pidgin.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Creole](creole.md) · [Ethnologue](ethnologue.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Pidgin](pidgin.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

@@ -2,20 +2,28 @@
 term: Language family
 slug: language-family
 aliases: []
-tags: [language-linguistics]
 level: foundational
 depth: core
-summary: A language family is a group of languages that all descend from a single common ancestor, called its proto-language.
-related: [macrolanguage, iso-639-3, dialect, glottolog]
+summary: >-
+  A language family is a group of languages that all descend from a single
+  common ancestor, called its proto-language.
+related:
+  - macrolanguage
+  - iso-639-3
+  - dialect
+  - glottolog
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-19
-contributors: [sam-gordashko]
+updated: 2026-06-19T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Glottolog: Language families"
+  - title: 'Glottolog: Language families'
     url: https://glottolog.org/glottolog/family
     type: authority
 license: CC-BY-4.0
+tags:
+  - language-linguistics
 ---
 
 # Language family
@@ -36,7 +44,7 @@ English, Hindi, Russian, and Spanish all belong to the Indo-European family, yet
 
 ### Related terms and mentions
 
-[Cyrillic](../writing-systems-and-scripts/cyrillic.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Latin script](../writing-systems-and-scripts/latin-script.md) · [Macrolanguage](macrolanguage.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Cyrillic](../writing-systems-and-scripts/cyrillic.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Latin script](../writing-systems-and-scripts/latin-script.md) · [Macrolanguage](macrolanguage.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

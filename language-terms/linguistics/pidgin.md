@@ -1,21 +1,30 @@
 ---
 term: Pidgin
 slug: pidgin
-aliases: [pidgin language]
-tags: [language-linguistics]
+aliases:
+  - pidgin language
 level: intermediate
 depth: core
-summary: A pidgin is a simplified contact language that develops so speakers of different languages can communicate, and that nobody speaks as a native language.
-related: [creole, lexifier, l2-speakers]
+summary: >-
+  A pidgin is a simplified contact language that develops so speakers of
+  different languages can communicate, and that nobody speaks as a native
+  language.
+related:
+  - creole
+  - lexifier
+  - l2-speakers
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-19
-contributors: [sam-gordashko]
+updated: 2026-06-19T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "JPCL Glossary of Pidgin and Creole Terms: Pidgin (Ohio State)"
+  - title: 'JPCL Glossary of Pidgin and Creole Terms: Pidgin (Ohio State)'
     url: https://linguistics.osu.edu/jpcl/resources/glossary/terms-pr
     type: authority
 license: CC-BY-4.0
+tags:
+  - language-linguistics
 ---
 
 # Pidgin
@@ -36,7 +45,7 @@ A trade pidgin lets merchants from different language backgrounds bargain over g
 
 ### Related terms and mentions
 
-[Creole](creole.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Creole](creole.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

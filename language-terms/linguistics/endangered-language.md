@@ -4,7 +4,9 @@ slug: endangered-language
 aliases: []
 level: foundational
 depth: deep
-summary: An endangered language is one at risk of falling out of use because it is not being passed on to younger generations.
+summary: >-
+  An endangered language is one at risk of falling out of use because it is not
+  being passed on to younger generations.
 related:
   - unesco-endangerment-scale
   - l1-speakers
@@ -52,7 +54,7 @@ Treating endangerment as a number, or assuming "few speakers" means "not worth s
 
 ### Related terms and mentions
 
-[Autonym](autonym.md) · [Canadian Aboriginal Syllabics](../writing-systems-and-scripts/canadian-aboriginal-syllabics.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Ol Chiki](../writing-systems-and-scripts/ol-chiki.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Syloti Nagri](../writing-systems-and-scripts/syloti-nagri.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [UNESCO endangerment scale](unesco-endangerment-scale.md) · [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md) · [Wancho script](../writing-systems-and-scripts/wancho-script.md) · [Warang Citi](../writing-systems-and-scripts/warang-citi.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Autonym](autonym.md) · [Canadian Aboriginal Syllabics](../writing-systems-and-scripts/canadian-aboriginal-syllabics.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Ol Chiki](../writing-systems-and-scripts/ol-chiki.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Syloti Nagri](../writing-systems-and-scripts/syloti-nagri.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [UNESCO endangerment scale](unesco-endangerment-scale.md) · [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md) · [Wancho script](../writing-systems-and-scripts/wancho-script.md) · [Warang Citi](../writing-systems-and-scripts/warang-citi.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

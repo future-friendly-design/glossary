@@ -6,7 +6,7 @@
 
 ## language and linguistics terms <a href="#language-terms" id="language-terms"></a>
 
-* [Writing systems & scripts](language-terms/writing-systems-and-scripts/README.md)
+* [Writing systems & script terms](language-terms/writing-systems-and-scripts/README.md)
   * [Abjad](language-terms/writing-systems-and-scripts/abjad.md)
   * [Abugida](language-terms/writing-systems-and-scripts/abugida.md)
   * [Alphabet](language-terms/writing-systems-and-scripts/alphabet.md)
@@ -68,7 +68,7 @@
   * [Wancho script](language-terms/writing-systems-and-scripts/wancho-script.md)
   * [Warang Citi script](language-terms/writing-systems-and-scripts/warang-citi.md)
   * [Writing system](language-terms/writing-systems-and-scripts/writing-system.md)
-* [Linguistics](language-terms/linguistics/README.md)
+* [Language & linguistic terms](language-terms/linguistics/README.md)
   * [Agglutinative language](language-terms/linguistics/agglutinative-language.md)
   * [Autonym](language-terms/linguistics/autonym.md)
   * [Creole](language-terms/linguistics/creole.md)
@@ -76,18 +76,15 @@
   * [Endangered language](language-terms/linguistics/endangered-language.md)
   * [Ethnologue](language-terms/linguistics/ethnologue.md)
   * [Exonym](language-terms/linguistics/exonym.md)
-  * [Grapheme](language-terms/linguistics/grapheme.md)
   * [Glottolog](language-terms/linguistics/glottolog.md)
   * [ISO 639-3](language-terms/linguistics/iso-639-3.md)
   * [L1 speakers](language-terms/linguistics/l1-speakers.md)
   * [L2 speakers](language-terms/linguistics/l2-speakers.md)
   * [Language](language-terms/linguistics/language.md)
   * [Language family](language-terms/linguistics/language-family.md)
-  * [Legibility](language-terms/linguistics/legibility.md)
   * [Lexifier](language-terms/linguistics/lexifier.md)
   * [Macrolanguage](language-terms/linguistics/macrolanguage.md)
   * [Pidgin](language-terms/linguistics/pidgin.md)
-  * [Readability](language-terms/linguistics/readability.md)
   * [UNESCO Atlas of the World's Languages in Danger](language-terms/linguistics/unesco-atlas-of-the-worlds-languages-in-danger.md)
   * [UNESCO endangerment scale](language-terms/linguistics/unesco-endangerment-scale.md)
 
@@ -116,15 +113,8 @@
   * [Letter spacing](design-terms/typography/letter-spacing.md)
   * [Leading](design-terms/typography/leading.md)
   * [Font weight](design-terms/typography/font-weight.md)
-
-## Browse by topic
-
-* [Typography](terms/typography.md)
-* [Characters, encoding & text model](terms/characters-encoding.md)
-* [Shaping & layout](terms/shaping-layout.md)
-* [Internationalization & engineering](terms/i18n-engineering.md)
-* [Reference sources](terms/reference-sources.md)
-* [Language & linguistics](terms/language-linguistics.md)
+  * [Legibility](design-terms/typography/legibility.md)
+  * [Readability](design-terms/typography/readability.md)
 
 ## Programming Terms
 
@@ -171,6 +161,15 @@
   * [UTF-16](programming-terms/text-for-digital-products-and-the-web/utf-16.md)
   * [Text expansion](programming-terms/text-for-digital-products-and-the-web/text-expansion.md)
   * [Faux bold](programming-terms/text-for-digital-products-and-the-web/faux-bold.md)
+  * [Grapheme](programming-terms/text-for-digital-products-and-the-web/grapheme.md)
+
+## Browse by topic
+
+* [Typography](terms/typography.md)
+* [Characters, encoding & text model](terms/characters-encoding.md)
+* [Shaping & layout](terms/shaping-layout.md)
+* [Internationalization & engineering](terms/i18n-engineering.md)
+* [Reference sources](terms/reference-sources.md)
 
 ## Sandbox (temporary)
 

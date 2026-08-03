@@ -4,7 +4,9 @@ slug: agglutinative-language
 aliases: []
 level: intermediate
 depth: core
-summary: An agglutinative language is a type of language that builds words by stringing together many separate word-parts, each carrying one clear piece of meaning.
+summary: >-
+  An agglutinative language is a type of language that builds words by stringing
+  together many separate word-parts, each carrying one clear piece of meaning.
 related:
   - orthography
   - language-family
@@ -41,7 +43,7 @@ The Turkish word "arabalarına" ("to their cars") stacks four parts: araba (car)
 
 ### Related terms and mentions
 
-[Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pseudolocalization](../../programming-terms/text-for-digital-products-and-the-web/pseudolocalization.md) · [Text expansion](../../programming-terms/text-for-digital-products-and-the-web/text-expansion.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pseudolocalization](../../programming-terms/text-for-digital-products-and-the-web/pseudolocalization.md) · [Text expansion](../../programming-terms/text-for-digital-products-and-the-web/text-expansion.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

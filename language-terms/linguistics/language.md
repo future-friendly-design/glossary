@@ -4,7 +4,9 @@ slug: language
 aliases: []
 level: foundational
 depth: deep
-summary: A language is a system a community uses to communicate in speech or sign; writing is a separate layer added on top of it.
+summary: >-
+  A language is a system a community uses to communicate in speech or sign;
+  writing is a separate layer added on top of it.
 related:
   - language-family
   - dialect
@@ -54,7 +56,7 @@ Treating a language as if it were a country or a [locale](../../programming-term
 
 ### Related terms and mentions
 
-[Autonym](autonym.md) · [Dialect](dialect.md) · [ISO 639-3](iso-639-3.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Script](../writing-systems-and-scripts/script.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Autonym](autonym.md) · [Dialect](dialect.md) · [ISO 639-3](iso-639-3.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Script](../writing-systems-and-scripts/script.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 
@@ -63,4 +65,4 @@ Treating a language as if it were a country or a [locale](../../programming-term
 ### Sources
 
 1. "Serbian is a rare example of synchronic digraphia, using both Cyrillic and Latin scripts." [Serbian language (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_language)
-2. Chinese [zho] is listed as a macrolanguage containing Mandarin Chinese [cmn] and Yue Chinese (Cantonese) [yue] as separate individual languages. [ISO 639-3: zho (SIL)](https://iso639-3.sil.org/code/zho)
+2. Chinese \[zho] is listed as a macrolanguage containing Mandarin Chinese \[cmn] and Yue Chinese (Cantonese) \[yue] as separate individual languages. [ISO 639-3: zho (SIL)](https://iso639-3.sil.org/code/zho)

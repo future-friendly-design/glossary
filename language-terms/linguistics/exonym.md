@@ -4,7 +4,9 @@ slug: exonym
 aliases: []
 level: intermediate
 depth: core
-summary: An exonym is the name outsiders use for a language, place, or people, different from the name that group uses for itself.
+summary: >-
+  An exonym is the name outsiders use for a language, place, or people,
+  different from the name that group uses for itself.
 related:
   - autonym
   - localization
@@ -42,7 +44,7 @@ English speakers say "German," "Finnish," and "Japanese"; the speakers themselve
 
 ### Related terms and mentions
 
-[Autonym](autonym.md) · [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Autonym](autonym.md) · [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 

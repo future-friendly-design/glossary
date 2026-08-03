@@ -2,20 +2,27 @@
 term: Macrolanguage
 slug: macrolanguage
 aliases: []
-tags: [language-linguistics]
 level: intermediate
 depth: core
-summary: A macrolanguage is an ISO 639-3 grouping of several closely related individual languages that are treated as one language in some contexts.
-related: [iso-639-3, language-family, dialect]
+summary: >-
+  A macrolanguage is an ISO 639-3 grouping of several closely related individual
+  languages that are treated as one language in some contexts.
+related:
+  - iso-639-3
+  - language-family
+  - dialect
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-19
-contributors: [sam-gordashko]
+updated: 2026-06-19T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "ISO 639-3: Scope of denotation"
+  - title: 'ISO 639-3: Scope of denotation'
     url: https://iso639-3.sil.org/about/scope
     type: authority
 license: CC-BY-4.0
+tags:
+  - language-linguistics
 ---
 
 # Macrolanguage
@@ -36,7 +43,7 @@ Arabic (`ara`) is a macrolanguage; ISO 639-3 lists 28 individual languages under
 
 ### Related terms and mentions
 
-[Dialect](dialect.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Dialect](dialect.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
 
 ### Further reading
 
@@ -45,4 +52,4 @@ Arabic (`ara`) is a macrolanguage; ISO 639-3 lists 28 individual languages under
 ### Sources
 
 1. Macrolanguages exist where clusters of closely related varieties can be considered distinct individual languages, yet "in certain usage contexts a single language identity for all is needed." [ISO 639-3: Scope of denotation (SIL)](https://iso639-3.sil.org/about/scope)
-2. Arabic [ara] is a macrolanguage containing 28 individual languages, including Standard Arabic [arb], Egyptian Arabic [arz], and Moroccan Arabic [ary]. [ISO 639-3: ara (SIL)](https://iso639-3.sil.org/code/ara)
+2. Arabic \[ara] is a macrolanguage containing 28 individual languages, including Standard Arabic \[arb], Egyptian Arabic \[arz], and Moroccan Arabic \[ary]. [ISO 639-3: ara (SIL)](https://iso639-3.sil.org/code/ara)

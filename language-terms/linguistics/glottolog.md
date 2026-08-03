@@ -2,22 +2,27 @@
 term: Glottolog
 slug: glottolog
 aliases: []
-tags:
-  - language-linguistics
-  - reference-sources
 level: foundational
 depth: core
-summary: Glottolog is a free online catalogue of the world's languages, families, and dialects, each given a stable identifier called a glottocode.
-related: [ethnologue, unesco-atlas-of-the-worlds-languages-in-danger]
+summary: >-
+  Glottolog is a free online catalogue of the world's languages, families, and
+  dialects, each given a stable identifier called a glottocode.
+related:
+  - ethnologue
+  - unesco-atlas-of-the-worlds-languages-in-danger
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18
-contributors: [sam-gordashko]
+updated: 2026-06-18T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Glottolog"
+  - title: Glottolog
     url: https://glottolog.org/
     type: authority
 license: CC-BY-4.0
+tags:
+  - language-linguistics
+  - reference-sources
 ---
 
 # Glottolog
@@ -38,7 +43,7 @@ The English language carries the glottocode `stan1293`, a stable identifier othe
 
 ### Related terms and mentions
 
-[Ethnologue](ethnologue.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](../../terms/language-linguistics.md) · [Reference sources](../../terms/reference-sources.md)
+[Ethnologue](ethnologue.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY) · [Reference sources](../../terms/reference-sources.md)
 
 ### Further reading
 

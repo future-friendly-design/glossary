@@ -1,4 +1,4 @@
-# Writing systems & scripts
+# Writing systems & script terms
 
 ## What is a writing system
 
@@ -58,7 +58,7 @@ A script consists of the visual symbols and marks used to write a language, plus
 
 A symbol is an individual visual element that makes up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.
 
-* [Grapheme](../linguistics/grapheme.md)
+* [Grapheme](../../programming-terms/text-for-digital-products-and-the-web/grapheme.md)
 * [Grapheme cluster](../../programming-terms/text-for-digital-products-and-the-web/grapheme-cluster.md)
 * [Symbol](symbol.md)
 
