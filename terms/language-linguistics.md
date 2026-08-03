@@ -38,7 +38,8 @@ A language is not the same thing as the [script](../language-terms/writing-syste
 
 A guided tour of the language and linguistics terms in this glossary, grouped by what they help you reason about:
 
-* **The big picture:** [Language](../language-terms/linguistics/language.md)
+* **The big picture:** [Language](../language-terms/linguistics/language.md), [Sign language](../language-terms/linguistics/sign-language.md)
+* **Sounds and units:** [Phoneme](../language-terms/linguistics/phoneme.md)
 * **Classification and codes:** [Dialect](../language-terms/linguistics/dialect.md), [ISO 639-3](../language-terms/linguistics/iso-639-3.md), [Language family](../language-terms/linguistics/language-family.md), [Macrolanguage](../language-terms/linguistics/macrolanguage.md)
 * **Names for languages:** [Autonym](../language-terms/linguistics/autonym.md), [Exonym](../language-terms/linguistics/exonym.md)
 * **Language types and contact:** [Agglutinative language](../language-terms/linguistics/agglutinative-language.md), [Creole](../language-terms/linguistics/creole.md), [Lexifier](../language-terms/linguistics/lexifier.md), [Pidgin](../language-terms/linguistics/pidgin.md)

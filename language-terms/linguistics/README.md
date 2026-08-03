@@ -30,9 +30,16 @@ If you have a term you would like to see added, head to the [contributing page](
 
 #### The big picture
 
-Everything else in this cluster hangs off one term: what a language is, and how it differs from the script and writing system used to record it.
+Everything else in this cluster hangs off one term: what a language is, and how it differs from the script and writing system used to record it. A language can be spoken or signed, so a sign language is a full language in its own right, not a writing system.
 
 * [Language](language.md)
+* [Sign language](sign-language.md)
+
+#### Sounds and units
+
+The smallest building blocks a spoken language is made of, below the level of the word.
+
+* [Phoneme](phoneme.md)
 
 #### Classification and codes
 
