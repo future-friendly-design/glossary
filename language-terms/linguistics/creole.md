@@ -38,7 +38,7 @@ Haitian Creole is a French-based creole spoken natively by roughly 13 million pe
 
 ### Related terms and mentions
 
-[Pidgin](pidgin.md) · [Lexifier](lexifier.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Ethnologue](ethnologue.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Pidgin](pidgin.md) · [Lexifier](lexifier.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Ethnologue](ethnologue.md) · [Language & linguistics](../../terms/language-linguistics.md)
 
 ### Further reading
 
@@ -47,5 +47,5 @@ Haitian Creole is a French-based creole spoken natively by roughly 13 million pe
 ### Sources
 
 1. A creole is "a stable form of contact language that develops from the process of different languages simplifying and mixing into a new form (often a pidgin)." [Creole language (Wikipedia)](https://en.wikipedia.org/wiki/Creole_language)
-2. A creole is "a language that developed from a pidgin by expanding its vocabulary and acquiring a more complex grammatical structure," and is the native language of most of its speakers. [JPCL Glossary of Pidgin and Creole Terms (Ohio State)](https://linguistics.osu.edu/jpcl/resources/glossary/terms-ac)
+2. A creole is "a language that developed from a pidgin by expanding its vocabulary and acquiring a more complex grammatical structure"; the same glossary, quoting DeCamp, adds that a creole is "the native language of most of its speakers." [JPCL Glossary of Pidgin and Creole Terms: Creole (Ohio State)](https://linguistics.osu.edu/jpcl/resources/glossary/terms-ac)
 3. Haitian Creole is a French-based creole with about 13 million native speakers (2020); the 1987 Constitution names it and French the official languages, and its orthography was standardized in 1979. [Haitian Creole (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_Creole)
