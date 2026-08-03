@@ -41,7 +41,7 @@ Sorting strings by their raw code points (the default in most languages' built-i
 - **Sort keys for performance:** when sorting large sets repeatedly, generate collation sort keys once instead of comparing pairwise every time.
 
 ## Related terms
-[Locale](locale.md) · [ICU](icu.md) · [CLDR](cldr.md) · [Localization](localization.md)
+[CLDR](cldr.md) · [ICU](icu.md) · [Locale](locale.md) · [Localization](localization.md)
 
 ## Further reading
 - Code & specs: [Intl.Collator (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator)

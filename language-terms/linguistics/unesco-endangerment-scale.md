@@ -30,7 +30,7 @@ Used in UNESCO's [Atlas of the World's Languages in Danger](unesco-atlas-of-the-
 The scale's categories run from "safe" (the language is spoken across all generations) to "extinct" (no speakers remain), with intermediate levels describing how much intergenerational transmission has narrowed.
 
 ## Related terms
-[Endangered language](endangered-language.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [L1 speakers](l1-speakers.md)
+[Endangered language](endangered-language.md) · [L1 speakers](l1-speakers.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md)
 
 ## Further reading
 - Foundations: [Degree of endangerment (Wikipedia)](https://en.wikipedia.org/wiki/Degree_of_endangerment)

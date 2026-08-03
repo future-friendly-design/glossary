@@ -40,7 +40,7 @@ The vertical stroke of a lowercase "h" that extends above the "x" is its ascende
 
 ## Related terms
 
-[Descender](descender.md) · [x-height](x-height.md) · [Cap height](cap-height.md) · [Baseline](baseline.md) · [Line height](line-height.md)
+[Baseline](baseline.md) · [Cap height](cap-height.md) · [Descender](descender.md) · [Line height](line-height.md) · [x-height](x-height.md)
 
 ## Further reading
 

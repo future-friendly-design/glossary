@@ -65,7 +65,7 @@ Copying the trimmed look from a Figma mockup straight into CSS and assuming it j
 
 ## Related terms
 
-[Cap height](cap-height.md) · [Baseline](baseline.md) · [Line height](line-height.md) · [Leading](leading.md)
+[Baseline](baseline.md) · [Cap height](cap-height.md) · [Leading](leading.md) · [Line height](line-height.md)
 
 ## Further reading
 

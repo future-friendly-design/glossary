@@ -56,7 +56,7 @@ For body text, a ratio of about 1.4 to 1.6 times the font size is a comfortable 
 
 ## Related terms
 
-[Line height](line-height.md) · [Tracking](tracking.md) · [Baseline](baseline.md) · [Measure](measure.md)
+[Baseline](baseline.md) · [Line height](line-height.md) · [Measure](measure.md) · [Tracking](tracking.md)
 
 ## Further reading
 

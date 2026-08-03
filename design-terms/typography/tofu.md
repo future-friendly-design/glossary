@@ -43,7 +43,7 @@ A page using a Latin-only font may show tofu boxes where Tibetan or emoji should
 
 ## Related terms
 
-[Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md)
+[Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md)
 
 ## Further reading
 

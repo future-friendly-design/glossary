@@ -69,7 +69,7 @@ In Figma the field is "Letter spacing," set in pixels or as a percentage of font
 
 ## Related terms
 
-[Tracking](tracking.md) · [Kerning](kerning.md)
+[Kerning](kerning.md) · [Tracking](tracking.md)
 
 ## Further reading
 

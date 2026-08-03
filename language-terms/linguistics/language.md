@@ -54,7 +54,7 @@ Treating a language as if it were a country or a [locale](../../programming-term
 
 ### Related terms and mentions
 
-[Language family](language-family.md) · [Dialect](dialect.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Script](../writing-systems-and-scripts/script.md) · [ISO 639-3](iso-639-3.md) · [Autonym](autonym.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Autonym](autonym.md) · [Dialect](dialect.md) · [ISO 639-3](iso-639-3.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Script](../writing-systems-and-scripts/script.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](../../terms/language-linguistics.md)
 
 ### Further reading
 

@@ -42,7 +42,7 @@ Designers checking how many people use a given language can look up its Ethnolog
 
 ## Related terms
 
-[Glottolog](glottolog.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [SIL](../../design-terms/typography/sil.md)
+[Glottolog](glottolog.md) · [SIL](../../design-terms/typography/sil.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md)
 
 ## Further reading
 

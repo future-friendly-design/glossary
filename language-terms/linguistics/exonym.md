@@ -42,7 +42,7 @@ An exonym is the flip side of an [autonym](autonym.md): the name given from outs
 
 ## Related terms
 
-[Autonym](autonym.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [ISO 639-3](iso-639-3.md)
+[Autonym](autonym.md) · [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [ISO 639-3](iso-639-3.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md)
 
 ## Further reading
 

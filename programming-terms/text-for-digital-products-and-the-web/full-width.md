@@ -55,7 +55,7 @@ Treating the Halfwidth and Fullwidth Forms block as the normal way to set CJK wi
 
 ## Related terms
 
-[Tategaki](../../language-terms/writing-systems-and-scripts/tategaki.md) · [Font coverage](font-coverage.md)
+[Font coverage](font-coverage.md) · [Tategaki](../../language-terms/writing-systems-and-scripts/tategaki.md)
 
 ## Further reading
 

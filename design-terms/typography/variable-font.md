@@ -62,7 +62,7 @@ Assuming a variable font is automatically the lighter choice. It bundles many st
 
 ## Related terms
 
-[Font weight](font-weight.md) · [Typeface](typeface.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md)
+[Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Font weight](font-weight.md) · [Typeface](typeface.md)
 
 ## Further reading
 

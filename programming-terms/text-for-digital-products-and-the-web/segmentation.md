@@ -62,7 +62,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### Related terms and mentions
 
-[CLDR](cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](icu.md) · [Internationalization](internationalization.md) · [Internationalization & engineering](../../terms/i18n-engineering.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md)
+[CLDR](cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](icu.md) · [Internationalization](internationalization.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
 
 ### Further reading
 

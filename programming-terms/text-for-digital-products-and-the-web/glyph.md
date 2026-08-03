@@ -30,7 +30,7 @@ This is the difference between what text *is* and what text *looks like*. A char
 The lowercase "a" is one character, but a font decides how to draw it. Its glyph looks quite different in a serif typeface (one with small finishing strokes on the letters) than in a sans-serif (one without them).
 
 ## Related terms
-[Character](character.md) · [Font](font.md) · [Code point](code-point.md) · [Ligature](ligature.md)
+[Character](character.md) · [Code point](code-point.md) · [Font](font.md) · [Ligature](ligature.md)
 
 ## Further reading
 - Foundations: [Unicode Glossary: Glyph](https://www.unicode.org/glossary/#glyph)

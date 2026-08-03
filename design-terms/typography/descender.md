@@ -40,7 +40,7 @@ The tail of a lowercase "y" that hangs below the baseline is its descender.
 
 ## Related terms
 
-[Ascender](ascender.md) · [Baseline](baseline.md) · [x-height](x-height.md) · [Leading](leading.md) · [Line height](line-height.md)
+[Ascender](ascender.md) · [Baseline](baseline.md) · [Leading](leading.md) · [Line height](line-height.md) · [x-height](x-height.md)
 
 ## Further reading
 

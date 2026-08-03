@@ -45,7 +45,7 @@ A single OpenType font can include small caps, ligatures, and multiple language 
 
 ## Related terms
 
-[OpenType features](opentype-features.md) · [GSUB](../../programming-terms/text-for-digital-products-and-the-web/gsub.md) · [GPOS](../../programming-terms/text-for-digital-products-and-the-web/gpos.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md)
+[Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [GPOS](../../programming-terms/text-for-digital-products-and-the-web/gpos.md) · [GSUB](../../programming-terms/text-for-digital-products-and-the-web/gsub.md) · [OpenType features](opentype-features.md)
 
 ## Further reading
 

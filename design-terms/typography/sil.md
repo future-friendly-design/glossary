@@ -47,7 +47,7 @@ A linguist publishing in a language with many accented letters might set the tex
 
 ## Related terms
 
-[Noto fonts](noto-fonts.md) · [Ethnologue](../../language-terms/linguistics/ethnologue.md) · [Unicode Standard](../../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md)
+[Ethnologue](../../language-terms/linguistics/ethnologue.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Noto fonts](noto-fonts.md) · [Unicode Standard](../../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md)
 
 ## Further reading
 

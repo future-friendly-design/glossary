@@ -36,7 +36,7 @@ French is the lexifier of Haitian Creole, which draws most of its vocabulary fro
 
 ### Related terms and mentions
 
-[Creole](creole.md) · [Pidgin](pidgin.md) · [Language](language.md) · [Dialect](dialect.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Creole](creole.md) · [Dialect](dialect.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](../../terms/language-linguistics.md)
 
 ### Further reading
 

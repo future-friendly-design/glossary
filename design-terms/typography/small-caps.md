@@ -55,7 +55,7 @@ Letting an app fake them. Faux small caps, made by just shrinking the capitals, 
 
 ## Related terms
 
-[Figure styles](../../programming-terms/text-for-digital-products-and-the-web/figure-styles.md) · [x-height](x-height.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Figure styles](../../programming-terms/text-for-digital-products-and-the-web/figure-styles.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [x-height](x-height.md)
 
 ## Further reading
 

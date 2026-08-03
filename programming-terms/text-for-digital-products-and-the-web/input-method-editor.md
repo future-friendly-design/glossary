@@ -52,7 +52,7 @@ Running per-keystroke logic (validation, live search, autocomplete, submit-on-En
 
 ## Related terms
 
-[Keyboard layout](keyboard-layout.md) · [Internationalization](internationalization.md) · [Segmentation](segmentation.md)
+[Internationalization](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Segmentation](segmentation.md)
 
 ## Further reading
 

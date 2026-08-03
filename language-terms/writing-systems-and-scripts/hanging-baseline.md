@@ -64,7 +64,7 @@ On the web, CSS exposes this directly: the `hanging` value of `dominant-baseline
 
 ### Related terms and mentions
 
-[Ascender](../../design-terms/typography/ascender.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese script](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [Descender](../../design-terms/typography/descender.md) · [Devanagari script](devanagari.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Latin script](latin-script.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script rules](script-rules.md) · [Shirorekha](shirorekha.md) · [Symbol](symbol.md) · [Tamil script](tamil-script.md) · [Tibetan script](tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
+[Ascender](../../design-terms/typography/ascender.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese script](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [Descender](../../design-terms/typography/descender.md) · [Devanagari script](devanagari.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Latin script](latin-script.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script rules](script-rules.md) · [Shirorekha](shirorekha.md) · [Symbol](symbol.md) · [Tamil script](tamil-script.md) · [Tibetan script](tibetan-script.md) · [Writing systems & scripts](./) · [Typography](../../terms/typography.md)
 
 ### Further reading
 

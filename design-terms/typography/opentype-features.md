@@ -58,7 +58,7 @@ Reaching for the low-level `font-feature-settings` for everything. It does not i
 
 ## Related terms
 
-[OpenType](opentype.md) · [GSUB](../../programming-terms/text-for-digital-products-and-the-web/gsub.md) · [GPOS](../../programming-terms/text-for-digital-products-and-the-web/gpos.md) · [Ligature](../../programming-terms/text-for-digital-products-and-the-web/ligature.md)
+[GPOS](../../programming-terms/text-for-digital-products-and-the-web/gpos.md) · [GSUB](../../programming-terms/text-for-digital-products-and-the-web/gsub.md) · [Ligature](../../programming-terms/text-for-digital-products-and-the-web/ligature.md) · [OpenType](opentype.md)
 
 ## Further reading
 

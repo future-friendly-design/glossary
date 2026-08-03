@@ -36,7 +36,7 @@ A trade pidgin lets merchants from different language backgrounds bargain over g
 
 ### Related terms and mentions
 
-[Creole](creole.md) · [Lexifier](lexifier.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Creole](creole.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](../../terms/language-linguistics.md)
 
 ### Further reading
 

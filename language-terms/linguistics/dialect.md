@@ -43,7 +43,7 @@ British and American English are dialects of English that differ in spelling ("c
 
 ### Related terms and mentions
 
-[Language](language.md) · [Macrolanguage](macrolanguage.md) · [Language family](language-family.md) · [Autonym](autonym.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Autonym](autonym.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Language & linguistics](../../terms/language-linguistics.md)
 
 ### Further reading
 

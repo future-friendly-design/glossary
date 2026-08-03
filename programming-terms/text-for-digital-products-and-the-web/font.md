@@ -55,7 +55,7 @@ Assuming a font carries every weight and style. A single font file is usually on
 
 ## Related terms
 
-[Typeface](../../design-terms/typography/typeface.md) · [Font weight](../../design-terms/typography/font-weight.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Faux bold](faux-bold.md)
+[Faux bold](faux-bold.md) · [Font weight](../../design-terms/typography/font-weight.md) · [Typeface](../../design-terms/typography/typeface.md) · [Variable font](../../design-terms/typography/variable-font.md)
 
 ## Further reading
 

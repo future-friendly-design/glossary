@@ -54,7 +54,7 @@ For type and product work the defining consequence is scale. A logographic scrip
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Han characters script](han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Unicode Standard](../../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Han characters script](han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Syllabary](syllabary.md) · [Symbol](symbol.md) · [Unicode Standard](../../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -45,7 +45,7 @@ Java's and .NET's date and number formatting are backed by ICU and CLDR data.
 
 ## Related terms
 
-[CLDR](cldr.md) · [Collation](collation.md) · [Segmentation](segmentation.md) · [Locale](locale.md)
+[CLDR](cldr.md) · [Collation](collation.md) · [Locale](locale.md) · [Segmentation](segmentation.md)
 
 ## Further reading
 

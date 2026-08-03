@@ -83,7 +83,7 @@ When a language has more than one writing system, let the reader choose instead 
 
 ### Related terms and mentions
 
-[Cyrillic script](cyrillic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Hiragana script](hiragana.md) · [Katakana script](katakana.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
+[Cyrillic script](cyrillic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Hiragana script](hiragana.md) · [Katakana script](katakana.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Writing systems & scripts](./) · [Typography](../../terms/typography.md)
 
 ### Further reading
 

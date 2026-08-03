@@ -59,7 +59,7 @@ Comparing, searching, or deduplicating user text without normalizing first. Two 
 
 ## Related terms
 
-[Precomposed character](precomposed-character.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Unicode](unicode.md) · [Full-width](full-width.md)
+[Combining mark](combining-mark.md) · [Full-width](full-width.md) · [Grapheme cluster](grapheme-cluster.md) · [Precomposed character](precomposed-character.md) · [Unicode](unicode.md)
 
 ## Further reading
 

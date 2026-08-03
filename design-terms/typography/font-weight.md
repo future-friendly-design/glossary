@@ -63,7 +63,7 @@ Asking for a weight the family does not actually ship. If a typeface has no bold
 
 ## Related terms
 
-[Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Variable font](variable-font.md) · [Typeface](typeface.md)
+[Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Typeface](typeface.md) · [Variable font](variable-font.md)
 
 ## Further reading
 

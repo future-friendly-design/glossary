@@ -42,7 +42,7 @@ The letter "b" is one grapheme; it can be set in countless glyphs across typefac
 
 ## Related terms
 
-[Grapheme cluster](../../programming-terms/text-for-digital-products-and-the-web/grapheme-cluster.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Character](../../programming-terms/text-for-digital-products-and-the-web/character.md) · [Code point](../../programming-terms/text-for-digital-products-and-the-web/code-point.md)
+[Character](../../programming-terms/text-for-digital-products-and-the-web/character.md) · [Code point](../../programming-terms/text-for-digital-products-and-the-web/code-point.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](../../programming-terms/text-for-digital-products-and-the-web/grapheme-cluster.md)
 
 ## Further reading
 

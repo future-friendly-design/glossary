@@ -38,7 +38,7 @@ Leaving the generic family off the end of the stack, or assuming the fallback lo
 - **Languages:** for multilingual interfaces, include script-appropriate fallbacks (for example a CJK fallback) rather than trusting the generic family alone to produce a good result.
 
 ## Related terms
-[Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Font](font.md)
+[Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md)
 
 ## Further reading
 - Code & specs: [font-family (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)

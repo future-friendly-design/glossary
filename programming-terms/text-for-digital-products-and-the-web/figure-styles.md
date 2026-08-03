@@ -55,7 +55,7 @@ Using proportional figures in a table, so the columns of numbers do not line up 
 
 ## Related terms
 
-[Small caps](../../design-terms/typography/small-caps.md) · [Cap height](../../design-terms/typography/cap-height.md) · [x-height](../../design-terms/typography/x-height.md)
+[Cap height](../../design-terms/typography/cap-height.md) · [Small caps](../../design-terms/typography/small-caps.md) · [x-height](../../design-terms/typography/x-height.md)
 
 ## Further reading
 

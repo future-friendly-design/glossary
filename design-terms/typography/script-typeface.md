@@ -45,7 +45,7 @@ A wedding-invitation font with looping, connected letters is a script typeface; 
 
 ## Related terms
 
-[Typeface](typeface.md) · [Typography](../../terms/typography.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md)
+[Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Typography](../../terms/typography.md)
 
 ## Further reading
 

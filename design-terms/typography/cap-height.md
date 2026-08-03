@@ -42,7 +42,7 @@ In most typefaces the top of an "H" sits at the cap height.
 
 ## Related terms
 
-[x-height](x-height.md) · [Baseline](baseline.md) · [Ascender](ascender.md) · [Vertical trim](vertical-trim.md)
+[Ascender](ascender.md) · [Baseline](baseline.md) · [Vertical trim](vertical-trim.md) · [x-height](x-height.md)
 
 ## Further reading
 

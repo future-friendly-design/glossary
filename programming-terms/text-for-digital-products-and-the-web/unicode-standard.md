@@ -42,7 +42,7 @@ The letter "A" is the same Unicode code point (U+0041) whether typed on a phone,
 
 ## Related terms
 
-[Unicode](unicode.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md)
+[Noto fonts](../../design-terms/typography/noto-fonts.md) · [Unicode](unicode.md)
 
 ## Further reading
 

@@ -53,7 +53,7 @@ Comparing typefaces by point size alone. Two fonts set at 16px can look noticeab
 
 ## Related terms
 
-[Cap height](cap-height.md) · [Baseline](baseline.md) · [Ascender](ascender.md) · [Descender](descender.md)
+[Ascender](ascender.md) · [Baseline](baseline.md) · [Cap height](cap-height.md) · [Descender](descender.md)
 
 ## Further reading
 

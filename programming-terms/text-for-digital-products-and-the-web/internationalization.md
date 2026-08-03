@@ -56,7 +56,7 @@ Treating internationalization as translation, or as something to bolt on later. 
 
 ## Related terms
 
-[Localization](localization.md) · [Locale](locale.md) · [Text expansion](text-expansion.md) · [Pseudolocalization](pseudolocalization.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md)
+[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Locale](locale.md) · [Localization](localization.md) · [Pseudolocalization](pseudolocalization.md) · [Text expansion](text-expansion.md)
 
 ## Further reading
 

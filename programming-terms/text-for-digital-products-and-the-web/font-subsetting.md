@@ -56,7 +56,7 @@ Subsetting so aggressively that you cut glyphs the product actually needs: accen
 
 ## Related terms
 
-[Font coverage](font-coverage.md) · [Fallback font](fallback-font.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font](font.md)
+[Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Variable font](../../design-terms/typography/variable-font.md)
 
 ## Further reading
 

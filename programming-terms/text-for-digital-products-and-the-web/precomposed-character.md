@@ -44,7 +44,7 @@ Many accented letters exist as one code point even though the same shape can be 
 
 ## Related terms
 
-[Combining mark](combining-mark.md) · [Normalization](normalization.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Code point](code-point.md)
+[Code point](code-point.md) · [Combining mark](combining-mark.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Normalization](normalization.md)
 
 ## Further reading
 

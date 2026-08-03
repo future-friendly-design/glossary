@@ -52,7 +52,7 @@ Treating endangerment as a number, or assuming "few speakers" means "not worth s
 
 ## Related terms
 
-[UNESCO endangerment scale](unesco-endangerment-scale.md) · [L1 speakers](l1-speakers.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Dialect](dialect.md) · [Autonym](autonym.md) · [Canadian Aboriginal Syllabics](../writing-systems-and-scripts/canadian-aboriginal-syllabics.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Ol Chiki](../writing-systems-and-scripts/ol-chiki.md) · [Syloti Nagri](../writing-systems-and-scripts/syloti-nagri.md) · [Wancho script](../writing-systems-and-scripts/wancho-script.md) · [Warang Citi](../writing-systems-and-scripts/warang-citi.md)
+[Autonym](autonym.md) · [Canadian Aboriginal Syllabics](../writing-systems-and-scripts/canadian-aboriginal-syllabics.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [L1 speakers](l1-speakers.md) · [Ol Chiki](../writing-systems-and-scripts/ol-chiki.md) · [Syloti Nagri](../writing-systems-and-scripts/syloti-nagri.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [UNESCO endangerment scale](unesco-endangerment-scale.md) · [Wancho script](../writing-systems-and-scripts/wancho-script.md) · [Warang Citi](../writing-systems-and-scripts/warang-citi.md)
 
 ## Further reading
 

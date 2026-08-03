@@ -41,7 +41,7 @@ The Turkish word "arabalarına" ("to their cars") stacks four parts: araba (car)
 
 ### Related terms and mentions
 
-[Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Text expansion](../../programming-terms/text-for-digital-products-and-the-web/text-expansion.md) · [Pseudolocalization](../../programming-terms/text-for-digital-products-and-the-web/pseudolocalization.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pseudolocalization](../../programming-terms/text-for-digital-products-and-the-web/pseudolocalization.md) · [Text expansion](../../programming-terms/text-for-digital-products-and-the-web/text-expansion.md) · [Language & linguistics](../../terms/language-linguistics.md)
 
 ### Further reading
 
