@@ -39,7 +39,7 @@ It is tempting to treat one variety as the "correct" language and the rest as de
 
 ### Example
 
-British and American English are dialects of English that differ in spelling ("colour" versus "color") and vocabulary ("lift" versus "elevator"). Neither is more correct; they map to different locales (`en-GB`, `en-US`).
+British and American English are dialects of English that differ in spelling ("colour" versus "color") and vocabulary ("lift" versus "elevator"). That spelling split is where a dialect meets [orthography](../writing-systems-and-scripts/orthography.md): orthography is the set of rules for writing a language, and a dialect that has been standardized usually carries its own spelling conventions, so the same language ends up written two slightly different ways. Neither is more correct; they map to different locales (`en-GB`, `en-US`), which makes "which spelling do we ship" a locale and content decision rather than a matter of right and wrong.
 
 ***
 
