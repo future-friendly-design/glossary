@@ -1,0 +1,106 @@
+---
+term: Syloti Nagri
+slug: syloti-nagri
+aliases:
+  - Sylheti Nagri
+  - Sylheti Nagari
+level: advanced
+depth: core
+summary: >-
+  Syloti Nagri is a script used to write Sylheti, a language spoken in northeast
+  Bangladesh and southeast Assam in India.
+related:
+  - abugida
+  - brahmic-scripts
+  - bengali-assamese
+  - virama
+  - conjunct
+status: voice-passed
+version_added: 0.1
+updated: 2026-07-07T00:00:00.000Z
+contributors:
+  - sam-gordashko
+further_reading:
+  - title: Noto Sans Syloti Nagri (Google Fonts)
+    url: https://fonts.google.com/noto/specimen/Noto+Sans+Syloti+Nagri
+    type: design-tool
+  - title: Unicode Syloti Nagri code chart (U+A800)
+    url: https://www.unicode.org/charts/PDF/UA800.pdf
+    type: authority
+license: CC-BY-4.0
+tags:
+  - writing-systems-scripts
+---
+
+# Syloti Nagri script
+
+## Definition
+
+Syloti Nagri is a [script](script.md) used to write Sylheti,<sup>1</sup> a language spoken in northeast Bangladesh and southeast Assam in India.<sup>2</sup> It is an [abugida](abugida.md) descended from the [Brahmic](brahmic-scripts.md) family: each of its 27 consonants carries an inherent vowel /o/ that dependent vowel signs can change,<sup>3</sup> and it also has independent vowel letters.<sup>4</sup> It is a historical script of the Sylhet region, descended from the Kaithi script and without a single known inventor, and is the focus of modern revival.<sup>5</sup>
+
+For example, the script's own name ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ ("Siloti Nagri") is written left to right, its vowel signs attached to the consonants.
+
+{% hint style="info" %}
+This glossary doesn't cover every Syloti Nagri property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../../CONTRIBUTING.md), they will be linked.
+{% endhint %}
+
+### Syloti Nagri profile
+
+These properties of Syloti Nagri apply to any language that uses it in its [writing system](writing-system.md). Beyond the [script rules](script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](orthography.md).
+
+| Property                          | Syloti Nagri                                                               |
+| --------------------------------- | -------------------------------------------------------------------------- |
+| [Autonym](../../terms/autonym.md) | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ                                                                |
+| Languages                         | Sylheti                                                                    |
+| Letter case                       | None (no uppercase and lowercase)                                          |
+| [Marks](mark.md)                  | Dependent vowel signs; a hasanta (like a [virama](virama.md)) and anusvara |
+| Numerals                          | Common ASCII digits                                                        |
+| Script type                       | [Abugida](abugida.md) (Brahmic)                                            |
+| [Symbols](symbol.md)              | Consonants carrying an inherent vowel /o/, plus independent vowels         |
+
+### Syloti Nagri rules and digital use considerations
+
+If your design system supports languages that use Syloti Nagri, here are some considerations to keep in mind:
+
+| Rule or feature                                                                               | How it works in Syloti Nagri                                                                                                                                                                                                                                                               | Design systems                                                                                                                                                                                                                                                                                                                                                                                                        |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Bidirectional text](bidirectional-text.md)                                                   | The script runs left to right, but a line can still become bidirectional when right-to-left content (an Arabic or Hebrew name, for example) is embedded in it                                                                                                                              | Then the embedded right-to-left run needs the Unicode bidirectional algorithm to reorder correctly; isolate embedded content whose direction you do not control, so it cannot disturb the surrounding text<sup>6</sup>                                                                                                                                                                                                |
+| [Complex text layout](../../terms/complex-text-layout.md)                                     | Yes, shaping required                                                                                                                                                                                                                                                                      | Handled by the font's [OpenType](../../terms/opentype.md) rules and applied at render time by the platform's [text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md); see the OpenType and Text shaping rows below for what your font needs to support. Get it wrong and the text renders incorrectly, not just unstyled, and a Bengali or Latin font will not render it at all |
+| Hasanta                                                                                       | A hasanta mark (like a [virama](virama.md)) suppresses the inherent vowel, marking a word-final consonant or forming a [conjunct](conjunct.md)<sup>7</sup>                                                                                                                                 | Confirm the font marks word-final consonants and forms conjuncts with the hasanta                                                                                                                                                                                                                                                                                                                                     |
+| Inherent vowel                                                                                | Each consonant carries an inherent vowel /o/; dependent vowel signs attach to change it (see [abugida](abugida.md))<sup>8</sup>                                                                                                                                                            | Dependent vowel signs have to be positioned on the consonant, so test a syllable that changes the inherent vowel                                                                                                                                                                                                                                                                                                      |
+| [Font](../../terms/font.md) (open source)                                                     | [Noto Sans Syloti Nagri](https://fonts.google.com/noto/specimen/Noto+Sans+Syloti+Nagri) is a free, open-source font from Google's [Noto](../../terms/noto-fonts.md) project, covering the script's characters and the OpenType features they need (see OpenType and Text shaping)          | Treat the typeface as a foundational choice, and confirm it covers every language you support that uses the script (see [font coverage](../../terms/font-coverage.md)), not just one                                                                                                                                                                                                                                  |
+| [OpenType](../../terms/opentype.md)                                                           | The font must include the specific [OpenType features](../../terms/opentype-features.md) for positioning the dependent vowel signs on the consonant and for forming conjuncts with the hasanta, beyond plain glyph substitution; its shaping is light but it is not a plain row of symbols | A font can cover the characters and still leave these features out, so confirm it actually ships them, not just the base glyphs<sup>9</sup>. See the Text shaping row below                                                                                                                                                                                                                                           |
+| [Text direction](text-direction.md)                                                           | [Left to right](left-to-right.md)<sup>10</sup>                                                                                                                                                                                                                                             | Left-aligned text as the default                                                                                                                                                                                                                                                                                                                                                                                      |
+| [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) | Shaping happens at render time: the platform's [shaping engine](../../terms/shaping-engine.md) reads the font's OpenType features (see OpenType above) and positions the vowel signs and forms the conjuncts for correct display                                                           | A correct font is necessary but not sufficient: a tool or pipeline that places glyphs without shaping renders the script wrong even with a fully-featured font. Test in the actual design tools your team uses, not just the browser                                                                                                                                                                                  |
+| [Unicode](../../terms/unicode.md) block                                                       | Syloti Nagri, [U+A800 to U+A82F](https://www.unicode.org/charts/PDF/UA800.pdf)                                                                                                                                                                                                             | No special handling beyond ensuring [font coverage](../../terms/font-coverage.md) of the block; pair it with a [keyboard layout](../../terms/keyboard-layout.md) so people can type it                                                                                                                                                                                                                                |
+
+### In practice
+
+* **Cover the script and its shaping, and give people a way to type it:** confirm the font ships the Syloti Nagri glyphs AND the [shaping rules](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) that position them, not just the base symbols. Pair it with a [keyboard layout](../../terms/keyboard-layout.md). See [font coverage](../../terms/font-coverage.md).
+* **Test with a real word, not a glyph grid:** set a word that uses a dependent vowel sign and a hasanta or conjunct, and confirm they position and form correctly. Tool support for [complex text layout](../../terms/complex-text-layout.md) varies, so test early.
+* **Check the orthography, and which script the community uses:** Sylheti is written in Syloti Nagri, the Bengali-Assamese script, and [Latin](latin-script.md), so do not assume one script. Pull per-language conventions from [locale](../../terms/locale.md) data that Unicode's [CLDR](../../terms/cldr.md) publishes.
+* **If a rule above is not documented, you may be the source:** for an [endangered](../../terms/endangered-language.md) or under-resourced script the conventions may not be in any library yet. Capture them with fluent readers, write them into your specs and tokens, and add them here (see [how to contribute](../../CONTRIBUTING.md)) or upstream, where Unicode's [CLDR Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and new locales.
+
+***
+
+### Related terms and mentions
+
+[Abugida](abugida.md) · [Autonym](../../terms/autonym.md) · [Bengali-Assamese](bengali-assamese.md) · [Bidirectional text](bidirectional-text.md) · [Brahmic scripts](brahmic-scripts.md) · [CLDR](../../terms/cldr.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Endangered language](../../terms/endangered-language.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Keyboard layout](../../terms/keyboard-layout.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Locale](../../terms/locale.md) · [Mark](mark.md) · [Noto fonts](../../terms/noto-fonts.md) · [OpenType](../../terms/opentype.md) · [OpenType features](../../terms/opentype-features.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](../../terms/typeface.md) · [Unicode](../../terms/unicode.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+
+### Further reading
+
+* Design tools: [Noto Sans Syloti Nagri (Google Fonts)](https://fonts.google.com/noto/specimen/Noto+Sans+Syloti+Nagri)
+* Foundations: [Unicode Syloti Nagri code chart (U+A800)](https://www.unicode.org/charts/PDF/UA800.pdf)
+
+### Sources
+
+1. Syloti Nagri is a lesser-known Brahmi-derived script used for writing the Sylheti language - The Unicode Standard, Version 17.0, Chapter 15: South and Central Asia-IV [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/)
+2. Sylheti is spoken by some 5 million speakers in the Barak Valley region of northeast Bangladesh and southeast Assam in India - The Unicode Standard, Version 17.0, Chapter 15: South and Central Asia-IV [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/)
+3. The Syloti Nagri script has 27 consonant letters with an inherent vowel of /o/ - The Unicode Standard, Version 17.0, Chapter 15: South and Central Asia-IV [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/)
+4. There are 5 independent vowel letters, and 5 dependent vowel signs that are attached to a consonant letter - The Unicode Standard, Version 17.0, Chapter 15: South and Central Asia-IV [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/)
+5. Syloti Nagri is a historical script of the Sylhet region descended from the Kaithi script, with no single known inventor, now the focus of revival (secondary source, interim pending an upgrade to a primary attribution) - Sylheti Nagri (Wikipedia) [https://en.wikipedia.org/wiki/Syloti\_Nagri](https://en.wikipedia.org/wiki/Syloti_Nagri)
+6. This annex describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew - Unicode Standard Annex #9: Unicode Bidirectional Algorithm [https://www.unicode.org/reports/tr9/](https://www.unicode.org/reports/tr9/)
+7. U+A806 SYLOTI NAGRI SIGN HASANTA indicates a word-final consonant, or is inserted between consonants to represent a conjunct - The Unicode Standard, Version 17.0, Chapter 15: South and Central Asia-IV [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/)
+8. The Syloti Nagri script is an abugida, ie. each consonant contains an inherent vowel sound - Syloti Nagri (r12a script notes) [https://r12a.github.io/scripts/sylo/syl.html](https://r12a.github.io/scripts/sylo/syl.html)
+9. Syloti Nagri requires both context-sensitive shaping and positioning. Multiple combining marks can attach to a single base letter - Syloti Nagri (r12a script notes) [https://r12a.github.io/scripts/sylo/syl.html](https://r12a.github.io/scripts/sylo/syl.html)
+10. Syloti Nagri text runs left to right in horizontal lines - Syloti Nagri (r12a script notes) [https://r12a.github.io/scripts/sylo/syl.html](https://r12a.github.io/scripts/sylo/syl.html)

@@ -6,7 +6,9 @@ aliases:
   - syllable dot
 level: intermediate
 depth: core
-summary: The tsheg is a punctuation symbol used in Tibetan script to separate syllables.
+summary: >-
+  The tsheg is a punctuation symbol used in Tibetan script to separate
+  syllables.
 related:
   - complex-text-layout
   - stacking-script
@@ -31,7 +33,7 @@ tags:
 
 The tsheg is a punctuation symbol used in Tibetan script to separate syllables.
 
-For example, the dot between the syllables in [Tibetan](../../terms/tibetan-script.md) `བོད་ཡིག` is a tsheg.
+For example, the dot between the syllables in [Tibetan](tibetan-script.md) `བོད་ཡིག` is a tsheg.
 
 ### Why it matters in design systems
 
@@ -43,7 +45,7 @@ So for a design system, the tsheg is what line breaking and word finding have to
 
 ### Related terms and mentions
 
-[Complex text layout](../../terms/complex-text-layout.md) · [Punctuation mark](punctuation-mark.md) · [Script rules](script-rules.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Stacking script](stacking-script.md) · [Symbol](symbol.md) · [Tibetan script](../../terms/tibetan-script.md) · [Writing systems & scripts](./)
+[Complex text layout](../../terms/complex-text-layout.md) · [Punctuation mark](punctuation-mark.md) · [Script rules](script-rules.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Stacking script](stacking-script.md) · [Symbol](symbol.md) · [Tibetan script](tibetan-script.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -41,11 +41,11 @@ Like all script rules, stacking applies to any [language](../linguistics/languag
 
 While this glossary doesn't cover every script, here are some to be aware of that have a stacking script rule. You can select a linked term to navigate to its glossary page.
 
-| Script                                   | Languages          | How stacking works here                                                                                                         | Example |
-| ---------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| [Tibetan](../../terms/tibetan-script.md) | Tibetan, Dzongkha  | Subjoined consonant forms pile below a root consonant, and a superscript consonant can sit above it.                            | རྒྱུད   |
-| Khmer                                    | Khmer, Pali        | A second consonant takes a subscript form, called coeng, written below the base consonant.                                      | ស្ន     |
-| Myanmar                                  | Burmese, Mon, Shan | A second consonant is written below the first to mark a cluster with no vowel between them, mostly in words borrowed from Pali. | ဗុဒ္ဓ   |
+| Script                       | Languages          | How stacking works here                                                                                                         | Example |
+| ---------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| [Tibetan](tibetan-script.md) | Tibetan, Dzongkha  | Subjoined consonant forms pile below a root consonant, and a superscript consonant can sit above it.                            | རྒྱུད   |
+| Khmer                        | Khmer, Pali        | A second consonant takes a subscript form, called coeng, written below the base consonant.                                      | ស្ន     |
+| Myanmar                      | Burmese, Mon, Shan | A second consonant is written below the first to mark a cluster with no vowel between them, mostly in words borrowed from Pali. | ဗុဒ္ဓ   |
 
 ### Why it matters in design systems
 
@@ -61,7 +61,7 @@ Because the stack is assembled rather than placed in sequence, this is a [comple
 
 ### Related terms and mentions
 
-[Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Line height](../../terms/line-height.md) · [Orthography](orthography.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Tibetan script](../../terms/tibetan-script.md) · [Tsheg](tsheg.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Line height](../../terms/line-height.md) · [Orthography](orthography.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

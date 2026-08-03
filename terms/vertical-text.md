@@ -6,7 +6,9 @@ aliases:
   - top to bottom
 level: foundational
 depth: core
-summary: Vertical text refers to the text direction script rule that defines reading and writing the script in columns running from top to bottom.
+summary: >-
+  Vertical text refers to the text direction script rule that defines reading
+  and writing the script in columns running from top to bottom.
 related:
   - text-direction
   - tategaki
@@ -40,7 +42,7 @@ For example, Japanese can be set vertically (tategaki), and traditional Mongolia
 
 ### Why it matters in design systems
 
-Several East Asian scripts can be set vertically, including Chinese, Japanese, and Korean, the traditional Japanese mode being [tategaki](../language-terms/writing-systems-and-scripts/tategaki.md), as well as traditional [Mongolian](mongolian-script.md). On the web you set vertical text with the CSS `writing-mode` property: `vertical-rl` stacks lines top to bottom with columns advancing right to left, as in [CJK](cjk.md), and `vertical-lr` advances them left to right, as in Mongolian.<sup>1</sup>
+Several East Asian scripts can be set vertically, including Chinese, Japanese, and Korean, the traditional Japanese mode being [tategaki](../language-terms/writing-systems-and-scripts/tategaki.md), as well as traditional [Mongolian](../language-terms/writing-systems-and-scripts/mongolian-script.md). On the web you set vertical text with the CSS `writing-mode` property: `vertical-rl` stacks lines top to bottom with columns advancing right to left, as in [CJK](cjk.md), and `vertical-lr` advances them left to right, as in Mongolian.<sup>1</sup>
 
 So for a design system, vertical text is more than turning a horizontal block on its side. The [font](font.md) has to provide vertical forms and spacing for its symbols, not only the horizontal ones,<sup>2</sup> and the rest of the component shifts with the text: scroll direction, form controls, and line breaking. Like the other directions, setting it is necessary but not sufficient on its own. It is one way a script's [text direction](../language-terms/writing-systems-and-scripts/text-direction.md) can run, alongside [left to right](../language-terms/writing-systems-and-scripts/left-to-right.md) and [right to left](../language-terms/writing-systems-and-scripts/right-to-left.md).
 
@@ -48,7 +50,7 @@ So for a design system, vertical text is more than turning a horizontal block on
 
 ### Related terms and mentions
 
-[CJK](cjk.md) · [Font](font.md) · [Left-to-right](../language-terms/writing-systems-and-scripts/left-to-right.md) · [Mongolian script (traditional)](mongolian-script.md) · [Right-to-left](../language-terms/writing-systems-and-scripts/right-to-left.md) · [Tategaki](../language-terms/writing-systems-and-scripts/tategaki.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
+[CJK](cjk.md) · [Font](font.md) · [Left-to-right](../language-terms/writing-systems-and-scripts/left-to-right.md) · [Mongolian script (traditional)](../language-terms/writing-systems-and-scripts/mongolian-script.md) · [Right-to-left](../language-terms/writing-systems-and-scripts/right-to-left.md) · [Tategaki](../language-terms/writing-systems-and-scripts/tategaki.md) · [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md) · [Writing systems & scripts](../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

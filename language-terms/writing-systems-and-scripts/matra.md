@@ -36,9 +36,9 @@ tags:
 
 ## Definition
 
-A matra is a mark added to a consonant in a [Brahmic script](../../terms/brahmic-scripts.md) to write the vowel that goes with it.
+A matra is a mark added to a consonant in a [Brahmic script](brahmic-scripts.md) to write the vowel that goes with it.
 
-For example, the i-matra in [Devanagari](../../terms/devanagari.md) `कि` (ki) is typed after `क` but displays to its left.
+For example, the i-matra in [Devanagari](devanagari.md) `कि` (ki) is typed after `क` but displays to its left.
 
 ### Why it matters in design systems
 
@@ -52,7 +52,7 @@ For software, the key point is order. A matra is typed after its consonant but m
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](../../terms/devanagari.md) · [Mark](mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Reph](reph.md) · [Script](script.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Mark](mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Reph](reph.md) · [Script](script.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

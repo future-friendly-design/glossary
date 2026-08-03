@@ -5,7 +5,9 @@ aliases:
   - alphasyllabary
 level: intermediate
 depth: core
-summary: An abugida is a type of script where each consonant carries a built-in vowel that added marks change to write a different one.
+summary: >-
+  An abugida is a type of script where each consonant carries a built-in vowel
+  that added marks change to write a different one.
 related:
   - alphabet
   - abjad
@@ -30,7 +32,7 @@ tags:
 
 ## Definition
 
-An abugida is a type of [script](script.md) where each consonant carries a built-in vowel that added marks change to write a different one.<sup>1</sup> Most [Brahmic scripts](../../terms/brahmic-scripts.md), the family that includes [Devanagari](../../terms/devanagari.md), are abugidas.
+An abugida is a type of [script](script.md) where each consonant carries a built-in vowel that added marks change to write a different one.<sup>1</sup> Most [Brahmic scripts](brahmic-scripts.md), the family that includes [Devanagari](devanagari.md), are abugidas.
 
 For example, in Devanagari the consonant `क` stands for "ka", the consonant with its built-in "a" already included. Adding the i-[matra](matra.md) writes `कि` ("ki"), swapping the built-in vowel for a new one. The matra is typed after `क` but displays to its left, so software has to reorder it for display.<sup>2</sup>
 
@@ -38,15 +40,15 @@ This built-in vowel is what places an abugida between two other script types: an
 
 The abugidas the glossary has an entry for are listed below; the list grows as new scripts are added. Select a linked term to navigate to its glossary page.
 
-| Script                                                                        | Languages                | Example                                                              |
-| ----------------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------- |
-| [Bengali-Assamese](../../terms/bengali-assamese.md)                           | Bengali, Assamese        | নমস্কার (nômôskar): "hello" (Bengali)                                |
-| [Devanagari](../../terms/devanagari.md)                                       | Hindi, Marathi, Sanskrit | नमस्ते (namaste): "hello"                                            |
-| [Ethiopic (Geʽez)](ethiopic-script.md)                                        | Amharic, Tigrinya        | ሰላም (selam): "hello" (Amharic; literally "peace")                    |
-| [Syloti Nagri](../../terms/syloti-nagri.md)                                   | Sylheti                  | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ (Siloti Nagri): the script's own name                   |
-| [Tamil](../../terms/tamil-script.md)                                          | Tamil                    | வணக்கம் (vaṇakkam): "hello"                                          |
-| [Thai](../../terms/thai-script.md)                                            | Thai                     | สวัสดี (sawatdee): "hello"                                           |
-| [Tibetan](../../terms/tibetan-script.md)                                      | Tibetan, Dzongkha        | བཀྲ་ཤིས་བདེ་ལེགས (tashi delek): a greeting, literally "good fortune" |
+| Script                                  | Languages                | Example                                                              |
+| --------------------------------------- | ------------------------ | -------------------------------------------------------------------- |
+| [Bengali-Assamese](bengali-assamese.md) | Bengali, Assamese        | নমস্কার (nômôskar): "hello" (Bengali)                                |
+| [Devanagari](devanagari.md)             | Hindi, Marathi, Sanskrit | नमस्ते (namaste): "hello"                                            |
+| [Ethiopic (Geʽez)](ethiopic-script.md)  | Amharic, Tigrinya        | ሰላም (selam): "hello" (Amharic; literally "peace")                    |
+| [Syloti Nagri](syloti-nagri.md)         | Sylheti                  | ꠍꠤꠟꠐꠤ ꠘꠣꠉꠞꠤ (Siloti Nagri): the script's own name                    |
+| [Tamil](tamil-script.md)                | Tamil                    | வணக்கம் (vaṇakkam): "hello"                                          |
+| [Thai](thai-script.md)                  | Thai                     | สวัสดี (sawatdee): "hello"                                           |
+| [Tibetan](tibetan-script.md)            | Tibetan, Dzongkha        | བཀྲ་ཤིས་བདེ་ལེགས (tashi delek): a greeting, literally "good fortune" |
 
 ### Why it matters in design systems
 
@@ -58,7 +60,7 @@ So an abugida needs real shaping support, not simple glyph-after-glyph placement
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Alphasyllabary](alphasyllabary.md) · [Bengali-Assamese](../../terms/bengali-assamese.md) · [Brahmic scripts](../../terms/brahmic-scripts.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md) · [Ethiopic script](ethiopic-script.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Matra](matra.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Syloti Nagri](../../terms/syloti-nagri.md) · [Tamil script](../../terms/tamil-script.md) · [Thai script](../../terms/thai-script.md) · [Tibetan script](../../terms/tibetan-script.md) · [Typeface](../../terms/typeface.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Alphabet](alphabet.md) · [Alphasyllabary](alphasyllabary.md) · [Bengali-Assamese](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](devanagari.md) · [Ethiopic script](ethiopic-script.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Matra](matra.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Syloti Nagri](syloti-nagri.md) · [Tamil script](tamil-script.md) · [Thai script](thai-script.md) · [Tibetan script](tibetan-script.md) · [Typeface](../../terms/typeface.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

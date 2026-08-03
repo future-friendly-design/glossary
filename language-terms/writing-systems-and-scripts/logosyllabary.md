@@ -30,13 +30,13 @@ tags:
 
 ## Definition
 
-Logosyllabary is a more precise name for a [logographic](logographic.md) system like Chinese, where each character stands for a word or morpheme and also for a syllable. It is also called a morphosyllabary. Unicode defines a logosyllabary as a writing system whose units "are used primarily to write words and/or morphemes of words, with some subsidiary usage to represent just syllabic sounds", with Han as the best example.<sup>1</sup> The plain label "logographic" leaves the syllable part out; see [logographic](logographic.md) for the full entry, the [Han characters](../../terms/han-characters.md) example, and what the scale means for fonts and input.
+Logosyllabary is a more precise name for a [logographic](logographic.md) system like Chinese, where each character stands for a word or morpheme and also for a syllable. It is also called a morphosyllabary. Unicode defines a logosyllabary as a writing system whose units "are used primarily to write words and/or morphemes of words, with some subsidiary usage to represent just syllabic sounds", with Han as the best example.<sup>1</sup> The plain label "logographic" leaves the syllable part out; see [logographic](logographic.md) for the full entry, the [Han characters](han-characters.md) example, and what the scale means for fonts and input.
 
 ***
 
 ### Related terms and mentions
 
-[Han characters](../../terms/han-characters.md) · [Ideographic](ideographic.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Han characters](han-characters.md) · [Ideographic](ideographic.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

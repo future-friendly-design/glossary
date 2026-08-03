@@ -33,16 +33,16 @@ tags:
 
 ## Definition
 
-Logographic is a type of script whose symbols stand for whole words or meaningful units (morphemes) rather than for sounds alone.<sup>1</sup> [Han characters](../../terms/han-characters.md) are the most widely used example; the Unicode Standard describes them as "logographic (each character represents a word, not just a sound)".<sup>2</sup> Because each symbol also maps to a spoken syllable, a system like Chinese is more precisely a [logosyllabary](logosyllabary.md).
+Logographic is a type of script whose symbols stand for whole words or meaningful units (morphemes) rather than for sounds alone.<sup>1</sup> [Han characters](han-characters.md) are the most widely used example; the Unicode Standard describes them as "logographic (each character represents a word, not just a sound)".<sup>2</sup> Because each symbol also maps to a spoken syllable, a system like Chinese is more precisely a [logosyllabary](logosyllabary.md).
 
 For example, the Chinese character `山` writes the whole word "mountain", not the separate sounds in it.
 
 While this glossary doesn't cover every script, here are some logographic scripts to be aware of; fully logographic systems are rare, and Han characters are the main one in modern use. Select a linked term to navigate to its glossary page.
 
-| Script                                          | Languages                       | Example |
-| ----------------------------------------------- | ------------------------------- | ------- |
-| [Han characters](../../terms/han-characters.md) | Chinese (also Japanese, Korean) | 山       |
-| Tangut                                          | Tangut (historical)             |         |
+| Script                              | Languages                       | Example |
+| ----------------------------------- | ------------------------------- | ------- |
+| [Han characters](han-characters.md) | Chinese (also Japanese, Korean) | 山       |
+| Tangut                              | Tangut (historical)             |         |
 
 ### Why it matters in design systems
 
@@ -54,7 +54,7 @@ For type and product work the defining consequence is scale. A logographic scrip
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Font](../../terms/font.md) · [Font subsetting](../../terms/font-subsetting.md) · [Glyph](../../terms/glyph.md) · [Han characters](../../terms/han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Unicode Standard](../../terms/unicode-standard.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Font](../../terms/font.md) · [Font subsetting](../../terms/font-subsetting.md) · [Glyph](../../terms/glyph.md) · [Han characters](han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Unicode Standard](../../terms/unicode-standard.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

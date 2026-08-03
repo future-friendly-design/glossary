@@ -39,17 +39,17 @@ Each letter stands for roughly one sound, and consonants and vowels alike get th
 
 The alphabets the glossary has an entry for are listed below; the list grows as new scripts are added. Select a linked term to navigate to its glossary page.
 
-| Script                                              | Languages                            | Example                                        |
-| --------------------------------------------------- | ------------------------------------ | ---------------------------------------------- |
-| [Armenian](armenian-script.md)                      | Armenian                             | Բարև (barev): "hello"                          |
-| [Cyrillic](cyrillic.md)                             | Russian, Serbian, Ukrainian          | Здравствуйте (zdravstvujte): "hello" (Russian) |
-| [Georgian](georgian-script.md)                      | Georgian                             | გამარჯობა (gamarjoba): "hello"                 |
-| [Greek](greek-script.md)                            | Greek                                | Γεια σου (ya su): "hello"                      |
-| [Latin](latin-script.md)                            | English, French, Spanish, Vietnamese | Hello                                          |
-| [Mongolian script](../../terms/mongolian-script.md) | Mongolian                            | ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ (Mongol bichig): "Mongol script"  |
-| [Ol Chiki](../../terms/ol-chiki.md)                 | Santali                              | ᱚᱞ ᱪᱤᱠᱤ (Ol Chiki): the script's own name       |
-| [Wancho script](../../terms/wancho-script.md)       | Wancho                               | 𞋝𞋀𞋔 (ŋak): "banana leaf"                       |
-| [Warang Citi](../../terms/warang-citi.md)           | Ho                                   | 𑢹𑣗𑣁𑣜𑣊 𑣏𑣂𑣕𑣂 (Warang Citi): the script's own name |
+| Script                                  | Languages                            | Example                                                  |
+| --------------------------------------- | ------------------------------------ | -------------------------------------------------------- |
+| [Armenian](armenian-script.md)          | Armenian                             | Բարև (barev): "hello"                                    |
+| [Cyrillic](cyrillic.md)                 | Russian, Serbian, Ukrainian          | Здравствуйте (zdravstvujte): "hello" (Russian)           |
+| [Georgian](georgian-script.md)          | Georgian                             | გამარჯობა (gamarjoba): "hello"                           |
+| [Greek](greek-script.md)                | Greek                                | Γεια σου (ya su): "hello"                                |
+| [Latin](latin-script.md)                | English, French, Spanish, Vietnamese | Hello                                                    |
+| [Mongolian script](mongolian-script.md) | Mongolian                            | ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ (Mongol bichig): "Mongol script"            |
+| [Ol Chiki](ol-chiki.md)                 | Santali                              | ᱚᱞ ᱪᱤᱠᱤ (Ol Chiki): the script's own name                |
+| [Wancho script](wancho-script.md)       | Wancho                               | 𞋝𞋀𞋔 (ŋak): "banana leaf"                              |
+| [Warang Citi](warang-citi.md)           | Ho                                   | 𑢹𑣗𑣁𑣜𑣊 𑣏𑣂𑣕𑣂 (Warang Citi): the script's own name |
 
 ### Why it matters in design systems
 
@@ -69,7 +69,7 @@ Check the whole [writing system](writing-system.md), not just the fact that it i
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Mongolian script](../../terms/mongolian-script.md) · [Ol Chiki](../../terms/ol-chiki.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Wancho script](../../terms/wancho-script.md) · [Warang Citi](../../terms/warang-citi.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Mongolian script](mongolian-script.md) · [Ol Chiki](ol-chiki.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Wancho script](wancho-script.md) · [Warang Citi](warang-citi.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

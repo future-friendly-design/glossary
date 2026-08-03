@@ -97,7 +97,7 @@ Scripts are classified by what their symbols represent. For example, if a script
 * [Abugida](abugida.md)
 * [Alphabet](alphabet.md)
 * [Alphasyllabary](alphasyllabary.md)
-* [Brahmic scripts](../../terms/brahmic-scripts.md)
+* [Brahmic scripts](brahmic-scripts.md)
 * [CJK](../../terms/cjk.md)
 * [Featural script](featural-alphabet.md)
 * [Ideographic](ideographic.md)
@@ -117,14 +117,14 @@ Now that you understand what scripts are and how they work, you can explore thes
 
 #### Abugida scripts:
 
-* [Bengali-Assamese](../../terms/bengali-assamese.md)
-* [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md)
-* [Devanagari](../../terms/devanagari.md)
+* [Bengali-Assamese](bengali-assamese.md)
+* [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md)
+* [Devanagari](devanagari.md)
 * [Ethiopic script](ethiopic-script.md)
-* [Syloti Nagri](../../terms/syloti-nagri.md)
-* [Tamil script](../../terms/tamil-script.md)
-* [Thai script](../../terms/thai-script.md)
-* [Tibetan script](../../terms/tibetan-script.md)
+* [Syloti Nagri](syloti-nagri.md)
+* [Tamil script](tamil-script.md)
+* [Thai script](thai-script.md)
+* [Tibetan script](tibetan-script.md)
 
 #### Alphabet scripts:
 
@@ -133,20 +133,20 @@ Now that you understand what scripts are and how they work, you can explore thes
 * [Georgian script](georgian-script.md)
 * [Greek script](greek-script.md)
 * [Latin script](latin-script.md)
-* [Mongolian script (traditional)](../../terms/mongolian-script.md)
-* [Ol Chiki](../../terms/ol-chiki.md)
-* [Wancho script](../../terms/wancho-script.md)
-* [Warang Citi](../../terms/warang-citi.md)
+* [Mongolian script (traditional)](mongolian-script.md)
+* [Ol Chiki](ol-chiki.md)
+* [Wancho script](wancho-script.md)
+* [Warang Citi](warang-citi.md)
 
 #### Featural scripts:
 
-* [Hangul](../../terms/hangul.md)
+* [Hangul](hangul.md)
 
 #### Logographic scripts:
 
-* [Han characters](../../terms/han-characters.md)
+* [Han characters](han-characters.md)
 
 #### Syllabary scripts:
 
-* [Hiragana](../../terms/hiragana.md)
-* [Katakana](../../terms/katakana.md)
+* [Hiragana](hiragana.md)
+* [Katakana](katakana.md)

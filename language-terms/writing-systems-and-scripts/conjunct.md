@@ -6,7 +6,9 @@ aliases:
   - ligature consonant
 level: advanced
 depth: core
-summary: A conjunct is a combined consonant cluster glyph in Indic scripts, formed when consonants join without a vowel between them.
+summary: >-
+  A conjunct is a combined consonant cluster glyph in Indic scripts, formed when
+  consonants join without a vowel between them.
 related:
   - matra
   - reph
@@ -35,7 +37,7 @@ tags:
 
 A conjunct is a combined consonant cluster [glyph](../../terms/glyph.md) in Indic scripts, formed when consonants join without a vowel between them.
 
-For example, in [Devanagari](../../terms/devanagari.md), क (ka) plus a [virama](virama.md) plus ष (sha) forms the single conjunct क्ष (kṣa).
+For example, in [Devanagari](devanagari.md), क (ka) plus a [virama](virama.md) plus ष (sha) forms the single conjunct क्ष (kṣa).
 
 ### Why it matters in design systems
 
@@ -49,7 +51,7 @@ So for a design system, a font that contains the consonants is necessary but not
 
 ### Related terms and mentions
 
-[Brahmic scripts](../../terms/brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../terms/devanagari.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Ligature](../../terms/ligature.md) · [Mark](mark.md) · [Matra](matra.md) · [OpenType](../../terms/opentype.md) · [Reph](reph.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](virama.md) · [Writing systems & scripts](./)
+[Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](devanagari.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Ligature](../../terms/ligature.md) · [Mark](mark.md) · [Matra](matra.md) · [OpenType](../../terms/opentype.md) · [Reph](reph.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](virama.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

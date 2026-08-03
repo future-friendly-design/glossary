@@ -35,7 +35,7 @@ An ideographic symbol stands for an idea or concept directly, rather than for th
 
 ### Why it matters in design systems
 
-Because no full writing system is ideographic, this is one of the most misused terms in the vocabulary, and the misuse has a specific home. People routinely call [Han characters](../../terms/han-characters.md) "ideographic", meaning each character is a little picture of an idea understood independently of any language. That is mostly wrong: Han characters are tied to specific words and morphemes and represent them phonetically for the most part,<sup>2</sup> so the accurate term is [logographic](logographic.md), or more precisely [logosyllabary](logosyllabary.md). Even Unicode, whose "CJK Unified Ideographs" block keeps the older word, notes that "the term 'Han ideographs' remains in English usage as a conventional cover term for the script as a whole",<sup>3</sup> not a claim that the characters denote ideas.
+Because no full writing system is ideographic, this is one of the most misused terms in the vocabulary, and the misuse has a specific home. People routinely call [Han characters](han-characters.md) "ideographic", meaning each character is a little picture of an idea understood independently of any language. That is mostly wrong: Han characters are tied to specific words and morphemes and represent them phonetically for the most part,<sup>2</sup> so the accurate term is [logographic](logographic.md), or more precisely [logosyllabary](logosyllabary.md). Even Unicode, whose "CJK Unified Ideographs" block keeps the older word, notes that "the term 'Han ideographs' remains in English usage as a conventional cover term for the script as a whole",<sup>3</sup> not a claim that the characters denote ideas.
 
 Getting this right is both an accuracy and a respect issue when you write documentation, specs, or UI copy about East Asian text: reach for logographic when you mean "characters stand for words". Reserve ideographic for genuinely language-independent symbols, the kind Unicode illustrates with the recycling mark, such as some mathematical, cartographic, or safety symbols, where the concept reads the same whatever language you speak.
 
@@ -43,7 +43,7 @@ Getting this right is both an accuracy and a respect issue when you write docume
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Han characters](../../terms/han-characters.md) · [Logographic](logographic.md) · [Logosyllabary](logosyllabary.md) · [Pictographic](pictographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Han characters](han-characters.md) · [Logographic](logographic.md) · [Logosyllabary](logosyllabary.md) · [Pictographic](pictographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

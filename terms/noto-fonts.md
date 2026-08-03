@@ -1,24 +1,37 @@
 ---
 term: Noto fonts
 slug: noto-fonts
-aliases: [Google Noto, No Tofu]
-tags: [reference-sources]
+aliases:
+  - Google Noto
+  - No Tofu
 level: intermediate
 depth: core
-summary: "Noto is Google's open-licensed font superfamily built to cover as many of the world's writing systems as possible so that no character renders as a blank box."
-related: [tofu, font, font-coverage, fallback-font, font-subsetting, unicode]
+summary: >-
+  Noto is Google's open-licensed font superfamily built to cover as many of the
+  world's writing systems as possible so that no character renders as a blank
+  box.
+related:
+  - tofu
+  - font
+  - font-coverage
+  - fallback-font
+  - font-subsetting
+  - unicode
 status: voice-passed
 version_added: 0.1
-updated: 2026-07-04
-contributors: [sam-gordashko]
+updated: 2026-07-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "SIL Open Font License"
+  - title: SIL Open Font License
     url: https://openfontlicense.org/
     type: code
-  - title: "Noto Fonts (project site)"
+  - title: Noto Fonts (project site)
     url: https://notofonts.github.io/
     type: authority
 license: CC-BY-4.0
+tags:
+  - reference-sources
 ---
 
 # Noto fonts
@@ -45,12 +58,12 @@ For an under-resourced script, Noto is often the only ready-made option: the Not
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari](devanagari.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Language](../language-terms/linguistics/language.md) · [Reference sources](reference-sources.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [SIL](sil.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](unicode.md)
+[Character](character.md) · [Code point](code-point.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari](../language-terms/writing-systems-and-scripts/devanagari.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Language](../language-terms/linguistics/language.md) · [Reference sources](reference-sources.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [SIL](sil.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](unicode.md)
 
 ### Further reading
 
-- Code & specs: [SIL Open Font License](https://openfontlicense.org/)
-- Foundations: [Noto Fonts (project site)](https://notofonts.github.io/)
+* Code & specs: [SIL Open Font License](https://openfontlicense.org/)
+* Foundations: [Noto Fonts (project site)](https://notofonts.github.io/)
 
 ### Sources
 

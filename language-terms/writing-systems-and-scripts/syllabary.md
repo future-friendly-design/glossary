@@ -37,13 +37,13 @@ Each symbol standing for a whole syllable is what sets a syllabary apart from an
 
 While this glossary doesn't cover every script, here are some syllabaries to be aware of. Select a linked term to navigate to its glossary page.
 
-| Script                              | Languages | Example |
-| ----------------------------------- | --------- | ------- |
-| [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut | ᑖᓂᓯ (tânisi): "hello" (Cree) |
-| Cherokee                            | Cherokee  | ᎣᏏᏲ (osiyo): "hello"<sup>4</sup> |
-| [Hiragana](../../terms/hiragana.md) | Japanese  | こんにちは (konnichiwa): "hello" |
-| [Katakana](../../terms/katakana.md) | Japanese  | ハロー (harō): "hello" (English loanword) |
-| Vai                                 | Vai       | ꘋꕯ ꖬꕎ ꘃꗡ ꗪ ꔤ ꕮ (ŋna suwa kɛɛ ɓɛ i ma): "hello"<sup>5</sup> |
+| Script                                                            | Languages               | Example                                                    |
+| ----------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------- |
+| [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) | Cree, Ojibwe, Inuktitut | ᑖᓂᓯ (tânisi): "hello" (Cree)                               |
+| Cherokee                                                          | Cherokee                | ᎣᏏᏲ (osiyo): "hello"<sup>4</sup>                           |
+| [Hiragana](hiragana.md)                                           | Japanese                | こんにちは (konnichiwa): "hello"                                |
+| [Katakana](katakana.md)                                           | Japanese                | ハロー (harō): "hello" (English loanword)                     |
+| Vai                                                               | Vai                     | ꘋꕯ ꖬꕎ ꘃꗡ ꗪ ꔤ ꕮ (ŋna suwa kɛɛ ɓɛ i ma): "hello"<sup>5</sup> |
 
 ### Why it matters in design systems
 
@@ -55,7 +55,7 @@ For a design system the payoff is knowing what kind of set you are covering. A s
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](../../terms/canadian-aboriginal-syllabics.md) · [Font coverage](../../terms/font-coverage.md) · [Hiragana](../../terms/hiragana.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Katakana](../../terms/katakana.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) · [Font coverage](../../terms/font-coverage.md) · [Hiragana](hiragana.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Katakana](katakana.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

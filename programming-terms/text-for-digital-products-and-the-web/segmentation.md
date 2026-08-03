@@ -42,7 +42,7 @@ Segmentation is the process of dividing text into meaningful units such as chara
 
 What counts as a character, word, or sentence boundary differs by writing system, so segmentation cannot rely on a simple rule like splitting on spaces. [Unicode](../../terms/unicode.md) Standard Annex #29 defines default algorithms for [grapheme cluster](../../terms/grapheme-cluster.md), word, and sentence boundaries, but it is explicit that scripts without spaces between words need dictionary-based tailoring rather than the default.<sup>1</sup>
 
-So for a design system, anything that counts, truncates, or indexes text has to use a Unicode-aware segmenter. [Thai](../../terms/thai-script.md), Japanese, and Chinese put no spaces between words, so word segmentation there needs a dictionary or model, not a delimiter, and even a single "character" can be a grapheme cluster of several code points.
+So for a design system, anything that counts, truncates, or indexes text has to use a Unicode-aware segmenter. [Thai](../../language-terms/writing-systems-and-scripts/thai-script.md), Japanese, and Chinese put no spaces between words, so word segmentation there needs a dictionary or model, not a delimiter, and even a single "character" can be a grapheme cluster of several code points.
 
 ### Example
 
@@ -62,7 +62,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### Related terms and mentions
 
-[CLDR](../../terms/cldr.md) · [Grapheme cluster](../../terms/grapheme-cluster.md) · [ICU](../../terms/icu.md) · [Internationalization](../../terms/internationalization.md) · [Internationalization & engineering](../../terms/i18n-engineering.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../terms/thai-script.md) · [Unicode](../../terms/unicode.md)
+[CLDR](../../terms/cldr.md) · [Grapheme cluster](../../terms/grapheme-cluster.md) · [ICU](../../terms/icu.md) · [Internationalization](../../terms/internationalization.md) · [Internationalization & engineering](../../terms/i18n-engineering.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](../../terms/unicode.md)
 
 ### Further reading
 

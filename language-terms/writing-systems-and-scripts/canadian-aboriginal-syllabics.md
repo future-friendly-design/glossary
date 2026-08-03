@@ -1,0 +1,102 @@
+---
+term: Canadian Aboriginal Syllabics
+slug: canadian-aboriginal-syllabics
+aliases:
+  - CAS
+  - UCAS
+  - Cree syllabics
+level: advanced
+depth: core
+summary: >-
+  Canadian Aboriginal Syllabics is a script used to write several Indigenous
+  languages of Canada.
+related:
+  - syllabary
+  - abugida
+  - featural-alphabet
+  - hangul
+  - endangered-language
+status: voice-passed
+version_added: 0.1
+updated: 2026-07-08T00:00:00.000Z
+contributors:
+  - sam-gordashko
+further_reading:
+  - title: Noto Sans Canadian Aboriginal (Google Fonts)
+    url: https://fonts.google.com/noto/specimen/Noto+Sans+Canadian+Aboriginal
+    type: design-tool
+  - title: Unicode Unified Canadian Aboriginal Syllabics code chart (U+1400)
+    url: https://www.unicode.org/charts/PDF/U1400.pdf
+    type: authority
+license: CC-BY-4.0
+tags:
+  - writing-systems-scripts
+---
+
+# Canadian Aboriginal Syllabics script
+
+## Definition
+
+Canadian Aboriginal Syllabics is a [script](script.md) used to write several Indigenous languages of Canada. It is a [syllabary](syllabary.md) that unifies the local syllabaries of those languages into a single repertoire,<sup>1</sup> and its distinctive feature is orientation: a consonant's symbol points a different way for each following vowel, down for /e/, up for /i/, right for /o/, and left for /a/.<sup>2</sup> Because the orientation of a symbol systematically encodes the vowel, it is often described as [featural](featural-alphabet.md), and it works much like an [abugida](abugida.md). The syllabics were invented in the late 1830s by the missionary James Evans for the Algonquian languages,<sup>3</sup> and the communities who use them have carried and extended the script since.
+
+For example, the consonant p is a chevron: ᐱ (pi) points up, ᐯ (pe) points down, ᐸ (pa) points left, and ᐳ (po) points right.
+
+{% hint style="info" %}
+This glossary doesn't cover every Canadian Aboriginal Syllabics property, feature, and rule; select a linked term to navigate to its glossary page to learn more. As new glossary entries are [contributed](../../CONTRIBUTING.md), they will be linked.
+{% endhint %}
+
+### Canadian Aboriginal Syllabics profile
+
+These properties of Canadian Aboriginal Syllabics apply to any language that uses it in its [writing system](writing-system.md). Beyond the [script rules](script-rules.md) below, each language also defines its own conventions for using the script, known as its [orthography](orthography.md).
+
+| Property                          | Canadian Aboriginal Syllabics                                                                                                                                                |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Autonym](../../terms/autonym.md) | No single autonym: the script is shared across many languages, each with its own name for it                                                                                 |
+| Languages                         | Cree, Ojibwe, Inuktitut, and other Algonquian, Inuit, and Athabaskan (Dene) languages                                                                                        |
+| Letter case                       | None (no uppercase and lowercase)                                                                                                                                            |
+| [Marks](mark.md)                  | None (vowel-modified forms are separate symbols, not a base plus a combining mark)                                                                                           |
+| Numerals                          | Common ASCII digits                                                                                                                                                          |
+| Script type                       | [Syllabary](syllabary.md) (often described as a featural syllabary or featural [abugida](abugida.md))                                                                        |
+| [Symbols](symbol.md)              | Syllabic symbols, each a consonant plus a vowel (or a standalone vowel), where the symbol's orientation shows the vowel; separate final and standalone-consonant symbols too |
+
+### Canadian Aboriginal Syllabics rules and digital use considerations
+
+If your design system supports languages that use Canadian Aboriginal Syllabics, here are some considerations to keep in mind:
+
+| Rule or feature                                                                               | How it works in Canadian Aboriginal Syllabics                                                                                                                                                                                                                                                   | Design systems                                                                                                                                                                                                                                                    |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Bidirectional text](bidirectional-text.md)                                                   | The script runs left to right, but a line can still become bidirectional when right-to-left content (an Arabic or Hebrew name, for example) is embedded in it                                                                                                                                   | Then the embedded right-to-left run needs the Unicode bidirectional algorithm to reorder correctly; isolate embedded content whose direction you do not control, so it cannot disturb the surrounding text<sup>4</sup>                                            |
+| [Complex text layout](../../terms/complex-text-layout.md)                                     | Not required: each syllable is its own precomposed symbol, not a base plus a [combining mark](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md)<sup>5</sup>                                                                                                      | So there is no reordering or contextual shaping; see the OpenType and Text shaping rows below                                                                                                                                                                     |
+| [Font](../../terms/font.md) (open source)                                                     | [Noto Sans Canadian Aboriginal](https://fonts.google.com/noto/specimen/Noto+Sans+Canadian+Aboriginal) is a free, open-source font from Google's [Noto](../../terms/noto-fonts.md) project, covering the script's characters and the OpenType features they need (see OpenType and Text shaping) | Treat the typeface as a foundational choice, and confirm it covers every language you support that uses the script (see [font coverage](../../terms/font-coverage.md)), not just one                                                                              |
+| [OpenType](../../terms/opentype.md)                                                           | The font uses standard [OpenType features](../../terms/opentype-features.md): glyph substitution, [kerning](../../terms/kerning.md), and optional ligatures; no mandatory shaping features                                                                                                      | Confirm the font includes any features your languages rely on, but no special shaping is required. See the Text shaping row below                                                                                                                                 |
+| [Text direction](text-direction.md)                                                           | [Left to right](left-to-right.md)                                                                                                                                                                                                                                                               | Left-aligned text as the default                                                                                                                                                                                                                                  |
+| [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) | Not required: the [shaping engine](../../terms/shaping-engine.md) places glyphs directly; there are no positional forms, reordering, or mandatory mark positioning                                                                                                                              | Any tool renders the script correctly as long as the font is present                                                                                                                                                                                              |
+| [Unicode](../../terms/unicode.md) block                                                       | Unified Canadian Aboriginal Syllabics, [U+1400 to U+167F](https://www.unicode.org/charts/PDF/U1400.pdf) (plus Extended and Extended-A)                                                                                                                                                          | The primary user community spans several Indigenous groups across Canada,<sup>6</sup> and the symbols spread across a base block and extensions, so confirm [font coverage](../../terms/font-coverage.md) for the specific language, not just the common Cree set |
+| Vowel by orientation                                                                          | A consonant's symbol rotates or reflects to show the following vowel (down for /e/, up for /i/, right for /o/, left for /a/); each resulting syllable is a separate symbol                                                                                                                      | Orientation carries meaning, so never rotate, flip, or mirror these glyphs for effect: a mirrored ᐱ (pi) is not a styled p, it is ᐯ (pe), a different syllable                                                                                                    |
+
+### In practice
+
+* **Cover the specific language, not "syllabics" in general:** confirm the font carries the symbols that language uses across the base and Extended blocks, not just the common Cree set. See [font coverage](../../terms/font-coverage.md).
+* **Never rotate or mirror the glyphs for style:** orientation encodes the vowel, so a flipped or turned symbol becomes a different syllable. Test with a real word and confirm each symbol points the right way.
+* **Check the orthography, and which writing system a community uses:** several of these languages are also written in the [Latin script](latin-script.md), and each has its own conventions, so do not assume one system or one language's symbols. Pull per-language conventions from [locale](../../terms/locale.md) data that Unicode's [CLDR](../../terms/cldr.md) publishes, and defer to the community.
+* **If a rule above is not documented, you may be the source:** for an [endangered](../../terms/endangered-language.md) or under-resourced language the conventions may not be in any library yet. Capture them with fluent speakers, write them into your specs and tokens, and add them here (see [how to contribute](../../CONTRIBUTING.md)) or upstream, where Unicode's [CLDR Survey Tool](https://cldr.unicode.org/index/survey-tool) accepts community submissions and new locales.
+
+***
+
+### Related terms and mentions
+
+[Abugida](abugida.md) · [Autonym](../../terms/autonym.md) · [Bidirectional text](bidirectional-text.md) · [CLDR](../../terms/cldr.md) · [Combining mark](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Endangered language](../../terms/endangered-language.md) · [Featural script](featural-alphabet.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Hangul](hangul.md) · [Kerning](../../terms/kerning.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Locale](../../terms/locale.md) · [Mark](mark.md) · [Noto fonts](../../terms/noto-fonts.md) · [OpenType](../../terms/opentype.md) · [OpenType features](../../terms/opentype-features.md) · [Orthography](orthography.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Text direction](text-direction.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](../../terms/typeface.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+
+### Further reading
+
+* Design tools: [Noto Sans Canadian Aboriginal (Google Fonts)](https://fonts.google.com/noto/specimen/Noto+Sans+Canadian+Aboriginal)
+* Foundations: [Unicode Unified Canadian Aboriginal Syllabics code chart (U+1400)](https://www.unicode.org/charts/PDF/U1400.pdf)
+
+### Sources
+
+1. The characters in this block are a unification of various local syllabaries of Canada into a single repertoire based on character appearance - The Unicode Standard, Version 17.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/)
+2. Typically the shape points down when the consonant is combined with the vowel /e/, up when combined with the vowel /i/, right when combined with the vowel /o/, and left when combined with the vowel /a/ - The Unicode Standard, Version 17.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/)
+3. The syllabics were invented in the late 1830s by James Evans for Algonquian languages - The Unicode Standard, Version 17.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/)
+4. This annex describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew - Unicode Standard Annex #9: Unicode Bidirectional Algorithm [https://www.unicode.org/reports/tr9/](https://www.unicode.org/reports/tr9/)
+5. Such modified characters are considered unique syllables; they are not decomposed into base characters and one or more diacritics - The Unicode Standard, Version 17.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/)
+6. The primary user community for this script consists of several aboriginal groups throughout Canada, including Algonquian, Inuktitut, and Athapascan language families - The Unicode Standard, Version 17.0, Chapter 20: Americas [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-20/)
