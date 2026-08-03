@@ -38,11 +38,11 @@ The reader supplies the missing vowels from context, which is what sets an abjad
 
 The abjads the glossary has an entry for are listed below, alongside a few other notable abjads not yet covered. Select a linked term to navigate to its glossary page.
 
-| Script                     | Languages                  | Example |
-| -------------------------- | -------------------------- | ------- |
+| Script                     | Languages                  | Example                  |
+| -------------------------- | -------------------------- | ------------------------ |
 | [Arabic](arabic-script.md) | Arabic, Persian, Urdu      | marhaba (مرحبا): "hello" |
-| [Hebrew](hebrew-script.md) | Hebrew, Yiddish            | shalom (שלום): "hello" |
-| Syriac                     | Syriac (a form of Aramaic) | shlama (ܫܠܡܐ): "hello" |
+| [Hebrew](hebrew-script.md) | Hebrew, Yiddish            | shalom (שלום): "hello"   |
+| Syriac                     | Syriac (a form of Aramaic) | shlama (ܫܠܡܐ): "hello"   |
 
 ### Why it matters in design systems
 
@@ -58,7 +58,7 @@ For example, the Arabic script writes Arabic as an abjad, with short vowels omit
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Diacritic](diacritic.md) · [Font](../../terms/font.md) · [Hebrew script](hebrew-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Diacritic](diacritic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Hebrew script](hebrew-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Typeface](../../design-terms/typography/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

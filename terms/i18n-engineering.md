@@ -37,11 +37,11 @@ Supporting the world's languages is not one feature you add at the end; it is a 
 
 A guided tour of the internationalization and engineering terms in this glossary, grouped by what they help you do:
 
-* **The i18n / l10n model:** [Internationalization](internationalization.md), [Localization](localization.md), [Locale](locale.md)
-* **Locale-aware text behavior:** [Collation](collation.md), [Segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md)
-* **Locale data and libraries:** [CLDR](cldr.md), [ICU](icu.md)
-* **Designing for translation:** [Text expansion](text-expansion.md), [Pseudolocalization](pseudolocalization.md)
-* **Input:** [Input method editor (IME)](input-method-editor.md), [Keyboard layout](keyboard-layout.md)
+* **The i18n / l10n model:** [Internationalization](../programming-terms/text-for-digital-products-and-the-web/internationalization.md), [Localization](../programming-terms/text-for-digital-products-and-the-web/localization.md), [Locale](../programming-terms/text-for-digital-products-and-the-web/locale.md)
+* **Locale-aware text behavior:** [Collation](../programming-terms/text-for-digital-products-and-the-web/collation.md), [Segmentation](../programming-terms/text-for-digital-products-and-the-web/segmentation.md)
+* **Locale data and libraries:** [CLDR](../programming-terms/text-for-digital-products-and-the-web/cldr.md), [ICU](../programming-terms/text-for-digital-products-and-the-web/icu.md)
+* **Designing for translation:** [Text expansion](../programming-terms/text-for-digital-products-and-the-web/text-expansion.md), [Pseudolocalization](../programming-terms/text-for-digital-products-and-the-web/pseudolocalization.md)
+* **Input:** [Input method editor (IME)](../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md), [Keyboard layout](../programming-terms/text-for-digital-products-and-the-web/keyboard-layout.md)
 
 ## Further reading
 

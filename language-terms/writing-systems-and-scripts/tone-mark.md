@@ -39,13 +39,13 @@ For example, in Hanyu Pinyin (Mandarin written in the Latin alphabet), the tone 
 
 A tone mark is a specialized kind of [diacritic](diacritic.md), used where the pitch of a syllable changes a word's meaning, as in Mandarin Chinese and Vietnamese.
 
-Vietnamese can stack a tone mark on a vowel letter that already carries a diacritic, so one vowel may carry two diacritics at once. That stack rises higher than a single accent, so it needs more room between lines. How many marks pile on a letter is set by the language's [orthography](orthography.md), not the shared script, which is why the same Latin letters need more [line height](../../terms/line-height.md) for Vietnamese than for most languages.<sup>1</sup>
+Vietnamese can stack a tone mark on a vowel letter that already carries a diacritic, so one vowel may carry two diacritics at once. That stack rises higher than a single accent, so it needs more room between lines. How many marks pile on a letter is set by the language's [orthography](orthography.md), not the shared script, which is why the same Latin letters need more [line height](../../design-terms/typography/line-height.md) for Vietnamese than for most languages.<sup>1</sup>
 
 ***
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Diacritic](diacritic.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Diacritic](diacritic.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -59,7 +59,7 @@ For example, the [Arabic script](arabic-script.md) is an [abjad](abjad.md) when 
 
 So knowing that a script is being used as an alphabet is a starting point, not the whole picture.
 
-It does tell you the structure: both consonants and vowels are written as full letters, so [font coverage](../../terms/font-coverage.md) has to include the vowel letters and any [diacritic](diacritic.md) marks the language adds to them.
+It does tell you the structure: both consonants and vowels are written as full letters, so [font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) has to include the vowel letters and any [diacritic](diacritic.md) marks the language adds to them.
 
 It does not tell you the script behaves like the Latin alphabet: whether it has uppercase and lowercase, how its letters sort, and how they are spaced are all set by the individual script's [rules](script-rules.md) and the language's [orthography](orthography.md), and several alphabets have no letter case at all.
 
@@ -69,7 +69,7 @@ Check the whole [writing system](writing-system.md), not just the fact that it i
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic script](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../terms/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Mongolian script](mongolian-script.md) · [Ol Chiki script](ol-chiki.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Wancho script](wancho-script.md) · [Warang Citi script](warang-citi.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Abugida](abugida.md) · [Arabic script](arabic-script.md) · [Armenian script](armenian-script.md) · [Cyrillic script](cyrillic.md) · [Diacritic](diacritic.md) · [Featural script](featural-alphabet.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Georgian script](georgian-script.md) · [Greek script](greek-script.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Mongolian script](mongolian-script.md) · [Ol Chiki script](ol-chiki.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../design-terms/typography/typeface.md) · [Wancho script](wancho-script.md) · [Warang Citi script](warang-citi.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

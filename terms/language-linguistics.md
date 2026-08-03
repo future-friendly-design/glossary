@@ -32,16 +32,16 @@ Language and linguistics terms are the vocabulary for talking about languages th
 
 ## Why it matters
 
-A language is not the same thing as the [script](../language-terms/writing-systems-and-scripts/script.md) it is written in, and it is not the same thing as a country or a locale. This category gives you the concepts to be precise about that difference: what counts as a language versus a [dialect](dialect.md), how a [macrolanguage](macrolanguage.md) relates to its members, which code identifies a language unambiguously, and what a "number of speakers" actually measures. Two themes run through it for product and design work. First, languages are communities of people, so naming, representation, and support are matters of respect, not just data. Second, the facts here are easy to get wrong and consequential when wrong, so speaker counts, endangerment status, and language boundaries belong to specialists and the communities themselves. The terms below give you a careful way to talk about all of it.
+A language is not the same thing as the [script](../language-terms/writing-systems-and-scripts/script.md) it is written in, and it is not the same thing as a country or a locale. This category gives you the concepts to be precise about that difference: what counts as a language versus a [dialect](../language-terms/linguistics/dialect.md), how a [macrolanguage](../language-terms/linguistics/macrolanguage.md) relates to its members, which code identifies a language unambiguously, and what a "number of speakers" actually measures. Two themes run through it for product and design work. First, languages are communities of people, so naming, representation, and support are matters of respect, not just data. Second, the facts here are easy to get wrong and consequential when wrong, so speaker counts, endangerment status, and language boundaries belong to specialists and the communities themselves. The terms below give you a careful way to talk about all of it.
 
 ## Key terms
 
 A guided tour of the language and linguistics terms in this glossary, grouped by what they help you reason about:
 
-* **Classification and codes:** [Language family](language-family.md), [Macrolanguage](macrolanguage.md), [ISO 639-3](iso-639-3.md), [Dialect](dialect.md)
-* **Naming and writing conventions:** [Autonym](autonym.md), [Orthography](../language-terms/writing-systems-and-scripts/orthography.md)
-* **Language types and contact:** [Agglutinative language](agglutinative-language.md), [Lexifier](lexifier.md), [Pidgin](pidgin.md), [Creole](creole.md)
-* **Speakers and vitality:** [L1 speakers](l1-speakers.md), [L2 speakers](l2-speakers.md), [Endangered language](endangered-language.md), [UNESCO endangerment scale](unesco-endangerment-scale.md)
+* **Classification and codes:** [Language family](../language-terms/linguistics/language-family.md), [Macrolanguage](../language-terms/linguistics/macrolanguage.md), [ISO 639-3](../language-terms/linguistics/iso-639-3.md), [Dialect](../language-terms/linguistics/dialect.md)
+* **Naming and writing conventions:** [Autonym](../language-terms/linguistics/autonym.md), [Orthography](../language-terms/writing-systems-and-scripts/orthography.md)
+* **Language types and contact:** [Agglutinative language](../language-terms/linguistics/agglutinative-language.md), [Lexifier](../language-terms/linguistics/lexifier.md), [Pidgin](../language-terms/linguistics/pidgin.md), [Creole](../language-terms/linguistics/creole.md)
+* **Speakers and vitality:** [L1 speakers](../language-terms/linguistics/l1-speakers.md), [L2 speakers](../language-terms/linguistics/l2-speakers.md), [Endangered language](../language-terms/linguistics/endangered-language.md), [UNESCO endangerment scale](../language-terms/linguistics/unesco-endangerment-scale.md)
 
 ## Further reading
 

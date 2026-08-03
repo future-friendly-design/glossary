@@ -49,13 +49,13 @@ The syllabaries the glossary has an entry for are listed below, alongside a few 
 
 In a syllabary each symbol usually stands for a consonant-plus-vowel unit, and the symbols for different syllables are not built from a shared, systematic set of parts. That is the line between a syllabary and an [abugida](abugida.md): in an abugida, syllables that share a consonant share a base shape with vowel marks added,<sup>6</sup> whereas a syllabary gives each syllable its own distinct symbol. It also differs from a [logographic](logographic.md) script, whose symbols stand for meaning rather than sound.
 
-For a design system the payoff is knowing what kind of set you are covering. A syllabary is a fixed, learnable inventory of symbols, so [font coverage](../../terms/font-coverage.md) and keyboard or [input method](../../terms/input-method-editor.md) support target that whole set rather than a small recombining alphabet. Syllabaries also tend to appear mixed with other scripts: everyday Japanese runs hiragana and katakana together with logographic kanji on one line, so "supports Japanese" is never a single-script decision.
+For a design system the payoff is knowing what kind of set you are covering. A syllabary is a fixed, learnable inventory of symbols, so [font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) and keyboard or [input method](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) support target that whole set rather than a small recombining alphabet. Syllabaries also tend to appear mixed with other scripts: everyday Japanese runs hiragana and katakana together with logographic kanji on one line, so "supports Japanese" is never a single-script decision.
 
 ***
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics script](canadian-aboriginal-syllabics.md) · [Font coverage](../../terms/font-coverage.md) · [Hiragana script](hiragana.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Katakana script](katakana.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics script](canadian-aboriginal-syllabics.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Hiragana script](hiragana.md) · [Input method editor (IME)](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) · [Katakana script](katakana.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

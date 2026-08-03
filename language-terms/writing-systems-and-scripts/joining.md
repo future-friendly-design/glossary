@@ -69,31 +69,31 @@ Not every symbol takes all four. Some join on one side only, so they appear just
 
 As you can imagine, supporting a language whose writing system has a joining script rule influences multiple parts of the design system across typography, design, and development.
 
-In typography, the [typeface](../../terms/typeface.md) must include [glyphs](../../terms/glyph.md) for all positional forms of the script's symbols. In design, [tracking](../../design-terms/typography/tracking.md) and [letter-spacing](../../terms/letter-spacing.md) must stay at zero for these scripts, because adding space between symbols breaks the joins.<sup>1</sup>
+In typography, the [typeface](../../design-terms/typography/typeface.md) must include [glyphs](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) for all positional forms of the script's symbols. In design, [tracking](../../design-terms/typography/tracking.md) and [letter-spacing](../../design-terms/typography/letter-spacing.md) must stay at zero for these scripts, because adding space between symbols breaks the joins.<sup>1</sup>
 
-Design tooling needs to support shaping; otherwise the tool will display the [characters](../../terms/character.md) but not join them, leaving the script's symbols as separate shapes a reader cannot follow.
+Design tooling needs to support shaping; otherwise the tool will display the [characters](../../programming-terms/text-for-digital-products-and-the-web/character.md) but not join them, leaving the script's symbols as separate shapes a reader cannot follow.
 
 In development, the text-rendering layer (the browser, OS, or app's text engine) needs to support shaping, so the right form of each symbol appears when text is displayed in a language written in a joining script.
 
 * [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) is the step that turns stored characters into properly positioned glyphs.
-* [OpenType](../../terms/opentype.md) is a widely supported standard for formatting [font](../../terms/font.md) data for digital typography, with features for supporting script rules like joining automatically. OpenType selects the positional forms of glyphs with the `isol`, `init`, `medi`, and `fina` features.<sup>2</sup>
+* [OpenType](../../design-terms/typography/opentype.md) is a widely supported standard for formatting [font](../../programming-terms/text-for-digital-products-and-the-web/font.md) data for digital typography, with features for supporting script rules like joining automatically. OpenType selects the positional forms of glyphs with the `isol`, `init`, `medi`, and `fina` features.<sup>2</sup>
 
 A quick thing to keep in mind: joining is just one of a script's rules. A script usually has several, and they all apply to every language that uses the script. So check the other [script rules](script-rules.md) too, not only this page. After that, look at the [orthography](orthography.md) for each language you support. Orthography is the language-specific layer: how that one language uses the script, like its spelling and punctuation.
 
 ### Common mistake
 
-Treating joining as an optional styling choice. A [ligature](../../terms/ligature.md), like the fi pair you see in English text, is a typographic refinement you can switch on or off.<sup>3</sup> Joining is not like that: it is required shaping. Skip it, with a tool or font that cannot shape, and the text does not just look plainer, it becomes unreadable. So when joined text renders broken, what it needs is shaping, not a font's ligature setting.
+Treating joining as an optional styling choice. A [ligature](../../programming-terms/text-for-digital-products-and-the-web/ligature.md), like the fi pair you see in English text, is a typographic refinement you can switch on or off.<sup>3</sup> Joining is not like that: it is required shaping. Skip it, with a tool or font that cannot shape, and the text does not just look plainer, it becomes unreadable. So when joined text renders broken, what it needs is shaping, not a font's ligature setting.
 
 ### In practice
 
 * **Test the tool with a real word, not a glyph table:** type a connected word and confirm the symbols join and pick up their positional forms, not just that the characters appear. Tool support varies, so test early, not at handoff.
-* **Confirm positional-form coverage before you commit a typeface:** the font has to ship the joining forms and the features that select them, not just the base symbols. See [font coverage](../../terms/font-coverage.md).
+* **Confirm positional-form coverage before you commit a typeface:** the font has to ship the joining forms and the features that select them, not just the base symbols. See [font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md).
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Character](../../terms/character.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../terms/letter-spacing.md) · [Ligature](../../terms/ligature.md) · [Mongolian script (traditional)](mongolian-script.md) · [OpenType](../../terms/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Tracking](../../design-terms/typography/tracking.md) · [Typeface](../../terms/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Character](../../programming-terms/text-for-digital-products-and-the-web/character.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Ligature](../../programming-terms/text-for-digital-products-and-the-web/ligature.md) · [Mongolian script (traditional)](mongolian-script.md) · [OpenType](../../design-terms/typography/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Tracking](../../design-terms/typography/tracking.md) · [Typeface](../../design-terms/typography/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

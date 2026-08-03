@@ -53,7 +53,7 @@ In scripts such as [Devanagari](devanagari.md) and [Bengali](bengali-assamese.md
 
 A script with a shirorekha influences several design system decisions including spacing, alignment, and font coverage.
 
-[Letter-spacing](../../terms/letter-spacing.md), the [tracking](../../design-terms/typography/tracking.md) you might add to Latin headings or labels, should not be applied character by character to a script with a shirorekha.
+[Letter-spacing](../../design-terms/typography/letter-spacing.md), the [tracking](../../design-terms/typography/tracking.md) you might add to Latin headings or labels, should not be applied character by character to a script with a shirorekha.
 
 * It inserts a gap between each unit, the gap lands on the seam where the shirorekha joins, and the top line breaks so the word looks split.<sup>6</sup>
 * It is the same reason connected scripts like [Arabic](arabic-script.md) reject letter-spacing.<sup>7</sup>
@@ -62,7 +62,7 @@ A script with a shirorekha influences several design system decisions including 
 Letters hanging from the shirorekha at the top means the design system has to account for the text alignment as a [hanging baseline](hanging-baseline.md) which is different from the baseline Latin sits on.
 
 * Script rules may also define marks that stack above and below the shirorekha.
-* This means if you have a fixed value as your [line-height](../../terms/line-height.md) that works for Latin script using languages, it may need to be adjusted to ensure scripts with shirorekha don't appear clipped or cut off.
+* This means if you have a fixed value as your [line-height](../../design-terms/typography/line-height.md) that works for Latin script using languages, it may need to be adjusted to ensure scripts with shirorekha don't appear clipped or cut off.
 
 In digital design and programming, ensuring you have chosen a font with coverage for the specific script with the shirorekha is important.
 
@@ -75,7 +75,7 @@ A quick thing to keep in mind: the shirorekha is just one of a script's rules. A
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese script](bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari script](devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](../../design-terms/typography/tracking.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese script](bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari script](devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](latin-script.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](../../design-terms/typography/tracking.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

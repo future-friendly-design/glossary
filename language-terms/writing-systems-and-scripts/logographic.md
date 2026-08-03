@@ -48,13 +48,13 @@ The logographic scripts the glossary has an entry for are listed below, alongsid
 
 The common shortcut is to call these characters "ideographic", as if each were a picture of an idea. That is mostly wrong: Han characters are tied to specific words and morphemes of a spoken language, and they represent them phonetically for the most part,<sup>3</sup> so logographic (or more precisely [logosyllabary](logosyllabary.md)) is the accurate term, not [ideographic](ideographic.md).
 
-For type and product work the defining consequence is scale. A logographic script needs thousands of distinct symbols rather than a few dozen letters, which drives [font](../../terms/font.md) file size and [subsetting](../../terms/font-subsetting.md), [glyph](../../terms/glyph.md) coverage, and input: text entry relies on an [input method editor](../../terms/input-method-editor.md) that converts typed sounds into characters, rather than one key per symbol.
+For type and product work the defining consequence is scale. A logographic script needs thousands of distinct symbols rather than a few dozen letters, which drives [font](../../programming-terms/text-for-digital-products-and-the-web/font.md) file size and [subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md), [glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) coverage, and input: text entry relies on an [input method editor](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) that converts typed sounds into characters, rather than one key per symbol.
 
 ***
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Font](../../terms/font.md) · [Font subsetting](../../terms/font-subsetting.md) · [Glyph](../../terms/glyph.md) · [Han characters script](han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Unicode Standard](../../terms/unicode-standard.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Han characters script](han-characters.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) · [Logosyllabary](logosyllabary.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Unicode Standard](../../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -36,12 +36,12 @@ Every product handles text, and a surprising share of bugs trace back to this la
 
 A guided tour of the characters and encoding terms in this glossary, grouped by what they help you reason about:
 
-* **The text model:** [Character](character.md), [Glyph](glyph.md), [Code point](code-point.md), [Grapheme cluster](grapheme-cluster.md)
-* **The standard and its structure:** [Unicode](unicode.md), [Plane / Basic Multilingual Plane](plane-bmp.md)
-* **Encodings:** [Character encoding](character-encoding.md), [UTF-8](utf-8.md), [UTF-16](utf-16.md), [Surrogate pair](surrogate-pair.md)
-* **Combining and normalizing:** [Combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md), [Precomposed character](precomposed-character.md), [Normalization](normalization.md), [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md), [Tone mark](../language-terms/writing-systems-and-scripts/tone-mark.md)
+* **The text model:** [Character](../programming-terms/text-for-digital-products-and-the-web/character.md), [Glyph](../programming-terms/text-for-digital-products-and-the-web/glyph.md), [Code point](../programming-terms/text-for-digital-products-and-the-web/code-point.md), [Grapheme cluster](../programming-terms/text-for-digital-products-and-the-web/grapheme-cluster.md)
+* **The standard and its structure:** [Unicode](../programming-terms/text-for-digital-products-and-the-web/unicode.md), [Plane / Basic Multilingual Plane](../programming-terms/text-for-digital-products-and-the-web/plane-bmp.md)
+* **Encodings:** [Character encoding](../programming-terms/text-for-digital-products-and-the-web/character-encoding.md), [UTF-8](../programming-terms/text-for-digital-products-and-the-web/utf-8.md), [UTF-16](../programming-terms/text-for-digital-products-and-the-web/utf-16.md), [Surrogate pair](../programming-terms/text-for-digital-products-and-the-web/surrogate-pair.md)
+* **Combining and normalizing:** [Combining mark](../programming-terms/text-for-digital-products-and-the-web/combining-mark.md), [Precomposed character](../programming-terms/text-for-digital-products-and-the-web/precomposed-character.md), [Normalization](../programming-terms/text-for-digital-products-and-the-web/normalization.md), [Diacritic](../language-terms/writing-systems-and-scripts/diacritic.md), [Tone mark](../language-terms/writing-systems-and-scripts/tone-mark.md)
 * **Direction:** [Bidirectional text](../language-terms/writing-systems-and-scripts/bidirectional-text.md), [Text direction](../language-terms/writing-systems-and-scripts/text-direction.md)
-* **Rendering gaps:** [Tofu](tofu.md)
+* **Rendering gaps:** [Tofu](../design-terms/typography/tofu.md)
 
 ## Further reading
 

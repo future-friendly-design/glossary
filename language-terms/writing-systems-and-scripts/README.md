@@ -59,7 +59,7 @@ A script consists of the visual symbols and marks used to write a language, plus
 A symbol is an individual visual element that makes up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.
 
 * [Grapheme](../linguistics/grapheme.md)
-* [Grapheme cluster](../../terms/grapheme-cluster.md)
+* [Grapheme cluster](../../programming-terms/text-for-digital-products-and-the-web/grapheme-cluster.md)
 * [Symbol](symbol.md)
 
 #### Mark terms
@@ -74,7 +74,7 @@ A mark is a kind of [symbol](symbol.md) that modifies or accompanies another sym
 * [Tone mark](tone-mark.md)
 * [Virama](virama.md)
 
-One of these shares the word but not the sense. A [punctuation mark](punctuation-mark.md) stands alone instead of modifying another symbol, so [Unicode](../../terms/unicode.md) files it under punctuation, not marks. It is listed here because it carries the word "mark", not because it works like one.
+One of these shares the word but not the sense. A [punctuation mark](punctuation-mark.md) stands alone instead of modifying another symbol, so [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md) files it under punctuation, not marks. It is listed here because it carries the word "mark", not because it works like one.
 
 #### Script rules and features
 
@@ -115,7 +115,7 @@ Scripts are classified by what their symbols represent. Most sit on a spectrum o
 Some scripts are grouped not by how their symbols work but by shared ancestry or regional use. A grouping tells you what infrastructure transfers between its members, but the members still differ, so verify per script, not by family.
 
 * [Brahmic scripts](brahmic-scripts.md): a large family of related [abugidas](abugida.md) descended from the ancient Brahmi script, spanning South and Southeast Asia.
-* [CJK](../../terms/cjk.md): a regional and typographic grouping of the Chinese, Japanese, and Korean writing systems, which share Han characters and are set together in software.
+* [CJK](cjk.md): a regional and typographic grouping of the Chinese, Japanese, and Korean writing systems, which share Han characters and are set together in software.
 
 ### Scripts to explore
 

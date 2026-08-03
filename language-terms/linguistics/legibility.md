@@ -31,7 +31,7 @@ tags:
 
 Legibility is how easily a reader can tell one character apart from another.
 
-It is a typographic property decided at the level of the individual [symbol](../writing-systems-and-scripts/symbol.md): whether a lowercase "l" can be mistaken for a capital "I" or the digit "1", an "O" for a "0". It lives in the [typeface](../../terms/typeface.md) and its [glyph](../../terms/glyph.md) shapes, so it is set by font choice and letterform style: weight, [x-height](../../terms/x-height.md), how open the counters are, whether the zero is slashed. Its partner is [readability](readability.md), how comfortably a reader moves through whole lines and paragraphs; legibility is the zoomed-in view, readability the zoomed-out one.
+It is a typographic property decided at the level of the individual [symbol](../writing-systems-and-scripts/symbol.md): whether a lowercase "l" can be mistaken for a capital "I" or the digit "1", an "O" for a "0". It lives in the [typeface](../../design-terms/typography/typeface.md) and its [glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) shapes, so it is set by font choice and letterform style: weight, [x-height](../../design-terms/typography/x-height.md), how open the counters are, whether the zero is slashed. Its partner is [readability](readability.md), how comfortably a reader moves through whole lines and paragraphs; legibility is the zoomed-in view, readability the zoomed-out one.
 
 ## Why it matters in design systems
 
@@ -53,7 +53,7 @@ Treating legibility and readability as the same thing, or as "how good the font 
 
 ## Related terms and mentions
 
-[Glyph](../../terms/glyph.md) · [Readability](readability.md) · [Symbol](../writing-systems-and-scripts/symbol.md) · [Typeface](../../terms/typeface.md) · [X-height](../../terms/x-height.md)
+[Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Readability](readability.md) · [Symbol](../writing-systems-and-scripts/symbol.md) · [Typeface](../../design-terms/typography/typeface.md) · [X-height](../../design-terms/typography/x-height.md)
 
 ## Further reading
 

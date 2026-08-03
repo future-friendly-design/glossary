@@ -38,7 +38,7 @@ tags:
 # Script
 
 {% hint style="info" %}
-This is the writing-systems sense of "script." For the type-design classification, see [Script (typeface)](../../terms/script-typeface.md); the computing sense (a program) is out of scope in this glossary. A script applied to one language with its spelling and punctuation rules is a [writing system](writing-system.md).
+This is the writing-systems sense of "script." For the type-design classification, see [Script (typeface)](../../design-terms/typography/script-typeface.md); the computing sense (a program) is out of scope in this glossary. A script applied to one language with its spelling and punctuation rules is a [writing system](writing-system.md).
 {% endhint %}
 
 ## Definition
@@ -49,7 +49,7 @@ When a community sets rules on how a script can be used to write their specific 
 
 The combination of script and orthography is also known as the [writing system](writing-system.md) of a language.
 
-Scripts are classified by what each symbol represents: [alphabets](alphabet.md), [abjads](abjad.md), [abugidas](abugida.md) (also called [alphasyllabaries](alphasyllabary.md)), [syllabaries](syllabary.md), [logographic](logographic.md) (more precisely, [logosyllabary](logosyllabary.md)), [ideographic](ideographic.md), [featural](featural-alphabet.md), and [pictographic](pictographic.md) systems. They are often grouped into families like [Brahmic scripts](brahmic-scripts.md) and [CJK](../../terms/cjk.md) to help us understand the common properties across related scripts.
+Scripts are classified by what each symbol represents: [alphabets](alphabet.md), [abjads](abjad.md), [abugidas](abugida.md) (also called [alphasyllabaries](alphasyllabary.md)), [syllabaries](syllabary.md), [logographic](logographic.md) (more precisely, [logosyllabary](logosyllabary.md)), [ideographic](ideographic.md), [featural](featural-alphabet.md), and [pictographic](pictographic.md) systems. They are often grouped into families like [Brahmic scripts](brahmic-scripts.md) and [CJK](cjk.md) to help us understand the common properties across related scripts.
 
 The same greeting in four scripts:
 
@@ -68,7 +68,7 @@ Script, language, and writing system are not the same thing. Requirements for a 
 
 While it's true that the script will drive the font design decisions for what typefaces you can use in a project, implementing a language in a design system by only thinking about its script is a recipe for poor user experience.
 
-If the script defines the [typeface](../../terms/typeface.md) choices, the script rules will help you decide the [text direction](text-direction.md) it runs in, and the [shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and input it requires which influence layout behaviour of components and patterns within your system.
+If the script defines the [typeface](../../design-terms/typography/typeface.md) choices, the script rules will help you decide the [text direction](text-direction.md) it runs in, and the [shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) and input it requires which influence layout behaviour of components and patterns within your system.
 
 Many of the other typography and font styling decisions are influenced by the language-specific application of the script within the writing system, so looking at the orthography is just as important.
 
@@ -100,7 +100,7 @@ When the new language uses a different script, the scope of work is larger. The 
 
 ### Related terms and mentions
 
-[Abjad](abjad.md) · [Abugida](abugida.md) · [Alphabet](alphabet.md) · [Alphasyllabary](alphasyllabary.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Brahmic scripts](brahmic-scripts.md) · [CJK](../../terms/cjk.md) · [Conjunct](conjunct.md) · [Cyrillic script](cyrillic.md) · [Devanagari script](devanagari.md) · [Featural script](featural-alphabet.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Keyboard layout](../../terms/keyboard-layout.md) · [Latin script](latin-script.md) · [Line height](../../terms/line-height.md) · [Logographic](logographic.md) · [Logosyllabary](logosyllabary.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Pictographic](pictographic.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script (typeface)](../../terms/script-typeface.md) · [Script rules](script-rules.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Shaping engine](../../terms/shaping-engine.md) · [Stacking script](stacking-script.md) · [Syllabary](syllabary.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](../../terms/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Abjad](abjad.md) · [Abugida](abugida.md) · [Alphabet](alphabet.md) · [Alphasyllabary](alphasyllabary.md) · [Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [Brahmic scripts](brahmic-scripts.md) · [CJK](cjk.md) · [Conjunct](conjunct.md) · [Cyrillic script](cyrillic.md) · [Devanagari script](devanagari.md) · [Featural script](featural-alphabet.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Ideographic](ideographic.md) · [Input method editor (IME)](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) · [Keyboard layout](../../programming-terms/text-for-digital-products-and-the-web/keyboard-layout.md) · [Latin script](latin-script.md) · [Line height](../../design-terms/typography/line-height.md) · [Logographic](logographic.md) · [Logosyllabary](logosyllabary.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Pictographic](pictographic.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Script rules](script-rules.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Shaping engine](../../programming-terms/text-for-digital-products-and-the-web/shaping-engine.md) · [Stacking script](stacking-script.md) · [Syllabary](syllabary.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](../../design-terms/typography/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -51,17 +51,17 @@ While this glossary doesn't cover every script, here are some to be aware of tha
 
 For a design system to support stacking scripts, it has typographic and font design decisions to consider, as well as functional requirements on the development side.
 
-Displaying a stacking script correctly requires both a [font](../../terms/font.md) that includes the stacked forms of the consonant [glyphs](../../terms/glyph.md) and a [shaping engine](../../terms/shaping-engine.md) that assembles those separate glyphs into one vertical shape.<sup>2</sup>
+Displaying a stacking script correctly requires both a [font](../../programming-terms/text-for-digital-products-and-the-web/font.md) that includes the stacked forms of the consonant [glyphs](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) and a [shaping engine](../../programming-terms/text-for-digital-products-and-the-web/shaping-engine.md) that assembles those separate glyphs into one vertical shape.<sup>2</sup>
 
-Because a stack piles several consonants into one shape, it is taller than a single consonant and needs more vertical room. Set your [line height](../../terms/line-height.md) tall enough that the tallest stacks are not clipped.
+Because a stack piles several consonants into one shape, it is taller than a single consonant and needs more vertical room. Set your [line height](../../design-terms/typography/line-height.md) tall enough that the tallest stacks are not clipped.
 
-Because the stack is assembled rather than placed in sequence, this is a [complex text layout](../../terms/complex-text-layout.md) behaviour, in the same family as [joining](joining.md) and [reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md). Stacking is just one of a script's [script rules](script-rules.md); each language that uses the script also has its own [orthography](orthography.md), the language-specific spelling and punctuation rules that apply on top of the script's behaviour.
+Because the stack is assembled rather than placed in sequence, this is a [complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) behaviour, in the same family as [joining](joining.md) and [reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md). Stacking is just one of a script's [script rules](script-rules.md); each language that uses the script also has its own [orthography](orthography.md), the language-specific spelling and punctuation rules that apply on top of the script's behaviour.
 
 ***
 
 ### Related terms and mentions
 
-[Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Line height](../../terms/line-height.md) · [Orthography](orthography.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Conjunct](conjunct.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Line height](../../design-terms/typography/line-height.md) · [Orthography](orthography.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../programming-terms/text-for-digital-products-and-the-web/shaping-engine.md) · [Symbol](symbol.md) · [Tibetan script](tibetan-script.md) · [Tsheg](tsheg.md) · [Virama](virama.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

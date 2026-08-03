@@ -42,7 +42,7 @@ An all-caps label like "SETTINGS" usually looks better with a touch of positive 
 
 ## Also called
 
-In design tools and CSS, the control that applies tracking is called "letter spacing," which has its own entry: [letter-spacing](../../terms/letter-spacing.md). Worth knowing the naming clash: what type people call tracking, tools call letter spacing, and neither is the same as kerning.
+In design tools and CSS, the control that applies tracking is called "letter spacing," which has its own entry: [letter-spacing](letter-spacing.md). Worth knowing the naming clash: what type people call tracking, tools call letter spacing, and neither is the same as kerning.
 
 ## Common mistake
 
@@ -50,11 +50,11 @@ Two of them. First, using tracking to fix a single bad letter pair, which is ker
 
 ## In practice
 
-Settle this once as a type-style decision rather than leaving it to each designer: all-caps and small UI labels usually want a small positive value, body copy usually wants none. The mechanics of actually applying it, plus the token, accessibility, and language gotchas, live in [letter-spacing](../../terms/letter-spacing.md), the tool and CSS control.
+Settle this once as a type-style decision rather than leaving it to each designer: all-caps and small UI labels usually want a small positive value, body copy usually wants none. The mechanics of actually applying it, plus the token, accessibility, and language gotchas, live in [letter-spacing](letter-spacing.md), the tool and CSS control.
 
 ## Related terms
 
-[Kerning](../../terms/kerning.md) · [Leading](../../terms/leading.md) · [Letter spacing](../../terms/letter-spacing.md)
+[Kerning](kerning.md) · [Leading](leading.md) · [Letter spacing](letter-spacing.md)
 
 ## Further reading
 

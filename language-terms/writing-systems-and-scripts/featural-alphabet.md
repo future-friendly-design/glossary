@@ -48,13 +48,13 @@ The scripts described as featural that the glossary has an entry for are listed 
 
 Featural design shows that a script's shapes can carry linguistic structure directly, rather than assigning arbitrary symbols to sounds. Hangul, developed under King Sejong and promulgated in 1446,<sup>3</sup> was designed so its five basic consonants are shaped after the human speech organs used to make each sound, so related sounds look related;<sup>4</sup> the letters are then grouped into square syllable blocks built from a set of alphabetic components, rather than written in a simple line.<sup>5</sup> [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) is also often described as featural, because rotating a consonant's symbol systematically encodes the following vowel (which is why it is sometimes called a featural abugida).
 
-The practical consequence is the unit of layout. Because Hangul builds syllable blocks out of letter components, [font](../../terms/font.md) design and rendering treat the block, not the single letter, as the shape that has to sit consistently in a square. That is a different problem from placing alphabetic letters one after another, so featural does not mean "just an alphabet" when you scope typeface and layout work.
+The practical consequence is the unit of layout. Because Hangul builds syllable blocks out of letter components, [font](../../programming-terms/text-for-digital-products-and-the-web/font.md) design and rendering treat the block, not the single letter, as the shape that has to sit consistently in a square. That is a different problem from placing alphabetic letters one after another, so featural does not mean "just an alphabet" when you scope typeface and layout work.
 
 ***
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics script](canadian-aboriginal-syllabics.md) · [Font](../../terms/font.md) · [Hangul script](hangul.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Unicode Standard](../../terms/unicode-standard.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics script](canadian-aboriginal-syllabics.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Hangul script](hangul.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../design-terms/typography/typeface.md) · [Unicode Standard](../../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

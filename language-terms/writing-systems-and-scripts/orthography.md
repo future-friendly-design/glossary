@@ -58,9 +58,9 @@ Orthography is rarely where you make a decision on its own. It matters because e
 
 To a linguist, the orthography is the set of rules a community agrees on for writing their language: how words are spelled, what gets a capital, which marks separate a sentence.
 
-To typography, those rules decide which shapes actually appear: the quotation marks French expects are not the ones English expects, and a capital letter is a different [glyph](../../terms/glyph.md) from its lowercase form.
+To typography, those rules decide which shapes actually appear: the quotation marks French expects are not the ones English expects, and a capital letter is a different [glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) from its lowercase form.
 
-To a computer, the orthography lives in [locale](../../terms/locale.md) data, not in the font or the script. [Unicode](../../terms/unicode.md)'s [CLDR](../../terms/cldr.md) publishes per-language conventions, such as quotation marks and number formats, as machine-readable data.
+To a computer, the orthography lives in [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) data, not in the font or the script. [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md)'s [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) publishes per-language conventions, such as quotation marks and number formats, as machine-readable data.
 
 So getting the script on screen is necessary, not sufficient. The symbols render, but the spelling, casing, and punctuation rules a native speaker reads as correct all live in the orthography on top.
 
@@ -79,7 +79,7 @@ So orthography forks into two layers that must not be mixed. The words a person 
 ### In practice
 
 * **Localize the human-facing text, not the code:** pull UI spelling, quotation marks, and capitalization from locale data, and keep CSS properties, token names, and identifiers in their canonical form. The two layers never merge, no matter how the rest of the site is spelled.
-* **Treat orthography as configurable, not implied:** where a language has more than one orthography, let the choice be set (a locale variant, a user preference) rather than assuming it from the language or the script. This connects to [segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) (line-breaking and capitalization rules differ by orthography) and [input methods](../../terms/input-method-editor.md) (how users type the orthography they want).
+* **Treat orthography as configurable, not implied:** where a language has more than one orthography, let the choice be set (a locale variant, a user preference) rather than assuming it from the language or the script. This connects to [segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) (line-breaking and capitalization rules differ by orthography) and [input methods](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) (how users type the orthography they want).
 * **Punctuation and casing are orthography, not afterthoughts:** quotation marks, decimal separators, and capitalization conventions vary by language, so they belong in localization data, not hardcoded UI strings.
 * **Orthographies change:** which orthography a language uses, and which is current or preferred, is community-specific and shifts over time (spelling reforms, script revivals), so treat a language's current convention as something to verify with its speakers, not a constant you hardcode once.
 
@@ -87,7 +87,7 @@ So orthography forks into two layers that must not be mixed. The words a person 
 
 ### Related terms and mentions
 
-[CLDR](../../terms/cldr.md) · [Cyrillic script](cyrillic.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Locale](../../terms/locale.md) · [Localization](../../terms/localization.md) · [Script](script.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../terms/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [Cyrillic script](cyrillic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Input method editor (IME)](../../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](script.md) · [Segmentation](../../programming-terms/text-for-digital-products-and-the-web/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

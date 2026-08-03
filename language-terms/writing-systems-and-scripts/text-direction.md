@@ -55,7 +55,7 @@ While this glossary doesn't cover every script, here are some of the scripts to 
 | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [Left to right](left-to-right.md) (LTR)                       | Horizontal, starting at the left edge; lines stack down the page.                                                                                                                                                                      | [Latin script](latin-script.md), [Greek script](greek-script.md), [Cyrillic](cyrillic.md), [Devanagari](devanagari.md) |
 | [Right to left](right-to-left.md) (RTL)                       | Horizontal, starting at the right edge; lines stack down the page.                                                                                                                                                                     | [Arabic script](arabic-script.md), [Hebrew script](hebrew-script.md), Thaana, Syriac, N'Ko, Adlam                      |
-| Top to bottom ([Vertical Text](../../terms/vertical-text.md)) | Stacked in vertical columns. CJK usually runs horizontally but can be set vertically, its columns advancing right to left ([tategaki](tategaki.md)); traditional Mongolian is written vertically, its columns advancing left to right. | [CJK](../../terms/cjk.md), [Mongolian script (traditional)](mongolian-script.md)                                       |
+| Top to bottom ([Vertical Text](../../terms/vertical-text.md)) | Stacked in vertical columns. CJK usually runs horizontally but can be set vertically, its columns advancing right to left ([tategaki](tategaki.md)); traditional Mongolian is written vertically, its columns advancing left to right. | [CJK](cjk.md), [Mongolian script (traditional)](mongolian-script.md)                                                   |
 
 ### Why it matters in design systems
 
@@ -65,7 +65,7 @@ If you suspect your design system will support languages with more than one text
 
 #### Typography and font styling
 
-For typography and font styling, it's generally a good idea to choose a typeface that explicitly supports the script you are working in, so its script rules, like text direction, are handled by the font. For example, a typeface built specifically for the Latin script won't have the [glyphs](../../terms/glyph.md) required to support Arabic symbols, and vice versa.
+For typography and font styling, it's generally a good idea to choose a typeface that explicitly supports the script you are working in, so its script rules, like text direction, are handled by the font. For example, a typeface built specifically for the Latin script won't have the [glyphs](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) required to support Arabic symbols, and vice versa.
 
 Once you have script-specific typefaces, font styling also has to account for how spacing changes with direction. In a horizontal script the space between lines runs vertically (line height); set the same text top to bottom and that line spacing runs horizontally instead, as the gap between columns. So the axis your spacing applies to flips with the direction.
 
@@ -89,7 +89,7 @@ Zoom out further to the content itself, and a single line can hold more than one
 
 Separately, one language may use more than one writing system, or a single script that can be written in more than one direction. For example, traditional Mongolian is written vertically (top to bottom), but can also be set left to right.
 
-Be sure to consider the language-specific requirements, known as the [orthography](orthography.md), on top of script rules like text direction. You may discover that a language has more than one writing system, so rather than assuming the script by location, your site may need to offer a setting that lets a user choose between them. This is where the functional side of the system takes on [complex text layout](../../terms/complex-text-layout.md) requirements.
+Be sure to consider the language-specific requirements, known as the [orthography](orthography.md), on top of script rules like text direction. You may discover that a language has more than one writing system, so rather than assuming the script by location, your site may need to offer a setting that lets a user choose between them. This is where the functional side of the system takes on [complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) requirements.
 
 #### Code and functional systems
 
@@ -99,7 +99,7 @@ On the web you set base direction with the HTML `dir` attribute or the CSS `dire
 
 Base direction is what makes mixed text (like an English brand name in an Arabic sentence) come out right. When one line holds both right-to-left and left-to-right text, the Unicode Bidirectional Algorithm uses the base direction to work out the visual order and to resolve neutral characters like spaces and punctuation.<sup>3</sup>
 
-Direction is not only horizontal. Some scripts run top to bottom in vertical columns: Japanese, Chinese, and Korean can be set this way (the traditional Japanese mode is [tategaki](tategaki.md)), and traditional [Mongolian](mongolian-script.md) is written vertically. On the web this is the CSS `writing-mode` property, where `vertical-rl` sets the columns of [CJK](../../terms/cjk.md) text to advance right to left and `vertical-lr` advances them left to right for Mongolian.<sup>4</sup>
+Direction is not only horizontal. Some scripts run top to bottom in vertical columns: Japanese, Chinese, and Korean can be set this way (the traditional Japanese mode is [tategaki](tategaki.md)), and traditional [Mongolian](mongolian-script.md) is written vertically. On the web this is the CSS `writing-mode` property, where `vertical-rl` sets the columns of [CJK](cjk.md) text to advance right to left and `vertical-lr` advances them left to right for Mongolian.<sup>4</sup>
 
 Direction is just one of a script's [script rules](script-rules.md), and the same cross-level cascade applies to each of them, so check the others a script you support might have, such as [joining](joining.md) and [stacking](stacking-script.md). And on top of the script rules, each language that uses the script has its own orthography, the spelling and punctuation conventions that can add further requirements.
 
@@ -113,7 +113,7 @@ Direction is just one of a script's [script rules](script-rules.md), and the sam
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [CJK](../../terms/cjk.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Cyrillic script](cyrillic.md) · [Devanagari script](devanagari.md) · [Glyph](../../terms/glyph.md) · [Greek script](greek-script.md) · [Hebrew script](hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Mongolian script (traditional)](mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](tategaki.md) · [Vertical text](../../terms/vertical-text.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [CJK](cjk.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Cyrillic script](cyrillic.md) · [Devanagari script](devanagari.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Greek script](greek-script.md) · [Hebrew script](hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Mongolian script (traditional)](mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](tategaki.md) · [Vertical text](../../terms/vertical-text.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
