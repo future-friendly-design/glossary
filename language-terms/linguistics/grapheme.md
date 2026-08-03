@@ -30,7 +30,7 @@ tags:
 
 ## Definition
 
-A grapheme is the smallest unit of a writing system that distinguishes meaning, such as a letter, a digit, or a punctuation mark. TEST
+A grapheme is the smallest unit of a writing system that distinguishes meaning, such as a letter, a digit, or a punctuation mark.
 
 ## Why it matters
 
