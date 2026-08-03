@@ -4,9 +4,7 @@ slug: agglutinative-language
 aliases: []
 level: intermediate
 depth: core
-summary: >-
-  An agglutinative language builds words by stringing together many separate
-  prefixes and suffixes, each carrying one clear piece of meaning.
+summary: An agglutinative language is a type of language that builds words by stringing together many separate word-parts, each carrying one clear piece of meaning.
 related:
   - orthography
   - language-family
@@ -29,20 +27,27 @@ tags:
 
 ## Definition
 
-An agglutinative language builds words by stringing together many separate prefixes and suffixes, each carrying one clear piece of meaning.
+An agglutinative language is a type of [language](language.md) that builds words by stringing together many separate word-parts, each carrying one clear piece of meaning.<sup>1</sup> Each part, called a morpheme, stays recognizable and mostly unchanged, so grammar such as tense, number, case, and possession is added as a visible chain rather than folded into the word. This contrasts with fusional languages, where one ending bundles several meanings at once, and isolating languages, which use separate words instead of affixes. Turkish, Finnish, Hungarian, Japanese, and Swahili are commonly cited examples.
 
-## Why it matters
+### Why it matters in design systems
 
-In agglutinative languages, words can grow long because grammatical information (tense, number, case, possession, and more) is added as a chain of distinct, mostly unchanging morphemes. This contrasts with fusional languages, where one ending bundles several meanings, and isolating languages, which use separate words instead. Turkish, Finnish, Hungarian, Japanese, and Swahili are commonly cited examples. For interface work this is a direct cause of [text-expansion](../../programming-terms/text-for-digital-products-and-the-web/text-expansion.md): a single translated word can be much longer than its English equivalent, so layouts that are tight in English can overflow, which is why flexible containers and real translated samples matter.
+The trap is designing layouts to the length of English text. Because an agglutinative language can pack a whole phrase of grammar into one long word, a single translated string can be far longer than its English source, a direct cause of [text expansion](../../programming-terms/text-for-digital-products-and-the-web/text-expansion.md). Interfaces that fit snugly in English then overflow, truncate, or wrap badly in Turkish or Finnish. Build flexible containers rather than fixed widths, avoid stitching sentences together from fragments (agglutinative grammar will not line up with English word order), and test with real translations or [pseudolocalization](../../programming-terms/text-for-digital-products-and-the-web/pseudolocalization.md) before shipping.
 
-## Example
+### Example
 
-The Turkish word "evlerimizden" stacks morphemes meaning "from our houses" (ev + ler + imiz + den).
+The Turkish word "arabalarına" ("to their cars") stacks four parts: araba (car) + lar (plural) + ın (their) + a (to).<sup>2</sup>
 
-## Related terms
+***
 
-[Orthography](../writing-systems-and-scripts/orthography.md) · [Language family](language-family.md) · [Text expansion](../../programming-terms/text-for-digital-products-and-the-web/text-expansion.md)
+### Related terms and mentions
 
-## Further reading
+[Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Text expansion](../../programming-terms/text-for-digital-products-and-the-web/text-expansion.md) · [Pseudolocalization](../../programming-terms/text-for-digital-products-and-the-web/pseudolocalization.md) · [Language & linguistics](../../terms/language-linguistics.md)
+
+### Further reading
 
 * Foundations: [Agglutinative language (Wikipedia)](https://en.wikipedia.org/wiki/Agglutinative_language)
+
+### Sources
+
+1. An agglutinative language "primarily forms words by stringing together morphemes (word parts), each typically representing a single grammatical meaning, without significant modification to their forms." [Agglutinative language (Wikipedia)](https://en.wikipedia.org/wiki/Agglutinative_language)
+2. Turkish word formation example: araba (car) + lar (plural) + ın (possessive) + a (dative) forms "arabalarına" ("to their cars"). [Agglutinative language (Wikipedia)](https://en.wikipedia.org/wiki/Agglutinative_language)
