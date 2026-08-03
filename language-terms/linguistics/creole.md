@@ -12,8 +12,8 @@ version_added: 0.1
 updated: 2026-06-19
 contributors: [sam-gordashko]
 further_reading:
-  - title: "Creole language (Wikipedia)"
-    url: https://en.wikipedia.org/wiki/Creole_language
+  - title: "JPCL Glossary of Pidgin and Creole Terms: Creole (Ohio State)"
+    url: https://linguistics.osu.edu/jpcl/resources/glossary/terms-ac
     type: authority
 license: CC-BY-4.0
 ---
@@ -21,18 +21,31 @@ license: CC-BY-4.0
 # Creole
 
 ## Definition
-A creole is a stable, full natural language that developed from a mixture of languages and became the native language of a community.
 
-## Why it matters
-Creoles typically arise from prolonged contact between speakers of different languages, often growing out of an earlier [pidgin](pidgin.md) once children begin learning it as their first language. Unlike a pidgin, a creole has a complete grammar and full expressive range and can be used in any context, by [native speakers](l1-speakers.md), for anything. The framing matters for respect and product decisions alike: a creole is a real language deserving its own locale, fonts, and content, not a "broken" or simplified version of its [lexifier](lexifier.md).
+A creole is a stable, full natural language that developed from a mixture of languages and became the native language of a community.<sup>1</sup> It often grows out of an earlier [pidgin](pidgin.md) once children begin acquiring it as their first language, at which point it gains a complete grammar and the full expressive range of any [native language](l1-speakers.md).<sup>2</sup>
 
-## Example
-Haitian Creole is spoken natively by a large community in Haiti and has its own standardized orthography.
+### Why it matters in design systems
 
-## Related terms
-[Pidgin](pidgin.md) · [Lexifier](lexifier.md) · [L1 speakers](l1-speakers.md) · [Language family](language-family.md)
+The damaging misconception is that a creole is a "broken" or simplified version of its [lexifier](lexifier.md). It is not: a creole has a complete grammar and full expressive range and is a first language for its community. That has direct product consequences. A creole deserves its own [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md), fonts, content, and place in a language picker, listed under its own name rather than folded into the lexifier ("Haitian Creole," not "French (Haiti)"). Where a creole has a standardized [orthography](../writing-systems-and-scripts/orthography.md), use it rather than improvising spellings from the lexifier's conventions.
 
-## Further reading
-- Foundations: [Creole language (Wikipedia)](https://en.wikipedia.org/wiki/Creole_language)
+### Example
 
-<!-- NEEDS EXPERT REVIEW: source is Wikipedia (interim). The draft cited the JPCL glossary terms-gl page, but that is the G-L section and does NOT contain "creole"; locate the correct JPCL alphabetical page (or another primary) as the upgrade. No speaker figures stated; cohort to source any. -->
+Haitian Creole is a French-based creole spoken natively by roughly 13 million people (2020 estimate); it is a co-official language of Haiti alongside French, and its orthography was standardized in 1979.<sup>3</sup>
+
+<!-- NEEDS EXPERT REVIEW: the Haitian Creole native-speaker figure (~13 million, 2020) is a commonly cited estimate; confirm against a current primary (e.g. Ethnologue) before publish. -->
+
+***
+
+### Related terms and mentions
+
+[Pidgin](pidgin.md) · [Lexifier](lexifier.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Ethnologue](ethnologue.md) · [Language & linguistics](../../terms/language-linguistics.md)
+
+### Further reading
+
+* Foundations: [JPCL Glossary of Pidgin and Creole Terms: Creole (Ohio State)](https://linguistics.osu.edu/jpcl/resources/glossary/terms-ac)
+
+### Sources
+
+1. A creole is "a stable form of contact language that develops from the process of different languages simplifying and mixing into a new form (often a pidgin)." [Creole language (Wikipedia)](https://en.wikipedia.org/wiki/Creole_language)
+2. A creole is "a language that developed from a pidgin by expanding its vocabulary and acquiring a more complex grammatical structure," and is the native language of most of its speakers. [JPCL Glossary of Pidgin and Creole Terms (Ohio State)](https://linguistics.osu.edu/jpcl/resources/glossary/terms-ac)
+3. Haitian Creole is a French-based creole with about 13 million native speakers (2020); the 1987 Constitution names it and French the official languages, and its orthography was standardized in 1979. [Haitian Creole (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_Creole)

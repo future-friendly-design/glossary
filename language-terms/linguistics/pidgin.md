@@ -12,8 +12,8 @@ version_added: 0.1
 updated: 2026-06-19
 contributors: [sam-gordashko]
 further_reading:
-  - title: "Pidgin (Wikipedia)"
-    url: https://en.wikipedia.org/wiki/Pidgin
+  - title: "JPCL Glossary of Pidgin and Creole Terms: Pidgin (Ohio State)"
+    url: https://linguistics.osu.edu/jpcl/resources/glossary/terms-pr
     type: authority
 license: CC-BY-4.0
 ---
@@ -21,18 +21,28 @@ license: CC-BY-4.0
 # Pidgin
 
 ## Definition
-A pidgin is a simplified contact language that develops so speakers of different languages can communicate, and that nobody speaks as a native language.
 
-## Why it matters
-Pidgins emerge in situations like trade or labor where people share no common language. They have reduced grammar and a limited vocabulary drawn mainly from a [lexifier](lexifier.md), and are used only in restricted contexts. A pidgin has no [native speakers](l1-speakers.md) by definition; that is the line that separates it from a [creole](creole.md). If children grow up speaking a pidgin as their first language and it develops a full grammar, it becomes a creole. The distinction matters because it is about a language's stage and status, not its worth.
+A pidgin is a simplified contact language that develops so speakers of different languages can communicate, and that nobody speaks as a native language.<sup>1</sup> It has a reduced grammar and a limited vocabulary drawn mostly from a [lexifier](lexifier.md), it is used only in restricted settings such as trade or labour, and it is learned only as a [second language](l2-speakers.md). The absence of [native speakers](l1-speakers.md) is the line that separates it from a [creole](creole.md): if children grow up speaking a pidgin as their first language and it grows a full grammar, it has become a creole.<sup>2</sup>
 
-## Example
-A trade pidgin might let merchants from different language backgrounds bargain over goods without either learning the other's full language.
+### Why it matters in design systems
 
-## Related terms
-[Creole](creole.md) · [Lexifier](lexifier.md) · [L2 speakers](l2-speakers.md) · [L1 speakers](l1-speakers.md)
+The word "simplified" invites a wrong inference: that a pidgin, or the creole it may become, is a broken or lesser form not worth real support. Getting this right has two design consequences. First, terminology and respect: describe these as contact languages and full languages, never as "broken English" or "broken French." Second, scope: a pidgin is genuinely limited (restricted contexts, no native speakers), so it rarely needs its own [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) or content pipeline, whereas the moment it creolizes it becomes a first language that does. Track a language's status and stage, because that, not a guess about "how simple it looks," is what tells you whether it needs full locale, font, and content support.
 
-## Further reading
-- Foundations: [Pidgin (Wikipedia)](https://en.wikipedia.org/wiki/Pidgin)
+### Example
 
-<!-- NEEDS EXPERT REVIEW: source is Wikipedia (interim). The draft cited the JPCL glossary terms-gl page, but that is the G-L section and does NOT contain "pidgin"; locate the correct JPCL alphabetical page (or another primary) as the upgrade. -->
+A trade pidgin lets merchants from different language backgrounds bargain over goods without either side learning the other's full language. If a community's children later grow up speaking that pidgin as their first language, it stops being a pidgin and becomes a [creole](creole.md).
+
+***
+
+### Related terms and mentions
+
+[Creole](creole.md) · [Lexifier](lexifier.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Language & linguistics](../../terms/language-linguistics.md)
+
+### Further reading
+
+* Foundations: [JPCL Glossary of Pidgin and Creole Terms: Pidgin (Ohio State)](https://linguistics.osu.edu/jpcl/resources/glossary/terms-pr)
+
+### Sources
+
+1. "A pidgin is a grammatically simplified form of contact language that develops between two or more groups of people that do not have a language in common"; it "is not the native language of any singular speech community, but can be learned as a second language." [Pidgin (Wikipedia)](https://en.wikipedia.org/wiki/Pidgin)
+2. "Pidgins can become creole languages when a generation of children learn a pidgin as their first language, a process that regularizes speaker-dependent variation in grammar." [Pidgin (Wikipedia)](https://en.wikipedia.org/wiki/Pidgin)
