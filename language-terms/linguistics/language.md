@@ -46,7 +46,7 @@ Treating a language as if it were a country or a [locale](../../programming-term
 
 ### In practice
 
-* **Treat language, script, and writing system as three separate axes:** the language is what is spoken or signed, the script is the symbol set, and the writing system is a script applied to one language with its orthographic rules. Modeling them separately is what lets one product support a single language in two scripts, or one script across many languages.
+* **Treat language, script, and writing system as three separate axes:** the language is what is spoken or signed, the script is how it is written down, and the writing system is a script applied to one language with its orthographic rules. Modeling them separately is what lets one product support a single language in two scripts, or one script across many languages.
 * **Identify languages by stable codes, not names:** language names are ambiguous and contested, so use standardized identifiers such as [ISO 639-3](iso-639-3.md) and the catalogues that maintain them; which code applies to which variety is exactly the kind of judgment to verify with the language's own community.
 * **List languages by their own name in pickers:** a language selector that shows each language by its [autonym](autonym.md), its own name, lets a speaker recognize their language at a glance instead of reading an outsider's label; pull the names from a maintained dataset rather than translating them by hand.
 
@@ -54,7 +54,7 @@ Treating a language as if it were a country or a [locale](../../programming-term
 
 ### Related terms and mentions
 
-[Language family](language-family.md) · [Dialect](dialect.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Script](../writing-systems-and-scripts/script.md) · [ISO 639-3](iso-639-3.md) · [Autonym](autonym.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Symbol](../writing-systems-and-scripts/symbol.md) · [Language & linguistics](../../terms/language-linguistics.md)
+[Language family](language-family.md) · [Dialect](dialect.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Script](../writing-systems-and-scripts/script.md) · [ISO 639-3](iso-639-3.md) · [Autonym](autonym.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](../../terms/language-linguistics.md)
 
 ### Further reading
 
