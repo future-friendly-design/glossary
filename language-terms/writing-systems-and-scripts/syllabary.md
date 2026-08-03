@@ -35,7 +35,7 @@ For example, the hiragana `あ` (a) and `い` (i) are two separate, unrelated sy
 
 Each symbol standing for a whole syllable is what sets a syllabary apart from an [alphabet](alphabet.md), which spells a syllable out of separate consonant and vowel letters.<sup>3</sup>
 
-While this glossary doesn't cover every script, here are some syllabaries to be aware of. Select a linked term to navigate to its glossary page.
+The syllabaries the glossary has an entry for are listed below, alongside a few other notable syllabaries not yet covered. Select a linked term to navigate to its glossary page.
 
 | Script                                                            | Languages               | Example                                                    |
 | ----------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------- |

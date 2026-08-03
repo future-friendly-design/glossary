@@ -36,7 +36,7 @@ For example, the Arabic greeting مرحبا ("hello") is written as a sequence o
 
 The reader supplies the missing vowels from context, which is what sets an abjad apart from an [alphabet](alphabet.md), where consonants and vowels both get their own letters.<sup>2</sup>
 
-While this glossary doesn't cover every script, here are some abjads to be aware of. Select a linked term to navigate to its glossary page.
+The abjads the glossary has an entry for are listed below, alongside a few other notable abjads not yet covered. Select a linked term to navigate to its glossary page.
 
 | Script                     | Languages                  | Example |
 | -------------------------- | -------------------------- | ------- |

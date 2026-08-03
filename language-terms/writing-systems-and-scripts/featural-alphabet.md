@@ -37,7 +37,7 @@ A featural script is a type of [script](script.md) whose symbol shapes are built
 
 For example, in Hangul the basic consonant ㄴ (n) gains a stroke to become ㄷ (d) and another to become ㅌ (t), each a stronger sound, so related sounds take related shapes.<sup>2</sup>
 
-While this glossary doesn't cover every script, here are some scripts described as featural to be aware of. Select a linked term to navigate to its glossary page.
+The scripts described as featural that the glossary has an entry for are listed below; the list grows as new scripts are added. Select a linked term to navigate to its glossary page.
 
 | Script                                                            | Languages               | Example                         |
 | ----------------------------------------------------------------- | ----------------------- | ------------------------------- |

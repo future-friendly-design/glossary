@@ -37,7 +37,7 @@ Logographic is a type of script whose symbols stand for whole words or meaningfu
 
 For example, the Chinese character `山` writes the whole word "mountain", not the separate sounds in it.
 
-While this glossary doesn't cover every script, here are some logographic scripts to be aware of; fully logographic systems are rare, and Han characters are the main one in modern use. Select a linked term to navigate to its glossary page.
+The logographic scripts the glossary has an entry for are listed below, alongside a few other notable ones not yet covered; fully logographic systems are rare, and Han characters are the main one in modern use. Select a linked term to navigate to its glossary page.
 
 | Script                              | Languages                       | Example |
 | ----------------------------------- | ------------------------------- | ------- |
