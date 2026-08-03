@@ -85,11 +85,11 @@
   * [Language family](language-terms/linguistics/language-family.md)
   * [Legibility](language-terms/linguistics/legibility.md)
   * [Lexifier](language-terms/linguistics/lexifier.md)
-  * [UNESCO Atlas of the World's Languages in Danger](language-terms/linguistics/unesco-atlas-of-the-worlds-languages-in-danger.md)
   * [Macrolanguage](language-terms/linguistics/macrolanguage.md)
   * [Pidgin](language-terms/linguistics/pidgin.md)
-  * [UNESCO endangerment scale](language-terms/linguistics/unesco-endangerment-scale.md)
   * [Readability](language-terms/linguistics/readability.md)
+  * [UNESCO Atlas of the World's Languages in Danger](language-terms/linguistics/unesco-atlas-of-the-worlds-languages-in-danger.md)
+  * [UNESCO endangerment scale](language-terms/linguistics/unesco-endangerment-scale.md)
 
 ## Design Terms
 
