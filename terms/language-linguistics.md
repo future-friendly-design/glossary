@@ -38,10 +38,12 @@ A language is not the same thing as the [script](../language-terms/writing-syste
 
 A guided tour of the language and linguistics terms in this glossary, grouped by what they help you reason about:
 
-* **Classification and codes:** [Language family](../language-terms/linguistics/language-family.md), [Macrolanguage](../language-terms/linguistics/macrolanguage.md), [ISO 639-3](../language-terms/linguistics/iso-639-3.md), [Dialect](../language-terms/linguistics/dialect.md)
-* **Naming and writing conventions:** [Autonym](../language-terms/linguistics/autonym.md), [Orthography](../language-terms/writing-systems-and-scripts/orthography.md)
-* **Language types and contact:** [Agglutinative language](../language-terms/linguistics/agglutinative-language.md), [Lexifier](../language-terms/linguistics/lexifier.md), [Pidgin](../language-terms/linguistics/pidgin.md), [Creole](../language-terms/linguistics/creole.md)
-* **Speakers and vitality:** [L1 speakers](../language-terms/linguistics/l1-speakers.md), [L2 speakers](../language-terms/linguistics/l2-speakers.md), [Endangered language](../language-terms/linguistics/endangered-language.md), [UNESCO endangerment scale](../language-terms/linguistics/unesco-endangerment-scale.md)
+* **The big picture:** [Language](../language-terms/linguistics/language.md)
+* **Classification and codes:** [Dialect](../language-terms/linguistics/dialect.md), [ISO 639-3](../language-terms/linguistics/iso-639-3.md), [Language family](../language-terms/linguistics/language-family.md), [Macrolanguage](../language-terms/linguistics/macrolanguage.md)
+* **Names for languages:** [Autonym](../language-terms/linguistics/autonym.md), [Exonym](../language-terms/linguistics/exonym.md)
+* **Language types and contact:** [Agglutinative language](../language-terms/linguistics/agglutinative-language.md), [Creole](../language-terms/linguistics/creole.md), [Lexifier](../language-terms/linguistics/lexifier.md), [Pidgin](../language-terms/linguistics/pidgin.md)
+* **Speakers and vitality:** [Endangered language](../language-terms/linguistics/endangered-language.md), [L1 speakers](../language-terms/linguistics/l1-speakers.md), [L2 speakers](../language-terms/linguistics/l2-speakers.md), [UNESCO endangerment scale](../language-terms/linguistics/unesco-endangerment-scale.md)
+* **Reference sources:** [Ethnologue](../language-terms/linguistics/ethnologue.md), [Glottolog](../language-terms/linguistics/glottolog.md), [UNESCO Atlas of the World's Languages in Danger](../language-terms/linguistics/unesco-atlas-of-the-worlds-languages-in-danger.md)
 
 ## Further reading
 
