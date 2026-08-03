@@ -37,7 +37,7 @@ This glossary uses abugida as the main entry. See [abugida](abugida.md) for the 
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Devanagari](devanagari.md) · [Matra](matra.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Devanagari script](devanagari.md) · [Matra](matra.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

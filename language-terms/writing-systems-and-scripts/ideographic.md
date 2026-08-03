@@ -43,7 +43,7 @@ Getting this right is both an accuracy and a respect issue when you write docume
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Han characters](han-characters.md) · [Logographic](logographic.md) · [Logosyllabary](logosyllabary.md) · [Pictographic](pictographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Han characters script](han-characters.md) · [Logographic](logographic.md) · [Logosyllabary](logosyllabary.md) · [Pictographic](pictographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

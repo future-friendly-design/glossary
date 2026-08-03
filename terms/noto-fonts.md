@@ -58,7 +58,7 @@ For an under-resourced script, Noto is often the only ready-made option: the Not
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari](../language-terms/writing-systems-and-scripts/devanagari.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Language](../language-terms/linguistics/language.md) · [Reference sources](reference-sources.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [SIL](sil.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](unicode.md)
+[Character](character.md) · [Code point](code-point.md) · [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari script](../language-terms/writing-systems-and-scripts/devanagari.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Joining](../language-terms/writing-systems-and-scripts/joining.md) · [Language](../language-terms/linguistics/language.md) · [Reference sources](reference-sources.md) · [Reordering](../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Script](../language-terms/writing-systems-and-scripts/script.md) · [SIL](sil.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](unicode.md)
 
 ### Further reading
 

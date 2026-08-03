@@ -54,7 +54,7 @@ The practical consequence is the unit of layout. Because Hangul builds syllable 
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) · [Font](../../terms/font.md) · [Hangul](hangul.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Unicode Standard](../../terms/unicode-standard.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics script](canadian-aboriginal-syllabics.md) · [Font](../../terms/font.md) · [Hangul script](hangul.md) · [Script](script.md) · [Symbol](symbol.md) · [Syllabary](syllabary.md) · [Typeface](../../terms/typeface.md) · [Unicode Standard](../../terms/unicode-standard.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

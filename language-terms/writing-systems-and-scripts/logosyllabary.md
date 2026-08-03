@@ -36,7 +36,7 @@ Logosyllabary is a more precise name for a [logographic](logographic.md) system 
 
 ### Related terms and mentions
 
-[Han characters](han-characters.md) · [Ideographic](ideographic.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Han characters script](han-characters.md) · [Ideographic](ideographic.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

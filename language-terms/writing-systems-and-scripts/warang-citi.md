@@ -1,5 +1,5 @@
 ---
-term: Warang Citi
+term: Warang Citi script
 slug: warang-citi
 aliases:
   - Varang Kshiti
@@ -84,7 +84,7 @@ If your design system supports languages that use Warang Citi, here are some con
 
 ### Related terms and mentions
 
-[Alphabet](alphabet.md) · [Autonym](../../terms/autonym.md) · [Bidirectional text](bidirectional-text.md) · [CLDR](../../terms/cldr.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](devanagari.md) · [Endangered language](../../terms/endangered-language.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Kerning](../../terms/kerning.md) · [Keyboard layout](../../terms/keyboard-layout.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Locale](../../terms/locale.md) · [Mark](mark.md) · [Noto fonts](../../terms/noto-fonts.md) · [Ol Chiki](ol-chiki.md) · [OpenType](../../terms/opentype.md) · [OpenType features](../../terms/opentype-features.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](../../terms/typeface.md) · [Unicode](../../terms/unicode.md) · [Wancho script](wancho-script.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Alphabet](alphabet.md) · [Autonym](../../terms/autonym.md) · [Bidirectional text](bidirectional-text.md) · [CLDR](../../terms/cldr.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari script](devanagari.md) · [Endangered language](../../terms/endangered-language.md) · [Font](../../terms/font.md) · [Font coverage](../../terms/font-coverage.md) · [Glyph](../../terms/glyph.md) · [Kerning](../../terms/kerning.md) · [Keyboard layout](../../terms/keyboard-layout.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Locale](../../terms/locale.md) · [Mark](mark.md) · [Noto fonts](../../terms/noto-fonts.md) · [Ol Chiki script](ol-chiki.md) · [OpenType](../../terms/opentype.md) · [OpenType features](../../terms/opentype-features.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Symbol](symbol.md) · [Text direction](text-direction.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Typeface](../../terms/typeface.md) · [Unicode](../../terms/unicode.md) · [Wancho script](wancho-script.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

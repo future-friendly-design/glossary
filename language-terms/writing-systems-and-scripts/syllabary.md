@@ -55,7 +55,7 @@ For a design system the payoff is knowing what kind of set you are covering. A s
 
 ### Related terms and mentions
 
-[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics](canadian-aboriginal-syllabics.md) · [Font coverage](../../terms/font-coverage.md) · [Hiragana](hiragana.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Katakana](katakana.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
+[Abugida](abugida.md) · [Alphabet](alphabet.md) · [Canadian Aboriginal Syllabics script](canadian-aboriginal-syllabics.md) · [Font coverage](../../terms/font-coverage.md) · [Hiragana script](hiragana.md) · [Input method editor (IME)](../../terms/input-method-editor.md) · [Katakana script](katakana.md) · [Logographic](logographic.md) · [Script](script.md) · [Symbol](symbol.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

@@ -1,5 +1,5 @@
 ---
-term: Ethiopic
+term: Ethiopic script
 slug: ethiopic-script
 aliases:
   - ethiopic

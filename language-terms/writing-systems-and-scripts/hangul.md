@@ -1,5 +1,5 @@
 ---
-term: Hangul
+term: Hangul script
 slug: hangul
 aliases:
   - Hangeul

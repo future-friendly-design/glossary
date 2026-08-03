@@ -75,7 +75,7 @@ A quick thing to keep in mind: the shirorekha is just one of a script's rules. A
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari](devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](../../design-terms/typography/tracking.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese script](bengali-assamese.md) · [Conjunct](conjunct.md) · [Devanagari script](devanagari.md) · [Hanging baseline](hanging-baseline.md) · [Latin script](latin-script.md) · [Letter spacing](../../terms/letter-spacing.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Matra](matra.md) · [Orthography](orthography.md) · [Reph](reph.md) · [Script rules](script-rules.md) · [Tracking](../../design-terms/typography/tracking.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

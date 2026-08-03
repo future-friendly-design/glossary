@@ -51,7 +51,7 @@ So for a design system, a font that contains the consonants is necessary but not
 
 ### Related terms and mentions
 
-[Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](devanagari.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Ligature](../../terms/ligature.md) · [Mark](mark.md) · [Matra](matra.md) · [OpenType](../../terms/opentype.md) · [Reph](reph.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](virama.md) · [Writing systems & scripts](./)
+[Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari script](devanagari.md) · [Font](../../terms/font.md) · [Glyph](../../terms/glyph.md) · [Language](../linguistics/language.md) · [Ligature](../../terms/ligature.md) · [Mark](mark.md) · [Matra](matra.md) · [OpenType](../../terms/opentype.md) · [Reph](reph.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](virama.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

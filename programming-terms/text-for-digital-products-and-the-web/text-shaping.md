@@ -59,7 +59,7 @@ Assuming text is just glyphs placed one after another, an assumption that holds 
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [GPOS](../../terms/gpos.md) · [GSUB](../../terms/gsub.md) · [OpenType](../../terms/opentype.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [GPOS](../../terms/gpos.md) · [GSUB](../../terms/gsub.md) · [OpenType](../../terms/opentype.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](../../terms/shaping-engine.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

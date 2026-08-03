@@ -48,7 +48,7 @@ The [combining mark](combining-mark.md) entry covers the nonspacing case, marks 
 
 ### Related terms and mentions
 
-[Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md) · [Character](../../terms/character.md) · [Combining mark](combining-mark.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Enclosing mark](enclosing-mark.md) · [Grapheme cluster](../../terms/grapheme-cluster.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
+[Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md) · [Character](../../terms/character.md) · [Combining mark](combining-mark.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Enclosing mark](enclosing-mark.md) · [Grapheme cluster](../../terms/grapheme-cluster.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Unicode](../../terms/unicode.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 

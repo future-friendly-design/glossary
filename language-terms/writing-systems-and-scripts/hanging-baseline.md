@@ -64,7 +64,7 @@ On the web, CSS exposes this directly: the `hanging` value of `dominant-baseline
 
 ### Related terms and mentions
 
-[Ascender](../../terms/ascender.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [Descender](../../terms/descender.md) · [Devanagari](devanagari.md) · [Glyph](../../terms/glyph.md) · [Latin script](latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script rules](script-rules.md) · [Shirorekha](shirorekha.md) · [Symbol](symbol.md) · [Tamil script](tamil-script.md) · [Tibetan script](tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
+[Ascender](../../terms/ascender.md) · [Baseline](../../design-terms/typography/baseline.md) · [Bengali-Assamese script](bengali-assamese.md) · [Brahmic scripts](brahmic-scripts.md) · [Descender](../../terms/descender.md) · [Devanagari script](devanagari.md) · [Glyph](../../terms/glyph.md) · [Latin script](latin-script.md) · [Line height](../../terms/line-height.md) · [Mark](mark.md) · [Orthography](orthography.md) · [Script rules](script-rules.md) · [Shirorekha](shirorekha.md) · [Symbol](symbol.md) · [Tamil script](tamil-script.md) · [Tibetan script](tibetan-script.md) · [Typography](../../terms/typography.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

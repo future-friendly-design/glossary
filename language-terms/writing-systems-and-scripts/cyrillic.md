@@ -1,5 +1,5 @@
 ---
-term: Cyrillic
+term: Cyrillic script
 slug: cyrillic
 aliases:
   - Cyrillic script

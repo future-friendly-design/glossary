@@ -62,7 +62,7 @@ Assuming the order characters are stored in is the order they appear on screen. 
 
 ### Related terms and mentions
 
-[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Grapheme cluster](../../terms/grapheme-cluster.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../../language-terms/writing-systems-and-scripts/reph.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
+[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Complex text layout](../../terms/complex-text-layout.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Grapheme cluster](../../terms/grapheme-cluster.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../../language-terms/writing-systems-and-scripts/reph.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
 
 ### Further reading
 
