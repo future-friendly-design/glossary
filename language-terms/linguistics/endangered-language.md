@@ -18,6 +18,9 @@ updated: 2026-06-19T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
+  - title: UNESCO International Decade of Indigenous Languages
+    url: https://www.unesco.org/en/decades/indigenous-languages
+    type: authority
   - title: Endangered language (Wikipedia)
     url: https://en.wikipedia.org/wiki/Endangered_language
     type: authority
@@ -58,6 +61,7 @@ Treating endangerment as a number, or assuming "few speakers" means "not worth s
 
 ### Further reading
 
+* Foundations: [UNESCO International Decade of Indigenous Languages](https://www.unesco.org/en/decades/indigenous-languages)
 * Foundations: [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
 
 ### Sources

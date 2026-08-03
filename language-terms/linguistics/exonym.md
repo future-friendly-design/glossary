@@ -18,6 +18,9 @@ updated: 2026-06-22T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
+  - title: UNGEGN Glossary of Terms for the Standardization of Geographical Names
+    url: https://unstats.un.org/unsd/ungegn/pubs/documents/Glossary_of_terms_rev.pdf
+    type: authority
   - title: Endonym and exonym (Wikipedia)
     url: https://en.wikipedia.org/wiki/Endonym_and_exonym
     type: authority
@@ -48,6 +51,7 @@ English speakers say "German," "Finnish," and "Japanese"; the speakers themselve
 
 ### Further reading
 
+* Foundations: [UNGEGN Glossary of Terms for the Standardization of Geographical Names](https://unstats.un.org/unsd/ungegn/pubs/documents/Glossary_of_terms_rev.pdf)
 * Foundations: [Endonym and exonym (Wikipedia)](https://en.wikipedia.org/wiki/Endonym_and_exonym)
 
 ### Sources

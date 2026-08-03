@@ -16,6 +16,9 @@ updated: 2026-08-03
 contributors:
   - sam-gordashko
 further_reading:
+  - title: International Phonetic Association
+    url: https://www.internationalphoneticassociation.org/
+    type: authority
   - title: Phoneme (Wikipedia)
     url: https://en.wikipedia.org/wiki/Phoneme
     type: authority
@@ -42,6 +45,7 @@ The tempting shortcut is to treat letters as sounds: one symbol, one sound. Spel
 
 ### Further reading
 
+* Foundations: [International Phonetic Association](https://www.internationalphoneticassociation.org/)
 * Foundations: [Phoneme (Wikipedia)](https://en.wikipedia.org/wiki/Phoneme)
 
 ### Sources

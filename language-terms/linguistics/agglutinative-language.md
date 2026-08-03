@@ -17,6 +17,9 @@ updated: 2026-06-19T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
+  - title: World Atlas of Language Structures (WALS)
+    url: https://wals.info/
+    type: authority
   - title: Agglutinative language (Wikipedia)
     url: https://en.wikipedia.org/wiki/Agglutinative_language
     type: authority
@@ -47,6 +50,7 @@ The Turkish word "arabalarına" ("to their cars") stacks four parts: araba (car)
 
 ### Further reading
 
+* Foundations: [World Atlas of Language Structures (WALS)](https://wals.info/)
 * Foundations: [Agglutinative language (Wikipedia)](https://en.wikipedia.org/wiki/Agglutinative_language)
 
 ### Sources
