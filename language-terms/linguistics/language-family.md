@@ -26,7 +26,7 @@ A language family is a group of languages that all descend from a single common 
 
 ### Why it matters in design systems
 
-The mistake is to treat family membership as a unit of support, as if "we handle Indo-European" meant anything for rendering. A family tells you about descent, not about what a language needs on screen: related languages routinely use different [scripts](../writing-systems-and-scripts/script.md), directions, and shaping, so two members can share nothing that matters for your fonts or layout. The largest families by number of languages include Indo-European, Sino-Tibetan, Atlantic-Congo (also called Niger-Congo), and Austronesian,<sup>3</sup> but that scale is genealogical, not typographic. Plan [font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) and shaping per script and per language, and treat the family only as coarse background, never as the axis your support matrix is built on.
+The mistake is to treat family membership as a unit of support, as if "we handle Indo-European" meant anything for rendering. A family tells you about descent, not about what a language needs on screen: related languages routinely use different [scripts](../writing-systems-and-scripts/script.md), directions, and shaping, so two members can share nothing that matters for your fonts or layout. The largest families by number of languages include Atlantic-Congo (also called Niger-Congo), Austronesian, Sino-Tibetan, and Indo-European,<sup>3</sup> but that scale is genealogical, not typographic. Plan [font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) and shaping per script and per language, and treat the family only as coarse background, never as the axis your support matrix is built on.
 
 ### Example
 
@@ -45,5 +45,5 @@ English, Hindi, Russian, and Spanish all belong to the Indo-European family, yet
 ### Sources
 
 1. "a group of languages related through descent from a common ancestor, called the proto-language of that family" [Language family (Wikipedia)](https://en.wikipedia.org/wiki/Language_family)
-2. Language isolates are languages "that have no known relatives"; Basque is the classic example. [Language family (Wikipedia)](https://en.wikipedia.org/wiki/Language_family)
+2. Language isolates "cannot be proven to be genealogically related to any other modern language"; Basque is the classic example. [Language family (Wikipedia)](https://en.wikipedia.org/wiki/Language_family)
 3. By number of languages, the largest families include Niger-Congo (Atlantic-Congo), Austronesian, Sino-Tibetan, and Indo-European (Ethnologue 27, 2024). [Language family (Wikipedia)](https://en.wikipedia.org/wiki/Language_family)

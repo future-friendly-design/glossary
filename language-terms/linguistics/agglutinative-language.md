@@ -35,7 +35,7 @@ The trap is designing layouts to the length of English text. Because an agglutin
 
 ### Example
 
-The Turkish word "arabalarına" ("to their cars") stacks four parts: araba (car) + lar (plural) + ın (their) + a (to).<sup>2</sup>
+The Turkish word "arabalarına" ("to their cars") stacks four parts: araba (car) + lar (plural) + ın (possessive) + a (to).<sup>2</sup>
 
 ***
 
