@@ -44,7 +44,7 @@ English speakers say "German," "Finnish," and "Japanese"; the speakers themselve
 
 ### Related terms and mentions
 
-[Autonym](autonym.md) · [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
+[Autonym](autonym.md) · [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Language & linguistics](./)
 
 ### Further reading
 

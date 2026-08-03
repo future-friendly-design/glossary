@@ -43,7 +43,7 @@ The English language carries the glottocode `stan1293`, a stable identifier othe
 
 ### Related terms and mentions
 
-[Ethnologue](ethnologue.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY) · [Reference sources](../../terms/reference-sources.md)
+[Ethnologue](ethnologue.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](./) · [Reference sources](../../terms/reference-sources.md)
 
 ### Further reading
 

@@ -47,7 +47,7 @@ For someone raised speaking Spanish at home, Spanish is their L1, whatever other
 
 ### Related terms and mentions
 
-[Endangered language](endangered-language.md) · [Ethnologue](ethnologue.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Macrolanguage](macrolanguage.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
+[Endangered language](endangered-language.md) · [Ethnologue](ethnologue.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Macrolanguage](macrolanguage.md) · [Language & linguistics](./)
 
 ### Further reading
 

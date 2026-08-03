@@ -45,7 +45,7 @@ Checking how many people use a given language, you can look up its Ethnologue en
 
 ### Related terms and mentions
 
-[Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [SIL Global](../../design-terms/typography/sil.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY) · [Reference sources](../../terms/reference-sources.md)
+[Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [SIL Global](../../design-terms/typography/sil.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](./) · [Reference sources](../../terms/reference-sources.md)
 
 ### Further reading
 

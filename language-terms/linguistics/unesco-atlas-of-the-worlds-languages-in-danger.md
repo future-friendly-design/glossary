@@ -46,7 +46,7 @@ A language whose youngest fluent speakers are grandparents and older, who use it
 
 ### Related terms and mentions
 
-[Endangered language](endangered-language.md) · [Ethnologue](ethnologue.md) · [Glottolog](glottolog.md) · [Language](language.md) · [UNESCO endangerment scale](unesco-endangerment-scale.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY) · [Reference sources](../../terms/reference-sources.md)
+[Endangered language](endangered-language.md) · [Ethnologue](ethnologue.md) · [Glottolog](glottolog.md) · [Language](language.md) · [UNESCO endangerment scale](unesco-endangerment-scale.md) · [Language & linguistics](./) · [Reference sources](../../terms/reference-sources.md)
 
 ### Further reading
 

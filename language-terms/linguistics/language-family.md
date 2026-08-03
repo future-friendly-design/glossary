@@ -44,7 +44,7 @@ English, Hindi, Russian, and Spanish all belong to the Indo-European family, yet
 
 ### Related terms and mentions
 
-[Cyrillic](../writing-systems-and-scripts/cyrillic.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Latin script](../writing-systems-and-scripts/latin-script.md) · [Macrolanguage](macrolanguage.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
+[Cyrillic](../writing-systems-and-scripts/cyrillic.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Latin script](../writing-systems-and-scripts/latin-script.md) · [Macrolanguage](macrolanguage.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](./)
 
 ### Further reading
 

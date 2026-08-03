@@ -45,7 +45,7 @@ The categories run from "safe" (spoken across all generations) to "extinct" (no 
 
 ### Related terms and mentions
 
-[Endangered language](endangered-language.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
+[Endangered language](endangered-language.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](./)
 
 ### Further reading
 

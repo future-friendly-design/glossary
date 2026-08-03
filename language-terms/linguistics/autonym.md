@@ -46,7 +46,7 @@ Language and country pickers are often built from English names, which quietly t
 
 ### Related terms and mentions
 
-[CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Exonym](exonym.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
+[CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Exonym](exonym.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](./)
 
 ### Further reading
 

@@ -45,7 +45,7 @@ Many people speak English as an L2, having learned it after their first language
 
 ### Related terms and mentions
 
-[Creole](creole.md) · [Ethnologue](ethnologue.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Pidgin](pidgin.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
+[Creole](creole.md) · [Ethnologue](ethnologue.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Pidgin](pidgin.md) · [Language & linguistics](./)
 
 ### Further reading
 

@@ -45,7 +45,7 @@ Haitian Creole is a French-based creole spoken natively by roughly 13 million pe
 
 ### Related terms and mentions
 
-[Ethnologue](ethnologue.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](/broken/pages/2BAGMUx1IldkYfEdZVOY)
+[Ethnologue](ethnologue.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](./)
 
 ### Further reading
 

@@ -84,7 +84,9 @@
   * [Language family](language-terms/linguistics/language-family.md)
   * [Lexifier](language-terms/linguistics/lexifier.md)
   * [Macrolanguage](language-terms/linguistics/macrolanguage.md)
+  * [Phoneme](language-terms/linguistics/phoneme.md)
   * [Pidgin](language-terms/linguistics/pidgin.md)
+  * [Sign language](language-terms/linguistics/sign-language.md)
   * [UNESCO Atlas of the World's Languages in Danger](language-terms/linguistics/unesco-atlas-of-the-worlds-languages-in-danger.md)
   * [UNESCO endangerment scale](language-terms/linguistics/unesco-endangerment-scale.md)
 
