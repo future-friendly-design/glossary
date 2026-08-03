@@ -26,13 +26,11 @@ L1 speakers are people who learned a language as their first or native language,
 
 ### Why it matters in design systems
 
-A "number of speakers" is ambiguous until you know which population it counts. Reference works such as [Ethnologue](ethnologue.md) report L1 speakers separately from [L2 speakers](l2-speakers.md), because the two answer different questions: a language can have few native speakers but many second-language users, or the reverse. When you use speaker figures to prioritize which languages to support or localize for, be explicit about whether a number is L1, L2, or the total, and treat the figures as coming from specialist sources rather than guesswork. The distinction also bears on content: material aimed at native speakers can assume a fluency that second-language material should not.
+A "number of speakers" is ambiguous until you know which population it counts. Reference works such as [Ethnologue](ethnologue.md) report L1 speakers separately from [L2 speakers](l2-speakers.md), because the two answer different questions: a language can have few native speakers but many second-language users, or the reverse.<sup>2</sup> When you use speaker figures to prioritize which languages to support or localize for, be explicit about whether a number is L1, L2, or the total, and treat the figures as coming from specialist sources rather than guesswork. The distinction also bears on content: material aimed at native speakers can assume a fluency that second-language material should not.
 
 ### Example
 
 For someone raised speaking Spanish at home, Spanish is their L1, whatever other languages they learn later.
-
-<!-- NEEDS EXPERT REVIEW: the Ethnologue methodology URL bot-blocks automated fetch; confirm it resolves, and that Ethnologue reports L1 and L2 counts separately. The L1 definition is sourced to Wikipedia (secondary). -->
 
 ***
 
@@ -47,3 +45,4 @@ For someone raised speaking Spanish at home, Spanish is their L1, whatever other
 ### Sources
 
 1. A first language (L1) is "the first language a person has been exposed to from birth or within the critical period"; the terms L1, native language, and mother tongue are used synonymously. [First language (Wikipedia)](https://en.wikipedia.org/wiki/First_language)
+2. Ethnologue reports that it attempts "to distinguish first-language (L1) users from second-language (L2) users" when giving a language's user population. [Ethnologue: Methodology](https://www.ethnologue.com/methodology/)

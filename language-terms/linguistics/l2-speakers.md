@@ -26,13 +26,11 @@ L2 speakers are people who use a language as a second (or additional) language r
 
 ### Why it matters in design systems
 
-Reference works such as [Ethnologue](ethnologue.md) report second-language use separately from native (L1) use, and counting them separately gives a fuller picture of a language's reach: a single "speaker count" can mislead unless you know which it means. Some languages have far more L2 users than L1 ones, English being the clearest case, used as a shared additional language by a very large number of people worldwide. For product work this shapes which languages are worth supporting and how: a large second-language population can justify supporting a language even where native speakers are few, and second-language readers are served by plain wording and clear terminology rather than idiom or cultural shorthand.
+Reference works such as [Ethnologue](ethnologue.md) report second-language use separately from native (L1) use,<sup>2</sup> and counting them separately gives a fuller picture of a language's reach: a single "speaker count" can mislead unless you know which it means. Some languages have far more L2 users than L1 ones, English being the clearest case, used as a shared additional language by a very large number of people worldwide. For product work this shapes which languages are worth supporting and how: a large second-language population can justify supporting a language even where native speakers are few, and second-language readers are served by plain wording and clear terminology rather than idiom or cultural shorthand.
 
 ### Example
 
 Many people speak English as an L2, having learned it after their first language for work, study, or travel.
-
-<!-- NEEDS EXPERT REVIEW: the Ethnologue methodology URL bot-blocks automated fetch; confirm it resolves, and that Ethnologue reports L1 and L2 counts separately. The L2 definition is sourced to Wikipedia (secondary). -->
 
 ***
 
@@ -47,3 +45,4 @@ Many people speak English as an L2, having learned it after their first language
 ### Sources
 
 1. "A second language (L2) is a language spoken in addition to one's first language (L1)." [Second language (Wikipedia)](https://en.wikipedia.org/wiki/Second_language)
+2. Ethnologue reports that it attempts "to distinguish first-language (L1) users from second-language (L2) users" when giving a language's user population. [Ethnologue: Methodology](https://www.ethnologue.com/methodology/)

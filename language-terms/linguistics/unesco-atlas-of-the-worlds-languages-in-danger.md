@@ -28,11 +28,11 @@ A UNESCO reference that maps endangered languages and rates how close each is to
 
 ### Why it matters in design systems
 
-First published in 1996, the Atlas documents endangered languages and classifies their vitality across six levels, from "safe" through "vulnerable," "definitely endangered," "severely endangered," and "critically endangered," to "extinct."<sup>1</sup> It is where the shared [endangerment scale](unesco-endangerment-scale.md) many people cite comes from. One caution for anyone linking to it: since 2019 UNESCO has been folding this work into a broader World Atlas of Languages,<sup>2</sup> and the older interactive atlas has had periods offline, so check current availability before you depend on the URL. As with any such source, treat where a specific language sits as a community-and-specialist question, not a product's call.
+The Atlas documents endangered languages and classifies their vitality across six levels, from "safe" through "vulnerable," "definitely endangered," "severely endangered," and "critically endangered," to "extinct."<sup>1</sup> It is where the shared [endangerment scale](unesco-endangerment-scale.md) many people cite comes from. One caution for anyone linking to it: since 2019 UNESCO has been folding this work into a broader World Atlas of Languages,<sup>2</sup> and the older interactive atlas has had periods offline, so check current availability before you depend on the URL. As with any such source, treat where a specific language sits as a community-and-specialist question, not a product's call.
 
 ### Example
 
-A language whose youngest fluent speakers are grandparents and older would be classified "severely endangered" in the Atlas. (Illustrative; a real classification comes from the source and the community, not a guess.)
+A language whose youngest fluent speakers are grandparents and older, who use it only partially, would be classified "critically endangered" in the Atlas. (Illustrative; a real classification comes from the source and the community, not a guess.)
 
 ***
 
@@ -46,5 +46,5 @@ A language whose youngest fluent speakers are grandparents and older would be cl
 
 ### Sources
 
-1. First published in 1996, the Atlas classifies language vitality across six levels: safe, vulnerable, definitely endangered, severely endangered, critically endangered, and extinct. [Atlas of the World's Languages in Danger (Wikipedia)](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger)
+1. The Atlas classifies language vitality across six levels: safe, vulnerable, definitely endangered, severely endangered, critically endangered, and extinct. [Atlas of the World's Languages in Danger (Wikipedia)](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger)
 2. "In 2019 UNESCO launched a new project, the Online World Atlas of Languages (WAL), which will expand the scope beyond endangered languages to document all languages around the world." [Atlas of the World's Languages in Danger (Wikipedia)](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger)

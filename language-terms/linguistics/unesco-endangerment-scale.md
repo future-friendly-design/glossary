@@ -30,7 +30,7 @@ The scale, used in UNESCO's [Atlas of the World's Languages in Danger](unesco-at
 
 ### Example
 
-The categories run from "safe" (spoken across all generations) to "extinct" (no speakers remain), with the levels between describing how far intergenerational transmission has narrowed: "vulnerable" (most children speak it, but only in certain domains such as the home), "definitely endangered" (children no longer learn it as a mother tongue), and "severely endangered" (spoken mainly by grandparents and older generations).<sup>3</sup>
+The categories run from "safe" (spoken across all generations) to "extinct" (no speakers remain), with the levels between describing how far intergenerational transmission has narrowed: "vulnerable" (most children speak it, but only in certain domains such as the home), "definitely endangered" (children no longer learn it as a mother tongue), "severely endangered" (spoken mainly by grandparents and older generations), and "critically endangered" (the youngest speakers are grandparents and older, and even they use it only partially or infrequently).<sup>3</sup>
 
 <!-- NEEDS EXPERT REVIEW: categories and the nine-factor framework are sourced to Wikipedia (secondary); confirm the exact category wording and factor count against a primary UNESCO source (the Atlas / "Language Vitality and Endangerment" 2003) before publish. No specific language is placed on the scale here. -->
 
@@ -48,4 +48,4 @@ The categories run from "safe" (spoken across all generations) to "extinct" (no 
 
 1. UNESCO grades language endangerment in named categories between "safe" and "extinct", based on intergenerational transfer: vulnerable, definitely endangered, severely endangered, and critically endangered. [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
 2. UNESCO's 2003 "Language Vitality and Endangerment" framework assesses vitality using nine factors, the first of which is intergenerational language transmission. [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
-3. UNESCO's levels: "vulnerable" (not spoken by children outside the home), "definitely endangered" (children no longer learning the language), "severely endangered" (only spoken by older generations). [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
+3. UNESCO's levels: "vulnerable" (not spoken by children outside the home), "definitely endangered" (children no longer learning the language), "severely endangered" (only spoken by older generations), "critically endangered" (youngest speakers are grandparents and older). [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
