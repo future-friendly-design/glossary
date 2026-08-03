@@ -21,18 +21,29 @@ license: CC-BY-4.0
 # L2 speakers
 
 ## Definition
-L2 speakers are people who use a language as a second (or additional) language rather than their native one.
 
-## Why it matters
-"L2" stands for "second language," a language learned after one's first. [Ethnologue](ethnologue.md) tracks L2 use separately from [L1](l1-speakers.md) use, and some languages are even described as "second language only" because they are still used for specific purposes without a community of native speakers. Counting L1 and L2 populations separately gives a fuller picture of a language's reach, which is why a single "speaker count" can be misleading unless you know which one it means.
+L2 speakers are people who use a language as a second (or additional) language rather than their native one.<sup>1</sup> "L2" is short for second language, one learned after a person's [first language](l1-speakers.md); L2 users can be highly fluent but acquired the language later rather than from birth.
 
-## Example
+### Why it matters in design systems
+
+Reference works such as [Ethnologue](ethnologue.md) report second-language use separately from native (L1) use, and counting them separately gives a fuller picture of a language's reach: a single "speaker count" can mislead unless you know which it means. Some languages have far more L2 users than L1 ones, English being the clearest case, used as a shared additional language by a very large number of people worldwide. For product work this shapes which languages are worth supporting and how: a large second-language population can justify supporting a language even where native speakers are few, and second-language readers are served by plain wording and clear terminology rather than idiom or cultural shorthand.
+
+### Example
+
 Many people speak English as an L2, having learned it after their first language for work, study, or travel.
 
-## Related terms
-[Creole](creole.md) · [Ethnologue](ethnologue.md) · [L1 speakers](l1-speakers.md) · [Pidgin](pidgin.md)
+<!-- NEEDS EXPERT REVIEW: the Ethnologue methodology URL bot-blocks automated fetch; confirm it resolves, and that Ethnologue reports L1 and L2 counts separately. The L2 definition is sourced to Wikipedia (secondary). -->
 
-## Further reading
-- Foundations: [Ethnologue: Methodology](https://www.ethnologue.com/methodology/)
+***
 
-<!-- NEEDS EXPERT REVIEW: source is Ethnologue (a primary), but its site bot-blocks automated fetchers (link kept, confirm manually). No speaker counts or L1-vs-L2 comparisons for specific languages are asserted here by design; any actual figures must be sourced and verified by the cohort. -->
+### Related terms and mentions
+
+[Creole](creole.md) · [Ethnologue](ethnologue.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Pidgin](pidgin.md) · [Language & linguistics](../../terms/language-linguistics.md)
+
+### Further reading
+
+* Foundations: [Ethnologue: Methodology](https://www.ethnologue.com/methodology/)
+
+### Sources
+
+1. "A second language (L2) is a language spoken in addition to one's first language (L1)." [Second language (Wikipedia)](https://en.wikipedia.org/wiki/Second_language)

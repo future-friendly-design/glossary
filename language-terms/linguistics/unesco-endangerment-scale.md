@@ -12,8 +12,8 @@ version_added: 0.1
 updated: 2026-06-19
 contributors: [sam-gordashko]
 further_reading:
-  - title: "Degree of endangerment (Wikipedia)"
-    url: https://en.wikipedia.org/wiki/Degree_of_endangerment
+  - title: "Endangered language (Wikipedia)"
+    url: https://en.wikipedia.org/wiki/Endangered_language
     type: authority
 license: CC-BY-4.0
 ---
@@ -21,18 +21,31 @@ license: CC-BY-4.0
 # UNESCO endangerment scale
 
 ## Definition
-The UNESCO endangerment scale rates how threatened a language is, from safe through several risk levels to extinct.
 
-## Why it matters
-Used in UNESCO's [Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md), the scale assesses vitality mainly through intergenerational transmission and sorts languages into named categories: safe, vulnerable, definitely endangered, severely endangered, critically endangered, and extinct. It draws on a set of evaluation factors developed for assessing language vitality. The value of a shared scale is a common vocabulary for talking about how threatened a language is; its limit is that any single label is a summary, and where a real language sits on it is a question for the community and specialists, not something to infer.
+The UNESCO endangerment scale rates how threatened a language is, from safe through several risk levels to extinct. It sorts languages into named categories, mainly by intergenerational transmission: safe, vulnerable, definitely endangered, severely endangered, critically endangered, and extinct.<sup>1</sup>
 
-## Example
-The scale's categories run from "safe" (the language is spoken across all generations) to "extinct" (no speakers remain), with intermediate levels describing how much intergenerational transmission has narrowed.
+### Why it matters in design systems
 
-## Related terms
-[Endangered language](endangered-language.md) · [L1 speakers](l1-speakers.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md)
+The scale, used in UNESCO's [Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md), gives a shared vocabulary for how threatened a language is, drawn from a framework of nine factors developed to assess language vitality.<sup>2</sup> That shared vocabulary is useful for talking about and prioritizing revitalization and support work. Its limit matters just as much: any single label is a summary, and where a real language sits is a question for the community and specialists, not something to infer from a product's own data. Use the scale to describe degree of risk, not as a ranking of which languages deserve support.
 
-## Further reading
-- Foundations: [Degree of endangerment (Wikipedia)](https://en.wikipedia.org/wiki/Degree_of_endangerment)
+### Example
 
-<!-- NEEDS EXPERT REVIEW: source is Wikipedia (interim); the UNESCO Atlas official URLs were unreachable to the fetcher (503/403) last run, so confirm the official/primary link and the exact category definitions and the number of evaluation factors. NO language is placed on the scale here. The named categories define the framework itself; cohort to verify wording and any application. -->
+The categories run from "safe" (spoken across all generations) to "extinct" (no speakers remain), with the levels between describing how far intergenerational transmission has narrowed: "vulnerable" (most children speak it, but only in certain domains such as the home), "definitely endangered" (children no longer learn it as a mother tongue), and "severely endangered" (spoken mainly by grandparents and older generations).<sup>3</sup>
+
+<!-- NEEDS EXPERT REVIEW: categories and the nine-factor framework are sourced to Wikipedia (secondary); confirm the exact category wording and factor count against a primary UNESCO source (the Atlas / "Language Vitality and Endangerment" 2003) before publish. No specific language is placed on the scale here. -->
+
+***
+
+### Related terms and mentions
+
+[Endangered language](endangered-language.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](../../terms/language-linguistics.md)
+
+### Further reading
+
+* Foundations: [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
+
+### Sources
+
+1. UNESCO grades language endangerment in named categories between "safe" and "extinct", based on intergenerational transfer: vulnerable, definitely endangered, severely endangered, and critically endangered. [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
+2. UNESCO's 2003 "Language Vitality and Endangerment" framework assesses vitality using nine factors, the first of which is intergenerational language transmission. [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
+3. UNESCO's levels: "vulnerable" (not spoken by children outside the home), "definitely endangered" (children no longer learning the language), "severely endangered" (only spoken by older generations). [Endangered language (Wikipedia)](https://en.wikipedia.org/wiki/Endangered_language)
