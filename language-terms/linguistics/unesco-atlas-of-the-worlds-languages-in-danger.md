@@ -2,11 +2,13 @@
 term: UNESCO Atlas of the World's Languages in Danger
 slug: unesco-atlas-of-the-worlds-languages-in-danger
 aliases: [Atlas of the World's Languages in Danger]
-tags: [reference-sources]
+tags:
+  - language-linguistics
+  - reference-sources
 level: foundational
 depth: core
 summary: A UNESCO reference that maps endangered languages and rates how close each is to disappearing.
-related: [ethnologue, glottolog]
+related: [ethnologue, glottolog, endangered-language, unesco-endangerment-scale]
 status: voice-passed
 version_added: 0.1
 updated: 2026-06-18
@@ -21,16 +23,28 @@ license: CC-BY-4.0
 # UNESCO Atlas of the World's Languages in Danger
 
 ## Definition
+
 A UNESCO reference that maps endangered languages and rates how close each is to disappearing.
 
-## Why it matters
-First published in 1996, the UNESCO Atlas of the World's Languages in Danger documents endangered languages and classifies their vitality across six levels, from "safe" through "vulnerable," "definitely," "severely," and "critically endangered," to "extinct." Its 2009 interactive edition covered around 2,500 languages with speaker numbers, locations, and ISO 639-3 codes. Since 2019 UNESCO has been folding this work into a broader World Atlas of Languages (WAL), and the older interactive atlas has had periods of being offline, so check current availability before linking to it directly.
+### Why it matters in design systems
 
-## Example
-A language whose youngest fluent speakers are grandparents is rated "critically endangered" in the Atlas.
+First published in 1996, the Atlas documents endangered languages and classifies their vitality across six levels, from "safe" through "vulnerable," "definitely endangered," "severely endangered," and "critically endangered," to "extinct."<sup>1</sup> It is where the shared [endangerment scale](unesco-endangerment-scale.md) many people cite comes from. One caution for anyone linking to it: since 2019 UNESCO has been folding this work into a broader World Atlas of Languages,<sup>2</sup> and the older interactive atlas has had periods offline, so check current availability before you depend on the URL. As with any such source, treat where a specific language sits as a community-and-specialist question, not a product's call.
 
-## Related terms
-[Ethnologue](ethnologue.md) · [Glottolog](glottolog.md)
+### Example
 
-## Further reading
-- Foundations: [Atlas of the World's Languages in Danger (Wikipedia)](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger)
+A language whose youngest fluent speakers are grandparents and older would be classified "severely endangered" in the Atlas. (Illustrative; a real classification comes from the source and the community, not a guess.)
+
+***
+
+### Related terms and mentions
+
+[Endangered language](endangered-language.md) · [Ethnologue](ethnologue.md) · [Glottolog](glottolog.md) · [Language](language.md) · [UNESCO endangerment scale](unesco-endangerment-scale.md) · [Language & linguistics](../../terms/language-linguistics.md) · [Reference sources](../../terms/reference-sources.md)
+
+### Further reading
+
+* Foundations: [Atlas of the World's Languages in Danger (Wikipedia)](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger)
+
+### Sources
+
+1. First published in 1996, the Atlas classifies language vitality across six levels: safe, vulnerable, definitely endangered, severely endangered, critically endangered, and extinct. [Atlas of the World's Languages in Danger (Wikipedia)](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger)
+2. "In 2019 UNESCO launched a new project, the Online World Atlas of Languages (WAL), which will expand the scope beyond endangered languages to document all languages around the world." [Atlas of the World's Languages in Danger (Wikipedia)](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger)
