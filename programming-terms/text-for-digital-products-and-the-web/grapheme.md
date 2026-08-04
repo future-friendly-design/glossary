@@ -2,48 +2,52 @@
 term: Grapheme
 slug: grapheme
 aliases: []
+tags: [characters-encoding]
 level: intermediate
 depth: core
-summary: >-
-  A grapheme is the smallest unit of a writing system that distinguishes
-  meaning, such as a letter, a digit, or a punctuation mark.
-related:
-  - grapheme-cluster
-  - glyph
-  - character
-  - code-point
+summary: A grapheme is a minimally distinctive unit of writing within a particular writing system.
+related: [grapheme-cluster, glyph, character, code-point]
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-22T00:00:00.000Z
-contributors:
-  - sam-gordashko
+updated: 2026-08-04
+contributors: [sam-gordashko]
 further_reading:
-  - title: Grapheme (Unicode Glossary)
+  - title: "Grapheme (Unicode Glossary)"
     url: https://www.unicode.org/glossary/#grapheme
     type: authority
 license: CC-BY-4.0
-tags:
-  - language-linguistics
 ---
 
 # Grapheme
 
 ## Definition
 
-A grapheme is the smallest unit of a writing system that distinguishes meaning, such as a letter, a digit, or a punctuation mark.
+A grapheme is a minimally distinctive unit of writing within a particular [writing system](../../language-terms/writing-systems-and-scripts/writing-system.md).<sup>1</sup>
 
-## Why it matters
+Unicode's own example: `b` and `d` are distinct graphemes in English writing because there are distinct words like "big" and "dig", while a slanted `a` and an upright `a` are not, because no word is distinguished by that difference.<sup>2</sup>
 
-A grapheme is the abstract "letter": the unit a writing system treats as meaningfully distinct, the way a phoneme is the unit of sound. It is worth separating from three things it gets confused with. A [glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) is how a grapheme is drawn, and one grapheme can have many glyphs (the same "a" across fonts, or a letter's initial and final forms). A [character](../../programming-terms/text-for-digital-products-and-the-web/character.md) in Unicode is a [code point](../../programming-terms/text-for-digital-products-and-the-web/code-point.md), and graphemes do not map to code points one to one: the single grapheme "é" can be one code point or two (an "e" plus a combining accent). Because of that gap, Unicode uses [grapheme cluster](../../programming-terms/text-for-digital-products-and-the-web/grapheme-cluster.md) for what a reader perceives as one character. Keeping grapheme (the unit of writing), glyph (the drawn shape), and code point (the stored value) distinct is what prevents the classic counting and rendering bugs.
+### Why it matters in design systems
 
-## Example
+A grapheme is the abstract written unit, the counterpart in writing to what a [phoneme](../../language-terms/linguistics/phoneme.md) is in speech. It belongs to a writing system, not to software: a community decides what counts as a distinct unit of its writing long before any of it is encoded.
 
-The letter "b" is one grapheme; it can be set in countless glyphs across typefaces, and in Unicode it is a single code point. The accented "é" is also one grapheme, but it can be stored as two code points.
+That is the whole reason this term is worth keeping separate from the encoding vocabulary. Software's unit is the [character](character.md), and characters were assigned by Unicode to serve storage and interchange, not to match how a writing system counts itself. The two do not line up one to one. The same visible unit may be one character or two, depending on how it was typed or stored, and Unicode acknowledges the mismatch directly by giving "what a user thinks of as a character" as a second sense of grapheme.<sup>3</sup>
 
-## Related terms
+For a design system, the practical form of this is that "how many characters is this?" has more than one correct answer, and the one your readers use is the writing system's, not your database's. When a person from a language community tells you their name is five letters long, they are counting graphemes. When your validation says it is seven, it is counting characters. Neither is wrong, and the gap between them is where names get truncated, rejected, or mangled. The unit that gets closest to the reader's count in software is the [grapheme cluster](grapheme-cluster.md), which is what to reach for when a limit or a cursor has to behave the way a person expects.
 
-[Character](../../programming-terms/text-for-digital-products-and-the-web/character.md) · [Code point](../../programming-terms/text-for-digital-products-and-the-web/code-point.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](../../programming-terms/text-for-digital-products-and-the-web/grapheme-cluster.md)
+Keep grapheme, [glyph](glyph.md), and [code point](code-point.md) distinct and most of the confusion dissolves: the grapheme is the unit of writing, the glyph is a drawn shape, and the code point is a stored number.
 
-## Further reading
+***
+
+### Related terms and mentions
+
+[Character](character.md) · [Code point](code-point.md) · [Glyph](glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Phoneme](../../language-terms/linguistics/phoneme.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](../text-in-software/)
+
+### Further reading
 
 * Foundations: [Grapheme (Unicode Glossary)](https://www.unicode.org/glossary/#grapheme)
+
+### Sources
+
+1. "A minimally distinctive unit of writing in the context of a particular writing system" - Unicode Glossary: Grapheme, sense 1 [https://www.unicode.org/glossary/#grapheme](https://www.unicode.org/glossary/#grapheme)
+2. "‹b› and ‹d› are distinct graphemes in English writing systems because there exist distinct words like big and dig. Conversely, a lowercase italiform letter a and a lowercase Roman letter a are not distinct graphemes because no word is distinguished on the basis of these two different forms" - Unicode Glossary: Grapheme [https://www.unicode.org/glossary/#grapheme](https://www.unicode.org/glossary/#grapheme)
+3. "What a user thinks of as a character" - Unicode Glossary: Grapheme, sense 2 [https://www.unicode.org/glossary/#grapheme](https://www.unicode.org/glossary/#grapheme)

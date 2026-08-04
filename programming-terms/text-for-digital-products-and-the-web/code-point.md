@@ -9,7 +9,7 @@ summary: A code point is the number Unicode assigns to a character.
 related: [character, unicode, character-encoding, plane-bmp]
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18
+updated: 2026-08-04
 contributors: [sam-gordashko]
 further_reading:
   - title: "Code Point (Unicode Glossary)"
@@ -21,16 +21,31 @@ license: CC-BY-4.0
 # Code point
 
 ## Definition
-A code point is the number Unicode assigns to a character.
 
-## Why it matters
-A code point is a position in the Unicode code space, written as "U+" followed by hexadecimal digits, from U+0000 to U+10FFFF. Code points are assigned to abstract [character](character.md)s; they are not the bytes stored on disk (that is the job of a [character-encoding](character-encoding.md)) and not the visible [glyph](glyph.md)s a font draws. Worth knowing: not every code point is a printable character. Some are control codes, and some are reserved or unassigned.
+A code point is the number Unicode assigns to a [character](character.md).
 
-## Example
-The character "A" is code point U+0041; the snowman "☃" is U+2603.
+For example, the code point for the symbol `á` is 225 in decimal, or E1 in hexadecimal,<sup>1</sup> which is written `U+00E1`.
 
-## Related terms
-[Character](character.md) · [Character encoding](character-encoding.md) · [Glyph](glyph.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Unicode](unicode.md)
+### Why it matters in design systems
 
-## Further reading
-- Foundations: [Code Point (Unicode Glossary)](https://www.unicode.org/glossary/#code_point)
+Code points are written as `U+` followed by hexadecimal digits, and they live in a fixed range. Unicode's codespace runs from 0 to 10FFFF, which is 1,114,112 possible code points, or roughly 1.1 million.<sup>2</sup> That range is the whole budget for every script Unicode has encoded and every one it has yet to encode.
+
+The number is not the bytes and not the shape. Storing a code point requires a [character encoding](character-encoding.md) to turn it into bytes; drawing it requires a font that contains a [glyph](glyph.md) for it. A code point is just the identifier the two ends agree on, which is precisely what makes text portable: the same number means the same character on every system that follows the standard.
+
+Two things surprise people. Not every code point is assigned to a character,<sup>3</sup> so a valid-looking number may be reserved, unassigned, or a control code that renders as nothing. And one code point is not reliably one character on screen: an accented symbol may be built from two, and an emoji from several, which is the difference between a code point and a [grapheme cluster](grapheme-cluster.md). If you are counting text for a limit, a truncation, or a cursor step, the code point is almost never the unit your reader is using.
+
+***
+
+### Related terms and mentions
+
+[Character](character.md) · [Character encoding](character-encoding.md) · [Font](font.md) · [Glyph](glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Text in software](../text-in-software/)
+
+### Further reading
+
+* Foundations: [Code Point (Unicode Glossary)](https://www.unicode.org/glossary/#code_point)
+
+### Sources
+
+1. "For example, the code point for the letter á in the Unicode coded character set is 225 in decimal, or 0xE1 in hexadecimal notation" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
+2. "the codespace consists of the integers from 0 to 10FFFF16, comprising 1,114,112 code points available for assigning the repertoire of abstract characters" - The Unicode Standard, Core Specification, Chapter 2 [https://www.unicode.org/versions/latest/core-spec/chapter-2/](https://www.unicode.org/versions/latest/core-spec/chapter-2/)
+3. "Not all code points are assigned to encoded characters" - Unicode Glossary: Code Point [https://www.unicode.org/glossary/#code\_point](https://www.unicode.org/glossary/#code_point)
