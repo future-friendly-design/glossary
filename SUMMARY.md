@@ -92,6 +92,7 @@
 
 ## Design Terms
 
+* [Fonts](design-terms/fonts/README.md)
 * [Typography](design-terms/typography/README.md)
   * [Baseline](design-terms/typography/baseline.md)
   * [Cap height](design-terms/typography/cap-height.md)
@@ -164,6 +165,9 @@
   * [Text expansion](programming-terms/text-for-digital-products-and-the-web/text-expansion.md)
   * [Faux bold](programming-terms/text-for-digital-products-and-the-web/faux-bold.md)
   * [Grapheme](programming-terms/text-for-digital-products-and-the-web/grapheme.md)
+* [Text in software](programming-terms/text-in-software/README.md)
+* [Text shaping & layout](programming-terms/text-shaping-and-layout/README.md)
+* [Multi-language products](programming-terms/multi-language-products/README.md)
 
 ## Browse by topic
 
