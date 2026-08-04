@@ -131,6 +131,7 @@
   * [Collation](programming-terms/text-for-digital-products-and-the-web/collation.md)
   * [Character](programming-terms/text-for-digital-products-and-the-web/character.md)
   * [Code point](programming-terms/text-for-digital-products-and-the-web/code-point.md)
+  * [Code unit](programming-terms/text-for-digital-products-and-the-web/code-unit.md)
   * [CLDR](programming-terms/text-for-digital-products-and-the-web/cldr.md)
   * [Character encoding](programming-terms/text-for-digital-products-and-the-web/character-encoding.md)
   * [Text shaping](programming-terms/text-for-digital-products-and-the-web/text-shaping.md)
