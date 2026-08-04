@@ -39,7 +39,7 @@ SIL refers to a set of free, broadly multilingual fonts from SIL Global designed
 
 ## Why it matters
 
-SIL Global develops open-source fonts with extensive Latin, Cyrillic, and Greek coverage aimed at language communities that mainstream fonts neglect. Charis SIL is a robust slab-serif body typeface (based on Bitstream Charter), Gentium is a serif face designed for wide diacritic support, and Andika is a sans-serif made for literacy and beginning readers. They are distributed under the SIL Open Font License, the widely used open font license that SIL itself created, which is also why projects like [noto-fonts](noto-fonts.md) can ship freely. For text in a language with many accented letters, SIL fonts are a dependable coverage choice.
+SIL Global develops open-source fonts with extensive Latin, Cyrillic, and Greek coverage aimed at language communities that mainstream fonts neglect. Charis SIL is a robust slab-serif body typeface (based on Bitstream Charter), Gentium is a serif face designed for wide diacritic support, and Andika is a sans-serif made for literacy and beginning readers. They are distributed under the SIL Open Font License, the widely used open font license that SIL itself created, which is also why projects like [noto-fonts](noto-fonts.md) can ship freely. For text in a language with many accented letters, SIL fonts are a dependable coverage choice. Beyond its fonts, SIL Global (formerly SIL International) is also the registration authority for [ISO 639-3](../../language-terms/linguistics/iso-639-3.md), the standard that assigns a unique three-letter code to every known language.<sup>1</sup>
 
 ## Example
 
@@ -47,8 +47,12 @@ A linguist publishing in a language with many accented letters might set the tex
 
 ## Related terms
 
-[Ethnologue](../../language-terms/linguistics/ethnologue.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Noto fonts](noto-fonts.md) · [Unicode Standard](../../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md)
+[Ethnologue](../../language-terms/linguistics/ethnologue.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [ISO 639-3](../../language-terms/linguistics/iso-639-3.md) · [Noto fonts](noto-fonts.md) · [Unicode Standard](../../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md)
 
 ## Further reading
 
 * Foundations: [SIL Fonts (software.sil.org)](https://software.sil.org/fonts/)
+
+## Sources
+
+1. "SIL International, which is now the registration authority for ISO 639-3." [ISO 639-3 (Wikipedia)](https://en.wikipedia.org/wiki/ISO_639-3)
