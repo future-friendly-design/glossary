@@ -7,9 +7,7 @@ aliases:
   - NFD
 level: advanced
 depth: deep
-summary: >-
-  Normalization rewrites text into a consistent form so that strings that look
-  the same compare as equal.
+summary: Normalization rewrites text into one consistent form, so that two pieces of text that look the same to a reader also match when software compares them.
 related:
   - precomposed-character
   - combining-mark
@@ -37,19 +35,21 @@ tags:
 
 ## Definition
 
-Normalization rewrites text into a consistent form so that strings that look the same compare as equal.
+Normalization rewrites text into one consistent form, so that two pieces of text that look the same to a reader also match when software compares them.
 
 ## Why it matters
 
-Unicode defines four normalization forms in UAX #15. NFC composes sequences into [precomposed-character](precomposed-character.md)s where possible, while NFD decomposes them into a base plus [combining-mark](combining-mark.md)s; the compatibility forms NFKC and NFKD additionally fold formatting variants (like a ligature back into its letters, or a full-width form into a normal one). Normalization also fixes the order of combining marks. Without it, text that looks identical can fail to match.
+The same visible text can be stored in more than one way. `é` can be a single character with the accent already built in, or the plain letter `e` followed by a separate accent character. A reader cannot tell the two apart. Software comparing them piece by piece can, and reports that they do not match.
+
+Normalization is the repair: rewrite both into whichever form you have chosen, and only then compare. Unicode defines four such forms in UAX #15. NFC composes sequences into [precomposed characters](precomposed-character.md) where possible, while NFD decomposes them into a base plus [combining marks](combining-mark.md); the compatibility forms NFKC and NFKD additionally fold formatting variants together, such as a ligature back into its separate letters, or a [full-width](full-width.md) form into an ordinary one. Normalization also fixes the order of combining marks, so a base carrying two marks matches whichever mark was typed first. Without it, text that looks identical can fail to match.
 
 ## Example
 
-Comparing a file name typed as precomposed "é" with one typed as "e" plus a combining accent only matches after normalizing both to the same form (NFC or NFD).
+Comparing a file name typed as precomposed `é` with one typed as `e` plus a combining accent only matches after normalizing both to the same form (NFC or NFD).
 
 ## Common mistake
 
-Comparing, searching, or deduplicating user text without normalizing first. Two visually identical strings can differ at the byte level (precomposed versus decomposed), so equality checks, lookups, uniqueness constraints, and "have I seen this before" logic silently miss matches. The bug is invisible in ASCII testing and only surfaces with accented or non-Latin input.
+Comparing, searching, or deduplicating user text without normalizing first. Two pieces of text that look identical can be stored differently (precomposed versus decomposed), so equality checks, lookups, uniqueness constraints, and "have I seen this before" logic silently miss matches. The bug is invisible if you only test in unaccented English, and surfaces the first time somebody enters an accented or non-Latin name.
 
 ## In practice
 

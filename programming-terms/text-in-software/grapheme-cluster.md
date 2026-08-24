@@ -27,9 +27,11 @@ license: CC-BY-4.0
 
 A grapheme cluster is what a reader thinks of as one [character](character.md), even if it is made of several [code points](code-point.md).
 
-For example, `e` followed by a combining acute accent displays as `é`: one grapheme cluster, two code points.
+For example, `e` followed by a combining acute accent displays as `é`. A reader counts one thing. Underneath there are two characters, each with its own number in Unicode's list, so that is one grapheme cluster made of two code points.
 
 ### Why it matters in design systems
+
+Ask a person how many characters are in `é` and the answer is one. Ask the software and the answer may be two, because the accent can be stored as a character of its own. Neither answer is a mistake; the two are counting different things. A grapheme cluster is the unit that counts the way the reader does.
 
 Unicode introduced this term to escape the ambiguity of the word "character", which in code almost always means a single code point. The standard's own reasoning is worth quoting: a basic unit of a writing system is often made up of several code points, so to avoid ambiguity it is useful to speak of a user-perceived character instead.<sup>1</sup> Grapheme clusters are how that idea is made computable, described as a best-effort approximation that can be determined programmatically and unambiguously.<sup>2</sup>
 
@@ -51,7 +53,7 @@ Counting "characters" by code points, or worse by UTF-16 code units, and calling
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Combining mark](combining-mark.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Grapheme](grapheme.md) · [Language](../../language-terms/linguistics/language.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Spacing combining mark](spacing-combining-mark.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Tamil script](../../language-terms/writing-systems-and-scripts/tamil-script.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](../text-in-software/)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Combining mark](combining-mark.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Grapheme](grapheme.md) · [Language](../../language-terms/linguistics/language.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Spacing combining mark](spacing-combining-mark.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Tamil script](../../language-terms/writing-systems-and-scripts/tamil-script.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](../text-in-software/)
 
 ### Further reading
 

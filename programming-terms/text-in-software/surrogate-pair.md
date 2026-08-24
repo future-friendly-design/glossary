@@ -5,9 +5,7 @@ aliases:
   - surrogates
 level: advanced
 depth: core
-summary: >-
-  A surrogate pair is two UTF-16 code units used together to represent a
-  character beyond the Basic Multilingual Plane.
+summary: A surrogate pair is two UTF-16 storage slots used together to hold one character that will not fit in a single slot.
 related:
   - utf-16
   - plane-bmp
@@ -34,15 +32,17 @@ tags:
 
 ## Definition
 
-A surrogate pair is two [UTF-16](utf-16.md) [code units](../text-for-digital-products-and-the-web/code-unit.md) used together to represent a character beyond the Basic Multilingual Plane.<sup>1</sup>
+A surrogate pair is two UTF-16 storage slots used together to hold one character that will not fit in a single slot.<sup>1</sup>
+
+It is a mechanism of [UTF-16](utf-16.md), a way of storing text that gives every slot the same fixed size. Those slots are called [code units](../text-for-digital-products-and-the-web/code-unit.md), and each one can hold a number up to 65,535.
 
 ### Why it matters in design systems
 
-UTF-16 can only reach characters above U+FFFF by pairing a high surrogate, from U+D800 to U+DBFF,<sup>2</sup> with a low surrogate, from U+DC00 to U+DFFF.<sup>3</sup> Those ranges are reserved for exactly this purpose and are not characters in their own right, so a surrogate on its own has no interpretation at all.<sup>4</sup> Split a pair down the middle and you have not produced half a character, you have produced invalid text.
+Unicode's numbering runs far past 65,535, so a single slot cannot reach every character. Rather than make the slot bigger, UTF-16 sets aside two stretches of numbers that are not characters at all and only ever mean "this is one half of a pair". A character above U+FFFF is stored as a high surrogate, from U+D800 to U+DBFF,<sup>2</sup> followed by a low surrogate, from U+DC00 to U+DFFF.<sup>3</sup> Because those ranges exist for nothing else, a surrogate sitting on its own has no interpretation at all.<sup>4</sup> Split a pair down the middle and you have not produced half a character, you have produced invalid text.
 
-The mechanism belongs to one encoding only. Surrogate pairs are used only in UTF-16,<sup>5</sup> so this is not a property of Unicode or of the character; it is an artifact of how one encoding reaches past its own 16-bit ceiling. The same character in [UTF-8](utf-8.md) is simply four bytes, with no surrogates involved.
+The mechanism belongs to one way of storing text and no other. Surrogate pairs are used only in UTF-16,<sup>5</sup> so this is not a property of Unicode, and not a property of the character either; it is an artifact of how one storage scheme reaches past its own ceiling. The same character stored as [UTF-8](utf-8.md) is simply four bytes long, with no surrogates involved.
 
-Where this reaches a design system is anywhere text gets cut by index. Truncating a string at "20 characters", stepping a cursor, or slicing for a preview will eventually land between the two halves of a pair, and the visible result is a replacement character or an empty box in the middle of someone's content. Iterating by code point avoids splitting a pair, and iterating by [grapheme cluster](grapheme-cluster.md) additionally avoids splitting a character from its marks, which is the behaviour a reader actually expects.
+Where this reaches a design system is anywhere text gets cut by index. Truncating a string at "20 characters", stepping a cursor, or slicing for a preview will eventually land between the two halves of a pair, and the visible result is a replacement character or an empty box in the middle of someone's content. Stepping through the text one [code point](code-point.md) at a time, one whole character number at a time, avoids splitting a pair, and iterating by [grapheme cluster](grapheme-cluster.md) additionally avoids splitting a character from its marks, which is the behaviour a reader actually expects.
 
 This is not an emoji edge case, though emoji are where teams usually meet it. The supplementary [planes](plane-bmp.md) hold historic scripts and recently encoded ones, so the communities most affected by naive string slicing are often the ones whose scripts arrived in Unicode most recently.
 

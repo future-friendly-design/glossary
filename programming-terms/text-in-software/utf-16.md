@@ -36,9 +36,11 @@ tags:
 
 UTF-16 stores Unicode text in 16-bit units, using one unit for common characters and two for the rest.<sup>1</sup>
 
+A 16-bit unit is a fixed-size storage slot that can hold a number up to 65,535. A character whose number fits in one slot gets one slot; a character numbered higher than that gets two slots, read together as a single character.
+
 ### Why it matters in design systems
 
-The split is by [plane](plane-bmp.md). Characters in the range U+0000 to U+FFFF, the Basic Multilingual Plane, take a single 16-bit [code unit](../text-for-digital-products-and-the-web/code-unit.md); characters in the supplementary planes above U+FFFF take two, in the form of a [surrogate pair](surrogate-pair.md).<sup>2</sup> Since the BMP holds the common-use characters of all modern scripts, UTF-16 behaves like a fixed-width encoding most of the time,<sup>3</sup> which is exactly what makes it dangerous: code written on the assumption that one unit equals one character works fine right up until it does not.
+Which characters get one slot and which get two is not arbitrary. Unicode's numbering is cut into blocks called [planes](plane-bmp.md), and the first block, the Basic Multilingual Plane, holds the characters in everyday use. Characters in that first block, U+0000 to U+FFFF, take a single 16-bit [code unit](../text-for-digital-products-and-the-web/code-unit.md); characters in the supplementary planes above U+FFFF take two, in the form of a [surrogate pair](surrogate-pair.md).<sup>2</sup> Since the BMP holds the common-use characters of all modern scripts, UTF-16 behaves most of the time as though every character took exactly one slot,<sup>3</sup> which is exactly what makes it dangerous: code written on the assumption that one slot equals one character works fine right up until it does not.
 
 That assumption is baked into a lot of software. JavaScript strings are UTF-16, and a string's length is a count of UTF-16 code units rather than characters,<sup>4</sup> so anything outside the BMP counts double. Emoji are the familiar case, but so are historic scripts and recently encoded ones, including scripts that living language communities are actively working to bring into digital use.
 

@@ -35,11 +35,13 @@ tags:
 
 UTF-8 is the most common way to store Unicode text, using one to four bytes per character.<sup>1</sup>
 
+A byte is the small fixed-size unit computers count storage in, so that sentence is really about room: in UTF-8, some characters take one byte of room and others take as many as four.
+
 ### Why it matters in design systems
 
-UTF-8 is variable-width: a character takes as many bytes as it needs. The first 128 code points, the ASCII range, take exactly one byte each and are indistinguishable from ASCII itself, which is why UTF-8 slotted into a world already full of ASCII-based systems without breaking them.<sup>2</sup> It is the encoding the WHATWG calls the mandatory encoding for all things,<sup>3</sup> and the practical guidance, use it everywhere and declare it, lives in [character encoding](character-encoding.md).
+A [character encoding](character-encoding.md) is the agreed way of turning characters into numbers a computer can store. UTF-8 is one of those agreements, and the one to use. What makes it distinctive is that it is variable-width: a character takes as many bytes as it needs rather than a fixed amount each. The first 128 numbers Unicode assigns are the ones the old English-only ASCII list had already assigned, and in UTF-8 those take exactly one byte each and are indistinguishable from ASCII itself, which is why UTF-8 slotted into a world already full of ASCII-based systems without breaking them.<sup>2</sup> It is the encoding the WHATWG calls the mandatory encoding for all things,<sup>3</sup> and the practical guidance, use it everywhere and declare it, lives in the character encoding entry.
 
-The part worth knowing as a designer is what that variable width costs, because the cost is not distributed evenly across the world's writing systems. Unicode spells it out: many non-ideographic scripts take two bytes per code point, everything from U+0800 to U+FFFF takes three, and anything above U+FFFF takes four.<sup>4</sup> English text is close to one byte per character. The same sentence in Greek or Cyrillic is roughly double that, and in Devanagari, Thai, or Han characters roughly triple.
+The part worth knowing as a designer is what that variable width costs, because the cost is not distributed evenly across the world's writing systems. Unicode spells it out: many non-ideographic scripts take two bytes per [code point](code-point.md), everything from U+0800 to U+FFFF takes three, and anything above U+FFFF takes four.<sup>4</sup> English text is close to one byte per character. The same sentence in Greek or Cyrillic is roughly double that, and in Devanagari, Thai, or Han characters roughly triple.
 
 That has consequences that surface in unglamorous places. A database column defined as 20 _bytes_ holds 20 English characters and perhaps 6 Devanagari ones, so a field that comfortably fits your team's names silently truncates a user's. Payload sizes, search index sizes, and any limit expressed in bytes rather than characters all shift depending on the script. When you specify a limit, specify the unit, and check what your database is actually counting.
 

@@ -4,9 +4,7 @@ slug: enclosing-mark
 aliases: []
 level: advanced
 depth: core
-summary: >-
-  An enclosing mark is a combining character that surrounds the base character
-  it attaches to, such as an enclosing circle or square.
+summary: An enclosing mark is a character that draws a shape around the character before it, such as a circle or a box.
 related:
   - combining-mark
   - mark
@@ -32,13 +30,15 @@ tags:
 
 ## Definition
 
-An enclosing mark is a combining [character](character.md) that surrounds the base character it attaches to, such as an enclosing circle or square.
+An enclosing mark is a [character](character.md) that draws a shape around the character before it, such as a circle or a box.
 
 For example, the keycap `1️⃣` is the digit `1` plus an enclosing mark that draws the box around it.
 
 ### Why it matters in design systems
 
-The enclosing mark is the third and last member of [Unicode](unicode.md)'s Mark category, alongside the nonspacing [combining mark](combining-mark.md) and the [spacing combining mark](spacing-combining-mark.md). General Category Me, it is a kind of nonspacing mark that wraps around its base rather than sitting above or beside it, producing things like a digit inside a circle.<sup>1</sup> For software the same rule applies as for other combining marks: the base and the enclosing mark together are a single [grapheme cluster](grapheme-cluster.md), so cursor movement, selection, and counting should treat them as one unit, not two.
+Some text puts a ring or a box around something and expects the two to travel together: a digit inside a circle, a key on a keyboard drawn as a labelled square. The computer could store that as one character that happens to be drawn with a box around it. Instead it can store two: the thing being enclosed, and a second character whose only job is to wrap around whatever came before it. The enclosing mark is that second character, and like any [combining mark](combining-mark.md) it cannot stand on its own.
+
+That makes it the third and last member of [Unicode](unicode.md)'s Mark category, alongside the nonspacing combining mark, which adds no width, and the [spacing combining mark](spacing-combining-mark.md), which does. General Category Me, it is a kind of nonspacing mark that wraps around its base rather than sitting above or beside it, producing things like a digit inside a circle.<sup>1</sup> For software the same rule applies as for other combining marks: the base and the enclosing mark together are a single [grapheme cluster](grapheme-cluster.md), one unit as far as a reader is concerned, so cursor movement, selection, and counting should treat them as one, not two.
 
 ***
 

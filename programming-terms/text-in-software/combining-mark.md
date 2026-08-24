@@ -42,11 +42,13 @@ For example, the letter `n` followed by a combining tilde displays as `ñ`.
 
 ### Why it matters in design systems
 
-A combining mark is how [Unicode](unicode.md) encodes a [mark](../../language-terms/writing-systems-and-scripts/mark.md) that attaches to a base character instead of standing on its own. It is the encoding view of what a reader sees as a [diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md): the accent on `ñ` is a diacritic to a person, and a combining mark to the computer.
+Writing all over the world builds one written unit out of a base plus something added to it: the tilde over `ñ`, the accent over `é`, a vowel mark placed beside a consonant. A computer has two ways to store a unit like that. It can treat the whole thing as a single character. Or it can store two characters, the base and the added piece, and rely on them being read together.
 
-Unicode's Mark category has three kinds: nonspacing marks that sit on the base without taking width (most accents), [spacing combining marks](spacing-combining-mark.md) that do take width (some Indic vowel marks), and [enclosing marks](enclosing-mark.md) that wrap around the base.<sup>1</sup>
+A combining mark is that second, added piece. It is a character that cannot stand on its own: it exists only to attach to the character before it, which is called the base. What a reader sees as a [diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md), a [mark](../../language-terms/writing-systems-and-scripts/mark.md) added to a letter, the computer may be holding as a base character followed by a combining mark.
 
-The point that matters for software: the same accented letter can be stored as one [precomposed character](precomposed-character.md) or as a base letter plus a combining mark, so `ñ` can exist in two forms that look identical.<sup>2</sup> A base plus its combining marks counts as one [grapheme cluster](grapheme-cluster.md) on screen even though it is several characters underneath, and [normalization](normalization.md) is what makes the two storage forms compare as equal.<sup>3</sup>
+[Unicode](unicode.md) sorts these attaching characters into three kinds: nonspacing marks, which sit on the base without taking any width of their own (most accents); [spacing combining marks](spacing-combining-mark.md), which do take width (some Indic vowel marks); and [enclosing marks](enclosing-mark.md), which wrap around the base.<sup>1</sup>
+
+The point that matters for software: the same accented letter can be stored either way, as one [precomposed character](precomposed-character.md) or as a base letter plus a combining mark, so `ñ` can exist in two forms that look identical on screen and are not identical underneath.<sup>2</sup> A base plus its combining marks counts as one [grapheme cluster](grapheme-cluster.md), one unit as far as a reader is concerned, even though it is several characters underneath. [Normalization](normalization.md), rewriting text so that both storage forms come out the same way, is what makes them compare as equal.<sup>3</sup>
 
 ***
 

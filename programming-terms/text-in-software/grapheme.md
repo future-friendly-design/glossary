@@ -4,9 +4,7 @@ slug: grapheme
 aliases: []
 level: intermediate
 depth: core
-summary: >-
-  A grapheme is a minimally distinctive unit of writing within a particular
-  writing system.
+summary: A grapheme is the smallest unit of writing that a particular writing system treats as different from any other.
 related:
   - grapheme-cluster
   - glyph
@@ -30,13 +28,13 @@ tags:
 
 ## Definition
 
-A grapheme is a minimally distinctive unit of writing within a particular [writing system](../../language-terms/writing-systems-and-scripts/writing-system.md).<sup>1</sup>
+A grapheme is the smallest unit of writing that a particular [writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) treats as different from any other.<sup>1</sup>
 
 Unicode's own example: `b` and `d` are distinct graphemes in English writing because there are distinct words like "big" and "dig", while a slanted `a` and an upright `a` are not, because no word is distinguished by that difference.<sup>2</sup>
 
 ### Why it matters in design systems
 
-A grapheme is the abstract written unit, the counterpart in writing to what a [phoneme](../../language-terms/linguistics/phoneme.md) is in speech. It belongs to a writing system, not to software: a community decides what counts as a distinct unit of its writing long before any of it is encoded.
+Every community that writes has settled, over time, on which shapes count as genuinely different from one another and which differences it simply ignores. A grapheme is one item on that list. It is the written counterpart of what a [phoneme](../../language-terms/linguistics/phoneme.md) is in speech, a sound that turns one word into a different word. And it belongs to the writing system, not to software: a community decides what counts as a distinct unit of its writing long before any of it reaches a computer.
 
 That is the whole reason this term is worth keeping separate from the encoding vocabulary. Software's unit is the [character](character.md), and characters were assigned by Unicode to serve storage and interchange, not to match how a writing system counts itself. The two do not line up one to one. The same visible unit may be one character or two, depending on how it was typed or stored, and Unicode acknowledges the mismatch directly by giving "what a user thinks of as a character" as a second sense of grapheme.<sup>3</sup>
 

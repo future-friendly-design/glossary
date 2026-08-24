@@ -5,9 +5,7 @@ aliases:
   - spacing mark
 level: advanced
 depth: core
-summary: >-
-  A spacing combining mark is a combining character that takes up its own
-  horizontal width while still belonging to the base character it attaches to.
+summary: A spacing combining mark is a character that attaches to the character before it and takes up its own width on the line rather than sitting on top of it.
 related:
   - combining-mark
   - mark
@@ -36,13 +34,15 @@ tags:
 
 ## Definition
 
-A spacing combining mark is a combining [character](character.md) that takes up its own horizontal width while still belonging to the base character it attaches to.
+A spacing combining mark is a [character](character.md) that attaches to the character before it and takes up its own width on the line rather than sitting on top of it.
 
 For example, in [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) the consonant `क` (ka) plus the aa-mark `ा` becomes `का` (kaa); the mark sits to the right and takes its own width.
 
 ### Why it matters in design systems
 
-The [combining mark](combining-mark.md) entry covers the nonspacing case, marks that add no width and stack on top of a base. The spacing combining mark is the second member of [Unicode](unicode.md)'s Mark category, General Category Mc.<sup>1</sup> Unlike a nonspacing mark, it advances the text by its own width, yet it still forms a single unit with its base.<sup>2</sup> These are common in [Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md), where many vowel marks ([matra](../../language-terms/writing-systems-and-scripts/matra.md)s) sit beside the consonant and occupy real horizontal space. Knowing the distinction matters because code that assumes "combining means zero width" will mishandle them, and because the base plus its spacing mark count as one [grapheme cluster](grapheme-cluster.md), not two.
+Not every attaching mark hovers over the letter it belongs to. In much of the world's writing, a vowel mark is written beside the consonant, sitting on the line and taking as much room as a letter does. It is still one part of a single written unit, and the computer still stores it as a separate character attached to the one before it, but it is not invisible the way an accent is.
+
+That is the spacing combining mark. The [combining mark](combining-mark.md) entry covers the nonspacing case, marks that add no width and stack on top of a base; this is the second member of [Unicode](unicode.md)'s Mark category, General Category Mc.<sup>1</sup> Unlike a nonspacing mark, it advances the text by its own width, yet it still forms a single unit with its base.<sup>2</sup> These are common in [Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md), where many vowel marks ([matra](../../language-terms/writing-systems-and-scripts/matra.md)s) sit beside the consonant and occupy real horizontal space. Knowing the distinction matters because code that assumes "combining means zero width" will mishandle them, and because the base plus its spacing mark count as one [grapheme cluster](grapheme-cluster.md), one unit as far as a reader is concerned, not two.
 
 ***
 

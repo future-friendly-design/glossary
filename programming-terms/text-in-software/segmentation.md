@@ -40,9 +40,11 @@ Segmentation is the process of dividing text into meaningful units such as chara
 
 ### Why it matters in design systems
 
-What counts as a character, word, or sentence boundary differs by writing system, so segmentation cannot rely on a simple rule like splitting on spaces. [Unicode](unicode.md) Standard Annex #29 defines default algorithms for [grapheme cluster](grapheme-cluster.md), word, and sentence boundaries, but it is explicit that scripts without spaces between words need dictionary-based tailoring rather than the default.<sup>1</sup>
+Finding where one word ends and the next begins looks like a solved problem if you have only ever read English: cut the line at the spaces. Most of the world's writing does not cooperate. Plenty of writing runs words together with no spaces at all, and even the smaller job, finding where one character ends, stops being obvious once a single written unit can be built out of several pieces.
 
-So for a design system, anything that counts, truncates, or indexes text has to use a Unicode-aware segmenter. [Thai](../../language-terms/writing-systems-and-scripts/thai-script.md), Japanese, and Chinese put no spaces between words, so word segmentation there needs a dictionary or model, not a delimiter, and even a single "character" can be a grapheme cluster of several code points.
+So what counts as a character, word, or sentence boundary differs by writing system, and segmentation cannot rely on a simple rule like splitting on spaces. [Unicode](unicode.md) Standard Annex #29 defines default algorithms for [grapheme cluster](grapheme-cluster.md) boundaries (the unit a reader counts as one character), word boundaries, and sentence boundaries, but it is explicit that scripts without spaces between words need dictionary-based tailoring rather than the default.<sup>1</sup>
+
+So for a design system, anything that counts, truncates, or indexes text has to use a Unicode-aware segmenter. [Thai](../../language-terms/writing-systems-and-scripts/thai-script.md), Japanese, and Chinese put no spaces between words, so word segmentation there needs a dictionary or a model, not a delimiter, and even a single "character" can be a grapheme cluster made of several stored characters.
 
 ### Example
 
@@ -62,7 +64,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### Related terms and mentions
 
-[CLDR](../text-for-digital-products-and-the-web/cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](../text-for-digital-products-and-the-web/icu.md) · [Internationalization](../text-for-digital-products-and-the-web/internationalization.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
+[Character](character.md) · [CLDR](../text-for-digital-products-and-the-web/cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](../text-for-digital-products-and-the-web/icu.md) · [Internationalization](../text-for-digital-products-and-the-web/internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
 
 ### Further reading
 
