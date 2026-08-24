@@ -16,3 +16,6 @@ pilot-5-terms.md
 
 # repo-local validation tooling (not synced to GitBook)
 check_entry.py
+
+# verified research packs (internal, may contain unpublished quotes)
+verified-sources-code-cluster.md
