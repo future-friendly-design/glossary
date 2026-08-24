@@ -38,7 +38,7 @@ A computer can only store numbers, so somewhere there has to be a list saying wh
 
 What Unicode does not do is just as important, and skipping it causes most of the confusion in this area. Unicode assigns the numbers; it does not say how those numbers get written into a file, which is the job of a [character encoding](character-encoding.md) such as [UTF-8](utf-8.md). It does not draw anything either: the shapes on screen come from a [font](../text-for-digital-products-and-the-web/font.md), and a font covers only the characters it was drawn for. So "we support Unicode" is a claim about your data model, not about whether a person's name will render. Text can be encoded perfectly and still show as empty boxes because the font has no [glyph](../text-for-digital-products-and-the-web/glyph.md) for it.
 
-For a design system, Unicode is the layer that makes the rest of the work possible rather than the layer that finishes it. Deciding to store text as Unicode is table stakes. The decisions that follow, which fonts cover which scripts, how text is counted and sorted, whether shaping is required, are the ones with visible consequences, and Unicode is what lets you reason about them at all.
+For a design system, Unicode is the layer that makes the rest of the work possible rather than the layer that finishes it. Deciding to store text as Unicode is table stakes. The decisions that follow, which fonts cover which scripts, how text is counted and sorted, whether [shaping](../text-for-digital-products-and-the-web/text-shaping.md) is required, are the ones with visible consequences, and Unicode is what lets you reason about them at all.
 
 Unicode is developed and maintained by the Unicode Consortium.<sup>4</sup> The published specification, its versions, and the annexes this glossary cites throughout are covered separately under [Unicode Standard](unicode-standard.md).
 
@@ -46,7 +46,7 @@ Unicode is developed and maintained by the Unicode Consortium.<sup>4</sup> The p
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode Standard](unicode-standard.md) · [UTF-8](utf-8.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](../text-for-digital-products-and-the-web/text-shaping.md) · [Unicode Standard](unicode-standard.md) · [UTF-8](utf-8.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
 
 ### Further reading
 

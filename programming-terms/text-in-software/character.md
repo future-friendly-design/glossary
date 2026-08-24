@@ -45,11 +45,11 @@ When a spec, an API, or this glossary says "character" without qualification, it
 
 ### Why it matters in design systems
 
-Unicode defines character as an abstract unit of information used for organizing, controlling, or representing text.<sup>3</sup> In software, when you change the font used to visualize text in a particular language, the [glyphs](../text-for-digital-products-and-the-web/glyph.md) will change but the characters they represent remain the same.
+Unicode defines character as an abstract unit of information used for organizing, controlling, or representing text.<sup>3</sup> In software, when you change the [font](../text-for-digital-products-and-the-web/font.md) used to visualize text in a particular language, the [glyphs](../text-for-digital-products-and-the-web/glyph.md) will change but the characters they represent remain the same.
 
 For languages with a writing system that combines marks and symbols to change the meaning of a single character, a [grapheme cluster](grapheme-cluster.md) is what a reader counts as one character on screen, which is often several characters combined.&#x20;
 
-For example, `é` can be one character or two. A reader sees one either way, but stored as a single [precomposed character](precomposed-character.md) it is one, and stored as the letter `e` followed by a combining acute accent mark it is technically two.
+For example, `é` can be one character or two. A reader sees one either way, but stored as a single [precomposed character](precomposed-character.md) it is one, and stored as the letter `e` followed by a [combining acute accent mark](combining-mark.md) it is technically two.
 
 This matters in search indexing and when your design system has form inputs with character counters. You need to be sure the software is counting the grapheme cluster as a single character `é` to match the mental model of the person filling in the form. In search it's important to use [normalization](normalization.md) to ensure search results are accurate regardless of whether the same name was typed as a precomposed `é` or as `e` plus an accent.<sup>4</sup>&#x20;
 

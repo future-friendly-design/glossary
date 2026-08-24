@@ -69,7 +69,7 @@ The answer is always UTF-8. The WHATWG Encoding Standard requires that new forma
 
 * **Ask what the whole chain uses.** Design tool, front end, database, API, exports, and any spreadsheet a translator opens. One step disagreeing corrupts everything after it, and the step that breaks it is rarely the one where anybody notices.
 * **Test with text you cannot read.** Put a name in a script your team does not use into every form, save it, load it back, and look at it. Testing in English cannot find this class of bug, which is exactly why it reaches real users.
-* **Learn to tell it apart from a font problem.** Text turning into `Ã©`-style rubble is an encoding failure: the right characters were stored, then read with the wrong list. Empty boxes are a [font coverage](../text-for-digital-products-and-the-web/font-coverage.md) failure: the right characters arrived, but the font has no [glyph](../text-for-digital-products-and-the-web/glyph.md) to draw them. The two look equally broken on screen and go to completely different people to fix.
+* **Learn to tell it apart from a font problem.** Text turning into `Ã©`-style rubble is an encoding failure: the right characters were stored, then read with the wrong list. Empty boxes are a [font coverage](../text-for-digital-products-and-the-web/font-coverage.md) failure: the right characters arrived, but the font has no glyph to draw them. The two look equally broken on screen and go to completely different people to fix.
 
 ***
 

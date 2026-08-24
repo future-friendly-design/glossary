@@ -4,7 +4,7 @@
 
 When a person writes, they produce visible symbols and marks on a surface. When software stores that same writing, it becomes numbers, and those numbers become bytes.
 
-Nothing in that trip is one to one. What a reader counts as one character may be several numbers underneath, and the shape on screen is drawn by a font that was never involved in the storing. Most text bugs come from treating one of those layers as if it were another.
+Nothing in that trip is one to one. What a reader counts as one character may be several numbers underneath, and the shape on screen is drawn by a [font](../text-for-digital-products-and-the-web/font.md) that was never involved in the storing. Most text bugs come from treating one of those layers as if it were another.
 
 ### Why it matters
 

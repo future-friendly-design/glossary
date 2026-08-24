@@ -37,7 +37,7 @@ A full-width character fills one full square cell, the same width as a typical C
 
 Chinese, Japanese, and Korean text is traditionally set on a grid: each character sits in its own square cell, and the cells line up down the column and across the line. The two widths come out of that grid. A full-width character fills the cell, which in typographic terms is one em, the full width of the type size; a half-width character takes about half of it. Anything mixed into that text, such as Latin letters, digits, or punctuation, has to be one or the other, or the grid stops lining up.
 
-[Unicode](unicode.md) includes a Halfwidth and Fullwidth Forms block (U+FF00 to U+FFEF) that holds full-width Latin letters and punctuation plus half-width Katakana. Those exist mainly so that text from older character lists, the ones that predate Unicode, could be converted into Unicode and back without losing anything. For live layout, the width is normally selected through OpenType features (`fwid`, `hwid`) or CSS, not by reaching for those compatibility characters.
+[Unicode](unicode.md) includes a Halfwidth and Fullwidth Forms block (U+FF00 to U+FFEF) that holds full-width Latin letters and punctuation plus half-width Katakana. Those exist mainly so that text from older character lists, the ones that predate Unicode, could be converted into Unicode and back without losing anything. For live layout, the width is normally selected through [OpenType features](../../design-terms/typography/opentype-features.md) (`fwid`, `hwid`) or CSS, not by reaching for those compatibility characters.
 
 ## Example
 
@@ -49,13 +49,13 @@ Treating the Halfwidth and Fullwidth Forms block as the normal way to set width 
 
 ## In practice
 
-* **CSS and OpenType:** `font-variant-east-asian: full-width` (OpenType `fwid`) selects full-width forms at the rendering layer, keeping the underlying text as ordinary code points. See [font-variant-east-asian (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-east-asian).
+* **CSS and OpenType:** `font-variant-east-asian: full-width` (OpenType `fwid`) selects full-width forms at the rendering layer, keeping the underlying text as ordinary [code points](code-point.md). See [font-variant-east-asian (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-east-asian).
 * **Engineering:** when text mixes full-width and half-width forms, decide deliberately whether to normalize (NFKC) before storing, indexing, or comparing it, so the two widths do not split what users think of as the same string. _(Defer the specifics to the i18n experts.)_
 * **Languages:** this is an East-Asian-specific model; the conventions for when full-width versus half-width is expected are best confirmed by the language experts rather than assumed.
 
 ## Related terms
 
-[Font coverage](../text-for-digital-products-and-the-web/font-coverage.md) · [Normalization](normalization.md) · [Tategaki](../../language-terms/writing-systems-and-scripts/tategaki.md) · [Unicode](unicode.md)
+[Code point](code-point.md) · [Font coverage](../text-for-digital-products-and-the-web/font-coverage.md) · [Normalization](normalization.md) · [OpenType features](../../design-terms/typography/opentype-features.md) · [Tategaki](../../language-terms/writing-systems-and-scripts/tategaki.md) · [Unicode](unicode.md)
 
 ## Further reading
 

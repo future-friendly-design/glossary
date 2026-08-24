@@ -36,7 +36,7 @@ It is one document set in four parts: the core specification, the code charts, t
 
 ### Why it matters in design systems
 
-Those four parts do different jobs, and knowing which one answers your question saves a lot of searching. The core specification gives the general principles, requirements for conformance, and guidelines for implementers. The code charts show representative glyphs for all the Unicode characters. The annexes, each a separate numbered document covering one aspect of text in detail, supply the information that anyone building software is required to follow. The Character Database supplies the normative and informative data implementers need.<sup>2</sup>
+Those four parts do different jobs, and knowing which one answers your question saves a lot of searching. The core specification gives the general principles, requirements for conformance, and guidelines for implementers. The code charts show representative [glyphs](../text-for-digital-products-and-the-web/glyph.md) for all the Unicode characters. The annexes, each a separate numbered document covering one aspect of text in detail, supply the information that anyone building software is required to follow. The Character Database supplies the normative and informative data implementers need.<sup>2</sup>
 
 Most of what this glossary cites comes from the annexes and the database rather than the core text. When an entry here explains how text is segmented, normalized, sorted, or laid out in two directions at once, it is citing an annex, and those annexes are the closest thing the field has to a shared rulebook. If you ever need to settle an argument about how text should behave, this is where the answer lives.
 

@@ -39,7 +39,7 @@ Code points are written as `U+` followed by hexadecimal digits, and they live in
 
 The code point is what makes text portable: the same number identifies the same character in every system that follows the [Unicode Standard](unicode-standard.md).&#x20;
 
-Storing a code point requires a [character encoding](character-encoding.md) to turn it into bytes, the data actually written to a file or a database. Visualizing the character in software requires a font that contains the correct [glyph](../text-for-digital-products-and-the-web/glyph.md) to represent it.&#x20;
+Storing a code point requires a [character encoding](character-encoding.md) to turn it into bytes, the data actually written to a file or a database. Visualizing the character in software requires a [font](../text-for-digital-products-and-the-web/font.md) that contains the correct [glyph](../text-for-digital-products-and-the-web/glyph.md) to represent it.&#x20;
 
 Two things surprise people. Not every code point is assigned to a character,<sup>3</sup> so a valid-looking number may be reserved, unassigned, or a control code that renders as nothing. And one code point is not reliably one character on screen: an accented symbol may be built from two, and an emoji from several, which is the difference between a code point and a [grapheme cluster](grapheme-cluster.md). If you are counting text for a limit, a truncation, or a cursor step, the code point is almost never the unit your reader is using.
 

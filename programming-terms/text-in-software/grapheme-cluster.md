@@ -41,7 +41,7 @@ That distinction is the reason this term earns a page in a design glossary rathe
 
 ### Common mistake
 
-Counting "characters" by code points, or worse by UTF-16 code units, and calling that the length. An accented symbol, a Devanagari syllable, and a flag emoji can each be several code points, so naive length checks, truncation, and cursor steps end up splitting a single written unit apart. Unicode's guidance is direct: where you need to show users a character count, it should match the number of grapheme clusters.<sup>5</sup> The length your programming language reports is rarely that number.
+Counting "characters" by code points, or worse by [UTF-16](utf-16.md) [code units](../text-for-digital-products-and-the-web/code-unit.md), and calling that the length. An accented symbol, a Devanagari syllable, and a flag emoji can each be several code points, so naive length checks, truncation, and cursor steps end up splitting a single written unit apart. Unicode's guidance is direct: where you need to show users a character count, it should match the number of grapheme clusters.<sup>5</sup> The length your programming language reports is rarely that number.
 
 ### In practice
 
