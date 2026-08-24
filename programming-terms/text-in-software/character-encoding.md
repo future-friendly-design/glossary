@@ -39,7 +39,7 @@ A character encoding is the agreed way of turning [characters](character.md) int
 
 A computer can only store numbers. Not letters, not shapes, only numbers. So to save the word "cat", something has to turn `c`, `a`, and `t` into numbers, and turn those numbers back into letters when the file is opened again.
 
-For that to work, both ends have to agree on which number means which character. If the software that saves the text uses one character encoding and the software that opens it uses a different one, the text being shown as [glyphs](../text-for-digital-products-and-the-web/glyph.md) on the page will be different from the characters being stored in the code to represent the text.&#x20;
+For that to work, both ends have to agree on which number means which character. If the software that saves the text uses one character encoding and the software that opens it uses a different one, the text being shown as [glyphs](../text-for-digital-products-and-the-web/glyph.md) on the page will be different from the characters being stored in the code to represent the text. Nothing in the file changed. The numbers are still there, they were just turned back into characters using the wrong list, which is why the original text can often be recovered.&#x20;
 
 Early character encodings did both jobs at once: they listed the characters and set the numbers. Each had room for about 256 characters, which covered English and some European languages, and left no room for Devanagari, Chinese, or Amharic, because the people who built them were not designing for those languages. It is not possible to mix character encoding sources in one page or one database, which made supporting more than a few languages difficult.<sup>2</sup>
 
@@ -49,7 +49,7 @@ That is why [UTF-8](utf-8.md) is not an alternative to Unicode. UTF-8 is one of 
 
 Unicode has more than one encoding. UTF-8 is the one to use for files and the web. [UTF-16](utf-16.md) is another, used inside some programming languages and operating systems, which is where surprising character counts in code usually come from.
 
-Here is an example of character encoding for the same text across three different lists:
+Here is the same text stored under two different character encodings:
 
 | Character | Unicode's number | Stored by UTF-8 as | Stored by Latin-1 as   |
 | --------- | ---------------- | ------------------ | ---------------------- |
