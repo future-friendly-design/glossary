@@ -6,7 +6,9 @@ aliases:
   - charset
 level: foundational
 depth: deep
-summary: A character encoding is the agreed way of turning characters into numbers a computer can store, and back again.
+summary: >-
+  A character encoding is the agreed way of turning characters into numbers a
+  computer can store, and back again.
 related:
   - utf-8
   - utf-16
@@ -33,25 +35,29 @@ tags:
 
 ## Definition
 
-A character encoding is the agreed way of turning characters into numbers a computer can store, and back again.<sup>1</sup>
+A character encoding is the agreed way of turning [characters](character.md) into numbers a computer can store, and back again so it can be displayed as text in software.<sup>1</sup>
 
 ### Why it matters in design systems
 
 A computer can only store numbers. Not letters, not shapes, only numbers. So to save the word "cat", something has to turn `c`, `a`, and `t` into numbers, and turn those numbers back into letters when the file is opened again.
 
-For that to work, both ends have to agree on which number means which character. If the software that saves the text uses one list and the software that opens it uses a different list, the numbers get looked up in the wrong place and the wrong characters come out. The text is not damaged. It is being misread.
+For that to work, both ends have to agree on which number means which character. If the software that saves the text uses one character encoding and the software that opens it uses a different one, the text being shown as [glyphs](../text-for-digital-products-and-the-web/glyph.md) on the page will be different than the characters being stored in the code to represent the text.&#x20;
 
-Early agreements did both jobs at once: they listed the characters and set the numbers. Each had room for about 256 characters, which covered English and some European languages, and left no room for Devanagari, Chinese, or Amharic, because the people who built them were not designing for those languages. Mixing two of them in one page or one database is not possible, which is what made supporting more than a few languages so difficult.<sup>2</sup>
+Early character encoding did both jobs at once: they listed the characters and set the numbers. Each had room for about 256 characters, which covered English and some European languages, and left no room for Devanagari, Chinese, or Amharic, because the people who built them were not designing for those languages. Its not possible to mix character encoding sources in one page or one database, which made supporting more than a few languages difficult.<sup>2</sup>
 
-[Unicode](unicode.md) split that job in two. Unicode now owns the list, giving every character in every writing system its own number, called a [code point](code-point.md).<sup>3</sup> The encoding owns the second half: the rule for writing those numbers into a file.<sup>4</sup>
+[Unicode](unicode.md) split that job in two. Unicode now owns the list, giving every character in every writing system its own number, called a [code point](code-point.md).<sup>3</sup> The character encoding owns the second half: the rule for writing those numbers into a file.<sup>4</sup>
 
-That is why [UTF-8](utf-8.md) is not an alternative to Unicode. UTF-8 is one of Unicode's own encodings, and it can store every character Unicode has ever assigned, using between one and four numbers per character.<sup>5</sup> Latin-1 is one of the old small lists, still sitting in older files and databases. Here is the same text under each:
+That is why [UTF-8](utf-8.md) is not an alternative to Unicode. UTF-8 is one of Unicode's own encodings, and it can store every character Unicode has ever assigned, using between one and four numbers per character.<sup>5</sup> Latin-1 is one of the older lists for character encoding, still sitting in older files and databases.&#x20;
 
-| Character | Unicode's number | Stored by UTF-8 as | Stored by Latin-1 as |
-|---|---|---|---|
-| `A` | 65 | `41` | `41` |
-| `é` | 233 | `C3 A9` | `E9` |
-| `न` | 2344 | `E0 A4 A8` | cannot store it at all |
+Unicode has more than one encoding. UTF-8 is the one to use for files and the web. [UTF-16](utf-16.md) is another, used inside some programming languages and operating systems, which is where surprising character counts in code usually come from.
+
+Here is an example of character encoding for the same text across three different lists:
+
+| Character | Unicode's number | Stored by UTF-8 as | Stored by Latin-1 as   |
+| --------- | ---------------- | ------------------ | ---------------------- |
+| `A`       | 65               | `41`               | `41`                   |
+| `é`       | 233              | `C3 A9`            | `E9`                   |
+| `न`       | 2344             | `E0 A4 A8`         | cannot store it at all |
 
 Two things fall out of that table. Text written by one encoding and read by the other comes out wrong: save `é` as UTF-8 and it is stored as `C3 A9`, but Latin-1 reads each number as a whole character, so you get `Ã` and `©` instead. That failure has a name, mojibake.<sup>6</sup> And Latin-1 simply has no number for `न`, so a product using it cannot store that person's name at all. Not truncated, not garbled. Impossible.
 
