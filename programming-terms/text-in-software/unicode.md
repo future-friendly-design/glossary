@@ -2,20 +2,28 @@
 term: Unicode
 slug: unicode
 aliases: []
-tags: [characters-encoding]
 level: foundational
 depth: core
-summary: Unicode is the standard that gives every character in the world's writing systems a unique number.
-related: [code-point, character-encoding, utf-8, plane-bmp]
+summary: >-
+  Unicode is the standard that gives every character in the world's writing
+  systems a unique number.
+related:
+  - code-point
+  - character-encoding
+  - utf-8
+  - plane-bmp
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Unicode (Unicode Glossary)"
+  - title: Unicode (Unicode Glossary)
     url: https://www.unicode.org/glossary/#unicode
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # Unicode
@@ -28,7 +36,7 @@ Unicode is the standard that gives every [character](character.md) in the world'
 
 Before Unicode, every language community's text depended on its own encoding, and text moved between systems by luck. Unicode's contribution is a single agreement: one number per character, the same number everywhere, providing a uniform means for storing, searching, and interchanging text in any language.<sup>2</sup> That number is a [code point](code-point.md), and the full range runs from 0 to 10FFFF, about 1.1 million positions.<sup>3</sup>
 
-What Unicode does not do is just as important, and skipping it causes most of the confusion in this area. Unicode assigns numbers; it does not say how those numbers are stored as bytes, which is the job of a [character encoding](character-encoding.md) such as [UTF-8](utf-8.md). It does not draw anything either: the shapes on screen come from a [font](font.md), and a font covers only the characters it was drawn for. So "we support Unicode" is a claim about your data model, not about whether a person's name will render. Text can be encoded perfectly and still show as empty boxes because the font has no [glyph](glyph.md) for it.
+What Unicode does not do is just as important, and skipping it causes most of the confusion in this area. Unicode assigns numbers; it does not say how those numbers are stored as bytes, which is the job of a [character encoding](character-encoding.md) such as [UTF-8](utf-8.md). It does not draw anything either: the shapes on screen come from a [font](../text-for-digital-products-and-the-web/font.md), and a font covers only the characters it was drawn for. So "we support Unicode" is a claim about your data model, not about whether a person's name will render. Text can be encoded perfectly and still show as empty boxes because the font has no [glyph](../text-for-digital-products-and-the-web/glyph.md) for it.
 
 For a design system, Unicode is the layer that makes the rest of the work possible rather than the layer that finishes it. Deciding to store text as Unicode is table stakes. The decisions that follow, which fonts cover which scripts, how text is counted and sorted, whether shaping is required, are the ones with visible consequences, and Unicode is what lets you reason about them at all.
 
@@ -38,7 +46,7 @@ Unicode is developed and maintained by the Unicode Consortium.<sup>4</sup> The p
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Font](font.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode Standard](unicode-standard.md) · [UTF-8](utf-8.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](../text-in-software/)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode Standard](unicode-standard.md) · [UTF-8](utf-8.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
 
 ### Further reading
 

@@ -1,21 +1,29 @@
 ---
 term: Unicode Standard
 slug: unicode-standard
-aliases: [The Unicode Standard]
-tags: [reference-sources]
+aliases:
+  - The Unicode Standard
 level: foundational
 depth: core
-summary: The Unicode Standard is the published specification that defines Unicode, maintained by the Unicode Consortium.
-related: [unicode, code-point, noto-fonts]
+summary: >-
+  The Unicode Standard is the published specification that defines Unicode,
+  maintained by the Unicode Consortium.
+related:
+  - unicode
+  - code-point
+  - noto-fonts
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "The Unicode Standard, current version (unicode.org)"
+  - title: The Unicode Standard, current version (unicode.org)
     url: https://www.unicode.org/versions/latest/
     type: authority
 license: CC-BY-4.0
+tags:
+  - reference-sources
 ---
 
 # Unicode Standard
@@ -36,13 +44,11 @@ The standard is versioned, and the version matters more than it looks. The curre
 
 The Unicode Consortium was founded in 1988 and incorporated in 1991.<sup>5</sup>
 
-<!-- MAINTENANCE: Unicode 18.0 is scheduled for September 2026; its draft page is already public at https://www.unicode.org/versions/Unicode18.0.0/. This entry's version, date, and character count all need updating on release, along with every other Unicode-version reference in the glossary. -->
-
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Glyph](glyph.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Unicode](unicode.md) · [Text in software](../text-in-software/)
+[Character](character.md) · [Code point](code-point.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Unicode](unicode.md) · [Text in software](./)
 
 ### Further reading
 

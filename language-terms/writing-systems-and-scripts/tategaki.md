@@ -49,7 +49,7 @@ Setting it is more than turning a horizontal block ninety degrees. Digits and sh
 
 ### Related terms and mentions
 
-[CJK](cjk.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Full-width](../../programming-terms/text-for-digital-products-and-the-web/full-width.md) · [Text direction](text-direction.md) · [Vertical text](../../terms/vertical-text.md) · [Writing systems & scripts](./)
+[CJK](cjk.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Full-width](../../programming-terms/text-in-software/full-width.md) · [Text direction](text-direction.md) · [Vertical text](../../terms/vertical-text.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

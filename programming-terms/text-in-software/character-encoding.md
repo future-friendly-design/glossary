@@ -1,24 +1,34 @@
 ---
 term: Character encoding
 slug: character-encoding
-aliases: [text encoding, charset]
-tags: [characters-encoding]
+aliases:
+  - text encoding
+  - charset
 level: foundational
 depth: deep
-summary: A character encoding is the rule for turning characters into bytes and back again.
-related: [utf-8, utf-16, unicode, code-point]
+summary: >-
+  A character encoding is the rule for turning characters into bytes and back
+  again.
+related:
+  - utf-8
+  - utf-16
+  - unicode
+  - code-point
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Encoding Standard (WHATWG)"
+  - title: Encoding Standard (WHATWG)
     url: https://encoding.spec.whatwg.org/
     type: code
-  - title: "Character encodings: Essential concepts (W3C)"
+  - title: 'Character encodings: Essential concepts (W3C)'
     url: https://www.w3.org/International/articles/definitions-characters/
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # Character encoding
@@ -49,7 +59,7 @@ Not declaring the encoding, and trusting a default to be right. The classic bug 
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Glyph](glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Normalization](normalization.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Text in software](../text-in-software/)
+[Character](character.md) · [Code point](code-point.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Normalization](normalization.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Text in software](./)
 
 ### Further reading
 

@@ -1,28 +1,35 @@
 ---
 term: Code point
 slug: code-point
-aliases: [codepoint]
-tags: [characters-encoding]
+aliases:
+  - codepoint
 level: foundational
 depth: core
 summary: A code point is the number Unicode assigns to a character.
-related: [character, unicode, character-encoding, plane-bmp]
+related:
+  - character
+  - unicode
+  - character-encoding
+  - plane-bmp
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Code Point (Unicode Glossary)"
+  - title: Code Point (Unicode Glossary)
     url: https://www.unicode.org/glossary/#code_point
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # Code point
 
 ## Definition
 
-A code point is the number Unicode assigns to a [character](character.md).
+A code point is the number [Unicode](unicode.md) assigns to a [character](character.md).
 
 For example, the code point for the symbol `á` is 225 in decimal, or E1 in hexadecimal,<sup>1</sup> which is written `U+00E1`.
 
@@ -30,7 +37,9 @@ For example, the code point for the symbol `á` is 225 in decimal, or E1 in hexa
 
 Code points are written as `U+` followed by hexadecimal digits, and they live in a fixed range. Unicode's codespace runs from 0 to 10FFFF, which is 1,114,112 possible code points, or roughly 1.1 million.<sup>2</sup> That range is the whole budget for every script Unicode has encoded and every one it has yet to encode.
 
-The number is not the bytes and not the shape. Storing a code point requires a [character encoding](character-encoding.md) to turn it into bytes; drawing it requires a font that contains a [glyph](glyph.md) for it. A code point is just the identifier the two ends agree on, which is precisely what makes text portable: the same number means the same character on every system that follows the standard.
+The code point is what makes text portable, the same number identifies the same character in every system that collors the [unicode standard](unicode-standard.md).&#x20;
+
+Storing a code point requires [character encoding](character-encoding.md) to turn it into bytes (code that can be stored in a database). Visualizing the character in software requires a font that contains the correct [glyph](../text-for-digital-products-and-the-web/glyph.md) to represent it.&#x20;
 
 Two things surprise people. Not every code point is assigned to a character,<sup>3</sup> so a valid-looking number may be reserved, unassigned, or a control code that renders as nothing. And one code point is not reliably one character on screen: an accented symbol may be built from two, and an emoji from several, which is the difference between a code point and a [grapheme cluster](grapheme-cluster.md). If you are counting text for a limit, a truncation, or a cursor step, the code point is almost never the unit your reader is using.
 
@@ -38,7 +47,7 @@ Two things surprise people. Not every code point is assigned to a character,<sup
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Font](font.md) · [Glyph](glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Text in software](../text-in-software/)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Text in software](./)
 
 ### Further reading
 

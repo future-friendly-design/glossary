@@ -4,7 +4,9 @@ slug: phoneme
 aliases: []
 level: intermediate
 depth: core
-summary: "A phoneme is the smallest unit of sound in a language that can distinguish one word from another."
+summary: >-
+  A phoneme is the smallest unit of sound in a language that can distinguish one
+  word from another.
 related:
   - grapheme
   - language
@@ -12,7 +14,7 @@ related:
   - orthography
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-03
+updated: 2026-08-03T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -31,7 +33,7 @@ tags:
 
 ## Definition
 
-A phoneme is the smallest unit of sound in a language that can distinguish one word from another.<sup>1</sup> It is the spoken-language counterpart to a [grapheme](../../programming-terms/text-for-digital-products-and-the-web/grapheme.md), the smallest unit of writing: where a grapheme is an abstract unit of a [script](../writing-systems-and-scripts/script.md), a phoneme is an abstract unit of speech. For example, the English words pat and bat differ only in their first phoneme, /p/ versus /b/, and swapping one for the other changes the word; a pair that differs in a single sound like this is called a minimal pair.<sup>2</sup>
+A phoneme is the smallest unit of sound in a language that can distinguish one word from another.<sup>1</sup> It is the spoken-language counterpart to a [grapheme](../../programming-terms/text-in-software/grapheme.md), the smallest unit of writing: where a grapheme is an abstract unit of a [script](../writing-systems-and-scripts/script.md), a phoneme is an abstract unit of speech. For example, the English words pat and bat differ only in their first phoneme, /p/ versus /b/, and swapping one for the other changes the word; a pair that differs in a single sound like this is called a minimal pair.<sup>2</sup>
 
 ### Why it matters in design systems
 
@@ -41,7 +43,7 @@ The tempting shortcut is to treat letters as sounds: one symbol, one sound. Spel
 
 ### Related terms and mentions
 
-[Collation](../../programming-terms/text-for-digital-products-and-the-web/collation.md) · [Grapheme](../../programming-terms/text-for-digital-products-and-the-web/grapheme.md) · [Language](language.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Script](../writing-systems-and-scripts/script.md) · [Symbol](../writing-systems-and-scripts/symbol.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](./)
+[Collation](../../programming-terms/text-for-digital-products-and-the-web/collation.md) · [Grapheme](../../programming-terms/text-in-software/grapheme.md) · [Language](language.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Script](../writing-systems-and-scripts/script.md) · [Symbol](../writing-systems-and-scripts/symbol.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](./)
 
 ### Further reading
 

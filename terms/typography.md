@@ -45,7 +45,7 @@ A guided tour of the typography terms in this glossary, grouped by what they hel
 * **Line and layout:** [Measure](../design-terms/typography/measure.md)
 * **Style and detail:** [Small caps](../design-terms/typography/small-caps.md), [Figure styles](../programming-terms/text-for-digital-products-and-the-web/figure-styles.md), [Faux bold](../programming-terms/text-for-digital-products-and-the-web/faux-bold.md), [Faux italic](../programming-terms/text-for-digital-products-and-the-web/faux-italic.md)
 * **Font technology and coverage:** [Font subsetting](../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md), [Fallback font](../programming-terms/text-for-digital-products-and-the-web/fallback-font.md), [Font coverage](../programming-terms/text-for-digital-products-and-the-web/font-coverage.md)
-* **East Asian setting:** [Full-width](../programming-terms/text-for-digital-products-and-the-web/full-width.md), [Tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)
+* **East Asian setting:** [Full-width](../programming-terms/text-in-software/full-width.md), [Tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)
 
 ## Further reading
 

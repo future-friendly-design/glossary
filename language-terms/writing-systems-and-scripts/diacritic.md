@@ -45,15 +45,15 @@ A diacritic is a kind of [mark](mark.md), it attaches to a [symbol](symbol.md) w
 
 Like all marks, when a diacritic is added to a symbol, the individual piece of text takes up more space. When working with digital text, [fonts](../../programming-terms/text-for-digital-products-and-the-web/font.md) supporting symbols with diacritic marks may require larger [line height](../../design-terms/typography/line-height.md) values to avoid clipping.
 
-For software, there are known issues with the way accented text is stored. [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md), the standard that gives every [character](../../programming-terms/text-for-digital-products-and-the-web/character.md) (their term for a symbol) a unique number, describes accented text as being stored as a [precomposed character](../../programming-terms/text-for-digital-products-and-the-web/precomposed-character.md), or as the plain letter plus a separate [combining mark](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md).
+For software, there are known issues with the way accented text is stored. [Unicode](../../programming-terms/text-in-software/unicode.md), the standard that gives every [character](../../programming-terms/text-in-software/character.md) (their term for a symbol) a unique number, describes accented text as being stored as a [precomposed character](../../programming-terms/text-in-software/precomposed-character.md), or as the plain letter plus a separate [combining mark](../../programming-terms/text-in-software/combining-mark.md).
 
-So `café` can be stored two different ways that look identical on screen. Getting accented text to match and count correctly comes back to [normalization](../../programming-terms/text-for-digital-products-and-the-web/normalization.md), where the computer rewrites the text into one standard form.<sup>2</sup>
+So `café` can be stored two different ways that look identical on screen. Getting accented text to match and count correctly comes back to [normalization](../../programming-terms/text-in-software/normalization.md), where the computer rewrites the text into one standard form.<sup>2</sup>
 
 ***
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-for-digital-products-and-the-web/character.md) · [Combining mark](../../programming-terms/text-for-digital-products-and-the-web/combining-mark.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Normalization](../../programming-terms/text-for-digital-products-and-the-web/normalization.md) · [Precomposed character](../../programming-terms/text-for-digital-products-and-the-web/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md) · [Writing systems & scripts](./)
+[Character](../../programming-terms/text-in-software/character.md) · [Combining mark](../../programming-terms/text-in-software/combining-mark.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Normalization](../../programming-terms/text-in-software/normalization.md) · [Precomposed character](../../programming-terms/text-in-software/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

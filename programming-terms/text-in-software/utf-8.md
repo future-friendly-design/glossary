@@ -2,23 +2,31 @@
 term: UTF-8
 slug: utf-8
 aliases: []
-tags: [characters-encoding]
 level: foundational
 depth: core
-summary: UTF-8 is the most common way to store Unicode text, using one to four bytes per character.
-related: [utf-16, character-encoding, unicode, code-point]
+summary: >-
+  UTF-8 is the most common way to store Unicode text, using one to four bytes
+  per character.
+related:
+  - utf-16
+  - character-encoding
+  - unicode
+  - code-point
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Encoding Standard (WHATWG)"
+  - title: Encoding Standard (WHATWG)
     url: https://encoding.spec.whatwg.org/
     type: code
-  - title: "UTF-8 Encoding Form (Unicode Glossary)"
+  - title: UTF-8 Encoding Form (Unicode Glossary)
     url: https://www.unicode.org/glossary/#utf_8_encoding_form
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # UTF-8
@@ -33,13 +41,13 @@ UTF-8 is variable-width: a character takes as many bytes as it needs. The first 
 
 The part worth knowing as a designer is what that variable width costs, because the cost is not distributed evenly across the world's writing systems. Unicode spells it out: many non-ideographic scripts take two bytes per code point, everything from U+0800 to U+FFFF takes three, and anything above U+FFFF takes four.<sup>4</sup> English text is close to one byte per character. The same sentence in Greek or Cyrillic is roughly double that, and in Devanagari, Thai, or Han characters roughly triple.
 
-That has consequences that surface in unglamorous places. A database column defined as 20 *bytes* holds 20 English characters and perhaps 6 Devanagari ones, so a field that comfortably fits your team's names silently truncates a user's. Payload sizes, search index sizes, and any limit expressed in bytes rather than characters all shift depending on the script. When you specify a limit, specify the unit, and check what your database is actually counting.
+That has consequences that surface in unglamorous places. A database column defined as 20 _bytes_ holds 20 English characters and perhaps 6 Devanagari ones, so a field that comfortably fits your team's names silently truncates a user's. Payload sizes, search index sizes, and any limit expressed in bytes rather than characters all shift depending on the script. When you specify a limit, specify the unit, and check what your database is actually counting.
 
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Code unit](code-unit.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [Text in software](../text-in-software/)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [Text in software](./)
 
 ### Further reading
 

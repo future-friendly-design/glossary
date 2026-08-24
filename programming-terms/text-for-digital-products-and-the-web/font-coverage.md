@@ -54,7 +54,7 @@ Assuming "the font has the code points" means "the font supports the language." 
 
 ## Related terms
 
-[Fallback font](fallback-font.md) · [Font subsetting](font-subsetting.md) · [Full-width](full-width.md) · [x-height](../../design-terms/typography/x-height.md)
+[Fallback font](fallback-font.md) · [Font subsetting](font-subsetting.md) · [Full-width](../text-in-software/full-width.md) · [x-height](../../design-terms/typography/x-height.md)
 
 ## Further reading
 

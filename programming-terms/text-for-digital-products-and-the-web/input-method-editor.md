@@ -48,11 +48,11 @@ Running per-keystroke logic (validation, live search, autocomplete, submit-on-En
 
 * **Respect composition events:** on the web, listen for `compositionstart` and `compositionend` and hold keystroke-driven logic until composition finishes, instead of reacting to every `keydown` or `input`. See [Input method editor (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Input_method_editor).
 * **Test with a real IME:** include CJK input in QA for any search box, tag field, or inline editor, because the bug only appears with an active IME.
-* **One keystroke is not one character:** counting, validating, or truncating mid-composition needs the same grapheme and [segmentation](segmentation.md) awareness as the rest of text handling.
+* **One keystroke is not one character:** counting, validating, or truncating mid-composition needs the same grapheme and [segmentation](../text-in-software/segmentation.md) awareness as the rest of text handling.
 
 ## Related terms
 
-[Internationalization](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Segmentation](segmentation.md)
+[Internationalization](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Segmentation](../text-in-software/segmentation.md)
 
 ## Further reading
 

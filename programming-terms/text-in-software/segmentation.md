@@ -54,7 +54,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### In practice
 
-* **Use a Unicode-aware segmenter:** in JavaScript, `Intl.Segmenter` with `granularity: "word"` (or `"sentence"`, `"grapheme"`) follows UAX #29; server-side, [ICU](icu.md) provides the same, including dictionary-based word breaking for Thai and CJK. See [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter).
+* **Use a Unicode-aware segmenter:** in JavaScript, `Intl.Segmenter` with `granularity: "word"` (or `"sentence"`, `"grapheme"`) follows UAX #29; server-side, [ICU](../text-for-digital-products-and-the-web/icu.md) provides the same, including dictionary-based word breaking for Thai and CJK. See [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter).
 * **Match the unit to the task:** count and truncate by grapheme cluster for "characters," segment by word for word counts and search, by sentence for snippets. Each is a different boundary.
 * **Languages:** word segmentation quality is language-specific; confirm space-less scripts with the language experts and test with real content.
 
@@ -62,7 +62,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### Related terms and mentions
 
-[CLDR](cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](icu.md) · [Internationalization](internationalization.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
+[CLDR](../text-for-digital-products-and-the-web/cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](../text-for-digital-products-and-the-web/icu.md) · [Internationalization](../text-for-digital-products-and-the-web/internationalization.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
 
 ### Further reading
 

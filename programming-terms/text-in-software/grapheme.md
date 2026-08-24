@@ -2,20 +2,28 @@
 term: Grapheme
 slug: grapheme
 aliases: []
-tags: [characters-encoding]
 level: intermediate
 depth: core
-summary: A grapheme is a minimally distinctive unit of writing within a particular writing system.
-related: [grapheme-cluster, glyph, character, code-point]
+summary: >-
+  A grapheme is a minimally distinctive unit of writing within a particular
+  writing system.
+related:
+  - grapheme-cluster
+  - glyph
+  - character
+  - code-point
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Grapheme (Unicode Glossary)"
+  - title: Grapheme (Unicode Glossary)
     url: https://www.unicode.org/glossary/#grapheme
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # Grapheme
@@ -34,13 +42,13 @@ That is the whole reason this term is worth keeping separate from the encoding v
 
 For a design system, the practical form of this is that "how many characters is this?" has more than one correct answer, and the one your readers use is the writing system's, not your database's. When a person from a language community tells you their name is five letters long, they are counting graphemes. When your validation says it is seven, it is counting characters. Neither is wrong, and the gap between them is where names get truncated, rejected, or mangled. The unit that gets closest to the reader's count in software is the [grapheme cluster](grapheme-cluster.md), which is what to reach for when a limit or a cursor has to behave the way a person expects.
 
-Keep grapheme, [glyph](glyph.md), and [code point](code-point.md) distinct and most of the confusion dissolves: the grapheme is the unit of writing, the glyph is a drawn shape, and the code point is a stored number.
+Keep grapheme, [glyph](../text-for-digital-products-and-the-web/glyph.md), and [code point](code-point.md) distinct and most of the confusion dissolves: the grapheme is the unit of writing, the glyph is a drawn shape, and the code point is a stored number.
 
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Glyph](glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Phoneme](../../language-terms/linguistics/phoneme.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](../text-in-software/)
+[Character](character.md) · [Code point](code-point.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Phoneme](../../language-terms/linguistics/phoneme.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
 
 ### Further reading
 

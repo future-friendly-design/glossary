@@ -49,7 +49,7 @@ For example, a line like `مرحبا iPhone 2026` mixes an Arabic greeting (righ
 
 Scripts like [Arabic](arabic-script.md) and [Hebrew](hebrew-script.md) run right to left, but numbers and embedded [Latin-script](latin-script.md) text run left to right. So the order the characters are stored in, called the logical order, is not the order they are displayed in, called the visual order.
 
-A computer cannot guess that order. [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md), the standard that gives every character a unique number, has a Bidirectional Algorithm that considers each character's direction property and the base direction of the line to resolve neutral characters like spaces and punctuation that sit between text of opposite directions.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
+A computer cannot guess that order. [Unicode](../../programming-terms/text-in-software/unicode.md), the standard that gives every character a unique number, has a Bidirectional Algorithm that considers each character's direction property and the base direction of the line to resolve neutral characters like spaces and punctuation that sit between text of opposite directions.<sup>1</sup> Setting that base direction correctly is what keeps mixed text from coming out scrambled.
 
 Bidirectional text is a property of your content, not a mode you switch on. The moment a right-to-left interface shows a Latin-script brand name, a username, a URL, or a price, a single line of text carries both directions, and that turns up in real data whether or not anyone planned for it.
 
@@ -77,7 +77,7 @@ Assuming that marking the block right to left is enough, and the algorithm will 
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Character](../../programming-terms/text-for-digital-products-and-the-web/character.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

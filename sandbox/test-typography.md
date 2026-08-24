@@ -108,7 +108,7 @@ Font coverage is the set of characters and languages a font can actually render.
 
 ## East Asian setting
 
-[**Full-width**](../programming-terms/text-for-digital-products-and-the-web/full-width.md)
+[**Full-width**](../programming-terms/text-in-software/full-width.md)
 
 Full-width characters occupy one full em square, the same width as a typical CJK character, unlike narrower half-width forms.
 

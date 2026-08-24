@@ -1,31 +1,40 @@
 ---
 term: Surrogate pair
 slug: surrogate-pair
-aliases: [surrogates]
-tags: [characters-encoding]
+aliases:
+  - surrogates
 level: advanced
 depth: core
-summary: A surrogate pair is two UTF-16 code units used together to represent a character beyond the Basic Multilingual Plane.
-related: [utf-16, plane-bmp, code-point]
+summary: >-
+  A surrogate pair is two UTF-16 code units used together to represent a
+  character beyond the Basic Multilingual Plane.
+related:
+  - utf-16
+  - plane-bmp
+  - code-point
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "String: length (MDN)"
-    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length
+  - title: 'String: length (MDN)'
+    url: >-
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length
     type: code
-  - title: "Surrogate Pair (Unicode Glossary)"
+  - title: Surrogate Pair (Unicode Glossary)
     url: https://www.unicode.org/glossary/#surrogate_pair
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # Surrogate pair
 
 ## Definition
 
-A surrogate pair is two [UTF-16](utf-16.md) [code units](code-unit.md) used together to represent a character beyond the Basic Multilingual Plane.<sup>1</sup>
+A surrogate pair is two [UTF-16](utf-16.md) [code units](../text-for-digital-products-and-the-web/code-unit.md) used together to represent a character beyond the Basic Multilingual Plane.<sup>1</sup>
 
 ### Why it matters in design systems
 
@@ -41,7 +50,7 @@ This is not an emoji edge case, though emoji are where teams usually meet it. Th
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Code unit](code-unit.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Text in software](../text-in-software/)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Text in software](./)
 
 ### Further reading
 

@@ -38,7 +38,7 @@ Decisions about language support are only as trustworthy as the data behind them
 A guided tour of the reference sources in this glossary, grouped by what they answer:
 
 * **Language catalogues:** [Ethnologue](../language-terms/linguistics/ethnologue.md), [Glottolog](../language-terms/linguistics/glottolog.md), [UNESCO Atlas of the World's Languages in Danger](../language-terms/linguistics/unesco-atlas-of-the-worlds-languages-in-danger.md)
-* **The character standard:** [Unicode Standard](../programming-terms/text-for-digital-products-and-the-web/unicode-standard.md)
+* **The character standard:** [Unicode Standard](../programming-terms/text-in-software/unicode-standard.md)
 * **Multilingual font projects:** [Noto fonts](../design-terms/typography/noto-fonts.md), [SIL](../design-terms/typography/sil.md)
 
 ## Further reading

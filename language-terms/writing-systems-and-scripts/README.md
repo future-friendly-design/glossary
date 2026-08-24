@@ -58,8 +58,8 @@ A script consists of the visual symbols and marks used to write a language, plus
 
 A symbol is an individual visual element that makes up a script. Scripts have different names for their symbols. For example, in a script classified as an alphabet, the symbols that represent vowels and consonants are called letters.
 
-* [Grapheme](../../programming-terms/text-for-digital-products-and-the-web/grapheme.md)
-* [Grapheme cluster](../../programming-terms/text-for-digital-products-and-the-web/grapheme-cluster.md)
+* [Grapheme](../../programming-terms/text-in-software/grapheme.md)
+* [Grapheme cluster](../../programming-terms/text-in-software/grapheme-cluster.md)
 * [Symbol](symbol.md)
 
 #### Mark terms
@@ -74,7 +74,7 @@ A mark is a kind of [symbol](symbol.md) that modifies or accompanies another sym
 * [Tone mark](tone-mark.md)
 * [Virama](virama.md)
 
-One of these shares the word but not the sense. A [punctuation mark](punctuation-mark.md) stands alone instead of modifying another symbol, so [Unicode](../../programming-terms/text-for-digital-products-and-the-web/unicode.md) files it under punctuation, not marks. It is listed here because it carries the word "mark", not because it works like one.
+One of these shares the word but not the sense. A [punctuation mark](punctuation-mark.md) stands alone instead of modifying another symbol, so [Unicode](../../programming-terms/text-in-software/unicode.md) files it under punctuation, not marks. It is listed here because it carries the word "mark", not because it works like one.
 
 #### Script rules and features
 

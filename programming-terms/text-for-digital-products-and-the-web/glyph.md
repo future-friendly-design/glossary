@@ -2,27 +2,33 @@
 term: Glyph
 slug: glyph
 aliases: []
-tags: [characters-encoding]
 level: foundational
 depth: core
 summary: A glyph is the specific visual shape a font draws for a character.
-related: [character, font, code-point, ligature]
+related:
+  - character
+  - font
+  - code-point
+  - ligature
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Glyph (Unicode Glossary)"
+  - title: Glyph (Unicode Glossary)
     url: https://www.unicode.org/glossary/#glyph
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # Glyph
 
 ## Definition
 
-A glyph is the specific visual shape a [font](font.md) draws for a [character](character.md).<sup>1</sup>
+A glyph is the specific visual shape a [font](font.md) draws for a [character](../text-in-software/character.md).<sup>1</sup>
 
 For example, the character `a` is one unit of text, but its glyph looks quite different in a serif typeface, one with small finishing strokes, than in a sans-serif, one without them.
 
@@ -38,7 +44,7 @@ For a design system, that has a practical consequence worth internalizing: count
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](character.md) · [Code point](code-point.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Ligature](ligature.md) · [Text shaping](text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Typeface](../../design-terms/typography/typeface.md) · [Unicode](unicode.md) · [Fonts](../../design-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Code point](../text-in-software/code-point.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Ligature](ligature.md) · [Text shaping](text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Typeface](../../design-terms/typography/typeface.md) · [Unicode](../text-in-software/unicode.md) · [Fonts](../../design-terms/fonts/)
 
 ### Further reading
 
