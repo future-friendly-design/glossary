@@ -6,9 +6,7 @@ aliases:
   - charset
 level: foundational
 depth: deep
-summary: >-
-  A character encoding is the rule for turning characters into bytes and back
-  again.
+summary: A character encoding is the agreed way of turning characters into numbers a computer can store, and back again.
 related:
   - utf-8
   - utf-16
@@ -35,33 +33,43 @@ tags:
 
 ## Definition
 
-A character encoding is the rule for turning characters into bytes and back again.<sup>1</sup>
+A character encoding is the agreed way of turning characters into numbers a computer can store, and back again.<sup>1</sup>
 
 ### Why it matters in design systems
 
-Software does not store characters, it stores bytes. A [character](character.md) is an abstract unit of text, and its [code point](code-point.md) is the number Unicode gives it, but neither of those can go into a file as it is. A character encoding is the rulebook for turning those numbers into bytes and back again, and the same rulebook has to be used at both ends: once when the text is saved, and again when it is opened.
+A computer can only store numbers. Not letters, not shapes, only numbers. So to save the word "cat", something has to turn `c`, `a`, and `t` into numbers, and turn those numbers back into letters when the file is opened again.
 
-This is the part that usually gets skipped, and the W3C is explicit that the two ideas have to be kept apart.<sup>2</sup> [Unicode](unicode.md) and the encoding do different jobs. Unicode is the list: it decides which characters exist and gives each one a number.<sup>3</sup> The encoding is the storage rule: it decides how those numbers are written as data.<sup>4</sup> So [UTF-8](utf-8.md) is not an alternative to Unicode. It is one of Unicode's own encodings, which is why it can store any character Unicode has assigned.<sup>5</sup>
+For that to work, both ends have to agree on which number means which character. If the software that saves the text uses one list and the software that opens it uses a different list, the numbers get looked up in the wrong place and the wrong characters come out. The text is not damaged. It is being misread.
 
-Older encodings work differently, and that is where most text corruption comes from. Latin-1 and Shift-JIS were built before Unicode, and each covers only a limited set of characters. You cannot mix them on one page or in one database, which the W3C describes as making multilingual pages very difficult to support, and which is the problem Unicode's single character set was created to solve.<sup>6</sup>
+Early agreements did both jobs at once: they listed the characters and set the numbers. Each had room for about 256 characters, which covered English and some European languages, and left no room for Devanagari, Chinese, or Amharic, because the people who built them were not designing for those languages. Mixing two of them in one page or one database is not possible, which is what made supporting more than a few languages so difficult.<sup>2</sup>
 
-When text is saved under one rulebook and opened under another, it does not just look slightly wrong. Each byte gets read as a character it was never meant to be. Save `é` as UTF-8 and it is stored as two bytes. Read those same two bytes as Latin-1 and you get two separate characters, `Ã` and `©`. The name for this failure is mojibake: garbled characters caused by using the wrong character encoding to interpret the bytes in a string or file.<sup>7</sup>
+[Unicode](unicode.md) split that job in two. Unicode now owns the list, giving every character in every writing system its own number, called a [code point](code-point.md).<sup>3</sup> The encoding owns the second half: the rule for writing those numbers into a file.<sup>4</sup>
+
+That is why [UTF-8](utf-8.md) is not an alternative to Unicode. UTF-8 is one of Unicode's own encodings, and it can store every character Unicode has ever assigned, using between one and four numbers per character.<sup>5</sup> Latin-1 is one of the old small lists, still sitting in older files and databases. Here is the same text under each:
+
+| Character | Unicode's number | Stored by UTF-8 as | Stored by Latin-1 as |
+|---|---|---|---|
+| `A` | 65 | `41` | `41` |
+| `é` | 233 | `C3 A9` | `E9` |
+| `न` | 2344 | `E0 A4 A8` | cannot store it at all |
+
+Two things fall out of that table. Text written by one encoding and read by the other comes out wrong: save `é` as UTF-8 and it is stored as `C3 A9`, but Latin-1 reads each number as a whole character, so you get `Ã` and `©` instead. That failure has a name, mojibake.<sup>6</sup> And Latin-1 simply has no number for `न`, so a product using it cannot store that person's name at all. Not truncated, not garbled. Impossible.
 
 ### Common mistake
 
-Not declaring the encoding, and trusting the default to be right. The classic version is text saved as UTF-8 and read back as something else, or the reverse. It survives an entire test cycle unnoticed, because English text is identical in most encodings. It shows up the first time someone enters an accented name, a curly quotation mark, an emoji, or any script other than Latin. By then the broken text is usually already saved, so fixing it means repairing data, not just changing code.
+Not saying which encoding you are using, and trusting the default to be right. The classic version is text saved as UTF-8 and read back as something else, or the reverse. It survives a whole test cycle unnoticed, because English text looks identical under almost every encoding. It appears the first time somebody enters an accented name, a curly quotation mark, an emoji, or any script other than Latin. By then the broken text is usually already saved, so fixing it means repairing data rather than changing code.
 
 ### In practice
 
-* **Use UTF-8 everywhere, and say so:** the WHATWG Encoding Standard requires that new formats and protocols, and existing ones used in new contexts, use UTF-8 exclusively.<sup>8</sup> Declare it rather than relying on a default: `<meta charset="utf-8">` in your pages, `charset=utf-8` in the HTTP `Content-Type` header, and UTF-8 for database tables, columns, and saved files.
-* **Every step has to agree:** editor, version control, database, API, and file. One mismatched step corrupts the text for everything after it, and the step that breaks it is rarely the one where anybody notices.
-* **Test with text you cannot read:** put a name in a script your team does not use into every form, save it, load it back, and look at it. Testing in English cannot find an encoding problem, which is exactly why these reach production.
+* **Use UTF-8 everywhere, and declare it:** the WHATWG Encoding Standard requires that new formats and protocols, and existing ones used in new contexts, use UTF-8 exclusively.<sup>7</sup> Say so explicitly rather than relying on a default: `<meta charset="utf-8">` in your pages, `charset=utf-8` in the HTTP `Content-Type` header, and UTF-8 for database tables, columns, and saved files.
+* **Every step has to agree:** editor, version control, database, API, and file. One mismatched step corrupts the text for everything downstream of it, and the step that breaks it is rarely the one where anyone notices.
+* **Test with text you cannot read:** put a name in a script your team does not use into every form, save it, load it back, and look at it. Testing in English cannot find an encoding problem, which is exactly why these reach real users.
 
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Normalization](normalization.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Text in software](./)
+[Character](character.md) · [Code point](code-point.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Normalization](normalization.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
 
 ### Further reading
 
@@ -71,10 +79,9 @@ Not declaring the encoding, and trusting the default to be right. The classic ve
 ### Sources
 
 1. "The character encoding reflects the way the coded character set is mapped to bytes for manipulation in a computer" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
-2. "It is important to clearly distinguish between the concepts of a character set versus a character encoding" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
+2. "it is usually impossible to combine different encodings on the same Web page or in a database, so it is usually very difficult to support multilingual pages using 'legacy' approaches to encoding" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
 3. "A coded character set is a set of characters for which a unique number has been assigned to each character" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
 4. "Mapping from a character set definition to the actual code units used to represent the data" - Unicode Glossary: Character Encoding Form [https://www.unicode.org/glossary/#character\_encoding\_form](https://www.unicode.org/glossary/#character_encoding_form)
 5. "The Unicode encoding form that assigns each Unicode scalar value to an unsigned byte sequence of one to four bytes in length" - Unicode Glossary: UTF-8 Encoding Form [https://www.unicode.org/glossary/#utf\_8\_encoding\_form](https://www.unicode.org/glossary/#utf_8_encoding_form)
-6. "it is usually impossible to combine different encodings on the same Web page or in a database, so it is usually very difficult to support multilingual pages using 'legacy' approaches to encoding. The Unicode Consortium provides a large, single character set that aims to include all the characters needed for any writing system in the world" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
-7. "Garbled or incorrectly rendered or processed characters, generally caused by using the wrong character encoding to interpret the bytes in a string or file" - Internationalization Glossary, W3C Group Note: Mojibake [https://www.w3.org/TR/i18n-glossary/](https://www.w3.org/TR/i18n-glossary/)
-8. "New protocols and formats, as well as existing formats deployed in new contexts, must use the UTF-8 encoding exclusively" - Encoding Standard, WHATWG, Names and labels [https://encoding.spec.whatwg.org/#names-and-labels](https://encoding.spec.whatwg.org/#names-and-labels)
+6. "Garbled or incorrectly rendered or processed characters, generally caused by using the wrong character encoding to interpret the bytes in a string or file" - Internationalization Glossary, W3C Group Note: Mojibake [https://www.w3.org/TR/i18n-glossary/](https://www.w3.org/TR/i18n-glossary/)
+7. "New protocols and formats, as well as existing formats deployed in new contexts, must use the UTF-8 encoding exclusively" - Encoding Standard, WHATWG, Names and labels [https://encoding.spec.whatwg.org/#names-and-labels](https://encoding.spec.whatwg.org/#names-and-labels)
