@@ -39,7 +39,7 @@ A character encoding is the rule for turning characters into bytes and back agai
 
 ### Why it matters in design systems
 
-A [character](character.md) is an idea, and its [code point](code-point.md) is the number Unicode gives it. Neither of those is something a computer can put in a file. Files hold bytes. A character encoding is the rulebook for turning those numbers into bytes and back again, and the same rulebook has to be used at both ends: once when the text is saved, and again when it is opened.
+Software does not store characters, it stores bytes. A [character](character.md) is an abstract unit of text, and its [code point](code-point.md) is the number Unicode gives it, but neither of those can go into a file as it is. A character encoding is the rulebook for turning those numbers into bytes and back again, and the same rulebook has to be used at both ends: once when the text is saved, and again when it is opened.
 
 This is the part that usually gets skipped, and the W3C is explicit that the two ideas have to be kept apart.<sup>2</sup> [Unicode](unicode.md) and the encoding do different jobs. Unicode is the list: it decides which characters exist and gives each one a number.<sup>3</sup> The encoding is the storage rule: it decides how those numbers are written as data.<sup>4</sup> So [UTF-8](utf-8.md) is not an alternative to Unicode. It is one of Unicode's own encodings, which is why it can store any character Unicode has assigned.<sup>5</sup>
 
