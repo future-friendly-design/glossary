@@ -38,7 +38,7 @@ Reordering is when a shaping engine changes the display order of characters rela
 
 ### Why it matters in design systems
 
-In several Indic and Brahmic scripts, the logical (typed) order of a vowel mark or a special consonant differs from its visual position, so the shaper has to move it during layout.<sup>1</sup> The classic cases are a left-side [matra](../../language-terms/writing-systems-and-scripts/matra.md) that displays before its consonant and a [reph](../../language-terms/writing-systems-and-scripts/reph.md) that jumps to the top of a cluster.
+In several Indic and Brahmic scripts, the logical (typed) order of a vowel mark or a special consonant differs from its visual position, so the shaper has to move it during layout.<sup>1</sup> The classic cases are a left-side [matra](../../language-terms/writing-systems-and-scripts/matra.md) that displays before its consonant and a [reph](../../language-terms/writing-systems-and-scripts/reph.md) that jumps to the top of a cluster.<sup>2</sup>
 
 This is distinct from bidi reordering, which flips whole runs for right-to-left text; reordering rearranges characters within a single syllable.
 
@@ -50,7 +50,7 @@ A [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) l
 
 ### Common mistake
 
-Assuming the order characters are stored in is the order they appear on screen. Within a reordering script it is not, so logic that walks a string by index, truncates it, or positions a cursor by counting from the start can land between characters that belong together and produce nonsense. Treat "where a character displays" as something the shaper decides, not something you can compute from the byte order.
+Assuming the order characters are stored in is the order they appear on screen. Within a reordering script it is not, so logic that walks a string by index, truncates it, or positions a cursor by counting from the start can land between characters that belong together and produce nonsense. Treat "where a character displays" as something the shaper decides, not something you can compute from the stored order.
 
 ### In practice
 
@@ -62,7 +62,7 @@ Assuming the order characters are stored in is the order they appear on screen. 
 
 ### Related terms and mentions
 
-[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Complex text layout](complex-text-layout.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Grapheme cluster](../text-in-software/grapheme-cluster.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../../language-terms/writing-systems-and-scripts/reph.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/)
+[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Grapheme cluster](../text-in-software/grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Reph](../../language-terms/writing-systems-and-scripts/reph.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Segmentation](../text-in-software/segmentation.md) · [Shaping engine](shaping-engine.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text shaping](text-shaping.md) · [Text shaping & layout](../text-shaping-and-layout/)
 
 ### Further reading
 
@@ -70,4 +70,5 @@ Assuming the order characters are stored in is the order they appear on screen. 
 
 ### Sources
 
-1. The Indic shaping engine reorders characters within a syllable cluster, for example moving a pre-base matra or a reph into its display position, after analysing the cluster - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
+1. "Because Devanagari and other Indic scripts have some dependent vowels that must be depicted to the left side of their consonant letter, the software that renders the Indic scripts must be able to reorder elements in mapping from the logical (character) store to the presentational (glyph) rendering" - The Unicode Standard, Version 18.0, Chapter 12: South and Central Asia-I [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-12/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-12/)
+2. "Reph - The above-base form of the letter "Ra" that is used in Devanagari when "Ra" is the first consonant in the syllable and is not the base consonant" - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
