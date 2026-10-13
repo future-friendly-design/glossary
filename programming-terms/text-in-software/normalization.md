@@ -41,7 +41,7 @@ Normalization rewrites text into one consistent form, so that two pieces of text
 
 The same visible text can be stored in more than one way. `é` can be a single character with the accent already built in, or the plain letter `e` followed by a separate accent character. A reader cannot tell the two apart. Software comparing them piece by piece can, and reports that they do not match.
 
-Normalization is the repair: rewrite both into whichever form you have chosen, and only then compare. [Unicode](unicode.md) defines four such forms in UAX #15.<sup>2</sup> NFC composes sequences into [precomposed characters](precomposed-character.md) where possible, while NFD decomposes them into a base plus [combining marks](combining-mark.md); the compatibility forms NFKC and NFKD additionally fold formatting variants together, such as a [ligature](../text-for-digital-products-and-the-web/ligature.md) back into its separate letters, or a [full-width](full-width.md) form into an ordinary one. Normalization also fixes the order of combining marks, so a base carrying two marks matches whichever mark was typed first. Without it, text that looks identical can fail to match.
+Normalization is the repair: rewrite both into whichever form you have chosen, and only then compare. [Unicode](unicode.md) defines four such forms in UAX #15.<sup>2</sup> NFC usually composes sequences into [precomposed characters](precomposed-character.md), while NFD decomposes them into a base plus [combining marks](combining-mark.md); the compatibility forms NFKC and NFKD additionally fold formatting variants together, such as a [ligature](../text-for-digital-products-and-the-web/ligature.md) back into its separate letters, or a [full-width](full-width.md) form into an ordinary one. Normalization also puts combining marks into a fixed order when their order makes no visible difference, such as one mark above the base and one below, so the text matches whichever mark was typed first.<sup>3</sup> Without it, text that looks identical can fail to match.
 
 ### Example
 
@@ -53,15 +53,15 @@ Comparing, searching, or deduplicating user text without normalizing first. Two 
 
 ### In practice
 
-* **Normalize at the boundary:** pick a form (NFC is the common choice for storage, since it is compact and matches most keyboard input) and normalize text as it enters your system, so everything downstream compares consistently. In JavaScript that is `String.prototype.normalize()`. See [String.prototype.normalize() (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize).
-* **Compatibility forms (NFKC/NFKD) are stronger and lossy:** they fold variants like [full-width](full-width.md) forms and ligatures together, which is useful for search and matching but wrong for storage where you must preserve the exact input. Choose deliberately per use.
+* **Normalize at the boundary:** pick a form (NFC is the common choice for storage)<sup>4</sup> and normalize text as it enters your system, so everything downstream compares consistently. In JavaScript that is `String.prototype.normalize()`. See [String.prototype.normalize() (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize).
+* **Compatibility forms (NFKC/NFKD) are stronger and lossy:** they fold variants like [full-width](full-width.md) forms and ligatures together, which is useful for search and matching but wrong for storage where you must preserve the exact input.<sup>5</sup> Choose deliberately per use.
 * **Consistency across the stack:** the front end, back end, and database should agree on one normalization form, or a value stored one way will not match the same value queried another way.
 
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Combining mark](combining-mark.md) · [Full-width](full-width.md) · [Grapheme cluster](grapheme-cluster.md) · [Ligature](../text-for-digital-products-and-the-web/ligature.md) · [Precomposed character](precomposed-character.md) · [Unicode](unicode.md) · [Text in software](./)
+[Character](character.md) · [Combining mark](combining-mark.md) · [Full-width](full-width.md) · [Grapheme cluster](grapheme-cluster.md) · [Ligature](../text-for-digital-products-and-the-web/ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Precomposed character](precomposed-character.md) · [Unicode](unicode.md) · [Text in software](./)
 
 ### Further reading
 
@@ -71,4 +71,7 @@ Comparing, searching, or deduplicating user text without normalizing first. Two 
 ### Sources
 
 1. "A process of removing alternate representations of equivalent sequences from textual data, to convert the data into a form that can be binary-compared for equivalence" - Unicode Glossary: Normalization [https://www.unicode.org/glossary/#normalization](https://www.unicode.org/glossary/#normalization)
-2. "Unicode Normalization Forms are formally defined normalizations of Unicode strings which make it possible to determine whether any two Unicode strings are equivalent to each other" - Unicode Standard Annex #15: Unicode Normalization Forms [https://www.unicode.org/reports/tr15/](https://www.unicode.org/reports/tr15/)
+2. "The four Unicode Normalization Forms are summarized in Table 1" - Unicode Standard Annex #15: Unicode Normalization Forms, section 1.2 [https://www.unicode.org/reports/tr15/#Norm\_Forms](https://www.unicode.org/reports/tr15/#Norm_Forms)
+3. "A key part of normalization is to provide a unique canonical order for visually nondistinct sequences of combining characters" - The Unicode Standard, Core Specification, Chapter 2 [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-2/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-2/)
+4. "Content authors SHOULD use Unicode Normalization Form C (NFC) wherever possible for content. Note that NFC is not always appropriate to the content or even available to content authors in some languages" - Character Model for the World Wide Web: String Matching, W3C [https://www.w3.org/TR/charmod-norm/](https://www.w3.org/TR/charmod-norm/)
+5. "Normalization Forms KC and KD must not be blindly applied to arbitrary text. Because they erase many formatting distinctions, they will prevent round-trip conversion to and from many legacy character sets" - Unicode Standard Annex #15: Unicode Normalization Forms [https://www.unicode.org/reports/tr15/](https://www.unicode.org/reports/tr15/)
