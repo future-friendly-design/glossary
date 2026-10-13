@@ -34,7 +34,7 @@ For example, the character `a` is one unit of text, but its glyph looks quite di
 
 ### Why it matters in design systems
 
-This is the line between what text is and what text looks like. The character is the abstract unit a system stores; the glyph is one font's drawing of it. Swap the font and every glyph on the page changes while the text itself stays identical, which is why a font change can never fix a spelling and a spelling change can never fix a rendering problem.
+This is the line between what text is and what text looks like. The character is the abstract unit a system stores; the glyph is the shape one font holds for it. Swap the font and every glyph on the page changes while the text itself stays identical, which is why a font change can never fix a spelling and a spelling change can never fix a rendering problem.
 
 The mapping between the two is not one to one in either direction. Unicode states it plainly: a single glyph may correspond to one character or to several, and a single character may produce multiple glyphs.<sup>2</sup> The rendering engine is what chooses them, during layout.<sup>3</sup> Several characters collapsing into one glyph is what a [ligature](ligature.md) is. In the Arabic script a single letter is drawn with a different glyph depending on which letters sit beside it, the behaviour covered under [joining](../../language-terms/writing-systems-and-scripts/joining.md), so one character may correspond to four glyphs in the same font.<sup>4</sup>
 
