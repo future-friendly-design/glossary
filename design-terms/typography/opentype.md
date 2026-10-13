@@ -48,7 +48,7 @@ Here is what the format gives a font maker room for:
 | ------------------------------ | ---------------- |
 | Drawn shapes | The outlines of the glyphs, the shapes that appear on screen.<sup>4</sup> |
 | A list that matches characters to shapes | Text is stored as [characters](../../programming-terms/text-in-software/character.md), each saved as a number. The list says which shape to start with for each one.<sup>5</sup> |
-| Instructions for swapping shapes | Two letters drawn as one joined shape, or an Arabic letter changing form inside a word. This part of the file is called [GSUB](../../programming-terms/text-for-digital-products-and-the-web/gsub.md).<sup>6</sup> |
+| Instructions for swapping shapes | Two letters drawn as one combined shape, or an Arabic letter changing form inside a word. This part of the file is called [GSUB](../../programming-terms/text-for-digital-products-and-the-web/gsub.md).<sup>6</sup> |
 | Instructions for placing shapes | Setting a mark above a letter, or closing the gap between two letters. This part is called [GPOS](../../programming-terms/text-for-digital-products-and-the-web/gpos.md).<sup>7</sup> |
 | Several weights or widths in one file | A font built this way is called a [variable font](variable-font.md).<sup>8</sup> |
 
@@ -91,4 +91,4 @@ For your work, this changes the question to ask about a font. "Is it OpenType?" 
 11. "In all cases, the text-processing client is responsible for applying, combining, and arbitrating among features and rendering the result" - Feature Tags, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/featuretags](https://learn.microsoft.com/en-us/typography/opentype/spec/featuretags)
 12. "complete specification of shaping algorithms for different scripts is beyond the scope of this specification" - OpenType specification overview (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/overview](https://learn.microsoft.com/en-us/typography/opentype/spec/overview)
 13. "OpenType fonts should not have substitutions that attempt to perform the re-ordering" - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
-14. "This annex describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew" - Unicode Standard Annex #9: Unicode Bidirectional Algorithm [https://www.unicode.org/reports/tr9/](https://www.unicode.org/reports/tr9/)
+14. "This annex describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew" - Unicode Standard Annex #9: Unicode Bidirectional Algorithm, Revision 52 (Unicode 18.0.0) [https://www.unicode.org/reports/tr9/tr9-52.html](https://www.unicode.org/reports/tr9/tr9-52.html)

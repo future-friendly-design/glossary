@@ -19,7 +19,7 @@ contributors:
   - sam-gordashko
 further_reading:
   - title: "Generic font families: cursive (CSS Fonts Module Level 3, W3C)"
-    url: https://www.w3.org/TR/css-fonts-3/
+    url: https://www.w3.org/TR/css-fonts-3/#generic-font-families
     type: code
   - title: A guide to type styles (Monotype)
     url: https://www.monotype.com/resources/guide-type-styles
@@ -48,7 +48,7 @@ The trouble starts when the word is used with no noun after it. "Does the brand 
 | "A script typeface", "a script font", "set the headline in a script" | A style of typeface that imitates handwriting | Snell Roundhand, Zapfino, Mistral<sup>3</sup> |
 | "The Arabic script", "the font supports three scripts", "right-to-left scripts" | A set of symbols used to write languages | Latin, Arabic, Devanagari |
 
-The two meanings even meet inside one definition. The standard for fonts on the web has a category called `cursive` for handwriting-style fonts, and describes it like this (CSS is the code that styles web pages): "Glyphs in cursive fonts generally use a more informal script style", followed by "CSS uses the term ‘cursive’ to apply to a font for any script".<sup>4</sup> The first "script" is the handwriting style. The second is the writing system. (A glyph is a shape that a font holds for a character.) If the people who write the standard need both meanings within two sentences, a design team will too, so it pays to always say which one you mean.
+The two meanings even meet inside one definition. The standard for fonts on the web is part of CSS, the code that styles web pages. It has a category called `cursive` for handwriting-style fonts, and describes it like this: "Glyphs in cursive fonts generally use a more informal script style", followed by "CSS uses the term ‘cursive’ to apply to a font for any script".<sup>4</sup> The first "script" is the handwriting style. The second is the writing system. (A glyph is a shape that a font holds for a character.) If the people who write the standard need both meanings within two sentences, a design team will too, so it pays to always say which one you mean.
 
 There is a second thing to know, and it is about where the idea comes from. "Script typeface" is a category from Latin type. The type foundry guide that the definition above comes from presents its list as the most common Latin type styles.<sup>5</sup> In the Latin script, letters normally stand apart in print, and running them together is something handwriting does. So a typeface with connected letters looks handwritten, and "connected" becomes a clue to the style.
 
@@ -66,7 +66,7 @@ For your work, this comes down to naming and to not copying a decision across sc
 
 ### Further reading
 
-* Code & specs: [Generic font families: cursive (CSS Fonts Module Level 3, W3C)](https://www.w3.org/TR/css-fonts-3/)
+* Code & specs: [Generic font families: cursive (CSS Fonts Module Level 3, W3C)](https://www.w3.org/TR/css-fonts-3/#generic-font-families)
 * Foundations: [A guide to type styles (Monotype)](https://www.monotype.com/resources/guide-type-styles)
 
 ### Sources
@@ -74,7 +74,7 @@ For your work, this comes down to naming and to not copying a decision across sc
 1. "Scripts are based on handwriting styles, and can often be differentiated based on different tools, such as brushes, markers or pointed nibs" - A guide to type styles, Monotype [https://www.monotype.com/resources/guide-type-styles](https://www.monotype.com/resources/guide-type-styles)
 2. "The letters are often connected to each other and slanted, like in cursive writing. They can be very formal, based on classical penmanship, or very casual" - A guide to type styles, Monotype [https://www.monotype.com/resources/guide-type-styles](https://www.monotype.com/resources/guide-type-styles)
 3. "Examples: Bello, Bickham Script, FS Shepton, FS Sammy, Mistral, Snell Roundhand, Zapfino" - A guide to type styles, Monotype [https://www.monotype.com/resources/guide-type-styles](https://www.monotype.com/resources/guide-type-styles)
-4. "Glyphs in cursive fonts generally use a more informal script style, and the result looks more like handwritten pen or brush writing than printed letterwork. CSS uses the term ‘cursive’ to apply to a font for any script" - CSS Fonts Module Level 3, W3C Recommendation, 3.1.1 Generic font families [https://www.w3.org/TR/css-fonts-3/](https://www.w3.org/TR/css-fonts-3/)
+4. "Glyphs in cursive fonts generally use a more informal script style, and the result looks more like handwritten pen or brush writing than printed letterwork. CSS uses the term ‘cursive’ to apply to a font for any script" - CSS Fonts Module Level 3, W3C Recommendation, 3.1.1 Generic font families [https://www.w3.org/TR/css-fonts-3/#generic-font-families](https://www.w3.org/TR/css-fonts-3/#generic-font-families)
 5. "our guide looks to demystify some useful terminology to help you recognise the most common Latin type styles" - A guide to type styles, Monotype [https://www.monotype.com/resources/guide-type-styles](https://www.monotype.com/resources/guide-type-styles)
 6. "The Arabic script is cursive, even in its printed form" - The Unicode Standard, Version 18.0, Chapter 9: West Asia-I, Arabic [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-9/)
-7. "A major typeface, which provides calligraphic styles for Chinese text. It shows notable handwriting features. Kai is commonly used in official documents and textbooks" - CSS Fonts Module Level 4, W3C Working Draft, 2.1.5 Generic font families: generic(kai) [https://www.w3.org/TR/css-fonts-4/#generic-font-families](https://www.w3.org/TR/css-fonts-4/#generic-font-families)
+7. "A major typeface, which provides calligraphic styles for Chinese text. It shows notable handwriting features. Kai is commonly used in official documents and textbooks" - CSS Fonts Module Level 4, W3C Working Draft, 2.1.5 Generic font families: generic(kai) [https://www.w3.org/TR/css-fonts-4/#valdef-font-family-generic-kai](https://www.w3.org/TR/css-fonts-4/#valdef-font-family-generic-kai)
