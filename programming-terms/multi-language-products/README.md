@@ -13,7 +13,7 @@ You cannot cleanly localize a product whose text is baked into its screens, and 
 ### Why it matters
 
 Almost none of this is translation.
-A design system supporting several languages has to decide what a text style does when the same sentence arrives 40 percent longer, what a sort order means when the alphabet is not the one the code was written for, how a person types a language whose characters outnumber the keys on their keyboard, and which of a date, a number, a name order, and a currency are allowed to be assumptions.
+A design system supporting several languages has to decide what a text style does when the same label arrives three times as long, what a sort order means when the alphabet is not the one the code was written for, how a person types a language whose characters outnumber the keys on their keyboard, and which of a date, a number, a name order, and a currency are allowed to be assumptions.
 
 Those are design decisions with visible consequences, made long before a translator sees a string.
 

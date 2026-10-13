@@ -45,11 +45,11 @@ Reaching for tracking (or Figma's "Letter spacing") to fix one ugly gap. Trackin
 
 ## In practice
 
-For a design system, kerning is mostly a font-choice decision, not a per-component setting: pick families with well-built kerning tables and you inherit good spacing everywhere, no token required. Reserve manual kerning for display and brand assets (logos, large headlines) where the type is big enough that a gap shows. A quick check that anyone on the team can run: flip the text upside down, or blur your eyes until you stop reading words. Your brain switches from reading to seeing shapes, and uneven spacing pops out.
+For a design system, kerning is mostly a font-choice decision, not a per-component setting: pick families with well-built kerning tables and you inherit good spacing everywhere, no [token](../design-token.md) required. Reserve manual kerning for display and brand assets (logos, large headlines) where the type is big enough that a gap shows. A quick check that anyone on the team can run: flip the text upside down, or blur your eyes until you stop reading words. Your brain switches from reading to seeing shapes, and uneven spacing pops out.
 
 ## Related terms
 
-[Leading](leading.md) · [Tracking](tracking.md)
+[Design token](../design-token.md) · [Leading](leading.md) · [Tracking](tracking.md)
 
 ## Further reading
 

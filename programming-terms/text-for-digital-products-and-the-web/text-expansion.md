@@ -34,7 +34,7 @@ The name describes the most common case, not the only one. A translation can als
 
 ### Why it matters in design systems
 
-A button that says "Save" tends to be drawn just wide enough for the word "Save". So is a tab, a menu item, the heading of a column. Each one is a small bet that the text will always be about that long, and the bet is placed in whichever language the product was first written in.
+A button that says "Save" tends to be drawn just wide enough for the word "Save". So is a tab, a menu item, the heading of a column. Each of these fixed widths assumes that the text will stay about as long as it is in the language the product was first written in.
 
 Here is one short label from a real product, the word "views" shown under a photo, in seven languages:
 
@@ -87,7 +87,7 @@ Adding one fixed percentage to every component, usually a figure someone remembe
 ### In practice
 
 * **Let the component change size, and write down how.** For every component that holds text, say what happens when the text is longer: it wraps onto another line, or the box grows, or as a last choice the text is cut short. Avoid small fixed widths and tight fits.<sup>18</sup> Do not rescue a tight layout by abbreviating the words, because another language may not be able to shorten them the same way.<sup>19</sup>
-* **Keep type sizes and line heights where they can differ by script.** When font size and line height are held apart from the content, as design tokens are, they can be adjusted for a translation.<sup>20</sup> One line height shared by every script will be too tight for some of them, so plan for the value to vary.
+* **Keep type sizes and line heights where they can differ by script.** When font size and line height are held apart from the content, as [design tokens](../../design-terms/design-token.md) are, they can be adjusted for a translation.<sup>20</sup> One line height shared by every script will be too tight for some of them, so plan for the value to vary.
 * **Keep words out of pictures, and give icons with labels room to grow.** Text fitted snugly into a graphic has nowhere to go when it is translated.<sup>21</sup> The same is true of a label pinned at a fixed width beside an icon.
 
 Test all of this before real translations arrive. [Pseudolocalization](pseudolocalization.md), a technique that swaps in fake text made longer on purpose, shows which components break.<sup>22</sup> Then test again with real text in each script the product supports, because fake text built from Latin letters cannot show how much height another script needs.
@@ -96,7 +96,7 @@ Test all of this before real translations arrive. [Pseudolocalization](pseudoloc
 
 ### Related terms and mentions
 
-[Agglutinative language](../../language-terms/linguistics/agglutinative-language.md) · [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Full-width](../text-in-software/full-width.md) · [Internationalization](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Line height](../../design-terms/typography/line-height.md) · [Localization](localization.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Tibetan script](../../language-terms/writing-systems-and-scripts/tibetan-script.md) · [Multi-language products](../multi-language-products/)
+[Agglutinative language](../../language-terms/linguistics/agglutinative-language.md) · [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Full-width](../text-in-software/full-width.md) · [Internationalization](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Line height](../../design-terms/typography/line-height.md) · [Localization](localization.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Tibetan script](../../language-terms/writing-systems-and-scripts/tibetan-script.md) · [Multi-language products](../multi-language-products/)
 
 ### Further reading
 

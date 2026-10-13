@@ -61,7 +61,7 @@ Confusing it with kerning: letter spacing is uniform across the whole run, kerni
 
 ## In practice
 
-* **Tokens:** use `em` units (like `0.05em`) so the spacing scales with the font size, and bake the common values into your type styles (a small positive value on label and overline styles, none on body). Pixel values lock the spacing and break under scaling.
+* **[Tokens](../design-token.md):** use `em` units (like `0.05em`) so the spacing scales with the font size, and bake the common values into your type styles (a small positive value on label and overline styles, none on body). Pixel values lock the spacing and break under scaling.
 * **Accessibility:** WCAG 2.1 (Success Criterion 1.4.12, Text Spacing) expects content to stay usable when a reader sets letter spacing to at least 0.12 times the font size, so avoid layouts that clip or overflow when text spacing increases. See [Understanding 1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html). _(Verify exact value before publish.)_
 * **Languages:** letter spacing assumes letters that sit apart, like Latin. Applying a blanket value to connected or complex scripts can break them: Arabic letters that should join can come apart, and Indic conjuncts can be disrupted. Do not apply uniform letter spacing to multilingual text without testing. _(Flag for the language experts to confirm specifics.)_
 
@@ -69,7 +69,7 @@ In Figma the field is "Letter spacing," set in pixels or as a percentage of font
 
 ## Related terms
 
-[Kerning](kerning.md) · [Tracking](tracking.md)
+[Design token](../design-token.md) · [Kerning](kerning.md) · [Tracking](tracking.md)
 
 ## Further reading
 

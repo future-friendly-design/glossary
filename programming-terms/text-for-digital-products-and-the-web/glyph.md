@@ -4,7 +4,7 @@ slug: glyph
 aliases: []
 level: foundational
 depth: core
-summary: A glyph is the specific visual shape a font draws for a character.
+summary: A glyph is the specific visual shape a font holds for a character.
 related:
   - character
   - font
@@ -28,7 +28,7 @@ tags:
 
 ## Definition
 
-A glyph is the specific visual shape a [font](font.md) draws for a [character](../text-in-software/character.md).<sup>1</sup>
+A glyph is the specific visual shape a [font](font.md) holds for a [character](../text-in-software/character.md).<sup>1</sup>
 
 For example, the character `a` is one unit of text, but its glyph looks quite different in a serif typeface, one with small finishing strokes, than in a sans-serif, one without them.
 

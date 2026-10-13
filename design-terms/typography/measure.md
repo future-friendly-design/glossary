@@ -36,12 +36,12 @@ A body paragraph set to about 65 characters per line is easier to read than one 
 Letting body text run the full width of its container. On a large screen an unconstrained paragraph becomes a fatiguing 120-plus-character measure, even though nothing looks obviously broken. Text needs an explicit cap on its width; the container should not decide the measure for it.
 
 ## In practice
-- **Tokens and CSS:** cap line length with the `ch` unit (for example `max-width: 66ch`), which tracks the font's character width, or apply a max-width token to text containers. This keeps the measure in the readable range across screen sizes.
+- **[Tokens](../design-token.md) and CSS:** cap line length with the `ch` unit (for example `max-width: 66ch`), which tracks the font's character width, or apply a max-width token to text containers. This keeps the measure in the readable range across screen sizes.
 - **Leading interaction:** as the measure widens, increase [leading](leading.md) (line height) so the reader can track from the end of one line back to the start of the next. Wide measure with tight [line-height](line-height.md) is hard to read.
 - **Accessibility:** WCAG Success Criterion 1.4.8 (Visual Presentation, level AAA) calls for no more than 80 characters per line for blocks of text, which is a useful upper bound to design against. *(Confirm exact criterion wording before publish.)*
 
 ## Related terms
-[Leading](leading.md) · [Line height](line-height.md)
+[Design token](../design-token.md) · [Leading](leading.md) · [Line height](line-height.md)
 
 ## Further reading
 - Foundations: [Line length (Butterick's Practical Typography)](https://practicaltypography.com/line-length.html)

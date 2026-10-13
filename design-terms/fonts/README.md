@@ -20,7 +20,7 @@ The decisions this section supports are concrete: which families to adopt, which
 #### Example
 
 Set a page in a font drawn only for Latin, then render an Amharic name in it.
-The name does not render in a different style, it renders as empty boxes, or in whatever unrelated font the operating system finds first.
+The name does not render in the style you chose. It renders as empty boxes, or in whatever unrelated font the operating system finds first.
 Neither outcome is a type decision anyone made on purpose.
 
 ***
@@ -41,7 +41,7 @@ Three words used interchangeably in conversation that mean three different thing
 * [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md)
 * [Typeface](../typography/typeface.md)
 
-One more term shares the word "script" without sharing the meaning. A [script typeface](../typography/script-typeface.md) is a style of lettering that imitates handwriting; a [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write a language. A script typeface is almost always a Latin one.
+One more term shares the word "script" without sharing the meaning. A [script typeface](../typography/script-typeface.md) is a style of lettering that imitates handwriting; a [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write a language. The category comes from Latin type; other scripts have handwriting-based styles of their own.
 
 * [Script (typeface)](../typography/script-typeface.md)
 

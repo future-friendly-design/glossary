@@ -50,12 +50,12 @@ Using proportional figures in a table, so the columns of numbers do not line up 
 
 ## In practice
 
-* **Tokens and CSS:** set `font-variant-numeric: tabular-nums` for any data table, dashboard, or aligned number column, and `oldstyle-nums` for numbers in running prose. Bake these into the relevant type styles so the right figures come along automatically. See [font-variant-numeric (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric).
+* **[Tokens](../../design-terms/design-token.md) and CSS:** set `font-variant-numeric: tabular-nums` for any data table, dashboard, or aligned number column, and `oldstyle-nums` for numbers in running prose. Bake these into the relevant type styles so the right figures come along automatically. See [font-variant-numeric (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric).
 * **Font coverage:** the figures only exist if the font includes them, and some web fonts get subset down and lose the extra sets. Confirm the figures you need survived before relying on them.
 
 ## Related terms
 
-[Cap height](../../design-terms/typography/cap-height.md) · [Small caps](../../design-terms/typography/small-caps.md) · [x-height](../../design-terms/typography/x-height.md)
+[Cap height](../../design-terms/typography/cap-height.md) · [Design token](../../design-terms/design-token.md) · [Small caps](../../design-terms/typography/small-caps.md) · [x-height](../../design-terms/typography/x-height.md)
 
 ## Further reading
 

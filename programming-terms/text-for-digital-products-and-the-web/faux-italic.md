@@ -54,7 +54,7 @@ Then the language. Italic belongs to particular [scripts](../../language-terms/w
 
 For a script with no italic tradition, a slant is not a weaker version of something the reader expects. It is something software did to the text, and for Chinese, Japanese and Korean it can make the text harder to read or even change what it says.<sup>12</sup>
 
-A design system usually writes the English habit down as a rule. A token named "emphasis" with the value "italic" assumes a script that has italics and a font that has an italic file. A token is a named design decision that tools and code share. Keep the name, because emphasis is a real need in every language, and let the value change with the script. Japanese text, for example, may mark emphasis with small dots beside each character,<sup>13</sup> and set a title inside corner brackets.<sup>14</sup> Which treatment suits a language is a question for people who read it, and the token is the place to record their answer.
+A design system usually writes the English habit down as a rule. A [token](../../design-terms/design-token.md) named "emphasis" with the value "italic" assumes a script that has italics and a font that has an italic file. A token is a named design decision that tools and code share. Keep the name, because emphasis is a real need in every language, and let the value change with the script. Japanese text, for example, may mark emphasis with small dots beside each character,<sup>13</sup> and set a title inside corner brackets.<sup>14</sup> Which treatment suits a language is a question for people who read it, and the token is the place to record their answer.
 
 ### Common mistake
 
@@ -70,7 +70,7 @@ Thinking italic and slanted are the same thing. Type has two words for leaning t
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Faux bold](faux-bold.md) · [Font](font.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Typeface](../../design-terms/typography/typeface.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Fonts](../../design-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Faux bold](faux-bold.md) · [Font](font.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Typeface](../../design-terms/typography/typeface.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Fonts](../../design-terms/fonts/)
 
 ### Further reading
 

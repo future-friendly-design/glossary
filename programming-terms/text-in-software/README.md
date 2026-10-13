@@ -20,7 +20,7 @@ Each row is a different answer to the question "how many characters is this?", u
 | [Character](character.md)                                  | the unit Unicode encodes                    | one character, or two                |
 | [Code point](code-point.md)                                | the number Unicode assigns                  | U+00E9, or U+0065 followed by U+0301 |
 | [Grapheme cluster](grapheme-cluster.md)                    | what a reader counts as one character       | one cluster, either way              |
-| [Glyph](../text-for-digital-products-and-the-web/glyph.md) | the shape a font draws                      | whatever that font contains          |
+| [Glyph](../text-for-digital-products-and-the-web/glyph.md) | the shape a font holds                      | whatever that font contains          |
 | [Character encoding](character-encoding.md)                | the bytes it is stored as                   | two bytes, or three                  |
 
 The gap between the rows widens outside the Latin script. In Devanagari, नमस्ते is six characters that a reader sees as three written units, so a "six character" limit and a reader counting on their fingers will disagree.

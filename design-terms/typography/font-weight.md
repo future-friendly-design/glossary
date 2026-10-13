@@ -66,7 +66,7 @@ This is where products in more than one [script](../../language-terms/writing-sy
 
 <!-- NEEDS EXPERT REVIEW: the brief asserts that many typefaces for non-Latin scripts ship in fewer weights than Latin families. No primary source read for this pass states that as a comparison between scripts; the body only claims that few-weight families are common (CSS Fonts 3) and that each font in a stack has its own weights. Strengthen only with a source. -->
 
-Here are four weight tokens meeting two fonts in the same product, in a browser:
+Here are four weight [tokens](../design-token.md) meeting two fonts in the same product, in a browser:
 
 | Token | Number asked for | Font with 400, 500, 600 and 700 | Font with 400 and 700 only |
 | ----- | ---------------- | ------------------------------- | -------------------------- |
@@ -89,7 +89,7 @@ Figma: Font weight or style · CSS: `font-weight`
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Fonts](../fonts/)
+[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Fonts](../fonts/)
 
 ### Further reading
 

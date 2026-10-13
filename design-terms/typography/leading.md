@@ -52,11 +52,11 @@ Leaving it on "Auto" and never revisiting it, or matching leading to the font si
 
 ## In practice
 
-For body text, a ratio of about 1.4 to 1.6 times the font size is a comfortable starting range, and it pairs naturally with a token approach: store line height as a unitless ratio so it scales with your font-size tokens instead of locking to pixels. Two things change the right value: longer line lengths want more leading (the eye needs a clearer runway to the next line), and scripts with tall ascenders or stacked marks need more vertical room. The mechanics of setting it live in [line-height](line-height.md).
+For body text, a ratio of about 1.4 to 1.6 times the font size is a comfortable starting range, and it pairs naturally with a [token](../design-token.md) approach: store line height as a unitless ratio so it scales with your font-size tokens instead of locking to pixels. Two things change the right value: longer line lengths want more leading (the eye needs a clearer runway to the next line), and scripts with tall ascenders or stacked marks need more vertical room. The mechanics of setting it live in [line-height](line-height.md).
 
 ## Related terms
 
-[Baseline](baseline.md) · [Line height](line-height.md) · [Measure](measure.md) · [Tracking](tracking.md)
+[Baseline](baseline.md) · [Design token](../design-token.md) · [Line height](line-height.md) · [Measure](measure.md) · [Tracking](tracking.md)
 
 ## Further reading
 

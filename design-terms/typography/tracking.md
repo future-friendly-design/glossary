@@ -50,11 +50,11 @@ Two of them. First, using tracking to fix a single bad letter pair, which is ker
 
 ## In practice
 
-Settle this once as a type-style decision rather than leaving it to each designer: all-caps and small UI labels usually want a small positive value, body copy usually wants none. The mechanics of actually applying it, plus the token, accessibility, and language gotchas, live in [letter-spacing](letter-spacing.md), the tool and CSS control.
+Settle this once as a type-style decision rather than leaving it to each designer: all-caps and small UI labels usually want a small positive value, body copy usually wants none. The mechanics of actually applying it, plus the [token](../design-token.md), accessibility, and language gotchas, live in [letter-spacing](letter-spacing.md), the tool and CSS control.
 
 ## Related terms
 
-[Kerning](kerning.md) · [Leading](leading.md) · [Letter spacing](letter-spacing.md)
+[Design token](../design-token.md) · [Kerning](kerning.md) · [Leading](leading.md) · [Letter spacing](letter-spacing.md)
 
 ## Further reading
 

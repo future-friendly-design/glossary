@@ -48,12 +48,12 @@ Comparing typefaces by point size alone. Two fonts set at 16px can look noticeab
 ## In practice
 
 * **Readability and accessibility:** a larger x-height improves legibility at small sizes and for low-vision readers, which is why it is a real selection criterion for UI body text and captions, not just an aesthetic detail.
-* **Tokens and typeface swaps:** because x-height drives apparent size, changing the font-family token can shift how large everything reads even when every size token stays identical. After swapping a typeface, re-check optical sizing rather than trusting the unchanged numbers.
+* **[Tokens](../design-token.md) and typeface swaps:** because x-height drives apparent size, changing the font-family token can shift how large everything reads even when every size token stays identical. After swapping a typeface, re-check optical sizing rather than trusting the unchanged numbers.
 * **Pairing:** when combining two typefaces, matching their x-heights (not their point sizes) keeps them looking balanced together.
 
 ## Related terms
 
-[Ascender](ascender.md) · [Baseline](baseline.md) · [Cap height](cap-height.md) · [Descender](descender.md)
+[Ascender](ascender.md) · [Baseline](baseline.md) · [Cap height](cap-height.md) · [Descender](descender.md) · [Design token](../design-token.md)
 
 ## Further reading
 

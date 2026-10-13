@@ -48,14 +48,14 @@ Treating leading and line height as the same number you can swap freely. They ta
 
 ## In practice
 Three connections worth building into a design system:
-- **Tokens:** store line height as a unitless ratio (like `1.5`), not a pixel value, so it scales when font sizes change. Pixel-locked line heights are a common source of broken vertical rhythm in a token system.
+- **[Tokens](../design-token.md):** store line height as a unitless ratio (like `1.5`), not a pixel value, so it scales when font sizes change. Pixel-locked line heights are a common source of broken vertical rhythm in a token system.
 - **Accessibility:** WCAG 2.1 (Success Criterion 1.4.12, Text Spacing) expects content to stay usable when a reader bumps line height to at least 1.5x the font size, so avoid layouts that clip or overlap when text spacing increases. See [Understanding 1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html). *(Verify exact wording before publish.)*
 - **Languages:** scripts with tall ascenders or stacked diacritics (for example Thai, Devanagari, or Vietnamese with its layered marks) can clip at a line height tuned only for Latin text, so test multilingual content and give it more vertical room. *(Flag for the language experts to confirm specifics.)*
 
 In Figma, "Auto" line height varies by typeface, so set an explicit value when you need consistency across fonts. The [MDN line-height page](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) shows how the unit choices behave.
 
 ## Related terms
-[Leading](leading.md) · [Measure](measure.md) · [Vertical trim](vertical-trim.md)
+[Design token](../design-token.md) · [Leading](leading.md) · [Measure](measure.md) · [Vertical trim](vertical-trim.md)
 
 ## Further reading
 - Code & specs: [line-height (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)

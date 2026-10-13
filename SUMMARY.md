@@ -118,6 +118,7 @@
   * [Font weight](design-terms/typography/font-weight.md)
   * [Legibility](design-terms/typography/legibility.md)
   * [Readability](design-terms/typography/readability.md)
+* [Design token](design-terms/design-token.md)
 
 ## Programming Terms
 

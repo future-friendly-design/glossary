@@ -37,7 +37,7 @@ A note on the word: "readability" is also used, in a different field, to mean ho
 
 ## Why it matters in design systems
 
-Readability is where typography becomes a systems problem, because its levers are tokens, not one-off tweaks. [Line height](../../design-terms/typography/line-height.md) sets the vertical rhythm: too tight and the lines tangle, too loose and they drift apart. The line length, or measure, has a comfortable range before the eye starts losing its place on the return sweep. Letter and word spacing change the texture of the paragraph, and size ties it all together. In a design system these live as line-height, spacing, and max-width tokens applied across every component, so a readability decision made once propagates everywhere, which is power when it is right and damage when it is wrong. And readability is not legibility: you can have every character crisp and still build an unreadable page with the wrong measure and leading.
+Readability is where typography becomes a systems problem, because its levers are [tokens](../design-token.md), not one-off tweaks. [Line height](../../design-terms/typography/line-height.md) sets the vertical rhythm: too tight and the lines tangle, too loose and they drift apart. The line length, or measure, has a comfortable range before the eye starts losing its place on the return sweep. Letter and word spacing change the texture of the paragraph, and size ties it all together. In a design system these live as line-height, spacing, and max-width tokens applied across every component, so a readability decision made once propagates everywhere, which is power when it is right and damage when it is wrong. And readability is not legibility: you can have every character crisp and still build an unreadable page with the wrong measure and leading.
 
 ## Example
 
@@ -55,7 +55,7 @@ Assuming a clear, legible font guarantees a readable page. Legibility is necessa
 
 ## Related terms and mentions
 
-[Leading](../../design-terms/typography/leading.md) · [Legibility](legibility.md) · [Line height](../../design-terms/typography/line-height.md) · [Measure](../../design-terms/typography/measure.md) · [Tracking](../../design-terms/typography/tracking.md)
+[Design token](../design-token.md) · [Leading](../../design-terms/typography/leading.md) · [Legibility](legibility.md) · [Line height](../../design-terms/typography/line-height.md) · [Measure](../../design-terms/typography/measure.md) · [Tracking](../../design-terms/typography/tracking.md)
 
 ## Further reading
 

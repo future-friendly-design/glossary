@@ -61,11 +61,11 @@ Copying the trimmed look from a Figma mockup straight into CSS and assuming it j
 
 * **Tools:** in Figma, vertical trim is set to "Cap height to baseline" and trims the space from the first and last lines. The [Bejamas walkthrough](https://bejamas.com/blog/everything-you-need-to-know-about-figma-s-vertical-trim-feature) shows enabling it step by step; [Explore text properties (Figma Help)](https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties) covers the surrounding text controls.
 * **CSS:** it maps to `text-box-trim` and `text-box-edge` (formerly `leading-trim` / `text-edge`), which are not yet widely supported. Check browser support before relying on them in production. See [text-box-trim (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/text-box-trim).
-* **Tokens and handoff:** treat "uses vertical trim" as part of the component spec and call it out at handoff. It changes the box model a developer has to reproduce, so a value copied from Dev Mode without that context will not behave the same in the browser.
+* **[Tokens](../design-token.md) and handoff:** treat "uses vertical trim" as part of the component spec and call it out at handoff. It changes the box model a developer has to reproduce, so a value copied from Dev Mode without that context will not behave the same in the browser.
 
 ## Related terms
 
-[Baseline](baseline.md) · [Cap height](cap-height.md) · [Leading](leading.md) · [Line height](line-height.md)
+[Baseline](baseline.md) · [Cap height](cap-height.md) · [Design token](../design-token.md) · [Leading](leading.md) · [Line height](line-height.md)
 
 ## Further reading
 
