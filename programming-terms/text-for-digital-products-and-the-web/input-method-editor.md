@@ -45,9 +45,9 @@ Here is a person typing the Japanese word for city, which is pronounced "shi":
 | -------------------- | ------------------------- |
 | Presses `s` | s |
 | Presses `i` | し, the [hiragana](../../language-terms/writing-systems-and-scripts/hiragana.md) symbol for the sound "shi" |
-| Presses the convert key, often the space bar | 詩, a character that means poem and is also pronounced "shi" |
+| Presses the convert key, which can be the space bar | 詩, a character that means poem and is also pronounced "shi" |
 | Presses the convert key again | 市, the character that means city |
-| Presses the accept key, often Enter | 市, now part of the text |
+| Presses the accept key, which can be Enter | 市, now part of the text |
 
 Five key presses made one character, and the field showed four different things on the way.<sup>3</sup> The two characters sound the same, so the software cannot know which one is meant. Only the person can choose.<sup>4</sup>
 
@@ -55,7 +55,7 @@ This whole stretch, from the first key to the confirmation, is called a composit
 
 Chinese and Japanese are the well-known cases, but composition is not limited to them. Writing by hand on a touch screen works this way, and so does typing words on a number pad.<sup>7</sup> So do the word suggestions on a phone keyboard.<sup>8</sup> Even an accent can be a short composition: on a keyboard with a key that adds an accent to the next letter, pressing `^` and then `e` to get `ê` counts as one.<sup>9</sup>
 
-An input method editor is not a [keyboard layout](keyboard-layout.md). A layout is the set of rules that gives each key a fixed result. An IME is a second way in, built for characters that the keys do not offer,<sup>10</sup> and it works by asking the person to choose. A product has to work with both.
+An input method editor is not a [keyboard layout](keyboard-layout.md). A layout is a set of fixed rules, so the same keys always give the same character. An IME is a second way in, built for characters that the keys do not offer,<sup>10</sup> and it works by asking the person to choose. A product has to work with both.
 
 ### Common mistake
 
@@ -65,7 +65,7 @@ Treating every key press as finished text. A search box that searches on each ke
 
 The fix is the same in every case: let the composition finish before the product reacts.
 
-* **Wait for the end of the composition.** On the web, the browser announces the start with an event named `compositionstart`,<sup>12</sup> and the end with one named `compositionend`. Any key press can also be asked whether it happened in between.<sup>13</sup> Searching, counting, checking, and sending can all wait for the end.
+* **Wait for the end of the composition.** Searching, counting, checking, and sending can all wait until the person has confirmed the text. Write that into the specification of every text field. It is possible to build: on the web, the browser announces the start of a composition with an event named `compositionstart`,<sup>12</sup> and the end with one named `compositionend`, and any key press can be asked whether it happened in between.<sup>13</sup>
 * **Design around the suggestion window.** The IME opens its own window of suggestions,<sup>14</sup> and that window is not part of your design. Check what your own dropdowns, tooltips, and error messages do while it is open, because they are likely to want the same space next to the text.
 * **Test by typing with a real IME.** Add a Japanese or Chinese input method in the settings of the operating system, then type into every field: search, tags, chat, and anything with a length limit. You do not need to read the language to see a search fire too early or a message send itself.
 
@@ -73,7 +73,7 @@ The fix is the same in every case: let the composition finish before the product
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Hiragana script](../../language-terms/writing-systems-and-scripts/hiragana.md) · [Internationalization](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Language](../../language-terms/linguistics/language.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Multi-language products](../multi-language-products/)
+[Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Hiragana script](../../language-terms/writing-systems-and-scripts/hiragana.md) · [Internationalization](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Segmentation](../text-in-software/segmentation.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Multi-language products](../multi-language-products/)
 
 ### Further reading
 
