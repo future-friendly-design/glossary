@@ -30,7 +30,7 @@ tags:
 
 Text expansion is the growth in the space a piece of text needs when it is translated into another language.<sup>1</sup>
 
-The name describes the most common case, not the only one. A translation can also be shorter than the original, or taller, or written in the opposite direction, and each of those changes the space a design has to provide. For example, the English word "views" is "visualizzazioni" in Italian, which is three times as long,<sup>2</sup> and 조회 in Korean, which takes up less room than the English.<sup>3</sup>
+The name describes the most common case, not the only one. A translation can also be shorter than the original, or taller, and each of those changes the space a design has to provide. For example, the English word "views" is "visualizzazioni" in Italian, which is three times as long,<sup>2</sup> and 조회 in Korean, which takes up less room than the English.<sup>3</sup>
 
 ### Why it matters in design systems
 
@@ -48,11 +48,11 @@ Here is one short label from a real product, the word "views" shown under a phot
 | German | -mal angesehen | 2.8 |
 | Italian | visualizzazioni | 3 |
 
-Each Chinese and Korean character is counted as two English letters in this table, because it is about twice as wide.<sup>5</sup>
+Each Chinese and Korean character is counted as two English letters in this table, because each one is wider.<sup>5</sup>
 
 A word that triples in length looks like an extreme case. For a label this short it is ordinary. These are published averages for text translated from English into European languages, where 200% means twice the length of the original:
 
-<!-- The W3C table also has a row "51-70: 151-170%", which breaks the downward pattern and looks like a transcription error in the W3C page (the IBM original is no longer retrievable). It is left out here. NEEDS EXPERT REVIEW: confirm the 51-70 figure before adding the row. -->
+<!-- The W3C table also has a row for 51 to 70 characters that reads "151-170%", which breaks the downward pattern. It is left out here. The misprint starts in the IBM original (archived 2011-02-25 at https://web.archive.org/web/20110225183535/http://www-01.ibm.com/software/globalization/guidelines/a3.html), whose table gives ADDITIONAL space (100% to 200%, 80% to 100%, 60% to 80%, 40% to 60%, then 30% for over 70) and repeats the row label "51 to 70" in the value cell. W3C added 100 to every figure, which is why this page reads the percentages as total length, and which turned the misprint into "151-170%". NEEDS EXPERT REVIEW: the true 51-70 figure is in neither page; do not add the row without a source that states it. -->
 
 | Number of characters in the English text | Average length of the translation<sup>6</sup> |
 | ---------------------------------------- | ------------------------------------- |
@@ -61,6 +61,8 @@ A word that triples in length looks like an extreme case. For a label this short
 | 21 to 30 | 160 to 180% |
 | 31 to 50 | 140 to 160% |
 | Over 70 | 130% |
+
+The published table also has a row for text of 51 to 70 characters. Its figure is a misprint, so that row is left out here.
 
 The shorter the original text, the more it tends to grow.<sup>7</sup> That is hard on an interface, because the shortest text is exactly the text that gets squeezed into the smallest places: beside a form field, inside a graphic, across a row of tabs.<sup>8</sup> A paragraph has room to absorb its extra third. A four-letter button does not have room to become twelve letters.
 
@@ -73,14 +75,14 @@ Width is not the only thing that changes, and text does not always get bigger:
 | The text gets shorter | "views" becomes 조회 in Korean | A component stretched to fit the longest language is left with empty space, which can be as much of a problem as too little<sup>9</sup> |
 | Each character is wider | English "desktop" becomes デスクトップ in Japanese. That is one character fewer, and it is much wider<sup>10</sup> | A box sized by counting characters is too narrow |
 | The text becomes one long word | English "Input processing features" becomes "Eingabeverarbeitungsfunktionen" in German | The three English words can wrap onto a second line. The single German word may not wrap at all<sup>11</sup> |
-| The text gets taller | Text in Arabic, Chinese, Devanagari, Japanese, Korean, and Tibetan is among the text that needs more height than Latin text.<sup>12</sup> Tibetan, a [stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md), places consonants above and below one another, as in rgyud (རྒྱུད), "string"<sup>13</sup> | A row with a fixed height, or a [line height](../../design-terms/typography/line-height.md) tuned for Latin letters, cuts off the top or bottom of the text |
+| The text gets taller | Arabic, Chinese, Devanagari, Japanese, Korean, and Tibetan text all need more height than Latin text.<sup>12</sup> Tibetan, a [stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md), places consonants above and below one another, as in rgyud (རྒྱུད), "string"<sup>13</sup> | A row with a fixed height, or a [line height](../../design-terms/typography/line-height.md) tuned for Latin letters, cuts off the top or bottom of the text |
 | The text runs the other way | Arabic is written [right to left](../../language-terms/writing-systems-and-scripts/right-to-left.md), as in marhaba (مرحبا), "hello"<sup>14</sup> | The line starts on the right,<sup>15</sup> so the room a design left after a label is now on the wrong side |
 
 So leaving more room is only part of the answer. Width, height, wrapping, and direction can all change in the same translation, and a component has to be able to change with them.
 
 ### Common mistake
 
-Adding one fixed percentage to every component, usually a figure someone remembers as how much longer one language is than another. The published averages are tied to the length of the original text, not to a language, and they are averages. The same product that turns "views" into a word three times as long leaves "FAQ" as "FAQ" in German and French, and turns it into "Perguntas freqüentes" in Portuguese.<sup>16</sup> A figure of 40 percent does appear in testing guidance, as a rule of thumb for how much to lengthen fake test text when the original is English. It is not a measurement of any language.<sup>17</sup> A single percentage gives a short button far too little room, and gives a paragraph more than it needs.
+Adding one fixed percentage to every component, usually a figure someone remembers as how much longer one language is than another. The published averages are tied to the length of the original text, not to a language, and they are averages. The same product that turns "views" into a word three times as long leaves "FAQ" as "FAQ" in German and French, and turns it into "Perguntas freqüentes" in Portuguese.<sup>16</sup> A figure of 40 percent does appear in testing guidance, as a rule of thumb for how much to lengthen fake test text when the original is English.<sup>17</sup> It is not a measurement of any language. A single percentage gives a short button far too little room, and gives a paragraph more than it needs.
 
 ### In practice
 
@@ -94,7 +96,7 @@ Test all of this before real translations arrive. [Pseudolocalization](pseudoloc
 
 ### Related terms and mentions
 
-[Agglutinative language](../../language-terms/linguistics/agglutinative-language.md) · [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Full-width](../text-in-software/full-width.md) · [Internationalization](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Line height](../../design-terms/typography/line-height.md) · [Localization](localization.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Tibetan script](../../language-terms/writing-systems-and-scripts/tibetan-script.md) · [Multi-language products](../multi-language-products/)
+[Agglutinative language](../../language-terms/linguistics/agglutinative-language.md) · [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Full-width](../text-in-software/full-width.md) · [Internationalization](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Line height](../../design-terms/typography/line-height.md) · [Localization](localization.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Tibetan script](../../language-terms/writing-systems-and-scripts/tibetan-script.md) · [Multi-language products](../multi-language-products/)
 
 ### Further reading
 

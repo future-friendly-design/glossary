@@ -36,11 +36,11 @@ Internationalization is the design and development work that makes a product abl
 
 It is often written "i18n", because there are 18 letters between the i and the n.<sup>2</sup>
 
-Internationalization is one half of a pair. The other half is [localization](localization.md), which is adapting the product to one particular language and place. Internationalization comes first and prepares the ground: designers and developers internationalize a product so that translators and localizers can then localize it.<sup>3</sup>
+Internationalization is one half of a pair. The other half is [localization](localization.md), which is adapting the product to one particular language and place. Internationalization comes first: designers and developers internationalize a product so that translators and localizers can then localize it.<sup>3</sup>
 
 ### Why it matters in design systems
 
-Look at a button that says "Save". Somebody typed that word straight into the design file, and a developer typed it straight into the code. The button is exactly as wide as those four letters. The date beside it puts the month first, and the arrow for "next" points to the right.
+Look at a button that says "Search". Somebody typed that word straight into the design file, and a developer typed it straight into the code. The button is exactly as wide as those six letters. The date beside it puts the month first, and the arrow for "next" points to the right.
 
 None of that looks like a decision, yet each part quietly assumes one language and one place. Internationalization is the work of finding those assumptions and taking them out, so the product can hold a language it was not first written in. It is not translation. Not one word has to be translated for a product to be internationalized, and the work is useful even if the product never is.<sup>4</sup>
 
@@ -96,7 +96,7 @@ Then check the work before any translator is involved. [Pseudolocalization](pseu
 9. "The format MM/DD/YY is unique to the United States (but sometimes used in Canada, too, which can obviously create some confusion there). Most of Europe uses DD/MM/YY. Japan uses YY/MM/DD" - Date formats, W3C Internationalization [https://www.w3.org/International/questions/qa-date-format](https://www.w3.org/International/questions/qa-date-format)
 10. "Enabling code to support local, regional, language, or culturally related preferences" - Localization vs. Internationalization, W3C Internationalization [https://www.w3.org/International/questions/qa-i18n](https://www.w3.org/International/questions/qa-i18n)
 11. "An identifier (such as a language tag) for a set of international preferences" - Internationalization Glossary, W3C Group Note: Locale [https://www.w3.org/TR/i18n-glossary/#dfn-locale](https://www.w3.org/TR/i18n-glossary/#dfn-locale)
-12. "The start of a line is not always the left side of a line" - CSS logical properties and values, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
+12. "Hebrew and Arabic are right-to-left languages with new lines again being added below the previous ones" - CSS logical properties and values, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
 13. "The logical properties defined in this module enable defining properties relative to the content's writing direction, rather than a physical direction" - CSS logical properties and values, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
 14. "The work of the Unicode Consortium is a fundamental part of internationalization. Unicode supports not only variations among the world's writing systems but also cultural variations such as currencies and time/date formats" - Internationalization (i18n), MDN Glossary [https://developer.mozilla.org/en-US/docs/Glossary/Internationalization](https://developer.mozilla.org/en-US/docs/Glossary/Internationalization)
 15. "Text and graphics containing references to objects, actions or ideas which, in a given culture, may be subject to misinterpretation or viewed as insensitive" - Localization vs. Internationalization, W3C Internationalization [https://www.w3.org/International/questions/qa-i18n](https://www.w3.org/International/questions/qa-i18n)
