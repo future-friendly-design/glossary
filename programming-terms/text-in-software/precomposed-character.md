@@ -36,9 +36,9 @@ A precomposed character is a single [character](character.md) that already has i
 
 There are two ways to store `é`. The first is as one character of its own, with its own number in [Unicode](unicode.md)'s list (the [code point](code-point.md) U+00E9), meaning "e with an acute accent". The second is as the plain letter `e` followed by a second character, a [combining mark](combining-mark.md), whose only job is to add an accent to whatever came before it.<sup>2</sup> A precomposed character is the first way.
 
-Both come out looking the same on screen, and neither is wrong. The trouble is that software comparing two pieces of text normally compares them piece by piece, so the one-character `é` and the two-character `é` do not match, even though a reader would say they are the same word. That is what quietly breaks comparison, search, deduplication, and "have I seen this name before" checks.
+Both come out looking the same on screen, and neither is wrong. The trouble is that software comparing two pieces of text normally compares them piece by piece, so the one-character `é` (U+00E9) and the two-character `é` (U+0065 U+0301) do not match, even though a reader would say they are the same word. That is what quietly breaks comparison, search, deduplication, and "have I seen this name before" checks.
 
-[Normalization](normalization.md) is what resolves it: rewrite both into the same chosen form before comparing anything.<sup>3</sup> Of Unicode's forms, NFC tends to prefer precomposed characters, while NFD takes them apart into a base letter plus separate marks.
+[Normalization](normalization.md) is what resolves it: rewrite both into the same chosen form before comparing anything.<sup>3</sup> Of Unicode's named forms, NFC (Normalization Form C) tends to prefer precomposed characters,<sup>4</sup> while NFD (Normalization Form D) takes them apart into a base letter plus separate marks.<sup>5</sup>
 
 ### Example
 
@@ -57,5 +57,7 @@ Both come out looking the same on screen, and neither is wrong. The trouble is t
 ### Sources
 
 1. "A character that is equivalent to a sequence of one or more other characters, according to the decomposition mappings found in the Unicode Character Database... It may also be known as a precomposed character or a composite character" - Unicode Glossary: Decomposable Character [https://www.unicode.org/glossary/#decomposable\_character](https://www.unicode.org/glossary/#decomposable_character)
-2. "Mapping to an inherently equivalent sequence, for example, mapping ä to a + combining umlaut" - Unicode Glossary: Canonical Decomposition [https://www.unicode.org/glossary/#canonical\_decomposition](https://www.unicode.org/glossary/#canonical_decomposition)
+2. "Mapping to an inherently equivalent sequence", with the example of ä mapping to a plus a combining umlaut - Unicode Glossary: Canonical Decomposition [https://www.unicode.org/glossary/#canonical\_decomposition](https://www.unicode.org/glossary/#canonical_decomposition)
 3. "A process of removing alternate representations of equivalent sequences from textual data, to convert the data into a form that can be binary-compared for equivalence" - Unicode Glossary: Normalization [https://www.unicode.org/glossary/#normalization](https://www.unicode.org/glossary/#normalization)
+4. "A normalization form that erases any canonical differences, and generally produces a composed result" - Unicode Glossary: Normalization Form C [https://www.unicode.org/glossary/#normalization\_form\_c](https://www.unicode.org/glossary/#normalization_form_c)
+5. "A normalization form that erases any canonical differences, and produces a decomposed result" - Unicode Glossary: Normalization Form D [https://www.unicode.org/glossary/#normalization\_form\_d](https://www.unicode.org/glossary/#normalization_form_d)

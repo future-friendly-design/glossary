@@ -41,7 +41,7 @@ The code point is what makes text portable: the same number identifies the same 
 
 Storing a code point requires a [character encoding](character-encoding.md) to turn it into bytes, the data actually written to a file or a database. Visualizing the character in software requires a [font](../text-for-digital-products-and-the-web/font.md) that contains the correct [glyph](../text-for-digital-products-and-the-web/glyph.md) to represent it.&#x20;
 
-Two things surprise people. Not every code point is assigned to a character,<sup>3</sup> so a valid-looking number may be reserved, unassigned, or a control code that renders as nothing. And one code point is not reliably one character on screen: an accented symbol may be built from two, and an emoji from several, which is the difference between a code point and a [grapheme cluster](grapheme-cluster.md). If you are counting text for a limit, a truncation, or a cursor step, the code point is almost never the unit your reader is using.
+Two things surprise people. Not every code point is assigned to a character,<sup>3</sup> so a valid-looking number may be reserved, which means Unicode is keeping it for a character it has not added yet.<sup>4</sup> And one code point is not reliably one character on screen: an accented symbol may be built from two, and an emoji from several, which is the difference between a code point and a [grapheme cluster](grapheme-cluster.md). If you are counting text for a limit, a truncation, or a cursor step, the code point is almost never the unit your reader is using.
 
 ***
 
@@ -58,3 +58,4 @@ Two things surprise people. Not every code point is assigned to a character,<sup
 1. "For example, the code point for the letter á in the Unicode coded character set is 225 in decimal, or 0xE1 in hexadecimal notation" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
 2. "the codespace consists of the integers from 0 to 10FFFF16, comprising 1,114,112 code points available for assigning the repertoire of abstract characters" - The Unicode Standard, Core Specification, Chapter 2 [https://www.unicode.org/versions/latest/core-spec/chapter-2/](https://www.unicode.org/versions/latest/core-spec/chapter-2/)
 3. "Not all code points are assigned to encoded characters" - Unicode Glossary: Code Point [https://www.unicode.org/glossary/#code\_point](https://www.unicode.org/glossary/#code_point)
+4. "Any code point of the Unicode Standard that is reserved for future assignment" - Unicode Glossary: Reserved Code Point [https://www.unicode.org/glossary/#reserved\_code\_point](https://www.unicode.org/glossary/#reserved_code_point)

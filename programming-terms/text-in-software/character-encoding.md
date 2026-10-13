@@ -49,7 +49,7 @@ That is why [UTF-8](utf-8.md) is not an alternative to Unicode. UTF-8 is one of 
 
 Unicode has more than one encoding. UTF-8 is the one to use for files and the web. [UTF-16](utf-16.md) is another, used inside some programming languages and operating systems, which is where surprising character counts in code usually come from.
 
-Here is the same text stored under two different character encodings:
+Here is the same text stored under two different character encodings. The stored values are written in hexadecimal, a base-16 way of counting that developers use, so the number 65 appears as `41`:
 
 | Character | Unicode's number | Stored by UTF-8 as | Stored by Latin-1 as   |
 | --------- | ---------------- | ------------------ | ---------------------- |
@@ -75,7 +75,7 @@ The answer is always UTF-8. The WHATWG Encoding Standard requires that new forma
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Font coverage](../text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Normalization](normalization.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Font coverage](../text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Normalization](normalization.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Tofu](../../design-terms/typography/tofu.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
 
 ### Further reading
 
@@ -86,8 +86,8 @@ The answer is always UTF-8. The WHATWG Encoding Standard requires that new forma
 
 1. "The character encoding reflects the way the coded character set is mapped to bytes for manipulation in a computer" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
 2. "it is usually impossible to combine different encodings on the same Web page or in a database, so it is usually very difficult to support multilingual pages using 'legacy' approaches to encoding" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
-3. "A coded character set is a set of characters for which a unique number has been assigned to each character" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
+3. "The Unicode Consortium provides a large, single character set that aims to include all the characters needed for any writing system in the world" - Character encodings: Essential concepts, W3C Internationalization [https://www.w3.org/International/articles/definitions-characters/](https://www.w3.org/International/articles/definitions-characters/)
 4. "Mapping from a character set definition to the actual code units used to represent the data" - Unicode Glossary: Character Encoding Form [https://www.unicode.org/glossary/#character\_encoding\_form](https://www.unicode.org/glossary/#character_encoding_form)
 5. "The Unicode encoding form that assigns each Unicode scalar value to an unsigned byte sequence of one to four bytes in length" - Unicode Glossary: UTF-8 Encoding Form [https://www.unicode.org/glossary/#utf\_8\_encoding\_form](https://www.unicode.org/glossary/#utf_8_encoding_form)
-6. "Garbled or incorrectly rendered or processed characters, generally caused by using the wrong character encoding to interpret the bytes in a string or file" - Internationalization Glossary, W3C Group Note: Mojibake [https://www.w3.org/TR/i18n-glossary/](https://www.w3.org/TR/i18n-glossary/)
+6. "Garbled or incorrectly rendered or processed characters, generally caused by using the wrong character encoding to interpret the bytes in a string or file" - Internationalization Glossary, W3C Group Note: Mojibake [https://www.w3.org/TR/i18n-glossary/#dfn-mojibake](https://www.w3.org/TR/i18n-glossary/#dfn-mojibake)
 7. "New protocols and formats, as well as existing formats deployed in new contexts, must use the UTF-8 encoding exclusively" - Encoding Standard, WHATWG, Names and labels [https://encoding.spec.whatwg.org/#names-and-labels](https://encoding.spec.whatwg.org/#names-and-labels)

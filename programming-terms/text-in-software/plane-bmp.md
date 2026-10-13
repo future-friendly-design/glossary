@@ -22,13 +22,13 @@ license: CC-BY-4.0
 
 ## Definition
 
-A plane is one slice of [Unicode](unicode.md)'s numbering range, 65,536 numbers long; the Basic Multilingual Plane is the first slice, and it holds most of the characters in everyday use.<sup>1</sup>
+A plane is one slice of [Unicode](unicode.md)'s numbering range, 65,536 numbers long;<sup>1</sup> the Basic Multilingual Plane is the first slice, and it holds most of the characters in everyday use.<sup>2</sup>
 
 ### Why it matters in design systems
 
-Unicode's numbers run from zero to a little over one million. That is a lot of range to talk about at once, so the standard cuts it into 17 equal slices, called planes and numbered 0 to 16.<sup>2</sup> Each slice holds 65,536 numbers, one per possible character; an individual number in that range is a [code point](code-point.md).
+Unicode's numbers run from zero to a little over one million. That is a lot of range to talk about at once, so the standard cuts it into 17 equal slices, called planes and numbered 0 to 16.<sup>3</sup> Each slice holds 65,536 numbers; an individual number in that range is a [code point](code-point.md).
 
-Plane 0, the Basic Multilingual Plane (BMP), covers U+0000 to U+FFFF and holds almost all of the characters that modern languages use day to day, plus the common symbols.<sup>3</sup> Planes 1 to 16 are the supplementary planes,<sup>4</sup> used for historic [scripts](../../language-terms/writing-systems-and-scripts/script.md), additional [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md), emoji, and private-use characters.
+Plane 0, the Basic Multilingual Plane (BMP), covers U+0000 to U+FFFF and holds almost all of the characters that modern languages use day to day, plus the common symbols.<sup>4</sup> Planes 1 to 16 are the supplementary planes,<sup>5</sup> used for many historic [scripts](../../language-terms/writing-systems-and-scripts/script.md), some scripts still in use today,<sup>6</sup> additional [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md), emoji, and private-use characters.
 
 The split shows up in product work because of how text gets stored. [UTF-16](utf-16.md), one common way of storing text, fits any BMP character into a single storage slot but needs two slots for anything above the BMP, in the form of a [surrogate pair](surrogate-pair.md). That is the root of the "emoji counts as length 2" quirk.
 
@@ -40,7 +40,7 @@ The letter `A` lives in the BMP, while most emoji live in supplementary planes.
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [Text in software](./)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [Text in software](./)
 
 ### Further reading
 
@@ -49,6 +49,8 @@ The letter `A` lives in the BMP, while most emoji live in supplementary planes.
 ### Sources
 
 1. "A range of 65,536 (10000_16) contiguous Unicode code points, where the first code point is an integer multiple of 65,536" - Unicode Glossary: Plane [https://www.unicode.org/glossary/#plane](https://www.unicode.org/glossary/#plane)
-2. "Planes are numbered from 0 to 16, with the number being the first code point of the plane divided by 65,536" - Unicode Glossary: Plane [https://www.unicode.org/glossary/#plane](https://www.unicode.org/glossary/#plane)
-3. "The Basic Multilingual Plane (BMP, or Plane 0) contains the common-use characters for all the modern scripts of the world as well as many historical and rare characters" - The Unicode Standard, Core Specification, Chapter 2 [https://www.unicode.org/versions/latest/core-spec/chapter-2/](https://www.unicode.org/versions/latest/core-spec/chapter-2/)
-4. "Planes 1 through 16, consisting of the supplementary code points" - Unicode Glossary: Supplementary Planes [https://www.unicode.org/glossary/#supplementary\_planes](https://www.unicode.org/glossary/#supplementary_planes)
+2. "By far the majority of all Unicode characters for almost all textual data can be found in the BMP" - The Unicode Standard, Version 18.0, Core Specification, Chapter 2 [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-2/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-2/)
+3. "Planes are numbered from 0 to 16, with the number being the first code point of the plane divided by 65,536" - Unicode Glossary: Plane [https://www.unicode.org/glossary/#plane](https://www.unicode.org/glossary/#plane)
+4. "The Basic Multilingual Plane (BMP, or Plane 0) contains the common-use characters for all the modern scripts of the world as well as many historical and rare characters" - The Unicode Standard, Core Specification, Chapter 2 [https://www.unicode.org/versions/latest/core-spec/chapter-2/](https://www.unicode.org/versions/latest/core-spec/chapter-2/)
+5. "Planes 1 through 16, consisting of the supplementary code points" - Unicode Glossary: Supplementary Planes [https://www.unicode.org/glossary/#supplementary\_planes](https://www.unicode.org/glossary/#supplementary_planes)
+6. "This includes many historic scripts, a number of lesser-used contemporary scripts, special-purpose invented scripts, notational systems or large pictographic symbol sets" - The Unicode Standard, Version 18.0, Core Specification, Chapter 2, on Plane 1 [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-2/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-2/)
