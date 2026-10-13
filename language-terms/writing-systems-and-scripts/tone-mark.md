@@ -53,4 +53,4 @@ Vietnamese can stack a tone mark on a vowel letter that already carries a diacri
 
 ### Sources
 
-1. In the Vietnamese alphabet a vowel letter and a tone mark stack on one base letter, stored either as one combined character or as separate combining marks - The Unicode Standard 17.0, Chapter 7 [https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/)
+1. In the Vietnamese alphabet a vowel letter and a tone mark stack on one base letter, stored either as one combined character or as separate combining marks - The Unicode Standard 18.0, Chapter 7 [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-7/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-7/)
