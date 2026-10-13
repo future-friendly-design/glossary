@@ -48,6 +48,7 @@ A product needs a way to say which language and which regional conventions it is
 
 Some behaviour a product treats as fixed is really a local convention, and it changes underneath you.
 
+* [Case mapping](../text-for-digital-products-and-the-web/case-mapping.md)
 * [Collation](../text-for-digital-products-and-the-web/collation.md)
 * [Text expansion](../text-for-digital-products-and-the-web/text-expansion.md)
 

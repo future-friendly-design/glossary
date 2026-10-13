@@ -124,6 +124,7 @@
 * [Text for digital products & the web](programming-terms/text-for-digital-products-and-the-web/README.md)
   * [Reordering](programming-terms/text-for-digital-products-and-the-web/reordering.md)
   * [Complex text layout](programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md)
+  * [Case mapping](programming-terms/text-for-digital-products-and-the-web/case-mapping.md)
   * [Collation](programming-terms/text-for-digital-products-and-the-web/collation.md)
   * [Code unit](programming-terms/text-for-digital-products-and-the-web/code-unit.md)
   * [CLDR](programming-terms/text-for-digital-products-and-the-web/cldr.md)
