@@ -141,6 +141,7 @@
   * [Input method editor (IME)](programming-terms/text-for-digital-products-and-the-web/input-method-editor.md)
   * [Internationalization](programming-terms/text-for-digital-products-and-the-web/internationalization.md)
   * [Keyboard layout](programming-terms/text-for-digital-products-and-the-web/keyboard-layout.md)
+  * [Language tag](programming-terms/text-for-digital-products-and-the-web/language-tag.md)
   * [Ligature](programming-terms/text-for-digital-products-and-the-web/ligature.md)
   * [Locale](programming-terms/text-for-digital-products-and-the-web/locale.md)
   * [Localization](programming-terms/text-for-digital-products-and-the-web/localization.md)

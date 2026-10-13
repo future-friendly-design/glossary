@@ -7,9 +7,7 @@ aliases:
   - ICU4J
 level: advanced
 depth: core
-summary: >-
-  ICU is a widely used software library that provides ready-made tools for
-  Unicode handling and internationalization.
+summary: ICU is a widely used collection of ready-made code that products reuse to handle text and local conventions in many languages, such as formatting a date or sorting a list.
 related:
   - cldr
   - collation
@@ -17,11 +15,14 @@ related:
   - locale
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18T00:00:00.000Z
+updated: 2026-10-13
 contributors:
   - sam-gordashko
 further_reading:
-  - title: 'ICU: International Components for Unicode'
+  - title: "Formatting Messages (ICU User Guide)"
+    url: https://unicode-org.github.io/icu/userguide/format_parse/messages/
+    type: code
+  - title: "ICU: International Components for Unicode"
     url: https://icu.unicode.org/
     type: authority
 license: CC-BY-4.0
@@ -33,20 +34,56 @@ tags:
 
 ## Definition
 
-ICU is a widely used software library that provides ready-made tools for Unicode handling and internationalization.
+ICU is a widely used collection of ready-made code that products reuse to handle text and local conventions in many languages, such as formatting a date or sorting a list.<sup>1</sup>
 
-## Why it matters
+The letters stand for International Components for Unicode.<sup>2</sup> [Unicode](../text-in-software/unicode.md) is the standard that gives every character a number. Developers call a collection of reusable code like this one a library.
 
-International Components for Unicode gives developers reusable services for formatting dates, numbers, and currencies, sorting text ([collation](collation.md)), segmenting text ([segmentation](../text-in-software/segmentation.md)), and converting between encodings, so they do not have to reimplement these per language. It is maintained as a technical committee of the Unicode Consortium and draws its locale data from [cldr](cldr.md). Because ICU is built into many operating systems, browsers, and programming languages, a lot of the i18n behavior you rely on is ICU underneath.
+### Why it matters in design systems
 
-## Example
+Your phone shows today's date the way you expect it, in every app, including apps made by people who have never seen your language. Those people did not study how your language writes a date. Their code asked for "this date, for this reader", and something else handed back the finished text. Very often that something is ICU.
 
-Java's and .NET's date and number formatting are backed by ICU and CLDR data.
+The reader is described by a [locale](locale.md), a named set of preferences for one language as it is used in one place. Give ICU a value and a locale, and it does jobs like these:
 
-## Related terms
+| Job | What ICU does |
+| --- | ------------- |
+| Formatting | Writes a number, a date, a time or an amount of money the way the locale expects, including the names of months and days in that language.<sup>3</sup> |
+| Sorting | Compares two pieces of text by the conventions of a language or a region, so that a list comes out in the order its readers expect.<sup>4</sup> This is called [collation](collation.md). |
+| Calendars | Works with calendars other than the Gregorian one.<sup>5</sup> |
+| Finding boundaries | Finds where words and sentences begin and end, and where a line of text may be broken.<sup>6</sup> This is called [segmentation](../text-in-software/segmentation.md). |
 
-[CLDR](cldr.md) · [Collation](collation.md) · [Locale](locale.md) · [Segmentation](../text-in-software/segmentation.md)
+ICU is the code, and it holds no opinions of its own about any language. The conventions come from somewhere else: a shared public collection of each language's conventions called [CLDR](cldr.md). ICU's sorting uses the rules recorded there,<sup>7</sup> and so does its formatting.<sup>8</sup> The two names are often said in one breath, so keep them apart like this: CLDR is the data, and ICU is software that uses the data. A wrong month name is a data question. A product that ignores the reader's locale altogether is a code question.
 
-## Further reading
+Most products reach ICU indirectly. An app asks the operating system to format a date, the operating system calls ICU, and ICU reads CLDR.<sup>9</sup> ICU is also not the only code that reads CLDR, since other programming languages have libraries of their own that do the same job.<sup>10</sup> Web pages get a similar set of services from the browser, covering comparing text, formatting numbers, and formatting dates and times.<sup>11</sup>
 
+The place a designer or a writer is most likely to meet ICU by name is in the text sent to translators. ICU has a way of writing one message that holds several versions of a sentence, and the software picks a version by a number, following the plural rules of the language.<sup>12</sup> One message can hold both `{host} invites {guest} to her party.` and `{host} invites {guest} and # other people to her party.`<sup>13</sup> The words in curly brackets and the `#` are slots, filled in when the message is shown.
+
+This is where ICU reaches into design. A message has to be written and translated as one whole unit, because translators move the slots around to suit the grammar of their language.<sup>14</sup> A component that builds a sentence out of separate pieces, a number here and a fixed word there, takes that freedom away, and the result reads wrongly in languages whose word order or plural forms differ from the one it was designed in. So design text components to hold whole sentences with slots in them, and write each version of the sentence out in full.<sup>15</sup>
+
+***
+
+### Related terms and mentions
+
+[Character](../text-in-software/character.md) · [CLDR](cldr.md) · [Collation](collation.md) · [Internationalization](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Locale](locale.md) · [Localization](localization.md) · [Segmentation](../text-in-software/segmentation.md) · [Unicode](../text-in-software/unicode.md) · [Multi-language products](../multi-language-products/)
+
+### Further reading
+
+* Code & specs: [Formatting Messages (ICU User Guide)](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
 * Foundations: [ICU: International Components for Unicode](https://icu.unicode.org/)
+
+### Sources
+
+1. "ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
+2. "libraries (such as the International Components for Unicode (ICU) libraries), to enable one single program to work with text in any language for any place in the world" - Introduction to ICU, ICU User Guide [https://unicode-org.github.io/icu/userguide/icu/](https://unicode-org.github.io/icu/userguide/icu/)
+3. "Format numbers, dates, times and currency amounts according the conventions of a chosen locale. This includes translating month and day names into the selected language" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
+4. "Compare strings according to the conventions and standards of a particular language, region or country" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
+5. "Multiple types of calendars are provided beyond the traditional Gregorian calendar" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
+6. "Locate the positions of words, sentences, paragraphs within a range of text, or identify locations that would be suitable for line wrapping when displaying the text" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
+7. "ICU's collation is based on the Unicode Collation Algorithm plus locale-specific comparison rules from the Common Locale Data Repository" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
+8. "This data also comes from the Common Locale Data Repository" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
+9. "an application uses an operating system service (eg, to format a date), which calls an ICU library (Unicode’s production code for C, C++, Java, and Rust), which then uses CLDR" - Unicode CLDR Project: Who uses CLDR? [https://cldr.unicode.org/](https://cldr.unicode.org/)
+10. "There are other libraries for other programming languages, such as Babel (Python), TwitterCLDR (Ruby), and Unicode::CLDR (Perl)" - Unicode CLDR Project: Who uses CLDR? [https://cldr.unicode.org/](https://cldr.unicode.org/)
+11. "the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, date and time formatting, and more" - Intl (MDN) [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)
+12. "Use a "plural" argument to select sub-messages based on a numeric value, together with the plural rules for the specified language" - Formatting Messages, ICU User Guide [https://unicode-org.github.io/icu/userguide/format_parse/messages/](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
+13. "=1 {{host} invites {guest} to her party.}" and "other {{host} invites {guest} and # other people to her party.}" - Formatting Messages, ICU User Guide [https://unicode-org.github.io/icu/userguide/format_parse/messages/](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
+14. "a message has to be written and translated as a single unit, typically a string with placeholder syntax for the variable elements" - Formatting Messages, ICU User Guide [https://unicode-org.github.io/icu/userguide/format_parse/messages/](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
+15. "use complex arguments as the outermost structure of a message, and write full sentences in their sub-messages" - Formatting Messages, ICU User Guide [https://unicode-org.github.io/icu/userguide/format_parse/messages/](https://unicode-org.github.io/icu/userguide/format_parse/messages/)

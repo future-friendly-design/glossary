@@ -41,6 +41,7 @@ A product needs a way to say which language and which regional conventions it is
 
 * [CLDR](../text-for-digital-products-and-the-web/cldr.md)
 * [ICU](../text-for-digital-products-and-the-web/icu.md)
+* [Language tag](../text-for-digital-products-and-the-web/language-tag.md)
 * [Locale](../text-for-digital-products-and-the-web/locale.md)
 
 #### What changes when the language changes
