@@ -40,18 +40,18 @@ The letters stand for International Components for Unicode.<sup>2</sup> [Unicode
 
 ### Why it matters in design systems
 
-Your phone shows today's date the way you expect it, in every app, including apps made by people who have never seen your language. Those people did not study how your language writes a date. Their code asked for "this date, for this reader", and something else handed back the finished text. Very often that something is ICU.
+Your phone shows today's date the way you expect it, in most apps, including apps made by people who have never seen your language. Those people did not study how your language writes a date. Their code asked for "this date, for this reader", and something else handed back the finished text. Often that something is ICU.
 
-The reader is described by a [locale](locale.md), a named set of preferences for one language as it is used in one place. Give ICU a value and a locale, and it does jobs like these:
+The reader is described by a [locale](locale.md), a short code that names the preferences of one language as it is used in one place. Give ICU a value and a locale, and it does jobs like these:
 
 | Job | What ICU does |
 | --- | ------------- |
 | Formatting | Writes a number, a date, a time or an amount of money the way the locale expects, including the names of months and days in that language.<sup>3</sup> |
 | Sorting | Compares two pieces of text by the conventions of a language or a region, so that a list comes out in the order its readers expect.<sup>4</sup> This is called [collation](collation.md). |
-| Calendars | Works with calendars other than the Gregorian one.<sup>5</sup> |
+| Calendars | Works with calendars other than the Gregorian one, the calendar of twelve months that runs from January to December.<sup>5</sup> |
 | Finding boundaries | Finds where words and sentences begin and end, and where a line of text may be broken.<sup>6</sup> This is called [segmentation](../text-in-software/segmentation.md). |
 
-ICU is the code, and it holds no opinions of its own about any language. The conventions come from somewhere else: a shared public collection of each language's conventions called [CLDR](cldr.md). ICU's sorting uses the rules recorded there,<sup>7</sup> and so does its formatting.<sup>8</sup> The two names are often said in one breath, so keep them apart like this: CLDR is the data, and ICU is software that uses the data. A wrong month name is a data question. A product that ignores the reader's locale altogether is a code question.
+ICU is the code. The conventions it follows when it sorts and formats come from somewhere else: a shared public collection of each language's conventions called [CLDR](cldr.md). ICU's sorting uses the rules recorded there,<sup>7</sup> and so does its formatting.<sup>8</sup> The two names are often used together, so keep them apart like this: CLDR is the data, and ICU is software that uses the data. A wrong month name is a data question. A product that ignores the reader's locale altogether is a code question.
 
 Most products reach ICU indirectly. An app asks the operating system to format a date, the operating system calls ICU, and ICU reads CLDR.<sup>9</sup> ICU is also not the only code that reads CLDR, since other programming languages have libraries of their own that do the same job.<sup>10</sup> Web pages get a similar set of services from the browser, covering comparing text, formatting numbers, and formatting dates and times.<sup>11</sup>
 

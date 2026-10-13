@@ -27,7 +27,7 @@ license: CC-BY-4.0
 
 A language tag is a short code that labels a piece of text with the language it is in.<sup>1</sup>
 
-The code is built from pieces joined by hyphens.<sup>2</sup> The first piece always names the language.<sup>3</sup> Each piece after it narrows the meaning.<sup>4</sup> Two kinds of later piece matter most in design work. One names the [script](../../language-terms/writing-systems-and-scripts/script.md), the set of symbols the text is written in, such as Latin or Cyrillic. The other names a region, for the version of the language used in one place.
+The code is built from pieces separated by hyphens.<sup>2</sup> The first piece always names the language.<sup>3</sup> Each piece after it narrows the meaning.<sup>4</sup> Two kinds of later piece matter most in design work. One names the [script](../../language-terms/writing-systems-and-scripts/script.md), the set of symbols the text is written in, such as Latin or Cyrillic. The other names a region, for the version of the language used in one place.
 
 ### Why it matters in design systems
 
@@ -37,14 +37,14 @@ The label is not decoration. Software reads it and changes what it does with the
 
 | What the reader notices | What the software does with the tag |
 | ----------------------- | ----------------------------------- |
-| The shapes of the characters | Chinese, Japanese and Korean text can be stored as the same character, yet readers of each language expect it to be drawn a little differently.<sup>6</sup> Some browsers use the tag to choose a font with the shapes that language expects.<sup>7</sup> |
+| The shapes of the characters | Chinese, Japanese and Korean share many characters, and a shared character is stored the same way whichever language it is in. Yet readers of each language expect it to be drawn a little differently.<sup>6</sup> Some browsers use the tag to choose a font with the shapes that language expects.<sup>7</sup> |
 | Words broken across two lines | Breaking a long word with a hyphen follows rules that differ by language, so a browser is only expected to do it for text whose language it has been told.<sup>8</sup> |
 | Text read aloud | A screen reader is software that reads the screen aloud, used by people who cannot see it. The tag tells it which language's pronunciation rules to load.<sup>9</sup> |
 | Spelling | A spelling checker can check the text against the right language, or leave alone text in a language it does not know.<sup>10</sup> |
 
-Leave the tag off, or leave the wrong one on, and each of these goes wrong quietly. The page still appears. It is read aloud in the wrong accent, set in shapes meant for a neighbouring language, and never hyphenated.
+Leave the tag off, or leave the wrong one on, and each of these goes wrong quietly. The page still appears. It is read aloud with another language's pronunciation, drawn in shapes meant for another language, and never hyphenated.
 
-A language tag is often confused with a [locale](locale.md). A locale is a set of preferences for one language as used in one place, covering things such as how dates and numbers are written, and it is named by a code that is usually a language tag.<sup>11</sup> So one code can do two jobs. As a language tag it describes the text: this paragraph is in French. As the name of a locale it describes the reader: this person expects dates the way they are written in Canada. A design has to get both right, and they are not always the same code.
+A language tag is often confused with a [locale](locale.md). A locale is a code that names a set of preferences, usually those of one language as it is used in one place, covering things such as how dates and numbers are written. A language tag can serve as that code.<sup>11</sup> So one code can do two jobs. As a language tag it describes the text: this paragraph is in French. As a locale it describes the reader: this person expects dates the way they are written in Canada. A design has to get both right, and they are not always the same code.
 
 ### Examples
 
@@ -56,23 +56,23 @@ Each row below adds one piece to the tag.
 | `ast` | language | Asturian. The code has three letters because this language has no two-letter code.<sup>13</sup> |
 | `fr-CA` | language, region | French as used in Canada<sup>14</sup> |
 | `az-Latn` | language, script | Azerbaijani written in the Latin script. Azerbaijani can also be written in the Arabic or Cyrillic script, so the script is worth stating.<sup>15</sup> |
-| `zh-Hant-HK` | language, script, region | Chinese in Traditional characters, as used in Hong Kong<sup>16</sup> |
+| `zh-Hant-HK` | language, script, region | Chinese in the Traditional form of its characters, as used in Hong Kong<sup>16</sup> |
 
 The order is fixed: language first, then script, then region.<sup>17</sup> The capital letters are a habit that makes tags easier to read, with the language in lower case, the script starting with a capital and the region in capitals, and they do not change the meaning.<sup>18</sup>
 
 A longer tag is not a better one. The rule is to keep the tag as short as possible and to add a piece only when it separates this text from something else.<sup>19</sup> Japanese is `ja`, not `ja-JP`, unless it matters that this is the Japanese of Japan.
 
-The pieces are not made up by each product. They are all listed in one public file, the IANA Language Subtag Registry.<sup>20</sup> The language pieces follow an international standard list of language codes called ISO 639.<sup>21</sup> A language gets its two-letter code if it has one, and a three-letter code if it does not.<sup>22</sup> Thousands of those three-letter codes come from the part of that standard called [ISO 639-3](../../language-terms/linguistics/iso-639-3.md).<sup>23</sup> This is the point that matters most to a language community: a language with no two-letter code is not a language that cannot be tagged.
+The pieces are not made up by each product. They are all listed in one public file, the IANA Language Subtag Registry.<sup>20</sup> A language gets its two-letter code if it has one, and a three-letter code if it does not.<sup>21</sup> Thousands of those three-letter codes come from a standard list of language codes called [ISO 639-3](../../language-terms/linguistics/iso-639-3.md).<sup>22</sup> This is the point that matters most to a language community: a language with no two-letter code is not a language that cannot be tagged.
 
 ### Common mistake
 
-Using a region to stand in for a script. For years, Chinese text was labelled `zh-CN`, which means Chinese as spoken in China, when what people meant was "written in Simplified characters", even for text from Singapore.<sup>24</sup> A region says where a language is used. A script says which symbols it is written in. When the difference you care about is the writing, say so with a script piece: `zh-Hans` for Simplified and `zh-Hant` for Traditional.<sup>25</sup>
+Using a region to stand in for a script. Chinese is written in two forms of its characters, called Simplified and Traditional. For years, people labelled Simplified text `zh-CN`, which means Chinese as spoken in China, even when the text came from Singapore.<sup>23</sup> A region says where a language is used. A script says which symbols it is written in. When the difference you care about is the writing, say so with a script piece: `zh-Hans` for Simplified and `zh-Hant` for Traditional.<sup>24</sup>
 
 ### In practice
 
-* **Label the page, then label the exceptions.** Give the whole page one tag for its main language, which accessibility guidelines require.<sup>26</sup> Then give a separate tag to any part in another language: a quoted phrase, a person's name, each language's own name in a language picker.<sup>27</sup>
-* **Look the pieces up; do not guess them.** A language code and a country code can look alike and mean different things. `ja` is the language Japanese,<sup>28</sup> and `JP` is the region Japan.<sup>29</sup> Search the registry for the language by its English name and check that the entry you found is the right type.
-* **Write the tag into the design.** When a component shows text in more than one language, note the tag for each part in the handoff, next to the font and the colour. A tag is easy to add while the content is being made and hard to add afterwards.<sup>30</sup>
+* **Label the page, then label the exceptions.** Give the whole page one tag for its main language, which accessibility guidelines require.<sup>25</sup> Then give a separate tag to any part in another language: a quoted phrase, the title of a book, each language's own name in a language picker.<sup>26</sup>
+* **Look the pieces up; do not guess them.** A language code and a country code can look alike and mean different things. `ja` is the language Japanese,<sup>27</sup> and `JP` is the region Japan.<sup>28</sup> Search the registry for the language by its English name and check that the entry you found is the right type.
+* **Write the tag into the design.** When a component shows text in more than one language, note the tag for each part in the handoff, next to the font and the colour. A tag is easy to add while the content is being made and hard to add afterwards.<sup>29</sup>
 
 ***
 
@@ -107,13 +107,12 @@ Using a region to stand in for a script. For years, Chinese text was labelled `z
 18. "language tags are lower case, alphabetic region subtags are upper case, and script subtags begin with an initial capital. This is only a convention!" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
 19. "The golden rule when creating language tags is to keep the tag as short as possible. Avoid region, script or other subtags except where they add useful distinguishing information" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
 20. "now you can find all subtags in the IANA Language Subtag Registry" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
-21. "These codes come from, and are kept up to date with, ISO 639 language codes" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
-22. "If a two-letter ISO code is available, this will be the one in the registry. Otherwise the registry will contain one three-letter code" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
-23. "When RFC 5646 was published, over 7,000 new ISO 639-3 three-letter codes were added to the Subtag Registry" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
-24. "People had to bend something like zh-CN (meaning Chinese as spoken in China) to mean Simplified Chinese, even in Singapore" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
-25. "The availability of zh-Hans and zh-Hant for Chinese written in Simplified and Traditional scripts should improve consistency and accuracy" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
-26. "The default human language of each web page can be programmatically determined" - Understanding Success Criterion 3.1.1: Language of Page, W3C Web Accessibility Initiative [https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html)
-27. "When the page contains content in another language, add a language attribute to an element surrounding that content" - Declaring language in HTML, W3C Internationalization [https://www.w3.org/International/questions/qa-html-language-declarations](https://www.w3.org/International/questions/qa-html-language-declarations)
-28. "Type: language Subtag: ja Description: Japanese" - IANA Language Subtag Registry [https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
-29. "Type: region Subtag: JP Description: Japan" - IANA Language Subtag Registry [https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
-30. "It is simple to do when creating content, but more difficult to retrofit later" - Why use the language attribute?, W3C Internationalization [https://www.w3.org/International/questions/qa-lang-why](https://www.w3.org/International/questions/qa-lang-why)
+21. "If a two-letter ISO code is available, this will be the one in the registry. Otherwise the registry will contain one three-letter code" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
+22. "When RFC 5646 was published, over 7,000 new ISO 639-3 three-letter codes were added to the Subtag Registry" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
+23. "People had to bend something like zh-CN (meaning Chinese as spoken in China) to mean Simplified Chinese, even in Singapore" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
+24. "The availability of zh-Hans and zh-Hant for Chinese written in Simplified and Traditional scripts should improve consistency and accuracy" - Language tags in HTML and XML, W3C Internationalization [https://www.w3.org/International/articles/language-tags/](https://www.w3.org/International/articles/language-tags/)
+25. "The default human language of each web page can be programmatically determined" - Understanding Success Criterion 3.1.1: Language of Page, W3C Web Accessibility Initiative [https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html)
+26. "When the page contains content in another language, add a language attribute to an element surrounding that content" - Declaring language in HTML, W3C Internationalization [https://www.w3.org/International/questions/qa-html-language-declarations](https://www.w3.org/International/questions/qa-html-language-declarations)
+27. "Type: language Subtag: ja Description: Japanese" - IANA Language Subtag Registry [https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+28. "Type: region Subtag: JP Description: Japan" - IANA Language Subtag Registry [https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+29. "It is simple to do when creating content, but more difficult to retrofit later" - Why use the language attribute?, W3C Internationalization [https://www.w3.org/International/questions/qa-lang-why](https://www.w3.org/International/questions/qa-lang-why)

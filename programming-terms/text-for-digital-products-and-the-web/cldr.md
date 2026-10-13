@@ -24,13 +24,13 @@ license: CC-BY-4.0
 
 CLDR is a shared public collection of data that records each language's everyday conventions, such as how a date or a number is written, so that software can follow them.<sup>1</sup>
 
-The letters have long stood for Common Locale Data Repository,<sup>2</sup> and the project's own site now spells them out as Common Locale Data & Rules.<sup>3</sup> A [locale](locale.md) is a named set of preferences for one language as it is used in one place. CLDR sits beside [Unicode](../text-in-software/unicode.md), the standard that gives every character a number: Unicode looks after the characters, and CLDR looks after the languages that use them and their regional differences.<sup>4</sup>
+The project's specification spells the letters out as Common Locale Data Repository,<sup>2</sup> and the project's own site now spells them out as Common Locale Data & Rules.<sup>3</sup> A [locale](locale.md) is a short code, such as `en-IN`, that names the preferences of one language as it is used in one place. CLDR sits beside [Unicode](../text-in-software/unicode.md), the standard that gives every character a number: Unicode looks after the characters, and CLDR looks after the languages that use them and their regional differences.<sup>4</sup>
 
-<!-- NEEDS EXPERT REVIEW: the expansion of the name is in transition. cldr.unicode.org (fetched 2026-10-13) says "Common Locale Data & Rules"; the released UTS #35 v48.2 still says "Common Locale Data Repository". Re-check when CLDR 49 is released. -->
+<!-- NEEDS EXPERT REVIEW: the expansion of the name is in transition. cldr.unicode.org (fetched 2026-10-13) says "Common Locale Data & Rules" and titles the specification "UTS #35: Unicode Common Locale Data & Rules (CLDR)"; the released UTS #35 v48.2 and the proposed v49 draft (tr35-79, 2026-09-24) both still say "Common Locale Data Repository", as do icu.unicode.org and the W3C Internationalization Glossary. Re-check when CLDR 49 is released. -->
 
 ### Why it matters in design systems
 
-Look at a list of files on a phone. Each file has a date beside it, a size, and a place in alphabetical order.<sup>5</sup> Change the phone's language and all three change, and the people who built the file list almost certainly worked out none of it themselves, because it is usually supplied by CLDR.<sup>6</sup>
+Look at a list of files on a phone. Each file has a date beside it, a size, and a place in alphabetical order.<sup>5</sup> Change the phone's language and all three change. The people who built the file list probably worked out none of it themselves, because all three are usually supplied by CLDR.<sup>6</sup>
 
 There are far too many of these conventions for one product team to collect, and they are easy to get wrong for a language nobody on the team reads. So the collecting is done once, in public, and every product shares the result.
 
@@ -42,11 +42,11 @@ Counting shows how much there is to get wrong. English has two forms for a count
 | English  | Two forms: one for 1, and one for everything else<sup>8</sup> |
 | Arabic   | Six forms, which CLDR labels zero, one, two, few, many and other<sup>9</sup> |
 
-A label such as "3 items" is therefore not a number with a fixed word after it. In Arabic the word after the number can take six shapes, and software that only knows about two will pick the wrong one.
+A label such as "3 items" is therefore not a number with a fixed word after it. In Arabic the word after the number can take six forms, and software that only knows about two will pick the wrong one.
 
-Plural forms are one kind of entry among many. CLDR also holds how each language writes dates, numbers, money and units of measurement,<sup>10</sup> and the order in which it sorts a list.<sup>11</sup> Sorting has its own entry, [collation](collation.md).
+Plural forms are one kind of entry among many. CLDR also holds how each language writes dates, numbers, money and units of measurement,<sup>10</sup> and the order in which it sorts a list.<sup>11</sup> This glossary covers sorting under [collation](collation.md).
 
-CLDR is data, and data does nothing by itself. Software has to read it and apply it. One widely used piece of software that does so is [ICU](icu.md), a collection of ready-made code that developers build into their products. The pair is easy to confuse, so here it is plainly: CLDR is the record of the conventions, and ICU is software that uses the record. The usual path is a chain. An app asks the operating system to format a date, the operating system calls ICU, and ICU reads CLDR.<sup>12</sup> That is how CLDR reaches nearly every screen while most designers and developers never open it.<sup>13</sup>
+CLDR is data, and data does nothing by itself. Software has to read it and apply it. One widely used piece of software that does so is [ICU](icu.md), a collection of ready-made code that developers build into their products. The pair is easy to confuse. CLDR is the record of the conventions, and ICU is software that uses the record. The usual path is a chain. An app asks the operating system to format a date, the operating system calls ICU, and ICU reads CLDR.<sup>12</sup> That is why most developers use CLDR without ever opening it.<sup>13</sup>
 
 The data is written by people. Speakers of each language enter and check it through a website called the Survey Tool.<sup>14</sup> The tool is usually open once a year.<sup>15</sup> Members of the public are invited to take part, and that includes proposing data for a language that is not in CLDR yet.<sup>16</sup> Anyone can look at the data for a language without an account, and an account is needed only to propose a change.<sup>17</sup> A native speaker of a language other than American English who does not belong to a member organization can get a guest account.<sup>18</sup>
 
@@ -77,7 +77,7 @@ For design work, two habits follow. When a date, a number or a plural looks wron
 7. The Japanese row lists a single cardinal category, "other", and no others - Language Plural Rules, CLDR 48 charts [https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html](https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html)
 8. "Some languages have two forms, like English; some languages have only a single form; and some languages have multiple forms" - Plural Rules, Unicode CLDR Project [https://cldr.unicode.org/index/cldr-spec/plural-rules](https://cldr.unicode.org/index/cldr-spec/plural-rules)
 9. The Arabic row lists six cardinal categories: "zero", "one", "two", "few", "many" and "other" - Language Plural Rules, CLDR 48 charts [https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html](https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html)
-10. "Formatting dates, numbers, currencies, and units of measurement is far more complicated across different languages and regions than most people recognize" - Unicode CLDR Project: What is CLDR? [https://cldr.unicode.org/](https://cldr.unicode.org/)
+10. "the data associated with this id provides support for formatting and parsing of dates, times, numbers, and currencies; for measurement units" - Unicode Technical Standard #35, version 48.2: What is a Locale? [https://www.unicode.org/reports/tr35/tr35-78/tr35.html#Locale](https://www.unicode.org/reports/tr35/tr35-78/tr35.html#Locale)
 11. "it also describes how plurals work in various languages and variations in how lists are alphabetized" - Unicode CLDR Project: What is CLDR? [https://cldr.unicode.org/](https://cldr.unicode.org/)
 12. "an application uses an operating system service (eg, to format a date), which calls an ICU library (Unicode’s production code for C, C++, Java, and Rust), which then uses CLDR" - Unicode CLDR Project: Who uses CLDR? [https://cldr.unicode.org/](https://cldr.unicode.org/)
 13. "Most developers will use CLDR indirectly, via a set of software libraries" - Unicode CLDR Project: How to Use? [https://cldr.unicode.org/](https://cldr.unicode.org/)
