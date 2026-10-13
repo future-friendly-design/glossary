@@ -43,7 +43,7 @@ It is what makes a page of type look like one thing: the same proportions, the s
 
 When someone admires a poster and asks "what font is that?", the thing they are admiring is a typeface. Monotype, a type foundry, puts the whole difference in one line: "A font is what you use, and a typeface is what you see."<sup>3</sup>
 
-Most of the time the two words can stand in for each other and nothing goes wrong.<sup>4</sup> A design system is one of the places where they cannot, because it has to answer questions about looks and questions about files, and those questions usually land with different people:
+In everyday talk the two words are often used as if they meant the same thing.<sup>4</sup> A design system is one of the places where they cannot be, because it has to answer questions about looks and questions about files, and those questions usually land with different people:
 
 | Question | Typeface or fonts? |
 | -------- | ------------------ |
@@ -59,7 +59,7 @@ The web has its own words for this. CSS, the styling language of the web, calls 
 
 ### Common mistake
 
-Choosing a typeface in one script and assuming it will be there in the others. A typeface is drawn for particular scripts, and one drawn for the [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) has nothing to offer Thai or Arabic text. Extending a design to another [script](../../language-terms/writing-systems-and-scripts/script.md) is new design work, and it needs someone who knows how that script is written and read.<sup>10</sup> Even the shape of a family does not carry across. Italic belongs to some traditions and not to others, and fonts for Chinese, Japanese and Korean almost always come without one,<sup>11</sup> so a rule such as "use italic for emphasis" has nothing to call on in those scripts. A brand typeface is a decision for the scripts it was drawn for. Every other script the product uses needs a decision of its own.
+Choosing a typeface in one script and assuming it will be there in the others. A typeface is drawn for particular scripts, and one drawn for the [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) has nothing to offer Thai or Arabic text. Extending a design to another [script](../../language-terms/writing-systems-and-scripts/script.md) is new design work, and it needs someone who knows how that script is written and read.<sup>10</sup> Even the list of styles in a family does not carry across. Italic belongs to some traditions and not to others, and fonts for Chinese, Japanese and Korean almost always come without one,<sup>11</sup> so a rule such as "use italic for emphasis" has nothing to call on in those scripts. A brand typeface is a decision for the scripts it was drawn for. Every other script the product uses needs a decision of its own.
 
 ### In practice
 
@@ -71,7 +71,7 @@ Choosing a typeface in one script and assuming it will be there in the others. A
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Faux italic](../../programming-terms/text-for-digital-products-and-the-web/faux-italic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font weight](font-weight.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](script-typeface.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Variable font](variable-font.md) · [Fonts](../fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Faux italic](../../programming-terms/text-for-digital-products-and-the-web/faux-italic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font weight](font-weight.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](script-typeface.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Variable font](variable-font.md) · [Fonts](../fonts/)
 
 ### Further reading
 
