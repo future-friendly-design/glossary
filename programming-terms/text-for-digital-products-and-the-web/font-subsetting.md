@@ -4,10 +4,8 @@ slug: font-subsetting
 aliases:
   - subsetting
 level: advanced
-depth: deep
-summary: >-
-  Font subsetting reduces a font file's size by keeping only the characters a
-  page actually needs.
+depth: core
+summary: Font subsetting is the practice of making a smaller copy of a font file by keeping only the shapes and instructions needed for the characters a product expects to use.
 related:
   - font-coverage
   - fallback-font
@@ -15,16 +13,16 @@ related:
   - font
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18T00:00:00.000Z
+updated: 2026-10-13
 contributors:
   - sam-gordashko
 further_reading:
   - title: unicode-range (MDN)
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range
     type: code
-  - title: Subsetting (Google Fonts Knowledge)
-    url: https://fonts.google.com/knowledge/glossary/subsetting
-    type: resource
+  - title: Incremental Font Transfer (W3C)
+    url: https://www.w3.org/TR/IFT/
+    type: authority
 license: CC-BY-4.0
 tags:
   - typography
@@ -34,31 +32,58 @@ tags:
 
 ## Definition
 
-Font subsetting reduces a font file's size by keeping only the characters a page actually needs.
+Font subsetting is the practice of making a smaller copy of a font file by keeping only the shapes and instructions needed for the characters a product expects to use.<sup>1</sup>
 
-## Why it matters
+A subset is a smaller part taken from a whole set. A [font](font.md) is a file of drawn shapes, one or more for each character it covers, together with instructions for combining and placing those shapes. The smaller copy is called a subset font, or just a subset.
 
-A subset is a font file that carries a limited collection of glyphs rather than the full character set, which is one of the biggest wins available for web font performance. Google Fonts does this automatically, slicing families by `unicode-range` so a browser downloads only the pieces a page uses. The savings are large because most pages use a small fraction of a full font's glyphs.
+### Why it matters in design systems
 
-## Example
+A font is a file, and a file has to be downloaded before a page can use it. A font that covers many scripts can be a large file, and a page written in one language uses only a small part of it. Subsetting removes the rest so the page appears sooner. It is a sensible thing to do. It is also done out of the designer's sight, in the step that prepares a product for release, and services that host fonts often do it without being asked.<sup>2</sup>
 
-A subsetted WOFF2 of Roboto Regular can shrink from about 168KB to roughly 12KB by dropping unused glyphs.
+That is why it belongs in this glossary. Subsetting changes a font's [coverage](font-coverage.md), the set of characters it has shapes for, and the font you chose and tested is no longer the font your readers receive.
 
-## Common mistake
+There are two common ways to do it.
 
-Subsetting so aggressively that you cut glyphs the product actually needs: accented letters for other languages, currency symbols, punctuation, or whole scripts. The text then quietly falls back to another font or shows empty boxes. Subset to every language and character set you support, not just the characters visible in your test content. This is the direct tension with [font-coverage](font-coverage.md).
+| Way               | How it works                                                                                                                                                         | Who decides what a reader gets   |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| Cut it once       | One smaller file is made in advance from a list of characters. Everything not on the list is removed.                                                                | Whoever wrote the list.          |
+| Cut it into slices | The font is split into several files, each labelled with the characters it holds. The browser downloads a slice only when the page uses a character from it.<sup>3</sup> | The text on the page, each time. |
 
-## In practice
+On the web, the label on a slice is written in CSS, the language that sets how web pages look, with a setting called `unicode-range`. A browser is not allowed to use a slice for any character outside its label.<sup>4</sup>
 
-* **CSS:** `unicode-range` on `@font-face` splits a face into ranges; the browser downloads a range's file only if the page uses at least one character in it, and then downloads that whole slice (not a partial file). See [unicode-range (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range).
-* **Build and tokens:** if you self-host, treat subsetting as a deliberate build step (with tools like glyphhanger or fonttools) and keep the subset in sync with the languages you claim to support, so a build change does not silently drop coverage.
-* **With variable fonts:** a [variable-font](../../design-terms/typography/variable-font.md) cuts file count by packing styles together; subsetting cuts file size by dropping glyphs. The two compose, so you can do both.
+Both ways carry the same two risks, and neither risk produces an error message.
 
-## Related terms
+**The first risk is text nobody listed.** A list of characters is a prediction about what people will write, and people write their names. Suppose a subset kept only the letters English uses. Vietnamese is also written in Latin script, and in the phrase Tiếng Việt ("Vietnamese") the letters ế and ệ are not on that list. The software takes those two letters from some other font, called a [fallback font](fallback-font.md), and the rest from yours, so one word is drawn in two fonts. This has been called the "ransom note" effect.<sup>5</sup> For a script that was left out entirely, such as the Ethiopic in ሰላም ("selam", "peace"), the whole word goes to a fallback font, or to empty boxes, called [tofu](../../design-terms/typography/tofu.md), when the device has no font for it. The full font may have held every one of those shapes. The file that was shipped does not.
 
-[Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Variable font](../../design-terms/typography/variable-font.md)
+**The second risk is losing the instructions.** Many scripts need more than one shape per character. In Arabic script, the letters kāf ك, tāʾ ت and bāʾ ب connect when they form the word كتب, and the font holds the instructions that make them connect. A subsetting tool has settings for which of these instructions are kept and which are dropped.<sup>6</sup> Slicing has its own version of the problem, because instructions that link a character in one slice to a character in another can be lost.<sup>7</sup> For languages whose writing depends on these instructions, such as Arabic, Urdu and many languages of South Asia, slices have been reported to break the text often.<sup>8</sup> Every character still appears. The word is wrong.
 
-## Further reading
+<!-- NEEDS EXPERT REVIEW: sources 2, 5 and 8 are the HTTP Archive Web Almanac 2020, a secondary source. No specification states these two risks in so many words. Upgrade if a primary is found. -->
+
+Both failures are invisible to the team that caused them, because the team's own text was on the list. So the questions are worth asking before the font is shipped:
+
+* **What was the subset built from?** It should be built from the scripts and languages the product supports, including text people type in. It should never be built from the words that happen to be in the product today.
+* **Were the instructions for each script kept?** Ask for a real word in each supported script to be checked after subsetting, by someone who reads it.
+* **What happens to a character outside the subset?** There should be a named fallback font for each script, chosen on purpose.
+* **Is it tested again when the build changes?** A subset is made by a setting, and a setting can change without anyone looking at the text.
+
+***
+
+### Related terms and mentions
+
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Fonts](../../design-terms/fonts/)
+
+### Further reading
 
 * Code & specs: [unicode-range (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range)
-* Resource library: [Subsetting (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/subsetting)
+* Foundations: [Incremental Font Transfer (W3C)](https://www.w3.org/TR/IFT/)
+
+### Sources
+
+1. "A font subset is a modified version of a font file" "that contains only the data needed to render a subset of: the code points, layout features, and design-variation space" - Incremental Font Transfer, W3C Candidate Recommendation Draft, section 3.1 [https://www.w3.org/TR/IFT/#font-subset-dfn](https://www.w3.org/TR/IFT/#font-subset-dfn)
+2. "Hosted font solutions often perform a number of optimizations (like subsetting, removing OpenType features, and ensuring the smallest possible font format)" - Fonts, Web Almanac 2020 (HTTP Archive) [https://almanac.httparchive.org/en/2020/fonts](https://almanac.httparchive.org/en/2020/fonts)
+3. "If the page doesn't use any character in this range, the font is not downloaded; if it uses at least one, the whole font is downloaded" - unicode-range, MDN Web Docs [https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range)
+4. "User agents must not download or use the font for codepoints outside this set" - CSS Fonts Module Level 3, W3C Recommendation, section 4.5 [https://www.w3.org/TR/css-fonts-3/](https://www.w3.org/TR/css-fonts-3/)
+5. "risks a “ransom note” effect when the content uses characters supported by the font but not by the chosen subset" - Fonts, Web Almanac 2020 (HTTP Archive) [https://almanac.httparchive.org/en/2020/fonts](https://almanac.httparchive.org/en/2020/fonts)
+6. "Specify (=), add to (+=) or exclude from (-=) the comma-separated set of OpenType layout feature tags that will be preserved" - subset, fontTools documentation [https://fonttools.readthedocs.io/en/latest/subset/index.html](https://fonttools.readthedocs.io/en/latest/subset/index.html)
+7. "Unlike traditional font subsetting approaches Incremental Font Transfer retains the encoding of layout rules between segments" - Incremental Font Transfer, W3C Candidate Recommendation Draft, section 1 [https://www.w3.org/TR/IFT/](https://www.w3.org/TR/IFT/)
+8. "For languages which rely on glyph shaping, such as Arabic, Urdu and many Indic languages, static subsets frequently result in broken text rendering" - Fonts, Web Almanac 2020 (HTTP Archive) [https://almanac.httparchive.org/en/2020/fonts](https://almanac.httparchive.org/en/2020/fonts)

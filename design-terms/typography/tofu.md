@@ -6,22 +6,23 @@ aliases:
   - missing glyph box
 level: foundational
 depth: core
-summary: >-
-  Tofu is the empty box shown when no available font has a glyph for a
-  character.
+summary: Tofu is the nickname for the empty box that appears in place of a character when no font available to the software holds a shape for it.
 related:
   - glyph
   - font
   - font-coverage
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18T00:00:00.000Z
+updated: 2026-10-13
 contributors:
   - sam-gordashko
 further_reading:
-  - title: Tofu (Google Fonts Knowledge)
-    url: https://fonts.google.com/knowledge/glossary/tofu
-    type: resource
+  - title: "OpenType recommendations: Glyph 0, the .notdef glyph (Microsoft)"
+    url: https://learn.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph
+    type: code
+  - title: "The Unicode Standard 18.0, chapter 5: Implementation Guidelines"
+    url: https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/
+    type: authority
 license: CC-BY-4.0
 tags:
   - characters-encoding
@@ -31,20 +32,50 @@ tags:
 
 ## Definition
 
-Tofu is the empty box shown when no available font has a glyph for a character.
+Tofu is the nickname for the empty box that appears in place of a character when no font available to the software holds a shape for it.<sup>1</sup>
 
-## Why it matters
+For example, the Amharic greeting ሰላም ("selam", "peace") is written with three characters of [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). On a device with no font for Ethiopic, the same word looks like this: □□□.
 
-When text contains a character that the current font and its [fallback-font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md)s cannot draw, the renderer shows a placeholder, often a plain rectangle that designers nicknamed "tofu". The key thing it tells you: this is a missing [glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md), not a broken character or a bad encoding, so the fix is font coverage, not re-saving the file. Google's Noto font family is even named "No Tofu" because it aims to cover as many scripts as possible to eliminate these boxes.
+### Why it matters in design systems
 
-## Example
+A row of small empty rectangles where words should be is easy to dismiss as a glitch. For the person reading, it is their name, their message or their language that has been replaced by boxes, and they cannot read any of it.
 
-A page using a Latin-only font may show tofu boxes where Tibetan or emoji should appear.
+Each box stands for one real character. A [font](../../programming-terms/text-for-digital-products-and-the-web/font.md) is a file of drawn shapes, called [glyphs](../../programming-terms/text-for-digital-products-and-the-web/glyph.md), and it only has shapes for the characters its makers drew. The software received the character correctly and then could not find a font with a shape for it.<sup>2</sup> So the text itself is not damaged. Nothing needs to be typed again, and the same text will read correctly anywhere a suitable font is present.
 
-## Related terms
+The box is put there on purpose. Every font keeps one special shape to show when a character is missing,<sup>3</sup> and the recommended drawing for it is an empty rectangle, or a rectangle with a question mark or an X inside.<sup>4</sup> Some software shows the character's number in its place.<sup>5</sup> A visible box is far better than the alternative: if nothing were drawn, a reader would see what looks like a space and never learn that something is missing.<sup>6</sup>
 
-[Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md)
+Tofu is the last step of a longer search. Before showing a box, the software tries the font you chose, then any other fonts you listed, called [fallback fonts](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md), then the fonts on the device.<sup>7</sup> A box means all of them failed. This is why tofu is a matter of [font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md), the set of characters a font has shapes for, and why the same page can show boxes on one device and readable text on another.
 
-## Further reading
+Tofu is often confused with a different failure that looks just as broken.
 
-* Resource library: [Tofu (Google Fonts Knowledge)](https://fonts.google.com/knowledge/glossary/tofu)
+| What you see  | Example                    | What went wrong                                                                                                                                             | What fixes it                                    |
+| ------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Empty boxes   | □□□                        | No available font has a shape for these characters. This is tofu.                                                                                           | A font that covers the script.                   |
+| Wrong letters | `Ã©` where `é` should be | The stored numbers were turned back into characters using the wrong list. This is a [character encoding](../../programming-terms/text-in-software/character-encoding.md) failure.<sup>8</sup> | Reading the text with the encoding it was saved in. |
+
+The word also gave a well-known font collection its name. The [Noto fonts](noto-fonts.md) project says its name conveys Google's goal that people see "no more tofu".<sup>9</sup>
+
+When you see tofu in a product, treat it as a missing font and act on that. Find out which script the boxes belong to. Add a font for that script to the product's list of fonts on purpose, so the result does not depend on what each device has. And if the product used to show that text correctly, ask whether the font file was cut down to make it smaller, which is called [font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md), because a cut can remove the very shapes that are now missing.
+
+***
+
+### Related terms and mentions
+
+[Character](../../programming-terms/text-in-software/character.md) · [Character encoding](../../programming-terms/text-in-software/character-encoding.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Noto fonts](noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Fonts](../fonts/)
+
+### Further reading
+
+* Code & specs: [OpenType recommendations: Glyph 0, the .notdef glyph (Microsoft)](https://learn.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph)
+* Foundations: [The Unicode Standard 18.0, chapter 5: Implementation Guidelines](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/)
+
+### Sources
+
+1. "tofu being the nickname for the blank boxes that are shown when a computer or site lacks font support for a particular character" - More than 800 languages in a single typeface: creating Noto for Google, Monotype case study [https://www.monotype.com/resources/case-studies/more-than-800-languages-in-a-single-typeface-creating-noto-for-google](https://www.monotype.com/resources/case-studies/more-than-800-languages-in-a-single-typeface-creating-noto-for-google)
+2. "An implementation may receive a code point to which a character is assigned in the Unicode Standard, but be unable to render it, because it lacks a font for the code point or is otherwise incapable of rendering it appropriately" - The Unicode Standard, Version 18.0, section 5.3 Unknown and Missing Characters [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/)
+3. "character codes that do not correspond to any glyph in the font should be mapped to glyph index 0. The glyph at this location must be a special glyph representing a missing character, commonly known as .notdef" - cmap: Character to Glyph Index Mapping Table, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/cmap](https://learn.microsoft.com/en-us/typography/opentype/spec/cmap)
+4. "It is recommended that the shape of the .notdef glyph be either an empty rectangle, a rectangle with a question mark inside of it, or a rectangle with an “X”" - OpenType font recommendations, Glyph 0: the .notdef glyph (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph](https://learn.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph)
+5. "any unrenderable character can only be indicated by some placeholder, such as displaying the hexadecimal value of the code point" - The Unicode Standard, Version 18.0, section 5.3 Unknown and Missing Characters [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/)
+6. "This glyph should not be left without an outline as the user will only see what looks like a space if a glyph is missing and not be aware of the active font’s limitation" - OpenType font recommendations, Glyph 0: the .notdef glyph (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph](https://learn.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph)
+7. "If a document contains characters not supported by the character maps of the fonts contained in a font family list, a user agent may use a system font fallback procedure to locate an appropriate font that does. If no appropriate font can be found, some form of "missing glyph" character will be rendered by the user agent" - CSS Fonts Module Level 3, W3C Recommendation, section 3.1 [https://www.w3.org/TR/css-fonts-3/](https://www.w3.org/TR/css-fonts-3/)
+8. "Garbled or incorrectly rendered or processed characters, generally caused by using the wrong character encoding to interpret the bytes in a string or file" - Internationalization Glossary, W3C Group Note: Mojibake [https://www.w3.org/TR/i18n-glossary/#dfn-mojibake](https://www.w3.org/TR/i18n-glossary/#dfn-mojibake)
+9. "The name Noto is to convey Google’s goal that users see “no more tofu.”" - Noto fonts FAQ (the Noto project) [https://github.com/notofonts/noto-fonts/blob/main/FAQ.md](https://github.com/notofonts/noto-fonts/blob/main/FAQ.md)
