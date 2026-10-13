@@ -6,7 +6,7 @@ Between the characters a system stores and the text a person reads, something ha
 That step is called shaping.
 
 For a lot of Latin text, shaping looks like it does nothing: one character comes in, one glyph goes out, placed to the right of the last one.
-For most of the world's scripts it does a great deal.
+For many other scripts it has much more to work out.
 Letters change shape depending on their neighbours, marks are positioned over or under a base, pairs merge into a single form, and some vowel marks are drawn in a different order than they were typed.
 
 ### Why it matters
@@ -37,7 +37,7 @@ What shaping is, what does it, and which scripts need more of it than others.
 
 #### What shaping does to the glyphs
 
-Shaping either swaps glyphs for other glyphs, or moves them relative to one another. Those two jobs have names, because a font has to carry the instructions for each separately.
+Shaping swaps glyphs for other glyphs, moves them relative to one another, and in some scripts changes the order they are drawn in. A font carries the instructions for the first two jobs, in two separate lists. Changing the order is done by the shaping software.
 
 * [GPOS](../text-for-digital-products-and-the-web/gpos.md)
 * [GSUB](../text-for-digital-products-and-the-web/gsub.md)
@@ -46,6 +46,6 @@ Shaping either swaps glyphs for other glyphs, or moves them relative to one anot
 
 ### Where to go next
 
-* The instructions shaping relies on live inside the font file: see [Fonts](../../design-terms/fonts/).
+* Many of the instructions shaping relies on live inside the font file: see [Fonts](../../design-terms/fonts/).
 * The characters going into shaping are covered in [Text in software](../text-in-software/).
 * Which direction a line runs, and what happens when two directions meet, is covered in [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/).
