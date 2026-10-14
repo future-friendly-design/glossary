@@ -40,7 +40,7 @@ tags:
 
 A typeface is the design shared by a set of written symbols, such as letters, numbers and marks.<sup>1</sup>
 
-It is what makes a page of type look like one thing: the same proportions, the same kind of stroke, the same small details from one symbol to the next. A typeface is not a file. The files that carry a typeface into software are called [fonts](../../programming-terms/text-for-digital-products-and-the-web/font.md).<sup>2</sup> One typeface is usually delivered as several of them.
+It is what makes a page of type look like one thing: the same proportions, the same kind of stroke, the same small details from one symbol to the next. A typeface is not a file. The files that carry a typeface into software are called [fonts](font.md).<sup>2</sup> One typeface is usually delivered as several of them.
 
 ### Why it matters in design systems
 
@@ -48,13 +48,13 @@ When someone admires a poster and asks "what font is that?", the thing they are 
 
 In everyday talk the two words are often used as if they meant the same thing.<sup>4</sup> A design system is one of the places where they cannot be, because it has to answer questions about looks and questions about files, and those questions usually land with different people:
 
-| Question                                                                   | Typeface or fonts?                                                                               |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| What should our product look like?                                         | The typeface.                                                                                    |
-| What do we hold a licence for?                                             | The fonts. A licence is permission to use font software.<sup>5</sup>                             |
-| What does a page download?                                                 | The fonts, one file at a time.                                                                   |
-| What does a [token](../design-token.md) called "brand" or "body" point to? | A typeface, by its family name. Software then has to match that name to a font file.<sup>6</sup> |
-| Which languages can we show?                                               | The fonts, because the shapes are held in the files.<sup>7</sup>                                 |
+| Question                                                                                   | Typeface or fonts?                                                                               |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| What should our product look like?                                                         | The typeface.                                                                                    |
+| What do we hold a licence for?                                                             | The fonts. A licence is permission to use font software.<sup>5</sup>                             |
+| What does a page download?                                                                 | The fonts, one file at a time.                                                                   |
+| What does a [token](../../design-terms/design-token.md) called "brand" or "body" point to? | A typeface, by its family name. Software then has to match that name to a font file.<sup>6</sup> |
+| Which languages can we show?                                                               | The fonts, because the shapes are held in the files.<sup>7</sup>                                 |
 
 A typeface normally comes as a family, the same design in several weights, widths and slants.<sup>8</sup> Each member is delivered as its own font, unless the family is built as a [variable font](variable-font.md), where one file holds a range. So "we use this typeface" does not yet say which weights, which styles or which files, and a design system has to say all three.
 
@@ -68,13 +68,13 @@ Choosing a typeface in one script and assuming it will be there in the others. A
 
 * **Choose a companion typeface for each script.** For every script your languages are written in, pick a typeface that sits well beside the one you already have, in weight and in tone, and have someone who reads that script judge it. A person who cannot read the script can only compare shapes, not how the text reads.
 * **Name tokens by role, not by typeface.** A token called `font-family-body` can stand for one typeface in Latin text and another in Arabic text. A token named after a single typeface cannot do that without becoming untrue.
-* **Look at the family before you rely on it.** In Figma you choose the font family first, then a weight or style from the field directly beneath it.<sup>12</sup> That second menu shows what the family really has, and every family has its own selection.<sup>13</sup> A [weight](font-weight.md) or an italic that is missing there is missing in the product too, where software may fake it instead (see [faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) and [faux italic](../../programming-terms/text-for-digital-products-and-the-web/faux-italic.md)).
+* **Look at the family before you rely on it.** In Figma you choose the font family first, then a weight or style from the field directly beneath it.<sup>12</sup> That second menu shows what the family really has, and every family has its own selection.<sup>13</sup> A [weight](font-weight.md) or an italic that is missing there is missing in the product too, where software may fake it instead (see [faux bold](faux-bold.md) and [faux italic](faux-italic.md)).
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../design-token.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Faux italic](../../programming-terms/text-for-digital-products-and-the-web/faux-italic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font weight](font-weight.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](script-typeface.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Variable font](variable-font.md) · [Font terms](../../programming-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../../design-terms/design-token.md) · [Faux bold](faux-bold.md) · [Faux italic](faux-italic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font weight](font-weight.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Variable font](variable-font.md) · [Font terms](./)
 
 ### Further reading
 

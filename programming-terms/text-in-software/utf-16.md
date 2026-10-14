@@ -40,7 +40,7 @@ A 16-bit unit is a fixed-size storage slot that can hold a number up to 65,535. 
 
 ### Why it matters in design systems
 
-Which characters get one slot and which get two is not arbitrary. Unicode's numbering is cut into slices called [planes](plane-bmp.md), and the first slice, the Basic Multilingual Plane, holds most of the characters in everyday use. Characters in that first slice, U+0000 to U+FFFF, take a single 16-bit [code unit](../text-for-digital-products-and-the-web/code-unit.md); characters in the supplementary planes above U+FFFF take two, in the form of a [surrogate pair](surrogate-pair.md).<sup>2</sup> Since the BMP holds most of the common-use characters of all modern scripts,<sup>3</sup> UTF-16 behaves most of the time as though every character took exactly one slot,<sup>4</sup> which is exactly what makes it dangerous: code written on the assumption that one slot equals one character works fine right up until it does not.
+Which characters get one slot and which get two is not arbitrary. Unicode's numbering is cut into slices called [planes](plane-bmp.md), and the first slice, the Basic Multilingual Plane, holds most of the characters in everyday use. Characters in that first slice, U+0000 to U+FFFF, take a single 16-bit [code unit](code-unit.md); characters in the supplementary planes above U+FFFF take two, in the form of a [surrogate pair](surrogate-pair.md).<sup>2</sup> Since the BMP holds most of the common-use characters of all modern scripts,<sup>3</sup> UTF-16 behaves most of the time as though every character took exactly one slot,<sup>4</sup> which is exactly what makes it dangerous: code written on the assumption that one slot equals one character works fine right up until it does not.
 
 That assumption is baked into a lot of software. JavaScript strings are UTF-16, and a string's length is a count of UTF-16 code units rather than characters,<sup>5</sup> so anything outside the BMP counts double. Emoji are the familiar case, but so are historic scripts and recently encoded ones, including scripts that living language communities are actively working to bring into digital use.<sup>6</sup>
 
@@ -50,7 +50,7 @@ For a design system, the takeaway is not to avoid UTF-16, which is rarely your c
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [Text encoding & character terms](./)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Code unit](code-unit.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

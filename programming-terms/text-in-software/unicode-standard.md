@@ -36,7 +36,7 @@ It is one document set in four parts: the core specification, the code charts, t
 
 ### Why it matters in design systems
 
-Those four parts do different jobs, and knowing which one answers your question saves a lot of searching. The core specification gives the general principles, requirements for conformance, and guidelines for implementers. The code charts show representative [glyphs](../text-for-digital-products-and-the-web/glyph.md) for all the Unicode characters. The annexes, each a separate numbered document covering one aspect of text in detail, supply the information that anyone building software is required to follow. The Character Database supplies the normative and informative data implementers need.<sup>2</sup>
+Those four parts do different jobs, and knowing which one answers your question saves a lot of searching. The core specification gives the general principles, requirements for conformance, and guidelines for implementers. The code charts show representative [glyphs](../fonts/glyph.md) for all the Unicode characters. The annexes, each a separate numbered document covering one aspect of text in detail, supply the information that anyone building software is required to follow. The Character Database supplies the normative and informative data implementers need.<sup>2</sup>
 
 When an entry here explains how text is segmented, normalized, or laid out in two directions at once, it is citing an annex, and those annexes are the closest thing the field has to a shared rulebook. If you ever need to settle an argument about how text should behave, this is where the answer lives.
 
@@ -48,7 +48,7 @@ The Unicode Consortium was founded in 1988 and incorporated in 1991.<sup>5</sup>
 
 ### Related terms and mentions
 
-[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](character.md) · [Code point](code-point.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
+[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](character.md) · [Code point](code-point.md) · [Font](../fonts/font.md) · [Glyph](../fonts/glyph.md) · [Noto fonts](../fonts/noto-fonts.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

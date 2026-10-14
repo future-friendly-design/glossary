@@ -63,7 +63,7 @@ Checking bold only in the brand font. Most products show each script in a differ
 
 ### In practice
 
-* **Supply a real bold for every script you ship.** List the fonts the product uses for each script, and check each one has the weights your styles ask for. A [variable font](../../design-terms/typography/variable-font.md), one file that holds a range of weights, is a real bold as well: the weights were drawn by the designer, and the web does not count them as faked.<sup>11</sup>
+* **Supply a real bold for every script you ship.** List the fonts the product uses for each script, and check each one has the weights your styles ask for. A [variable font](variable-font.md), one file that holds a range of weights, is a real bold as well: the weights were drawn by the designer, and the web does not count them as faked.<sup>11</sup>
 * **Switch faking off where it does harm.** On the web, this is set in CSS, the code that styles web pages: `font-synthesis-weight: none` tells the browser not to fake bold.<sup>12</sup> It can be set for one language only, so Arabic text, for example, never gets a faked style.<sup>13</sup> Remember what the third row of the table shows: the text then appears in the regular font, so the emphasis needs another way to be seen.
 * **Look for it at a large size.** Set one word in the bold style, as large as the screen allows, beside the same word in a font you know has a real bold. Side by side, the difference between drawn and faked is much easier to see than it is in running text. Do this once for each script, in the browser and in each design tool your team uses.
 
@@ -71,7 +71,7 @@ Checking bold only in the brand font. Most products show each script in a differ
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../../design-terms/design-token.md) · [Fallback font](fallback-font.md) · [Faux italic](faux-italic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font weight](../../design-terms/typography/font-weight.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Typeface](../../design-terms/typography/typeface.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../../design-terms/design-token.md) · [Fallback font](fallback-font.md) · [Faux italic](faux-italic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font weight](font-weight.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Font terms](./)
 
 ### Further reading
 

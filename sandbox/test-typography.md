@@ -4,19 +4,19 @@
 
 ## Typefaces and fonts
 
-[**Typeface**](../design-terms/typography/typeface.md)
+[**Typeface**](../programming-terms/fonts/typeface.md)
 
 A typeface is the overall design of a set of letters, numbers, and symbols that share a common visual style.
 
-[**Font**](../programming-terms/text-for-digital-products-and-the-web/font.md)
+[**Font**](../programming-terms/fonts/font.md)
 
 A font is a specific style and weight of a typeface, today usually delivered as a digital file.
 
-[**Font weight**](../design-terms/typography/font-weight.md)
+[**Font weight**](../programming-terms/fonts/font-weight.md)
 
 Font weight is the thickness of a typeface's strokes, ranging from very thin to very heavy.
 
-[**Variable font**](../design-terms/typography/variable-font.md)
+[**Variable font**](../programming-terms/fonts/variable-font.md)
 
 A variable font is a single font file that can produce many styles by adjusting continuous sliders called axes.
 
@@ -80,29 +80,29 @@ Measure is the length of a line of text, usually counted in characters per line.
 
 Small caps are uppercase letter shapes drawn at roughly the height of lowercase letters.
 
-[**Figure styles**](../programming-terms/text-for-digital-products-and-the-web/figure-styles.md)
+[**Figure styles**](../design-terms/typography/figure-styles.md)
 
 Figure styles are the different designs a font offers for numerals, such as lining vs oldstyle and tabular vs proportional.
 
-[**Faux bold**](../programming-terms/text-for-digital-products-and-the-web/faux-bold.md)
+[**Faux bold**](../programming-terms/fonts/faux-bold.md)
 
 Faux bold is fake boldness made by thickening a regular font's strokes instead of using a real bold design.
 
-[**Faux italic**](../programming-terms/text-for-digital-products-and-the-web/faux-italic.md)
+[**Faux italic**](../programming-terms/fonts/faux-italic.md)
 
 Faux italic is a fake slant created by tilting a regular font's glyphs rather than using a real italic design.
 
 ## Font technology and coverage
 
-[**Font subsetting**](../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md)
+[**Font subsetting**](../programming-terms/fonts/font-subsetting.md)
 
 Font subsetting reduces a font file's size by keeping only the characters a page actually needs.
 
-[**Fallback font**](../programming-terms/text-for-digital-products-and-the-web/fallback-font.md)
+[**Fallback font**](../programming-terms/fonts/fallback-font.md)
 
 A fallback font is the next font a system uses when the preferred one is unavailable or missing a needed character.
 
-[**Font coverage**](../programming-terms/text-for-digital-products-and-the-web/font-coverage.md)
+[**Font coverage**](../programming-terms/fonts/font-coverage.md)
 
 Font coverage is the set of characters and languages a font can actually render.
 

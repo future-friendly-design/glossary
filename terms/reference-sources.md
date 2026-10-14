@@ -39,7 +39,7 @@ A guided tour of the reference sources in this glossary, grouped by what they an
 
 * **Language catalogues:** [Ethnologue](../language-terms/linguistics/ethnologue.md), [Glottolog](../language-terms/linguistics/glottolog.md), [UNESCO Atlas of the World's Languages in Danger](../language-terms/linguistics/unesco-atlas-of-the-worlds-languages-in-danger.md)
 * **The character standard:** [Unicode Standard](../programming-terms/text-in-software/unicode-standard.md)
-* **Multilingual font projects:** [Noto fonts](../design-terms/typography/noto-fonts.md), [SIL](../design-terms/typography/sil.md)
+* **Multilingual font projects:** [Noto fonts](../programming-terms/fonts/noto-fonts.md), [SIL](../programming-terms/fonts/sil.md)
 
 ## Further reading
 

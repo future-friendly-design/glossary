@@ -43,7 +43,7 @@ For example, the cedilla mark under the `c` in `façade` is a diacritic.
 
 A diacritic is a kind of [mark](mark.md), it attaches to a [symbol](symbol.md) within a [script](script.md) rather than standing on its own. Placed above, below, or through the symbol, it can signal stress, a different vowel sound, or [tone](tone-mark.md), and it can tell apart two words that would otherwise look the same.
 
-Like all marks, when a diacritic is added to a symbol, the individual piece of text takes up more space. When working with digital text, [fonts](../../programming-terms/text-for-digital-products-and-the-web/font.md) supporting symbols with diacritic marks may require larger [line height](../../design-terms/typography/line-height.md) values to avoid clipping.
+Like all marks, when a diacritic is added to a symbol, the individual piece of text takes up more space. When working with digital text, [fonts](../../programming-terms/fonts/font.md) supporting symbols with diacritic marks may require larger [line height](../../design-terms/typography/line-height.md) values to avoid clipping.
 
 For software, there are known issues with the way accented text is stored. [Unicode](../../programming-terms/text-in-software/unicode.md), the standard that gives every [character](../../programming-terms/text-in-software/character.md) (their term for a symbol) a unique number, describes accented text as being stored as a [precomposed character](../../programming-terms/text-in-software/precomposed-character.md), or as the plain letter plus a separate [combining mark](../../programming-terms/text-in-software/combining-mark.md).
 
@@ -53,7 +53,7 @@ So `café` can be stored two different ways that look identical on screen. Getti
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Combining mark](../../programming-terms/text-in-software/combining-mark.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Normalization](../../programming-terms/text-in-software/normalization.md) · [Precomposed character](../../programming-terms/text-in-software/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Writing systems & scripts](./)
+[Character](../../programming-terms/text-in-software/character.md) · [Combining mark](../../programming-terms/text-in-software/combining-mark.md) · [Font](../../programming-terms/fonts/font.md) · [Line height](../../design-terms/typography/line-height.md) · [Mark](mark.md) · [Normalization](../../programming-terms/text-in-software/normalization.md) · [Precomposed character](../../programming-terms/text-in-software/precomposed-character.md) · [Script](script.md) · [Symbol](symbol.md) · [Tone mark](tone-mark.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

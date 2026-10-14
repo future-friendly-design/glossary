@@ -35,7 +35,7 @@ Ethnologue is a comprehensive reference catalogue of the world's living language
 
 ### Why it matters in design systems
 
-Ethnologue, first issued in 1951 and published by [SIL Global](../../design-terms/typography/sil.md),<sup>1</sup> catalogues over 7,000 living languages (7,170 in the 2026 edition)<sup>2</sup> with speaker numbers, geographic distribution, and genetic classification. Its language codes were the base for the [ISO 639-3](iso-639-3.md) standard,<sup>3</sup> so it is a common first stop when you need to identify a language or estimate how many people use it. Two cautions before you rely on it for product decisions. First, a speaker number is only as good as its methodology and date, and it means different things for [L1](l1-speakers.md) than for [L2](l2-speakers.md) populations, so record which you are quoting. Second, since 2019 most of Ethnologue's content sits behind a paywall,<sup>4</sup> so [Glottolog](glottolog.md) is often used as an open complement.
+Ethnologue, first issued in 1951 and published by [SIL Global](../../programming-terms/fonts/sil.md),<sup>1</sup> catalogues over 7,000 living languages (7,170 in the 2026 edition)<sup>2</sup> with speaker numbers, geographic distribution, and genetic classification. Its language codes were the base for the [ISO 639-3](iso-639-3.md) standard,<sup>3</sup> so it is a common first stop when you need to identify a language or estimate how many people use it. Two cautions before you rely on it for product decisions. First, a speaker number is only as good as its methodology and date, and it means different things for [L1](l1-speakers.md) than for [L2](l2-speakers.md) populations, so record which you are quoting. Second, since 2019 most of Ethnologue's content sits behind a paywall,<sup>4</sup> so [Glottolog](glottolog.md) is often used as an open complement.
 
 ### Example
 
@@ -45,7 +45,7 @@ Checking how many people use a given language, you can look up its Ethnologue en
 
 ### Related terms and mentions
 
-[Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [SIL Global](../../design-terms/typography/sil.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](./) · [Reference sources](../../terms/reference-sources.md)
+[Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [SIL Global](../../programming-terms/fonts/sil.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](./) · [Reference sources](../../terms/reference-sources.md)
 
 ### Further reading
 

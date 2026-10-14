@@ -37,7 +37,7 @@ tags:
 
 ## Definition
 
-A ligature is a single [glyph](../text-for-digital-products-and-the-web/glyph.md), a shape in a font, that stands for two or more characters at once.<sup>1</sup>
+A ligature is a single [glyph](glyph.md), a shape in a font, that stands for two or more characters at once.<sup>1</sup>
 
 Ligatures are one of the results of [text shaping](../text-shaping-and-layout/text-shaping.md). Text shaping is the step in which software picks the right shapes from a font for a piece of text and decides where each one goes. A [shaping engine](../text-shaping-and-layout/shaping-engine.md), the software that does it, swaps the separate shapes for the single one.<sup>2</sup>
 
@@ -45,7 +45,7 @@ Some ligatures are a style choice, while others are part of how a [script](../..
 
 ### Why it matters in design systems
 
-Type "fi" in many fonts and look closely. The two letters appear as one merged shape: you typed two [characters](../text-in-software/character.md), and the software displayed one glyph from the [font](../text-for-digital-products-and-the-web/font.md). That glyph is a ligature.<sup>4</sup>
+Type "fi" in many fonts and look closely. The two letters appear as one merged shape: you typed two [characters](../text-in-software/character.md), and the software displayed one glyph from the [font](font.md). That glyph is a ligature.<sup>4</sup>
 
 In English this is an improvement, not a need, and nothing breaks if the two letters are shown apart.<sup>5</sup>
 
@@ -69,7 +69,7 @@ It helps to keep three levels apart:
 
 A ligature changes what is shown, not what is stored: the text still holds two characters, and they can be shown as two glyphs or as one.<sup>14</sup>
 
-The three kinds have short names, which you may see in design tools and in code: `rlig` for required, `liga` for standard and `dlig` for discretionary. Each one is a named group of instructions in the font, and these groups are called [OpenType features](../../design-terms/typography/opentype-features.md), after [OpenType](../../design-terms/typography/opentype.md), the most widely used font format.<sup>15</sup>
+The three kinds have short names, which you may see in design tools and in code: `rlig` for required, `liga` for standard and `dlig` for discretionary. Each one is a named group of instructions in the font, and these groups are called [OpenType features](opentype-features.md), after [OpenType](opentype.md), the most widely used font format.<sup>15</sup>
 
 A ligature is also not the same as [joining](../../language-terms/writing-systems-and-scripts/joining.md). In Arabic, most letters connect to their neighbours, but each letter keeps a glyph of its own. In a ligature, two or more glyphs are replaced by one.<sup>16</sup>
 
@@ -87,7 +87,7 @@ Treating ligatures as one switch. A type guideline that says "ligatures off" is 
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Complex text layout](../text-shaping-and-layout/complex-text-layout.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](../../design-terms/typography/opentype.md) · [OpenType features](../../design-terms/typography/opentype-features.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](../text-shaping-and-layout/shaping-engine.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Text shaping & layout terms](../text-shaping-and-layout/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Complex text layout](../text-shaping-and-layout/complex-text-layout.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](opentype.md) · [OpenType features](opentype-features.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](../text-shaping-and-layout/shaping-engine.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Text shaping & layout terms](../text-shaping-and-layout/)
 
 ### Further reading
 

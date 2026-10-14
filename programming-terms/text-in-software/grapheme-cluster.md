@@ -1,24 +1,34 @@
 ---
 term: Grapheme cluster
 slug: grapheme-cluster
-aliases: [user-perceived character]
-tags: [characters-encoding]
+aliases:
+  - user-perceived character
 level: intermediate
 depth: deep
-summary: A grapheme cluster is what a reader thinks of as one character, even if it is made of several code points.
-related: [character, code-point, combining-mark, normalization]
+summary: >-
+  A grapheme cluster is what a reader thinks of as one character, even if it is
+  made of several code points.
+related:
+  - character
+  - code-point
+  - combining-mark
+  - normalization
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-04
-contributors: [sam-gordashko]
+updated: 2026-08-04T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Intl.Segmenter (MDN)"
-    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter
+  - title: Intl.Segmenter (MDN)
+    url: >-
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter
     type: code
-  - title: "UAX #29: Unicode Text Segmentation"
+  - title: 'UAX #29: Unicode Text Segmentation'
     url: https://unicode.org/reports/tr29/
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # Grapheme cluster
@@ -41,7 +51,7 @@ That distinction is the reason this term earns a page in a design glossary rathe
 
 ### Common mistake
 
-Counting "characters" by code points, or worse by [UTF-16](utf-16.md) [code units](../text-for-digital-products-and-the-web/code-unit.md), and calling that the length. An accented symbol, a Devanagari syllable, and a flag emoji can each be several code points, so naive length checks, truncation, and cursor steps end up splitting a single written unit apart. Unicode's guidance is direct: where you need to show users a character count, it should match the number of grapheme clusters.<sup>6</sup> The length your programming language reports is rarely that number.
+Counting "characters" by code points, or worse by [UTF-16](utf-16.md) [code units](code-unit.md), and calling that the length. An accented symbol, a Devanagari syllable, and a flag emoji can each be several code points, so naive length checks, truncation, and cursor steps end up splitting a single written unit apart. Unicode's guidance is direct: where you need to show users a character count, it should match the number of grapheme clusters.<sup>6</sup> The length your programming language reports is rarely that number.
 
 ### In practice
 
@@ -53,7 +63,7 @@ Counting "characters" by code points, or worse by [UTF-16](utf-16.md) [code unit
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Combining mark](combining-mark.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Grapheme](grapheme.md) · [Language](../../language-terms/linguistics/language.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Spacing combining mark](spacing-combining-mark.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Tamil script](../../language-terms/writing-systems-and-scripts/tamil-script.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](code-unit.md) · [Combining mark](combining-mark.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Grapheme](grapheme.md) · [Language](../../language-terms/linguistics/language.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Spacing combining mark](spacing-combining-mark.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Tamil script](../../language-terms/writing-systems-and-scripts/tamil-script.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
 
 ### Further reading
 
@@ -68,4 +78,4 @@ Counting "characters" by code points, or worse by [UTF-16](utf-16.md) [code unit
 4. "When citing the Unicode definition of grapheme clusters, it must be clear which of the two alternatives are being specified: extended versus legacy" - Unicode Standard Annex #29 [https://www.unicode.org/reports/tr29/](https://www.unicode.org/reports/tr29/)
 5. "The extended grapheme clusters should be used in implementations in preference to legacy grapheme clusters, because they provide better results for Indic scripts such as Tamil or Devanagari in which editing by orthographic syllable is typically preferred" - Unicode Standard Annex #29 [https://www.unicode.org/reports/tr29/](https://www.unicode.org/reports/tr29/)
 6. "In those relatively rare circumstances where programmers need to supply end users with user-perceived character counts, the counts should correspond to the number of segments delimited by grapheme cluster boundaries" - Unicode Standard Annex #29 [https://www.unicode.org/reports/tr29/](https://www.unicode.org/reports/tr29/)
-7. "\"grapheme\" (default) Split the input into segments at grapheme cluster (user-perceived character) boundaries, as determined by the locale" - Intl.Segmenter() constructor, MDN [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Intl/Segmenter/Segmenter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/Segmenter)
+7. ""grapheme" (default) Split the input into segments at grapheme cluster (user-perceived character) boundaries, as determined by the locale" - Intl.Segmenter() constructor, MDN [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Intl/Segmenter/Segmenter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/Segmenter)

@@ -6,7 +6,9 @@ aliases:
   - ellipsis
 level: foundational
 depth: deep
-summary: Truncation is cutting text short so it fits the space it is given, usually with an ellipsis (…) to show that some of it is hidden.
+summary: >-
+  Truncation is cutting text short so it fits the space it is given, usually
+  with an ellipsis (…) to show that some of it is hidden.
 tool_names:
   figma: Truncate text
   css: text-overflow
@@ -17,20 +19,22 @@ related:
   - grapheme-cluster
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-14
+updated: 2026-10-14T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
   - title: text-overflow (MDN)
-    url: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-overflow
+    url: >-
+      https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-overflow
     type: code
-  - title: "Understanding SC 1.4.4: Resize Text (W3C WAI)"
+  - title: 'Understanding SC 1.4.4: Resize Text (W3C WAI)'
     url: https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html
     type: authority
 license: CC-BY-4.0
 tags:
   - i18n-engineering
 ---
+
 # Truncation
 
 ## Definition
@@ -67,7 +71,7 @@ Both can also cut text after a set number of lines instead of one: Figma calls i
 
 ### Common mistake
 
-Cutting text to a fixed number of characters in code, such as "the first 20 characters". In JavaScript, the length of a piece of text counts [code units](../text-for-digital-products-and-the-web/code-unit.md), the pieces a character is stored in, not the characters a reader sees.<sup>15</sup> A cut by that count can split an emoji or separate a symbol from its mark, so the reader sees a broken symbol before the ellipsis. Let the layout decide where to cut, or count grapheme clusters when a limit must be counted.
+Cutting text to a fixed number of characters in code, such as "the first 20 characters". In JavaScript, the length of a piece of text counts [code units](../text-in-software/code-unit.md), the pieces a character is stored in, not the characters a reader sees.<sup>15</sup> A cut by that count can split an emoji or separate a symbol from its mark, so the reader sees a broken symbol before the ellipsis. Let the layout decide where to cut, or count grapheme clusters when a limit must be counted.
 
 ### In practice
 
@@ -79,7 +83,7 @@ Cutting text to a fixed number of characters in code, such as "the first 20 char
 
 ### Related terms and mentions
 
-[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](../text-in-software/character.md) · [Code point](../text-in-software/code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Grapheme](../text-in-software/grapheme.md) · [Grapheme cluster](../text-in-software/grapheme-cluster.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Localization (l10n)](localization.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Mongolian script](../../language-terms/writing-systems-and-scripts/mongolian-script.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](../text-in-software/segmentation.md) · [Surrogate pair](../text-in-software/surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text expansion](text-expansion.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](../text-in-software/unicode.md) · [Vertical text](../../terms/vertical-text.md) · [Virama](../../language-terms/writing-systems-and-scripts/virama.md) · [Internationalization & localization terms](./)
+[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](../text-in-software/character.md) · [Code point](../text-in-software/code-point.md) · [Code unit](../text-in-software/code-unit.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Grapheme](../text-in-software/grapheme.md) · [Grapheme cluster](../text-in-software/grapheme-cluster.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Localization (l10n)](localization.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Mongolian script](../../language-terms/writing-systems-and-scripts/mongolian-script.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](../text-in-software/segmentation.md) · [Surrogate pair](../text-in-software/surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text expansion](text-expansion.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](../text-in-software/unicode.md) · [Vertical text](../../terms/vertical-text.md) · [Virama](../../language-terms/writing-systems-and-scripts/virama.md) · [Internationalization & localization terms](./)
 
 ### Further reading
 
@@ -95,14 +99,14 @@ Cutting text to a fixed number of characters in code, such as "the first 20 char
 5. "the smaller the source message, the higher the likely translation length" - Text size in translation, W3C Internationalization [https://www.w3.org/International/articles/article-text-size](https://www.w3.org/International/articles/article-text-size)
 6. "The 300% expansion from English to Italian is not at all surprising for a small string such as this" - Text size in translation, W3C Internationalization [https://www.w3.org/International/articles/article-text-size](https://www.w3.org/International/articles/article-text-size)
 7. "truncation is acceptable if the component's full content is available on focus or after user activation and an indication that this information can be accessed, is provided to the user in some way besides the fact that it is truncated" - Understanding SC 1.4.4: Resize Text, W3C Web Accessibility Initiative [https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html)
-8. "The term "character" is used in this property definition for better readability and means "grapheme cluster" [UAX29] for implementation purposes" - CSS Overflow Module Level 3, section text-overflow, W3C [https://www.w3.org/TR/css-overflow-3/](https://www.w3.org/TR/css-overflow-3/)
+8. "The term "character" is used in this property definition for better readability and means "grapheme cluster" \[UAX29] for implementation purposes" - CSS Overflow Module Level 3, section text-overflow, W3C [https://www.w3.org/TR/css-overflow-3/](https://www.w3.org/TR/css-overflow-3/)
 9. "place the ellipsis immediately adjacent to the end edge of the remaining inline content" - CSS Overflow Module Level 3, section text-overflow, W3C [https://www.w3.org/TR/css-overflow-3/](https://www.w3.org/TR/css-overflow-3/)
 10. "Mongolian-based systems are typically written using a top-to-bottom inline direction with a rightward (left-to-right) block flow direction" - CSS Writing Modes Level 4, W3C [https://www.w3.org/TR/css-writing-modes-4/](https://www.w3.org/TR/css-writing-modes-4/)
 11. "These examples demonstrate which characters get hidden to make room for the ellipsis in a bidi situation: those visually at the end edge of the line" - CSS Overflow Module Level 3, section text-overflow, W3C [https://www.w3.org/TR/css-overflow-3/](https://www.w3.org/TR/css-overflow-3/)
 12. "Thai words are not separated by spaces" - The Unicode Standard, Version 18.0, Chapter 16: Southeast Asia-I [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-16/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-16/)
 13. "Toggle Truncate text to hide any content that goes beyond the maximum number of lines" - Explore text properties, Figma Help Center [https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties](https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties)
 14. "The line-clamp CSS property allows limiting of the contents of a block to the specified number of lines" - line-clamp, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/line-clamp](https://developer.mozilla.org/en-US/docs/Web/CSS/line-clamp)
-15. "This property returns the number of code units in the string" - String: length, MDN [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
+15. "This property returns the number of code units in the string" - String: length, MDN [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/String/length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
 16. "a mechanism is provided to reveal the truncated text on the page (for instance, the text appears on focus or on activation)" - Understanding SC 1.4.12: Text Spacing, W3C Web Accessibility Initiative [https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html)
 17. "where the ellipsis is part of a section of content which includes a link, the truncated text is revealed on the linked page" - Understanding SC 1.4.12: Text Spacing, W3C Web Accessibility Initiative [https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html)
 18. "Wrapping a string instantly reveals truncations in the product user interface because the delimiter is missing" - Pseudolocalization, Microsoft Learn [https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization)

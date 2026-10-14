@@ -2,7 +2,7 @@
 
 ## Text shaping and layout make text display correctly
 
-In programming, there are many processes that happen under the hood to ensure text is stored and displayed properly. Text shaping and layout make sure each piece of text you see on your screen is displayed correctly for the script and language it is written in. The shapes and the instructions for using them come from a [font](../text-for-digital-products-and-the-web/font.md): see [Font terms](../fonts/) for what is inside one.
+In programming, there are many processes that happen under the hood to ensure text is stored and displayed properly. Text shaping and layout make sure each piece of text you see on your screen is displayed correctly for the script and language it is written in. The shapes and the instructions for using them come from a [font](../fonts/font.md): see [Font terms](../fonts/) for what is inside one.
 
 ### Why it matters
 

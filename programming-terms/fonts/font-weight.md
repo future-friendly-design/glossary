@@ -61,13 +61,13 @@ In software, weight is written as a number. The usual scale runs from 100 to 900
 
 The names are habits, not rules, and the match between a name and a number is only rough. The scale is also relative: inside one family a bigger number never looks lighter,<sup>5</sup> but nothing promises that 500 in one family is as dark as 500 in another.
 
-A weight is not a setting that software can apply to any text. It belongs to a [font](../../programming-terms/text-for-digital-products-and-the-web/font.md), the file that holds the shapes software draws text with, and each font file records the weight of the shapes it holds.<sup>6</sup> A weight is available only when a file with that weight has been loaded.
+A weight is not a setting that software can apply to any text. It belongs to a [font](font.md), the file that holds the shapes software draws text with, and each font file records the weight of the shapes it holds.<sup>6</sup> A weight is available only when a file with that weight has been loaded.
 
-When a design asks for a weight that has no file, software does not stop. It uses a nearby weight.<sup>7</sup> In a browser the rule has a direction. A request above 500 looks at heavier files first, so semibold (600) in a family that has only regular and bold comes out bold.<sup>8</sup> A request for 500 tries 400 first, so medium comes out regular.<sup>9</sup> And when a family has no bold at all, a browser will often make one by thickening the regular shapes, which is called [faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md).<sup>10</sup>
+When a design asks for a weight that has no file, software does not stop. It uses a nearby weight.<sup>7</sup> In a browser the rule has a direction. A request above 500 looks at heavier files first, so semibold (600) in a family that has only regular and bold comes out bold.<sup>8</sup> A request for 500 tries 400 first, so medium comes out regular.<sup>9</sup> And when a family has no bold at all, a browser will often make one by thickening the regular shapes, which is called [faux bold](faux-bold.md).<sup>10</sup>
 
 This is where products in more than one [script](../../language-terms/writing-systems-and-scripts/script.md) run into trouble. Software chooses a font for each character,<sup>11</sup> so text in each script is usually drawn from a different font, and each of those fonts comes in its own set of weights. Families with only a few weights are common.<sup>12</sup> A weight scale designed around a family with nine weights can land, in the next script over, on a font that has two.
 
-Here are four weight [tokens](../design-token.md) meeting two fonts in the same product, in a browser:
+Here are four weight [tokens](../../design-terms/design-token.md) meeting two fonts in the same product, in a browser:
 
 | Token    | Number asked for | Font with 400, 500, 600 and 700 | Font with 400 and 700 only |
 | -------- | ---------------- | ------------------------------- | -------------------------- |
@@ -90,7 +90,7 @@ Figma: Font weight or style · CSS: `font-weight`
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Font terms](../../programming-terms/fonts/)
+[Character](../text-in-software/character.md) · [Design token](../../design-terms/design-token.md) · [Fallback font](fallback-font.md) · [Faux bold](faux-bold.md) · [Font](font.md) · [Glyph](glyph.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Font terms](./)
 
 ### Further reading
 

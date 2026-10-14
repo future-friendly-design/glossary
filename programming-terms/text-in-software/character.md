@@ -41,25 +41,21 @@ The word carries a second, older sense. Unicode records that _character_ is also
 When a Unicode specification or this glossary says "character" without qualification, it means the encoded unit, not that sense.
 {% endhint %}
 
-
-
 ### Why it matters in design systems
 
-Unicode also uses character to mean an abstract character,<sup>3</sup> which is a unit of information used for organizing, controlling, or representing text.<sup>4</sup> In software, when you change the [font](../text-for-digital-products-and-the-web/font.md) used to visualize text in a particular language, the [glyphs](../text-for-digital-products-and-the-web/glyph.md) will change but the characters they represent remain the same.
+Unicode also uses character to mean an abstract character,<sup>3</sup> which is a unit of information used for organizing, controlling, or representing text.<sup>4</sup> In software, when you change the [font](../fonts/font.md) used to visualize text in a particular language, the [glyphs](../fonts/glyph.md) will change but the characters they represent remain the same.
 
-For languages with a writing system that combines marks and symbols to change the meaning of a single character, a [grapheme cluster](grapheme-cluster.md) is what a reader counts as one character on screen, which is often several characters combined.&#x20;
+For languages with a writing system that combines marks and symbols to change the meaning of a single character, a [grapheme cluster](grapheme-cluster.md) is what a reader counts as one character on screen, which is often several characters combined.
 
 For example, `é` can be one character or two. A reader sees one either way, but stored as a single [precomposed character](precomposed-character.md) it is one, and stored as the letter `e` followed by a [combining acute accent mark](combining-mark.md) it is technically two.
 
-This matters in search indexing and when your design system has form inputs with character counters. You need to be sure the software is counting the grapheme cluster as a single character `é` to match the mental model of the person filling in the form. In search it's important to use [normalization](normalization.md) to ensure search results are accurate regardless of whether the same name was typed as a precomposed `é` or as `e` plus an accent.<sup>5</sup>&#x20;
-
-
+This matters in search indexing and when your design system has form inputs with character counters. You need to be sure the software is counting the grapheme cluster as a single character `é` to match the mental model of the person filling in the form. In search it's important to use [normalization](normalization.md) to ensure search results are accurate regardless of whether the same name was typed as a precomposed `é` or as `e` plus an accent.<sup>5</sup>
 
 ***
 
 ### Related terms and mentions
 
-[Alphabet](../../language-terms/writing-systems-and-scripts/alphabet.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Combining mark](combining-mark.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme](grapheme.md) · [Grapheme cluster](grapheme-cluster.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Ideographic](../../language-terms/writing-systems-and-scripts/ideographic.md) · [Language](../../language-terms/linguistics/language.md) · [Logographic](../../language-terms/writing-systems-and-scripts/logographic.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Normalization](normalization.md) · [Precomposed character](precomposed-character.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
+[Alphabet](../../language-terms/writing-systems-and-scripts/alphabet.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Combining mark](combining-mark.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](../fonts/font.md) · [Glyph](../fonts/glyph.md) · [Grapheme](grapheme.md) · [Grapheme cluster](grapheme-cluster.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Ideographic](../../language-terms/writing-systems-and-scripts/ideographic.md) · [Language](../../language-terms/linguistics/language.md) · [Logographic](../../language-terms/writing-systems-and-scripts/logographic.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Normalization](normalization.md) · [Precomposed character](precomposed-character.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

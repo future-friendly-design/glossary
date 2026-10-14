@@ -58,7 +58,7 @@ Orthography is rarely where you make a decision on its own. It matters because e
 
 To a linguist, the orthography is the set of rules a community agrees on for writing their language: how words are spelled, what gets a capital, which marks separate a sentence.
 
-To typography, those rules decide which shapes actually appear: the quotation marks French expects are not the ones English expects, and a capital letter is a different [glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) from its lowercase form.
+To typography, those rules decide which shapes actually appear: the quotation marks French expects are not the ones English expects, and a capital letter is a different [glyph](../../programming-terms/fonts/glyph.md) from its lowercase form.
 
 To a computer, the orthography lives in [locale](../../programming-terms/internationalization-and-localization/locale.md) data, not in the font or the script. [Unicode](../../programming-terms/text-in-software/unicode.md)'s [CLDR](../../programming-terms/internationalization-and-localization/cldr.md) publishes per-language conventions, such as quotation marks and number formats, as machine-readable data.
 
@@ -87,7 +87,7 @@ So orthography forks into two layers that must not be mixed. The words a person 
 
 ### Related terms and mentions
 
-[CLDR](../../programming-terms/internationalization-and-localization/cldr.md) · [Cyrillic script](cyrillic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Input method editor (IME)](../../programming-terms/internationalization-and-localization/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Localization (l10n)](../../programming-terms/internationalization-and-localization/localization.md) · [Script](script.md) · [Segmentation](../../programming-terms/text-in-software/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[CLDR](../../programming-terms/internationalization-and-localization/cldr.md) · [Cyrillic script](cyrillic.md) · [Font](../../programming-terms/fonts/font.md) · [Glyph](../../programming-terms/fonts/glyph.md) · [Input method editor (IME)](../../programming-terms/internationalization-and-localization/input-method-editor.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Localization (l10n)](../../programming-terms/internationalization-and-localization/localization.md) · [Script](script.md) · [Segmentation](../../programming-terms/text-in-software/segmentation.md) · [Symbol](symbol.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

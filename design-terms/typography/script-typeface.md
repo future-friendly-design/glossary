@@ -35,7 +35,7 @@ tags:
 
 A script typeface is a typeface drawn to look like handwriting.<sup>1</sup>
 
-A [typeface](typeface.md) is the design that a set of letters shares, the look that makes them belong together. In this term, "script" names a style of drawing. It does not mean a [script](../../language-terms/writing-systems-and-scripts/script.md) in the sense used everywhere else in this glossary, which is a set of symbols used to write one or more languages, such as Latin, Arabic or Devanagari. One word, two unrelated meanings.
+A [typeface](../../programming-terms/fonts/typeface.md) is the design that a set of letters shares, the look that makes them belong together. In this term, "script" names a style of drawing. It does not mean a [script](../../language-terms/writing-systems-and-scripts/script.md) in the sense used everywhere else in this glossary, which is a set of symbols used to write one or more languages, such as Latin, Arabic or Devanagari. One word, two unrelated meanings.
 
 ### Why it matters in design systems
 
@@ -62,7 +62,7 @@ For your work, this comes down to naming and to not copying a decision across sc
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Typography](../../terms/typography.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Font terms](../../programming-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../../programming-terms/fonts/font.md) · [Glyph](../../programming-terms/fonts/glyph.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](../../programming-terms/fonts/typeface.md) · [Typography](../../terms/typography.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Font terms](../../programming-terms/fonts/)
 
 ### Further reading
 

@@ -34,7 +34,7 @@ A language family is a group of languages that all descend from a single common 
 
 ### Why it matters in design systems
 
-The mistake is to treat family membership as a unit of support, as if "we handle Indo-European" meant anything for rendering. A family tells you about descent, not about what a language needs on screen: related languages routinely use different [scripts](../writing-systems-and-scripts/script.md), directions, and shaping, so two members can share nothing that matters for your fonts or layout. The largest families by number of languages include Atlantic-Congo (also called Niger-Congo), Austronesian, Sino-Tibetan, and Indo-European,<sup>3</sup> but that scale is genealogical, not typographic. Plan [font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) and shaping per script and per language, and treat the family only as coarse background, never as the axis your support matrix is built on.
+The mistake is to treat family membership as a unit of support, as if "we handle Indo-European" meant anything for rendering. A family tells you about descent, not about what a language needs on screen: related languages routinely use different [scripts](../writing-systems-and-scripts/script.md), directions, and shaping, so two members can share nothing that matters for your fonts or layout. The largest families by number of languages include Atlantic-Congo (also called Niger-Congo), Austronesian, Sino-Tibetan, and Indo-European,<sup>3</sup> but that scale is genealogical, not typographic. Plan [font coverage](../../programming-terms/fonts/font-coverage.md) and shaping per script and per language, and treat the family only as coarse background, never as the axis your support matrix is built on.
 
 ### Example
 
@@ -44,7 +44,7 @@ English, Hindi, Russian, and Spanish all belong to the Indo-European family, yet
 
 ### Related terms and mentions
 
-[Cyrillic](../writing-systems-and-scripts/cyrillic.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Latin script](../writing-systems-and-scripts/latin-script.md) · [Macrolanguage](macrolanguage.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](./)
+[Cyrillic](../writing-systems-and-scripts/cyrillic.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Font coverage](../../programming-terms/fonts/font-coverage.md) · [Glottolog](glottolog.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Latin script](../writing-systems-and-scripts/latin-script.md) · [Macrolanguage](macrolanguage.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](./)
 
 ### Further reading
 

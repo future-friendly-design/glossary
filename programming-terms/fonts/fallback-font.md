@@ -54,7 +54,7 @@ Here is how that other font gets found. The software goes through the text one c
 | 3    | Any font on the device that has a shape for the character.<sup>4</sup> | The browser and the device. The result can differ from one browser to the next.<sup>5</sup> |
 | 4    | Nothing has it, so a placeholder is shown.<sup>6</sup>                 | Nobody.                                                                                     |
 
-These are the steps a web browser follows. They come from CSS, the language that sets how web pages look, where the list is written with a property called `font-family`. The placeholder in step 4 is usually an empty box, nicknamed [tofu](../../design-terms/typography/tofu.md).
+These are the steps a web browser follows. They come from CSS, the language that sets how web pages look, where the list is written with a property called `font-family`. The placeholder in step 4 is usually an empty box, nicknamed [tofu](tofu.md).
 
 Because the search runs for each character and not for each word or paragraph, a single line can be drawn from two or three fonts, and so can a single word. That has consequences you can see.
 
@@ -68,7 +68,7 @@ Judging the fallback on your own screen. Step 3 depends on which fonts a device 
 
 ### In practice
 
-* **Name a font for every script you support.** Put it in the list on purpose, so that step 3 is rarely reached. In a design system this means the font family value is a list, not one name: for example `font-family: "Noto Sans", "Noto Sans Ethiopic", sans-serif`. The [Noto fonts](../../design-terms/typography/noto-fonts.md) are a free collection with a family for many scripts.
+* **Name a font for every script you support.** Put it in the list on purpose, so that step 3 is rarely reached. In a design system this means the font family value is a list, not one name: for example `font-family: "Noto Sans", "Noto Sans Ethiopic", sans-serif`. The [Noto fonts](noto-fonts.md) are a free collection with a family for many scripts.
 * **End the list with a generic name.** Names such as `sans-serif` mean "any font of this general kind", and adding one as the last item is the recommended safety net.<sup>11</sup> It is not a design choice, though. What a generic name gives you can change with the character, the language of the text and the person's own settings.<sup>12</sup>
 * **Choose fallbacks that sit well beside the main font.** Compare them in a real mixed-script line, at the sizes you use. Look at weight, apparent size and the height of the line, and adjust the fallback, not the main font.
 * **Check that the fallback is correct, not only present.** A font can hold every character of a script and still lack the instructions that script needs for connecting or stacking its shapes. [Font coverage](font-coverage.md) explains how to test for that.
@@ -78,7 +78,7 @@ Judging the fallback on your own screen. Step 3 depends on which fonts a device 
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Line height](../../design-terms/typography/line-height.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../../design-terms/typography/tofu.md) · [Font terms](../fonts/)
+[Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Line height](../../design-terms/typography/line-height.md) · [Noto fonts](noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](tofu.md) · [Font terms](./)
 
 ### Further reading
 

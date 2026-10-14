@@ -5,7 +5,9 @@ aliases:
   - surrogates
 level: advanced
 depth: core
-summary: A surrogate pair is two UTF-16 storage slots used together to hold one character that will not fit in a single slot.
+summary: >-
+  A surrogate pair is two UTF-16 storage slots used together to hold one
+  character that will not fit in a single slot.
 related:
   - utf-16
   - plane-bmp
@@ -34,7 +36,7 @@ tags:
 
 A surrogate pair is two UTF-16 storage slots used together to hold one character that will not fit in a single slot.<sup>1</sup>
 
-It is a mechanism of [UTF-16](utf-16.md), a way of storing text that gives every slot the same fixed size. Those slots are called [code units](../text-for-digital-products-and-the-web/code-unit.md), and each one can hold a number up to 65,535.
+It is a mechanism of [UTF-16](utf-16.md), a way of storing text that gives every slot the same fixed size. Those slots are called [code units](code-unit.md), and each one can hold a number up to 65,535.
 
 ### Why it matters in design systems
 
@@ -42,7 +44,7 @@ Unicode's numbering runs far past 65,535, so a single slot cannot reach every ch
 
 The mechanism belongs to one way of storing text and no other. Surrogate pairs are used only in UTF-16,<sup>5</sup> so this is not a property of Unicode, and not a property of the character either; it is an artifact of how one storage scheme reaches past its own ceiling. The same character stored as [UTF-8](utf-8.md) is simply four bytes long, with no surrogates involved.
 
-Where this reaches a design system is anywhere text gets cut by index. [Truncating](../internationalization-and-localization/truncation.md) a string at "20 characters", stepping a cursor, or slicing for a preview will eventually land between the two halves of a pair, and the visible result can be a replacement character (�), which software puts in place of text it cannot read,<sup>6</sup> or an empty box ([tofu](../../design-terms/typography/tofu.md)) in the middle of someone's content. Stepping through the text one [code point](code-point.md) at a time, one whole character number at a time, avoids splitting a pair, and iterating by [grapheme cluster](grapheme-cluster.md) additionally avoids splitting a character from its marks, which is the behaviour a reader actually expects.
+Where this reaches a design system is anywhere text gets cut by index. [Truncating](../internationalization-and-localization/truncation.md) a string at "20 characters", stepping a cursor, or slicing for a preview will eventually land between the two halves of a pair, and the visible result can be a replacement character (�), which software puts in place of text it cannot read,<sup>6</sup> or an empty box ([tofu](../fonts/tofu.md)) in the middle of someone's content. Stepping through the text one [code point](code-point.md) at a time, one whole character number at a time, avoids splitting a pair, and iterating by [grapheme cluster](grapheme-cluster.md) additionally avoids splitting a character from its marks, which is the behaviour a reader actually expects.
 
 This is not an emoji edge case, though emoji are where teams usually meet it. The supplementary [planes](plane-bmp.md) hold historic scripts and recently encoded ones,<sup>7</sup> so the communities affected by naive string slicing include the ones whose scripts arrived in Unicode most recently.
 
@@ -50,7 +52,7 @@ This is not an emoji edge case, though emoji are where teams usually meet it. Th
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../../design-terms/typography/tofu.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [UTF-8](utf-8.md) · [Text encoding & character terms](./)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](code-unit.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../fonts/tofu.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [UTF-8](utf-8.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

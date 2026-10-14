@@ -4,7 +4,7 @@
 
 When a person writes, they produce visible symbols and marks on a surface. When software stores that same writing, it becomes numbers, and those numbers become bytes.
 
-Nothing in that trip is one to one. What a reader counts as one character may be several numbers underneath, and the shape on screen is drawn by a [font](../text-for-digital-products-and-the-web/font.md) that was never involved in the storing. Most text bugs come from treating one of those layers as if it were another.
+Nothing in that trip is one to one. What a reader counts as one character may be several numbers underneath, and the shape on screen is drawn by a [font](../fonts/font.md) that was never involved in the storing. Most text bugs come from treating one of those layers as if it were another.
 
 ### Why it matters
 
@@ -14,14 +14,14 @@ Almost every text problem a design system runs into is a layer confusion: a name
 
 Each row is a different answer to the question "how many characters is this?", using the accented letter é as the example.
 
-| Layer                                                      | What it is                                  | é                                    |
-| ---------------------------------------------------------- | ------------------------------------------- | ------------------------------------ |
-| [Grapheme](grapheme.md)                                    | the unit of writing itself, before software | one grapheme                         |
-| [Character](character.md)                                  | the unit Unicode encodes                    | one character, or two                |
-| [Code point](code-point.md)                                | the number Unicode assigns                  | U+00E9, or U+0065 followed by U+0301 |
-| [Grapheme cluster](grapheme-cluster.md)                    | what a reader counts as one character       | one cluster, either way              |
-| [Glyph](../text-for-digital-products-and-the-web/glyph.md) | the shape a font holds                      | whatever that font contains          |
-| [Character encoding](character-encoding.md)                | the bytes it is stored as                   | two bytes, or three                  |
+| Layer                                       | What it is                                  | é                                    |
+| ------------------------------------------- | ------------------------------------------- | ------------------------------------ |
+| [Grapheme](grapheme.md)                     | the unit of writing itself, before software | one grapheme                         |
+| [Character](character.md)                   | the unit Unicode encodes                    | one character, or two                |
+| [Code point](code-point.md)                 | the number Unicode assigns                  | U+00E9, or U+0065 followed by U+0301 |
+| [Grapheme cluster](grapheme-cluster.md)     | what a reader counts as one character       | one cluster, either way              |
+| [Glyph](../fonts/glyph.md)                  | the shape a font holds                      | whatever that font contains          |
+| [Character encoding](character-encoding.md) | the bytes it is stored as                   | two bytes, or three                  |
 
 The gap between the rows widens outside the Latin script. In Devanagari, नमस्ते is six characters that a reader sees as three written units, so a "six character" limit and a reader counting on their fingers will disagree.
 

@@ -43,7 +43,7 @@ Arabic (`ara`) is a macrolanguage; ISO 639-3 lists 28 individual languages under
 
 ### Related terms and mentions
 
-[Dialect](dialect.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Language & linguistics](./)
+[Dialect](dialect.md) · [Font](../../programming-terms/fonts/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Language & linguistics](./)
 
 ### Further reading
 

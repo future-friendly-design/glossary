@@ -1,21 +1,33 @@
 ---
 term: Plane / Basic Multilingual Plane
 slug: plane-bmp
-aliases: [BMP, Unicode plane, supplementary plane]
-tags: [characters-encoding]
+aliases:
+  - BMP
+  - Unicode plane
+  - supplementary plane
 level: intermediate
 depth: core
-summary: A plane is one slice of Unicode's numbering range, 65,536 numbers long; the Basic Multilingual Plane is the first slice, and it holds most of the characters in everyday use.
-related: [code-point, surrogate-pair, utf-16, unicode]
+summary: >-
+  A plane is one slice of Unicode's numbering range, 65,536 numbers long; the
+  Basic Multilingual Plane is the first slice, and it holds most of the
+  characters in everyday use.
+related:
+  - code-point
+  - surrogate-pair
+  - utf-16
+  - unicode
 status: voice-passed
 version_added: 0.1
-updated: 2026-06-18
-contributors: [sam-gordashko]
+updated: 2026-06-18T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "Plane (Unicode Glossary)"
+  - title: Plane (Unicode Glossary)
     url: https://www.unicode.org/glossary/#plane
     type: authority
 license: CC-BY-4.0
+tags:
+  - characters-encoding
 ---
 
 # Plane / Basic Multilingual Plane
@@ -40,7 +52,7 @@ The letter `A` lives in the BMP, while most emoji live in supplementary planes.
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [Text encoding & character terms](./)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](code-unit.md) · [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [Text encoding & character terms](./)
 
 ### Further reading
 
@@ -48,7 +60,7 @@ The letter `A` lives in the BMP, while most emoji live in supplementary planes.
 
 ### Sources
 
-1. "A range of 65,536 (10000_16) contiguous Unicode code points, where the first code point is an integer multiple of 65,536" - Unicode Glossary: Plane [https://www.unicode.org/glossary/#plane](https://www.unicode.org/glossary/#plane)
+1. "A range of 65,536 (10000\_16) contiguous Unicode code points, where the first code point is an integer multiple of 65,536" - Unicode Glossary: Plane [https://www.unicode.org/glossary/#plane](https://www.unicode.org/glossary/#plane)
 2. "By far the majority of all Unicode characters for almost all textual data can be found in the BMP" - The Unicode Standard, Version 18.0, Core Specification, Chapter 2 [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-2/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-2/)
 3. "Planes are numbered from 0 to 16, with the number being the first code point of the plane divided by 65,536" - Unicode Glossary: Plane [https://www.unicode.org/glossary/#plane](https://www.unicode.org/glossary/#plane)
 4. "The Basic Multilingual Plane (BMP, or Plane 0) contains the common-use characters for all the modern scripts of the world as well as many historical and rare characters" - The Unicode Standard, Core Specification, Chapter 2 [https://www.unicode.org/versions/latest/core-spec/chapter-2/](https://www.unicode.org/versions/latest/core-spec/chapter-2/)

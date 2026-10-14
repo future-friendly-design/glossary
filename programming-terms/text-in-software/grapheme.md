@@ -4,7 +4,9 @@ slug: grapheme
 aliases: []
 level: intermediate
 depth: core
-summary: A grapheme is the smallest unit of writing that a particular writing system treats as different from any other.
+summary: >-
+  A grapheme is the smallest unit of writing that a particular writing system
+  treats as different from any other.
 related:
   - grapheme-cluster
   - glyph
@@ -40,13 +42,13 @@ That is the whole reason this term is worth keeping separate from the encoding v
 
 For a design system, the practical form of this is that "how many characters is this?" has more than one correct answer, and the one your readers use is the writing system's, not your database's. When a person from a language community tells you their name is five letters long, they are counting graphemes. When your validation says it is seven, it is counting characters. Neither is wrong, and the gap between them is where names get [truncated](../internationalization-and-localization/truncation.md), rejected, or mangled. The unit that gets closest to the reader's count in software is the [grapheme cluster](grapheme-cluster.md), which is what to reach for when a limit or a cursor has to behave the way a person expects. The two are not the same: a grapheme is a unit of a writing system, and Unicode uses the word "cluster" to show that a grapheme cluster is something different.<sup>4</sup>
 
-Keep grapheme, [glyph](../text-for-digital-products-and-the-web/glyph.md), and [code point](code-point.md) distinct and most of the confusion dissolves: the grapheme is the unit of writing, the glyph is a drawn shape, and the code point is a stored number.
+Keep grapheme, [glyph](../fonts/glyph.md), and [code point](code-point.md) distinct and most of the confusion dissolves: the grapheme is the unit of writing, the glyph is a drawn shape, and the code point is a stored number.
 
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Phoneme](../../language-terms/linguistics/phoneme.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
+[Character](character.md) · [Code point](code-point.md) · [Glyph](../fonts/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Phoneme](../../language-terms/linguistics/phoneme.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

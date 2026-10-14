@@ -6,7 +6,9 @@ aliases:
   - charset
 level: foundational
 depth: deep
-summary: A character encoding is the agreed way of turning characters into numbers a computer can store, and back again so it can be displayed as text in software.
+summary: >-
+  A character encoding is the agreed way of turning characters into numbers a
+  computer can store, and back again so it can be displayed as text in software.
 related:
   - utf-8
   - utf-16
@@ -39,13 +41,13 @@ A character encoding is the agreed way of turning [characters](character.md) int
 
 A computer can only store numbers. Not letters, not shapes, only numbers. So to save the word "cat", something has to turn `c`, `a`, and `t` into numbers, and turn those numbers back into letters when the file is opened again.
 
-For that to work, both ends have to agree on which number means which character. If the software that saves the text uses one character encoding and the software that opens it uses a different one, the text being shown as [glyphs](../text-for-digital-products-and-the-web/glyph.md) on the page will be different from the characters being stored in the code to represent the text. Nothing in the file changed. The numbers are still there, they were just turned back into characters using the wrong list, which is why the original text can often be recovered.&#x20;
+For that to work, both ends have to agree on which number means which character. If the software that saves the text uses one character encoding and the software that opens it uses a different one, the text being shown as [glyphs](../fonts/glyph.md) on the page will be different from the characters being stored in the code to represent the text. Nothing in the file changed. The numbers are still there, they were just turned back into characters using the wrong list, which is why the original text can often be recovered.
 
 Early character encodings did both jobs at once: they listed the characters and set the numbers. Each had room for about 256 characters, which covered English and some European languages, and left no room for Devanagari, Chinese, or Amharic, because the people who built them were not designing for those languages. It is not possible to mix character encoding sources in one page or one database, which made supporting more than a few languages difficult.<sup>2</sup>
 
 [Unicode](unicode.md) split that job in two. Unicode now owns the list, giving every character in every writing system its own number, called a [code point](code-point.md).<sup>3</sup> The character encoding owns the second half: the rule for writing those numbers into a file.<sup>4</sup>
 
-That is why [UTF-8](utf-8.md) is not an alternative to Unicode. UTF-8 is one of Unicode's own encodings, and it can store every character Unicode has ever assigned, using between one and four numbers per character.<sup>5</sup> Latin-1 is one of the older lists for character encoding, still sitting in older files and databases.&#x20;
+That is why [UTF-8](utf-8.md) is not an alternative to Unicode. UTF-8 is one of Unicode's own encodings, and it can store every character Unicode has ever assigned, using between one and four numbers per character.<sup>5</sup> Latin-1 is one of the older lists for character encoding, still sitting in older files and databases.
 
 Unicode has more than one encoding. UTF-8 is the one to use for files and the web. [UTF-16](utf-16.md) is another, used inside some programming languages and operating systems, which is where surprising character counts in code usually come from.
 
@@ -69,13 +71,13 @@ The answer is always UTF-8. The WHATWG Encoding Standard requires that new forma
 
 * **Ask what the whole chain uses.** Design tool, front end, database, API, exports, and any spreadsheet a translator opens. One step disagreeing corrupts everything after it, and the step that breaks it is rarely the one where anybody notices.
 * **Test with text you cannot read.** Put a name in a script your team does not use into every form, save it, load it back, and look at it. Testing in English cannot find this class of bug, which is exactly why it reaches real users.
-* **Learn to tell it apart from a font problem.** Text turning into `Ã©`-style rubble is an encoding failure: the right characters were stored, then read with the wrong list. Empty boxes are a [font coverage](../text-for-digital-products-and-the-web/font-coverage.md) failure: the right characters arrived, but the font has no glyph to draw them. The two look equally broken on screen and go to completely different people to fix.
+* **Learn to tell it apart from a font problem.** Text turning into `Ã©`-style rubble is an encoding failure: the right characters were stored, then read with the wrong list. Empty boxes are a [font coverage](../fonts/font-coverage.md) failure: the right characters arrived, but the font has no glyph to draw them. The two look equally broken on screen and go to completely different people to fix.
 
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Font coverage](../text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Normalization](normalization.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Tofu](../../design-terms/typography/tofu.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](code-unit.md) · [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../fonts/font.md) · [Font coverage](../fonts/font-coverage.md) · [Glyph](../fonts/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Normalization](normalization.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Tofu](../fonts/tofu.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [UTF-16](utf-16.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

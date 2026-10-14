@@ -45,7 +45,7 @@ True small caps are a distinct set of glyphs, with the stroke weight and spacing
 
 ## Common mistake
 
-Letting an app fake them. Faux small caps, made by just shrinking the capitals, come out too light in stroke and too tightly spaced, the same kind of distortion as [faux-bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md). Butterick's advice is blunt: do not click the small-caps box in your word processor; use a font that actually ships small caps. In CSS, `font-variant-caps: small-caps` uses real small caps when the font has them and synthesizes them otherwise, so the same trap applies if the font lacks the glyphs.
+Letting an app fake them. Faux small caps, made by just shrinking the capitals, come out too light in stroke and too tightly spaced, the same kind of distortion as [faux-bold](../../programming-terms/fonts/faux-bold.md). Butterick's advice is blunt: do not click the small-caps box in your word processor; use a font that actually ships small caps. In CSS, `font-variant-caps: small-caps` uses real small caps when the font has them and synthesizes them otherwise, so the same trap applies if the font lacks the glyphs.
 
 ## In practice
 
@@ -55,7 +55,7 @@ Letting an app fake them. Faux small caps, made by just shrinking the capitals, 
 
 ## Related terms
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Figure styles](../../programming-terms/text-for-digital-products-and-the-web/figure-styles.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [x-height](x-height.md)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Faux bold](../../programming-terms/fonts/faux-bold.md) · [Figure styles](figure-styles.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [x-height](x-height.md)
 
 ## Further reading
 

@@ -39,12 +39,12 @@ Most of a digital product is text, so typography is doing quiet work on almost e
 
 A guided tour of the typography terms in this glossary, grouped by what they help you decide:
 
-* **Typefaces and fonts:** [Typeface](../design-terms/typography/typeface.md), [Font](../programming-terms/text-for-digital-products-and-the-web/font.md), [Font weight](../design-terms/typography/font-weight.md), [Variable font](../design-terms/typography/variable-font.md)
+* **Typefaces and fonts:** [Typeface](../programming-terms/fonts/typeface.md), [Font](../programming-terms/fonts/font.md), [Font weight](../programming-terms/fonts/font-weight.md), [Variable font](../programming-terms/fonts/variable-font.md)
 * **Anatomy and vertical metrics:** [Baseline](../design-terms/typography/baseline.md), [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md), [Cap height](../design-terms/typography/cap-height.md), [x-height](../design-terms/typography/x-height.md), [Ascender](../design-terms/typography/ascender.md), [Descender](../design-terms/typography/descender.md)
 * **Spacing:** [Kerning](../design-terms/typography/kerning.md), [Tracking](../design-terms/typography/tracking.md), [Letter spacing](../design-terms/typography/letter-spacing.md), [Leading](../design-terms/typography/leading.md), [Line height](../design-terms/typography/line-height.md), [Vertical trim](../design-terms/typography/vertical-trim.md)
 * **Line and layout:** [Measure](../design-terms/typography/measure.md)
-* **Style and detail:** [Small caps](../design-terms/typography/small-caps.md), [Figure styles](../programming-terms/text-for-digital-products-and-the-web/figure-styles.md), [Faux bold](../programming-terms/text-for-digital-products-and-the-web/faux-bold.md), [Faux italic](../programming-terms/text-for-digital-products-and-the-web/faux-italic.md)
-* **Font technology and coverage:** [Font subsetting](../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md), [Fallback font](../programming-terms/text-for-digital-products-and-the-web/fallback-font.md), [Font coverage](../programming-terms/text-for-digital-products-and-the-web/font-coverage.md)
+* **Style and detail:** [Small caps](../design-terms/typography/small-caps.md), [Figure styles](../design-terms/typography/figure-styles.md), [Faux bold](../programming-terms/fonts/faux-bold.md), [Faux italic](../programming-terms/fonts/faux-italic.md)
+* **Font technology and coverage:** [Font subsetting](../programming-terms/fonts/font-subsetting.md), [Fallback font](../programming-terms/fonts/fallback-font.md), [Font coverage](../programming-terms/fonts/font-coverage.md)
 * **East Asian setting:** [Full-width](../programming-terms/text-in-software/full-width.md), [Tategaki](../language-terms/writing-systems-and-scripts/tategaki.md)
 
 ## Further reading
