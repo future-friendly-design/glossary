@@ -92,7 +92,7 @@ Font coverage is the set of characters that a font file holds a shape for.
 
 [**Fallback font**](fallback-font.md)
 
-A fallback font is a font that software uses in place of the one you chose, either because your font is not available or because it holds no shape for a character in the text.
+A fallback font is a font that software uses when your main font has no glyph for a character in the text, or is not available.
 
 [**Tofu**](tofu.md)
 

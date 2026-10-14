@@ -6,17 +6,14 @@ aliases:
   - font fallback
 level: intermediate
 depth: deep
-summary: >-
-  A fallback font is a font that software uses in place of the one you chose,
-  either because your font is not available or because it holds no shape for a
-  character in the text.
+summary: "A fallback font is a font that software uses when your main font has no glyph for a character in the text, or is not available."
 related:
   - font-coverage
   - font-subsetting
   - font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -35,34 +32,34 @@ tags:
 
 ## Definition
 
-A fallback font is a font that software uses in place of the one you chose, either because your font is not available or because it holds no shape for a character in the text.<sup>1</sup>
+A fallback font is a font that software uses when your main font has no glyph for a character in the text, or is not available.<sup>1</sup>
 
-A fallback font is a kind of [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
+A fallback font is a kind of [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup> You can choose fallback fonts yourself, or the device chooses one for you.
 
-A font only has shapes for the characters its makers drew. The set of characters a font has shapes for is its [font coverage](font-coverage.md), and no font covers everything. So a product does not name one font. It names a list of fonts in order of preference, often called a font stack, and every font after the first one is a fallback.
+A font only has glyphs for the characters its makers drew, and that set of characters is its [font coverage](font-coverage.md). So a product does not name one font. It names a list of fonts in order of preference, often called a font stack, and every font after the first one is a fallback.
 
 ### Why it matters in design systems
 
 Look closely at a line of text that mixes two scripts, such as an English sentence with a name from another script in the middle of it. Often the name looks a little heavier than the words around it, or a little larger, or it sits slightly higher on the line. It is being shown in a different font.
 
-This page may be doing it right now. The Amharic word ሰላም ("selam", "peace") is written in [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). Unless the font this page uses for English also covers Ethiopic, some other font on your device is supplying those three shapes, and it may not be a font that anyone who made this page chose. If you see three empty boxes instead, your device has no font for Ethiopic at all.
+This page may be doing it right now. The Amharic word ሰላም ("selam", "peace") is written in [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). Unless the font this page uses for English also covers Ethiopic, some other font on your device is supplying those three glyphs, and it may not be a font that anyone who made this page chose. If you see three empty boxes instead, your device has no font for Ethiopic at all.
 
-Here is how that other font gets found. The software goes through the text one character at a time, and for each character it works down these steps until one of them succeeds.<sup>3</sup>
+The software goes through the text one character at a time, and for each character it works down these steps until one of them succeeds.<sup>3</sup>
 
 | Step | What the software tries                                                | Who chose the result                                                                        |
 | ---- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | 1    | The first font in your list.                                           | You.                                                                                        |
 | 2    | Each later font in your list, in order.<sup>4</sup>                    | You.                                                                                        |
-| 3    | Any font on the device that has a shape for the character.<sup>5</sup> | The browser and the device. The result can differ from one browser to the next.<sup>6</sup> |
+| 3    | Any font on the device that has a glyph for the character.<sup>5</sup> | The browser and the device. The result can differ from one browser to the next.<sup>6</sup> |
 | 4    | Nothing has it, so a placeholder is shown.<sup>7</sup>                 | Nobody.                                                                                     |
 
 These are the steps a web browser follows. They come from CSS, the language that sets how web pages look, where the list is written with a property called `font-family`. The placeholder in step 4 is usually an empty box, nicknamed [tofu](tofu.md).
 
-Because the search runs for each character and not for each word or paragraph, a single line can be shown in two or three fonts, and so can a single word. That has consequences you can see.
+Because the search runs for each character, a single line can be shown in two or three fonts, and so can a single word.
 
-Two fonts set to the same size do not look the same size.<sup>8</sup> The fallback can look bigger or smaller than its neighbours even though every setting is identical. Fonts made for different scripts also need different amounts of room above and below the line.<sup>9</sup> And CSS only promises that lines will sit exactly one [line height](../../design-terms/typography/line-height.md) apart when all of their text is in the same font.<sup>10</sup> The result is that mixed-script text can shift: lines may sit further apart where the fallback appears, and a button that fitted its label in one language may no longer fit it in another.
+Two fonts set to the same size do not look the same size.<sup>8</sup> The fallback can look bigger or smaller than its neighbours even though every setting is identical. Fonts made for different scripts also need different amounts of room above and below the line.<sup>9</sup> And CSS only promises that lines will sit exactly one [line height](../../design-terms/typography/line-height.md) apart when all of their text is in the same font.<sup>10</sup> So mixed-script text can shift. Lines may sit further apart where the fallback appears, and a button that fitted its label in one language may no longer fit it in another.
 
-There is a second way to meet a fallback. A font that has to be downloaded is not there in the first moment a page appears, so the page may be shown in a fallback first and then shown again when your font arrives. If the two fonts have different proportions, the whole layout moves in front of the reader. The closer the fallback's proportions are to your font's, the smaller that movement is.<sup>11</sup>
+A fallback can also appear while a page loads. A font that has to be downloaded is not there in the first moment, so the page may be shown in a fallback first and then shown again when your font arrives. If the two fonts have different proportions, the whole layout moves in front of the reader. The closer the fallback's proportions are to your font's, the smaller that movement is.<sup>11</sup>
 
 ### Common mistake
 
@@ -70,11 +67,10 @@ Judging the fallback on your own screen. Step 3 depends on which fonts a device 
 
 ### In practice
 
-* **Name a font for every script you support.** Put it in the list on purpose, so that step 3 is rarely reached. In a design system this means the font family value is a list, not one name: for example `font-family: "Noto Sans", "Noto Sans Ethiopic", sans-serif`. The [Noto fonts](noto-fonts.md) are a free collection with a family for many scripts.
+* **Name a font for every script you support.** Put it in the list on purpose, so that step 3 is rarely reached. In a design system this means the font family value is a list, not one name. For example, `font-family: "Noto Sans", "Noto Sans Ethiopic", sans-serif`. The [Noto fonts](noto-fonts.md) are a free collection with a family for many scripts.
 * **End the list with a generic name.** Names such as `sans-serif` mean "any font of this general kind", and adding one as the last item is the recommended safety net.<sup>12</sup> It is not a design choice, though. What a generic name gives you can change with the character, the language of the text and the person's own settings.<sup>13</sup>
 * **Choose fallbacks that sit well beside the main font.** Compare them in a real mixed-script line, at the sizes you use. Look at weight, apparent size and the height of the line, and adjust the fallback, not the main font.
-* **Check that the fallback is correct, not only present.** A font can hold every character of a script and still lack the instructions that script needs for connecting or stacking its shapes. [Font coverage](font-coverage.md) explains how to test for that.
-* **Look at it on other devices.** Borrow a phone on a different system and open the same screen. It is the only way to see what step 3 does to your design.
+* **Check that the fallback is correct, not only present.** A font can hold every character of a script and still lack the instructions it needs for connecting or stacking its shapes. [Font coverage](font-coverage.md) explains how to test for that.
 
 ***
 
