@@ -26,7 +26,9 @@ CLDR is a shared public collection of data that records how each language writes
 
 CLDR is one of the tools of [internationalization (i18n)](internationalization.md), the design and development work that makes a product able to be adapted to other languages and places.<sup>2</sup>
 
-The project's specification spells the letters out as Common Locale Data Repository,<sup>3</sup> and the project's own site now spells them out as Common Locale Data & Rules.<sup>4</sup> A [locale](locale.md) is a short code, such as `en-IN`, that names the preferences of one language as it is used in one place. CLDR sits beside [Unicode](../text-in-software/unicode.md), the standard that gives every character a number: Unicode looks after the characters, and CLDR looks after the languages that use them and their regional differences.<sup>5</sup>
+The letters stand for Common Locale Data Repository in the project's specification,<sup>3</sup> and for Common Locale Data & Rules on the project's own site.<sup>4</sup> A [locale](locale.md) is a short code, such as `en-US` for English as used in the United States, that names a language and a specific location.
+
+CLDR sits beside [Unicode](../text-in-software/unicode.md), the standard that gives every [character](../text-in-software/character.md) a number. Unicode covers the characters themselves, and CLDR covers the languages that use them and how each language differs from one place to another.<sup>5</sup>
 
 <!-- NEEDS EXPERT REVIEW: the expansion of the name is in transition. cldr.unicode.org (fetched 2026-10-13) says "Common Locale Data & Rules" and titles the specification "UTS #35: Unicode Common Locale Data & Rules (CLDR)"; the released UTS #35 v48.2 and the proposed v49 draft (tr35-79, 2026-09-24) both still say "Common Locale Data Repository", as do icu.unicode.org and the W3C Internationalization Glossary. Re-check when CLDR 49 is released. -->
 
