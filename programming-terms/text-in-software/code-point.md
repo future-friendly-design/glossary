@@ -29,17 +29,19 @@ tags:
 
 ## Definition
 
-A code point is the number [Unicode](unicode.md) assigns to a [character](character.md).
+A code point is the unique number [Unicode](unicode.md) assigns to a [character](character.md) of text. The code point is how the the character (unit of text) is idenified in computer programming.&#x20;
 
 For example, the code point for the symbol `á` is 225 in decimal, or E1 in hexadecimal,<sup>1</sup> which is written `U+00E1`.
+
+
 
 ### Why it matters in design systems
 
 Code points are written as `U+` followed by hexadecimal digits, and they live in a fixed range. Unicode's codespace runs from 0 to 10FFFF, which is 1,114,112 possible code points, or roughly 1.1 million.<sup>2</sup> That range is the whole budget for every script Unicode has encoded and every one it has yet to encode.
 
-The code point is what makes text portable: the same number identifies the same character in every system that follows the [Unicode Standard](unicode-standard.md).&#x20;
+The code point is what makes text portable: the same number identifies the same character in every system that follows the [Unicode Standard](unicode-standard.md).
 
-Storing a code point requires a [character encoding](character-encoding.md) to turn it into bytes, the data actually written to a file or a database. Visualizing the character in software requires a [font](../text-for-digital-products-and-the-web/font.md) that contains the correct [glyph](../text-for-digital-products-and-the-web/glyph.md) to represent it.&#x20;
+Storing a code point requires a [character encoding](character-encoding.md) to turn it into bytes, the data actually written to a file or a database. Visualizing the character in software requires a [font](../text-for-digital-products-and-the-web/font.md) that contains the correct [glyph](../text-for-digital-products-and-the-web/glyph.md) to represent it.
 
 Two things surprise people. Not every code point is assigned to a character,<sup>3</sup> so a valid-looking number may be reserved, which means Unicode is keeping it for a character it has not added yet.<sup>4</sup> And one code point is not reliably one character on screen: an accented symbol may be built from two, and an emoji from several, which is the difference between a code point and a [grapheme cluster](grapheme-cluster.md). If you are counting text for a limit, a truncation, or a cursor step, the code point is almost never the unit your reader is using.
 
@@ -49,9 +51,13 @@ Two things surprise people. Not every code point is assigned to a character,<sup
 
 [Character](character.md) · [Character encoding](character-encoding.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [Text in software](./)
 
+
+
 ### Further reading
 
 * Foundations: [Code Point (Unicode Glossary)](https://www.unicode.org/glossary/#code_point)
+
+
 
 ### Sources
 
