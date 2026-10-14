@@ -14,7 +14,7 @@ related:
   - conjunct
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -41,17 +41,17 @@ A ligature is a single [glyph](glyph.md), a shape in a font, that stands for two
 
 Ligatures are one of the results of [text shaping](../text-shaping-and-layout/text-shaping.md). Text shaping is the step in which software picks the right shapes from a font for a piece of text and decides where each one goes. A [shaping engine](../text-shaping-and-layout/shaping-engine.md), the software that does it, swaps the separate shapes for the single one.<sup>2</sup>
 
-Some ligatures are a style choice, while others are part of how a [script](../../language-terms/writing-systems-and-scripts/script.md) is written, and a word looks wrong without them. For example, the [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md) letters lam (ل) and alef (ا) are written together as one shape: لا.<sup>3</sup>
+Some ligatures are a style choice, while others are part of how a [script](../../language-terms/writing-systems-and-scripts/script.md) is written, and a word looks wrong without them. For example, the [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md) letters lam (ل) and alef (ا) are written together as one shape, لا.<sup>3</sup>
 
 ### Why it matters in design systems
 
-Type "fi" in many fonts and look closely. The two letters appear as one merged shape: you typed two [characters](../text-in-software/character.md), and the software displayed one glyph from the [font](font.md). That glyph is a ligature.<sup>4</sup>
+Type "fi" in many fonts and look closely. The two letters appear as one merged shape. You typed two [characters](../text-in-software/character.md), and the software showed one glyph from the [font](font.md). That glyph is a ligature.<sup>4</sup>
 
 In English this is an improvement, not a need, and nothing breaks if the two letters are shown apart.<sup>5</sup>
 
 That is not true everywhere. The [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) has only a few ligatures in use today, and other scripts use many.<sup>6</sup> In some of them a ligature is not an improvement. It is the correct way to write.
 
-There are three kinds you will meet most often, and the difference between them is the thing to learn:
+There are three kinds you will meet most often:
 
 | Kind                                           | Example                                              | To begin with | Can you switch it off?                                                                                      |
 | ---------------------------------------------- | ---------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -64,24 +64,24 @@ There are three kinds you will meet most often, and the difference between them 
 It helps to keep three levels apart:
 
 * **The script** sets whether a ligature is expected. Arabic expects lam and alef to merge into one shape, in almost every style of the script.<sup>11</sup>
-* **The font** has to contain the ligature: the merged glyph, and an instruction that says when to use it.<sup>12</sup>
-* **The software** that shapes the text has to follow that instruction.<sup>13</sup> This software is called a shaping engine.
+* **The font** has to hold the merged glyph, and an instruction that says when to use it.<sup>12</sup>
+* **The software** that shapes the text, the shaping engine, has to follow that instruction.<sup>13</sup>
 
-A ligature changes what is shown, not what is stored: the text still holds two characters, and they can be shown as two glyphs or as one.<sup>14</sup>
+A ligature changes what is shown, not what is stored. The text still holds two characters, and they can be shown as two glyphs or as one.<sup>14</sup>
 
-The three kinds have short names, which you may see in design tools and in code: `rlig` for required, `liga` for standard and `dlig` for discretionary. Each one is a named group of instructions in the font, and these groups are called [OpenType features](opentype-features.md), after [OpenType](opentype.md), the most widely used font format.<sup>15</sup>
+In design tools and in code you may see their short names, `rlig` for required, `liga` for standard and `dlig` for discretionary. Each one is a named group of instructions in the font, and these groups are called [OpenType features](opentype-features.md), after [OpenType](opentype.md), the most widely used font format.<sup>15</sup>
 
 A ligature is also not the same as [joining](../../language-terms/writing-systems-and-scripts/joining.md). In Arabic, most letters connect to their neighbours, but each letter keeps a glyph of its own. In a ligature, two or more glyphs are replaced by one.<sup>16</sup>
 
 ### Common mistake
 
-Treating ligatures as one switch. A type guideline that says "ligatures off" is usually thinking of English, where a ligature is a style choice. The same word also covers the lam and alef of Arabic, which is not a style choice at all. Write the rule by kind instead: standard and discretionary ligatures are yours to choose, and required ligatures are not yours to switch off. CSS, the code that styles web pages, already separates the two: its strongest setting, `font-variant-ligatures: none`, leaves required ligatures in place.<sup>17</sup>
+Treating ligatures as one switch. A type guideline that says "ligatures off" is usually thinking of English, where a ligature is a style choice. The same word also covers the lam and alef of Arabic, which is not a style choice at all. Write the rule by kind instead: standard and discretionary ligatures are yours to choose, and required ligatures are not yours to switch off. CSS, the code that styles web pages, already separates the two. Its strongest setting, `font-variant-ligatures: none`, leaves required ligatures in place.<sup>17</sup>
 
 ### In practice
 
 * **Find the control before you write the rule.** On the web it is the CSS property `font-variant-ligatures`, where the value `common-ligatures` covers the standard kind.<sup>18</sup> In Figma, the Details tab of the Type menu lists Ligatures and Rare Ligatures under Letterforms.<sup>19</sup> Rare Ligatures is Figma's name for the discretionary kind.<sup>20</sup> Make the same choice in both places, so the design and the built product match.
 * **Expect letter spacing to remove them.** When [letter spacing](../../design-terms/typography/letter-spacing.md) is anything other than zero, the CSS rules tell browsers not to use optional ligatures, because a merged pair cannot be spaced evenly with the letters around it.<sup>21</sup> So a heading set with wide letter spacing loses its "fi" ligature, and that is the intended result. Required ligatures are kept.
-* **Test required ligatures with a real word.** Put a word that contains lam and alef into each tool and each font your team uses, and you should see the one merged glyph: لا. If you see anything else, either the font lacks the ligature or the tool is not shaping the text. Ask someone who reads the script to check, because a missing ligature is easy to overlook when you do not.
+* **Test required ligatures with a real word.** Put a word that contains lam and alef into each tool and each font your team uses, and you should see the one merged glyph, لا. If you see anything else, either the font lacks the ligature or the tool is not shaping the text. Ask someone who reads the script to check, because a missing ligature is easy to overlook when you do not.
 
 ***
 

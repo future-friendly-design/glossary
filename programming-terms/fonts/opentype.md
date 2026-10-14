@@ -15,7 +15,7 @@ related:
   - font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -39,34 +39,32 @@ OpenType is a font file format, and it is the most widely used one.<sup>1</sup>
 
 OpenType is the format a [font](font.md) is stored in.<sup>2</sup> A font is the file that holds the shapes software uses to show text.
 
-A file format is an agreed way of arranging what is inside a file, so that any software can open the file and find what it needs. A font file holds shapes, called [glyphs](glyph.md), and instructions for choosing those shapes and placing them in a line.<sup>3</sup> OpenType is the agreement about where each of those things sits in the file.
+A file format is an agreed way of arranging what is inside a file, so that any software can open the file and find what it needs. A font file holds the shape for each character, called a [glyph](glyph.md), plus instructions for picking those glyphs and placing them in a line.<sup>3</sup> OpenType is the agreement about where each of those things sits in the file.
 
 ### Why it matters in design systems
 
 Download a font and look at the file name. It usually ends in `.otf` or `.ttf`, and a file with either ending can be an OpenType font.<sup>4</sup> The word also turns up in design tools, where a panel of type settings is often labelled "OpenType". So the name is familiar long before anyone explains what it promises, and it is easy to assume it promises more than it does.
 
-Here is what the format gives a font maker room for:
-
 | An OpenType font file can hold           | What that is for                                                                                                                                            |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Shapes                                   | The outlines of the glyphs, the shapes that appear on screen.<sup>5</sup>                                                                                   |
-| A list that matches characters to shapes | Text is stored as [characters](../text-in-software/character.md), each saved as a number. The list says which shape to start with for each one.<sup>6</sup> |
-| Instructions for swapping shapes         | Two letters shown as one combined shape, or an Arabic letter changing form inside a word. This part of the file is called [GSUB](gsub.md).<sup>7</sup>      |
-| Instructions for placing shapes          | Setting a mark above a [symbol](../../language-terms/writing-systems-and-scripts/symbol.md), or closing the gap between two letters. This part is called [GPOS](gpos.md).<sup>8</sup>                                     |
+| Glyphs                                   | The outlines of the glyphs.<sup>5</sup>                                                                                                                     |
+| A list that matches characters to glyphs | Text is stored as [characters](../text-in-software/character.md), each saved as a number. The list says which glyph to start with for each one.<sup>6</sup> |
+| Instructions for swapping glyphs         | Two letters shown as one combined glyph, or an [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md) letter changing form inside a word. This part of the file is called [GSUB](gsub.md).<sup>7</sup>      |
+| Instructions for placing glyphs          | Setting a [mark](../../language-terms/writing-systems-and-scripts/mark.md) above a [symbol](../../language-terms/writing-systems-and-scripts/symbol.md), or closing the gap between two letters. This part is called [GPOS](gpos.md).<sup>8</sup>                                     |
 | Several weights or widths in one file    | A font built this way is called a [variable font](variable-font.md).<sup>9</sup>                                                                            |
 
-Every row says "can hold". That is the part people miss. The format has room for every character in [Unicode](../text-in-software/unicode.md), the standard list of the world's characters, but no font fills that room.<sup>10</sup> A font holds the shapes somebody drew for it, which may come from one [script](../../language-terms/writing-systems-and-scripts/script.md) or from many.<sup>11</sup> A script is a set of symbols used to write one or more languages, such as Latin, Arabic or Devanagari. So "it is an OpenType font" tells you how the file is arranged. It does not tell you which scripts the font has shapes for.
+Every row says "can hold". That is the part people miss. The format has room for every character in [Unicode](../text-in-software/unicode.md), the standard list of the world's characters.<sup>10</sup> A font holds only the glyphs somebody drew for it, which may come from one [script](../../language-terms/writing-systems-and-scripts/script.md) or from many.<sup>11</sup> A script is a set of symbols used to write one or more languages, such as [Latin](../../language-terms/writing-systems-and-scripts/latin-script.md), Arabic or [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md). So "it is an OpenType font" tells you how the file is arranged. It does not tell you which scripts the font has glyphs for.
 
 It helps to keep four levels apart, because a problem at one level is not fixed at another:
 
 * **The format** is OpenType. It decides what a font file is able to hold.
-* **The font** is one file in that format. It holds the shapes and instructions its maker put in, and nothing else. The instructions are sorted into named groups called [OpenType features](opentype-features.md).
-* **The software** that picks and places the shapes reads the font and follows its instructions.<sup>12</sup> A font is a file, and a file does nothing by itself. This software is called a [shaping engine](../text-shaping-and-layout/shaping-engine.md).
+* **The font** is one file in that format. It holds the glyphs and instructions its maker put in, and nothing else. The instructions are sorted into named groups called [OpenType features](opentype-features.md).
+* **The software** that picks and places the glyphs reads the font and follows its instructions.<sup>12</sup> A font is a file, and a file does nothing by itself. This software is called a [shaping engine](../text-shaping-and-layout/shaping-engine.md).
 * **The script** sets the rules for what correct text looks like. The software supplies some of those rules itself, and the OpenType specification says plainly that the full rules for each script are outside what it covers.<sup>13</sup>
 
-Two things that are often credited to OpenType sit at the software level. When a Devanagari vowel mark appears before the letter it is typed after, the software moves it, and fonts are told not to try.<sup>14</sup> And the order of right-to-left text, including what happens when Arabic or Hebrew is mixed with English on one line, is worked out by the software from rules that Unicode publishes.<sup>15</sup> Neither is an OpenType feature, and no font setting switches them on.
+Two things that are often credited to OpenType sit at the software level. When a Devanagari [vowel mark](../../language-terms/writing-systems-and-scripts/matra.md) appears before the letter it is typed after, the software moves it, and fonts are told not to try.<sup>14</sup> And the order of [right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) text, including what happens when Arabic or [Hebrew](../../language-terms/writing-systems-and-scripts/hebrew-script.md) is mixed with English on one line, is worked out by the software from rules that Unicode publishes.<sup>15</sup> Neither is an OpenType feature, and no font setting switches them on.
 
-For your work, this changes the question to ask about a font. "Is it OpenType?" is almost always yes, and the answer settles nothing. Ask instead which scripts the font has shapes for, whether it has the instructions those scripts need, and whether each tool your team uses follows them. The quickest check for all three is to type a real word in that script into each tool and show it to someone who reads it.
+For your work, this changes the question to ask about a font. "Is it OpenType?" is almost always yes, and the answer settles nothing. Ask instead which scripts the font has glyphs for, whether it has the instructions those scripts need, and whether each tool your team uses follows them. The quickest check for all three is to type a real word in that script into each tool and show it to someone who reads it.
 
 ***
 

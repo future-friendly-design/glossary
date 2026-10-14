@@ -5,10 +5,7 @@ aliases:
   - subsetting
 level: advanced
 depth: core
-summary: >-
-  Font subsetting is the practice of making a smaller copy of a font file by
-  keeping only the shapes and instructions needed for the characters a product
-  expects to use.
+summary: Font subsetting is the practice of making a smaller copy of a font file by keeping only the glyphs and instructions needed for the characters a product expects to use.
 related:
   - font-coverage
   - fallback-font
@@ -16,7 +13,7 @@ related:
   - font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -35,17 +32,17 @@ tags:
 
 ## Definition
 
-Font subsetting is the practice of making a smaller copy of a font file by keeping only the shapes and instructions needed for the characters a product expects to use.<sup>1</sup>
+Font subsetting is the practice of making a smaller copy of a font file by keeping only the glyphs and instructions needed for the characters a product expects to use.<sup>1</sup>
 
 Font subsetting is something done to a [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
 
-A subset is a smaller part taken from a whole set. A font holds one or more shapes for each character it covers, together with instructions for combining and placing those shapes. The smaller copy is called a subset font, or just a subset.
+A subset is a smaller part taken from a whole set. A font holds one or more shapes, called [glyphs](glyph.md), for each character it covers, together with instructions for swapping and placing those glyphs. The smaller copy is called a subset font, or just a subset.
 
 ### Why it matters in design systems
 
 A font is a file, and a file has to be downloaded before a page can use it. A font that covers many scripts can be a large file, and a page written in one language uses only a small part of it. Subsetting removes the rest so the page appears sooner. It is a sensible thing to do. It is also done out of the designer's sight, in the step that prepares a product for release, or by the service that hosts the fonts. Google Fonts, one such service, uses the slicing described below extensively.<sup>3</sup>
 
-That is why it belongs in this glossary. Subsetting changes a font's [coverage](font-coverage.md), the set of characters it has shapes for, and the font you chose and tested is no longer the font your readers receive.
+Subsetting changes a font's [coverage](font-coverage.md), the set of characters it has glyphs for, so the font you chose and tested is no longer the font your readers receive.
 
 There are two common ways to do it.
 
@@ -58,9 +55,9 @@ On the web, the label on a slice is written in CSS, the language that sets how w
 
 Both ways carry the same two risks, and neither risk produces an error message.
 
-**The first risk is text nobody listed.** A list of characters is a prediction about what people will write, and people write their names. Suppose a subset kept only the letters English uses. Vietnamese is also written in Latin script, and in the phrase Tiếng Việt ("Vietnamese") the letters ế and ệ are not on that list. The software takes those two letters from some other font, called a [fallback font](fallback-font.md), and the rest from yours, so one word is shown in two fonts.<sup>6</sup> For a script that was left out entirely, such as the Ethiopic in ሰላም ("selam", "peace"), the whole word goes to a fallback font, or to empty boxes, called [tofu](tofu.md), when the device has no font for it. The full font may have held every one of those shapes. The file that was shipped does not.
+**The first risk is text nobody listed.** A list of characters is a prediction about what people will write, and people write their names. Suppose a subset kept only the letters English uses. Vietnamese is also written in [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md), and in the phrase Tiếng Việt ("Vietnamese") the letters ế and ệ are not on that list. The software takes those two letters from some other font, called a [fallback font](fallback-font.md), and the rest from yours, so one word is shown in two fonts.<sup>6</sup> For a script that was left out entirely, such as the [Ethiopic](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) in ሰላም ("selam", "peace"), the whole word goes to a fallback font, or to empty boxes, called [tofu](tofu.md), when the device has no font for it. The full font may have held every one of those glyphs. The file that was shipped does not.
 
-**The second risk is losing the instructions.** Many scripts need more than one shape per character. In Arabic script, the letters kāf ك, tāʾ ت and bāʾ ب connect when they form the word كتب, and the font holds the instructions that make them connect. A subsetting tool has settings for which of these instructions are kept and which are dropped.<sup>7</sup> Slicing has its own version of the problem, because instructions that link a character in one slice to a character in another can be lost.<sup>8</sup> A working group at W3C, the body that sets web standards, studied slicing and gives an example from the scripts of India. When one font covers two of those scripts and is sliced by script, the characters the two scripts share are taken from only one slice, and the text becomes unreadable.<sup>9</sup> Every character still appears. The word is wrong.
+**The second risk is losing the instructions.** Many scripts need more than one glyph per character. In [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md), the letters kāf ك, tāʾ ت and bāʾ ب connect when they form the word كتب, and the font holds the instructions that make them connect. A subsetting tool has settings for which of these instructions are kept and which are dropped.<sup>7</sup> Slicing has its own version of the problem, because instructions that link a character in one slice to a character in another can be lost.<sup>8</sup> A working group at W3C, the body that sets web standards, studied slicing and gives an example from the scripts of India. When one font covers two of those scripts and is sliced by script, the characters the two scripts share are taken from only one slice, and the text becomes unreadable.<sup>9</sup> Every character still appears. The word is wrong.
 
 Both failures are invisible to the team that caused them, because the team's own text was on the list. So the questions are worth asking before the font is shipped:
 
@@ -73,7 +70,7 @@ Both failures are invisible to the team that caused them, because the team's own
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Tofu](tofu.md) · [Variable font](variable-font.md) · [Font terms](./)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Tofu](tofu.md) · [Variable font](variable-font.md) · [Font terms](./)
 
 ### Further reading
 

@@ -18,7 +18,7 @@ related:
   - unicode
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -41,15 +41,15 @@ The Noto fonts are a collection of free fonts, directed by Google, that aims to 
 
 The Noto fonts are a collection of [fonts](font.md), the files that hold the shapes software uses to show text.<sup>2</sup>
 
-A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write one or more languages, such as Arabic, Devanagari or Ethiopic. [Unicode](../text-in-software/unicode.md) is the standard that aims to give every character in every script its own number. Each font holds shapes for some of those characters.
+A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of [symbols](../../language-terms/writing-systems-and-scripts/symbol.md) used to write one or more languages, such as [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md), [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) or [Ethiopic](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). [Unicode](../text-in-software/unicode.md) is the standard that aims to give every character in every script its own number. Each font has [glyphs](glyph.md) for some of those characters.
 
 ### Why it matters in design systems
 
-You have probably seen a row of empty boxes where words should be. It appears when text arrives in a script the font has no shapes for, and no font has shapes for every script. The boxes are nicknamed [tofu](tofu.md), and the Noto project says its name is short for "no tofu".<sup>3</sup>
+You have probably seen a row of empty boxes where words should be. Each box appears when no available font has a glyph for a character. The boxes are nicknamed [tofu](tofu.md), and the Noto project says its name is short for "no tofu".<sup>3</sup>
 
-So Noto is a natural place to look when a product has to display a script that its brand font does not cover.
+So Noto is a natural place to look when a product has to display show a script that its brand font does not cover.
 
-The table gives the facts most often needed when choosing it. The counts are the project's own.
+The counts in the table are the project's own.
 
 | Question                | Answer                                                                                                                                                                                           |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -57,17 +57,17 @@ The table gives the facts most often needed when choosing it. The counts are the
 | How much does it cover? | More than 1,000 languages and over 150 writing systems.<sup>5</sup>                                                                                                                              |
 | Who makes it?           | Google sets the direction and makes the final design decisions.<sup>6</sup>                                                                                                                      |
 | What is the licence?    | The SIL Open Font License, version 1.1.<sup>7</sup> It lets you use, change and share the fonts, and include them inside a product you sell. The fonts may not be sold on their own.<sup>8</sup> |
-| Is it one font file?    | No. There are more shapes in Noto than one font file can hold, so it is split into many families, such as Noto Sans Ethiopic for Ethiopic and Noto Sans Devanagari for Devanagari.<sup>9</sup>   |
+| Is it one font file?    | No. There are more glyphs in Noto than one font file can hold, so it is split into many families, such as Noto Sans Ethiopic for Ethiopic and Noto Sans Devanagari for Devanagari.<sup>9</sup>   |
 
-That last row shapes how Noto is used. You do not add "Noto" to a product. You add the families for the scripts you support, and you list them in order after your main font, as [fallback fonts](fallback-font.md): for example `font-family: "Noto Sans", "Noto Sans Ethiopic", "Noto Sans Devanagari", sans-serif`. With that list, the Amharic word ሰላም ("selam", "peace") and the Hindi word हिन्दी ("Hindi") are each shown with the Noto family made for their script, and not with whatever font the device happens to have.
+That last row shapes how Noto is used. You do not add "Noto" to a product. You add the families for the scripts you support, and you list them in order after your main font, as [fallback fonts](fallback-font.md). For example, `font-family: "Noto Sans", "Noto Sans Ethiopic", "Noto Sans Devanagari", sans-serif`. With that list, the Amharic word ሰላም ("selam", "peace") and the Hindi word हिन्दी ("Hindi") are each shown with the Noto family made for their script, and not with whatever font the device happens to have.
 
 Noto has limits, and three of them matter when you choose it.
 
-**Covering a script is not the same as being the typeface its readers prefer.** A [typeface](typeface.md) is the design of a set of shapes, and many scripts have long traditions with several styles of their own. Noto is designed to look consistent across scripts.<sup>10</sup> Readers of each language review the designs,<sup>11</sup> and Google makes the final decisions. A community may read more comfortably in a typeface made by its own designers, or may expect a style Noto does not offer. Ask people who read the script before you settle on it.
+**Covering a script is not the same as being the typeface its readers prefer.** A [typeface](typeface.md) is the design of a script's symbols and [marks](../../language-terms/writing-systems-and-scripts/mark.md), and many scripts have long traditions with several styles of their own. Noto is designed to look consistent across scripts.<sup>10</sup> Readers of each language review the designs,<sup>11</sup> and Google makes the final decisions. A community may read more comfortably in a typeface made by its own designers, or may expect a style Noto does not offer. Ask people who read the script before you settle on it.
 
-**The goal is not finished.** The project intends to support every script in Unicode, and that takes time.<sup>12</sup> Unicode keeps growing, and version 18.0 alone added three scripts,<sup>13</sup> so a newly added script may not have a Noto family yet. Check that the family for your script exists and holds the characters your languages need. This is its [font coverage](font-coverage.md).
+**The goal is not finished.** The project intends to support every script in Unicode, and that takes time.<sup>12</sup> Unicode keeps growing, and version 18.0 alone added three scripts,<sup>13</sup> so a newly added script may not have a Noto family yet. Check that the family for your script exists and has glyphs for the characters your languages need, which is its [font coverage](font-coverage.md).
 
-**Having every character is not the same as showing the text correctly.** Many scripts need their shapes connected, stacked or moved, and that depends on instructions inside the font<sup>14</sup> and on the software following them.<sup>15</sup> The project keeps a public list of reported problems in its fonts.<sup>16</sup> Test a real word in each script you ship, and have someone who reads it check the result.
+**Having every character is not the same as showing the text correctly.** Many scripts need their glyphs connected, stacked or moved, and that depends on instructions inside the font<sup>14</sup> and on the software following them.<sup>15</sup> The project keeps a public list of reported problems in its fonts.<sup>16</sup> Test a real word in each script you ship, and have someone who reads it check the result.
 
 Because the collection is large, load only the families you need. If a family is cut down further to make its file smaller, which is called [font subsetting](font-subsetting.md), check that the cut did not remove characters your readers will type.
 
@@ -75,7 +75,7 @@ Because the collection is large, load only the families you need. If a family is
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [SIL fonts](sil.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](../text-in-software/unicode.md) · [Reference sources](../../terms/reference-sources.md) · [Font terms](./)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [SIL fonts](sil.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](../text-in-software/unicode.md) · [Reference sources](../../terms/reference-sources.md) · [Font terms](./)
 
 ### Further reading
 

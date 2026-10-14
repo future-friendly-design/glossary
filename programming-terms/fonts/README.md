@@ -68,15 +68,15 @@ OpenType is a font file format, and it is the most widely used one.
 
 [**OpenType features**](opentype-features.md)
 
-OpenType features are named groups of instructions inside a font file, each one telling software how to swap or place the font's shapes for one purpose.
+OpenType features are named groups of instructions inside a font file, each one telling software how to swap or place the font's glyphs for one purpose.
 
 [**GSUB**](gsub.md)
 
-GSUB is the part of a font file that lists which shapes to swap for other shapes, and when.
+GSUB is the part of a font file that lists which glyphs to swap for other glyphs, and when.
 
 [**GPOS**](gpos.md)
 
-GPOS is the part of a font file that tells software where to place each shape in relation to the shapes around it.
+GPOS is the part of a font file that tells software where to place each glyph in relation to the glyphs around it.
 
 [**Ligature**](ligature.md)
 
@@ -120,7 +120,7 @@ SIL fonts are a collection of free fonts from SIL Global, made for languages tha
 
 [**Font subsetting**](font-subsetting.md)
 
-Font subsetting is the practice of making a smaller copy of a font file by keeping only the shapes and instructions needed for the characters a product expects to use.
+Font subsetting is the practice of making a smaller copy of a font file by keeping only the glyphs and instructions needed for the characters a product expects to use.
 
 ### Where to go next
 

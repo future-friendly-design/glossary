@@ -5,9 +5,7 @@ aliases:
   - Glyph Substitution table
 level: advanced
 depth: core
-summary: >-
-  GSUB is the part of a font file that lists which shapes to swap for other
-  shapes, and when.
+summary: GSUB is the part of a font file that lists which glyphs to swap for other glyphs, and when.
 related:
   - gpos
   - opentype
@@ -16,7 +14,7 @@ related:
   - text-shaping
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -35,7 +33,7 @@ tags:
 
 ## Definition
 
-GSUB is the part of a font file that lists which shapes to swap for other shapes, and when.<sup>1</sup>
+GSUB is the part of a font file that lists which glyphs to swap for other glyphs, and when.<sup>1</sup>
 
 GSUB is one of the tools of [text shaping](../text-shaping-and-layout/text-shaping.md). Text shaping is the step in which software picks the right shapes from a font for a piece of text and decides where each one goes. A [shaping engine](../text-shaping-and-layout/shaping-engine.md), the software that does it, reads GSUB from the font.<sup>2</sup>
 
@@ -54,7 +52,7 @@ When you type a word, the glyphs on screen are not always the ones you would get
 
 In each row, the software starts with one glyph for each character, then swaps some of those glyphs for others. The list of swaps has to be kept somewhere, and it is kept in the font, because every font has its own set of glyphs. GSUB is that list.
 
-The font does not do the swapping. A font is a file, and a file does nothing by itself. The software that does the shaping, called a shaping engine, reads the list and follows it.<sup>8</sup>
+The font does not do the swapping. A font is a file, and a file does nothing by itself. The shaping engine reads the list and follows it.<sup>8</sup>
 
 A swap can be small or large. The simplest kind replaces one glyph with one other glyph.<sup>9</sup> Another kind replaces several glyphs with a single glyph, and a glyph made that way is called a [ligature](ligature.md).<sup>10</sup> The "fi" glyph and the Arabic لا in the table are both ligatures.
 
@@ -63,11 +61,11 @@ Some swaps are required and some are optional. The font sorts its swaps into nam
 GSUB only swaps glyphs. Two jobs that sit close to it belong somewhere else:
 
 * **Moving a glyph**, such as setting a mark above a symbol, is the job of a second list in the font, called [GPOS](gpos.md).<sup>13</sup>
-* **Changing the order of glyphs**, as Devanagari does when a vowel mark appears before the consonant it follows, is done by the shaping engine and is not stored in the font.<sup>14</sup>
+* **Changing the order of glyphs**, as Devanagari does when a [vowel mark](../../language-terms/writing-systems-and-scripts/matra.md) appears before the consonant it follows, is done by the shaping engine and is not stored in the font.<sup>14</sup>
 
 Swapping also leaves the stored text alone. The text is still saved as the same characters, and only the glyphs shown for them change.<sup>15</sup>
 
-All of this matters when you choose a font, because every swap has to come from the font itself.<sup>16</sup> A font can have a glyph for every character of a [script](../../language-terms/writing-systems-and-scripts/script.md) and still lack the swaps that script needs. When that happens the text does appear, but with the wrong glyphs, and Arabic letters stand apart instead of [joining](../../language-terms/writing-systems-and-scripts/joining.md). So do not judge a font's [coverage](font-coverage.md) of a script by whether the characters show up. Type a real word, and check that it looks right to someone who reads the script.
+All of this matters when you choose a font, because every swap has to come from the font itself.<sup>16</sup> A font can have a glyph for every character of a [script](../../language-terms/writing-systems-and-scripts/script.md) and still lack the swaps that script needs, so the text appears with the wrong glyphs and Arabic letters stand apart instead of [joining](../../language-terms/writing-systems-and-scripts/joining.md). [Font coverage](font-coverage.md) explains how to test for that.
 
 ***
 

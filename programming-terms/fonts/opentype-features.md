@@ -6,9 +6,7 @@ aliases:
   - feature tags
 level: intermediate
 depth: deep
-summary: >-
-  OpenType features are named groups of instructions inside a font file, each
-  one telling software how to swap or place the font's shapes for one purpose.
+summary: "OpenType features are named groups of instructions inside a font file, each one telling software how to swap or place the font's glyphs for one purpose."
 related:
   - opentype
   - gsub
@@ -16,7 +14,7 @@ related:
   - ligature
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -40,51 +38,51 @@ tags:
 
 ## Definition
 
-OpenType features are named groups of instructions inside a font file, each one telling software how to swap or place the font's shapes for one purpose.<sup>1</sup>
+OpenType features are named groups of instructions inside a font file, each one telling software how to swap or place the font's glyphs for one purpose.<sup>1</sup>
 
 OpenType features are one of the parts of a [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
 
-The shapes are called [glyphs](glyph.md). [OpenType](opentype.md) is the most widely used font format.<sup>3</sup> Each feature has a short name of four characters, called a tag, such as `liga` or `smcp`.<sup>4</sup> Some features are needed for a [script](../../language-terms/writing-systems-and-scripts/script.md) to be written correctly, and others are style choices left to the designer.<sup>5</sup>
+A [glyph](glyph.md) is the shape a font holds for a [character](../text-in-software/character.md). [OpenType](opentype.md) is the most widely used font format.<sup>3</sup> Each feature has a short name of four characters, called a tag, such as `liga` or `smcp`.<sup>4</sup> Some features are needed for a [script](../../language-terms/writing-systems-and-scripts/script.md) to be written correctly, and others are style choices left to the designer.<sup>5</sup>
 
 ### Why it matters in design systems
 
 Open the type settings in a design tool and you will find a list of switches with names like Ligatures, Small Caps and Stylistic Sets. Each switch turns one feature on or off. The list makes features look like a menu of extras, something to explore when a heading needs more personality.
 
-Some of them are extras. Others are the reason a word in Arabic or Devanagari can be read at all, and those are normally left out of the menu. The difference between the kinds is the thing to learn:
+Some of them are extras. Others are the reason a word in [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md) or [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) can be read at all, and those are normally left out of the menu.
 
 | Kind of feature      | Example                                                                                                                                    | Tag                    | Who switches it on                                                             |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------------------------ |
 | Required by a script | The Arabic letters kāf ك, tāʾ ت and bāʾ ب take their connected forms in the word كتب                                                       | `init`, `medi`, `fina` | The software, every time. Tools are advised not to offer a switch.<sup>6</sup> |
 | Required by a script | The Devanagari letters for "ka" and "ssa", with the vowel-removing mark between them, merge into क्ष                                       | `akhn`                 | The software, every time. Tools are advised not to offer a switch.<sup>7</sup> |
-| On to begin with     | `f` and `i` are shown as one "fi" shape, a standard [ligature](ligature.md)                                                                | `liga`                 | The software, but you can switch it off.<sup>8</sup>                           |
-| On to begin with     | [Kerning](../../design-terms/typography/kerning.md): the gap between two particular letters is adjusted, so "T" and "o" sit closer in "To" | `kern`                 | The software, in most horizontal text, and you can switch it off.<sup>9</sup>  |
-| Optional             | [Small caps](../../design-terms/typography/small-caps.md): lowercase letters are shown as small capital letters                            | `smcp`                 | You. It starts off.<sup>10</sup>                                                |
-| Optional             | Tabular figures: every digit takes the same width, so numbers line up in a column                                                          | `tnum`                 | You. It starts off.<sup>11</sup>                                                |
-| Optional             | Stylistic sets: groups of alternative letter designs the font maker has drawn                                                              | `ss01` to `ss20`       | You. They start off.<sup>12</sup>                                              |
+| On to begin with     | `f` and `i` are shown as one "fi" glyph, a standard [ligature](ligature.md)                                                                | `liga`                 | The software, but you can switch it off.<sup>8</sup>                           |
+| On to begin with     | [Kerning](../../design-terms/typography/kerning.md), where the gap between two particular letters is adjusted, so "T" and "o" sit closer in "To" | `kern`                 | The software, in most horizontal text, and you can switch it off.<sup>9</sup>  |
+| Optional             | [Small caps](../../design-terms/typography/small-caps.md), where lowercase letters are shown as small capital letters                            | `smcp`                 | You. It starts off.<sup>10</sup>                                                |
+| Optional             | [Tabular figures](../../design-terms/typography/figure-styles.md), where every digit takes the same width, so numbers line up in a column                                                          | `tnum`                 | You. It starts off.<sup>11</sup>                                                |
+| Optional             | Stylistic sets, which are groups of alternative letter designs the font maker has drawn                                                              | `ss01` to `ss20`       | You. They start off.<sup>12</sup>                                              |
 
-A feature is only an instruction. The font holds it, and the software that picks and places the shapes decides when to follow it.<sup>13</sup> For the required kind, that decision takes knowledge the font does not have. Nothing in the Arabic `init` feature says where a word begins, so the software has to work that out and then apply the feature to the right letter.<sup>14</sup> This software is called a [shaping engine](../text-shaping-and-layout/shaping-engine.md), and it is built into browsers, operating systems and design tools.
+A feature is only an instruction. The font holds it, and the software that picks and places the glyphs decides when to follow it.<sup>13</sup> For the required kind, that decision takes knowledge the font does not have. Nothing in the Arabic `init` feature says where a word begins, so the software has to work that out and then apply the feature to the right letter.<sup>14</sup> This software is called a [shaping engine](../text-shaping-and-layout/shaping-engine.md), and it is built into browsers, operating systems and design tools.
 
-Inside the font, a feature points to instructions kept in two places. [GSUB](gsub.md) lists the shapes to swap, and [GPOS](gpos.md) lists where to place them.<sup>15</sup> Those two entries explain how the swapping and placing work.
+Inside the font, a feature points to instructions kept in two places. [GSUB](gsub.md) lists the glyphs to swap, and [GPOS](gpos.md) lists where to place them.<sup>15</sup> Those two entries explain how the swapping and placing work.
 
 Designers meet features in two places. In a design tool they are the switches described above. In Figma, they are on the Details tab of the Type menu, and a feature the font does not have is greyed out.<sup>16</sup> On the web they are set in CSS, the code that styles web pages, and CSS offers two routes. One is a set of settings with plain names, such as `font-variant-numeric: tabular-nums` for tabular figures.<sup>17</sup> The other is `font-feature-settings`, which takes raw tags like `"tnum"` and is meant for the rare feature that has no plain-named setting.<sup>18</sup>
 
-Whichever route you use, a feature can only do something if the font has it. Ask for tabular figures from a font without them and the web shows the text as if you had not asked. No error appears.<sup>19</sup> Small caps are the exception: when the font has none, a browser makes its own by shrinking capital letters.<sup>20</sup> That matters most in a product with several languages, where each script is usually shown in a different font and each font has its own list of features.
+Whichever route you use, a feature can only do something if the font has it. Ask for tabular figures from a font without them and the web shows the text as if you had not asked. No error appears.<sup>19</sup> Small caps are the exception. When the font has none, a browser makes its own by shrinking capital letters.<sup>20</sup> That matters most in a product with several languages, where each script is usually shown in a different font and each font has its own list of features.
 
 ### Common mistake
 
-Treating every feature as a style choice. A guideline that says "OpenType features: off", or a piece of software that skips features to save time, is thinking of the optional kind. Applied to everything, the same rule takes away the connected forms of Arabic and the merged consonants of Devanagari, and the text is no longer written correctly. The web guards against this: browsers must keep the required and on-to-begin-with features running, even when a page sets nothing.<sup>21</sup> That rule is written for browsers. Software that shows text some other way, such as a chart, a game or an export to an image, may not follow it, so test it with real words. So write the guideline by kind: optional features are yours to choose, and required features are not on the table.
+Treating every feature as a style choice. A guideline that says "OpenType features: off", or a piece of software that skips features to save time, is thinking of the optional kind. Applied to everything, the same rule takes away the connected forms of Arabic and the merged consonants of Devanagari, and the text is no longer written correctly. The web guards against this. Browsers must keep the required and on-to-begin-with features running, even when a page sets nothing.<sup>21</sup> That rule is written for browsers. Software that shows text some other way, such as a chart, a game or an export to an image, may not follow it, so test it with real words. Write the guideline by kind. Optional features are yours to choose, and required features are not on the table.
 
 ### In practice
 
 * **Reach for the plain-named setting first.** The CSS rules ask authors to use the `font-variant` properties wherever they can and to keep `font-feature-settings` for special cases.<sup>22</sup> There is a practical reason as well. Each time you change one raw tag, you have to write out the whole list of tags again, so a feature set somewhere else is easy to drop without noticing.<sup>23</sup>
-* **Check the feature in every font, not only the brand font.** A [design token](../../design-terms/design-token.md) is a named design decision that tools and code share. A token for tabular figures works in the font it was tested with. In the font that steps in for another script it may do nothing, and nothing warns you. Test the tables and prices in each language you ship.
-* **Know which scripts a feature is for.** Small caps exist for scripts that have capital and lowercase letters, such as Latin, Greek, Cyrillic and Armenian.<sup>24</sup> Arabic has no capital letters,<sup>25</sup> and neither does Devanagari,<sup>26</sup> so a "small caps" label style has nothing to do there. Give such a style a second treatment for those scripts, and decide it on purpose.
+* **Check the feature in every font, not only the brand font.** A [design token](../../design-terms/design-token.md) is a named design decision that tools and code share. A token for tabular figures works in the font it was tested with. In a [fallback font](fallback-font.md), the font that steps in for another script, it may do nothing, and nothing warns you. Test the tables and prices in each language you ship.
+* **Know which scripts a feature is for.** Small caps exist for scripts that have capital and lowercase letters, such as [Latin](../../language-terms/writing-systems-and-scripts/latin-script.md), [Greek](../../language-terms/writing-systems-and-scripts/greek-script.md), [Cyrillic](../../language-terms/writing-systems-and-scripts/cyrillic.md) and [Armenian](../../language-terms/writing-systems-and-scripts/armenian-script.md).<sup>24</sup> Arabic has no capital letters,<sup>25</sup> and neither does Devanagari,<sup>26</sup> so a "small caps" label style has nothing to do there. Give such a style a second treatment for those scripts, and decide it on purpose.
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Armenian script](../../language-terms/writing-systems-and-scripts/armenian-script.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Fallback font](fallback-font.md) · [Figure styles](../../design-terms/typography/figure-styles.md) · [Font](font.md) · [Glyph](glyph.md) · [GPOS](gpos.md) · [Greek script](../../language-terms/writing-systems-and-scripts/greek-script.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Kerning](../../design-terms/typography/kerning.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Ligature](ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](opentype.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](../text-shaping-and-layout/shaping-engine.md) · [Small caps](../../design-terms/typography/small-caps.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Virama](../../language-terms/writing-systems-and-scripts/virama.md) · [Font terms](./)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Armenian script](../../language-terms/writing-systems-and-scripts/armenian-script.md) · [Character](../text-in-software/character.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Fallback font](fallback-font.md) · [Figure styles](../../design-terms/typography/figure-styles.md) · [Font](font.md) · [Glyph](glyph.md) · [GPOS](gpos.md) · [Greek script](../../language-terms/writing-systems-and-scripts/greek-script.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Kerning](../../design-terms/typography/kerning.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Ligature](ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](opentype.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](../text-shaping-and-layout/shaping-engine.md) · [Small caps](../../design-terms/typography/small-caps.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Virama](../../language-terms/writing-systems-and-scripts/virama.md) · [Font terms](./)
 
 ### Further reading
 
