@@ -90,6 +90,6 @@ A keyboard layout is the set of rules that decides which character appears when 
 
 ### Where to go next
 
-* How the text itself is stored, counted, and compared is covered in [Text in software](../text-in-software/).
+* How the text itself is stored, counted, and compared is covered in [Text encoding & character terms](../text-in-software/).
 * Whether your type can render the languages you are adding is covered in [Fonts](../../design-terms/fonts/).
 * What the languages and scripts themselves require is covered in [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/) and [Language & linguistics](../../language-terms/linguistics/).

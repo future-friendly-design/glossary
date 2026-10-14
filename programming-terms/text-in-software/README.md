@@ -1,4 +1,4 @@
-# Text in software
+# Text encoding & character terms
 
 ## How software stores text
 

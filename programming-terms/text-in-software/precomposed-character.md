@@ -48,7 +48,7 @@ Both come out looking the same on screen, and neither is wrong. The trouble is t
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Combining mark](combining-mark.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Grapheme cluster](grapheme-cluster.md) · [Normalization](normalization.md) · [Unicode](unicode.md) · [Text in software](./)
+[Character](character.md) · [Code point](code-point.md) · [Combining mark](combining-mark.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Grapheme cluster](grapheme-cluster.md) · [Normalization](normalization.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

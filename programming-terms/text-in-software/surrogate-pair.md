@@ -50,7 +50,7 @@ This is not an emoji edge case, though emoji are where teams usually meet it. Th
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../../design-terms/typography/tofu.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [UTF-8](utf-8.md) · [Text in software](./)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../../design-terms/typography/tofu.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [UTF-8](utf-8.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

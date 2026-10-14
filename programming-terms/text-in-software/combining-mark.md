@@ -54,7 +54,7 @@ The point that matters for software: the same accented letter can be stored eith
 
 ### Related terms and mentions
 
-[Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md) · [Character](character.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Enclosing mark](enclosing-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Normalization](normalization.md) · [Precomposed character](precomposed-character.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Spacing combining mark](spacing-combining-mark.md) · [Unicode](unicode.md) · [Text in software](./)
+[Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md) · [Character](character.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Enclosing mark](enclosing-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Normalization](normalization.md) · [Precomposed character](precomposed-character.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Spacing combining mark](spacing-combining-mark.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

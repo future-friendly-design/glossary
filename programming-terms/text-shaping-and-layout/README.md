@@ -91,5 +91,5 @@ Vertical text refers to the text direction script rule that defines reading and 
 ### Where to go next
 
 * Many of the instructions shaping relies on live inside the font file: see [Fonts](../../design-terms/fonts/).
-* The characters going into shaping are covered in [Text in software](../text-in-software/).
+* The characters going into shaping are covered in [Text encoding & character terms](../text-in-software/).
 * Which direction a line runs, and what happens when two directions meet, is covered in [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/).

@@ -154,7 +154,7 @@
   * [Ligature](programming-terms/text-for-digital-products-and-the-web/ligature.md)
   * [Shaping engine](programming-terms/text-for-digital-products-and-the-web/shaping-engine.md)
   * [Faux bold](programming-terms/text-for-digital-products-and-the-web/faux-bold.md)
-* [Text in software](programming-terms/text-in-software/README.md)
+* [Text encoding & character terms](programming-terms/text-in-software/README.md)
   * [Character](programming-terms/text-in-software/character.md)
   * [Character encoding](programming-terms/text-in-software/character-encoding.md)
   * [Code point](programming-terms/text-in-software/code-point.md)

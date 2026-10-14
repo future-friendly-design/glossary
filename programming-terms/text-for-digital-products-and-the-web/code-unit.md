@@ -53,7 +53,7 @@ So when you write a character limit into a spec, say which unit you mean. Code u
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [Character encoding](../text-in-software/character-encoding.md) · [Code point](../text-in-software/code-point.md) · [Grapheme cluster](../text-in-software/grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](../text-in-software/surrogate-pair.md) · [Unicode](../text-in-software/unicode.md) · [UTF-8](../text-in-software/utf-8.md) · [UTF-16](../text-in-software/utf-16.md) · [Text in software](../text-in-software/)
+[Character](../text-in-software/character.md) · [Character encoding](../text-in-software/character-encoding.md) · [Code point](../text-in-software/code-point.md) · [Grapheme cluster](../text-in-software/grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](../text-in-software/surrogate-pair.md) · [Unicode](../text-in-software/unicode.md) · [UTF-8](../text-in-software/utf-8.md) · [UTF-16](../text-in-software/utf-16.md) · [Text encoding & character terms](../text-in-software/)
 
 ### Further reading
 

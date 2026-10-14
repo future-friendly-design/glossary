@@ -48,7 +48,7 @@ The Unicode Consortium was founded in 1988 and incorporated in 1991.<sup>5</sup>
 
 ### Related terms and mentions
 
-[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](character.md) · [Code point](code-point.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Unicode](unicode.md) · [Text in software](./)
+[Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](character.md) · [Code point](code-point.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Normalization](normalization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Segmentation](segmentation.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

@@ -61,7 +61,7 @@ Comparing, searching, or deduplicating user text without normalizing first. Two 
 
 ### Related terms and mentions
 
-[Character](character.md) · [Combining mark](combining-mark.md) · [Full-width](full-width.md) · [Grapheme cluster](grapheme-cluster.md) · [Ligature](../text-for-digital-products-and-the-web/ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Precomposed character](precomposed-character.md) · [Unicode](unicode.md) · [Text in software](./)
+[Character](character.md) · [Combining mark](combining-mark.md) · [Full-width](full-width.md) · [Grapheme cluster](grapheme-cluster.md) · [Ligature](../text-for-digital-products-and-the-web/ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Precomposed character](precomposed-character.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

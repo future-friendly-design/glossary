@@ -48,7 +48,7 @@ That is the spacing combining mark. A [combining mark](combining-mark.md) is any
 
 ### Related terms and mentions
 
-[Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md) · [Character](character.md) · [Combining mark](combining-mark.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Enclosing mark](enclosing-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Unicode](unicode.md) · [Text in software](./)
+[Brahmic scripts](../../language-terms/writing-systems-and-scripts/brahmic-scripts.md) · [Character](character.md) · [Combining mark](combining-mark.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Enclosing mark](enclosing-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

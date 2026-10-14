@@ -46,7 +46,7 @@ Unicode is developed and maintained by the Unicode Consortium.<sup>5</sup> The p
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Collation](../internationalization-and-localization/collation.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](../text-for-digital-products-and-the-web/text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Unicode Standard](unicode-standard.md) · [UTF-8](utf-8.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Collation](../internationalization-and-localization/collation.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](../text-for-digital-products-and-the-web/text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Unicode Standard](unicode-standard.md) · [UTF-8](utf-8.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

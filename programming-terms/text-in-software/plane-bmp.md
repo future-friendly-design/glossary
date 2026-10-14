@@ -40,7 +40,7 @@ The letter `A` lives in the BMP, while most emoji live in supplementary planes.
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [Text in software](./)
+[Character](character.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Han characters](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-16](utf-16.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

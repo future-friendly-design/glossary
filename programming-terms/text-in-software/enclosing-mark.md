@@ -44,7 +44,7 @@ That makes it the third and last member of [Unicode](unicode.md)'s Mark category
 
 ### Related terms and mentions
 
-[Character](character.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Spacing combining mark](spacing-combining-mark.md) · [Unicode](unicode.md) · [Text in software](./)
+[Character](character.md) · [Combining mark](combining-mark.md) · [Grapheme cluster](grapheme-cluster.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Spacing combining mark](spacing-combining-mark.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

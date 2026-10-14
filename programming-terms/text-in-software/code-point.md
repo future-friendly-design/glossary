@@ -47,7 +47,7 @@ Two things surprise people. Not every code point is assigned to a character,<sup
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [Text in software](./)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [Text encoding & character terms](./)
 
 
 

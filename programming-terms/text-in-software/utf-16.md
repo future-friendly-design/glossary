@@ -50,7 +50,7 @@ For a design system, the takeaway is not to avoid UTF-16, which is rarely your c
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [Text in software](./)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Code point](code-point.md) · [Code unit](../text-for-digital-products-and-the-web/code-unit.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Unicode](unicode.md) · [UTF-8](utf-8.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

@@ -46,7 +46,7 @@ Keep grapheme, [glyph](../text-for-digital-products-and-the-web/glyph.md), and [
 
 ### Related terms and mentions
 
-[Character](character.md) · [Code point](code-point.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Phoneme](../../language-terms/linguistics/phoneme.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text in software](./)
+[Character](character.md) · [Code point](code-point.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Language](../../language-terms/linguistics/language.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Phoneme](../../language-terms/linguistics/phoneme.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Text encoding & character terms](./)
 
 ### Further reading
 
