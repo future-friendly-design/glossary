@@ -5,7 +5,9 @@ aliases:
   - shaping
 level: intermediate
 depth: deep
-summary: Text shaping is the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes.
+summary: >-
+  Text shaping is the step in which software works out which of a font's shapes
+  to draw for a piece of text, and where each shape goes.
 related:
   - shaping-engine
   - complex-text-layout
@@ -14,7 +16,7 @@ related:
   - opentype
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -48,12 +50,12 @@ How much work that takes depends on the [script](../../language-terms/writing-sy
 
 This glossary does not cover every script, so here are four to start with. Select a linked term to go to its glossary page.
 
-| What is stored | What the reader should see | What shaping did |
-| -------------- | -------------------------- | ---------------- |
-| The Arabic letters kāf ك, tāʾ ت and bāʾ ب | كتب | Chose a form of each letter that connects to the letters beside it. This is called [joining](../../language-terms/writing-systems-and-scripts/joining.md).<sup>6</sup> |
-| The Thai consonants ส, ว, ส and ด, with one vowel mark stored after ว and another after ด | สวัสดี | Placed each vowel mark above its consonant. A [mark](../../language-terms/writing-systems-and-scripts/mark.md) is a symbol that attaches to another symbol.<sup>7</sup> |
-| Five Tibetan characters: the consonants ra, ga and ya, a vowel mark, then the consonant ད | རྒྱུད | Built one stack from the first three consonants, with ra on top, ga in the middle and ya below, and set the vowel mark under it. This is called [stacking](../../language-terms/writing-systems-and-scripts/stacking-script.md).<sup>8</sup> |
-| The Devanagari consonant क, then the vowel mark for "i" | कि | Drew the vowel mark to the left of the consonant, although it is stored after it. This is called [reordering](reordering.md).<sup>9</sup> |
+| What is stored                                                                            | What the reader should see | What shaping did                                                                                                                                                                                                                             |
+| ----------------------------------------------------------------------------------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The Arabic letters kāf ك, tāʾ ت and bāʾ ب                                                 | كتب                        | Chose a form of each letter that connects to the letters beside it. This is called [joining](../../language-terms/writing-systems-and-scripts/joining.md).<sup>6</sup>                                                                       |
+| The Thai consonants ส, ว, ส and ด, with one vowel mark stored after ว and another after ด | สวัสดี                     | Placed each vowel mark above its consonant. A [mark](../../language-terms/writing-systems-and-scripts/mark.md) is a symbol that attaches to another symbol.<sup>7</sup>                                                                      |
+| Five Tibetan characters: the consonants ra, ga and ya, a vowel mark, then the consonant ད | རྒྱུད                      | Built one stack from the first three consonants, with ra on top, ga in the middle and ya below, and set the vowel mark under it. This is called [stacking](../../language-terms/writing-systems-and-scripts/stacking-script.md).<sup>8</sup> |
+| The Devanagari consonant क, then the vowel mark for "i"                                   | कि                         | Drew the vowel mark to the left of the consonant, although it is stored after it. This is called [reordering](reordering.md).<sup>9</sup>                                                                                                    |
 
 In all four rows the stored characters were already correct. Shaping changed three things: which glyphs were chosen, where they sit, and in the last row the order they are drawn in.
 
@@ -65,7 +67,7 @@ Three names in this part of the glossary are easy to mix up:
 
 * **Text shaping** is the job.
 * **A shaping engine** is the software that does the job. There is more than one. HarfBuzz is a shaping engine, and so is CoreText on macOS.<sup>13</sup>
-* **[Complex text layout](complex-text-layout.md)** is a name for the same job in the scripts where it has the most to do, such as Arabic and Devanagari in the table.<sup>14</sup> It is not a separate step.
+* [**Complex text layout**](complex-text-layout.md) is a name for the same job in the scripts where it has the most to do, such as Arabic and Devanagari in the table.<sup>14</sup> It is not a separate step.
 
 Shaping is also not the only thing that happens to text on its way to the screen. Mixing right-to-left and left-to-right writing in one line, which is called [bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md), is a different job. So is deciding where a line ends. A shaping engine such as HarfBuzz leaves both to other software.<sup>15</sup>
 
@@ -77,7 +79,7 @@ Working out how much room text needs by counting its characters. A character lim
 
 ### In practice
 
-* **Say which language the text is in.** Shaping uses the script and the language of the text, as well as the characters and the font.<sup>18</sup> Languages that share a script can expect different shapes for the same letter. Some Cyrillic letters, for example, are drawn one way in Russian and another way in Bulgarian.<sup>19</sup> On the web, the browser reads the language marked on the content and uses it when it chooses and places glyphs.<sup>20</sup> So mark the language of every piece of text with a [language tag](language-tag.md), a short code that names the language, including a single name or quotation in another language.
+* **Say which language the text is in.** Shaping uses the script and the language of the text, as well as the characters and the font.<sup>18</sup> Languages that share a script can expect different shapes for the same letter. Some Cyrillic letters, for example, are drawn one way in Russian and another way in Bulgarian.<sup>19</sup> On the web, the browser reads the language marked on the content and uses it when it chooses and places glyphs.<sup>20</sup> So mark the language of every piece of text with a [language tag](../internationalization-and-localization/language-tag.md), a short code that names the language, including a single name or quotation in another language.
 * **Keep a word in one piece.** A shaping engine such as HarfBuzz works on one stretch of text at a time. A change of font, font size, script, language or direction inside the text starts a new stretch, and each stretch is shaped by itself.<sup>21</sup> The rules for web pages add that shaping must be broken where a border, or space added around part of the text (padding or a margin), comes between two symbols.<sup>22</sup> A change that leaves the glyphs alone, such as an underline, must not break shaping on a web page.<sup>23</sup> So if you give part of a word its own font, or put a border or padding around it, symbols that should connect across that point can come apart. Try the design on a word in a script that joins before you approve it.
 * **Be careful with effects that move symbols one at a time.** An animation that brings symbols in one by one, or a heading set along a curve, may treat each symbol as a separate piece. But the right form of an Arabic letter can only be chosen by looking at the letters around it.<sup>24</sup> And when text follows a curve, each glyph is usually turned by itself, so glyphs that were drawn to connect may no longer meet.<sup>25</sup> Before you approve an effect like this, try it on an Arabic word, and ask a person who reads Arabic whether the letters still connect.
 
@@ -85,7 +87,7 @@ Working out how much room text needs by counting its characters. A character lim
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Language tag](language-tag.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Ligature](ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](../../design-terms/typography/opentype.md) · [Reordering](reordering.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Tibetan script](../../language-terms/writing-systems-and-scripts/tibetan-script.md) · [Unicode](../text-in-software/unicode.md) · [Vertical text](../../terms/vertical-text.md) · [Text shaping & layout](../text-shaping-and-layout/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Language tag](../internationalization-and-localization/language-tag.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Ligature](ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](../../design-terms/typography/opentype.md) · [Reordering](reordering.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Tibetan script](../../language-terms/writing-systems-and-scripts/tibetan-script.md) · [Unicode](../text-in-software/unicode.md) · [Vertical text](../../terms/vertical-text.md) · [Text shaping & layout](../text-shaping-and-layout/)
 
 ### Further reading
 
@@ -110,7 +112,7 @@ Working out how much room text needs by counting its characters. A character lim
 14. SVG text supports "complex text layout where: there is not always a one-to-one correspondence between characters and glyphs, characters may change shape depending on location (e.g. Arabic), and characters may be reordered or combined depending on context (e.g. Devanagari)" - Scalable Vector Graphics (SVG) 2, Chapter 11: Text (W3C) [https://www.w3.org/TR/SVG2/text.html](https://www.w3.org/TR/SVG2/text.html)
 15. "HarfBuzz won't help you with bidirectionality" and "HarfBuzz won't help you with line breaking, hyphenation, or justification" - What HarfBuzz doesn't do, HarfBuzz Manual [https://harfbuzz.github.io/what-harfbuzz-doesnt-do.html](https://harfbuzz.github.io/what-harfbuzz-doesnt-do.html)
 16. "glyphs and characters do not strictly correspond one-to-one. For example, a user might type two characters, which might be better represented with a single ligature glyph. Conversely, the same character might take different forms at the beginning, middle, or end of a word" - Advanced typographic tables: OpenType Layout, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/ttochap1](https://learn.microsoft.com/en-us/typography/opentype/spec/ttochap1)
-17. Nonspacing Mark: "It generally does not consume space along the visual baseline in and of itself" - Unicode Glossary [https://www.unicode.org/glossary/#nonspacing_mark](https://www.unicode.org/glossary/#nonspacing_mark)
+17. Nonspacing Mark: "It generally does not consume space along the visual baseline in and of itself" - Unicode Glossary [https://www.unicode.org/glossary/#nonspacing\_mark](https://www.unicode.org/glossary/#nonspacing_mark)
 18. "The shaping process is dependent on the input string, the active font, the script (or writing system) that the string is in, and the language that the string is in" - What is HarfBuzz?, HarfBuzz Manual [https://harfbuzz.github.io/what-is-harfbuzz.html](https://harfbuzz.github.io/what-is-harfbuzz.html)
 19. "Many languages share a common script, but the shape of certain letters can vary across those languages. For example, certain Cyrillic letters have different shapes in Russian text than in Bulgarian" - CSS Fonts Module Level 3, section 6.2 (W3C) [https://www.w3.org/TR/css-fonts-3/#language-specific-support](https://www.w3.org/TR/css-fonts-3/#language-specific-support)
 20. "user agents are required to infer the OpenType language system from the content language and use that when selecting and positioning glyphs using an OpenType font" - CSS Fonts Module Level 3, section 6.2 (W3C) [https://www.w3.org/TR/css-fonts-3/#language-specific-support](https://www.w3.org/TR/css-fonts-3/#language-specific-support)

@@ -2,23 +2,30 @@
 term: Keyboard layout
 slug: keyboard-layout
 aliases: []
-tags: [i18n-engineering]
 level: foundational
 depth: core
-summary: A keyboard layout is the set of rules that decides which character appears when a person presses a key on a keyboard or taps one on a screen.
-related: [input-method-editor, internationalization, locale]
+summary: >-
+  A keyboard layout is the set of rules that decides which character appears
+  when a person presses a key on a keyboard or taps one on a screen.
+related:
+  - input-method-editor
+  - internationalization
+  - locale
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-14
-contributors: [sam-gordashko]
+updated: 2026-10-14T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "KeyboardEvent: code property (MDN)"
+  - title: 'KeyboardEvent: code property (MDN)'
     url: https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
     type: code
-  - title: "CLDR Keyboard Working Group (Unicode)"
+  - title: CLDR Keyboard Working Group (Unicode)
     url: https://cldr.unicode.org/index/keyboard-workgroup
     type: authority
 license: CC-BY-4.0
+tags:
+  - i18n-engineering
 ---
 
 # Keyboard layout
@@ -37,11 +44,11 @@ Look down at a keyboard and every key has a character printed on it, so it is na
 
 Here is one key, the one labelled `2` on a keyboard sold in the United States, under three layouts:
 
-| Layout | Pressing the key | Pressing it with Shift held down |
-| ------ | ---------------- | -------------------------------- |
-| United States | `2` | `@` |
-| United Kingdom | `2` | `"` |
-| French | `é` | `2` |
+| Layout         | Pressing the key | Pressing it with Shift held down |
+| -------------- | ---------------- | -------------------------------- |
+| United States  | `2`              | `@`                              |
+| United Kingdom | `2`              | `"`                              |
+| French         | `é`              | `2`                              |
 
 Same key, same finger, three results.<sup>5</sup>
 
@@ -59,7 +66,7 @@ The larger problem is whether a layout exists at all. For most of the world's la
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [CLDR](cldr.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](font.md) · [Input method editor (IME)](input-method-editor.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Locale](locale.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](../text-in-software/unicode.md) · [Internationalization & localization terms](../internationalization-and-localization/)
+[Character](../text-in-software/character.md) · [CLDR](cldr.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Input method editor (IME)](input-method-editor.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Locale](locale.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](../text-in-software/unicode.md) · [Internationalization & localization terms](./)
 
 ### Further reading
 
@@ -69,7 +76,7 @@ The larger problem is whether a layout exists at all. For most of the world's la
 ### Sources
 
 1. Key map: "The basic mapping between hardware or on-screen positions and the output characters for each set of modifier combinations associated with a particular layout" - Unicode Technical Standard #35, version 48.2, Unicode Locale Data Markup Language (LDML) Part 7: Keyboards, Definitions [https://www.unicode.org/reports/tr35/tr35-78/tr35-keyboards.html](https://www.unicode.org/reports/tr35/tr35-78/tr35-keyboards.html)
-2. "nor that keyboards are the same all over the world" - Internationalization Best Practices for Spec Developers, W3C Group Note, Text input [https://www.w3.org/TR/international-specs/#char_keystroke](https://www.w3.org/TR/international-specs/#char_keystroke)
+2. "nor that keyboards are the same all over the world" - Internationalization Best Practices for Spec Developers, W3C Group Note, Text input [https://www.w3.org/TR/international-specs/#char\_keystroke](https://www.w3.org/TR/international-specs/#char_keystroke)
 3. "While the arrangement of keys on a keyboard may be fixed, the mapping of those keys may vary" - Unicode Technical Standard #35, version 48.2, Unicode Locale Data Markup Language (LDML) Part 7: Keyboards, Definitions [https://www.unicode.org/reports/tr35/tr35-78/tr35-keyboards.html](https://www.unicode.org/reports/tr35/tr35-78/tr35-keyboards.html)
 4. "the visual appearance of the key has no bearing on its digital representation, and in many configurations may be completely inaccurate" - UI Events, W3C Working Draft, section 4.1.1 Key Legends [https://www.w3.org/TR/uievents/](https://www.w3.org/TR/uievents/)
 5. Table "Handling the "2" Key (with and without Shift pressed) on various keyboard layouts", whose rows give `2` and `@` for US, `2` and a double quotation mark for UK, and `é` and `2` for French - UI Events, W3C Working Draft, section 4.2.3 code Examples [https://www.w3.org/TR/uievents/](https://www.w3.org/TR/uievents/)

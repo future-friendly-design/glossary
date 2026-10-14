@@ -50,15 +50,13 @@ So for a design system, anything that counts, truncates, or indexes text has to 
 
 Thai text runs words together with no spaces, so "คนไทย" cannot be split into words by looking for spaces; a segmentation algorithm is needed to find the boundaries.
 
-<!-- NEEDS EXPERT REVIEW: the Thai sample above (U+0E04 U+0E19 U+0E44 U+0E17 U+0E22) appears nowhere else in the repo. Its split into two words (U+0E04 U+0E19, then U+0E44 U+0E17 U+0E22) was verified only by an ICU run (Intl.Segmenter, ICU 78.3), not by a Thai reader or a primary source. -->
-
 ### Common mistake
 
 Splitting on whitespace to count words, truncate text, or build a search index. It silently fails for space-less scripts (producing one giant "word") and mishandles grapheme clusters at character level, so word counts, "read time" estimates, and search tokenization come out wrong for much of the world.
 
 ### In practice
 
-* **Use a Unicode-aware segmenter:** in JavaScript, `Intl.Segmenter` with `granularity: "word"` (or `"sentence"`, `"grapheme"`) builds on the UAX #29 defaults;<sup>3</sup> server-side, [ICU](../text-for-digital-products-and-the-web/icu.md) provides the same, including dictionary-based word breaking for Thai and CJK.<sup>4</sup> See [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter).
+* **Use a Unicode-aware segmenter:** in JavaScript, `Intl.Segmenter` with `granularity: "word"` (or `"sentence"`, `"grapheme"`) builds on the UAX #29 defaults;<sup>3</sup> server-side, [ICU](../internationalization-and-localization/icu.md) provides the same, including dictionary-based word breaking for Thai and CJK.<sup>4</sup> See [Intl.Segmenter (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter).
 * **Match the unit to the task:** count and truncate by grapheme cluster for "characters," segment by word for word counts and search, by sentence for snippets. Each is a different boundary.
 * **Languages:** word segmentation quality is language-specific; confirm space-less scripts with the language experts and test with real content.
 
@@ -66,7 +64,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### Related terms and mentions
 
-[Character](character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [CLDR](../text-for-digital-products-and-the-web/cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](../text-for-digital-products-and-the-web/icu.md) · [Internationalization (i18n)](../text-for-digital-products-and-the-web/internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
+[Character](character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [CLDR](../internationalization-and-localization/cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](../internationalization-and-localization/icu.md) · [Internationalization (i18n)](../internationalization-and-localization/internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
 
 ### Further reading
 
@@ -75,7 +73,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### Sources
 
-1. "This annex describes guidelines for determining default segmentation boundaries between certain significant text elements: grapheme clusters (\"user-perceived characters\"), words, and sentences" - Unicode Standard Annex #29: Unicode Text Segmentation [https://unicode.org/reports/tr29/](https://unicode.org/reports/tr29/)
+1. "This annex describes guidelines for determining default segmentation boundaries between certain significant text elements: grapheme clusters ("user-perceived characters"), words, and sentences" - Unicode Standard Annex #29: Unicode Text Segmentation [https://unicode.org/reports/tr29/](https://unicode.org/reports/tr29/)
 2. "reliable detection of word boundaries in languages such as Thai, Lao, Chinese, or Japanese requires the use of dictionary lookup or other mechanisms, analogous to English hyphenation" - Unicode Standard Annex #29: Unicode Text Segmentation, section 2 Conformance [https://unicode.org/reports/tr29/#Conformance](https://unicode.org/reports/tr29/#Conformance)
 3. "Boundary determination is implementation-dependent, but general default algorithms are specified in Unicode Standard Annex #29" - ECMAScript Internationalization API Specification (ECMA-402), Abstract Operations for Segmenter Objects [https://tc39.es/ecma402/](https://tc39.es/ecma402/)
 4. "ICU provides dictionary support for word boundaries in Chinese, Japanese, Thai, Lao, Khmer and Burmese" - ICU User Guide: Boundary Analysis [https://unicode-org.github.io/icu/userguide/boundaryanalysis/](https://unicode-org.github.io/icu/userguide/boundaryanalysis/)

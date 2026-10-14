@@ -37,11 +37,11 @@ Supporting the world's languages is not one feature you add at the end; it is a 
 
 A guided tour of the internationalization and engineering terms in this glossary, grouped by what they help you do:
 
-* **The i18n / l10n model:** [Internationalization (i18n)](../programming-terms/text-for-digital-products-and-the-web/internationalization.md), [Localization (l10n)](../programming-terms/text-for-digital-products-and-the-web/localization.md), [Locale](../programming-terms/text-for-digital-products-and-the-web/locale.md)
-* **Locale-aware text behavior:** [Collation](../programming-terms/text-for-digital-products-and-the-web/collation.md), [Segmentation](../programming-terms/text-in-software/segmentation.md)
-* **Locale data and libraries:** [CLDR](../programming-terms/text-for-digital-products-and-the-web/cldr.md), [ICU](../programming-terms/text-for-digital-products-and-the-web/icu.md)
-* **Designing for translation:** [Text expansion](../programming-terms/text-for-digital-products-and-the-web/text-expansion.md), [Pseudolocalization](../programming-terms/text-for-digital-products-and-the-web/pseudolocalization.md)
-* **Input:** [Input method editor (IME)](../programming-terms/text-for-digital-products-and-the-web/input-method-editor.md), [Keyboard layout](../programming-terms/text-for-digital-products-and-the-web/keyboard-layout.md)
+* **The i18n / l10n model:** [Internationalization (i18n)](../programming-terms/internationalization-and-localization/internationalization.md), [Localization (l10n)](../programming-terms/internationalization-and-localization/localization.md), [Locale](../programming-terms/internationalization-and-localization/locale.md)
+* **Locale-aware text behavior:** [Collation](../programming-terms/internationalization-and-localization/collation.md), [Segmentation](../programming-terms/text-in-software/segmentation.md)
+* **Locale data and libraries:** [CLDR](../programming-terms/internationalization-and-localization/cldr.md), [ICU](../programming-terms/internationalization-and-localization/icu.md)
+* **Designing for translation:** [Text expansion](../programming-terms/internationalization-and-localization/text-expansion.md), [Pseudolocalization](../programming-terms/internationalization-and-localization/pseudolocalization.md)
+* **Input:** [Input method editor (IME)](../programming-terms/internationalization-and-localization/input-method-editor.md), [Keyboard layout](../programming-terms/internationalization-and-localization/keyboard-layout.md)
 
 ## Further reading
 

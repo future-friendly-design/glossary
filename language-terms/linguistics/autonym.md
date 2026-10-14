@@ -21,7 +21,8 @@ contributors:
   - sam-gordashko
 further_reading:
   - title: UNGEGN Glossary of Terms for the Standardization of Geographical Names
-    url: https://unstats.un.org/unsd/ungegn/pubs/documents/Glossary_of_terms_rev.pdf
+    url: >-
+      https://unstats.un.org/unsd/ungegn/pubs/documents/Glossary_of_terms_rev.pdf
     type: authority
   - title: Endonym and exonym (Wikipedia)
     url: https://en.wikipedia.org/wiki/Endonym_and_exonym
@@ -39,7 +40,7 @@ An autonym is the name a people, language, or script uses for itself, as opposed
 
 ### Why it matters in design systems
 
-Language and country pickers are often built from English names, which quietly tells speakers their language is being described from the outside. A well-internationalized picker lists each [language](language.md) by its autonym, so a reader recognizes their own language at a glance instead of decoding an outsider's label for it. Pull the autonyms from a maintained dataset such as [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) rather than translating them by hand, and store them as data, not as UI strings baked into one layout. The same courtesy applies to scripts and places: use the self-name where one exists.
+Language and country pickers are often built from English names, which quietly tells speakers their language is being described from the outside. A well-internationalized picker lists each [language](language.md) by its autonym, so a reader recognizes their own language at a glance instead of decoding an outsider's label for it. Pull the autonyms from a maintained dataset such as [CLDR](../../programming-terms/internationalization-and-localization/cldr.md) rather than translating them by hand, and store them as data, not as UI strings baked into one layout. The same courtesy applies to scripts and places: use the self-name where one exists.
 
 ### Example
 
@@ -49,7 +50,7 @@ Language and country pickers are often built from English names, which quietly t
 
 ### Related terms and mentions
 
-[CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Exonym](exonym.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization (l10n)](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](./)
+[CLDR](../../programming-terms/internationalization-and-localization/cldr.md) · [Devanagari](../writing-systems-and-scripts/devanagari.md) · [Dialect](dialect.md) · [Exonym](exonym.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization (l10n)](../../programming-terms/internationalization-and-localization/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [Language & linguistics](./)
 
 ### Further reading
 

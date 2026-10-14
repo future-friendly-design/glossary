@@ -44,7 +44,7 @@ Serbian is one language written in two scripts: it is a rare case of synchronic 
 
 ### Common mistake
 
-Treating a language as if it were a country or a [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md). A single language crosses many borders (Spanish, Arabic, and Swahili each span several countries), a single country can hold dozens of languages, and many languages are primarily spoken with little or no standard written form. Wiring "languages supported" to a list of countries or locale codes breaks for exactly the multilingual users a product most wants to reach.
+Treating a language as if it were a country or a [locale](../../programming-terms/internationalization-and-localization/locale.md). A single language crosses many borders (Spanish, Arabic, and Swahili each span several countries), a single country can hold dozens of languages, and many languages are primarily spoken with little or no standard written form. Wiring "languages supported" to a list of countries or locale codes breaks for exactly the multilingual users a product most wants to reach.
 
 ### In practice
 
@@ -56,7 +56,7 @@ Treating a language as if it were a country or a [locale](../../programming-term
 
 ### Related terms and mentions
 
-[Autonym](autonym.md) · [Dialect](dialect.md) · [ISO 639-3](iso-639-3.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Script](../writing-systems-and-scripts/script.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](./)
+[Autonym](autonym.md) · [Dialect](dialect.md) · [ISO 639-3](iso-639-3.md) · [Language family](language-family.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Script](../writing-systems-and-scripts/script.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](./)
 
 ### Further reading
 

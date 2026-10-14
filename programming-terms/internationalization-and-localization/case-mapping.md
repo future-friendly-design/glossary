@@ -1,26 +1,38 @@
 ---
 term: Case mapping
 slug: case-mapping
-aliases: [case conversion, uppercasing, lowercasing]
-tags: [i18n-engineering]
+aliases:
+  - case conversion
+  - uppercasing
+  - lowercasing
 level: intermediate
 depth: deep
-summary: Case mapping is the process software uses to change text from one letter case to another, such as from lowercase to uppercase.
+summary: >-
+  Case mapping is the process software uses to change text from one letter case
+  to another, such as from lowercase to uppercase.
 tool_names:
   css: text-transform
-related: [locale, internationalization, orthography]
+related:
+  - locale
+  - internationalization
+  - orthography
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-14
-contributors: [sam-gordashko]
+updated: 2026-10-14T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "text-transform (MDN)"
+  - title: text-transform (MDN)
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
     type: code
-  - title: "The Unicode Standard 18.0, Chapter 5: Implementation Guidelines, section 5.18 Case Mappings"
+  - title: >-
+      The Unicode Standard 18.0, Chapter 5: Implementation Guidelines, section
+      5.18 Case Mappings
     url: https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/
     type: authority
 license: CC-BY-4.0
+tags:
+  - i18n-engineering
 ---
 
 # Case mapping
@@ -41,18 +53,16 @@ It is a different kind of choice. Size and weight change how the same characters
 
 Here is what happens to six words when their case is changed:
 
-| Text | Change | Result | What happened |
-| ---- | ------ | ------ | ------------- |
-| Turkish `istanbul` | To uppercase | `İSTANBUL` | Turkish has two separate letters, i with a dot and ı without, and each keeps its dot or its lack of one as a capital.<sup>7</sup> English rules give `ISTANBUL`, which is the capital of the other letter. Azerbaijani follows the same rule as Turkish.<sup>8</sup> |
-| German `straße` | To uppercase | `STRASSE` | The letter ß becomes two letters, so the word is one character longer.<sup>9</sup> |
-| Greek `άσπρος` ("white") | To uppercase | `ΑΣΠΡΟΣ` | With Greek rules, a vowel loses its accent when the whole word is in capitals, so the accent on ά is dropped.<sup>10</sup> Rules that do not know this give `ΆΣΠΡΟΣ`. The word also holds two shapes of one small letter, σ inside a word and ς at the end of one, and both become the same capital, Σ.<sup>11</sup> Going back to small letters is harder: nothing in the capitals says where the accent was.<sup>12</sup> |
-| Dutch `ijsland` | Capital on the first letter | `IJsland` | In Dutch the pair ij works as one unit at the start of a word, so both letters become capitals.<sup>13</sup> Rules that do not know this give `Ijsland`. |
-| Georgian `აკაკი` | To uppercase | `ᲐᲙᲐᲙᲘ` | Unicode, the shared list of characters that software uses, pairs each everyday Georgian letter with a capital from a separate set of characters, called Mtavruli, which Georgian writing uses for headlines and emphasis.<sup>14</sup> Not all software makes this change. Web browsers have differed on it, and some leave Georgian text as it was.<sup>15</sup> Georgian does not put a capital at the start of a word or a sentence, so a "capitalize each word" setting has nothing to change.<sup>16</sup> |
-| Hindi `नमस्ते`, written in Devanagari | To uppercase | `नमस्ते` | Devanagari has no case, so nothing changes.<sup>17</sup> |
+| Text                                  | Change                      | Result     | What happened                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------------------------------- | --------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Turkish `istanbul`                    | To uppercase                | `İSTANBUL` | Turkish has two separate letters, i with a dot and ı without, and each keeps its dot or its lack of one as a capital.<sup>7</sup> English rules give `ISTANBUL`, which is the capital of the other letter. Azerbaijani follows the same rule as Turkish.<sup>8</sup>                                                                                                                                                                                                                                            |
+| German `straße`                       | To uppercase                | `STRASSE`  | The letter ß becomes two letters, so the word is one character longer.<sup>9</sup>                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Greek `άσπρος` ("white")              | To uppercase                | `ΑΣΠΡΟΣ`   | With Greek rules, a vowel loses its accent when the whole word is in capitals, so the accent on ά is dropped.<sup>10</sup> Rules that do not know this give `ΆΣΠΡΟΣ`. The word also holds two shapes of one small letter, σ inside a word and ς at the end of one, and both become the same capital, Σ.<sup>11</sup> Going back to small letters is harder: nothing in the capitals says where the accent was.<sup>12</sup>                                                                                     |
+| Dutch `ijsland`                       | Capital on the first letter | `IJsland`  | In Dutch the pair ij works as one unit at the start of a word, so both letters become capitals.<sup>13</sup> Rules that do not know this give `Ijsland`.                                                                                                                                                                                                                                                                                                                                                        |
+| Georgian `აკაკი`                      | To uppercase                | `ᲐᲙᲐᲙᲘ`    | Unicode, the shared list of characters that software uses, pairs each everyday Georgian letter with a capital from a separate set of characters, called Mtavruli, which Georgian writing uses for headlines and emphasis.<sup>14</sup> Not all software makes this change. Web browsers have differed on it, and some leave Georgian text as it was.<sup>15</sup> Georgian does not put a capital at the start of a word or a sentence, so a "capitalize each word" setting has nothing to change.<sup>16</sup> |
+| Hindi `नमस्ते`, written in Devanagari | To uppercase                | `नमस्ते`   | Devanagari has no case, so nothing changes.<sup>17</sup>                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-<!-- NEEDS EXPERT REVIEW: source 14. Browser handling of Georgian under text-transform: uppercase is data that ages. The W3C results were recorded on 28 March 2019 (Firefox 65 fail, Chrome 73 fail, Safari 12.1 pass). Checked again on 2026-10-13: headless Chrome 155 left Mkhedruli unchanged with and without lang="ka", and with lang="nl" it gave "Ijsland" for text-transform: capitalize. Current Firefox and Safari were not checked. CSS Text Level 3 has no Georgian exception, so by the specification uppercase should give Mtavruli. -->
-
-Three things in that table reach into layout and [tokens](../../design-terms/design-token.md). Text can get longer, and a single character can become as many as three.<sup>18</sup> The same letters need different capitals in different languages. And in a script without case the setting does nothing, so a style that people recognize only because it is in capitals stops being recognizable.
+Three things in that table reach into layout, layer name and [design tokens](../../design-terms/design-token.md). Text can get longer, and a single character can become as many as three.<sup>18</sup> The same letters need different capitals in different languages. And in a script without case the setting does nothing, so a style that people recognize only because it is in capitals stops being recognizable.
 
 On the web, the uppercase setting is the CSS property `text-transform`. It changes what is shown and leaves the stored text as it was typed.<sup>19</sup> It applies the rules of a particular language only when the page says which language the text is in.<sup>20</sup>
 
@@ -78,7 +88,7 @@ Changing the case of the text that is stored, on the assumption that it can be c
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Armenian script](../../language-terms/writing-systems-and-scripts/armenian-script.md) · [Character](../text-in-software/character.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](font.md) · [Georgian script (Mkhedruli)](../../language-terms/writing-systems-and-scripts/georgian-script.md) · [Greek script](../../language-terms/writing-systems-and-scripts/greek-script.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Hangul script](../../language-terms/writing-systems-and-scripts/hangul.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](../text-in-software/unicode.md) · [Internationalization & localization terms](../internationalization-and-localization/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Armenian script](../../language-terms/writing-systems-and-scripts/armenian-script.md) · [Character](../text-in-software/character.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Georgian script (Mkhedruli)](../../language-terms/writing-systems-and-scripts/georgian-script.md) · [Greek script](../../language-terms/writing-systems-and-scripts/greek-script.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Hangul script](../../language-terms/writing-systems-and-scripts/hangul.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Orthography](../../language-terms/writing-systems-and-scripts/orthography.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](../text-in-software/unicode.md) · [Internationalization & localization terms](./)
 
 ### Further reading
 
@@ -87,8 +97,8 @@ Changing the case of the text that is stored, on the assumption that it can be c
 
 ### Sources
 
-1. Case mapping: "The process of transforming characters to a specific case, such as UPPER, lower, or Titlecase" - Internationalization Glossary, W3C Group Note [https://www.w3.org/TR/i18n-glossary/#def_case_mapping](https://www.w3.org/TR/i18n-glossary/#def_case_mapping)
-2. "Case mapping, at first, appears simple. However there are variations that need to be considered when treating the full range of Unicode in diverse languages" - Internationalization Glossary, W3C Group Note [https://www.w3.org/TR/i18n-glossary/#def_case_mapping](https://www.w3.org/TR/i18n-glossary/#def_case_mapping)
+1. Case mapping: "The process of transforming characters to a specific case, such as UPPER, lower, or Titlecase" - Internationalization Glossary, W3C Group Note [https://www.w3.org/TR/i18n-glossary/#def\_case\_mapping](https://www.w3.org/TR/i18n-glossary/#def_case_mapping)
+2. "Case mapping, at first, appears simple. However there are variations that need to be considered when treating the full range of Unicode in diverse languages" - Internationalization Glossary, W3C Group Note [https://www.w3.org/TR/i18n-glossary/#def\_case\_mapping](https://www.w3.org/TR/i18n-glossary/#def_case_mapping)
 3. "Case is a normative property of characters in specific alphabets such as Latin, Greek, Cyrillic, Armenian, and archaic Georgian, whereby characters are considered to be variants of a single letter" - The Unicode Standard, Version 18.0, Chapter 5, section 5.18 Case Mappings [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/)
 4. "Starting with Version 8.0, the Unicode Standard includes a set of lowercase Cherokee syllables to accommodate the need to represent casing distinctions in Cherokee text" - The Unicode Standard, Version 18.0, Chapter 20, section 20.1 Cherokee [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-20/)
 5. "Adlam is a casing script with right-to-left directionality" - The Unicode Standard, Version 18.0, Chapter 19, section 19.9 Adlam [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-19/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-19/)

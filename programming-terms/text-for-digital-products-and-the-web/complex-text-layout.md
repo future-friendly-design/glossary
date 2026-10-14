@@ -7,7 +7,11 @@ aliases:
   - complex script rendering
 level: advanced
 depth: deep
-summary: Complex text layout is the extra work software does to display writing in which the right shape or position of a character has to be worked out from the characters around it, or the characters have to be drawn in a different order from the one they are stored in.
+summary: >-
+  Complex text layout is the extra work software does to display writing in
+  which the right shape or position of a character has to be worked out from the
+  characters around it, or the characters have to be drawn in a different order
+  from the one they are stored in.
 related:
   - text-shaping
   - reordering
@@ -16,7 +20,7 @@ related:
   - matra
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -42,16 +46,16 @@ Type an English word and each letter appears as you press its key. The first let
 
 Many scripts do not work this way, because what is drawn depends on the neighbours. This glossary does not cover every script or every behaviour, so here are four to start with. Select a linked term to go to its glossary page.
 
-| What happens | Example | Glossary term |
-| ------------ | ------- | ------------- |
-| Letters take a joined form | The Arabic letters kāf ك, tāʾ ت and bāʾ ب are drawn as كتب<sup>4</sup> | [Joining](../../language-terms/writing-systems-and-scripts/joining.md) |
-| Two letters become one shape | The Arabic letters lam (ل) and alef (ا) are drawn as لا<sup>5</sup> | [Ligature](ligature.md) |
-| Consonants merge | The Devanagari consonants क and ष, with no vowel between them, are drawn as क्ष<sup>6</sup> | [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) |
-| A mark is drawn before the consonant it follows | In the Devanagari कि, the vowel mark is stored after क and drawn to its left<sup>7</sup> | [Reordering](reordering.md) |
+| What happens                                    | Example                                                                                     | Glossary term                                                            |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Letters take a joined form                      | The Arabic letters kāf ك, tāʾ ت and bāʾ ب are drawn as كتب<sup>4</sup>                      | [Joining](../../language-terms/writing-systems-and-scripts/joining.md)   |
+| Two letters become one shape                    | The Arabic letters lam (ل) and alef (ا) are drawn as لا<sup>5</sup>                         | [Ligature](ligature.md)                                                  |
+| Consonants merge                                | The Devanagari consonants क and ष, with no vowel between them, are drawn as क्ष<sup>6</sup> | [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) |
+| A mark is drawn before the consonant it follows | In the Devanagari कि, the vowel mark is stored after क and drawn to its left<sup>7</sup>    | [Reordering](reordering.md)                                              |
 
 Drawing text like this takes two things working together. The [font](font.md) has to contain the extra shapes, and instructions for when to use them. The software has to contain a [shaping engine](shaping-engine.md), the part that reads those instructions and applies the rules of the script.<sup>8</sup> That step is called [text shaping](text-shaping.md), and every script goes through it. Complex text layout is the name for the step in the scripts where it has a lot to do.
 
-The word "complex" describes the work the software has to do, and says nothing about how hard a script is to read or to write. The comparison behind the word is with English written in the [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md), which one widely used code library, [ICU](icu.md), describes as the least complex script to display.<sup>9</sup>
+The word "complex" describes the work the software has to do, and says nothing about how hard a script is to read or to write. The comparison behind the word is with English written in the [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md), which one widely used code library, [ICU](../internationalization-and-localization/icu.md), describes as the least complex script to display.<sup>9</sup>
 
 "Not complex" does not mean "no work", either. English text is shaped too. Some pairs of letters are moved closer together, which is called [kerning](../../design-terms/typography/kerning.md), and where a Latin letter carries an accent, the accent has to be placed on it.<sup>10</sup>
 
@@ -77,7 +81,7 @@ Treating right-to-left as the test. A team builds "RTL support", sees Arabic sta
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](../text-in-software/character.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [ICU](icu.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Kerning](../../design-terms/typography/kerning.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Ligature](ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Reordering](reordering.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](text-shaping.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Virama](../../language-terms/writing-systems-and-scripts/virama.md) · [Text shaping & layout](../text-shaping-and-layout/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](../text-in-software/character.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [ICU](../internationalization-and-localization/icu.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Kerning](../../design-terms/typography/kerning.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Ligature](ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [Reordering](reordering.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Shaping engine](shaping-engine.md) · [Stacking script](../../language-terms/writing-systems-and-scripts/stacking-script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text shaping](text-shaping.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Virama](../../language-terms/writing-systems-and-scripts/virama.md) · [Text shaping & layout](../text-shaping-and-layout/)
 
 ### Further reading
 

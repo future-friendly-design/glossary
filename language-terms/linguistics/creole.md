@@ -35,7 +35,7 @@ A creole is a stable, full natural language that developed from a mixture of lan
 
 ### Why it matters in design systems
 
-The damaging misconception is that a creole is a "broken" or simplified version of its [lexifier](lexifier.md). It is not: a creole has a complete grammar and full expressive range and is a first language for its community. That has direct product consequences. A creole deserves its own [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md), fonts, content, and place in a language picker, listed under its own name rather than folded into the lexifier ("Haitian Creole," not "French (Haiti)"). Where a creole has a standardized [orthography](../writing-systems-and-scripts/orthography.md), use it rather than improvising spellings from the lexifier's conventions.
+The damaging misconception is that a creole is a "broken" or simplified version of its [lexifier](lexifier.md). It is not: a creole has a complete grammar and full expressive range and is a first language for its community. That has direct product consequences. A creole deserves its own [locale](../../programming-terms/internationalization-and-localization/locale.md), fonts, content, and place in a language picker, listed under its own name rather than folded into the lexifier ("Haitian Creole," not "French (Haiti)"). Where a creole has a standardized [orthography](../writing-systems-and-scripts/orthography.md), use it rather than improvising spellings from the lexifier's conventions.
 
 ### Example
 
@@ -45,7 +45,7 @@ Haitian Creole is a French-based creole spoken natively by roughly 13 million pe
 
 ### Related terms and mentions
 
-[Ethnologue](ethnologue.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](./)
+[Ethnologue](ethnologue.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [Language](language.md) · [Language family](language-family.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](./)
 
 ### Further reading
 

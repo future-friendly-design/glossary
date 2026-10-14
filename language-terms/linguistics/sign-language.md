@@ -1,10 +1,14 @@
 ---
 term: Sign language
 slug: sign-language
-aliases: [signed language]
+aliases:
+  - signed language
 level: foundational
 depth: deep
-summary: "A sign language is a natural language that uses the visual-manual mode, conveying meaning through manual articulation such as handshape, movement, and location combined with facial expression rather than through sound."
+summary: >-
+  A sign language is a natural language that uses the visual-manual mode,
+  conveying meaning through manual articulation such as handshape, movement, and
+  location combined with facial expression rather than through sound.
 related:
   - language
   - iso-639-3
@@ -13,7 +17,7 @@ related:
   - locale
 status: voice-passed
 version_added: 0.1
-updated: 2026-08-03
+updated: 2026-08-03T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -33,7 +37,7 @@ A sign language is a natural language that uses the visual-manual mode, conveyin
 
 ### Why it matters in design systems
 
-The common misconception is that there is one universal sign language, or that captioning a video in the surrounding spoken language gives a Deaf audience access to it. Neither holds. Because a sign language is a distinct natural language, usually with no written form, the localization playbook built for spoken languages, translate the strings, pick a [font](../../programming-terms/text-for-digital-products-and-the-web/font.md), set the [text direction](../writing-systems-and-scripts/text-direction.md), does not apply: there is no text to localize. Support for a sign language lives in video: signed video content, captioning treated as a separate deliverable, and emerging avatar or animation approaches. This shapes representation too. A language picker or [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) model that lists only spoken languages quietly tells signers their language is not supported, even though stable identifiers for many sign languages exist, for example in [ISO 639-3](iso-639-3.md). Naming and specifics belong to the Deaf communities who use each language, with capital-D Deaf marking a cultural identity rather than an audiological status.
+The common misconception is that there is one universal sign language, or that captioning a video in the surrounding spoken language gives a Deaf audience access to it. Neither holds. Because a sign language is a distinct natural language, usually with no written form, the localization playbook built for spoken languages, translate the strings, pick a [font](../../programming-terms/text-for-digital-products-and-the-web/font.md), set the [text direction](../writing-systems-and-scripts/text-direction.md), does not apply: there is no text to localize. Support for a sign language lives in video: signed video content, captioning treated as a separate deliverable, and emerging avatar or animation approaches. This shapes representation too. A language picker or [locale](../../programming-terms/internationalization-and-localization/locale.md) model that lists only spoken languages quietly tells signers their language is not supported, even though stable identifiers for many sign languages exist, for example in [ISO 639-3](iso-639-3.md). Naming and specifics belong to the Deaf communities who use each language, with capital-D Deaf marking a cultural identity rather than an audiological status.
 
 ### Example
 
@@ -45,7 +49,7 @@ Treating captions in the spoken language as sign-language access. Captions rende
 
 ### In practice
 
-* **Support sign languages with video, not text fields:** because most have no written form, there are no strings to translate, so budget for signed video, captioning as its own track, and, where it fits, avatar or animation rather than a [localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) string table.
+* **Support sign languages with video, not text fields:** because most have no written form, there are no strings to translate, so budget for signed video, captioning as its own track, and, where it fits, avatar or animation rather than a [localization](../../programming-terms/internationalization-and-localization/localization.md) string table.
 * **Keep captions and signed content as separate deliverables:** caption for the spoken language and provide signed video for the sign language; conflating the two leaves signers with access to neither in their own language.
 * **Represent sign languages honestly in your language model:** stable codes exist to tag them, for example [ISO 639-3](iso-639-3.md), so a picker can name a sign language rather than omit it; defer the naming and the specifics to the Deaf communities who use it.
 
@@ -53,7 +57,7 @@ Treating captions in the spoken language as sign-language access. Captions rende
 
 ### Related terms and mentions
 
-[Endangered language](endangered-language.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization (l10n)](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Text direction](../writing-systems-and-scripts/text-direction.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](./)
+[Endangered language](endangered-language.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Localization (l10n)](../../programming-terms/internationalization-and-localization/localization.md) · [Text direction](../writing-systems-and-scripts/text-direction.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](./)
 
 ### Further reading
 

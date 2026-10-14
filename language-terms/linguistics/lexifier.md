@@ -34,7 +34,7 @@ A lexifier is the language that supplies most of the vocabulary for a [pidgin](p
 
 ### Why it matters in design systems
 
-Many creoles are named after their lexifier, English-based or French-based, and that shorthand quietly encourages treating the creole as a dialect or a "version" of the lexifier. It is not: the lexifier supplies vocabulary only, and says nothing about the creole's grammar or its standing as a full [language](language.md). For product work, resist the pull to fold a creole into its lexifier's setup by default. "French-based" tells you where some words came from, not that French fonts, spelling, locale, or content will serve it correctly; the creole's own [orthography](../writing-systems-and-scripts/orthography.md) and [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) can differ from the lexifier's.
+Many creoles are named after their lexifier, English-based or French-based, and that shorthand quietly encourages treating the creole as a dialect or a "version" of the lexifier. It is not: the lexifier supplies vocabulary only, and says nothing about the creole's grammar or its standing as a full [language](language.md). For product work, resist the pull to fold a creole into its lexifier's setup by default. "French-based" tells you where some words came from, not that French fonts, spelling, locale, or content will serve it correctly; the creole's own [orthography](../writing-systems-and-scripts/orthography.md) and [locale](../../programming-terms/internationalization-and-localization/locale.md) can differ from the lexifier's.
 
 ### Example
 
@@ -44,7 +44,7 @@ French is the lexifier of Haitian Creole, which draws most of its vocabulary fro
 
 ### Related terms and mentions
 
-[Creole](creole.md) · [Dialect](dialect.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](./)
+[Creole](creole.md) · [Dialect](dialect.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pidgin](pidgin.md) · [Language & linguistics](./)
 
 ### Further reading
 

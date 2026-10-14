@@ -35,7 +35,7 @@ A pidgin is a simplified contact language that develops so speakers of different
 
 ### Why it matters in design systems
 
-The word "simplified" invites a wrong inference: that a pidgin, or the creole it may become, is a broken or lesser form not worth real support. Getting this right has two design consequences. First, terminology and respect: describe these as contact languages and full languages, never as "broken English" or "broken French." Second, scope: a pidgin is genuinely limited (restricted contexts, no native speakers), so it rarely needs its own [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) or content pipeline, whereas the moment it creolizes it becomes a first language that does. Track a language's status and stage, because that, not a guess about "how simple it looks," is what tells you whether it needs full locale, font, and content support.
+The word "simplified" invites a wrong inference: that a pidgin, or the creole it may become, is a broken or lesser form not worth real support. Getting this right has two design consequences. First, terminology and respect: describe these as contact languages and full languages, never as "broken English" or "broken French." Second, scope: a pidgin is genuinely limited (restricted contexts, no native speakers), so it rarely needs its own [locale](../../programming-terms/internationalization-and-localization/locale.md) or content pipeline, whereas the moment it creolizes it becomes a first language that does. Track a language's status and stage, because that, not a guess about "how simple it looks," is what tells you whether it needs full locale, font, and content support.
 
 ### Example
 
@@ -45,7 +45,7 @@ A trade pidgin lets merchants from different language backgrounds bargain over g
 
 ### Related terms and mentions
 
-[Creole](creole.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](./)
+[Creole](creole.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [L1 speakers](l1-speakers.md) · [L2 speakers](l2-speakers.md) · [Language](language.md) · [Lexifier](lexifier.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Language & linguistics](./)
 
 ### Further reading
 

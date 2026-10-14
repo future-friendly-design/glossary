@@ -33,7 +33,7 @@ A macrolanguage is an ISO 639-3 grouping of several closely related individual l
 
 ### Why it matters in design systems
 
-The trap is assuming a language tag names exactly one language. It may name a macrolanguage, which is coarser: a label like "Arabic" can cover several distinct spoken and written varieties. The level you tag content at changes behaviour: a font may cover the macrolanguage broadly while a specific variety needs different vocabulary, a language picker may list the macrolanguage in one place and its members in another, and a [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) usually pins one specific variety. Decide deliberately which level a string, font, or setting is really about, rather than assuming the broad label is specific enough.
+The trap is assuming a language tag names exactly one language. It may name a macrolanguage, which is coarser: a label like "Arabic" can cover several distinct spoken and written varieties. The level you tag content at changes behaviour: a font may cover the macrolanguage broadly while a specific variety needs different vocabulary, a language picker may list the macrolanguage in one place and its members in another, and a [locale](../../programming-terms/internationalization-and-localization/locale.md) usually pins one specific variety. Decide deliberately which level a string, font, or setting is really about, rather than assuming the broad label is specific enough.
 
 ### Example
 
@@ -43,7 +43,7 @@ Arabic (`ara`) is a macrolanguage; ISO 639-3 lists 28 individual languages under
 
 ### Related terms and mentions
 
-[Dialect](dialect.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Language & linguistics](./)
+[Dialect](dialect.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Language & linguistics](./)
 
 ### Further reading
 

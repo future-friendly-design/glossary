@@ -1,24 +1,35 @@
 ---
 term: Language tag
 slug: language-tag
-aliases: [BCP 47 language tag, IETF language tag]
-tags: [i18n-engineering]
+aliases:
+  - BCP 47 language tag
+  - IETF language tag
 level: foundational
 depth: deep
-summary: A language tag is a short code that labels a piece of text or other content with the language it is in.
-related: [locale, iso-639-3, script, internationalization]
+summary: >-
+  A language tag is a short code that labels a piece of text or other content
+  with the language it is in.
+related:
+  - locale
+  - iso-639-3
+  - script
+  - internationalization
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
-contributors: [sam-gordashko]
+updated: 2026-10-13T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "lang global attribute (MDN)"
-    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/lang
+  - title: lang global attribute (MDN)
+    url: >-
+      https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/lang
     type: code
-  - title: "Language tags in HTML and XML (W3C)"
+  - title: Language tags in HTML and XML (W3C)
     url: https://www.w3.org/International/articles/language-tags/
     type: authority
 license: CC-BY-4.0
+tags:
+  - i18n-engineering
 ---
 
 # Language tag
@@ -39,12 +50,12 @@ A person can usually tell what language a sentence is in by reading it. Software
 
 The label is not decoration. Software reads it and changes what it does with the text:
 
-| What the reader notices | What the software does with the tag |
-| ----------------------- | ----------------------------------- |
-| The shapes of the characters | [Chinese, Japanese and Korean](../../language-terms/writing-systems-and-scripts/cjk.md) share many [characters](../text-in-software/character.md), and a shared character is stored the same way whichever language it is in. Yet readers of each language expect it to be drawn a little differently.<sup>8</sup> Some browsers use the tag to choose a [font](font.md) with the shapes that language expects.<sup>9</sup> |
-| Words broken across two lines | Breaking a long word with a hyphen follows rules that differ by language, so a browser is only expected to do it for text whose language it has been told.<sup>10</sup> |
-| Text read aloud | A screen reader is software that reads the screen aloud, used by people who cannot see it. The tag tells it which language's pronunciation rules to load.<sup>11</sup> |
-| Spelling | A spelling checker can check the text against the right language, or leave alone text in a language it does not know.<sup>12</sup> |
+| What the reader notices       | What the software does with the tag                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The shapes of the characters  | [Chinese, Japanese and Korean](../../language-terms/writing-systems-and-scripts/cjk.md) share many [characters](../text-in-software/character.md), and a shared character is stored the same way whichever language it is in. Yet readers of each language expect it to be drawn a little differently.<sup>8</sup> Some browsers use the tag to choose a [font](../text-for-digital-products-and-the-web/font.md) with the shapes that language expects.<sup>9</sup> |
+| Words broken across two lines | Breaking a long word with a hyphen follows rules that differ by language, so a browser is only expected to do it for text whose language it has been told.<sup>10</sup>                                                                                                                                                                                                                                                                                              |
+| Text read aloud               | A screen reader is software that reads the screen aloud, used by people who cannot see it. The tag tells it which language's pronunciation rules to load.<sup>11</sup>                                                                                                                                                                                                                                                                                               |
+| Spelling                      | A spelling checker can check the text against the right language, or leave alone text in a language it does not know.<sup>12</sup>                                                                                                                                                                                                                                                                                                                                   |
 
 Leave the tag off, or leave the wrong one on, and each of these goes wrong quietly. The page still appears. It is read aloud with another language's pronunciation, drawn in shapes meant for another language, and never hyphenated.
 
@@ -54,13 +65,13 @@ A language tag is often confused with a [locale](locale.md). A locale is a code 
 
 Each row below adds one piece to the tag.
 
-| Tag | Pieces | What it says |
-| --- | ------ | ------------ |
-| `fr` | language | French<sup>14</sup> |
-| `ast` | language | Asturian. The code has three letters because this language has no two-letter code.<sup>15</sup> |
-| `fr-CA` | language, region | French as used in Canada<sup>16</sup> |
-| `az-Latn` | language, script | Azerbaijani written in the Latin script. Azerbaijani can also be written in the [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md) or Cyrillic script, so the script is worth stating.<sup>17</sup> |
-| `zh-Hant-HK` | language, script, region | Chinese in the Traditional form of its characters, as used in Hong Kong<sup>18</sup> |
+| Tag          | Pieces                   | What it says                                                                                                                                                                                                                 |
+| ------------ | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `fr`         | language                 | French<sup>14</sup>                                                                                                                                                                                                          |
+| `ast`        | language                 | Asturian. The code has three letters because this language has no two-letter code.<sup>15</sup>                                                                                                                              |
+| `fr-CA`      | language, region         | French as used in Canada<sup>16</sup>                                                                                                                                                                                        |
+| `az-Latn`    | language, script         | Azerbaijani written in the Latin script. Azerbaijani can also be written in the [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md) or Cyrillic script, so the script is worth stating.<sup>17</sup> |
+| `zh-Hant-HK` | language, script, region | Chinese in the Traditional form of its characters, as used in Hong Kong<sup>18</sup>                                                                                                                                         |
 
 The order is fixed: language first, then script, then region.<sup>19</sup> The capital letters are a habit that makes tags easier to read, with the language in lower case, the script starting with a capital and the region in capitals, and they do not change the meaning.<sup>20</sup>
 
@@ -82,7 +93,7 @@ Using a region to stand in for a script. Chinese is written in two forms of its 
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [CLDR](cldr.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Font](font.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Internationalization (i18n)](internationalization.md) · [ISO 639-3](../../language-terms/linguistics/iso-639-3.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Macrolanguage](../../language-terms/linguistics/macrolanguage.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Sign language](../../language-terms/linguistics/sign-language.md) · [Internationalization & localization terms](../internationalization-and-localization/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [CLDR](cldr.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Internationalization (i18n)](internationalization.md) · [ISO 639-3](../../language-terms/linguistics/iso-639-3.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Macrolanguage](../../language-terms/linguistics/macrolanguage.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Sign language](../../language-terms/linguistics/sign-language.md) · [Internationalization & localization terms](./)
 
 ### Further reading
 

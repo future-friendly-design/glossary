@@ -19,7 +19,8 @@ contributors:
   - sam-gordashko
 further_reading:
   - title: UNGEGN Glossary of Terms for the Standardization of Geographical Names
-    url: https://unstats.un.org/unsd/ungegn/pubs/documents/Glossary_of_terms_rev.pdf
+    url: >-
+      https://unstats.un.org/unsd/ungegn/pubs/documents/Glossary_of_terms_rev.pdf
     type: authority
   - title: Endonym and exonym (Wikipedia)
     url: https://en.wikipedia.org/wiki/Endonym_and_exonym
@@ -37,7 +38,7 @@ An exonym is the name outsiders use for a language, place, or people, different 
 
 ### Why it matters in design systems
 
-English speakers say "German," "Finnish," and "Japanese"; the speakers themselves say "Deutsch," "suomi," and "日本語." The practical rule is the one the [autonym](autonym.md) entry makes: a language picker should show each language by its autonym, not its English exonym, so a user spots their language at a glance. It also matters because some exonyms are dated or politically loaded, and a community may prefer not to be labelled by one, so treat the choice of name as a respect decision sourced from a maintained dataset like [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md), not an English default hardcoded into the interface.
+English speakers say "German," "Finnish," and "Japanese"; the speakers themselves say "Deutsch," "suomi," and "日本語." The practical rule is the one the [autonym](autonym.md) entry makes: a language picker should show each language by its autonym, not its English exonym, so a user spots their language at a glance. It also matters because some exonyms are dated or politically loaded, and a community may prefer not to be labelled by one, so treat the choice of name as a respect decision sourced from a maintained dataset like [CLDR](../../programming-terms/internationalization-and-localization/cldr.md), not an English default hardcoded into the interface.
 
 ### Example
 
@@ -47,7 +48,7 @@ English speakers say "German," "Finnish," and "Japanese"; the speakers themselve
 
 ### Related terms and mentions
 
-[Autonym](autonym.md) · [CLDR](../../programming-terms/text-for-digital-products-and-the-web/cldr.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization (l10n)](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Language & linguistics](./)
+[Autonym](autonym.md) · [CLDR](../../programming-terms/internationalization-and-localization/cldr.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Localization (l10n)](../../programming-terms/internationalization-and-localization/localization.md) · [Language & linguistics](./)
 
 ### Further reading
 

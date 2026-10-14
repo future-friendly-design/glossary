@@ -35,7 +35,7 @@ A dialect is a regional or social variety of a [language](language.md) with its 
 
 ### Why it matters in design systems
 
-It is tempting to treat one variety as the "correct" language and the rest as deviations, but that ranking does not hold linguistically: standard varieties are just dialects that gained prestige, captured in the linguist Max Weinreich's often-quoted line that "a language is a dialect with an army and navy."<sup>3</sup> For product work this is why choices of spelling, terminology, and regional variant are content and [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) decisions, not questions linguistics settles for you. Let the community's own sense of its language guide the default, and model regional varieties as locale variants rather than as one right answer.
+It is tempting to treat one variety as the "correct" language and the rest as deviations, but that ranking does not hold linguistically: standard varieties are just dialects that gained prestige, captured in the linguist Max Weinreich's often-quoted line that "a language is a dialect with an army and navy."<sup>3</sup> For product work this is why choices of spelling, terminology, and regional variant are content and [locale](../../programming-terms/internationalization-and-localization/locale.md) decisions, not questions linguistics settles for you. Let the community's own sense of its language guide the default, and model regional varieties as locale variants rather than as one right answer.
 
 ### Example
 
@@ -45,7 +45,7 @@ British and American English are dialects of English that differ in spelling ("c
 
 ### Related terms and mentions
 
-[Autonym](autonym.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Language & linguistics](./)
+[Autonym](autonym.md) · [Language](language.md) · [Language family](language-family.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Macrolanguage](macrolanguage.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Language & linguistics](./)
 
 ### Further reading
 

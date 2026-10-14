@@ -33,7 +33,7 @@ Glottolog is a free online catalogue of the world's languages, families, and dia
 
 ### Why it matters in design systems
 
-Glottolog is an open-access, versioned catalogue of languoids (families, languages, and dialects), assigning each a unique glottocode and arranging them in a genealogical tree based on historical-comparative research.<sup>1</sup> It also carries a large bibliographic database of grammars, dictionaries, and word lists, with unusually good coverage of lesser-known languages. For product and localization work its value is being free and citable: where [Ethnologue](ethnologue.md) sits behind a paywall, Glottolog gives an openly linkable identifier for a language, including small languages that two-letter codes and consumer tools ignore. A glottocode identifies a languoid; it is not itself a [script](../writing-systems-and-scripts/script.md) or a [locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md), so it answers "which language," not "how to render or format it."
+Glottolog is an open-access, versioned catalogue of languoids (families, languages, and dialects), assigning each a unique glottocode and arranging them in a genealogical tree based on historical-comparative research.<sup>1</sup> It also carries a large bibliographic database of grammars, dictionaries, and word lists, with unusually good coverage of lesser-known languages. For product and localization work its value is being free and citable: where [Ethnologue](ethnologue.md) sits behind a paywall, Glottolog gives an openly linkable identifier for a language, including small languages that two-letter codes and consumer tools ignore. A glottocode identifies a languoid; it is not itself a [script](../writing-systems-and-scripts/script.md) or a [locale](../../programming-terms/internationalization-and-localization/locale.md), so it answers "which language," not "how to render or format it."
 
 ### Example
 
@@ -43,7 +43,7 @@ The English language carries the glottocode `stan1293`, a stable identifier othe
 
 ### Related terms and mentions
 
-[Ethnologue](ethnologue.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization (l10n)](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](./) · [Reference sources](../../terms/reference-sources.md)
+[Ethnologue](ethnologue.md) · [Language](language.md) · [Locale](../../programming-terms/internationalization-and-localization/locale.md) · [Localization (l10n)](../../programming-terms/internationalization-and-localization/localization.md) · [Script](../writing-systems-and-scripts/script.md) · [UNESCO Atlas of the World's Languages in Danger](unesco-atlas-of-the-worlds-languages-in-danger.md) · [Language & linguistics](./) · [Reference sources](../../terms/reference-sources.md)
 
 ### Further reading
 
