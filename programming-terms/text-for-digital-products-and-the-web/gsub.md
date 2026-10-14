@@ -35,7 +35,7 @@ tags:
 
 GSUB is the part of a font file that lists which shapes to swap for other shapes, and when.<sup>1</sup>
 
-GSUB is one of the tools of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes: the shaping engine reads it from the font.<sup>2</sup>
+GSUB is one of the tools of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes: software called a [shaping engine](shaping-engine.md) reads it from the font.<sup>2</sup>
 
 The name is short for Glyph Substitution. A [glyph](glyph.md) is one of the drawn shapes stored in a [font](font.md), and substitution means swapping one thing for another. GSUB belongs to [OpenType](../../design-terms/typography/opentype.md), the most widely used font format.<sup>3</sup>
 
@@ -52,7 +52,7 @@ When you type a word, the glyphs on screen are not always the ones you would get
 
 In each row, the software starts with one glyph for each character, then swaps some of those glyphs for others. The list of swaps has to be kept somewhere, and it is kept in the font, because every font has its own set of glyphs. GSUB is that list.
 
-The font does not do the swapping. A font is a file, and a file does nothing by itself. The software that draws text, called a [shaping engine](shaping-engine.md), reads the list and follows it.<sup>8</sup>
+The font does not do the swapping. A font is a file, and a file does nothing by itself. The software that draws text, called a shaping engine, reads the list and follows it.<sup>8</sup>
 
 A swap can be small or large. The simplest kind replaces one glyph with one other glyph.<sup>9</sup> Another kind replaces several glyphs with a single glyph, and a glyph made that way is called a [ligature](ligature.md).<sup>10</sup> The "fi" glyph and the Arabic لا in the table are both ligatures.
 
@@ -65,7 +65,7 @@ GSUB only swaps glyphs. Two jobs that sit close to it belong somewhere else:
 
 Swapping also leaves the stored text alone. The text is still saved as the same characters, and only the glyphs drawn for them change.<sup>15</sup>
 
-All of this matters when you choose a font, because every swap has to come from the font itself.<sup>16</sup> A font can have a glyph for every character of a script and still lack the swaps that script needs. When that happens the characters do appear, but in the wrong glyphs, and Arabic letters stand apart instead of joining. So do not judge a font's [coverage](font-coverage.md) of a script by whether the characters show up. Type a real word, and check that it looks right to someone who reads the script.
+All of this matters when you choose a font, because every swap has to come from the font itself.<sup>16</sup> A font can have a glyph for every character of a script and still lack the swaps that script needs. When that happens the characters do appear, but drawn with the wrong glyphs, and Arabic letters stand apart instead of joining. So do not judge a font's [coverage](font-coverage.md) of a script by whether the characters show up. Type a real word, and check that it looks right to someone who reads the script.
 
 ***
 

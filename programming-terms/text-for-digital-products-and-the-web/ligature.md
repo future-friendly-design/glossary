@@ -36,7 +36,7 @@ tags:
 
 A ligature is a single [glyph](glyph.md), a shape in a font, that stands for two or more characters at once.<sup>1</sup>
 
-Ligatures are one of the results of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes: the shaping engine swaps the separate shapes for the single one.<sup>2</sup>
+Ligatures are one of the results of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes: software called a [shaping engine](shaping-engine.md) swaps the separate shapes for the single one.<sup>2</sup>
 
 Some ligatures are a style choice, while others are part of how a [script](../../language-terms/writing-systems-and-scripts/script.md) is written, and a word looks wrong without them. For example, the Arabic letters lam (ل) and alef (ا) are written together as one shape: لا.<sup>3</sup>
 
@@ -62,7 +62,7 @@ It helps to keep three levels apart:
 
 * **The script** sets whether a ligature is expected. Arabic expects lam and alef to merge into one shape, in almost every style of the script.<sup>11</sup>
 * **The font** has to contain the ligature: the merged glyph, and an instruction that says when to use it.<sup>12</sup>
-* **The software** that draws the text has to follow that instruction.<sup>13</sup> This software is called a [shaping engine](shaping-engine.md).
+* **The software** that draws the text has to follow that instruction.<sup>13</sup> This software is called a shaping engine.
 
 A ligature changes what is drawn, not what is stored: the text still holds two characters, and they can be drawn as two glyphs or as one.<sup>14</sup>
 

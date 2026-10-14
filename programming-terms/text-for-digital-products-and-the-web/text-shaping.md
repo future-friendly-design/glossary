@@ -60,7 +60,7 @@ This glossary does not cover every script, so here are four to start with. Selec
 
 In all four rows the stored characters were already correct. Shaping changed three things: which glyphs were chosen, where they sit, and in the last row the order they are drawn in.
 
-The instructions for this come from two places. Some are kept in the font, because they depend on that font's own shapes. A font holds a list of glyphs to swap for other glyphs, and a list of where to place them. The most widely used font format is called [OpenType](../../design-terms/typography/opentype.md).<sup>13</sup> In an OpenType font the list of swaps is called GSUB, and the list of places is called GPOS.<sup>14</sup> When a swap turns several glyphs into one merged glyph, the result is a ligature.
+Some are kept in the font, because they depend on that font's own shapes. A font holds a list of glyphs to swap for other glyphs, and a list of where to place them. The most widely used font format is called [OpenType](../../design-terms/typography/opentype.md).<sup>13</sup> In an OpenType font the list of swaps is called GSUB, and the list of places is called GPOS.<sup>14</sup> When a swap turns several glyphs into one merged glyph, the result is a ligature.
 
 The other instructions are kept in the software. Moving the Devanagari vowel mark in the last row is one of them. The shaping engine does it by rules of its own, and an OpenType font is not meant to do it.<sup>15</sup>
 
