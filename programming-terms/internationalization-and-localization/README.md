@@ -74,6 +74,10 @@ Collation is the set of rules that software follows to put text in order, for ex
 
 Text expansion is the growth in the space a piece of text needs when it is translated into another language.
 
+[**Truncation**](truncation.md)
+
+Truncation is cutting text short so it fits the space it is given, usually with an ellipsis (…) to show that some of it is hidden.
+
 #### Typing in another language
 
 Input is the half of multilingual support that design most often forgets, because the team's own keyboards already work.

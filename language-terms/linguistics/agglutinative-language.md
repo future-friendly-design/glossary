@@ -36,7 +36,7 @@ An agglutinative language is a type of [language](language.md) that builds words
 
 ### Why it matters in design systems
 
-The trap is designing layouts to the length of English text. Because an agglutinative language can pack a whole phrase of grammar into one long word, a single translated string can be far longer than its English source, a direct cause of [text expansion](../../programming-terms/internationalization-and-localization/text-expansion.md). Interfaces that fit snugly in English then overflow, truncate, or wrap badly in Turkish or Finnish. Build flexible containers rather than fixed widths, avoid stitching sentences together from fragments (agglutinative grammar will not line up with English word order), and test with real translations or [pseudolocalization](../../programming-terms/internationalization-and-localization/pseudolocalization.md) before shipping.
+The trap is designing layouts to the length of English text. Because an agglutinative language can pack a whole phrase of grammar into one long word, a single translated string can be far longer than its English source, a direct cause of [text expansion](../../programming-terms/internationalization-and-localization/text-expansion.md). Interfaces that fit snugly in English then overflow, [truncate](../../programming-terms/internationalization-and-localization/truncation.md), or wrap badly in Turkish or Finnish. Build flexible containers rather than fixed widths, avoid stitching sentences together from fragments (agglutinative grammar will not line up with English word order), and test with real translations or [pseudolocalization](../../programming-terms/internationalization-and-localization/pseudolocalization.md) before shipping.
 
 ### Example
 
@@ -46,7 +46,7 @@ The Turkish word "arabalarına" ("to their cars") stacks four parts: araba (car)
 
 ### Related terms and mentions
 
-[Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pseudolocalization](../../programming-terms/internationalization-and-localization/pseudolocalization.md) · [Text expansion](../../programming-terms/internationalization-and-localization/text-expansion.md) · [Language & linguistics](./)
+[Language](language.md) · [Language family](language-family.md) · [Orthography](../writing-systems-and-scripts/orthography.md) · [Pseudolocalization](../../programming-terms/internationalization-and-localization/pseudolocalization.md) · [Text expansion](../../programming-terms/internationalization-and-localization/text-expansion.md) · [Truncation](../../programming-terms/internationalization-and-localization/truncation.md) · [Language & linguistics](./)
 
 ### Further reading
 

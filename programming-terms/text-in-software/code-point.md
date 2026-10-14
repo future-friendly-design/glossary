@@ -41,13 +41,13 @@ The code point is what makes text portable: the same number identifies the same 
 
 Storing a code point requires a [character encoding](character-encoding.md) to turn it into bytes, the data actually written to a file or a database. Visualizing the character in software requires a [font](../text-for-digital-products-and-the-web/font.md) that contains the correct [glyph](../text-for-digital-products-and-the-web/glyph.md) to represent it.
 
-Two things surprise people. Not every code point is assigned to a character,<sup>3</sup> so a valid-looking number may be reserved, which means Unicode is keeping it for a character it has not added yet.<sup>4</sup> And one code point is not reliably one character on screen: an accented symbol may be built from two, and an emoji from several, which is the difference between a code point and a [grapheme cluster](grapheme-cluster.md). If you are counting text for a limit, a truncation, or a cursor step, the code point is almost never the unit your reader is using.
+Two things surprise people. Not every code point is assigned to a character,<sup>3</sup> so a valid-looking number may be reserved, which means Unicode is keeping it for a character it has not added yet.<sup>4</sup> And one code point is not reliably one character on screen: an accented symbol may be built from two, and an emoji from several, which is the difference between a code point and a [grapheme cluster](grapheme-cluster.md). If you are counting text for a limit, a [truncation](../internationalization-and-localization/truncation.md), or a cursor step, the code point is almost never the unit your reader is using.
 
 ***
 
 ### Related terms and mentions
 
-[Character](character.md) · [Character encoding](character-encoding.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [Text in software](./)
+[Character](character.md) · [Character encoding](character-encoding.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [Grapheme cluster](grapheme-cluster.md) · [Plane / Basic Multilingual Plane](plane-bmp.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Surrogate pair](surrogate-pair.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Truncation](../internationalization-and-localization/truncation.md) · [Unicode](unicode.md) · [Unicode Standard](unicode-standard.md) · [Text in software](./)
 
 
 

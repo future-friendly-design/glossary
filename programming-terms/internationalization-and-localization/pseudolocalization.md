@@ -39,7 +39,7 @@ Pseudolocalization is a testing technique that swaps a product's text for a fake
 
 Pseudolocalization is one of the tools of [internationalization (i18n)](internationalization.md), the design and development work that makes a product able to be adapted to other languages and places.<sup>2</sup>
 
-The fake translation is made by software, not by a translator. It changes the letters and makes the text longer, but the result can still be read, so a team can keep using the product while they test it.<sup>3</sup> For example, the English label `Settings` might be shown as `[Šéţţîñĝš one two]`: accents on the letters, extra words to add length, and a bracket at each end.<sup>4</sup>
+The fake translation is made by software, not by a translator. It changes the letters and makes the text longer, but the result can still be read, so a team can keep using the product while they test it.<sup>3</sup> For example, the English label "Settings" might be shown as "[Šéţţîñĝš one two]": accents on the letters, extra words to add length, and a bracket at each end.<sup>4</sup>
 
 The name borrows from [localization](localization.md), which is adapting a product to one particular language and place, with "pseudo" meaning fake. What it actually tests is internationalization, the earlier design and development work that makes a product able to be adapted at all.
 
@@ -51,16 +51,16 @@ The fake text is built up in steps, and each step is there to expose a different
 
 | Step                           | Before             | After                | What it is for                                                                        |
 | ------------------------------ | ------------------ | -------------------- | ------------------------------------------------------------------------------------- |
-| Swap letters for accented ones | `Settings`         | `Šéţţîñĝš`           | Text that was never passed through the swap stays plain, so it stands out<sup>6</sup> |
-| Make the text longer           | `Šéţţîñĝš`         | `Šéţţîñĝš one two`   | Shows where a longer translation would not fit<sup>7</sup>                            |
-| Put a marker at each end       | `Šéţţîñĝš one two` | `[Šéţţîñĝš one two]` | If a marker is missing, the text was cut off<sup>8</sup>                              |
+| Swap letters for accented ones | Settings         | Šéţţîñĝš           | Text that was never passed through the swap stays plain, so it stands out<sup>6</sup> |
+| Make the text longer           | Šéţţîñĝš         | Šéţţîñĝš one two   | Shows where a longer translation would not fit<sup>7</sup>                            |
+| Put a marker at each end       | Šéţţîñĝš one two | [Šéţţîñĝš one two] | If a marker is missing, the text was cut off<sup>8</sup>                              |
 
 With that in place, a pseudolocalized screen can be read like a checklist:
 
 | What you see                                             | What it tells you                                                                                                                                                                                            |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | A label still in plain, unaccented text                  | The text was typed directly into the code, which is called hard-coding. A translator will never be sent it<sup>9</sup>                                                                                       |
-| An opening bracket with no closing bracket               | The text was cut off, which is called truncation. The component did not have room for it                                                                                                                     |
+| An opening bracket with no closing bracket               | The text was cut off, which is called [truncation](truncation.md). The component did not have room for it                                                                                                                     |
 | One sentence shown as two or more bracketed pieces       | The sentence was glued together from separate pieces, which is called concatenation.<sup>10</sup> A translator cannot change the order of the pieces, and many languages need a different order<sup>11</sup> |
 | Text overlapping its neighbours or pushed out of its box | The layout has no room for [text expansion](text-expansion.md), the growth in space that translated text often needs<sup>12</sup>                                                                            |
 
@@ -79,7 +79,7 @@ For a design system, this makes pseudolocalization a cheap habit to add to compo
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Font coverage](../text-for-digital-products-and-the-web/font-coverage.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Localization (l10n)](localization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text expansion](text-expansion.md) · [Internationalization & localization terms](./)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Font coverage](../text-for-digital-products-and-the-web/font-coverage.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Localization (l10n)](localization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text expansion](text-expansion.md) · [Truncation](truncation.md) · [Internationalization & localization terms](./)
 
 ### Further reading
 

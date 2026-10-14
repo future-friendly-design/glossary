@@ -135,6 +135,7 @@
   * [Localization (l10n)](programming-terms/internationalization-and-localization/localization.md)
   * [Pseudolocalization](programming-terms/internationalization-and-localization/pseudolocalization.md)
   * [Text expansion](programming-terms/internationalization-and-localization/text-expansion.md)
+  * [Truncation](programming-terms/internationalization-and-localization/truncation.md)
 * [Text for digital products & the web](programming-terms/text-for-digital-products-and-the-web/README.md)
   * [Reordering](programming-terms/text-for-digital-products-and-the-web/reordering.md)
   * [Complex text layout](programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md)
