@@ -34,7 +34,7 @@ Typeface and font are used interchangeably in conversation, but they mean differ
 
 [**Typeface**](typeface.md)
 
-A typeface is the design shared by a set of written symbols, such as letters, numbers and marks.
+A typeface is the design of symbols and marks that makes the script in a writing system look and feel cohesive.
 
 [**Font**](font.md)
 
@@ -50,7 +50,7 @@ Font weight is how thick the strokes of a font are, from very thin to very heavy
 
 [**Variable font**](variable-font.md)
 
-A variable font is a font file that holds a whole range of styles of a typeface, where an ordinary font file holds one.
+A variable font is a kind of font file that holds a range of styles of a typeface, such as its weights, in a single file.
 
 One more term shares the word "script" without sharing the meaning. A script typeface is a style of lettering that imitates handwriting; a [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write a language. The category comes from Latin type; other scripts have handwriting-based styles of their own.
 

@@ -6,16 +6,14 @@ aliases:
   - font family
 level: foundational
 depth: deep
-summary: >-
-  A typeface is the design shared by a set of written symbols, such as letters,
-  numbers and marks.
+summary: "A typeface is the design of symbols and marks that makes the script in a writing system look and feel cohesive."
 related:
   - font
   - font-weight
   - variable-font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -38,15 +36,15 @@ tags:
 
 ## Definition
 
-A typeface is the design of symbols and marks used to make the script in a writing system look and feel cohesive.&#x20;
+A typeface is the design of symbols and marks that makes the script in a writing system look and feel cohesive.<sup>1</sup>
 
-The typeface provides the visual identity of written content, and its [font](font.md) are the files that carry a typeface into software.<sup>2</sup>&#x20;
+The typeface provides the visual identity of written content, and its [fonts](font.md) are the files that carry a typeface into software.<sup>2</sup>
 
 ### Why it matters in design systems
 
 When someone admires a poster and asks "what font is that?", the thing they are admiring is a typeface. Monotype, a type foundry, puts the whole difference in one line: "A font is what you use, and a typeface is what you see."<sup>3</sup>
 
-While it's tempting to use the terms font and typeface interchangably, they are different parts of the written content system that work together.
+While it's tempting to use the terms font and typeface interchangeably, they are different things that work together. The typeface is the design, and the font is the file that carries it.
 
 | Question                                                                                          | Typeface or fonts?                                                                               |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -74,7 +72,7 @@ Choosing a typeface in one script and assuming it will be there in the others. A
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../../design-terms/design-token.md) · [Faux bold](faux-bold.md) · [Faux italic](faux-italic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font weight](font-weight.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Variable font](variable-font.md) · [Font terms](./)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../../design-terms/design-token.md) · [Faux bold](faux-bold.md) · [Faux italic](faux-italic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font weight](font-weight.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Variable font](variable-font.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Font terms](./)
 
 ### Further reading
 
