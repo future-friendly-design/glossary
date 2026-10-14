@@ -1,16 +1,18 @@
 # Font terms
 
-## Fonts provide the visual identity for written content
+## Fonts provide the shape of written content
 
-A typeface is a design. A font is a file. You can admire a typeface, but the thing you load, licence, subset, and pay for in page weight is a font, and the difference starts to matter the moment a product ships in more than one language.
+When your design system chooses a typeface, it is choosing the visual identity of written content. In programming, each typeface has a font file that the system loads during the text shaping process. Text requires both the font and shaping engine to support written content in the system.&#x20;
 
-A font file holds drawn shapes, called glyphs, plus instructions for how to combine and position them. It does not hold every character in the world, and no font does. What a font covers, and what happens when it runs out of coverage, is the question this section keeps returning to.
+A font is a file that holds the shape for each character of text, called a glyph, plus instructions for how to swap and place those glyphs during the text shaping process. A font has a limited number of glphs specific to the script or scripts it was designed to support.&#x20;
+
+Tech shaping happens before text appears on a screen, software reads the font file and picks the right shapes (glyphs) for each character of text and decides where they go. When the text contains a character the font doesn’t have a glyph for, the shaping software either borrows a shape from another font in the system, or shows an emp sand (also called tofu).&#x20;
+
+
 
 ### Why it matters
 
-Choosing type for a multilingual product is not the same job as choosing type for an English one. A family that looks right in the brand deck may have no Arabic, no Devanagari, and no Cyrillic, and the fallback that quietly steps in for the missing text will not match the weight, the width, or the height of everything around it.
-
-The decisions this section supports are concrete: which families to adopt, which cuts to load, what to name in a token, what to test before launch, and what your product should do when a person's name contains a character your font never anticipated.
+Choosing fonts for a multilingual products needs to be done with care. A font that looks right in the english brand deck may have no Arabic glyphs which means you need to choose a fallback font.&#x20;
 
 #### Example
 
