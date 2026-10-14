@@ -41,31 +41,31 @@ The name is short for Glyph Substitution. A [glyph](glyph.md) is one of the draw
 
 ### Why it matters in design systems
 
-When you type a word, the shapes on screen are not always the ones you would get by drawing each character on its own. Two characters can be drawn as one combined shape, and a symbol can be drawn differently because of the symbol beside it.
+When you type a word, the glyphs on screen are not always the ones you would get by drawing each character on its own. Two characters can be drawn as one combined glyph, and a symbol can be drawn differently because of the symbol beside it.
 
 | What is typed | What is drawn | Why |
 | ------------- | ------------- | --- |
-| `f` then `i` | One merged "fi" shape, in many fonts | The pair looks tidier as one shape. This swap is optional.<sup>4</sup> |
+| `f` then `i` | One merged "fi" glyph, in many fonts | The pair looks tidier as one glyph. This swap is optional.<sup>4</sup> |
 | The Arabic letters lam (ل) then alef (ا) | لا | Arabic writes this pair as one shape. This swap is required.<sup>5</sup> |
 | The Arabic letters kāf ك, tāʾ ت and bāʾ ب | كتب | An Arabic letter has several forms, and the right one depends on its place in the word.<sup>6</sup> |
 | The Devanagari consonant क, the mark that removes its vowel, then the consonant ष | क्ष | Devanagari writes these two consonants as one merged shape, called a conjunct.<sup>7</sup> |
 
-In each row, the software starts with one shape for each character, then swaps some of those shapes for others. The list of swaps has to be kept somewhere, and it is kept in the font, because every font has its own set of shapes. GSUB is that list.
+In each row, the software starts with one glyph for each character, then swaps some of those glyphs for others. The list of swaps has to be kept somewhere, and it is kept in the font, because every font has its own set of glyphs. GSUB is that list.
 
 The font does not do the swapping. A font is a file, and a file does nothing by itself. The software that draws text, called a [shaping engine](shaping-engine.md), reads the list and follows it.<sup>8</sup>
 
-A swap can be small or large. The simplest kind replaces one shape with one other shape.<sup>9</sup> Another kind replaces several shapes with a single shape, and a shape made that way is called a [ligature](ligature.md).<sup>10</sup> The "fi" shape and the Arabic لا in the table are both ligatures.
+A swap can be small or large. The simplest kind replaces one glyph with one other glyph.<sup>9</sup> Another kind replaces several glyphs with a single glyph, and a glyph made that way is called a [ligature](ligature.md).<sup>10</sup> The "fi" glyph and the Arabic لا in the table are both ligatures.
 
 Some swaps are required and some are optional. The font sorts its swaps into named groups, called [OpenType features](../../design-terms/typography/opentype-features.md). The group for required ligatures is applied without asking you, and tools are advised not to offer a switch for it.<sup>11</sup> The group for standard ligatures, which holds "fi", is switched on to begin with and can be switched off.<sup>12</sup>
 
-GSUB only swaps shapes. Two jobs that sit close to it belong somewhere else:
+GSUB only swaps glyphs. Two jobs that sit close to it belong somewhere else:
 
-* **Moving a shape**, such as setting a mark above a symbol, is the job of a second list in the font, called [GPOS](gpos.md).<sup>13</sup>
-* **Changing the order of shapes**, as Devanagari does when a vowel mark is drawn before the consonant it follows, is done by the shaping engine and is not stored in the font.<sup>14</sup>
+* **Moving a glyph**, such as setting a mark above a symbol, is the job of a second list in the font, called [GPOS](gpos.md).<sup>13</sup>
+* **Changing the order of glyphs**, as Devanagari does when a vowel mark is drawn before the consonant it follows, is done by the shaping engine and is not stored in the font.<sup>14</sup>
 
-Swapping also leaves the stored text alone. The text is still saved as the same characters, and only the shapes drawn for them change.<sup>15</sup>
+Swapping also leaves the stored text alone. The text is still saved as the same characters, and only the glyphs drawn for them change.<sup>15</sup>
 
-All of this matters when you choose a font, because every swap has to come from the font itself.<sup>16</sup> A font can have a shape for every character of a script and still lack the swaps that script needs. When that happens the characters do appear, but in the wrong shapes, and Arabic letters stand apart instead of joining. So do not judge a font's [coverage](font-coverage.md) of a script by whether the characters show up. Type a real word, and check that it looks right to someone who reads the script.
+All of this matters when you choose a font, because every swap has to come from the font itself.<sup>16</sup> A font can have a glyph for every character of a script and still lack the swaps that script needs. When that happens the characters do appear, but in the wrong glyphs, and Arabic letters stand apart instead of joining. So do not judge a font's [coverage](font-coverage.md) of a script by whether the characters show up. Type a real word, and check that it looks right to someone who reads the script.
 
 ***
 

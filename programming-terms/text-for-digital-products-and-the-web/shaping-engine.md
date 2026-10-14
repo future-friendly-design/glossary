@@ -38,27 +38,27 @@ That job is called [text shaping](text-shaping.md). You do not install a shaping
 
 Press a key and a letter appears on screen at once, so it looks as if nothing happens in between. Something does.
 
-Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](font.md) is a file of drawn shapes, and each shape is called a [glyph](glyph.md).<sup>3</sup> Something has to get from the stored numbers to the right shapes and then work out where each shape sits, and that something is the shaping engine.
+Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](font.md) is a file of drawn shapes, and each shape is called a [glyph](glyph.md).<sup>3</sup> Something has to get from the stored numbers to the right glyphs and then work out where each glyph sits, and that something is the shaping engine.
 
-For a lot of English text the job looks easy: one character, one shape, each placed to the right of the last. Other writing asks for more. A [script](../../language-terms/writing-systems-and-scripts/script.md) is the set of symbols and rules a language is written with, and for many scripts the job takes real work. Here is the same job in three scripts:
+For a lot of English text the job looks easy: one character, one glyph, each placed to the right of the last. Other writing asks for more. A [script](../../language-terms/writing-systems-and-scripts/script.md) is the set of symbols and rules a language is written with, and for many scripts the job takes real work. Here is the same job in three scripts:
 
 | What is stored | What the reader should see | What the shaping engine did |
 | -------------- | -------------------------- | --------------------------- |
-| `c`, `a`, `t` | `cat` | Chose one shape for each character and placed them left to right. |
+| `c`, `a`, `t` | `cat` | Chose one glyph for each character and placed them left to right. |
 | The Arabic letters kāf ك, tāʾ ت and bāʾ ب | كتب | Chose the joined form of each letter. An Arabic letter changes shape with its place in the word.<sup>4</sup> |
 | The Devanagari consonant क, then the vowel mark for "i" | कि | Drew the vowel mark to the left of the consonant, although it is stored after it.<sup>5</sup> |
 
-A shaping engine needs two things to do this: the text and a font. The font carries more than shapes. It also carries instructions, such as "when these two shapes meet, draw this one combined shape instead" and "place this mark this far above that symbol".<sup>6</sup> The font holds the instructions, and the shaping engine follows them.
+A shaping engine needs two things to do this: the text and a font. The font carries more than glyphs. It also carries instructions, such as "when these two glyphs meet, draw this one combined glyph instead" and "place this mark this far above that symbol".<sup>6</sup> The font holds the instructions, and the shaping engine follows them.
 
 The shaping engine also brings rules of its own, a set for each script.<sup>7</sup> Moving the Devanagari vowel mark in the table above is one of those rules. It is not stored in the font at all, and a font should not even try to do that reordering, because the shaping engine does it.<sup>8</sup>
 
-Now that the idea is in place, here are the names that go with it. Most fonts today are in a format called [OpenType](../../design-terms/typography/opentype.md).<sup>9</sup> An OpenType font keeps its instructions in two parts: [GSUB](gsub.md) lists the shapes to swap, and [GPOS](gpos.md) lists where to place them. The shaping engines have names too. On Windows, much of this work is now done by a text system called DirectWrite, which followed an earlier one called Uniscribe.<sup>10</sup> On macOS it is CoreText.<sup>11</sup> HarfBuzz is another, used in Firefox, in Chrome, in LibreOffice (a free office suite) and in design tools such as Figma and Adobe InDesign.<sup>12</sup>
+Now that the idea is in place, here are the names that go with it. Most fonts today are in a format called [OpenType](../../design-terms/typography/opentype.md).<sup>9</sup> An OpenType font keeps its instructions in two parts: [GSUB](gsub.md) lists the glyphs to swap, and [GPOS](gpos.md) lists where to place them. The shaping engines have names too. On Windows, much of this work is now done by a text system called DirectWrite, which followed an earlier one called Uniscribe.<sup>10</sup> On macOS it is CoreText.<sup>11</sup> HarfBuzz is another, used in Firefox, in Chrome, in LibreOffice (a free office suite) and in design tools such as Figma and Adobe InDesign.<sup>12</sup>
 
 Shaping is not everything that happens to text on its way to the screen. HarfBuzz, for example, works on one line at a time and leaves the decision of where a line breaks to other software.<sup>13</sup>
 
-This is why the right font is necessary but not enough. A font with every shape and every instruction still depends on software that follows them. If a tool sets shapes side by side without shaping them, Arabic comes out as separate letters and the Devanagari vowel mark lands on the wrong side, even though the font had everything needed.
+This is why the right font is necessary but not enough. A font with every glyph and every instruction still depends on software that follows them. If a tool sets glyphs side by side without shaping them, Arabic comes out as separate letters and the Devanagari vowel mark lands on the wrong side, even though the font had everything needed.
 
-That gives you a way to tell two failures apart. Empty boxes mean the font has no shape for the character, which is a [font coverage](font-coverage.md) problem.<sup>14</sup> Separate Arabic letters, or a mark on the wrong side, mean the shapes were there and nothing shaped them. And because different tools can use different shaping engines, check your text in every tool your team uses, not only in the browser.
+That gives you a way to tell two failures apart. Empty boxes mean the font has no glyph for the character, which is a [font coverage](font-coverage.md) problem.<sup>14</sup> Separate Arabic letters, or a mark on the wrong side, mean the glyphs were there and nothing shaped them. And because different tools can use different shaping engines, check your text in every tool your team uses, not only in the browser.
 
 ***
 

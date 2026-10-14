@@ -40,7 +40,7 @@ The name is short for Glyph Positioning. A [glyph](glyph.md) is one of the drawn
 
 ### Why it matters in design systems
 
-Every symbol you see on screen has been put in an exact spot. Often the rule is simple: draw a shape, move along by its width, draw the next one.<sup>4</sup>
+Every symbol you see on screen has been put in an exact spot. Often the rule is simple: draw a glyph, move along by its width, draw the next one.<sup>4</sup>
 
 That simple rule is not enough for a lot of writing:
 
@@ -50,15 +50,15 @@ That simple rule is not enough for a lot of writing:
 | A mark that belongs above or below a symbol | The Arabic vowel marks in `بَ` (ba), `بِ` (bi), `بُ` (bu) | The mark sits too high, too low, or on top of the symbol.<sup>6</sup> |
 | A mark that sits on another mark | The Vietnamese ế in Tiếng Việt, where a [tone mark](../../language-terms/writing-systems-and-scripts/tone-mark.md), which shows the tone of the voice, sits on top of a mark that changes the vowel | In a font that builds ế from separate parts, the two marks overlap.<sup>7</sup> |
 
-The measurements for this are kept in the font, because they depend on the font's own shapes: the right spot for a mark depends on the height and width of the symbol it belongs to.<sup>8</sup> GPOS is where the font keeps those measurements. Kerning is the one exception. It can also be kept in an older part of the font file, called `kern`, so an older font with no GPOS can still kern, but it has nowhere to keep the measurements for marks.<sup>9</sup>
+The measurements for this are kept in the font, because they depend on the font's own glyphs: the right spot for a mark depends on the height and width of the symbol it belongs to.<sup>8</sup> GPOS is where the font keeps those measurements. Kerning is the one exception. It can also be kept in an older part of the font file, called `kern`, so an older font with no GPOS can still kern, but it has nowhere to keep the measurements for marks.<sup>9</sup>
 
-The font does not place anything. A font is a file, and the placing is done by the software that draws text, called a [shaping engine](shaping-engine.md), which reads GPOS and follows it. It does this after any shapes have been swapped for others, so that it is placing the final shapes.<sup>10</sup> Those swaps are listed in a second part of the font, called [GSUB](gsub.md). GSUB says which shapes. GPOS says where they go.
+The font does not place anything. A font is a file, and the placing is done by the software that draws text, called a [shaping engine](shaping-engine.md), which reads GPOS and follows it. It does this after any glyphs have been swapped for others, so that it is placing the final glyphs.<sup>10</sup> Those swaps are listed in a second part of the font, called [GSUB](gsub.md). GSUB says which glyphs. GPOS says where they go.
 
 Kerning is a refinement that gives better typographic quality.<sup>11</sup> Placing marks is different. In writing that uses many marks, a mark in the wrong place can make a word hard to read or change what it says, so that kind of writing needs its marks placed with control, both to be legible and to be correct in the language.<sup>12</sup>
 
 The [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) needs its marks placed too. A font for Latin, Cyrillic or Greek is expected to place each accent on its base letter.<sup>13</sup>
 
-GPOS is not something you set in a design tool. What you can do is choose fonts with care and test them, because all of the placing information has to come from the font itself.<sup>14</sup> A font can have shapes for a script's marks and still lack the measurements for placing them, and then the marks appear, but they float, collide or pile up. So test a font with real words that carry marks, in each tool your team uses, and ask someone who reads the script whether the marks sit where they should.
+GPOS is not something you set in a design tool. What you can do is choose fonts with care and test them, because all of the placing information has to come from the font itself.<sup>14</sup> A font can have glyphs for a script's marks and still lack the measurements for placing them, and then the marks appear, but they float, collide or pile up. So test a font with real words that carry marks, in each tool your team uses, and ask someone who reads the script whether the marks sit where they should.
 
 ***
 

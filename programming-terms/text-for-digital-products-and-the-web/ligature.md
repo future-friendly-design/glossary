@@ -53,22 +53,22 @@ There are three kinds you will meet most often, and the difference between them 
 | Kind | Example | To begin with | Can you switch it off? |
 | ---- | ------- | ------------- | ---------------------- |
 | Required | The Arabic letters lam (ل) and alef (ا) are drawn as لا | On | Not with the normal controls. The script needs it, and tools are advised not to offer a switch.<sup>7</sup> |
-| Standard | `f` and `i` are drawn as one "fi" shape | On | Yes.<sup>8</sup> |
-| Discretionary, which means left to your choice | `c` and `t` are drawn as one merged "ct" shape | Off | Yes. You switch it on for a special effect.<sup>9</sup> |
+| Standard | `f` and `i` are drawn as one "fi" glyph | On | Yes.<sup>8</sup> |
+| Discretionary, which means left to your choice | `c` and `t` are drawn as one merged "ct" glyph | Off | Yes. You switch it on for a special effect.<sup>9</sup> |
 
 Devanagari has ligatures too. When consonants meet with no vowel between them they can merge, so the consonants क and ष become क्ष. That merged shape is called a [conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md), a ligature of two or more consonants.<sup>10</sup>
 
 It helps to keep three levels apart:
 
 * **The script** sets whether a ligature is expected. Arabic expects lam and alef to merge into one shape, in almost every style of the script.<sup>11</sup>
-* **The font** has to contain the ligature: the merged shape, and an instruction that says when to use it.<sup>12</sup>
+* **The font** has to contain the ligature: the merged glyph, and an instruction that says when to use it.<sup>12</sup>
 * **The software** that draws the text has to follow that instruction.<sup>13</sup> This software is called a [shaping engine](shaping-engine.md).
 
 A ligature changes what is drawn, not what is stored: the text still holds two characters, and they can be drawn as two glyphs or as one.<sup>14</sup>
 
 The three kinds have short names, which you may see in design tools and in code: `rlig` for required, `liga` for standard and `dlig` for discretionary. Each one is a named group of instructions in the font, and these groups are called [OpenType features](../../design-terms/typography/opentype-features.md), after [OpenType](../../design-terms/typography/opentype.md), the most widely used font format.<sup>15</sup>
 
-A ligature is also not the same as [joining](../../language-terms/writing-systems-and-scripts/joining.md). In Arabic, most letters connect to their neighbours, but each letter keeps a shape of its own. In a ligature, two or more shapes are replaced by one.<sup>16</sup>
+A ligature is also not the same as [joining](../../language-terms/writing-systems-and-scripts/joining.md). In Arabic, most letters connect to their neighbours, but each letter keeps a glyph of its own. In a ligature, two or more glyphs are replaced by one.<sup>16</sup>
 
 ### Common mistake
 
@@ -78,7 +78,7 @@ Treating ligatures as one switch. A type guideline that says "ligatures off" is 
 
 * **Find the control before you write the rule.** On the web it is the CSS property `font-variant-ligatures`, where the value `common-ligatures` covers the standard kind.<sup>18</sup> In Figma, the Details tab of the Type menu lists Ligatures and Rare Ligatures under Letterforms.<sup>19</sup> Rare Ligatures is Figma's name for the discretionary kind.<sup>20</sup> Make the same choice in both places, so the design and the built product match.
 * **Expect letter spacing to remove them.** When [letter spacing](../../design-terms/typography/letter-spacing.md) is anything other than zero, the CSS rules tell browsers not to use optional ligatures, because a merged pair cannot be spaced evenly with the letters around it.<sup>21</sup> So a heading set with wide letter spacing loses its "fi" ligature, and that is the intended result. Required ligatures are kept.
-* **Test required ligatures with a real word.** Put a word that contains lam and alef into each tool and each font your team uses, and you should see the one merged shape: لا. If you see anything else, either the font lacks the ligature or the tool is not shaping the text. Ask someone who reads the script to check, because a missing ligature is easy to overlook when you do not.
+* **Test required ligatures with a real word.** Put a word that contains lam and alef into each tool and each font your team uses, and you should see the one merged glyph: لا. If you see anything else, either the font lacks the ligature or the tool is not shaping the text. Ask someone who reads the script to check, because a missing ligature is easy to overlook when you do not.
 
 ***
 

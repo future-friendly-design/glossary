@@ -5,7 +5,7 @@ aliases:
   - glyph reordering
   - character reordering
 level: advanced
-depth: core
+depth: deep
 summary: Reordering is a step in drawing text in which software draws some symbols in a different order from the order they are stored in.
 related:
   - matra
@@ -56,19 +56,25 @@ Whether a script reorders has to be checked one script at a time. This glossary 
 
 The Thai row is there on purpose. Thai is a relative of the other two scripts, and it handles its left-side vowels in a different way from them.<sup>11</sup> Other relatives differ again: Telugu and Kannada have no vowel mark that is written on the left at all.<sup>12</sup> So a rule you have learned for one script cannot be carried over to the scripts related to it.
 
-In Devanagari and Tamil, reordering is not stored in the font. A [font](font.md) is a file of drawn shapes, called [glyphs](glyph.md), together with instructions for swapping those shapes and placing them. Changing the order is a different kind of work. It is done by the [shaping engine](shaping-engine.md), the software that chooses and places a font's shapes, using rules it holds for each script.<sup>13</sup> A Devanagari font in the [OpenType](../../design-terms/typography/opentype.md) format is expected to leave the order alone: its instructions are written for shapes that are already in their drawn order, and instructions for reordering do not belong in it.<sup>14</sup>
+In Devanagari and Tamil, reordering is not stored in the font. A [font](font.md) is a file of drawn shapes, called [glyphs](glyph.md), together with instructions for swapping those glyphs and placing them. Changing the order is a different kind of work. It is done by the [shaping engine](shaping-engine.md), the software that chooses and places a font's glyphs, using rules it holds for each script.<sup>13</sup> A Devanagari font in the [OpenType](../../design-terms/typography/opentype.md) format is expected to leave the order alone: its instructions are written for glyphs that are already in their drawn order, and instructions for reordering do not belong in it.<sup>14</sup>
 
 This explains a failure that looks like a font problem and is not one. If the vowel mark in कि is drawn on the right of the consonant, changing the font will not help. The text has passed through a tool that did not shape it.
 
 Needing reordering is also one of the things that gets a script called a complex script.<sup>15</sup> The shaping work in those scripts is called [complex text layout](complex-text-layout.md).
 
-There is a second change of order that is easy to confuse with this one. It is made for [bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md), where [right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) writing such as Arabic or Hebrew shares a line with left-to-right writing, and the right-to-left part has to be laid out starting from its right-hand end.<sup>16</sup> The two are separate, and one can happen without the other.<sup>17</sup> The reordering on this page moves one symbol inside a syllable, and the shaping engine does it. Sorting out mixed directions works on whole stretches of a line, and a shaping engine such as HarfBuzz expects other software to have done it first.<sup>18</sup> A product that handles one of them may still get the other wrong, so check both.
+There is a second change of order that is easy to confuse with this one. It is made for [bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md), where [right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) writing such as Arabic or Hebrew shares a line with left-to-right writing, and the right-to-left part has to be laid out starting from its right-hand end.<sup>16</sup> The two are separate, and one can happen without the other.<sup>17</sup> The reordering on this page moves one symbol inside a syllable, and the shaping engine does it. Sorting out mixed directions works on whole stretches of a line, and a shaping engine such as HarfBuzz expects other software to have done it first.<sup>18</sup>
 
-For your work, the point is that stored order and drawn order are two different things in these scripts. Three habits follow from that:
+For your work, the point is that stored order and drawn order are two different things in these scripts.
 
-* **Do not retype text to make it look right.** If a mark is on the wrong side, the stored [characters](../text-in-software/character.md) are probably correct and the tool is not shaping them. Putting the characters into drawn order breaks the text in every tool that does shape: a vowel mark stored ahead of its consonant attaches to the consonant before it, which is the wrong one. At the start of a word it has no consonant to attach to, and may be drawn on a dotted circle.<sup>19</sup>
+### Common mistake
+
+Retyping text to make it look right. If a mark is on the wrong side, the stored [characters](../text-in-software/character.md) are probably correct and the tool is not shaping them. Putting the characters into drawn order breaks the text in every tool that does shape: a vowel mark stored ahead of its consonant attaches to the consonant before it, which is the wrong one. At the start of a word it has no consonant to attach to, and may be drawn on a dotted circle.<sup>19</sup> Leave the stored order as it is.
+
+### In practice
+
 * **Do not shorten text by counting stored characters.** Cut the last stored character from कि and the symbol that disappears is the one on the left, not the one at the end. Software has a unit for symbols that belong together, called a [grapheme cluster](../text-in-software/grapheme-cluster.md), and splitting text into those units is called [segmentation](../text-in-software/segmentation.md). Ask for text to be cut and counted that way.
 * **Test a word that reorders.** Put a real word with a left-side vowel mark, and one with a reph, into each tool your text passes through, and ask a reader of the script whether every symbol is where it belongs.
+* **Check both changes of order.** A product that handles reordering inside a syllable may still get mixed directions wrong, or the other way round, so check the two separately.
 
 ***
 
