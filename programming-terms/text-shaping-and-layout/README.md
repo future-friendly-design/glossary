@@ -3,7 +3,7 @@
 ## How stored characters become the right shapes
 
 Between the characters a system stores and the text a person reads, something has to decide which shapes to draw and where to put them.
-That step is called shaping.
+That step is called text shaping: the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes.
 
 For a lot of Latin text, shaping looks like it does nothing: one character comes in, one glyph goes out, placed to the right of the last one.
 For many other scripts it has much more to work out.
@@ -30,19 +30,39 @@ If there is a term you would like to see added, head to the [contributing page](
 #### The shaping step
 
 What shaping is, what does it, and which scripts need more of it than others.
+Text shaping is the parent of every other term in this section: the software that does it, another name for it, the instructions it reads from the font, and what it produces.
 
-* [Complex text layout](../text-for-digital-products-and-the-web/complex-text-layout.md)
-* [Shaping engine](../text-for-digital-products-and-the-web/shaping-engine.md)
-* [Text shaping](../text-for-digital-products-and-the-web/text-shaping.md)
+[**Text shaping**](../text-for-digital-products-and-the-web/text-shaping.md)
+
+Text shaping is the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes.
+
+[**Shaping engine**](../text-for-digital-products-and-the-web/shaping-engine.md)
+
+A shaping engine is the software that works out which of a font's shapes to draw for a piece of text, and where each shape goes.
+
+[**Complex text layout**](../text-for-digital-products-and-the-web/complex-text-layout.md)
+
+Complex text layout is a name for text shaping in the scripts where shaping has the most to do: where the right shape or position of a character depends on the characters around it, or characters are drawn in a different order from the one they are stored in.
 
 #### What shaping does to the glyphs
 
 Shaping swaps glyphs for other glyphs, moves them relative to one another, and in some scripts changes the order they are drawn in. A font carries the instructions for the first two jobs, in two separate lists. Changing the order is done by the shaping software.
 
-* [GPOS](../text-for-digital-products-and-the-web/gpos.md)
-* [GSUB](../text-for-digital-products-and-the-web/gsub.md)
-* [Ligature](../text-for-digital-products-and-the-web/ligature.md)
-* [Reordering](../text-for-digital-products-and-the-web/reordering.md)
+[**GSUB**](../text-for-digital-products-and-the-web/gsub.md)
+
+GSUB is the part of a font file that lists which shapes to swap for other shapes, and when.
+
+[**GPOS**](../text-for-digital-products-and-the-web/gpos.md)
+
+GPOS is the part of a font file that tells software where to place each shape in relation to the shapes around it.
+
+[**Ligature**](../text-for-digital-products-and-the-web/ligature.md)
+
+A ligature is a single glyph, a shape in a font, that stands for two or more characters at once.
+
+[**Reordering**](../text-for-digital-products-and-the-web/reordering.md)
+
+Reordering is a step in drawing text in which software draws some symbols in a different order from the order they are stored in.
 
 ### Where to go next
 

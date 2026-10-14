@@ -3,7 +3,6 @@ term: Shaping engine
 slug: shaping-engine
 aliases:
   - shaper
-  - HarfBuzz
 level: intermediate
 depth: core
 summary: A shaping engine is the software that works out which of a font's shapes to draw for a piece of text, and where each shape goes.

@@ -7,11 +7,7 @@ aliases:
   - complex script rendering
 level: advanced
 depth: deep
-summary: >-
-  Complex text layout is the extra work software does to display writing in
-  which the right shape or position of a character has to be worked out from the
-  characters around it, or the characters have to be drawn in a different order
-  from the one they are stored in.
+summary: "Complex text layout is a name for text shaping in the scripts where shaping has the most to do: where the right shape or position of a character depends on the characters around it, or characters are drawn in a different order from the one they are stored in."
 related:
   - text-shaping
   - reordering
@@ -36,7 +32,9 @@ tags:
 
 ## Definition
 
-Complex text layout is the extra work software does to display writing in which the right shape or position of a character has to be worked out from the characters around it, or the characters have to be drawn in a different order from the one they are stored in.<sup>1</sup>
+Complex text layout is a name for text shaping in the scripts where shaping has the most to do: where the right shape or position of a character depends on the characters around it, or characters are drawn in a different order from the one they are stored in.<sup>1</sup>
+
+It is not a separate step from [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes. It is the same job, named for the scripts that need the most of it.
 
 It is often shortened to CTL. A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols and rules used to write one or more languages, and the scripts that need this extra work are often called complex scripts. [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md), [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) and [Thai](../../language-terms/writing-systems-and-scripts/thai-script.md) are three of them.<sup>2</sup>
 
@@ -53,7 +51,7 @@ Many scripts do not work this way, because what is drawn depends on the neighbou
 | Consonants merge                                | The Devanagari consonants क and ष, with no vowel between them, are drawn as क्ष<sup>6</sup> | [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) |
 | A mark is drawn before the consonant it follows | In the Devanagari कि, the vowel mark is stored after क and drawn to its left<sup>7</sup>    | [Reordering](reordering.md)                                              |
 
-Drawing text like this takes two things working together. The [font](font.md) has to contain the extra shapes, and instructions for when to use them. The software has to contain a [shaping engine](shaping-engine.md), the part that reads those instructions and applies the rules of the script.<sup>8</sup> That step is called [text shaping](text-shaping.md), and every script goes through it. Complex text layout is the name for the step in the scripts where it has a lot to do.
+Drawing text like this takes two things working together. The [font](font.md) has to contain the extra shapes, and instructions for when to use them. The software has to contain a [shaping engine](shaping-engine.md), the part that reads those instructions and applies the rules of the script.<sup>8</sup> That step is called text shaping, and every script goes through it. Complex text layout is the name for the step in the scripts where it has a lot to do.
 
 The word "complex" describes the work the software has to do, and says nothing about how hard a script is to read or to write. The comparison behind the word is with English written in the [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md), which one widely used code library, [ICU](../internationalization-and-localization/icu.md), describes as the least complex script to display.<sup>9</sup>
 
@@ -75,7 +73,7 @@ Treating right-to-left as the test. A team builds "RTL support", sees Arabic sta
 
 * **Test one real word for each behaviour.** The table above is a test plan. Pick a word that joins, a word with a required ligature, a word with a conjunct and a word with a reordered mark, and put them into every tool your text passes through: the design tool, the browser, and anything that produces a PDF or an image. If you do not read the script, ask someone who does, because broken text can look fine to a person who cannot read it.
 * **Keep letter spacing at zero for scripts that join.** Extra space between letters can pull joined letters apart, depending on the tool, and readers of the Arabic script expect connected letters to stay connected.<sup>18</sup> If your design system has [letter spacing](../../design-terms/typography/letter-spacing.md) [tokens](../../design-terms/design-token.md), do not apply them to these scripts.
-* **Look for a second font setting in office tools.** LibreOffice keeps one font setting for Latin text and a separate one for complex text layout.<sup>19</sup> A brand font chosen only in the first is not applied to the Arabic or Hindi text in the same document, so set both in your templates.
+* **Look for a second font setting in office tools.** LibreOffice keeps one font setting for Latin text and a separate one for complex text layout.<sup>19</sup> Set your brand fonts in both when you build templates.
 
 ***
 
