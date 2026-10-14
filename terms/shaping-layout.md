@@ -38,8 +38,8 @@ For Latin text it is easy to assume rendering is just "draw each character in or
 A guided tour of the shaping and layout terms in this glossary, grouped by what they help you reason about:
 
 * **The shaping pipeline:** [Text shaping](../programming-terms/text-shaping-and-layout/text-shaping.md), [Shaping engine](../programming-terms/text-shaping-and-layout/shaping-engine.md), [Complex text layout](../programming-terms/text-shaping-and-layout/complex-text-layout.md), [Reordering](../programming-terms/text-shaping-and-layout/reordering.md)
-* **The OpenType format and its tables:** [OpenType](../design-terms/typography/opentype.md), [OpenType features](../design-terms/typography/opentype-features.md), [GSUB](../programming-terms/text-shaping-and-layout/gsub.md), [GPOS](../programming-terms/text-shaping-and-layout/gpos.md)
-* **Joining and combining glyphs:** [Ligature](../programming-terms/text-shaping-and-layout/ligature.md), [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md)
+* **The OpenType format and its tables:** [OpenType](../design-terms/typography/opentype.md), [OpenType features](../design-terms/typography/opentype-features.md), [GSUB](../programming-terms/fonts/gsub.md), [GPOS](../programming-terms/fonts/gpos.md)
+* **Joining and combining glyphs:** [Ligature](../programming-terms/fonts/ligature.md), [Conjunct](../language-terms/writing-systems-and-scripts/conjunct.md)
 * **Indic script features:** [Matra](../language-terms/writing-systems-and-scripts/matra.md), [Reph](../language-terms/writing-systems-and-scripts/reph.md), [Shirorekha](../language-terms/writing-systems-and-scripts/shirorekha.md), [Virama](../language-terms/writing-systems-and-scripts/virama.md)
 * **Baseline and alignment:** [Hanging baseline](../language-terms/writing-systems-and-scripts/hanging-baseline.md)
 * **Tibetan and vertical stacking:** [Tsheg](../language-terms/writing-systems-and-scripts/tsheg.md), [Stacking script](../language-terms/writing-systems-and-scripts/stacking-script.md)

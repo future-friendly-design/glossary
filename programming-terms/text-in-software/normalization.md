@@ -43,7 +43,7 @@ Normalization rewrites text into one consistent form, so that two pieces of text
 
 The same visible text can be stored in more than one way. `é` can be a single character with the accent already built in, or the plain letter `e` followed by a separate accent character. A reader cannot tell the two apart. Software comparing them piece by piece can, and reports that they do not match.
 
-Normalization is the repair: rewrite both into whichever form you have chosen, and only then compare. [Unicode](unicode.md) defines four such forms in UAX #15.<sup>2</sup> NFC usually composes sequences into [precomposed characters](precomposed-character.md), while NFD decomposes them into a base plus [combining marks](combining-mark.md); the compatibility forms NFKC and NFKD additionally fold formatting variants together, such as a [ligature](../text-shaping-and-layout/ligature.md) back into its separate letters, or a [full-width](full-width.md) form into an ordinary one. Normalization also puts combining marks into a fixed order when their order makes no visible difference, such as one mark above the base and one below, so the text matches whichever mark was typed first.<sup>3</sup> Without it, text that looks identical can fail to match.
+Normalization is the repair: rewrite both into whichever form you have chosen, and only then compare. [Unicode](unicode.md) defines four such forms in UAX #15.<sup>2</sup> NFC usually composes sequences into [precomposed characters](precomposed-character.md), while NFD decomposes them into a base plus [combining marks](combining-mark.md); the compatibility forms NFKC and NFKD additionally fold formatting variants together, such as a [ligature](../fonts/ligature.md) back into its separate letters, or a [full-width](full-width.md) form into an ordinary one. Normalization also puts combining marks into a fixed order when their order makes no visible difference, such as one mark above the base and one below, so the text matches whichever mark was typed first.<sup>3</sup> Without it, text that looks identical can fail to match.
 
 ### Example
 
@@ -63,7 +63,7 @@ Comparing, searching, or deduplicating user text without normalizing first. Two 
 
 ### Related terms and mentions
 
-[Character](character.md) · [Combining mark](combining-mark.md) · [Full-width](full-width.md) · [Grapheme cluster](grapheme-cluster.md) · [Ligature](../text-shaping-and-layout/ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Precomposed character](precomposed-character.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
+[Character](character.md) · [Combining mark](combining-mark.md) · [Full-width](full-width.md) · [Grapheme cluster](grapheme-cluster.md) · [Ligature](../fonts/ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Precomposed character](precomposed-character.md) · [Unicode](unicode.md) · [Text encoding & character terms](./)
 
 ### Further reading
 

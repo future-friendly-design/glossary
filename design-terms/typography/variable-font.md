@@ -6,7 +6,9 @@ aliases:
   - OpenType variable font
 level: intermediate
 depth: core
-summary: A variable font is a font file that holds a whole range of styles of a typeface, where an ordinary font file holds one.
+summary: >-
+  A variable font is a font file that holds a whole range of styles of a
+  typeface, where an ordinary font file holds one.
 related:
   - font-weight
   - typeface
@@ -14,15 +16,17 @@ related:
   - font-subsetting
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
   - title: Variable fonts (MDN)
-    url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
+    url: >-
+      https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
     type: code
   - title: Explore text properties (Figma Learn)
-    url: https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
+    url: >-
+      https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
     type: design-tool
   - title: OpenType Font Variations Overview (Microsoft)
     url: https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview
@@ -54,9 +58,9 @@ The limit that matters most in a product with more than one language is that eve
 
 | Weight asked for | Variable font, range 100 to 900 | Variable font, range 400 to 700 | Two ordinary files, 400 and 700 |
 | ---------------- | ------------------------------- | ------------------------------- | ------------------------------- |
-| 300 | 300 | 400 | 400 |
-| 550 | 550 | 550 | 700 |
-| 800 | 800 | 700 | 700 |
+| 300              | 300                             | 400                             | 400                             |
+| 550              | 550                             | 550                             | 700                             |
+| 800              | 800                             | 700                             | 700                             |
 
 A heading set at 800 comes out heavier in one script than in the two beside it, on the same page, from the same token.
 
@@ -66,7 +70,7 @@ So treat "variable" as a fact about one file, not about your whole type system. 
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Font weight](font-weight.md) · [Language](../../language-terms/linguistics/language.md) · [OpenType](opentype.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Font terms](../fonts/)
+[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Font weight](font-weight.md) · [Language](../../language-terms/linguistics/language.md) · [OpenType](opentype.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Font terms](../../programming-terms/fonts/)
 
 ### Further reading
 
@@ -78,15 +82,15 @@ So treat "variable" as a fact about one file, not about your whole type system. 
 
 1. "OpenType Font Variations allow a font designer to incorporate multiple font faces within a font family into a single font resource" - OpenType Font Variations Overview, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview)
 2. "A variable font allows for continuous variation along some given design axis, such as weight" - OpenType Font Variations Overview, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview)
-3. "each font would represent one specific width/weight/style combination" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
+3. "each font would represent one specific width/weight/style combination" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_fonts/Variable\_fonts\_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
 4. "Each axis is defined by a numeric range" - OpenType Font Variations Overview, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview)
-5. "The five currently registered axes are weight, width, slant, italic, and optical size" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
+5. "The five currently registered axes are weight, width, slant, italic, and optical size" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_fonts/Variable\_fonts\_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
 6. "Fonts may use tags defined in this registry, or may use foundry-defined tags" - OpenType Design-Variation Axis Tag Registry, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg](https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg)
 7. "the designer may identify particular variation instances as “Light” or “Semibold”" - OpenType Font Variations Overview, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview)
-8. "Variable fonts are an evolution of the OpenType font specification" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
+8. "Variable fonts are an evolution of the OpenType font specification" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_fonts/Variable\_fonts\_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
 9. "Variable fonts, where the font designer has provided one or more axes of variation do not count as font synthesis" - CSS Fonts Module Level 4, W3C Working Draft: 2.8. Controlling synthetic faces [https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro](https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro)
 10. "Fractional weights are valid" - CSS Fonts Module Level 4, W3C Working Draft: 2.2. Font weight: the font-weight property [https://www.w3.org/TR/css-fonts-4/#font-weight-prop](https://www.w3.org/TR/css-fonts-4/#font-weight-prop)
-11. "That file would be larger than a single font" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
+11. "That file would be larger than a single font" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_fonts/Variable\_fonts\_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
 12. "A variable font includes a table, the font variations ('fvar') table, that describes the axes of variation used by that font" - OpenType Font Variations Overview, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview)
 13. "if an application specifies a value greater than the maxValue defined in the font, then maxValue must be used" - fvar: Font Variations Table, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/fvar](https://learn.microsoft.com/en-us/typography/opentype/spec/fvar)
 14. "For each character in the run a font family is chosen and a particular font face is selected containing a glyph for that character" - CSS Fonts Module Level 3, W3C Recommendation: 5. Font Matching Algorithm [https://www.w3.org/TR/css-fonts-3/#font-matching-algorithm](https://www.w3.org/TR/css-fonts-3/#font-matching-algorithm)

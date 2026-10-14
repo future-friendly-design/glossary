@@ -6,21 +6,24 @@ aliases:
   - missing glyph box
 level: foundational
 depth: core
-summary: Tofu is the nickname for the empty box that appears in place of a character when no font available to the software holds a shape for it.
+summary: >-
+  Tofu is the nickname for the empty box that appears in place of a character
+  when no font available to the software holds a shape for it.
 related:
   - glyph
   - font
   - font-coverage
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
-  - title: "OpenType recommendations: Glyph 0, the .notdef glyph (Microsoft)"
-    url: https://learn.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph
+  - title: 'OpenType recommendations: Glyph 0, the .notdef glyph (Microsoft)'
+    url: >-
+      https://learn.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph
     type: code
-  - title: "The Unicode Standard 18.0, chapter 5: Implementation Guidelines"
+  - title: 'The Unicode Standard 18.0, chapter 5: Implementation Guidelines'
     url: https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/
     type: authority
 license: CC-BY-4.0
@@ -48,9 +51,9 @@ Tofu is the last step of a longer search. Before showing a box, a web browser tr
 
 Tofu is often confused with a different failure that looks just as broken.
 
-| What you see  | Example                    | What went wrong                                                                                                                                             | What fixes it                                    |
-| ------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| Empty boxes   | □□□                        | No available font has a shape for these characters. This is tofu.                                                                                           | A font that covers the script.                   |
+| What you see  | Example                  | What went wrong                                                                                                                                                                               | What fixes it                                       |
+| ------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Empty boxes   | □□□                      | No available font has a shape for these characters. This is tofu.                                                                                                                             | A font that covers the script.                      |
 | Wrong letters | `Ã©` where `é` should be | The stored numbers were turned back into characters using the wrong list. This is a [character encoding](../../programming-terms/text-in-software/character-encoding.md) failure.<sup>8</sup> | Reading the text with the encoding it was saved in. |
 
 The word also gave a font collection its name. The [Noto fonts](noto-fonts.md) project says its name is short for "no tofu".<sup>9</sup>
@@ -61,7 +64,7 @@ When you see tofu in a product, treat it as a missing font and act on that. Find
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Character encoding](../../programming-terms/text-in-software/character-encoding.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Noto fonts](noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Font terms](../fonts/)
+[Character](../../programming-terms/text-in-software/character.md) · [Character encoding](../../programming-terms/text-in-software/character-encoding.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Noto fonts](noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Font terms](../../programming-terms/fonts/)
 
 ### Further reading
 

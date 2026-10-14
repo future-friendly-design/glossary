@@ -6,7 +6,9 @@ aliases:
   - Noto
 level: intermediate
 depth: core
-summary: The Noto fonts are a collection of free fonts, directed by Google, that aims to provide a font for every script in Unicode.
+summary: >-
+  The Noto fonts are a collection of free fonts, directed by Google, that aims
+  to provide a font for every script in Unicode.
 related:
   - tofu
   - font
@@ -16,7 +18,7 @@ related:
   - unicode
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -47,13 +49,13 @@ So Noto is a natural place to look when a product has to display a script that i
 
 The table gives the facts most often needed when choosing it. The counts are the project's own.
 
-| Question                 | Answer                                                                                                                                                                              |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| What is in it?           | Fonts in several weights and widths, in styles with and without the small finishing strokes called serifs, and in other styles.<sup>3</sup>                                         |
-| How much does it cover?  | More than 1,000 languages and over 150 writing systems.<sup>4</sup>                                                                                                                 |
-| Who makes it?            | Google sets the direction and makes the final design decisions.<sup>5</sup>                                      |
-| What is the licence?     | The SIL Open Font License, version 1.1.<sup>6</sup> It lets you use, change and share the fonts, and include them inside a product you sell. The fonts may not be sold on their own.<sup>7</sup>                             |
-| Is it one font file?     | No. There are more shapes in Noto than one font file can hold, so it is split into many families, such as Noto Sans Ethiopic for Ethiopic and Noto Sans Devanagari for Devanagari.<sup>8</sup>                    |
+| Question                | Answer                                                                                                                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| What is in it?          | Fonts in several weights and widths, in styles with and without the small finishing strokes called serifs, and in other styles.<sup>3</sup>                                                      |
+| How much does it cover? | More than 1,000 languages and over 150 writing systems.<sup>4</sup>                                                                                                                              |
+| Who makes it?           | Google sets the direction and makes the final design decisions.<sup>5</sup>                                                                                                                      |
+| What is the licence?    | The SIL Open Font License, version 1.1.<sup>6</sup> It lets you use, change and share the fonts, and include them inside a product you sell. The fonts may not be sold on their own.<sup>7</sup> |
+| Is it one font file?    | No. There are more shapes in Noto than one font file can hold, so it is split into many families, such as Noto Sans Ethiopic for Ethiopic and Noto Sans Devanagari for Devanagari.<sup>8</sup>   |
 
 That last row shapes how Noto is used. You do not add "Noto" to a product. You add the families for the scripts you support, and you list them in order after your main font, as [fallback fonts](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md): for example `font-family: "Noto Sans", "Noto Sans Ethiopic", "Noto Sans Devanagari", sans-serif`. With that list, the Amharic word ሰላም ("selam", "peace") and the Hindi word हिन्दी ("Hindi") are each shown with the Noto family made for their script, and not with whatever font the device happens to have.
 
@@ -71,7 +73,7 @@ Because the collection is large, load only the families you need. If a family is
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [SIL](sil.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Reference sources](../../terms/reference-sources.md) · [Font terms](../fonts/)
+[Character](../../programming-terms/text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [SIL](sil.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Reference sources](../../terms/reference-sources.md) · [Font terms](../../programming-terms/fonts/)
 
 ### Further reading
 

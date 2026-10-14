@@ -6,19 +6,22 @@ aliases:
   - synthetic bold
 level: intermediate
 depth: deep
-summary: Faux bold is an imitation of bold text that software makes by thickening the shapes of a regular font, because it has no bold font to use.
+summary: >-
+  Faux bold is an imitation of bold text that software makes by thickening the
+  shapes of a regular font, because it has no bold font to use.
 related:
   - faux-italic
   - font-weight
   - variable-font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
   - title: font-synthesis (MDN)
-    url: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis
+    url: >-
+      https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis
     type: code
   - title: Using b and i elements (W3C Internationalization)
     url: https://www.w3.org/International/questions/qa-b-and-i-tags
@@ -40,11 +43,11 @@ Faux bold is an imitation of bold text that software makes by thickening the sha
 
 Press the bold button and the text gets heavier. It feels like one action with one result. What happens next depends on which font files are there to use:
 
-| What is asked for | What the software has | What the reader gets |
-| ----------------- | --------------------- | -------------------- |
-| Bold | A bold font in the same family | Real bold, the shapes a type designer drew for that weight |
-| Bold | Only the regular font | Faux bold: the regular shapes, thickened by the software<sup>3</sup> |
-| Bold, with faking switched off | Only the regular font | The regular font, with no bold at all<sup>4</sup> |
+| What is asked for              | What the software has          | What the reader gets                                                 |
+| ------------------------------ | ------------------------------ | -------------------------------------------------------------------- |
+| Bold                           | A bold font in the same family | Real bold, the shapes a type designer drew for that weight           |
+| Bold                           | Only the regular font          | Faux bold: the regular shapes, thickened by the software<sup>3</sup> |
+| Bold, with faking switched off | Only the regular font          | The regular font, with no bold at all<sup>4</sup>                    |
 
 The second row is the one nobody chooses. Nothing announces it, and at a glance the text does look bolder. The web's font specification calls it a fallback, better than nothing but below the quality of a font designed for the purpose.<sup>5</sup> A fallback is what software uses when the thing it wanted is missing.
 
@@ -68,7 +71,7 @@ Checking bold only in the brand font. Most products show each script in a differ
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../../design-terms/design-token.md) · [Fallback font](fallback-font.md) · [Faux italic](faux-italic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font weight](../../design-terms/typography/font-weight.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Typeface](../../design-terms/typography/typeface.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../../design-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../../design-terms/design-token.md) · [Fallback font](fallback-font.md) · [Faux italic](faux-italic.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font weight](../../design-terms/typography/font-weight.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Language](../../language-terms/linguistics/language.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Typeface](../../design-terms/typography/typeface.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../fonts/)
 
 ### Further reading
 

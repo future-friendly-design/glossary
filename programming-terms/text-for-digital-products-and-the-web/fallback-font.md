@@ -1,24 +1,34 @@
 ---
 term: Fallback font
 slug: fallback-font
-aliases: [font stack, font fallback]
-tags: [typography]
+aliases:
+  - font stack
+  - font fallback
 level: intermediate
 depth: deep
-summary: A fallback font is a font that software uses in place of the one you chose, either because your font is not available or because it holds no shape for a character in the text.
-related: [font-coverage, font-subsetting, font]
+summary: >-
+  A fallback font is a font that software uses in place of the one you chose,
+  either because your font is not available or because it holds no shape for a
+  character in the text.
+related:
+  - font-coverage
+  - font-subsetting
+  - font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
-contributors: [sam-gordashko]
+updated: 2026-10-13T00:00:00.000Z
+contributors:
+  - sam-gordashko
 further_reading:
-  - title: "font-family (MDN)"
+  - title: font-family (MDN)
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
     type: code
   - title: CSS Fonts Module Level 3 (W3C)
     url: https://www.w3.org/TR/css-fonts-3/
     type: authority
 license: CC-BY-4.0
+tags:
+  - typography
 ---
 
 # Fallback font
@@ -37,12 +47,12 @@ This page may be doing it right now. The Amharic word ሰላም ("selam", "peace
 
 Here is how that other font gets found. The software goes through the text one character at a time, and for each character it works down these steps until one of them succeeds.<sup>2</sup>
 
-| Step | What the software tries                                           | Who chose the result                                                              |
-| ---- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 1    | The first font in your list.                                      | You.                                                                              |
-| 2    | Each later font in your list, in order.<sup>3</sup>               | You.                                                                              |
+| Step | What the software tries                                                | Who chose the result                                                                        |
+| ---- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| 1    | The first font in your list.                                           | You.                                                                                        |
+| 2    | Each later font in your list, in order.<sup>3</sup>                    | You.                                                                                        |
 | 3    | Any font on the device that has a shape for the character.<sup>4</sup> | The browser and the device. The result can differ from one browser to the next.<sup>5</sup> |
-| 4    | Nothing has it, so a placeholder is shown.<sup>6</sup>            | Nobody.                                                                           |
+| 4    | Nothing has it, so a placeholder is shown.<sup>6</sup>                 | Nobody.                                                                                     |
 
 These are the steps a web browser follows. They come from CSS, the language that sets how web pages look, where the list is written with a property called `font-family`. The placeholder in step 4 is usually an empty box, nicknamed [tofu](../../design-terms/typography/tofu.md).
 
@@ -68,7 +78,7 @@ Judging the fallback on your own screen. Step 3 depends on which fonts a device 
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Line height](../../design-terms/typography/line-height.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../../design-terms/typography/tofu.md) · [Font terms](../../design-terms/fonts/)
+[Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Line height](../../design-terms/typography/line-height.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../../design-terms/typography/tofu.md) · [Font terms](../fonts/)
 
 ### Further reading
 

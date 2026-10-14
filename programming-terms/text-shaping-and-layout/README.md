@@ -48,15 +48,15 @@ Complex text layout is a name for text shaping in the scripts where shaping has 
 
 Shaping swaps glyphs for other glyphs, moves them relative to one another, and in some scripts changes the order they appear in. A font carries the instructions for the first two jobs, in two separate lists. Changing the order is done by the shaping engine.
 
-[**GSUB**](gsub.md)
+[**GSUB**](../fonts/gsub.md)
 
 GSUB is the part of a font file that lists which shapes to swap for other shapes, and when.
 
-[**GPOS**](gpos.md)
+[**GPOS**](../fonts/gpos.md)
 
 GPOS is the part of a font file that tells software where to place each shape in relation to the shapes around it.
 
-[**Ligature**](ligature.md)
+[**Ligature**](../fonts/ligature.md)
 
 A ligature is a single glyph, a shape in a font, that stands for two or more characters at once.
 
@@ -90,6 +90,6 @@ Vertical text refers to the text direction script rule that defines reading and 
 
 ### Where to go next
 
-* Many of the instructions shaping relies on live inside the font file: see [Font terms](../../design-terms/fonts/).
+* Many of the instructions shaping relies on live inside the font file: see [Font terms](../fonts/).
 * The characters going into shaping are covered in [Text encoding & character terms](../text-in-software/).
 * Which direction a line runs, and what happens when two directions meet, is covered in [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/).

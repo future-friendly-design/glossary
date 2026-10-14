@@ -5,7 +5,9 @@ aliases:
   - weight
 level: foundational
 depth: core
-summary: Font weight is a measure of how thick the strokes of a typeface are, from very thin to very heavy.
+summary: >-
+  Font weight is a measure of how thick the strokes of a typeface are, from very
+  thin to very heavy.
 tool_names:
   figma: Font weight or style
   css: font-weight
@@ -15,7 +17,7 @@ related:
   - typeface
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -23,7 +25,8 @@ further_reading:
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
     type: code
   - title: Explore text properties (Figma Learn)
-    url: https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
+    url: >-
+      https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
     type: design-tool
 license: CC-BY-4.0
 tags:
@@ -44,17 +47,17 @@ Bold text looks darker than the text around it, and that difference is weight. D
 
 In software, weight is written as a number. The usual scale runs from 100 to 900 in steps of 100, and each step is at least as dark as the one before it.<sup>2</sup> Regular sits at 400, where a family may call it Regular, Book or Roman, and bold sits at 700.<sup>3</sup> These are the names that usually go with the numbers:<sup>4</sup>
 
-| Number | Common name |
-| ------ | ----------- |
-| 100 | Thin |
-| 200 | Extra Light, or Ultra Light |
-| 300 | Light |
-| 400 | Normal, or Regular |
-| 500 | Medium |
-| 600 | Semi Bold, or Demi Bold |
-| 700 | Bold |
-| 800 | Extra Bold, or Ultra Bold |
-| 900 | Black, or Heavy |
+| Number | Common name                 |
+| ------ | --------------------------- |
+| 100    | Thin                        |
+| 200    | Extra Light, or Ultra Light |
+| 300    | Light                       |
+| 400    | Normal, or Regular          |
+| 500    | Medium                      |
+| 600    | Semi Bold, or Demi Bold     |
+| 700    | Bold                        |
+| 800    | Extra Bold, or Ultra Bold   |
+| 900    | Black, or Heavy             |
 
 The names are habits, not rules, and the match between a name and a number is only rough. The scale is also relative: inside one family a bigger number never looks lighter,<sup>5</sup> but nothing promises that 500 in one family is as dark as 500 in another.
 
@@ -66,12 +69,12 @@ This is where products in more than one [script](../../language-terms/writing-sy
 
 Here are four weight [tokens](../design-token.md) meeting two fonts in the same product, in a browser:
 
-| Token | Number asked for | Font with 400, 500, 600 and 700 | Font with 400 and 700 only |
-| ----- | ---------------- | ------------------------------- | -------------------------- |
-| regular | 400 | 400 | 400 |
-| medium | 500 | 500 | 400, the same as regular |
-| semibold | 600 | 600 | 700, the same as bold |
-| bold | 700 | 700 | 700 |
+| Token    | Number asked for | Font with 400, 500, 600 and 700 | Font with 400 and 700 only |
+| -------- | ---------------- | ------------------------------- | -------------------------- |
+| regular  | 400              | 400                             | 400                        |
+| medium   | 500              | 500                             | 400, the same as regular   |
+| semibold | 600              | 600                             | 700, the same as bold      |
+| bold     | 700              | 700                             | 700                        |
 
 Four levels of emphasis in one script have become two in the other, and nobody chose that.
 
@@ -87,7 +90,7 @@ Figma: Font weight or style · CSS: `font-weight`
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Font terms](../fonts/)
+[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Font terms](../../programming-terms/fonts/)
 
 ### Further reading
 

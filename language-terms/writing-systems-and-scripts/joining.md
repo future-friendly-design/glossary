@@ -82,7 +82,7 @@ A quick thing to keep in mind: joining is just one of a script's rules. A script
 
 ### Common mistake
 
-Treating joining as an optional styling choice. A [ligature](../../programming-terms/text-shaping-and-layout/ligature.md), like the fi pair you see in English text, is a typographic refinement you can switch on or off.<sup>3</sup> Joining is not like that: it is required shaping. Skip it, with a tool or font that cannot shape, and the text does not just look plainer, it becomes unreadable. So when joined text renders broken, what it needs is shaping, not a font's ligature setting.
+Treating joining as an optional styling choice. A [ligature](../../programming-terms/fonts/ligature.md), like the fi pair you see in English text, is a typographic refinement you can switch on or off.<sup>3</sup> Joining is not like that: it is required shaping. Skip it, with a tool or font that cannot shape, and the text does not just look plainer, it becomes unreadable. So when joined text renders broken, what it needs is shaping, not a font's ligature setting.
 
 ### In practice
 
@@ -93,7 +93,7 @@ Treating joining as an optional styling choice. A [ligature](../../programming-t
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Complex text layout](../../programming-terms/text-shaping-and-layout/complex-text-layout.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Ligature](../../programming-terms/text-shaping-and-layout/ligature.md) · [Mongolian script (traditional)](mongolian-script.md) · [OpenType](../../design-terms/typography/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-shaping-and-layout/text-shaping.md) · [Tracking](../../design-terms/typography/tracking.md) · [Typeface](../../design-terms/typography/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Complex text layout](../../programming-terms/text-shaping-and-layout/complex-text-layout.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../linguistics/language.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Ligature](../../programming-terms/fonts/ligature.md) · [Mongolian script (traditional)](mongolian-script.md) · [OpenType](../../design-terms/typography/opentype.md) · [Orthography](orthography.md) · [Script](script.md) · [Script rules](script-rules.md) · [Symbol](symbol.md) · [Text shaping](../../programming-terms/text-shaping-and-layout/text-shaping.md) · [Tracking](../../design-terms/typography/tracking.md) · [Typeface](../../design-terms/typography/typeface.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

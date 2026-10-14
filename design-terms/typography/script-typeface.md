@@ -14,11 +14,11 @@ related:
   - script
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
-  - title: "Generic font families: cursive (CSS Fonts Module Level 3, W3C)"
+  - title: 'Generic font families: cursive (CSS Fonts Module Level 3, W3C)'
     url: https://www.w3.org/TR/css-fonts-3/#generic-font-families
     type: code
   - title: A guide to type styles (Monotype)
@@ -43,10 +43,10 @@ Think of a wedding invitation, a signature used as a logo, or the label on a jar
 
 The trouble starts when the word is used with no noun after it. "Does the brand have a script?" and "Which scripts does the brand font support?" sound like the same subject. They are not:
 
-| What somebody says | What "script" means there | Examples |
-| ------------------ | ------------------------- | -------- |
-| "A script typeface", "a script font", "set the headline in a script" | A style of typeface that imitates handwriting | Snell Roundhand, Zapfino, Mistral<sup>3</sup> |
-| "The Arabic script", "the font supports three scripts", "right-to-left scripts" | A set of symbols used to write languages | Latin, Arabic, Devanagari |
+| What somebody says                                                              | What "script" means there                     | Examples                                      |
+| ------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| "A script typeface", "a script font", "set the headline in a script"            | A style of typeface that imitates handwriting | Snell Roundhand, Zapfino, Mistral<sup>3</sup> |
+| "The Arabic script", "the font supports three scripts", "right-to-left scripts" | A set of symbols used to write languages      | Latin, Arabic, Devanagari                     |
 
 The two meanings even meet inside one definition. The standard for fonts on the web is part of CSS, the code that styles web pages. It has a category called `cursive` for handwriting-style fonts, and describes it like this: "Glyphs in cursive fonts generally use a more informal script style", followed by "CSS uses the term ‘cursive’ to apply to a font for any script".<sup>4</sup> The first "script" is the handwriting style. The second is the writing system. (A glyph is a shape that a font holds for a character.) If the people who write the standard need both meanings within two sentences, a design team will too, so it pays to always say which one you mean.
 
@@ -62,7 +62,7 @@ For your work, this comes down to naming and to not copying a decision across sc
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Typography](../../terms/typography.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Font terms](../fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Typography](../../terms/typography.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Font terms](../../programming-terms/fonts/)
 
 ### Further reading
 

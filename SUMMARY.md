@@ -92,7 +92,6 @@
 
 ## Design Terms
 
-* [Font terms](design-terms/fonts/README.md)
 * [Typography](design-terms/typography/README.md)
   * [Baseline](design-terms/typography/baseline.md)
   * [Cap height](design-terms/typography/cap-height.md)
@@ -122,6 +121,10 @@
 
 ## Programming Terms
 
+* [Font terms](programming-terms/fonts/README.md)
+  * [GPOS](programming-terms/fonts/gpos.md)
+  * [GSUB](programming-terms/fonts/gsub.md)
+  * [Ligature](programming-terms/fonts/ligature.md)
 * [Internationalization & localization terms](programming-terms/internationalization-and-localization/README.md)
   * [Case mapping](programming-terms/internationalization-and-localization/case-mapping.md)
   * [Collation](programming-terms/internationalization-and-localization/collation.md)
@@ -137,13 +140,10 @@
   * [Text expansion](programming-terms/internationalization-and-localization/text-expansion.md)
   * [Truncation](programming-terms/internationalization-and-localization/truncation.md)
 * [Text shaping & layout terms](programming-terms/text-shaping-and-layout/README.md)
-  * [Text shaping](programming-terms/text-shaping-and-layout/text-shaping.md)
   * [Complex text layout](programming-terms/text-shaping-and-layout/complex-text-layout.md)
-  * [GPOS](programming-terms/text-shaping-and-layout/gpos.md)
-  * [GSUB](programming-terms/text-shaping-and-layout/gsub.md)
-  * [Ligature](programming-terms/text-shaping-and-layout/ligature.md)
   * [Reordering](programming-terms/text-shaping-and-layout/reordering.md)
   * [Shaping engine](programming-terms/text-shaping-and-layout/shaping-engine.md)
+  * [Text shaping](programming-terms/text-shaping-and-layout/text-shaping.md)
 * [Text for digital products & the web](programming-terms/text-for-digital-products-and-the-web/README.md)
   * [Code unit](programming-terms/text-for-digital-products-and-the-web/code-unit.md)
   * [Fallback font](programming-terms/text-for-digital-products-and-the-web/fallback-font.md)

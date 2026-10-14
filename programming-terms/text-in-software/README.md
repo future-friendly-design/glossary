@@ -79,6 +79,6 @@ Some characters exist in more than one width or form, which affects how text lin
 
 ### Where to go next
 
-* The shapes these characters turn into are covered in [Text shaping & layout terms](../text-shaping-and-layout/) and [Font terms](../../design-terms/fonts/).
+* The shapes these characters turn into are covered in [Text shaping & layout terms](../text-shaping-and-layout/) and [Font terms](../fonts/).
 * The writing systems being represented are covered in [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/).
 * Building a product for more than one language is covered in [Internationalization & localization terms](../internationalization-and-localization/).

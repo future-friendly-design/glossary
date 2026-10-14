@@ -2,9 +2,9 @@
 
 ## Internationalization and localization for multi-language support
 
-When your design system has to support multiple languages, the internationalization and localization work makes that possible. Internationalization (i18n) is the design and development work that prepares a product to be adapted to other languages and places. Localization (l10n) is the work of adapting a product to one particular language and place, with consideration for regional differences in reading and writing.&#x20;
+When your design system has to support multiple languages, the internationalization and localization work makes that possible. Internationalization (i18n) is the design and development work that prepares a product to be adapted to other languages and places. Localization (l10n) is the work of adapting a product to one particular language and place, with consideration for regional differences in reading and writing.
 
-For example, the order a date appears in its numeric form is different between the US and the UK, even though both use English: the US puts the month first and the UK puts the day first.&#x20;
+For example, the order a date appears in its numeric form is different between the US and the UK, even though both use English: the US puts the month first and the UK puts the day first.
 
 ### Why it matters
 
@@ -91,5 +91,5 @@ A keyboard layout is the set of rules that decides which character appears when 
 ### Where to go next
 
 * How the text itself is stored, counted, and compared is covered in [Text encoding & character terms](../text-in-software/).
-* Whether your type can render the languages you are adding is covered in [Font terms](../../design-terms/fonts/).
+* Whether your type can render the languages you are adding is covered in [Font terms](../fonts/).
 * What the languages and scripts themselves require is covered in [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/) and [Language & linguistics](../../language-terms/linguistics/).

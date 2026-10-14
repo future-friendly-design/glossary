@@ -7,19 +7,22 @@ aliases:
   - faux oblique
 level: intermediate
 depth: deep
-summary: Faux italic is an imitation of italic text that software makes by slanting the shapes of a regular font, because it has no italic font to use.
+summary: >-
+  Faux italic is an imitation of italic text that software makes by slanting the
+  shapes of a regular font, because it has no italic font to use.
 related:
   - faux-bold
   - typeface
   - variable-font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
   - title: font-style (MDN)
-    url: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-style
+    url: >-
+      https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-style
     type: code
   - title: Using b and i elements (W3C Internationalization)
     url: https://www.w3.org/International/questions/qa-b-and-i-tags
@@ -45,12 +48,12 @@ It is neither. Start with the font. In Latin type, a real italic is usually not 
 
 Then the language. Italic belongs to particular [scripts](../../language-terms/writing-systems-and-scripts/script.md), the sets of symbols that languages are written with. Many scripts have no tradition of mixing a handwriting-like form into upright text at all.<sup>7</sup> Here is what the web's font standard says, case by case:
 
-| Script or languages | What happens when italic is asked for |
-| ------ | ------------------------------------- |
-| Latin | If the font family has a real italic, it is used. If it does not, the regular letters are slanted, and the standard says a real italic is always the better choice.<sup>8</sup> |
-| Cyrillic | The italic forms are very different in shape from the upright ones, so slanting the upright letters produces shapes that italic Cyrillic does not use.<sup>9</sup> |
-| Chinese, Japanese and Korean | Fonts almost always have no italic. Anything slanted on screen was made by the software.<sup>10</sup> |
-| Arabic | A font that holds several scripts sometimes leaves Arabic out of its italic. The standard's own example switches the faked slant off for Arabic.<sup>11</sup> |
+| Script or languages          | What happens when italic is asked for                                                                                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Latin                        | If the font family has a real italic, it is used. If it does not, the regular letters are slanted, and the standard says a real italic is always the better choice.<sup>8</sup> |
+| Cyrillic                     | The italic forms are very different in shape from the upright ones, so slanting the upright letters produces shapes that italic Cyrillic does not use.<sup>9</sup>              |
+| Chinese, Japanese and Korean | Fonts almost always have no italic. Anything slanted on screen was made by the software.<sup>10</sup>                                                                           |
+| Arabic                       | A font that holds several scripts sometimes leaves Arabic out of its italic. The standard's own example switches the faked slant off for Arabic.<sup>11</sup>                   |
 
 For a script with no italic tradition, a slant is not a weaker version of something the reader expects. It is something software did to the text, and for Chinese, Japanese and Korean it can make the text harder to read or even change what it says.<sup>12</sup>
 
@@ -70,7 +73,7 @@ Thinking italic and slanted are the same thing. Type has two words for leaning t
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Faux bold](faux-bold.md) · [Font](font.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Typeface](../../design-terms/typography/typeface.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../../design-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Faux bold](faux-bold.md) · [Font](font.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Typeface](../../design-terms/typography/typeface.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../fonts/)
 
 ### Further reading
 
@@ -91,7 +94,7 @@ Thinking italic and slanted are the same thing. Type has two words for leaning t
 10. "Chinese, Japanese and Korean fonts almost always lack italic or oblique faces" - CSS Fonts Module Level 3, W3C Recommendation, 3.4 Font style: the font-style property [https://www.w3.org/TR/css-fonts-3/#font-style-prop](https://www.w3.org/TR/css-fonts-3/#font-style-prop)
 11. "Fonts that support a mixture of scripts will sometimes omit specific scripts such as Arabic from the set of glyphs supported in the italic face", and, in 3.8, "The style rule below disables the use of synthetically obliqued Arabic" - CSS Fonts Module Level 3, W3C Recommendation, 3.4 Font style: the font-style property [https://www.w3.org/TR/css-fonts-3/#font-style-prop](https://www.w3.org/TR/css-fonts-3/#font-style-prop)
 12. "Fonts used for Chinese, Japanese, Korean and other logographic scripts tend not to include these variants and synthesizing them might impede the legibility or change the meaning of the text" - font-synthesis, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis)
-13. "Emphasis dots (also known as bouten or side dots) are symbols placed alongside a run of ideographic character (cl-19) or hiragana (cl-15) characters to emphasize the text" - Requirements for Japanese Text Layout (JLREQ), W3C Working Group Note, 3.3.9 Composition of Emphasis Dots [https://www.w3.org/TR/jlreq/#composition_of_emphasis_dots](https://www.w3.org/TR/jlreq/#composition_of_emphasis_dots)
+13. "Emphasis dots (also known as bouten or side dots) are symbols placed alongside a run of ideographic character (cl-19) or hiragana (cl-15) characters to emphasize the text" - Requirements for Japanese Text Layout (JLREQ), W3C Working Group Note, 3.3.9 Composition of Emphasis Dots [https://www.w3.org/TR/jlreq/#composition\_of\_emphasis\_dots](https://www.w3.org/TR/jlreq/#composition_of_emphasis_dots)
 14. "the Japanese person may find that the content communicates better if they use wakiten (boten marks) for emphasis, corner brackets for 『document names』" - Using b and i elements, W3C Internationalization [https://www.w3.org/International/questions/qa-b-and-i-tags](https://www.w3.org/International/questions/qa-b-and-i-tags)
 15. "Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face" - CSS Fonts Module Level 3, W3C Recommendation, 3.4 Font style: the font-style property [https://www.w3.org/TR/css-fonts-3/#font-style-prop](https://www.w3.org/TR/css-fonts-3/#font-style-prop)
 16. font-synthesis-style: "none Synthesis of oblique faces is not allowed" - CSS Fonts Module Level 4, W3C Working Draft, 2.8.2 Controlling synthesized oblique: The font-synthesis-style property [https://www.w3.org/TR/css-fonts-4/#font-synthesis-style](https://www.w3.org/TR/css-fonts-4/#font-synthesis-style)

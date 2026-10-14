@@ -6,14 +6,16 @@ aliases:
   - font family
 level: foundational
 depth: deep
-summary: A typeface is the design shared by a set of written symbols, such as letters, numbers and marks.
+summary: >-
+  A typeface is the design shared by a set of written symbols, such as letters,
+  numbers and marks.
 related:
   - font
   - font-weight
   - variable-font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -21,7 +23,8 @@ further_reading:
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
     type: code
   - title: Explore text properties (Figma Learn)
-    url: https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
+    url: >-
+      https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
     type: design-tool
   - title: Glossary (Monotype)
     url: https://support.monotype.com/en/articles/8949273-glossary
@@ -45,13 +48,13 @@ When someone admires a poster and asks "what font is that?", the thing they are 
 
 In everyday talk the two words are often used as if they meant the same thing.<sup>4</sup> A design system is one of the places where they cannot be, because it has to answer questions about looks and questions about files, and those questions usually land with different people:
 
-| Question | Typeface or fonts? |
-| -------- | ------------------ |
-| What should our product look like? | The typeface. |
-| What do we hold a licence for? | The fonts. A licence is permission to use font software.<sup>5</sup> |
-| What does a page download? | The fonts, one file at a time. |
+| Question                                                                   | Typeface or fonts?                                                                               |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| What should our product look like?                                         | The typeface.                                                                                    |
+| What do we hold a licence for?                                             | The fonts. A licence is permission to use font software.<sup>5</sup>                             |
+| What does a page download?                                                 | The fonts, one file at a time.                                                                   |
 | What does a [token](../design-token.md) called "brand" or "body" point to? | A typeface, by its family name. Software then has to match that name to a font file.<sup>6</sup> |
-| Which languages can we show? | The fonts, because the shapes are held in the files.<sup>7</sup> |
+| Which languages can we show?                                               | The fonts, because the shapes are held in the files.<sup>7</sup>                                 |
 
 A typeface normally comes as a family, the same design in several weights, widths and slants.<sup>8</sup> Each member is delivered as its own font, unless the family is built as a [variable font](variable-font.md), where one file holds a range. So "we use this typeface" does not yet say which weights, which styles or which files, and a design system has to say all three.
 
@@ -71,7 +74,7 @@ Choosing a typeface in one script and assuming it will be there in the others. A
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../design-token.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Faux italic](../../programming-terms/text-for-digital-products-and-the-web/faux-italic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font weight](font-weight.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](script-typeface.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Variable font](variable-font.md) · [Font terms](../fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Design token](../design-token.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Faux italic](../../programming-terms/text-for-digital-products-and-the-web/faux-italic.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Font weight](font-weight.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](script-typeface.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Variable font](variable-font.md) · [Font terms](../../programming-terms/fonts/)
 
 ### Further reading
 
