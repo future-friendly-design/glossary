@@ -20,6 +20,8 @@ Those are design decisions with visible consequences, made long before a transla
 This glossary does not cover every part of building multilingual software. If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
 {% endhint %}
 
+
+
 #### The two halves of the multi-language job
 
 Preparing a product to hold any language, and then adapting it to one. Plus the technique for finding out whether the first half was actually done. Internationalization is the parent of the other terms in this section, except localization, its partner. Some are tools for the work, and the rest are things it has to plan for.
@@ -35,6 +37,8 @@ Localization is the work of adapting a product to one particular language and pl
 [**Pseudolocalization**](pseudolocalization.md)
 
 Pseudolocalization is a testing technique that swaps a product's text for a fake translation, to show whether the product is ready for a real one.
+
+
 
 #### Describing a language and a place
 
@@ -76,6 +80,8 @@ Text expansion is the growth in the space a piece of text needs when it is trans
 
 Truncation is cutting text short so it fits the space it is given, usually with an ellipsis (…) to show that some of it is hidden.
 
+
+
 #### Typing in another language
 
 Input is the half of multilingual support that design most often forgets, because the team's own keyboards already work.
@@ -87,6 +93,8 @@ An input method editor (IME) is software that turns what a person types into the
 [**Keyboard layout**](keyboard-layout.md)
 
 A keyboard layout is the set of rules that decides which character appears when a person presses a key on a keyboard or taps one on a screen.
+
+***
 
 ### Where to go next
 

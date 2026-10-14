@@ -28,6 +28,8 @@ This glossary does not cover every shaping feature. Select a linked term to navi
 If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
 {% endhint %}
 
+
+
 #### The shaping step
 
 What shaping is, what does it, and which scripts need more of it than others. Text shaping is the parent of every other term in this section: the software that does it, another name for it, the instructions it reads from the font, and what it produces.
@@ -64,6 +66,8 @@ A ligature is a single glyph, a shape in a font, that stands for two or more cha
 
 Reordering is a step in displaying text in which software shows some symbols in a different order from the order they are stored in.
 
+
+
 #### Laying out the lines
 
 Once the shapes are chosen, software still has to fit them into the space they have: which way each line runs, where a line may break, and what happens when the text does not fit. These terms live in other sections, because each one belongs with its own family, but they are the layout half of this section's job.
@@ -87,6 +91,8 @@ Truncation is cutting text short so it fits the space it is given, usually with 
 [**Vertical text**](../../terms/vertical-text.md)
 
 Vertical text refers to the text direction script rule that defines reading and writing the script in columns running from top to bottom.
+
+***
 
 ### Where to go next
 

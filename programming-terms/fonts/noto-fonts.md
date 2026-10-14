@@ -18,7 +18,7 @@ related:
   - unicode
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-14
+updated: 2026-10-14T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -37,11 +37,11 @@ tags:
 
 ## Definition
 
-The Noto fonts are a collection of free fonts, directed by Google, that aims to provide a font for every script in Unicode.<sup>1</sup>
-
-The Noto fonts are a collection of [fonts](font.md), the files that hold the shapes software uses to show text.<sup>2</sup>
+The Noto fonts are a collection of free [fonts](font.md), directed by Google, that aims to provide a font for every script in Unicode.<sup>1</sup>
 
 A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of [symbols](../../language-terms/writing-systems-and-scripts/symbol.md) used to write one or more languages, such as [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md), [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) or [Ethiopic](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). [Unicode](../text-in-software/unicode.md) is the standard that aims to give every character in every script its own number. Each font has [glyphs](glyph.md) for some of those characters.
+
+The [Noto fonts are a collection](https://app.gitbook.com/s/4e0AWp8MeDYPLQFZzQRP/language-terms) of [fonts](font.md), the files that hold the shapes software uses to show text.<sup>2</sup>
 
 ### Why it matters in design systems
 

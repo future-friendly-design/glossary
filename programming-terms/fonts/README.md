@@ -26,6 +26,8 @@ This glossary does not cover every font format, feature, and control. Select a l
 If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
 {% endhint %}
 
+
+
 #### The font and its design
 
 Font is the parent of every term in this section: what a font holds, the format it is stored in, what it covers, and what happens when it falls short.
@@ -58,6 +60,8 @@ One more term shares the word "script" without sharing the meaning. A script typ
 
 A script typeface is a typeface drawn to look like handwriting.
 
+
+
 #### Inside the font file
 
 Beyond the shapes themselves, a font carries the instructions that text shaping reads: which glyphs to swap for others, where to place each one, and which optional styles a designer can switch on.
@@ -81,6 +85,8 @@ GPOS is the part of a font file that tells software where to place each glyph in
 [**Ligature**](ligature.md)
 
 A ligature is a single glyph, a shape in a font, that stands for two or more characters at once.
+
+
 
 #### When the font falls short
 
@@ -106,6 +112,8 @@ Faux bold is an imitation of bold text that software makes by thickening the sha
 
 Faux italic is an imitation of italic text that software makes by slanting the shapes of a regular font, because it has no italic font to use.
 
+
+
 #### Getting fonts to people
 
 Where fonts for many scripts come from, and how to load only the part of a font a product needs.
@@ -121,6 +129,8 @@ SIL fonts are a collection of free fonts from SIL Global, made for languages tha
 [**Font subsetting**](font-subsetting.md)
 
 Font subsetting is the practice of making a smaller copy of a font file by keeping only the glyphs and instructions needed for the characters a product expects to use.
+
+***
 
 ### Where to go next
 

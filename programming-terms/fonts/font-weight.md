@@ -5,7 +5,9 @@ aliases:
   - weight
 level: foundational
 depth: core
-summary: Font weight is how thick the strokes of a font are, from very thin to very heavy.
+summary: >-
+  Font weight is how thick the strokes of a font are, from very thin to very
+  heavy.
 tool_names:
   figma: Font weight or style
   css: font-weight
@@ -15,7 +17,7 @@ related:
   - typeface
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-14
+updated: 2026-10-14T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -37,7 +39,7 @@ tags:
 
 Font weight is how thick the strokes of a font are, from very thin to very heavy.<sup>1</sup>
 
-Font weight is one of the things that describes a [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
+Font weight is one of the styling properties that describes a [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
 
 Regular and bold are two weights. A [typeface](typeface.md) may come in nine of them, or two, or only one. Each weight of a typeface is usually its own font file,<sup>3</sup> and in CSS, the code that styles web pages, the `font-weight` property chooses which one is used.<sup>4</sup>
 
