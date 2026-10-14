@@ -88,7 +88,7 @@ A font holds shapes only for the characters it was made for. When the text needs
 
 [**Font coverage**](font-coverage.md)
 
-Font coverage is the set of characters that a font file holds a shape for.
+Font coverage is the set of characters that a font file has glyphs for.
 
 [**Fallback font**](fallback-font.md)
 
@@ -96,7 +96,7 @@ A fallback font is a font that software uses when your main font has no glyph fo
 
 [**Tofu**](tofu.md)
 
-Tofu is the nickname for the empty box that appears in place of a character when no font available to the software holds a shape for it.
+Tofu is the nickname for the empty box that appears in place of a character when no font available to the software has a glyph for it.
 
 [**Faux bold**](faux-bold.md)
 

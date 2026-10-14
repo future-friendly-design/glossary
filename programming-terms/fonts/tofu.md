@@ -6,16 +6,14 @@ aliases:
   - missing glyph box
 level: foundational
 depth: core
-summary: >-
-  Tofu is the nickname for the empty box that appears in place of a character
-  when no font available to the software holds a shape for it.
+summary: "Tofu is the nickname for the empty box that appears in place of a character when no font available to the software has a glyph for it."
 related:
   - glyph
   - font
   - font-coverage
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -35,21 +33,21 @@ tags:
 
 ## Definition
 
-Tofu is the nickname for the empty box that appears in place of a character when no font available to the software holds a shape for it.<sup>1</sup>
+Tofu is the nickname for the empty box that appears in place of a character when no font available to the software has a glyph for it.<sup>1</sup>
 
 Tofu is what you see when every [font](font.md) available, the files that hold the shapes software uses to show text, falls short.<sup>2</sup>
 
-For example, the Amharic greeting ሰላም ("selam", "peace") is written with three characters of [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). On a device with no font for Ethiopic, the same word looks like this: □□□.
+For example, the Amharic greeting ሰላም ("selam", "peace") is written with three characters of [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). On a device with no font for Ethiopic, the same word appears as three empty boxes, as in the image below.
 
-<figure><img src="../../.gitbook/assets/tofu-selam.png" alt="The Amharic word ሰላም shown twice: correctly on the left, and as three empty rectangles on the right."><figcaption><p>Left: the Amharic word ሰላም in Kefa, a font that has Ethiopic shapes. Right: the same three characters in Arial, a Latin-script font that has none, so each one appears as an empty box: tofu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tofu-selam.png" alt="The Amharic word ሰላም shown twice: correctly on the left, and as three empty rectangles on the right."><figcaption><p>Left: the Amharic word ሰላም in Kefa, a font that has Ethiopic shapes. Right: the same three characters in Arial, a Latin-script font that has none, so each one appears as an empty box, which is called tofu.</p></figcaption></figure>
 
 ### Why it matters in design systems
 
 A row of small empty rectangles where words should be is easy to dismiss as a glitch. For the person reading, it is their name, their message or their language that has been replaced by boxes, and they cannot read any of it.
 
-Each box stands for one real character. A font is a file of shapes, called [glyphs](glyph.md), and it only has shapes for the characters its makers drew. The software received the character correctly and then could not find a font with a shape for it.<sup>3</sup> So the text itself is not damaged. Nothing needs to be typed again, and the same text will read correctly anywhere a suitable font is present.
+Each box stands for one real character. The software received the character correctly and then could not find a font with a [glyph](glyph.md) for it.<sup>3</sup> So the text itself is not damaged. Nothing needs to be typed again, and the same text will read correctly anywhere a suitable font is present.
 
-The box is put there on purpose. A font keeps one special shape to show when a character is missing, which font makers call `.notdef`,<sup>4</sup> and the recommended drawing for it is an empty rectangle, or a rectangle with a question mark or an X inside.<sup>5</sup> Some software shows the character's number in its place.<sup>6</sup> A visible box is far better than the alternative: if nothing were shown, a reader would see what looks like a space and never learn that something is missing.<sup>7</sup>
+The box is put there on purpose. A font keeps one special shape to show when a character is missing, which font makers call `.notdef`,<sup>4</sup> and the recommended drawing for it is an empty rectangle, or a rectangle with a question mark or an X inside.<sup>5</sup> Some software shows the character's number in its place.<sup>6</sup> A visible box is far better than the alternative. If nothing were shown, a reader would see what looks like a space and never learn that something is missing.<sup>7</sup>
 
 Tofu is the last step of a longer search. Before showing a box, a web browser tries the font you chose, then any other fonts you listed, called [fallback fonts](fallback-font.md), then the fonts on the device.<sup>8</sup> A box means all of them failed. This is why tofu is a matter of [font coverage](font-coverage.md), the set of characters a font has shapes for, and why the same page can show boxes on one device and readable text on another.
 
