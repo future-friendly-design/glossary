@@ -1,18 +1,19 @@
 # Text shaping & layout
 
-## How stored characters become the right shapes
+## Text shaping and layout ensures readability
 
-Between the characters a system stores and the text a person reads, something has to decide which shapes to draw and where to put them.
-That step is called text shaping: the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes.
-
-For a lot of Latin text, shaping looks like it does nothing: one character comes in, one glyph goes out, placed to the right of the last one.
-For many other scripts it has much more to work out.
-Letters change shape depending on their neighbours, marks are positioned over or under a base, pairs merge into a single form, and some vowel marks are drawn in a different order than they were typed.
+In programming, there are many processes that happen under the hood to ensure text is stored and displayed properly. Text shaping and layout processes ensures each piece of text you see on your screen is displayed correctly based on your language preferences and the localization conventions that come along with it.&#x20;
 
 ### Why it matters
 
-This is the step that explains a failure designers meet often and rarely have a name for: the font is correct, the characters are correct, and the text still renders wrong.
-A font that contains every shape a script needs is necessary but not sufficient.
+Computers store text as binary code, according to the [Unicode](../text-in-software/unicode.md) standard, that gives every [character](../text-in-software/character.md) in the world's writing systems a unique number.<sup>1</sup>
+
+Between the characters a system stores and the text a person reads, something has to decide which shapes of a font to draw and where to put them on the page. That step is called text shaping. When a design system supports multiple languages, writing systems, and scripts, the text shaping process becomes more important.&#x20;
+
+For example, in English and many other languages that use a Latin script, Text shaping looks like it does nothing: one character comes in, one glyph goes out, placed to the right of the last one.&#x20;
+
+For many other scripts it has much more to work out. Letters change shape depending on their neighbours, marks are positioned over or under a base, pairs merge into a single form, and some vowel marks are drawn in a different order than they were typed.
+
 A tool that places glyphs without shaping them will render Arabic as disconnected letters and Devanagari with its vowel marks in the wrong place, using a font that is perfectly capable of doing better.
 
 That is why the advice throughout this glossary is to test in the real design tools and the real browser, not only to confirm that a font covers a script.
@@ -29,8 +30,7 @@ If there is a term you would like to see added, head to the [contributing page](
 
 #### The shaping step
 
-What shaping is, what does it, and which scripts need more of it than others.
-Text shaping is the parent of every other term in this section: the software that does it, another name for it, the instructions it reads from the font, and what it produces.
+What shaping is, what does it, and which scripts need more of it than others. Text shaping is the parent of every other term in this section: the software that does it, another name for it, the instructions it reads from the font, and what it produces.
 
 [**Text shaping**](../text-for-digital-products-and-the-web/text-shaping.md)
 

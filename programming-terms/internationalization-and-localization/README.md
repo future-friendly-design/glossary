@@ -1,12 +1,10 @@
 # Internationalization & localization terms
 
-## Building for more than one language
+## Internationalization and localization for multi-language support
 
-There are two halves to this job, and mixing them up is the most expensive mistake in the area.
+When your design system has to support multiple languages, the internationalization and localization programming processes make that possible. Internationalization (i18n) includes the the design and development work that prepares a product to be adapted to other languages and places. Localization (l10n) is the work happening under the hood of adapting text content to one particular language with consideration for regional differences in reading and writing.&#x20;
 
-Internationalization is the design and development work that makes a product able to be adapted to other languages and places: text pulled out of the code, layouts that survive a longer word, formats that are not hard-coded to one country's habits. Localization is the work of adapting a product to one particular language and place.
-
-The order is not negotiable. You cannot cleanly localize a product whose text is baked into its screens, and no amount of translation budget fixes a layout that assumed every label would be short.
+For example, the order a date appears in its numeric form is different between US and UK, even when the language preference for both is english.&#x20;
 
 ### Why it matters
 
@@ -22,7 +20,7 @@ Those are design decisions with visible consequences, made long before a transla
 This glossary does not cover every part of building multilingual software. If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
 {% endhint %}
 
-#### The two halves of the job
+#### The two halves of the multi-language job
 
 Preparing a product to hold any language, and then adapting it to one. Plus the technique for finding out whether the first half was actually done. Internationalization is the parent of the other terms in this section, except localization, its partner. Some are tools for the work, and the rest are things it has to plan for.
 
