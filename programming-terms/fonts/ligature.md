@@ -1,34 +1,4 @@
 ---
-term: Ligature
-slug: ligature
-aliases: []
-level: foundational
-depth: deep
-summary: >-
-  A ligature is a single glyph, a shape in a font, that stands for two or more
-  characters at once.
-related:
-  - glyph
-  - gsub
-  - opentype-features
-  - conjunct
-status: voice-passed
-version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
-contributors:
-  - sam-gordashko
-further_reading:
-  - title: font-variant-ligatures (MDN)
-    url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures
-    type: code
-  - title: Use OpenType features (Figma Learn)
-    url: >-
-      https://help.figma.com/hc/en-us/articles/4913951097367-Use-OpenType-features
-    type: design-tool
-  - title: 'Unicode Glossary: Ligature'
-    url: https://www.unicode.org/glossary/#ligature
-    type: authority
-license: CC-BY-4.0
 tags:
   - shaping-layout
 ---
@@ -41,15 +11,15 @@ A ligature is a single [glyph](../text-for-digital-products-and-the-web/glyph.md
 
 Ligatures are one of the results of [text shaping](../text-shaping-and-layout/text-shaping.md). Text shaping is the step in which software picks the right shapes from a font for a piece of text and decides where each one goes. A [shaping engine](../text-shaping-and-layout/shaping-engine.md), the software that does it, swaps the separate shapes for the single one.<sup>2</sup>
 
-Some ligatures are a style choice, while others are part of how a [script](../../language-terms/writing-systems-and-scripts/script.md) is written, and a word looks wrong without them. For example, the Arabic letters lam (ل) and alef (ا) are written together as one shape: لا.<sup>3</sup>
+Some ligatures are a style choice, while others are part of how a [script](../../language-terms/writing-systems-and-scripts/script.md) is written, and a word looks wrong without them. For example, the [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md) letters lam (ل) and alef (ا) are written together as one shape: لا.<sup>3</sup>
 
 ### Why it matters in design systems
 
-Type "fi" in many fonts and look closely. The two letters appear as one merged shape: you typed two characters, and the software displayed one glyph from the [font](../text-for-digital-products-and-the-web/font.md). That glyph is a ligature.<sup>4</sup>
+Type "fi" in many fonts and look closely. The two letters appear as one merged shape: you typed two [characters](../text-in-software/character.md), and the software displayed one glyph from the [font](../text-for-digital-products-and-the-web/font.md). That glyph is a ligature.<sup>4</sup>
 
 In English this is an improvement, not a need, and nothing breaks if the two letters are shown apart.<sup>5</sup>
 
-That is not true everywhere. The Latin script has only a few ligatures in use today, and other scripts use many.<sup>6</sup> In some of them a ligature is not an improvement. It is the correct way to write.
+That is not true everywhere. The [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) has only a few ligatures in use today, and other scripts use many.<sup>6</sup> In some of them a ligature is not an improvement. It is the correct way to write.
 
 There are three kinds you will meet most often, and the difference between them is the thing to learn:
 
@@ -59,7 +29,7 @@ There are three kinds you will meet most often, and the difference between them 
 | Standard                                       | `f` and `i` appear as one "fi" glyph                 | On            | Yes.<sup>8</sup>                                                                                            |
 | Discretionary, which means left to your choice | `c` and `t` appear as one merged "ct" glyph          | Off           | Yes. You switch it on for a special effect.<sup>9</sup>                                                     |
 
-Devanagari has ligatures too. When consonants meet with no vowel between them they can merge, so the consonants क and ष become क्ष. That merged shape is called a [conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md), a ligature of two or more consonants.<sup>10</sup>
+[Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) has ligatures too. When consonants meet with no vowel between them they can merge, so the consonants क and ष become क्ष. That merged shape is called a [conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md), a ligature of two or more consonants.<sup>10</sup>
 
 It helps to keep three levels apart:
 
