@@ -1,4 +1,32 @@
 ---
+term: GSUB
+slug: gsub
+aliases:
+  - Glyph Substitution table
+level: advanced
+depth: core
+summary: >-
+  GSUB is the part of a font file that lists which shapes to swap for other
+  shapes, and when.
+related:
+  - gpos
+  - opentype
+  - opentype-features
+  - ligature
+  - text-shaping
+status: voice-passed
+version_added: 0.1
+updated: 2026-10-13T00:00:00.000Z
+contributors:
+  - sam-gordashko
+further_reading:
+  - title: 'GSUB: Glyph Substitution Table (Microsoft)'
+    url: https://learn.microsoft.com/en-us/typography/opentype/spec/gsub
+    type: code
+  - title: Why do I need a shaping engine? (HarfBuzz)
+    url: https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html
+    type: authority
+license: CC-BY-4.0
 tags:
   - shaping-layout
 ---

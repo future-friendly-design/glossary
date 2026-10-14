@@ -1,4 +1,34 @@
 ---
+term: Ligature
+slug: ligature
+aliases: []
+level: foundational
+depth: deep
+summary: >-
+  A ligature is a single glyph, a shape in a font, that stands for two or more
+  characters at once.
+related:
+  - glyph
+  - gsub
+  - opentype-features
+  - conjunct
+status: voice-passed
+version_added: 0.1
+updated: 2026-10-13T00:00:00.000Z
+contributors:
+  - sam-gordashko
+further_reading:
+  - title: font-variant-ligatures (MDN)
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures
+    type: code
+  - title: Use OpenType features (Figma Learn)
+    url: >-
+      https://help.figma.com/hc/en-us/articles/4913951097367-Use-OpenType-features
+    type: design-tool
+  - title: 'Unicode Glossary: Ligature'
+    url: https://www.unicode.org/glossary/#ligature
+    type: authority
+license: CC-BY-4.0
 tags:
   - shaping-layout
 ---

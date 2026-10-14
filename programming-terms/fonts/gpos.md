@@ -1,4 +1,31 @@
 ---
+term: GPOS
+slug: gpos
+aliases:
+  - Glyph Positioning table
+level: advanced
+depth: core
+summary: >-
+  GPOS is the part of a font file that tells software where to place each shape
+  in relation to the shapes around it.
+related:
+  - gsub
+  - opentype
+  - opentype-features
+  - text-shaping
+status: voice-passed
+version_added: 0.1
+updated: 2026-10-13T00:00:00.000Z
+contributors:
+  - sam-gordashko
+further_reading:
+  - title: 'GPOS: Glyph Positioning Table (Microsoft)'
+    url: https://learn.microsoft.com/en-us/typography/opentype/spec/gpos
+    type: code
+  - title: Why do I need a shaping engine? (HarfBuzz)
+    url: https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html
+    type: authority
+license: CC-BY-4.0
 tags:
   - shaping-layout
 ---
