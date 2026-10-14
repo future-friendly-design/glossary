@@ -27,7 +27,7 @@ license: CC-BY-4.0
 
 A keyboard layout is the set of rules that decides which character appears when a person presses a key on a keyboard or taps one on a screen.<sup>1</sup>
 
-Keyboard layouts are one of the things [internationalization (i18n)](internationalization.md) has to plan for. Internationalization is the design and development work that makes a product able to be adapted to other languages and places.<sup>2</sup>
+Keyboard layouts are one of the things [internationalization (i18n)](internationalization.md) has to plan for.<sup>2</sup> Internationalization is the design and development work that makes a product able to be adapted to other languages and places.
 
 The layout is a setting in the software, and it is separate from the keyboard as an object. The keys can stay exactly where they are while the layout changes what they produce.<sup>3</sup>
 
@@ -69,7 +69,7 @@ The larger problem is whether a layout exists at all. For most of the world's la
 ### Sources
 
 1. Key map: "The basic mapping between hardware or on-screen positions and the output characters for each set of modifier combinations associated with a particular layout" - Unicode Technical Standard #35, version 48.2, Unicode Locale Data Markup Language (LDML) Part 7: Keyboards, Definitions [https://www.unicode.org/reports/tr35/tr35-78/tr35-keyboards.html](https://www.unicode.org/reports/tr35/tr35-78/tr35-keyboards.html)
-2. "Designing and developing in a way that removes barriers to localization or international deployment" - Localization vs. Internationalization, W3C Internationalization [https://www.w3.org/International/questions/qa-i18n](https://www.w3.org/International/questions/qa-i18n)
+2. "nor that keyboards are the same all over the world" - Internationalization Best Practices for Spec Developers, W3C Group Note, Text input [https://www.w3.org/TR/international-specs/#char_keystroke](https://www.w3.org/TR/international-specs/#char_keystroke)
 3. "While the arrangement of keys on a keyboard may be fixed, the mapping of those keys may vary" - Unicode Technical Standard #35, version 48.2, Unicode Locale Data Markup Language (LDML) Part 7: Keyboards, Definitions [https://www.unicode.org/reports/tr35/tr35-78/tr35-keyboards.html](https://www.unicode.org/reports/tr35/tr35-78/tr35-keyboards.html)
 4. "the visual appearance of the key has no bearing on its digital representation, and in many configurations may be completely inaccurate" - UI Events, W3C Working Draft, section 4.1.1 Key Legends [https://www.w3.org/TR/uievents/](https://www.w3.org/TR/uievents/)
 5. Table "Handling the "2" Key (with and without Shift pressed) on various keyboard layouts", whose rows give `2` and `@` for US, `2` and a double quotation mark for UK, and `é` and `2` for French - UI Events, W3C Working Draft, section 4.2.3 code Examples [https://www.w3.org/TR/uievents/](https://www.w3.org/TR/uievents/)

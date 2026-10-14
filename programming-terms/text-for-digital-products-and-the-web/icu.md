@@ -38,7 +38,7 @@ ICU is a widely used collection of ready-made code that products reuse to handle
 
 ICU is one of the tools of [internationalization (i18n)](internationalization.md), the design and development work that makes a product able to be adapted to other languages and places.<sup>2</sup>
 
-The letters stand for International Components for Unicode.<sup>3</sup> [Unicode](../text-in-software/unicode.md) is the standard that gives every character a number. ICU carries the Unicode name too: one of Unicode's own websites calls it Unicode's production code for four programming languages, C, C++, Java and Rust.<sup>4</sup> Developers call a collection of reusable code like this one a library.
+The name ICU stands for International Components for Unicode.<sup>3</sup> [Unicode](../text-in-software/unicode.md) is the standard that gives every character a number. ICU carries the Unicode name too: one of Unicode's own websites calls it Unicode's production code for four programming languages, C, C++, Java and Rust.<sup>4</sup> Developers call a collection of reusable code like this one a library.
 
 ### Why it matters in design systems
 
@@ -75,8 +75,8 @@ This is where ICU reaches into design. A message has to be written and translate
 ### Sources
 
 1. "ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
-2. "Typically this involves incorporating predefined localization data and features derived from existing libraries or user preferences" - Localization vs. Internationalization, W3C Internationalization [https://www.w3.org/International/questions/qa-i18n](https://www.w3.org/International/questions/qa-i18n)
-3. "libraries (such as the International Components for Unicode (ICU) libraries), to enable one single program to work with text in any language for any place in the world" - Introduction to ICU, ICU User Guide [https://unicode-org.github.io/icu/userguide/icu/](https://unicode-org.github.io/icu/userguide/icu/)
+2. "The software internationalization development process uses libraries (such as the International Components for Unicode (ICU) libraries)" - Introduction to ICU, ICU User Guide [https://unicode-org.github.io/icu/userguide/icu/](https://unicode-org.github.io/icu/userguide/icu/)
+3. Page title "ICU - International Components for Unicode" - ICU: International Components for Unicode [https://icu.unicode.org/](https://icu.unicode.org/)
 4. "Unicode’s production code for C, C++, Java, and Rust" - Unicode CLDR Project: Who uses CLDR? [https://cldr.unicode.org/](https://cldr.unicode.org/)
 5. "Format numbers, dates, times and currency amounts according the conventions of a chosen locale. This includes translating month and day names into the selected language" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)
 6. "Compare strings according to the conventions and standards of a particular language, region or country" - ICU: International Components for Unicode, What is ICU? [https://icu.unicode.org/](https://icu.unicode.org/)

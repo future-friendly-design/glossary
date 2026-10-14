@@ -33,9 +33,9 @@ tags:
 
 An input method editor (IME) is software that turns what a person types into the characters they mean, usually by offering a list of choices to pick from.<sup>1</sup>
 
-Input method editors are one of the things [internationalization (i18n)](internationalization.md) has to plan for. Internationalization is the design and development work that makes a product able to be adapted to other languages and places.<sup>2</sup>
+Input method editors are one of the things [internationalization (i18n)](internationalization.md) has to plan for.<sup>2</sup> Internationalization is the design and development work that makes a product able to be adapted to other languages and places.
 
-People use one to type Chinese, Japanese, or Korean on a keyboard of Latin letters, and in several other situations where the keys in front of them do not match the text they want to write.<sup>3</sup>
+People use an IME to type Chinese, Japanese, or Korean on a keyboard of Latin letters, and in several other situations where the keys in front of them do not match the text they want to write.<sup>3</sup>
 
 ### Why it matters in design systems
 
@@ -85,7 +85,7 @@ The fix is the same in every case: let the composition finish before the product
 ### Sources
 
 1. "An input method editor (IME), also known as a front end processor, is an application that performs the conversion between keystrokes and ideographs or other characters, usually by user-guided dictionary lookup" - UI Events, W3C Working Draft, Glossary [https://www.w3.org/TR/uievents/](https://www.w3.org/TR/uievents/)
-2. "Designing and developing in a way that removes barriers to localization or international deployment" - Localization vs. Internationalization, W3C Internationalization [https://www.w3.org/International/questions/qa-i18n](https://www.w3.org/International/questions/qa-i18n)
+2. "Many writing systems have far too many characters to fit on a keyboard and must rely on more complex input methods, which transform keystroke sequences into character sequences" - Internationalization Best Practices for Spec Developers, W3C Group Note, Text input [https://www.w3.org/TR/international-specs/#char_keystroke](https://www.w3.org/TR/international-specs/#char_keystroke)
 3. "Input method editors are used in many situations: To enter Chinese, Japanese, or Korean text using a Latin keyboard" - MDN Web Docs Glossary: Input method editor [https://developer.mozilla.org/en-US/docs/Glossary/Input_method_editor](https://developer.mozilla.org/en-US/docs/Glossary/Input_method_editor)
 4. "The following example describes a possible sequence of keys to generate the Unicode character "市" (Kanji character, part of CJK Unified Ideographs) using Japanese input methods", followed by a table of the key presses and of the text shown after each - UI Events, W3C Working Draft, section 4.3.3 Input Method Editors [https://www.w3.org/TR/uievents/](https://www.w3.org/TR/uievents/)
 5. ""詩" (poem) and "市" (city) are homophones, both pronounced し (shi/si), so the user needs to use the Convert key to select the proper option" - UI Events, W3C Working Draft, section 4.3.3 Input Method Editors [https://www.w3.org/TR/uievents/](https://www.w3.org/TR/uievents/)

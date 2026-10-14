@@ -30,9 +30,9 @@ tags:
 
 Text expansion is the growth in the space a piece of text needs when it is translated into another language.<sup>1</sup>
 
-Text expansion is one of the things [internationalization (i18n)](internationalization.md) has to plan for. Internationalization is the design and development work that makes a product able to be adapted to other languages and places.<sup>2</sup>
+Text expansion is one of the things [internationalization (i18n)](internationalization.md) has to plan for.<sup>2</sup> Internationalization is the design and development work that makes a product able to be adapted to other languages and places.
 
-The name describes the most common case, not the only one. A translation can also be shorter than the original, or taller, and each of those changes the space a design has to provide. For example, the English word "views" is "visualizzazioni" in Italian, which is three times as long,<sup>3</sup> and 조회 in Korean, which takes up less room than the English.<sup>4</sup>
+The name "text expansion" describes the most common case, not the only one. A translation can also be shorter than the original, or taller, and each of those changes the space a design has to provide. For example, the English word "views" is "visualizzazioni" in Italian, which is three times as long,<sup>3</sup> and 조회 in Korean, which takes up less room than the English.<sup>4</sup>
 
 ### Why it matters in design systems
 

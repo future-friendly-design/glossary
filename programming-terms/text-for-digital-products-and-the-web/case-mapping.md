@@ -29,7 +29,7 @@ license: CC-BY-4.0
 
 Case mapping is the process software uses to change text from one letter case to another, such as from lowercase to uppercase.<sup>1</sup>
 
-Case mapping is one of the things [internationalization (i18n)](internationalization.md) has to plan for. Internationalization is the design and development work that makes a product able to be adapted to other languages and places.<sup>2</sup>
+Case mapping is one of the things [internationalization (i18n)](internationalization.md) has to plan for.<sup>2</sup> Internationalization is the design and development work that makes a product able to be adapted to other languages and places.
 
 Letter case is the pairing of two forms of the same letter, a capital one and a small one, such as A and a.<sup>3</sup> Only some [scripts](../../language-terms/writing-systems-and-scripts/script.md) have it. Latin, Greek, Cyrillic, and Armenian do, and so do Cherokee<sup>4</sup> and Adlam.<sup>5</sup> Many scripts have no case at all, among them Arabic, Devanagari, Hangul, and Chinese characters.<sup>6</sup>
 
@@ -87,8 +87,8 @@ Changing the case of the text that is stored, on the assumption that it can be c
 
 ### Sources
 
-1. Case mapping: "The process of transforming characters to a specific case, such as UPPER, lower, or Titlecase" - Internationalization Glossary, W3C Group Note [https://www.w3.org/TR/i18n-glossary/](https://www.w3.org/TR/i18n-glossary/)
-2. "Case mapping, at first, appears simple. However there are variations that need to be considered when treating the full range of Unicode in diverse languages" - Internationalization Glossary, W3C Group Note [https://www.w3.org/TR/i18n-glossary/](https://www.w3.org/TR/i18n-glossary/)
+1. Case mapping: "The process of transforming characters to a specific case, such as UPPER, lower, or Titlecase" - Internationalization Glossary, W3C Group Note [https://www.w3.org/TR/i18n-glossary/#def_case_mapping](https://www.w3.org/TR/i18n-glossary/#def_case_mapping)
+2. "Case mapping, at first, appears simple. However there are variations that need to be considered when treating the full range of Unicode in diverse languages" - Internationalization Glossary, W3C Group Note [https://www.w3.org/TR/i18n-glossary/#def_case_mapping](https://www.w3.org/TR/i18n-glossary/#def_case_mapping)
 3. "Case is a normative property of characters in specific alphabets such as Latin, Greek, Cyrillic, Armenian, and archaic Georgian, whereby characters are considered to be variants of a single letter" - The Unicode Standard, Version 18.0, Chapter 5, section 5.18 Case Mappings [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/)
 4. "Starting with Version 8.0, the Unicode Standard includes a set of lowercase Cherokee syllables to accommodate the need to represent casing distinctions in Cherokee text" - The Unicode Standard, Version 18.0, Chapter 20, section 20.1 Cherokee [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-20/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-20/)
 5. "Adlam is a casing script with right-to-left directionality" - The Unicode Standard, Version 18.0, Chapter 19, section 19.9 Adlam [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-19/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-19/)

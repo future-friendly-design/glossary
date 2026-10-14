@@ -27,7 +27,8 @@ This glossary does not cover every part of building multilingual software. If th
 
 #### The two halves of the job
 
-Preparing a product to hold any language, and then adapting it to one. Plus the technique for finding out whether the first half was actually done. Internationalization is the parent of every other term in this section: each one is something a product has to be ready for before it can be adapted.
+Preparing a product to hold any language, and then adapting it to one. Plus the technique for finding out whether the first half was actually done.
+Internationalization is the parent of the other terms in this section, except localization, its partner. Some are tools for the work, and the rest are things it has to plan for.
 
 [**Internationalization (i18n)**](../text-for-digital-products-and-the-web/internationalization.md)
 

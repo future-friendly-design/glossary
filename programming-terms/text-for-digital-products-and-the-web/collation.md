@@ -27,7 +27,7 @@ license: CC-BY-4.0
 
 Collation is the set of rules that software follows to put text in order, for example when it sorts a list of names.<sup>1</sup>
 
-Collation is one of the things [internationalization (i18n)](internationalization.md) has to plan for. Internationalization is the design and development work that makes a product able to be adapted to other languages and places.<sup>2</sup>
+Collation is one of the things [internationalization (i18n)](internationalization.md) has to plan for.<sup>2</sup> Internationalization is the design and development work that makes a product able to be adapted to other languages and places.
 
 Alphabetical order is one kind of collation. It is the kind used by languages written with an [alphabet](../../language-terms/writing-systems-and-scripts/alphabet.md), and even those languages do not agree with each other about it.
 
