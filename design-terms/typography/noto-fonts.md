@@ -61,8 +61,6 @@ Noto has limits, and three of them matter when you choose it.
 
 **Covering a script is not the same as being the typeface its readers prefer.** A [typeface](typeface.md) is the design of a set of shapes, and many scripts have long traditions with several styles of their own. Noto is designed to look consistent across scripts.<sup>9</sup> Readers of each language review the designs,<sup>10</sup> and Google makes the final decisions. A community may read more comfortably in a typeface made by its own designers, or may expect a style Noto does not offer. Ask people who read the script before you settle on it.
 
-<!-- NEEDS EXPERT REVIEW: which communities prefer other typefaces over the Noto family for their script is a question for readers of each script. This entry does not name any. -->
-
 **The goal is not finished.** The project intends to support every script in Unicode, and that takes time.<sup>11</sup> Unicode keeps growing, and version 18.0 alone added three scripts,<sup>12</sup> so a newly added script may not have a Noto family yet. Check that the family for your script exists and holds the characters your languages need. This is its [font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md).
 
 **Having every character is not the same as showing the text correctly.** Many scripts need their shapes connected, stacked or moved, and that depends on instructions inside the font<sup>13</sup> and on the software following them.<sup>14</sup> The project keeps a public list of reported problems in its fonts.<sup>15</sup> Test a real word in each script you ship, and have someone who reads it check the result.

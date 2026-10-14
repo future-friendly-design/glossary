@@ -49,8 +49,6 @@ Here is one number, 123456.789, shown for three locales:
 | `en-IN`   | English, India       | `1,23,456.789`<sup>11</sup> |
 | `ar-EG`   | Arabic, Egypt        | `١٢٣٬٤٥٦٫٧٨٩`<sup>12</sup>  |
 
-<!-- The three outputs were produced with Intl.NumberFormat (Node 26.9, ICU 78.3, CLDR 48) on 2026-10-13. The ar-EG string includes U+066C ARABIC THOUSANDS SEPARATOR; the comment on the MDN page still shows an older output without it. -->
-
 The German row uses a period to group the digits and a comma before the decimals. The Indian row uses the comma and the period the other way round, keeps the last three digits together, and groups the rest in twos. The Egyptian row uses the digits of the [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md), with separators of their own. No word was translated in any of the three, and that is the first thing a locale teaches: adapting a product for a place, which is called [localization](localization.md), is a good deal more than translating it.
 
 A locale stands for more than a language. The two date readers at the top of this page share a language, and what differs between them is the place. The locale covers both. Sometimes even language and place together are not enough: German has one sort order for dictionaries and another for phone books, and a German reader may want either.<sup>13</sup> So think of a locale as pointing to a bundle of separate preferences that usually travel together, and not to a single fact about a person.

@@ -59,7 +59,7 @@ If you add GitBook custom blocks (hints, tabs, cards, content-refs, includes) or
 ## Accuracy and honesty
 - Verify every fact and URL against a primary source before adding it.
   Prefer Unicode, W3C, MDN, type foundries, and recognized references over aggregators.
-- If something is uncertain or data-sensitive (speaker counts, endangerment status, contested classifications), state the concept plainly and flag it with an `<!-- NEEDS EXPERT REVIEW: ... -->` comment rather than asserting a shaky fact.
+- If something is uncertain or data-sensitive (speaker counts, endangerment status, contested classifications), state the concept plainly and flag it in the tracker's Flags field rather than asserting a shaky fact. Do not put `<!-- ... -->` comments in entries: GitBook drops them when a page is saved, and internal notes stay out of published pages.
 - Do not attribute a characterization to a named authority unless you have seen that authority say it.
   Otherwise state the property plainly and flag it.
 - This is a v0.1 draft under expert review.

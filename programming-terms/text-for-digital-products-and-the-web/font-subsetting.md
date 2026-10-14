@@ -57,8 +57,6 @@ Both ways carry the same two risks, and neither risk produces an error message.
 
 **The second risk is losing the instructions.** Many scripts need more than one shape per character. In Arabic script, the letters kāf ك, tāʾ ت and bāʾ ب connect when they form the word كتب, and the font holds the instructions that make them connect. A subsetting tool has settings for which of these instructions are kept and which are dropped.<sup>6</sup> Slicing has its own version of the problem, because instructions that link a character in one slice to a character in another can be lost.<sup>7</sup> A working group at W3C, the body that sets web standards, studied slicing and gives an example from the scripts of India. When one font covers two of those scripts and is sliced by script, the characters the two scripts share are taken from only one slice, and the text becomes unreadable.<sup>8</sup> Every character still appears. The word is wrong.
 
-<!-- NEEDS EXPERT REVIEW: the two risks are sourced to a W3C Working Group Note from 2020 (sources 2 and 8) and to the Incremental Font Transfer draft (source 7), not to a Recommendation. A font engineer should confirm they still describe how hosted font services slice fonts today. -->
-
 Both failures are invisible to the team that caused them, because the team's own text was on the list. So the questions are worth asking before the font is shipped:
 
 * **What was the subset built from?** It should be built from the scripts and languages the product supports, including text people type in. It should never be built from the words that happen to be in the product today.

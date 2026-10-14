@@ -64,8 +64,6 @@ When a design asks for a weight that has no file, software does not stop. It use
 
 This is where products in more than one [script](../../language-terms/writing-systems-and-scripts/script.md) run into trouble. Software chooses a font for each character,<sup>11</sup> so text in each script is usually drawn from a different font, and each of those fonts comes in its own set of weights. Families with only a few weights are common.<sup>12</sup> A weight scale designed around a family with nine weights can land, in the next script over, on a font that has two.
 
-<!-- NEEDS EXPERT REVIEW: the brief asserts that many typefaces for non-Latin scripts ship in fewer weights than Latin families. No primary source read for this pass states that as a comparison between scripts; the body only claims that few-weight families are common (CSS Fonts 3) and that each font in a stack has its own weights. Strengthen only with a source. -->
-
 Here are four weight [tokens](../design-token.md) meeting two fonts in the same product, in a browser:
 
 | Token | Number asked for | Font with 400, 500, 600 and 700 | Font with 400 and 700 only |

@@ -78,8 +78,6 @@ Treating ligatures as one switch. A type guideline that says "ligatures off" is 
 * **Expect letter spacing to remove them.** When [letter spacing](../../design-terms/typography/letter-spacing.md) is anything other than zero, the CSS rules tell browsers not to use optional ligatures, because a merged pair cannot be spaced evenly with the letters around it.<sup>19</sup> So a heading set with wide letter spacing loses its "fi" ligature, and that is the intended result. Required ligatures are kept.
 * **Test required ligatures with a real word.** Put a word that contains lam and alef into each tool and each font your team uses, and you should see the one merged shape: لا. If you see anything else, either the font lacks the ligature or the tool is not shaping the text. Ask someone who reads the script to check, because a missing ligature is easy to overlook when you do not.
 
-<!-- NEEDS EXPERT REVIEW: Figma's page lists "Ligatures" and "Rare Ligatures" but does not say which OpenType features they switch. They probably match the standard and discretionary kinds; confirm in Figma before saying so. -->
-
 ***
 
 ### Related terms and mentions

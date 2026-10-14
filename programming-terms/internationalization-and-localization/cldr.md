@@ -30,8 +30,6 @@ The letters stand for Common Locale Data Repository in the project's specificati
 
 CLDR sits beside [Unicode](../text-in-software/unicode.md), the standard that gives every [character](../text-in-software/character.md) a number. Unicode covers the characters themselves, and CLDR covers the languages that use them and how each language differs from one place to another.<sup>5</sup>
 
-<!-- NEEDS EXPERT REVIEW: the expansion of the name is in transition. cldr.unicode.org (fetched 2026-10-13) says "Common Locale Data & Rules" and titles the specification "UTS #35: Unicode Common Locale Data & Rules (CLDR)"; the released UTS #35 v48.2 and the proposed v49 draft (tr35-79, 2026-09-24) both still say "Common Locale Data Repository", as do icu.unicode.org and the W3C Internationalization Glossary. Re-check when CLDR 49 is released. -->
-
 ### Why it matters in design systems
 
 Look at a list of files on a phone. Each file has a date beside it, a size, and a place in alphabetical order.<sup>6</sup> Change the phone's language and all three change. The people who built the file list probably worked out none of it themselves, because all three are usually supplied by CLDR.<sup>7</sup>
@@ -55,8 +53,6 @@ CLDR is data, and data does nothing by itself. Software has to read it and apply
 The data is written by people. Speakers of each language enter and check it through a website called the Survey Tool.<sup>15</sup> The tool is usually open once a year.<sup>16</sup> Members of the public are invited to take part, and that includes proposing data for a language that is not in CLDR yet.<sup>17</sup> Anyone can look at the data for a language without an account, and an account is needed only to propose a change.<sup>18</sup> A native speaker of a language other than American English who does not belong to a member organization can get a guest account.<sup>19</sup>
 
 For a language community this is one of the most direct routes into everyday software. A convention entered once in CLDR can reach every product that reads it. A language that is not there yet gets none of this for free, and each product has to supply the formats itself or go without.
-
-<!-- NEEDS EXPERT REVIEW: the last sentence above is an inference from how CLDR is used, not a statement read in a primary source. Confirm the wording with someone who has shipped a product in a language absent from CLDR. -->
 
 For design work, two habits follow. When a date, a number or a plural looks wrong in one language, the fault may not be in your product at all. Check which locale the software was given, then check the data, because an error in CLDR can be reported and fixed for everyone.<sup>20</sup> And do not treat a formatted date or number as fixed text in a design or a test. The data is revised on a regular schedule, with two rounds a year,<sup>21</sup> so the exact output can change underneath a product that has not changed at all.
 

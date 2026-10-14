@@ -47,8 +47,6 @@ A full-width comma `，` (U+FF0C), used in Chinese text, takes up the same squar
 
 Treating the Halfwidth and Fullwidth Forms block as the normal way to set width in Chinese, Japanese, and Korean text. Those characters exist largely for compatibility with the older character lists; using them as content can break search and matching, because a full-width `A` (U+FF21) is a different character, with a different number, from a regular `A` (U+0041). The two widths are a relationship between a pair of characters rather than a property either one carries on its own.<sup>7</sup> [Normalization](normalization.md) in its NFKC form folds the two together, which is something to account for in search, deduplication, and input handling.
 
-<!-- NEEDS EXPERT REVIEW: confirm the recommended handling of NFKC folding for full-width forms in search and deduplication. -->
-
 ### In practice
 
 * **CSS and OpenType:** `font-variant-east-asian: full-width` (OpenType `fwid`) selects full-width forms at the rendering layer, keeping the underlying text as ordinary [code points](code-point.md). See [font-variant-east-asian (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-east-asian).
