@@ -41,6 +41,8 @@ Tofu is what you see when every [font](font.md) available, the files that hold t
 
 For example, the Amharic greeting ሰላም ("selam", "peace") is written with three characters of [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). On a device with no font for Ethiopic, the same word looks like this: □□□.
 
+<figure><img src="../../.gitbook/assets/tofu-selam.png" alt="The Amharic word ሰላም shown twice. On the left, in Kefa, a font with Ethiopic shapes, the three characters appear correctly. On the right, in Arial, a Latin-script font with no Ethiopic shapes, each character appears as an empty rectangle: tofu."><figcaption><p>The same three characters, ሰላም, in a font that has Ethiopic shapes and in one that has none.</p></figcaption></figure>
+
 ### Why it matters in design systems
 
 A row of small empty rectangles where words should be is easy to dismiss as a glitch. For the person reading, it is their name, their message or their language that has been replaced by boxes, and they cannot read any of it.

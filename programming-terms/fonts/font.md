@@ -42,6 +42,8 @@ A font is a file that holds the shapes software uses to show text.<sup>1</sup>
 
 Each shape in a font is called a [glyph](glyph.md): it is the [typeface](typeface.md)'s design for a [character](../text-in-software/character.md) of text. The font file also holds instructions that a [shaping engine](../text-shaping-and-layout/shaping-engine.md) reads to choose and place those shapes, usually in a format called [OpenType](opentype.md). The set of characters a font has glyphs for is called its [font coverage](font-coverage.md). When the text needs a character the font has no glyph for, software uses a [fallback font](fallback-font.md) or shows an empty box called [tofu](tofu.md).&#x20;
 
+<figure><img src="../../.gitbook/assets/tofu-selam.png" alt="The Amharic word ሰላም shown twice. On the left, in Kefa, a font with Ethiopic shapes, the three characters appear correctly. On the right, in Arial, a Latin-script font with no Ethiopic shapes, each character appears as an empty rectangle: tofu."><figcaption><p>ሰላም in a font that has Ethiopic shapes, and in one that has none: the empty boxes are tofu.</p></figcaption></figure>
+
 Alongside the glyphs, the font file holds a list called the character map. [Unicode](../text-in-software/unicode.md) gives every character a number, and the character map says which glyph in the font goes with each number.<sup>2</sup> Software reads that list every time it shows a word.<sup>3</sup>&#x20;
 
 ### Why it matters in design systems
