@@ -15,7 +15,7 @@ related:
   - typeface
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -61,7 +61,7 @@ In software, weight is written as a number. The usual scale runs from 100 to 900
 
 The names are habits, not rules, and the match between a name and a number is only rough. The scale is also relative: inside one family a bigger number never looks lighter,<sup>8</sup> but nothing promises that 500 in one family is as dark as 500 in another.
 
-A weight is not a setting that software can apply to any text. It belongs to a font, the file that holds the shapes software uses to show text, and each font file records the weight of the shapes it holds.<sup>9</sup> A weight is available only when a file with that weight has been loaded.
+A weight is not a setting that software can apply to any text. Each font file records the weight of the shapes it holds.<sup>9</sup> A weight is available only when a file with that weight has been loaded.
 
 When a design asks for a weight that has no file, software does not stop. It uses a nearby weight.<sup>10</sup> In a browser the rule has a direction. A request above 500 looks at heavier files first, so semibold (600) in a family that has only regular and bold comes out bold.<sup>11</sup> A request for 500 tries 400 first, so medium comes out regular.<sup>12</sup> And when a family has no bold at all, a browser will often make one by thickening the regular shapes, which is called [faux bold](faux-bold.md).<sup>13</sup>
 
@@ -80,7 +80,11 @@ Four levels of emphasis in one script have become two in the other, and nobody c
 
 A [variable font](variable-font.md) works differently, because one file holds a range of weights and any number inside the range can be used, not only the hundreds.<sup>16</sup>
 
-For a design system this means three habits. Store weight tokens as numbers, because the names change from family to family. Your font list is the ordered list of fonts your product names. For every font on it, in every script, write down which weights really exist. Then decide on purpose what medium and semibold should become where they do not exist. If a faked bold is not acceptable, say so in code: CSS, the code that styles web pages, has a property called `font-synthesis` that tells a browser whether it may make one.<sup>17</sup>
+For a design system this means three habits:
+
+* **Store weight tokens as numbers.** The names change from family to family, and the numbers do not.
+* **Write down which weights really exist.** Your font list is the ordered list of fonts your product names. For every font on it, in every script, record the weights it has.
+* **Decide what medium and semibold become where they do not exist.** If a faked bold is not acceptable, say so in code. The CSS property `font-synthesis` tells a browser whether it may make one.<sup>17</sup>
 
 ### Also called
 

@@ -40,31 +40,31 @@ tags:
 
 A font is a file that holds the shapes software uses to show text.<sup>1</sup>
 
-Each shape in a font is called a [glyph](glyph.md): it is the [typeface](typeface.md)'s design for a [character](../text-in-software/character.md) of text. The font file also holds instructions that a [shaping engine](../text-shaping-and-layout/shaping-engine.md) reads to choose and place those shapes, usually in a format called [OpenType](opentype.md). The set of characters a font has glyphs for is called its [font coverage](font-coverage.md). When the text needs a character the font has no glyph for, software uses a [fallback font](fallback-font.md) or shows an empty box called [tofu](tofu.md).&#x20;
+Each shape in a font is called a [glyph](glyph.md): it is the [typeface](typeface.md)'s design for a [character](../text-in-software/character.md) of text. The font file also holds instructions that a [shaping engine](../text-shaping-and-layout/shaping-engine.md) reads to choose and place those shapes, usually in a format called [OpenType](opentype.md). The set of characters a font has glyphs for is called its [font coverage](font-coverage.md). When the text needs a character the font has no glyph for, software uses a [fallback font](fallback-font.md) or shows an empty box called [tofu](tofu.md).
 
 <figure><img src="../../.gitbook/assets/tofu-selam.png" alt="The Amharic word ሰላም shown twice: correctly on the left, and as three empty rectangles on the right."><figcaption><p>Left: the Amharic word ሰላም in Kefa, a font that has Ethiopic shapes. Right: the same three characters in Arial, a Latin-script font that has none, so each one appears as an empty box: tofu.</p></figcaption></figure>
 
-Alongside the glyphs, the font file holds a list called the character map. [Unicode](../text-in-software/unicode.md) gives every character a number, and the character map says which glyph in the font goes with each number.<sup>2</sup> Software reads that list every time it shows a word.<sup>3</sup>&#x20;
+Alongside the glyphs, the font file holds a list called the character map. [Unicode](../text-in-software/unicode.md) gives every character a number, and the character map says which glyph in the font goes with each number.<sup>2</sup> Software reads that list every time it shows a word.<sup>3</sup>
 
 ### Why it matters in design systems
 
 A font is not the same thing as a typeface. The typeface is the design of each glyph which provides the visual identity to written content in a design system. The font is the file that delivers the typeface to a screen or a printer.<sup>4</sup> A font licence is permission to use specific font files under specific conditions, so licences are written about fonts, not typefaces.<sup>5</sup>
 
-It's important to remember that each language has different requirements for the symbols and marks its [writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) needs, even when two languages share the same script! Vietnamese and English both use the Latin script, but Vietnamese also needs tone marks placed on top of other marks.<sup>6</sup>&#x20;
+It's important to remember that each language has different requirements for the symbols and marks its [writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) needs, even when two languages share the same script! Vietnamese and English both use the Latin script, but Vietnamese also needs tone marks placed on top of other marks.<sup>6</sup>
 
 Fun fact: a single font file can hold at most 65,535 shapes,<sup>7</sup> and Unicode, the standard list of the world's characters, holds 172,808 of them as of version 18.0.<sup>8</sup>
 
-So it's important to check that the font you are using supports all the languages required by your system, and you define fallback fonts as needed.&#x20;
+So it's important to check that the font you are using supports all the languages required by your system, and you define fallback fonts as needed.
 
-Fonts are usually organized into families of files, where each file holds one [font weight](font-weight.md) (like regular or bold) or one style (like italic).<sup>9</sup> This is important to remember in design systems because each font file has to be loaded by the product and they are often licenced and priced independently.&#x20;
+Fonts are usually organized into families of files, where each file holds one [font weight](font-weight.md) (like regular or bold) or one style (like italic).<sup>9</sup> This is important to remember in design systems because each font file has to be loaded by the product and they are often licenced and priced independently.
 
-&#x20;A [variable font](variable-font.md) is the exception, a single file that holds a range of styles.&#x20;
+A [variable font](variable-font.md) is the exception, a single file that holds a range of styles.
 
 
 
 ### Common mistake
 
-**Leaving out the bold or italic file.** When a design asks for a weight or style that the product never loaded, the browser fakes it: it thickens the regular shapes, which is called [faux bold](faux-bold.md),<sup>10</sup> or slants them, which is called [faux italic](faux-italic.md).<sup>11</sup> The fake looks rougher than the real font, and in some scripts it can make the text harder to read.<sup>12</sup> Load a file for every weight and style the design uses.
+**Leaving out the bold or italic file.** When a design asks for a weight or style that the product never loaded, the browser fakes it. It thickens the regular shapes, which is called [faux bold](faux-bold.md),<sup>10</sup> or slants them, which is called [faux italic](faux-italic.md).<sup>11</sup> The fake looks rougher than the real font, and in some scripts it can make the text harder to read.<sup>12</sup> Load a file for every weight and style the design uses.
 
 ### In practice
 

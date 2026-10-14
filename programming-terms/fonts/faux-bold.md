@@ -15,7 +15,7 @@ related:
   - variable-font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -37,9 +37,9 @@ tags:
 
 Faux bold is an imitation of bold text that software makes by thickening the shapes of a regular font, because it has no bold font to use.<sup>1</sup>
 
-Faux bold is what you see when a family of [fonts](font.md), the files that hold the shapes software uses to show text, falls short: it has no bold font.<sup>2</sup>
+Faux bold is what you see when a family of [fonts](font.md), the files that hold the shapes software uses to show text, falls short and has no bold font.<sup>2</sup>
 
-"Faux" is French for false, and the same thing is called fake bold or synthetic bold. A real bold is a separate font that a type designer drew. Faux bold is not drawn by anyone: the software takes each regular shape and adds a thin extra outline around it.<sup>3</sup> Its partner, [faux italic](faux-italic.md), is made by leaning the shapes over instead of thickening them.
+"Faux" is French for false, and the same thing is called fake bold or synthetic bold. A real bold is a separate font that a type designer drew. Faux bold is not drawn by anyone. The software takes each regular shape and adds a thin extra outline around it.<sup>3</sup> Its partner, [faux italic](faux-italic.md), is made by leaning the shapes over instead of thickening them.
 
 ### Why it matters in design systems
 
@@ -51,13 +51,13 @@ Press the bold button and the text gets heavier. It feels like one action with o
 | Bold                           | Only the regular font          | Faux bold: the regular shapes, thickened by the software<sup>4</sup> |
 | Bold, with faking switched off | Only the regular font          | The regular font, with no bold at all<sup>5</sup>                    |
 
-The second row is the one nobody chooses. Nothing announces it, and at a glance the text does look bolder. The web's font specification calls it a fallback, better than nothing but below the quality of a font designed for the purpose.<sup>6</sup> A fallback is what software uses when the thing it wanted is missing.
+The second row is the one nobody chooses. Nothing announces it, and at a glance the text does look bolder. The web's font specification calls it a fallback, better than nothing but below the quality of a font designed for the purpose.<sup>6</sup> It works like a [fallback font](fallback-font.md), something software uses when the thing it wanted is missing.
 
-In English text the cost is appearance: the faked bold looks heavier and rougher than a drawn one. In other scripts the cost can be the text itself. A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write one or more languages, and bold does not suit every script's shapes equally. Japanese authors may avoid both bold and italic, because characters such as 漢字 are too complicated to look good at small sizes with those effects.<sup>7</sup>
+In English text the cost is appearance. The faked bold looks heavier and rougher than a drawn one. In other scripts the cost can be the text itself. A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write one or more languages, and bold does not suit every script's shapes equally. Japanese authors may avoid both bold and italic, because characters such as 漢字 are too complicated to look good at small sizes with those effects.<sup>7</sup>
 
 That points at an assumption worth noticing. Bold as the way to mark something important is a habit of some writing traditions, and it is not the preferred one everywhere.<sup>8</sup> East Asian documents traditionally mark emphasis with small dots or other symbols placed beside each character.<sup>9</sup>
 
-A design system usually writes this assumption down without meaning to. A [token](../../design-terms/design-token.md) called "strong" with the value "bold" says two things at once: that every font the product uses has a bold, and that bold is how every script shows importance. A token is a named design decision that tools and code share. For a product in one language with one font family, both may be true. For a product in several scripts, check the first and ask the second. Name the token for what it means, such as strong or emphasis, and let its value differ by script: a real bold where the font family has one and the script uses it, and a different treatment where it does not.
+A design system usually writes this assumption down without meaning to. A [token](../../design-terms/design-token.md) called "strong" with the value "bold" says two things at once: that every font the product uses has a bold, and that bold is how every script shows importance. A token is a named design decision that tools and code share. For a product in one language with one font family, both may be true. For a product in several scripts, check the first and ask the second. Name the token for what it means, such as strong or emphasis, and let its value differ by script. Use a real bold where the font family has one and the script uses it, and a different treatment where it does not.
 
 ### Common mistake
 

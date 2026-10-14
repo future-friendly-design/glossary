@@ -16,7 +16,7 @@ related:
   - variable-font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13T00:00:00.000Z
+updated: 2026-10-14
 contributors:
   - sam-gordashko
 further_reading:
@@ -38,7 +38,7 @@ tags:
 
 Faux italic is an imitation of italic text that software makes by slanting the shapes of a regular font, because it has no italic font to use.<sup>1</sup>
 
-Faux italic is what you see when a family of [fonts](font.md), the files that hold the shapes software uses to show text, falls short: it has no italic font.<sup>2</sup>
+Faux italic is what you see when a family of [fonts](font.md), the files that hold the shapes software uses to show text, falls short and has no italic font.<sup>2</sup>
 
 "Faux" is French for false, and the same thing is called fake italic or synthetic oblique. The software leans each upright shape to one side, and no type designer is involved.<sup>3</sup> Its partner, [faux bold](faux-bold.md), is made by thickening the shapes instead of leaning them.
 
@@ -63,7 +63,7 @@ A design system usually writes the English habit down as a rule. A [token](../..
 
 ### Common mistake
 
-Thinking italic and slanted are the same thing. Type has two words for leaning text. Italic is the redrawn, handwriting-like style, and oblique is the regular shapes sloped.<sup>16</sup> A faux italic is always an oblique, whatever the menu calls it. This matters when choosing a typeface, the design that a family of fonts shares: some families have a real italic, some have a drawn oblique, and some have neither. A browser, and some design tools, will still show an "italic" for a family with neither, made by the software, and nothing on screen says so. Check the list of font files, not the preview.
+Thinking italic and slanted are the same thing. Type has two words for leaning text. Italic is the redrawn, handwriting-like style, and oblique is the regular shapes sloped.<sup>16</sup> A faux italic is always an oblique, whatever the menu calls it. This matters when choosing a [typeface](typeface.md). Some families have a real italic, some have a drawn oblique, and some have neither. A browser, and some design tools, will still show an "italic" for a family with neither, made by the software, and nothing on screen says so. Check the list of font files, not the preview.
 
 ### In practice
 
