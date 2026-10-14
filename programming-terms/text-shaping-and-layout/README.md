@@ -1,4 +1,4 @@
-# Text shaping & layout
+# Text shaping & layout terms
 
 ## Text shaping and layout make text display correctly
 
@@ -63,6 +63,30 @@ A ligature is a single glyph, a shape in a font, that stands for two or more cha
 [**Reordering**](../text-for-digital-products-and-the-web/reordering.md)
 
 Reordering is a step in drawing text in which software draws some symbols in a different order from the order they are stored in.
+
+#### Laying out the lines
+
+Once the shapes are chosen, software still has to fit them into the space they have: which way each line runs, where a line may break, and what happens when the text does not fit. These terms live in other sections, because each one belongs with its own family, but they are the layout half of this section's job.
+
+[**Bidirectional text**](../../language-terms/writing-systems-and-scripts/bidirectional-text.md)
+
+Bidirectional text refers to both left-to-right (LTR) and right-to-left (RTL) text appearing in the same line.
+
+[**Segmentation**](../text-in-software/segmentation.md)
+
+Segmentation is the process of dividing text into meaningful units such as characters, words, or sentences.
+
+[**Text direction**](../../language-terms/writing-systems-and-scripts/text-direction.md)
+
+Text direction is a script rule that defines the intended direction of reading and writing the symbols in the script, such as left to right, right to left, or top to bottom.
+
+[**Truncation**](../internationalization-and-localization/truncation.md)
+
+Truncation is cutting text short so it fits the space it is given, usually with an ellipsis (…) to show that some of it is hidden.
+
+[**Vertical text**](../../terms/vertical-text.md)
+
+Vertical text refers to the text direction script rule that defines reading and writing the script in columns running from top to bottom.
 
 ### Where to go next
 

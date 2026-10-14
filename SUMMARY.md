@@ -136,7 +136,7 @@
   * [Pseudolocalization](programming-terms/internationalization-and-localization/pseudolocalization.md)
   * [Text expansion](programming-terms/internationalization-and-localization/text-expansion.md)
   * [Truncation](programming-terms/internationalization-and-localization/truncation.md)
-* [Text shaping & layout](programming-terms/text-shaping-and-layout/README.md)
+* [Text shaping & layout terms](programming-terms/text-shaping-and-layout/README.md)
 * [Text for digital products & the web](programming-terms/text-for-digital-products-and-the-web/README.md)
   * [Reordering](programming-terms/text-for-digital-products-and-the-web/reordering.md)
   * [Complex text layout](programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md)

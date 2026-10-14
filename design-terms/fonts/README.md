@@ -73,6 +73,6 @@ What you load costs bandwidth, and what you fail to load gets faked by the brows
 
 ### Where to go next
 
-* Having the right font is necessary but not sufficient: see [Text shaping & layout](../../programming-terms/text-shaping-and-layout/) for the step that puts the glyphs in the right places.
+* Having the right font is necessary but not sufficient: see [Text shaping & layout terms](../../programming-terms/text-shaping-and-layout/) for the step that puts the glyphs in the right places.
 * How type is sized and spaced once the font is chosen is covered in [Typography](../typography/).
 * What the scripts a font must cover actually require is covered in [Writing systems & scripts](../../language-terms/writing-systems-and-scripts/).
