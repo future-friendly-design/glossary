@@ -40,34 +40,33 @@ tags:
 
 A font is a file that holds the shapes software uses to show text.<sup>1</sup>
 
-Each shape in a font is called a [glyph](glyph.md). The file also holds instructions for choosing and placing those shapes, usually in a format called [OpenType](opentype.md). What a font covers is its [font coverage](font-coverage.md), and when it falls short, software uses a [fallback font](fallback-font.md) or shows an empty box called [tofu](tofu.md). A font carries the design of a [typeface](typeface.md), and [text shaping](../text-shaping-and-layout/text-shaping.md) is the step that reads it.
+Each [character](../text-in-software/character.md) of text has a unique shape defined by its [typeface](typeface.md), known as a [glyph](glyph.md). The font file also holds instructions used by the [shaping engine](../text-shaping-and-layout/shaping-engine.md) in programming processes for choosing and placing those shapes, usually in a format called [OpenType](opentype.md). Which specific glyphs a font covers is it known as [font coverage](font-coverage.md). When the text content needs to display a glyph not included in the font coverage, the system uses a [fallback font](fallback-font.md) or shows an empty box called [tofu](tofu.md).&#x20;
 
-Alongside the shapes, the file holds a list that says which shape belongs to which character, and software reads that list every time it shows a word.<sup>2</sup> A font is not the same thing as a typeface. The typeface is the design, the way the type looks, and the font is the file that delivers that design to a screen or a printer.<sup>3</sup>
+Alongside the shapes/glphs, the font file holds a list that says which glph belongs to which character of text, and software reads that list every time it shows a word.<sup>2</sup>&#x20;
 
 ### Why it matters in design systems
 
-Choosing a font from a menu feels like choosing a look. What you are really choosing is a file, and a file only has what somebody put into it.
+A font is not the same thing as a typeface. The typeface is the design of each glyph which provides the visual identity to written content in a design system. The font is the file is part of the system that delivers the typeface to a screen or a printer.<sup>3</sup>
 
-The first limit is the one that matters most in a product with more than one language. A font holds shapes for the characters its makers drew, and for no others. Drawing a [script](../../language-terms/writing-systems-and-scripts/script.md) well takes real knowledge of how that script is written and read, so extending a design to more scripts is difficult, skilled work,<sup>4</sup> and a font may hold shapes for one script only.<sup>5</sup> Here is what a font with only Latin shapes has to offer four short pieces of text:
+It's important to remember that each languages has different requirements for the symbols and marks needed to support its writing system, even if they share the same script!&#x20;
 
-| Text                                     | Script     | Does this font hold the shapes? |
-| ---------------------------------------- | ---------- | ------------------------------- |
-| Hello                                    | Latin      | Yes                             |
-| selam: ሰላም ("peace", a greeting)         | Ethiopic   | No                              |
-| marhaba: مرحبا ("hello")                 | Arabic     | No                              |
-| Hindi: हिन्दी (the name of the language) | Devanagari | No                              |
+Fun fact: a single font file can hold at most 65,535 shapes,<sup>8</sup> and [Unicode](../text-in-software/unicode.md), the standard list of the world's characters, holds 172,808 of them as of version 18.0.<sup>9</sup> \
+\
+So it's important to check that the font you are using supports all the languages required by your system, and you define fallback fonts as needed.&#x20;
 
-Software works through text one character at a time. For each character it looks for a font that holds a shape, starting with the font the design asked for and moving down a list.<sup>6</sup> A font it finds further down that list is called a fallback font. If no font on the device holds a shape, the reader sees a placeholder, usually an empty box, which has the nickname tofu.<sup>7</sup> So the fonts a design system names decide which languages appear in the design you intended, which appear in something else, and which do not appear at all. The set of characters a font can be used for is called its font coverage.
+Fonts are usually organized into clusters of files, where each set of glphs has a unique shape defined by a font weight (like bold or regular), or style (like italic). This is important to remember in design systems because each font file has to be loaded by the system and they are often licenced and priced independently.&#x20;
 
-No single font removes the problem. One font can hold at most 65,535 shapes,<sup>8</sup> and [Unicode](../text-in-software/unicode.md), the standard list of the world's characters, holds 172,808 of them as of version 18.0.<sup>9</sup> So one font cannot give every character a shape of its own. A product that has to show every script needs several fonts working together.
+&#x20;A [variable font](variable-font.md) is the exception, a single file that holds a range of styles.&#x20;
 
-The second limit is style. An ordinary font file holds one style of a typeface: the regular, or the bold, or the italic, each in a file of its own.<sup>10</sup> Every one of those files has to be licensed, loaded and kept up to date. A [variable font](variable-font.md) is the exception, a single file that holds a range of styles. When a design asks for a style that has no file, such as a bold that was never loaded, a browser will often thicken the regular shapes instead, and the result is called [faux bold](faux-bold.md).<sup>11</sup>
 
-In conversation, "font" and "typeface" are often used as if they meant the same thing.<sup>12</sup> The difference starts to matter when a decision is about files and not about looks. A licence is permission to use font software, so it is written about fonts.<sup>13</sup> A page downloads fonts. A [token](../../design-terms/design-token.md) that says "our brand type" names a typeface, and somebody still has to decide which font files that name stands for, in which weights and for which scripts. Code for the web uses different words again: CSS, the styling language of the web, calls the whole group a font family and one style inside it a font face.<sup>14</sup>
 
-### Common mistake
+### Common mistakes
 
-Believing the screen. Text appears, so it looks as though the chosen font is working. But when the chosen font holds no shape for a character, software quietly takes the shape from another font, and because it does this character by character, a single line can end up shown in two or three fonts that were never designed to sit together. No error appears, because to the software nothing went wrong. The mismatch is easy to miss in a script you do not read and obvious to anyone who does. The question to ask is which font the text was shown in, not whether text appeared, and the inspection tools built into a web browser, called its developer tools, can answer it for any piece of text on a page.<sup>15</sup>
+When a design asks for a style that has no file, such as a bold font weight that was not included in the system, a browser will often thicken the regular shapes instead, and the result is called [faux bold](faux-bold.md).<sup>11</sup>
+
+In conversation, "font" and "typeface" are often used as if they meant the same thing.<sup>12</sup> The difference starts to matter when a decision is about files and not about looks. A font licence is permission to use specific font files under specific conditions or use cases.<sup>13</sup>&#x20;
+
+
 
 ### In practice
 

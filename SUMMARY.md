@@ -115,6 +115,7 @@
 ## Programming Terms
 
 * [Font terms](programming-terms/fonts/README.md)
+  * [Font](programming-terms/fonts/font.md)
   * [GPOS](programming-terms/fonts/gpos.md)
   * [GSUB](programming-terms/fonts/gsub.md)
   * [Typeface](programming-terms/fonts/typeface.md)
@@ -127,7 +128,6 @@
   * [Faux italic](programming-terms/fonts/faux-italic.md)
   * [Font weight](programming-terms/fonts/font-weight.md)
   * [Faux bold](programming-terms/fonts/faux-bold.md)
-  * [Font](programming-terms/fonts/font.md)
   * [Fallback font](programming-terms/fonts/fallback-font.md)
   * [Font coverage](programming-terms/fonts/font-coverage.md)
   * [Glyph](programming-terms/fonts/glyph.md)
