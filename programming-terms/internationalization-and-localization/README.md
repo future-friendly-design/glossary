@@ -2,9 +2,9 @@
 
 ## Internationalization and localization for multi-language support
 
-When your design system has to support multiple languages, the internationalization and localization programming processes make that possible. Internationalization (i18n) includes the the design and development work that prepares a product to be adapted to other languages and places. Localization (l10n) is the work happening under the hood of adapting text content to one particular language with consideration for regional differences in reading and writing.&#x20;
+When your design system has to support multiple languages, the internationalization and localization work makes that possible. Internationalization (i18n) is the design and development work that prepares a product to be adapted to other languages and places. Localization (l10n) is the work of adapting a product to one particular language and place, with consideration for regional differences in reading and writing.&#x20;
 
-For example, the order a date appears in its numeric form is different between US and UK, even when the language preference for both is english.&#x20;
+For example, the order a date appears in its numeric form is different between the US and the UK, even though both use English: the US puts the month first and the UK puts the day first.&#x20;
 
 ### Why it matters
 

@@ -1,16 +1,16 @@
 # Text shaping & layout
 
-## Text shaping and layout ensures readability
+## Text shaping and layout make text display correctly
 
-In programming, there are many processes that happen under the hood to ensure text is stored and displayed properly. Text shaping and layout processes ensures each piece of text you see on your screen is displayed correctly based on your language preferences and the localization conventions that come along with it.&#x20;
+In programming, there are many processes that happen under the hood to ensure text is stored and displayed properly. Text shaping and layout make sure each piece of text you see on your screen is displayed correctly for the script and language it is written in.&#x20;
 
 ### Why it matters
 
-Computers store text as binary code, according to the [Unicode](../text-in-software/unicode.md) standard, that gives every [character](../text-in-software/character.md) in the world's writing systems a unique number.<sup>1</sup>
+Computers store text as numbers. [Unicode](../text-in-software/unicode.md) is the standard that aims to give every [character](../text-in-software/character.md) in the world's writing systems its own number.
 
-Between the characters a system stores and the text a person reads, something has to decide which shapes of a font to draw and where to put them on the page. That step is called text shaping. When a design system supports multiple languages, writing systems, and scripts, the text shaping process becomes more important.&#x20;
+Before that text appears on a screen, software has to pick the right shapes from a font and decide where each one goes. That step is called text shaping. When a design system supports multiple languages, writing systems, and scripts, the text shaping process becomes more important.&#x20;
 
-For example, in English and many other languages that use a Latin script, Text shaping looks like it does nothing: one character comes in, one glyph goes out, placed to the right of the last one.&#x20;
+For example, in English and many other languages that use a Latin script, text shaping looks like it does nothing: one character comes in, one glyph goes out, placed to the right of the last one.&#x20;
 
 For many other scripts it has much more to work out. Letters change shape depending on their neighbours, marks are positioned over or under a base, pairs merge into a single form, and some vowel marks are drawn in a different order than they were typed.
 
