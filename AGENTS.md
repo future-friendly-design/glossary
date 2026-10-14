@@ -9,7 +9,7 @@ The notes below are the operational rules an agent most often gets wrong.
 - Each term is one markdown file under `terms/{slug}.md`; the filename is the slug.
 - `terms/*.md` is the content source of truth.
   Do not rewrite an entry's meaning to make an unrelated change.
-- Layout is hybrid: most entries are flat in `terms/`, but reviewed linguistic clusters move into topic subfolders (for example `language-terms/writing-systems-and-scripts/`) with a `README.md` landing page; see [adr-decisions/0011](adr-decisions/0011-linguistic-clusters-as-dedicated-sections.md) and `agent-progress-handover.md`.
+- Layout is hybrid: most entries are flat in `terms/`, but reviewed linguistic clusters move into topic subfolders (for example `language-terms/writing-systems-and-scripts/`) with a `README.md` landing page; see [adr-decisions/0011](adr-decisions/0011-linguistic-clusters-as-dedicated-sections.md) and `HANDOVER.md`.
   The slug stays stable when a file moves.
 
 ## Frontmatter must be strict-YAML-safe (the sync depends on it)
