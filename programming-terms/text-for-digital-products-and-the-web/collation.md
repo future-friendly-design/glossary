@@ -65,7 +65,7 @@ For a design system, this turns "sort A to Z" into three questions for every sor
 
 ### Related terms and mentions
 
-[Alphabet](../../language-terms/writing-systems-and-scripts/alphabet.md) · [Character](../text-in-software/character.md) · [CLDR](cldr.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [ICU](icu.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Localization (l10n)](localization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](../text-in-software/unicode.md) · [Unicode Standard](../text-in-software/unicode-standard.md) · [Multi-language products](../multi-language-products/)
+[Alphabet](../../language-terms/writing-systems-and-scripts/alphabet.md) · [Character](../text-in-software/character.md) · [CLDR](cldr.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [ICU](icu.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Locale](locale.md) · [Localization (l10n)](localization.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](../text-in-software/unicode.md) · [Unicode Standard](../text-in-software/unicode-standard.md) · [Internationalization & localization terms](../internationalization-and-localization/)
 
 ### Further reading
 

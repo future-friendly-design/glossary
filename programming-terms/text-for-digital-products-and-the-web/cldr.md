@@ -64,7 +64,7 @@ For design work, two habits follow. When a date, a number or a plural looks wron
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [Collation](collation.md) · [ICU](icu.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Language tag](language-tag.md) · [Locale](locale.md) · [Localization (l10n)](localization.md) · [Unicode](../text-in-software/unicode.md) · [Multi-language products](../multi-language-products/)
+[Character](../text-in-software/character.md) · [Collation](collation.md) · [ICU](icu.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Language tag](language-tag.md) · [Locale](locale.md) · [Localization (l10n)](localization.md) · [Unicode](../text-in-software/unicode.md) · [Internationalization & localization terms](../internationalization-and-localization/)
 
 ### Further reading
 

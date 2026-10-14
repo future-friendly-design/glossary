@@ -1,4 +1,4 @@
-# Multi-language products
+# Internationalization & localization terms
 
 ## Building for more than one language
 

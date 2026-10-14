@@ -67,7 +67,7 @@ For a design system, this changes what counts as content. A date, a number or a 
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CLDR](cldr.md) · [Collation](collation.md) · [ICU](icu.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Language tag](language-tag.md) · [Localization (l10n)](localization.md) · [Text expansion](text-expansion.md) · [Unicode](../text-in-software/unicode.md) · [Multi-language products](../multi-language-products/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CLDR](cldr.md) · [Collation](collation.md) · [ICU](icu.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Language tag](language-tag.md) · [Localization (l10n)](localization.md) · [Text expansion](text-expansion.md) · [Unicode](../text-in-software/unicode.md) · [Internationalization & localization terms](../internationalization-and-localization/)
 
 ### Further reading
 

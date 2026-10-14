@@ -171,7 +171,7 @@
   * [UTF-8](programming-terms/text-in-software/utf-8.md)
   * [UTF-16](programming-terms/text-in-software/utf-16.md)
 * [Text shaping & layout](programming-terms/text-shaping-and-layout/README.md)
-* [Multi-language products](programming-terms/multi-language-products/README.md)
+* [Internationalization & localization terms](programming-terms/internationalization-and-localization/README.md)
 
 ## Browse by topic
 
