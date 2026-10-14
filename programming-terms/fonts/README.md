@@ -28,43 +28,99 @@ This glossary does not cover every font format, feature, and control. Select a l
 If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
 {% endhint %}
 
-#### Typeface, font, glyph
+#### The font and its design
 
-Three words used interchangeably in conversation that mean three different things in a spec, a licence, and a build.
+Typeface and font are used interchangeably in conversation, but they mean different things in a spec, a licence and a build. A typeface is the design. A font is the file that holds it, as a set of glyphs.
 
-* [Font](../text-for-digital-products-and-the-web/font.md)
-* [Glyph](../text-for-digital-products-and-the-web/glyph.md)
-* [Typeface](../../design-terms/typography/typeface.md)
+[**Typeface**](../../design-terms/typography/typeface.md)
 
-One more term shares the word "script" without sharing the meaning. A [script typeface](../../design-terms/typography/script-typeface.md) is a style of lettering that imitates handwriting; a [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write a language. The category comes from Latin type; other scripts have handwriting-based styles of their own.
+A typeface is the design shared by a set of written symbols, such as letters, numbers and marks.
 
-* [Script (typeface)](../../design-terms/typography/script-typeface.md)
+[**Font**](../text-for-digital-products-and-the-web/font.md)
 
-#### What is inside a font file
+A font is a file that holds the shapes software uses to draw text.
 
-Beyond the shapes themselves, a font carries the instructions that let text be set correctly: which glyphs may replace or combine with which, how marks are positioned, and which stylistic options a designer can switch on.
+[**Glyph**](../text-for-digital-products-and-the-web/glyph.md)
 
-* [OpenType](../../design-terms/typography/opentype.md)
-* [OpenType features](../../design-terms/typography/opentype-features.md)
-* [Font weight](../../design-terms/typography/font-weight.md)
-* [Variable font](../../design-terms/typography/variable-font.md)
+A glyph is the specific visual shape a font holds for a character.
 
-#### Coverage, and what happens without it
+[**Font weight**](../../design-terms/typography/font-weight.md)
 
-A font covers the characters it was drawn for and no others. When text asks for something a font lacks, the result is either a substitute font or a visible gap, and both are worth designing for deliberately.
+Font weight is a measure of how thick the strokes of a typeface are, from very thin to very heavy.
 
-* [Fallback font](../text-for-digital-products-and-the-web/fallback-font.md)
-* [Font coverage](../text-for-digital-products-and-the-web/font-coverage.md)
-* [Noto fonts](../../design-terms/typography/noto-fonts.md)
-* [Tofu](../../design-terms/typography/tofu.md)
+[**Variable font**](../../design-terms/typography/variable-font.md)
 
-#### Shipping fonts
+A variable font is a font file that holds a whole range of styles of a typeface, where an ordinary font file holds one.
 
-What you load costs bandwidth, and what you fail to load gets faked by the browser. Both have visible consequences.
+One more term shares the word "script" without sharing the meaning. A script typeface is a style of lettering that imitates handwriting; a [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write a language. The category comes from Latin type; other scripts have handwriting-based styles of their own.
 
-* [Faux bold](../text-for-digital-products-and-the-web/faux-bold.md)
-* [Faux italic](../text-for-digital-products-and-the-web/faux-italic.md)
-* [Font subsetting](../text-for-digital-products-and-the-web/font-subsetting.md)
+[**Script (typeface)**](../../design-terms/typography/script-typeface.md)
+
+A script typeface is a typeface drawn to look like handwriting.
+
+#### Inside the font file
+
+Beyond the shapes themselves, a font carries the instructions that text shaping reads: which glyphs to swap for others, where to place each one, and which optional styles a designer can switch on.
+
+[**OpenType**](../../design-terms/typography/opentype.md)
+
+OpenType is a font file format, and it is the most widely used one.
+
+[**OpenType features**](../../design-terms/typography/opentype-features.md)
+
+OpenType features are named groups of instructions inside a font file, each one telling software how to swap or place the font's shapes for one purpose.
+
+[**GSUB**](gsub.md)
+
+GSUB is the part of a font file that lists which shapes to swap for other shapes, and when.
+
+[**GPOS**](gpos.md)
+
+GPOS is the part of a font file that tells software where to place each shape in relation to the shapes around it.
+
+[**Ligature**](ligature.md)
+
+A ligature is a single glyph, a shape in a font, that stands for two or more characters at once.
+
+#### When the font falls short
+
+A font holds shapes only for the characters it was made for. When the text needs something the font does not have, software borrows a shape from another font, shows an empty box, or fakes a style the font does not include. Each of these is worth designing for on purpose.
+
+[**Font coverage**](../text-for-digital-products-and-the-web/font-coverage.md)
+
+Font coverage is the set of characters that a font file holds a shape for.
+
+[**Fallback font**](../text-for-digital-products-and-the-web/fallback-font.md)
+
+A fallback font is a font that software uses in place of the one you chose, either because your font is not available or because it holds no shape for a character in the text.
+
+[**Tofu**](../../design-terms/typography/tofu.md)
+
+Tofu is the nickname for the empty box that appears in place of a character when no font available to the software holds a shape for it.
+
+[**Faux bold**](../text-for-digital-products-and-the-web/faux-bold.md)
+
+Faux bold is an imitation of bold text that software makes by thickening the shapes of a regular font, because it has no bold font to use.
+
+[**Faux italic**](../text-for-digital-products-and-the-web/faux-italic.md)
+
+Faux italic is an imitation of italic text that software makes by slanting the shapes of a regular font, because it has no italic font to use.
+
+#### Getting fonts to people
+
+Where fonts for many scripts come from, and how to load only the part of a font a product needs.
+
+[**Noto fonts**](../../design-terms/typography/noto-fonts.md)
+
+The Noto fonts are a collection of free fonts, directed by Google, that aims to provide a font for every script in Unicode.
+
+[**SIL**](../../design-terms/typography/sil.md)
+
+SIL refers to a set of free, broadly multilingual fonts from SIL Global designed to support minority and lesser-resourced languages.
+
+[**Font subsetting**](../text-for-digital-products-and-the-web/font-subsetting.md)
+
+Font subsetting is the practice of making a smaller copy of a font file by keeping only the shapes and instructions needed for the characters a product expects to use.
 
 ### Where to go next
 

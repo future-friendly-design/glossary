@@ -6,7 +6,7 @@ aliases:
   - OpenType font format
 level: foundational
 depth: core
-summary: OpenType is a font file format, and it is the one most fonts use today.
+summary: OpenType is a font file format, and it is the most widely used one.
 related:
   - opentype-features
   - gsub
@@ -35,7 +35,7 @@ tags:
 
 ## Definition
 
-OpenType is a font file format, and it is the one most fonts use today.<sup>1</sup>
+OpenType is a font file format, and it is the most widely used one.<sup>1</sup>
 
 A file format is an agreed way of arranging what is inside a file, so that any software can open the file and find what it needs. A [font](../../programming-terms/text-for-digital-products-and-the-web/font.md) file holds drawn shapes, called [glyphs](../../programming-terms/text-for-digital-products-and-the-web/glyph.md), and instructions for choosing those shapes and placing them in a line.<sup>2</sup> OpenType is the agreement about where each of those things sits in the file.
 
