@@ -7,11 +7,7 @@ aliases:
   - complex script rendering
 level: advanced
 depth: deep
-summary: >-
-  Complex text layout is a name for text shaping in the scripts where shaping
-  has the most to do: where the right shape or position of a character depends
-  on the characters around it, or characters are drawn in a different order from
-  the one they are stored in.
+summary: "Complex text layout is a name for text shaping in the scripts where shaping has the most to do."
 related:
   - text-shaping
   - reordering
@@ -36,9 +32,9 @@ tags:
 
 ## Definition
 
-Complex text layout is a name for text shaping in the scripts where shaping has the most to do:<sup>1</sup> where the right shape or position of a character depends on the characters around it, or characters are drawn in a different order from the one they are stored in.<sup>2</sup>
+Complex text layout is a name for text shaping in the scripts where shaping has the most to do.<sup>1</sup> In those scripts, the right shape or position of a character depends on the characters around it, or characters appear in a different order from the one they are stored in.<sup>2</sup>
 
-It is not a separate step from [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes. It is the same job, named for the scripts that need the most of it.
+It is not a separate step from [text shaping](text-shaping.md), the step in which software picks the right shapes from a font for a piece of text and decides where each one goes. It is the same job, named for the scripts that need the most of it.
 
 It is often shortened to CTL. A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols and rules used to write one or more languages, and the scripts that need this extra work are often called complex scripts. [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md), [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) and [Thai](../../language-terms/writing-systems-and-scripts/thai-script.md) are three of them.<sup>3</sup>
 

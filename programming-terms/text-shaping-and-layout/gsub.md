@@ -37,7 +37,7 @@ tags:
 
 GSUB is the part of a font file that lists which shapes to swap for other shapes, and when.<sup>1</sup>
 
-GSUB is one of the tools of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes: software called a [shaping engine](shaping-engine.md) reads it from the font.<sup>2</sup>
+GSUB is one of the tools of [text shaping](text-shaping.md). Text shaping is the step in which software picks the right shapes from a font for a piece of text and decides where each one goes. A [shaping engine](shaping-engine.md), the software that does it, reads GSUB from the font.<sup>2</sup>
 
 The name is short for Glyph Substitution. A [glyph](../text-for-digital-products-and-the-web/glyph.md) is one of the drawn shapes stored in a [font](../text-for-digital-products-and-the-web/font.md), and substitution means swapping one thing for another. GSUB belongs to [OpenType](../../design-terms/typography/opentype.md), the most widely used font format.<sup>3</sup>
 

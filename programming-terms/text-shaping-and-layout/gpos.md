@@ -36,13 +36,13 @@ tags:
 
 GPOS is the part of a font file that tells software where to place each shape in relation to the shapes around it.<sup>1</sup>
 
-GPOS is one of the tools of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes: software called a [shaping engine](shaping-engine.md) reads it from the font.<sup>2</sup>
+GPOS is one of the tools of [text shaping](text-shaping.md). Text shaping is the step in which software picks the right shapes from a font for a piece of text and decides where each one goes. A [shaping engine](shaping-engine.md), the software that does it, reads GPOS from the font.<sup>2</sup>
 
 The name is short for Glyph Positioning. A [glyph](../text-for-digital-products-and-the-web/glyph.md) is one of the drawn shapes stored in a [font](../text-for-digital-products-and-the-web/font.md). GPOS belongs to [OpenType](../../design-terms/typography/opentype.md), the most widely used font format.<sup>3</sup>
 
 ### Why it matters in design systems
 
-Every symbol you see on screen has been put in an exact spot. Often the rule is simple: draw a glyph, move along by its width, draw the next one.<sup>4</sup>
+Every symbol you see on screen has been put in an exact spot. Often the rule is simple: place a glyph, move along by its width, place the next one.<sup>4</sup>
 
 That simple rule is not enough for a lot of writing:
 

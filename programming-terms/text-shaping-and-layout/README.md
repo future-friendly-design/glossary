@@ -34,15 +34,15 @@ What shaping is, what does it, and which scripts need more of it than others. Te
 
 [**Text shaping**](text-shaping.md)
 
-Text shaping is the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes.
+Text shaping is the step in which software picks the right shapes from a font for a piece of text and decides where each one goes, before the text appears on a screen.
 
 [**Shaping engine**](shaping-engine.md)
 
-A shaping engine is the software that works out which of a font's shapes to draw for a piece of text, and where each shape goes.
+A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to show a piece of text with the right shapes in the right places.
 
 [**Complex text layout**](complex-text-layout.md)
 
-Complex text layout is a name for text shaping in the scripts where shaping has the most to do: where the right shape or position of a character depends on the characters around it, or characters are drawn in a different order from the one they are stored in.
+Complex text layout is a name for text shaping in the scripts where shaping has the most to do.
 
 #### What shaping does to the glyphs
 
@@ -62,7 +62,7 @@ A ligature is a single glyph, a shape in a font, that stands for two or more cha
 
 [**Reordering**](reordering.md)
 
-Reordering is a step in drawing text in which software draws some symbols in a different order from the order they are stored in.
+Reordering is a step in displaying text in which software shows some symbols in a different order from the order they are stored in.
 
 #### Laying out the lines
 

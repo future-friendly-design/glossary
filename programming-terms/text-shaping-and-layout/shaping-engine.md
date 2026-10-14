@@ -5,9 +5,7 @@ aliases:
   - shaper
 level: intermediate
 depth: core
-summary: >-
-  A shaping engine is the software that works out which of a font's shapes to
-  draw for a piece of text, and where each shape goes.
+summary: "A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to show a piece of text with the right shapes in the right places."
 related:
   - text-shaping
   - gsub
@@ -32,13 +30,13 @@ tags:
 
 ## Definition
 
-A shaping engine is the software that works out which of a font's shapes to draw for a piece of text, and where each shape goes.<sup>1</sup>
+A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to show a piece of text with the right shapes in the right places.<sup>1</sup>
 
-That job is called [text shaping](text-shaping.md). You do not install a shaping engine or open it. The software you already use, such as a browser or a design tool, does the shaping for you.<sup>2</sup>
+[Text shaping](text-shaping.md) is the name of the job, and the shaping engine is what does it. It is built into the software you already use, such as a browser, a design tool or an operating system, so you never install it or open it.<sup>2</sup>
 
 ### Why it matters in design systems
 
-Press a key and a letter appears on screen at once, so it looks as if nothing happens in between. Something does.
+Press a key and a letter appears on screen at once, so it looks as if nothing happens in between. A lot does.
 
 Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](../text-for-digital-products-and-the-web/font.md) is a file of drawn shapes, and each shape is called a [glyph](../text-for-digital-products-and-the-web/glyph.md).<sup>3</sup> Something has to get from the stored numbers to the right glyphs and then work out where each glyph sits, and that something is the shaping engine.
 
@@ -54,7 +52,7 @@ A shaping engine needs two things to do this: the text and a font. The font carr
 
 The shaping engine also brings rules of its own, a set for each script.<sup>7</sup> Moving the Devanagari vowel mark in the table above is one of those rules. It is not stored in the font at all, and a font should not even try to do that reordering, because the shaping engine does it.<sup>8</sup>
 
-Now that the idea is in place, here are the names that go with it. Most fonts today are in a format called [OpenType](../../design-terms/typography/opentype.md).<sup>9</sup> An OpenType font keeps its instructions in two parts: [GSUB](gsub.md) lists the glyphs to swap, and [GPOS](gpos.md) lists where to place them. The shaping engines have names too. On Windows, much of this work is now done by a text system called DirectWrite, which followed an earlier one called Uniscribe.<sup>10</sup> On macOS it is CoreText.<sup>11</sup> HarfBuzz is another, used in Firefox, in Chrome, in LibreOffice (a free office suite) and in design tools such as Figma and Adobe InDesign.<sup>12</sup>
+Now that the idea is in place, here are the names that go with it. The most widely used font format is called [OpenType](../../design-terms/typography/opentype.md).<sup>9</sup> An OpenType font keeps its instructions in two parts: [GSUB](gsub.md) lists the glyphs to swap, and [GPOS](gpos.md) lists where to place them. The shaping engines have names too. On Windows, much of this work is now done by a text system called DirectWrite, which followed an earlier one called Uniscribe.<sup>10</sup> On macOS it is CoreText.<sup>11</sup> HarfBuzz is another, used in Firefox, in Chrome, in LibreOffice (a free office suite) and in design tools such as Figma and Adobe InDesign.<sup>12</sup>
 
 Shaping is not everything that happens to text on its way to the screen. HarfBuzz, for example, works on one line at a time and leaves the decision of where a line breaks to other software.<sup>13</sup>
 

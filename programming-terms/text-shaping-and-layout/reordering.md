@@ -6,9 +6,7 @@ aliases:
   - character reordering
 level: advanced
 depth: deep
-summary: >-
-  Reordering is a step in drawing text in which software draws some symbols in a
-  different order from the order they are stored in.
+summary: "Reordering is a step in displaying text in which software shows some symbols in a different order from the order they are stored in."
 related:
   - matra
   - reph
@@ -33,9 +31,9 @@ tags:
 
 ## Definition
 
-Reordering is a step in drawing text in which software draws some symbols in a different order from the order they are stored in.<sup>1</sup>
+Reordering is a step in displaying text in which software shows some symbols in a different order from the order they are stored in.<sup>1</sup>
 
-Reordering is one part of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes. Software called a [shaping engine](shaping-engine.md) does it, by rules it holds for each script, not by instructions in the font.<sup>2</sup>
+Reordering is one part of [text shaping](text-shaping.md), the step in which software picks the right shapes from a font for a piece of text and decides where each one goes. Software called a [shaping engine](shaping-engine.md) does it, by rules it holds for each script, not by instructions in the font.<sup>2</sup>
 
 The stored order is usually the order in which the text is typed and spoken.<sup>3</sup> For example, the [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md) syllable कि (ki) is stored as the consonant क followed by a vowel mark, but the vowel mark is drawn first, on the left.<sup>4</sup>
 
