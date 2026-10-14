@@ -38,23 +38,23 @@ tags:
 
 ## Definition
 
-A typeface is the design shared by a set of written symbols, such as letters, numbers and marks.<sup>1</sup>
+A typeface is the design of symbols and marks used to make the script in a writing system look and feel cohesive.&#x20;
 
-It is what makes a page of type look like one thing: the same proportions, the same kind of stroke, the same small details from one symbol to the next. A typeface is not a file. The files that carry a typeface into software are called [fonts](font.md).<sup>2</sup> One typeface is usually delivered as several of them.
+The typeface provides the visual identity of written content, and its [font](font.md) are the files that carry a typeface into software.<sup>2</sup>&#x20;
 
 ### Why it matters in design systems
 
 When someone admires a poster and asks "what font is that?", the thing they are admiring is a typeface. Monotype, a type foundry, puts the whole difference in one line: "A font is what you use, and a typeface is what you see."<sup>3</sup>
 
-A design system has to keep the two words apart, because it has to answer questions about looks and questions about files, and those questions usually land with different people:
+While it's tempting to use the terms font and typeface interchangably, they are different parts of the written content system that work together.
 
-| Question                                                                                   | Typeface or fonts?                                                                               |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| What should our product look like?                                                         | The typeface.                                                                                    |
-| What do we hold a licence for?                                                             | The fonts. A licence is permission to use font software.<sup>4</sup>                             |
-| What does a page download?                                                                 | The fonts, one file at a time.                                                                   |
-| What does a [token](../../design-terms/design-token.md) called "brand" or "body" point to? | A typeface, by its family name. Software then has to match that name to a font file.<sup>5</sup> |
-| Which languages can we show?                                                               | The fonts, because the shapes are held in the files.<sup>6</sup>                                 |
+| Question                                                                                          | Typeface or fonts?                                                                               |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| What should our product look like?                                                                | The typeface.                                                                                    |
+| What do we hold a licence for?                                                                    | The fonts. A licence is permission to use font software.<sup>4</sup>                             |
+| What does a page download?                                                                        | The fonts, one file at a time.                                                                   |
+| What does a [design token](../../design-terms/design-token.md) called "brand" or "body" point to? | A typeface, by its family name. Software then has to match that name to a font file.<sup>5</sup> |
+| Which languages can we show?                                                                      | The fonts, because the shapes are held in the files.<sup>6</sup>                                 |
 
 A typeface normally comes as a family, the same design in several weights, widths and slants.<sup>7</sup> Each member is delivered as its own font, unless the family is built as a [variable font](variable-font.md), where one file holds a range. So "we use this typeface" does not yet say which weights, which styles or which files, and a design system has to say all three.
 
