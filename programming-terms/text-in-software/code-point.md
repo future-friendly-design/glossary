@@ -5,7 +5,7 @@ aliases:
   - codepoint
 level: foundational
 depth: core
-summary: A code point is the number Unicode assigns to a character.
+summary: A code point is the unique number Unicode assigns to a character of text.
 related:
   - character
   - unicode
@@ -29,11 +29,9 @@ tags:
 
 ## Definition
 
-A code point is the unique number [Unicode](unicode.md) assigns to a [character](character.md) of text. The code point is how the the character (unit of text) is idenified in computer programming.&#x20;
+A code point is the unique number [Unicode](unicode.md) assigns to a [character](character.md) of text. The code point is how the character (unit of text) is identified in computer programming.
 
 For example, the code point for the symbol `á` is 225 in decimal, or E1 in hexadecimal,<sup>1</sup> which is written `U+00E1`.
-
-
 
 ### Why it matters in design systems
 
