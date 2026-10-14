@@ -1,22 +1,22 @@
 # Font terms
 
-## Fonts provide the shape of written content
+## Fonts provide the shapes of written content
 
-When your design system chooses a typeface, it is choosing the visual identity of written content. In programming, each typeface has a font file that the system loads during the text shaping process. Text requires both the font and shaping engine to support written content in the system.&#x20;
+When your design system chooses a [typeface](../../design-terms/typography/typeface.md), it is choosing the visual identity of written content. In programming, each typeface comes as one or more font files, which software loads and then reads during [text shaping](../text-shaping-and-layout/text-shaping.md). Text needs both: the font, and a [shaping engine](../text-shaping-and-layout/shaping-engine.md), the software that uses it.&#x20;
 
-A font is a file that holds the shape for each character of text, called a glyph, plus instructions for how to swap and place those glyphs during the text shaping process. A font has a limited number of glphs specific to the script or scripts it was designed to support.&#x20;
+A [font](../text-for-digital-products-and-the-web/font.md) is a file that holds the shape for each character of text, called a [glyph](../text-for-digital-products-and-the-web/glyph.md), plus instructions for how to swap and place those glyphs during the text shaping process. A font has a limited number of glyphs specific to the script or scripts it was designed to support.&#x20;
 
-Tech shaping happens before text appears on a screen, software reads the font file and picks the right shapes (glyphs) for each character of text and decides where they go. When the text contains a character the font doesn’t have a glyph for, the shaping software either borrows a shape from another font in the system, or shows an emp sand (also called tofu).&#x20;
+Text shaping happens before text appears on a screen: software reads the font file and picks the right shapes (glyphs) for each character of text and decides where they go. When the text contains a character the font doesn’t have a glyph for, the software either borrows a shape from another font, called a [fallback font](../text-for-digital-products-and-the-web/fallback-font.md), or shows an empty box, called [tofu](../../design-terms/typography/tofu.md).&#x20;
 
 
 
 ### Why it matters
 
-Choosing fonts for a multilingual products needs to be done with care. A font that looks right in the english brand deck may have no Arabic glyphs which means you need to choose a fallback font.&#x20;
+Choosing fonts for a multilingual product needs to be done with care. A font that looks right in the English brand deck may have no Arabic glyphs which means you need to choose a fallback font.&#x20;
 
 #### Example
 
-Set a page in a font drawn only for Latin, then render an Amharic name in it. The name does not render in the style you chose. It renders as empty boxes, or in whatever unrelated font the operating system finds first. Neither outcome is a type decision anyone made on purpose.
+Set a page in a font made only for the Latin script, then show an Amharic name in it. The name does not appear in the style you chose. It appears as empty boxes, or in whatever unrelated font the operating system finds first. Neither outcome is a type decision anyone made on purpose.
 
 ***
 
