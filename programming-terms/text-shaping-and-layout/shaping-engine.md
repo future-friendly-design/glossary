@@ -38,7 +38,7 @@ A shaping engine is the software that does text shaping: it reads a font's instr
 
 Press a key and a letter appears on screen at once, so it looks as if nothing happens in between. A lot does.
 
-Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](../text-for-digital-products-and-the-web/font.md) is a file of drawn shapes, and each shape is called a [glyph](../text-for-digital-products-and-the-web/glyph.md).<sup>3</sup> Something has to get from the stored numbers to the right glyphs and then work out where each glyph sits, and that something is the shaping engine.
+Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](../text-for-digital-products-and-the-web/font.md) is a file of shapes, and each shape is called a [glyph](../text-for-digital-products-and-the-web/glyph.md).<sup>3</sup> Software has to get from the stored numbers to the right glyphs and then work out where each glyph sits, and the part of the software that does this is the shaping engine.
 
 For a lot of English text the job looks easy: one character, one glyph, each placed to the right of the last. Other writing asks for more. A [script](../../language-terms/writing-systems-and-scripts/script.md) is the set of symbols and rules a language is written with, and for many scripts the job takes real work. Here is the same job in three scripts:
 
@@ -46,9 +46,9 @@ For a lot of English text the job looks easy: one character, one glyph, each pla
 | ------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | `c`, `a`, `t`                                           | `cat`                      | Chose one glyph for each character and placed them left to right.                                            |
 | The Arabic letters kāf ك, tāʾ ت and bāʾ ب               | كتب                        | Chose the joined form of each letter. An Arabic letter changes shape with its place in the word.<sup>4</sup> |
-| The Devanagari consonant क, then the vowel mark for "i" | कि                         | Drew the vowel mark to the left of the consonant, although it is stored after it.<sup>5</sup>                |
+| The Devanagari consonant क, then the vowel mark for "i" | कि                         | Showed the vowel mark to the left of the consonant, although it is stored after it.<sup>5</sup>              |
 
-A shaping engine needs two things to do this: the text and a font. The font carries more than glyphs. It also carries instructions, such as "when these two glyphs meet, draw this one combined glyph instead" and "place this mark this far above that symbol".<sup>6</sup> The font holds the instructions, and the shaping engine follows them.
+A shaping engine needs two things to do this: the text and a font. The font carries more than glyphs. It also carries instructions, such as "when these two glyphs meet, use this one combined glyph instead" and "place this mark this far above that symbol".<sup>6</sup> The font holds the instructions, and the shaping engine follows them.
 
 The shaping engine also brings rules of its own, a set for each script.<sup>7</sup> Moving the Devanagari vowel mark in the table above is one of those rules. It is not stored in the font at all, and a font should not even try to do that reordering, because the shaping engine does it.<sup>8</sup>
 

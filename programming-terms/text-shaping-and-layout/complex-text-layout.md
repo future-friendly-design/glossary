@@ -40,18 +40,18 @@ It is often shortened to CTL. A [script](../../language-terms/writing-systems-an
 
 ### Why it matters in design systems
 
-Type an English word and each letter appears as you press its key. The first letter sits at the left, the next one to its right, and no letter has to change because of the one beside it. The letters can be drawn in the same order they are stored.<sup>4</sup>
+Type an English word and each letter appears as you press its key. The first letter sits at the left, the next one to its right, and no letter has to change because of the one beside it. The letters can appear in the same order they are stored.<sup>4</sup>
 
-Many scripts do not work this way, because what is drawn depends on the neighbours. This glossary does not cover every script or every behaviour, so here are four to start with. Select a linked term to go to its glossary page.
+Many scripts do not work this way, because what appears on screen depends on the neighbours. This glossary does not cover every script or every behaviour, so here are four to start with. Select a linked term to go to its glossary page.
 
 | What happens                                    | Example                                                                                     | Glossary term                                                            |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Letters take a joined form                      | The Arabic letters kāf ك, tāʾ ت and bāʾ ب are drawn as كتب<sup>5</sup>                      | [Joining](../../language-terms/writing-systems-and-scripts/joining.md)   |
-| Two letters become one shape                    | The Arabic letters lam (ل) and alef (ا) are drawn as لا<sup>6</sup>                         | [Ligature](ligature.md)                                                  |
-| Consonants merge                                | The Devanagari consonants क and ष, with no vowel between them, are drawn as क्ष<sup>7</sup> | [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) |
-| A mark is drawn before the consonant it follows | In the Devanagari कि, the vowel mark is stored after क and drawn to its left<sup>8</sup>    | [Reordering](reordering.md)                                              |
+| Letters take a joined form                      | The Arabic letters kāf ك, tāʾ ت and bāʾ ب appear as كتب<sup>5</sup>                         | [Joining](../../language-terms/writing-systems-and-scripts/joining.md)   |
+| Two letters become one shape                    | The Arabic letters lam (ل) and alef (ا) appear as لا<sup>6</sup>                            | [Ligature](ligature.md)                                                  |
+| Consonants merge                                | The Devanagari consonants क and ष, with no vowel between them, appear as क्ष<sup>7</sup>    | [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) |
+| A mark appears before the consonant it follows  | In the Devanagari कि, the vowel mark is stored after क and shown to its left<sup>8</sup>    | [Reordering](reordering.md)                                              |
 
-Drawing text like this takes two things working together. The [font](../text-for-digital-products-and-the-web/font.md) is a file of drawn shapes, and each shape is called a [glyph](../text-for-digital-products-and-the-web/glyph.md). It has to contain the extra glyphs, and instructions for when to use them. The software has to contain a [shaping engine](shaping-engine.md), the part that reads those instructions and applies the rules of the script.<sup>9</sup> That step is called text shaping, and every script goes through it. Complex text layout is a name for it in the scripts where it has the most to do.
+Displaying text like this takes two things working together. The [font](../text-for-digital-products-and-the-web/font.md) is a file of shapes, and each shape is called a [glyph](../text-for-digital-products-and-the-web/glyph.md). It has to contain the extra glyphs, and instructions for when to use them. The software has to contain a [shaping engine](shaping-engine.md), the part that reads those instructions and applies the rules of the script.<sup>9</sup> That step is called text shaping, and every script goes through it. Complex text layout is a name for it in the scripts where it has the most to do.
 
 The word "complex" describes the work the software has to do, and says nothing about how hard a script is to read or to write. The comparison behind the word is with English written in the [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md), which one widely used code library, [ICU](../internationalization-and-localization/icu.md), describes as the least complex script to display.<sup>10</sup>
 

@@ -46,7 +46,7 @@ Complex text layout is a name for text shaping in the scripts where shaping has 
 
 #### What shaping does to the glyphs
 
-Shaping swaps glyphs for other glyphs, moves them relative to one another, and in some scripts changes the order they are drawn in. A font carries the instructions for the first two jobs, in two separate lists. Changing the order is done by the shaping software.
+Shaping swaps glyphs for other glyphs, moves them relative to one another, and in some scripts changes the order they appear in. A font carries the instructions for the first two jobs, in two separate lists. Changing the order is done by the shaping software.
 
 [**GSUB**](gsub.md)
 

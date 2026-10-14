@@ -45,9 +45,9 @@ Some ligatures are a style choice, while others are part of how a [script](../..
 
 ### Why it matters in design systems
 
-Type "fi" in many fonts and look closely. The two letters are drawn as one merged shape: you typed two characters, and the software drew one glyph from the [font](../text-for-digital-products-and-the-web/font.md). That glyph is a ligature.<sup>4</sup>
+Type "fi" in many fonts and look closely. The two letters appear as one merged shape: you typed two characters, and the software displayed one glyph from the [font](../text-for-digital-products-and-the-web/font.md). That glyph is a ligature.<sup>4</sup>
 
-In English this is an improvement, not a need, and nothing breaks if the two letters are drawn apart.<sup>5</sup>
+In English this is an improvement, not a need, and nothing breaks if the two letters are shown apart.<sup>5</sup>
 
 That is not true everywhere. The Latin script has only a few ligatures in use today, and other scripts use many.<sup>6</sup> In some of them a ligature is not an improvement. It is the correct way to write.
 
@@ -55,9 +55,9 @@ There are three kinds you will meet most often, and the difference between them 
 
 | Kind                                           | Example                                                 | To begin with | Can you switch it off?                                                                                      |
 | ---------------------------------------------- | ------------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
-| Required                                       | The Arabic letters lam (ل) and alef (ا) are drawn as لا | On            | Not with the normal controls. The script needs it, and tools are advised not to offer a switch.<sup>7</sup> |
-| Standard                                       | `f` and `i` are drawn as one "fi" glyph                 | On            | Yes.<sup>8</sup>                                                                                            |
-| Discretionary, which means left to your choice | `c` and `t` are drawn as one merged "ct" glyph          | Off           | Yes. You switch it on for a special effect.<sup>9</sup>                                                     |
+| Required                                       | The Arabic letters lam (ل) and alef (ا) appear as لا    | On            | Not with the normal controls. The script needs it, and tools are advised not to offer a switch.<sup>7</sup> |
+| Standard                                       | `f` and `i` appear as one "fi" glyph                    | On            | Yes.<sup>8</sup>                                                                                            |
+| Discretionary, which means left to your choice | `c` and `t` appear as one merged "ct" glyph             | Off           | Yes. You switch it on for a special effect.<sup>9</sup>                                                     |
 
 Devanagari has ligatures too. When consonants meet with no vowel between them they can merge, so the consonants क and ष become क्ष. That merged shape is called a [conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md), a ligature of two or more consonants.<sup>10</sup>
 
@@ -65,9 +65,9 @@ It helps to keep three levels apart:
 
 * **The script** sets whether a ligature is expected. Arabic expects lam and alef to merge into one shape, in almost every style of the script.<sup>11</sup>
 * **The font** has to contain the ligature: the merged glyph, and an instruction that says when to use it.<sup>12</sup>
-* **The software** that draws the text has to follow that instruction.<sup>13</sup> This software is called a shaping engine.
+* **The software** that displays the text has to follow that instruction.<sup>13</sup> This software is called a shaping engine.
 
-A ligature changes what is drawn, not what is stored: the text still holds two characters, and they can be drawn as two glyphs or as one.<sup>14</sup>
+A ligature changes what is shown, not what is stored: the text still holds two characters, and they can be shown as two glyphs or as one.<sup>14</sup>
 
 The three kinds have short names, which you may see in design tools and in code: `rlig` for required, `liga` for standard and `dlig` for discretionary. Each one is a named group of instructions in the font, and these groups are called [OpenType features](../../design-terms/typography/opentype-features.md), after [OpenType](../../design-terms/typography/opentype.md), the most widely used font format.<sup>15</sup>
 
