@@ -50,7 +50,7 @@ The styles are not stored one by one. The file stores how the design changes bet
 
 A style menu usually offers a short list: Light, Regular, Semibold, Bold. Behind each name on that list there is normally a separate font file, because an ordinary font holds a single style.<sup>4</sup> With a variable font the list becomes a slider.
 
-An axis is one way the design can change, written as a range of numbers that the type designer sets inside the file.<sup>5</sup> Weight is the one most people meet first. Five axes have agreed names (weight, width, slant, italic and optical size),<sup>6</sup> and a type designer can add others of their own.<sup>7</sup> The designer can also give familiar names to points along an axis, so a variable font can still show Light and Semibold in a style menu the way an ordinary [typeface](typeface.md) family does.<sup>8</sup> Variable fonts are a later addition to [OpenType](opentype.md), a common font file format.<sup>9</sup>
+An axis is one way the design can change, written as a range of numbers that the type designer sets inside the file.<sup>5</sup> Weight is the one most people meet first. Five axes have agreed names (weight, width, slant, italic and optical size),<sup>6</sup> and a type designer can add others of their own.<sup>7</sup> The designer can also give familiar names to points along an axis, so a variable font can still show Light and Semibold in a style menu the way an ordinary [typeface](typeface.md) family does.<sup>8</sup> Variable fonts are a later addition to [OpenType](opentype.md), the most widely used font format.<sup>9</sup>
 
 Two things follow for a design system. The first is quality. A weight taken from a variable font is worked out from the type designer's own drawings, and it is not counted as a fake, unlike [faux bold](faux-bold.md), where a browser thickens the regular shapes because no bold was available.<sup>10</sup> The second is that [font weight](font-weight.md) becomes a real number. A [token](../../design-terms/design-token.md) can ask for 550, or even 425.5,<sup>11</sup> where separate files offer only the weights somebody chose to make.
 
@@ -66,7 +66,11 @@ The limit that matters most in a product with more than one language is that eve
 
 A heading set at 800 comes out heavier in one script than in the two beside it, on the same page, from the same token.
 
-So treat "variable" as a fact about one file, not about your whole type system. For each font in the font list, record whether it is variable, which axes it has, and the range of each. Keep weight tokens inside the range that every script can honour, or accept the difference on purpose. Design tools show the same limits: in Figma, a variable font adds a Variable tab to the type settings,<sup>17</sup> and a value chosen there only reaches the product if the font file the product ships has that axis and that range.
+So treat "variable" as a fact about one file, not about your whole type system. Three habits follow from that:
+
+* **Record each font.** For every font in the font list, write down whether it is variable, which axes it has, and the range of each.
+* **Keep weight tokens in range.** Choose weights that every script's font can use, or accept the difference on purpose.
+* **Check what Figma shows against what ships.** In Figma, a variable font adds a Variable tab to the type settings.<sup>17</sup> A value chosen there only reaches the product if the font file the product ships has that axis and that range.
 
 ***
 
