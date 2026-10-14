@@ -28,6 +28,8 @@ If there is a term you would like to see added, head to the [contributing page](
 
 #### The font and its design
 
+Font is the parent of every term in this section: what a font holds, the format it is stored in, what it covers, and what happens when it falls short.
+
 Typeface and font are used interchangeably in conversation, but they mean different things in a spec, a licence and a build. A typeface is the design. A font is the file that holds it, as a set of glyphs.
 
 [**Typeface**](typeface.md)
@@ -36,7 +38,7 @@ A typeface is the design shared by a set of written symbols, such as letters, nu
 
 [**Font**](font.md)
 
-A font is a file that holds the shapes software uses to draw text.
+A font is a file that holds the shapes software uses to show text.
 
 [**Glyph**](glyph.md)
 
@@ -44,7 +46,7 @@ A glyph is the specific visual shape a font holds for a character.
 
 [**Font weight**](font-weight.md)
 
-Font weight is a measure of how thick the strokes of a typeface are, from very thin to very heavy.
+Font weight is how thick the strokes of a font are, from very thin to very heavy.
 
 [**Variable font**](variable-font.md)
 
@@ -112,9 +114,9 @@ Where fonts for many scripts come from, and how to load only the part of a font 
 
 The Noto fonts are a collection of free fonts, directed by Google, that aims to provide a font for every script in Unicode.
 
-[**SIL**](sil.md)
+[**SIL fonts**](sil.md)
 
-SIL refers to a set of free, broadly multilingual fonts from SIL Global designed to support minority and lesser-resourced languages.
+SIL fonts are a collection of free fonts from SIL Global, made for languages that most fonts do not support well.
 
 [**Font subsetting**](font-subsetting.md)
 

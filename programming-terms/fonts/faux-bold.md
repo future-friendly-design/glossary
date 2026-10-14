@@ -37,7 +37,9 @@ tags:
 
 Faux bold is an imitation of bold text that software makes by thickening the shapes of a regular font, because it has no bold font to use.<sup>1</sup>
 
-"Faux" is French for false, and the same thing is called fake bold or synthetic bold. A real bold is a separate [font](font.md) that a type designer drew. Faux bold is not drawn by anyone: the software takes each regular shape and draws a thin extra outline around it.<sup>2</sup> Its partner, [faux italic](faux-italic.md), is made by leaning the shapes over instead of thickening them.
+Faux bold is what you see when a [font](font.md), the file that holds the shapes software uses to show text, falls short.<sup>2</sup>
+
+"Faux" is French for false, and the same thing is called fake bold or synthetic bold. A real bold is a separate font that a type designer drew. Faux bold is not drawn by anyone: the software takes each regular shape and adds a thin extra outline around it.<sup>3</sup> Its partner, [faux italic](faux-italic.md), is made by leaning the shapes over instead of thickening them.
 
 ### Why it matters in design systems
 
@@ -46,12 +48,12 @@ Press the bold button and the text gets heavier. It feels like one action with o
 | What is asked for              | What the software has          | What the reader gets                                                 |
 | ------------------------------ | ------------------------------ | -------------------------------------------------------------------- |
 | Bold                           | A bold font in the same family | Real bold, the shapes a type designer drew for that weight           |
-| Bold                           | Only the regular font          | Faux bold: the regular shapes, thickened by the software<sup>3</sup> |
-| Bold, with faking switched off | Only the regular font          | The regular font, with no bold at all<sup>4</sup>                    |
+| Bold                           | Only the regular font          | Faux bold: the regular shapes, thickened by the software<sup>4</sup> |
+| Bold, with faking switched off | Only the regular font          | The regular font, with no bold at all<sup>5</sup>                    |
 
-The second row is the one nobody chooses. Nothing announces it, and at a glance the text does look bolder. The web's font specification calls it a fallback, better than nothing but below the quality of a font designed for the purpose.<sup>5</sup> A fallback is what software uses when the thing it wanted is missing.
+The second row is the one nobody chooses. Nothing announces it, and at a glance the text does look bolder. The web's font specification calls it a fallback, better than nothing but below the quality of a font designed for the purpose.<sup>6</sup> A fallback is what software uses when the thing it wanted is missing.
 
-In English text the cost is appearance: the faked bold looks heavier and rougher than a drawn one. In other scripts the cost can be the text itself. A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write one or more languages, and bold does not suit every script's shapes equally. Fonts for Chinese, Japanese and Korean often have no bold at all, and faking one can make the text harder to read or even change what it says.<sup>6</sup> Japanese authors may avoid both bold and italic, because characters such as 漢字 are too complicated to look good at small sizes with those effects.<sup>7</sup>
+In English text the cost is appearance: the faked bold looks heavier and rougher than a drawn one. In other scripts the cost can be the text itself. A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write one or more languages, and bold does not suit every script's shapes equally. Japanese authors may avoid both bold and italic, because characters such as 漢字 are too complicated to look good at small sizes with those effects.<sup>7</sup>
 
 That points at an assumption worth noticing. Bold as the way to mark something important is a habit of some writing traditions, and it is not the preferred one everywhere.<sup>8</sup> East Asian documents traditionally mark emphasis with small dots or other symbols placed beside each character.<sup>9</sup>
 
@@ -81,11 +83,11 @@ Checking bold only in the brand font. Most products show each script in a differ
 ### Sources
 
 1. "bold faces are often synthesized by user agents for faces that lack actual bold faces" - CSS Fonts Module Level 3, W3C Recommendation, 3.2 Font weight: the font-weight property [https://www.w3.org/TR/css-fonts-3/#font-weight-prop](https://www.w3.org/TR/css-fonts-3/#font-weight-prop)
-2. "synthesize a bold face by drawing a thin stroke around each glyph" - CSS Fonts Module Level 4, W3C Working Draft, 2.8 Controlling synthetic faces [https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro](https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro)
-3. "This property controls whether user agents are allowed to synthesize bold or oblique font faces when a font family lacks bold or italic faces" - CSS Fonts Module Level 3, W3C Recommendation, 3.8 Controlling synthetic faces: the font-synthesis property [https://www.w3.org/TR/css-fonts-3/#font-synthesis-prop](https://www.w3.org/TR/css-fonts-3/#font-synthesis-prop)
-4. "If ‘weight’ is not specified, user agents must not synthesize bold faces" - CSS Fonts Module Level 3, W3C Recommendation, 3.8 Controlling synthetic faces: the font-synthesis property [https://www.w3.org/TR/css-fonts-3/#font-synthesis-prop](https://www.w3.org/TR/css-fonts-3/#font-synthesis-prop)
-5. "Synthesis is a fallback strategy because the end result, while perhaps better than nothing at all, does not meet the level of quality of a face designed for the purpose" - CSS Fonts Module Level 4, W3C Working Draft, 2.8 Controlling synthetic faces [https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro](https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro)
-6. "Fonts used for Chinese, Japanese, Korean and other logographic scripts tend not to include these variants and synthesizing them might impede the legibility or change the meaning of the text" - font-synthesis, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis)
+2. "Synthetic font faces are a fallback strategy to provide an approximation to the requested font when a font family lacks a suitable face" - CSS Fonts Module Level 4, W3C Working Draft, 2.8 Controlling synthetic faces [https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro](https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro)
+3. "synthesize a bold face by drawing a thin stroke around each glyph" - CSS Fonts Module Level 4, W3C Working Draft, 2.8 Controlling synthetic faces [https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro](https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro)
+4. "This property controls whether user agents are allowed to synthesize bold or oblique font faces when a font family lacks bold or italic faces" - CSS Fonts Module Level 3, W3C Recommendation, 3.8 Controlling synthetic faces: the font-synthesis property [https://www.w3.org/TR/css-fonts-3/#font-synthesis-prop](https://www.w3.org/TR/css-fonts-3/#font-synthesis-prop)
+5. "If ‘weight’ is not specified, user agents must not synthesize bold faces" - CSS Fonts Module Level 3, W3C Recommendation, 3.8 Controlling synthetic faces: the font-synthesis property [https://www.w3.org/TR/css-fonts-3/#font-synthesis-prop](https://www.w3.org/TR/css-fonts-3/#font-synthesis-prop)
+6. "Synthesis is a fallback strategy because the end result, while perhaps better than nothing at all, does not meet the level of quality of a face designed for the purpose" - CSS Fonts Module Level 4, W3C Working Draft, 2.8 Controlling synthetic faces [https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro](https://www.w3.org/TR/css-fonts-4/#font-synthesis-intro)
 7. "Japanese authors may want to avoid both italicization and bolding, since their characters are too complicated to look good in small sizes with these effects" - Using b and i elements, W3C Internationalization [https://www.w3.org/International/questions/qa-b-and-i-tags](https://www.w3.org/International/questions/qa-b-and-i-tags)
 8. "You should also bear in mind that bold and italic may not be the preferred style for content in certain languages" - Using b and i elements, W3C Internationalization [https://www.w3.org/International/questions/qa-b-and-i-tags](https://www.w3.org/International/questions/qa-b-and-i-tags)
 9. "East Asian documents traditionally use small symbols next to each glyph to emphasize a run of text" - CSS Text Decoration Module Level 3, W3C Candidate Recommendation Draft, 3 Emphasis Marks [https://www.w3.org/TR/css-text-decor-3/#emphasis-marks](https://www.w3.org/TR/css-text-decor-3/#emphasis-marks)

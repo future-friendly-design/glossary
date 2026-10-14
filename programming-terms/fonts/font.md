@@ -5,7 +5,7 @@ aliases:
   - font file
 level: foundational
 depth: deep
-summary: A font is a file that holds the shapes software uses to draw text.
+summary: A font is a file that holds the shapes software uses to show text.
 related:
   - typeface
   - glyph
@@ -38,9 +38,11 @@ tags:
 
 ## Definition
 
-A font is a file that holds the shapes software uses to draw text.<sup>1</sup>
+A font is a file that holds the shapes software uses to show text.<sup>1</sup>
 
-Each shape is called a [glyph](glyph.md). Alongside the shapes, the file holds a list that says which shape belongs to which character, and software reads that list every time it draws a word.<sup>2</sup> A font is not the same thing as a [typeface](typeface.md). The typeface is the design, the way the type looks, and the font is the file that delivers that design to a screen or a printer.<sup>3</sup>
+Each shape in a font is called a [glyph](glyph.md). The file also holds instructions for choosing and placing those shapes, in a format called [OpenType](opentype.md). What a font covers is its [font coverage](font-coverage.md), and when it falls short, software uses a [fallback font](fallback-font.md) or shows an empty box called [tofu](tofu.md). A font carries the design of a [typeface](typeface.md), and [text shaping](../text-shaping-and-layout/text-shaping.md) is the step that reads it.
+
+Alongside the shapes, the file holds a list that says which shape belongs to which character, and software reads that list every time it shows a word.<sup>2</sup> A font is not the same thing as a typeface. The typeface is the design, the way the type looks, and the font is the file that delivers that design to a screen or a printer.<sup>3</sup>
 
 ### Why it matters in design systems
 
@@ -55,7 +57,7 @@ The first limit is the one that matters most in a product with more than one lan
 | marhaba: مرحبا ("hello")                 | Arabic     | No                              |
 | Hindi: हिन्दी (the name of the language) | Devanagari | No                              |
 
-Software works through text one character at a time. For each character it looks for a font that holds a shape, starting with the font the design asked for and moving down a list.<sup>6</sup> A font it finds further down that list is called a [fallback font](fallback-font.md). If no font on the device holds a shape, the reader sees a placeholder, usually an empty box, which has the nickname [tofu](tofu.md).<sup>7</sup> So the fonts a design system names decide which languages appear in the design you intended, which appear in something else, and which do not appear at all. The set of characters a font can be used for is called its [font coverage](font-coverage.md).
+Software works through text one character at a time. For each character it looks for a font that holds a shape, starting with the font the design asked for and moving down a list.<sup>6</sup> A font it finds further down that list is called a fallback font. If no font on the device holds a shape, the reader sees a placeholder, usually an empty box, which has the nickname tofu.<sup>7</sup> So the fonts a design system names decide which languages appear in the design you intended, which appear in something else, and which do not appear at all. The set of characters a font can be used for is called its font coverage.
 
 No single font removes the problem. One font can hold at most 65,535 shapes,<sup>8</sup> and [Unicode](../text-in-software/unicode.md), the standard list of the world's characters, holds 172,808 of them as of version 18.0.<sup>9</sup> So one font cannot give every character a shape of its own. A product that has to show every script needs several fonts working together.
 
@@ -65,13 +67,13 @@ In conversation, "font" and "typeface" are often used as if they meant the same 
 
 ### Common mistake
 
-Believing the screen. Text appears, so it looks as though the chosen font is working. But when the chosen font holds no shape for a character, software quietly takes the shape from another font, and because it does this character by character, a single line can end up drawn from two or three fonts that were never designed to sit together. No error appears, because to the software nothing went wrong. The mismatch is easy to miss in a script you do not read and obvious to anyone who does. The question to ask is which font the text was drawn from, not whether text appeared, and the inspection tools built into a web browser, called its developer tools, can answer it for any piece of text on a page.<sup>15</sup>
+Believing the screen. Text appears, so it looks as though the chosen font is working. But when the chosen font holds no shape for a character, software quietly takes the shape from another font, and because it does this character by character, a single line can end up shown in two or three fonts that were never designed to sit together. No error appears, because to the software nothing went wrong. The mismatch is easy to miss in a script you do not read and obvious to anyone who does. The question to ask is which font the text was shown in, not whether text appeared, and the inspection tools built into a web browser, called its developer tools, can answer it for any piece of text on a page.<sup>15</sup>
 
 ### In practice
 
 * **Write down the files, not only the name.** A family name in a token or a brand guide does not say which files ship. List each font file your product loads: which [weight](font-weight.md), which style, which scripts. That list is what a licence covers, what a page downloads, and what a developer needs from you.
 * **Choose a font for every script you ship.** List the scripts your languages are written in, pick a font for each one on purpose, and put them in order in the font list. If you do not choose, the device chooses for you. The [Noto fonts](noto-fonts.md) are one place to look for a script your main typeface was never drawn for.
-* **Test real words with someone who reads the script.** Holding a shape for every character is necessary, and it is not enough. Many scripts also need instructions inside the font for combining, stacking or reordering shapes, and a font can hold the shapes and lack the instructions.<sup>16</sup> Following those instructions is called [text shaping](../text-shaping-and-layout/text-shaping.md), and only a reader of the script can tell you whether it came out right.
+* **Test real words with someone who reads the script.** Holding a shape for every character is necessary, and it is not enough. Many scripts also need instructions inside the font for combining, stacking or reordering shapes, and a font can hold the shapes and lack the instructions.<sup>16</sup> Following those instructions is called text shaping, and only a reader of the script can tell you whether it came out right.
 
 ***
 

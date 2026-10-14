@@ -123,7 +123,7 @@
   * [OpenType features](programming-terms/fonts/opentype-features.md)
   * [Variable font](programming-terms/fonts/variable-font.md)
   * [Tofu](programming-terms/fonts/tofu.md)
-  * [SIL](programming-terms/fonts/sil.md)
+  * [SIL fonts](programming-terms/fonts/sil.md)
   * [Faux italic](programming-terms/fonts/faux-italic.md)
   * [Font weight](programming-terms/fonts/font-weight.md)
   * [Faux bold](programming-terms/fonts/faux-bold.md)
