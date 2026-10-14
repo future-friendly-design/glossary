@@ -39,9 +39,9 @@ tags:
 
 The Noto fonts are a collection of free fonts, directed by Google, that aims to provide a font for every script in Unicode.<sup>1</sup>
 
-The Noto fonts are a kind of [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
+The Noto fonts are a collection of [fonts](font.md), the files that hold the shapes software uses to show text.<sup>2</sup>
 
-A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write one or more languages, such as Arabic, Devanagari or Ethiopic. [Unicode](../text-in-software/unicode.md) is the standard that aims to give every character in every script its own number. A font is a file of shapes for some of those characters.
+A [script](../../language-terms/writing-systems-and-scripts/script.md) is a set of symbols used to write one or more languages, such as Arabic, Devanagari or Ethiopic. [Unicode](../text-in-software/unicode.md) is the standard that aims to give every character in every script its own number. Each font holds shapes for some of those characters.
 
 ### Why it matters in design systems
 

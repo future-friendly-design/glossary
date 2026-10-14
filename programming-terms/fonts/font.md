@@ -40,7 +40,7 @@ tags:
 
 A font is a file that holds the shapes software uses to show text.<sup>1</sup>
 
-Each shape in a font is called a [glyph](glyph.md). The file also holds instructions for choosing and placing those shapes, in a format called [OpenType](opentype.md). What a font covers is its [font coverage](font-coverage.md), and when it falls short, software uses a [fallback font](fallback-font.md) or shows an empty box called [tofu](tofu.md). A font carries the design of a [typeface](typeface.md), and [text shaping](../text-shaping-and-layout/text-shaping.md) is the step that reads it.
+Each shape in a font is called a [glyph](glyph.md). The file also holds instructions for choosing and placing those shapes, usually in a format called [OpenType](opentype.md). What a font covers is its [font coverage](font-coverage.md), and when it falls short, software uses a [fallback font](fallback-font.md) or shows an empty box called [tofu](tofu.md). A font carries the design of a [typeface](typeface.md), and [text shaping](../text-shaping-and-layout/text-shaping.md) is the step that reads it.
 
 Alongside the shapes, the file holds a list that says which shape belongs to which character, and software reads that list every time it shows a word.<sup>2</sup> A font is not the same thing as a typeface. The typeface is the design, the way the type looks, and the font is the file that delivers that design to a screen or a printer.<sup>3</sup>
 

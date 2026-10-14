@@ -38,7 +38,7 @@ tags:
 
 Faux italic is an imitation of italic text that software makes by slanting the shapes of a regular font, because it has no italic font to use.<sup>1</sup>
 
-Faux italic is what you see when a [font](font.md), the file that holds the shapes software uses to show text, falls short.<sup>2</sup>
+Faux italic is what you see when a family of [fonts](font.md), the files that hold the shapes software uses to show text, falls short: it has no italic font.<sup>2</sup>
 
 "Faux" is French for false, and the same thing is called fake italic or synthetic oblique. The software leans each upright shape to one side, and no type designer is involved.<sup>3</sup> Its partner, [faux bold](faux-bold.md), is made by thickening the shapes instead of leaning them.
 
@@ -75,7 +75,7 @@ Thinking italic and slanted are the same thing. Type has two words for leaning t
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Faux bold](faux-bold.md) · [Font](font.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Font terms](./)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Cyrillic script](../../language-terms/writing-systems-and-scripts/cyrillic.md) · [Design token](../../design-terms/design-token.md) · [Faux bold](faux-bold.md) · [Font](font.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Legibility](../../design-terms/typography/legibility.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script (typeface)](../../design-terms/typography/script-typeface.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Font terms](./)
 
 ### Further reading
 

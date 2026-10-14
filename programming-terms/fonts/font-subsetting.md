@@ -39,7 +39,7 @@ Font subsetting is the practice of making a smaller copy of a font file by keepi
 
 Font subsetting is something done to a [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
 
-A subset is a smaller part taken from a whole set. A font is a file of shapes, one or more for each character it covers, together with instructions for combining and placing those shapes. The smaller copy is called a subset font, or just a subset.
+A subset is a smaller part taken from a whole set. A font holds one or more shapes for each character it covers, together with instructions for combining and placing those shapes. The smaller copy is called a subset font, or just a subset.
 
 ### Why it matters in design systems
 

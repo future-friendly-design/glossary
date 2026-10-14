@@ -37,7 +37,7 @@ tags:
 
 Tofu is the nickname for the empty box that appears in place of a character when no font available to the software holds a shape for it.<sup>1</sup>
 
-Tofu is what you see when a [font](font.md), the file that holds the shapes software uses to show text, falls short.<sup>2</sup>
+Tofu is what you see when every [font](font.md) available, the files that hold the shapes software uses to show text, falls short.<sup>2</sup>
 
 For example, the Amharic greeting ሰላም ("selam", "peace") is written with three characters of [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md). On a device with no font for Ethiopic, the same word looks like this: □□□.
 

@@ -28,17 +28,17 @@ tags:
 
 ## Definition
 
-A glyph is the specific visual shape a font holds for a character.<sup>1</sup>
+A glyph is the specific visual shape a [font](font.md) holds for a [character](../text-in-software/character.md).<sup>1</sup>
 
-A glyph is one of the parts of a [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
+A glyph is one of the parts of a font, the file that holds the shapes software uses to show text.<sup>2</sup>
 
-For example, the [character](../text-in-software/character.md) `a` is one unit of text, but its glyph looks quite different in a serif typeface, one with small finishing strokes, than in a sans-serif, one without them.
+For example, the character `a` is one unit of text, but its glyph looks quite different in a serif typeface, one with small finishing strokes, than in a sans-serif, one without them.
 
 ### Why it matters in design systems
 
 This is the line between what text is and what text looks like. The character is the abstract unit a system stores; the glyph is the shape one font holds for it. Swap the font and every glyph on the page changes while the text itself stays identical, which is why a font change can never fix a spelling and a spelling change can never fix a rendering problem.
 
-The mapping between the two is not one to one in either direction. Unicode states it plainly: a single glyph may correspond to one character or to several, and a single character may produce multiple glyphs.<sup>3</sup> The rendering engine is what chooses them, during layout.<sup>4</sup> Several characters collapsing into one glyph is what a [ligature](ligature.md) is. In the Arabic script a single letter is shown with a different glyph depending on which letters sit beside it, the behaviour covered under [joining](../../language-terms/writing-systems-and-scripts/joining.md), so one character may correspond to four glyphs in the same font.<sup>5</sup>
+The mapping between the two is not one to one in either direction. Unicode states it plainly: a single glyph may correspond to one character or to several, and a single character may produce multiple glyphs.<sup>3</sup> The software chooses them while it lays out the text.<sup>4</sup> The part that does the choosing is called a [shaping engine](../text-shaping-and-layout/shaping-engine.md). Several characters collapsing into one glyph is what a [ligature](ligature.md) is. In the Arabic script a single letter is shown with a different glyph depending on which letters sit beside it, the behaviour covered under [joining](../../language-terms/writing-systems-and-scripts/joining.md), so one character may correspond to four glyphs in the same font.<sup>5</sup>
 
 For a design system, that has a practical consequence worth internalizing: counting characters tells you nothing about what will be shown. Whether text renders correctly depends on whether the font contains the needed glyphs, which is [font coverage](font-coverage.md), and on whether the software selects and positions them properly, which is [text shaping](../text-shaping-and-layout/text-shaping.md). A font missing a glyph is the usual cause of the empty box known as [tofu](tofu.md). Both conditions have to hold, and neither is visible in the text itself, so both have to be tested by rendering real content in the real tools rather than inspected in a string.
 
@@ -46,7 +46,7 @@ For a design system, that has a practical consequence worth internalizing: count
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Code point](../text-in-software/code-point.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Ligature](ligature.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](../text-in-software/unicode.md) · [Font terms](./)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Code point](../text-in-software/code-point.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Ligature](ligature.md) · [Shaping engine](../text-shaping-and-layout/shaping-engine.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Tofu](tofu.md) · [Typeface](typeface.md) · [Unicode](../text-in-software/unicode.md) · [Font terms](./)
 
 ### Further reading
 

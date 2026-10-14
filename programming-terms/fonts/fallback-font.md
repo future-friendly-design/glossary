@@ -39,7 +39,7 @@ A fallback font is a font that software uses in place of the one you chose, eith
 
 A fallback font is a kind of [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
 
-A font is a file of shapes, and it only has shapes for the characters its makers drew. The set of characters a font has shapes for is its [font coverage](font-coverage.md), and no font covers everything. So a product does not name one font. It names a list of fonts in order of preference, often called a font stack, and every font after the first one is a fallback.
+A font only has shapes for the characters its makers drew. The set of characters a font has shapes for is its [font coverage](font-coverage.md), and no font covers everything. So a product does not name one font. It names a list of fonts in order of preference, often called a font stack, and every font after the first one is a fallback.
 
 ### Why it matters in design systems
 

@@ -37,7 +37,7 @@ tags:
 
 Faux bold is an imitation of bold text that software makes by thickening the shapes of a regular font, because it has no bold font to use.<sup>1</sup>
 
-Faux bold is what you see when a [font](font.md), the file that holds the shapes software uses to show text, falls short.<sup>2</sup>
+Faux bold is what you see when a family of [fonts](font.md), the files that hold the shapes software uses to show text, falls short: it has no bold font.<sup>2</sup>
 
 "Faux" is French for false, and the same thing is called fake bold or synthetic bold. A real bold is a separate font that a type designer drew. Faux bold is not drawn by anyone: the software takes each regular shape and adds a thin extra outline around it.<sup>3</sup> Its partner, [faux italic](faux-italic.md), is made by leaning the shapes over instead of thickening them.
 
