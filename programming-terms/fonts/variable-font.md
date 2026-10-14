@@ -40,37 +40,19 @@ tags:
 
 ## Definition
 
-A variable font is a font file that holds a whole range of styles of a typeface, where an ordinary font file holds one.<sup>1</sup>
+A variable font is a kind of font file that holds the whole range of font styles and weights of a typeface in a single file.<sup>1</sup>&#x20;
 
-A variable font is a kind of [font](font.md), the file that holds the shapes software uses to show text.<sup>2</sup>
-
-The styles are not stored one by one. The file stores how the design changes between two ends, such as its lightest and its heaviest, and software can produce any point in between.<sup>3</sup> Each of those lines of change is called an axis.
+This is different from a standard [font](font.md), which has only 1 font style or font weight per font file. This means to support a normal font weight and a bold font weight, a variable font only needs to load one font file, and a standard font would need to load two font files.&#x20;
 
 ### Why it matters in design systems
 
-A style menu usually offers a short list: Light, Regular, Semibold, Bold. Behind each name on that list there is normally a separate font file, because an ordinary font holds a single style.<sup>4</sup> With a variable font the list becomes a slider.
+A font's style menu usually offers a range of weights: Light, Regular, Semibold, Bold. Behind each name on that list there is normally a separate font file, because an ordinary font holds a single style.<sup>4</sup> With a variable font the list becomes a slider, as each font weight changes along its style axis.&#x20;
 
-An axis is one way the design can change, written as a range of numbers that the type designer sets inside the file.<sup>5</sup> Weight is the one most people meet first. Five axes have agreed names (weight, width, slant, italic and optical size),<sup>6</sup> and a type designer can add others of their own.<sup>7</sup> The designer can also give familiar names to points along an axis, so a variable font can still show Light and Semibold in a style menu the way an ordinary [typeface](typeface.md) family does.<sup>8</sup> Variable fonts are a later addition to [OpenType](opentype.md), the most widely used font format.<sup>9</sup>
+However, font weight is one of five style axes defined in a variable font file (weight, width, slant, italic and optical size),<sup>6</sup> and a type designer can add other styles of their own.<sup>7</sup> The designer can also give familiar names to points along an axis, so a variable font can still show Light and Semibold in a style menu the way an ordinary [typeface](typeface.md) family does.<sup>8</sup> Variable fonts are a later addition to [OpenType](opentype.md), the most widely used font format.<sup>9</sup>
 
-Two things follow for a design system. The first is quality. A weight taken from a variable font is worked out from the type designer's own drawings, and it is not counted as a fake, unlike [faux bold](faux-bold.md), where a browser thickens the regular shapes because no bold was available.<sup>10</sup> The second is that [font weight](font-weight.md) becomes a real number. A [token](../../design-terms/design-token.md) can ask for 550, or even 425.5,<sup>11</sup> where separate files offer only the weights somebody chose to make.
+Variable fonts are preferred in systems that value typography as a part of their visual identity due to its enhanced quality and the ability to be very specific with typesetting. A font weight taken from a variable font is worked out from the type designer's own drawings, and it is not counted as a fake, unlike [faux bold](faux-bold.md), where a browser thickens the regular shapes because no bold was available.<sup>10</sup> The second is that [font weight](font-weight.md) becomes a real number. A [design token](../../design-terms/design-token.md) can ask for font weight of `550`, or even `425.5`<sup>11</sup>&#x20;
 
-A variable font is not automatically the smaller download. The file is larger than a single ordinary font,<sup>12</sup> so it saves anything only when a product would otherwise load several styles. Count the styles you really use before deciding.
-
-The limit that matters most in a product with more than one language is that every font has its own axes and its own ranges.<sup>13</sup> Asking for a value outside a font's range is not an error. The value is pulled back to the nearest end of the range.<sup>14</sup> Software chooses a font for each character,<sup>15</sup> so text in each [script](../../language-terms/writing-systems-and-scripts/script.md) is usually shown in a different font in the font list, the ordered list of fonts a product names, and those fonts were made separately. One may be variable with a wide weight range, another variable with a narrow one, and a third not variable at all. Here is one weight token meeting three such fonts, where the two ordinary files follow a browser's rule for a missing weight:<sup>16</sup>
-
-| Weight asked for | Variable font, range 100 to 900 | Variable font, range 400 to 700 | Two ordinary files, 400 and 700 |
-| ---------------- | ------------------------------- | ------------------------------- | ------------------------------- |
-| 300              | 300                             | 400                             | 400                             |
-| 550              | 550                             | 550                             | 700                             |
-| 800              | 800                             | 700                             | 700                             |
-
-A heading set at 800 comes out heavier in one script than in the two beside it, on the same page, from the same token.
-
-So treat "variable" as a fact about one file, not about your whole type system. Three habits follow from that:
-
-* **Record each font.** For every font in the font list, write down whether it is variable, which axes it has, and the range of each.
-* **Keep weight tokens in range.** Choose weights that every script's font can use, or accept the difference on purpose.
-* **Check what Figma shows against what ships.** In Figma, a variable font adds a Variable tab to the type settings.<sup>17</sup> A value chosen there only reaches the product if the font file the product ships has that axis and that range.
+A variable font is not automatically a smaller file size than a traditional font. The file is larger than a single ordinary font,<sup>12</sup> so it saves anything only when a product would otherwise load several styles.&#x20;
 
 ***
 
