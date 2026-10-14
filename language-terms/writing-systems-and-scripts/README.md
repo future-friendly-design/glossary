@@ -29,7 +29,7 @@ Stacked marks take up more vertical space on a letter. That extra height needs r
 ### Script terms by topic
 
 {% hint style="info" %}
-This glossary does not support every script. Its coverage is limited to the examples and related terms that came up during the [SILCON](https://silicon.stanford.edu/) UX incubator that Sam, the founder of Future Friendly Designs, was teaching.
+This glossary does not support every script.
 
 If you've got a script or related term you'd like see added, head to the [contributing page](../../CONTRIBUTING.md) to learn more!
 {% endhint %}

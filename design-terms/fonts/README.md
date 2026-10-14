@@ -28,7 +28,7 @@ Neither outcome is a type decision anyone made on purpose.
 ### Terms by topic
 
 {% hint style="info" %}
-This glossary does not cover every font format, feature, and control; its coverage follows the questions that came up in the [SILCON](https://silicon.stanford.edu/) UX incubator that Sam, the founder of Future Friendly Designs, was teaching. Select a linked term to navigate to its glossary page to learn more.
+This glossary does not cover every font format, feature, and control. Select a linked term to navigate to its glossary page to learn more.
 
 If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
 {% endhint %}

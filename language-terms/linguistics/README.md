@@ -23,7 +23,7 @@ Serbian is one language written in two scripts, while spoken Mandarin and Canton
 ### Language and linguistics terms by topic
 
 {% hint style="info" %}
-This glossary does not cover every language or linguistics concept. Its coverage grew from the examples and related terms that came up during the [SILCON](https://silicon.stanford.edu/) UX incubator that Sam, the founder of Future Friendly Designs, was teaching.
+This glossary does not cover every language or linguistics concept.
 
 If you have a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md) to learn more.
 {% endhint %}

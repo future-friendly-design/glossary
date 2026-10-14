@@ -30,7 +30,7 @@ The gap between the rows widens outside the Latin script. In Devanagari, नम�
 ### Terms by topic
 
 {% hint style="info" %}
-This glossary does not cover every part of the text model; its coverage follows the questions that came up in the [SILCON](https://silicon.stanford.edu/) UX incubator that Sam, the founder of Future Friendly Designs, was teaching. Select a linked term to navigate to its glossary page to learn more.
+This glossary does not cover every part of the text model. Select a linked term to navigate to its glossary page to learn more.
 
 If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
 {% endhint %}

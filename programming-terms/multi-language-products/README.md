@@ -4,8 +4,8 @@
 
 There are two halves to this job, and mixing them up is the most expensive mistake in the area.
 
-Internationalization is the up-front work that makes a product capable of holding another language at all: text pulled out of the code, layouts that survive a longer word, formats that are not hard-coded to one country's habits.
-Localization is adapting that prepared product to one particular language and place.
+Internationalization is the design and development work that makes a product able to be adapted to other languages and places: text pulled out of the code, layouts that survive a longer word, formats that are not hard-coded to one country's habits.
+Localization is the work of adapting a product to one particular language and place.
 
 The order is not negotiable.
 You cannot cleanly localize a product whose text is baked into its screens, and no amount of translation budget fixes a layout that assumed every label would be short.
@@ -22,42 +22,73 @@ Those are design decisions with visible consequences, made long before a transla
 ### Terms by topic
 
 {% hint style="info" %}
-This glossary does not cover every part of building multilingual software; its coverage follows the questions that came up in the [SILCON](https://silicon.stanford.edu/) UX incubator that Sam, the founder of Future Friendly Designs, was teaching. Select a linked term to navigate to its glossary page to learn more.
-
-If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
+This glossary does not cover every part of building multilingual software. If there is a term you would like to see added, head to the [contributing page](../../CONTRIBUTING.md).
 {% endhint %}
 
 #### The two halves of the job
 
-Preparing a product to hold any language, and then adapting it to one. Plus the technique for finding out whether the first half was actually done.
+Preparing a product to hold any language, and then adapting it to one. Plus the technique for finding out whether the first half was actually done. Internationalization is the parent of every other term in this section: each one is something a product has to be ready for before it can be adapted.
 
-* [Internationalization (i18n)](../text-for-digital-products-and-the-web/internationalization.md)
-* [Localization (l10n)](../text-for-digital-products-and-the-web/localization.md)
-* [Pseudolocalization](../text-for-digital-products-and-the-web/pseudolocalization.md)
+[**Internationalization (i18n)**](../text-for-digital-products-and-the-web/internationalization.md)
+
+Internationalization is the design and development work that makes a product able to be adapted to other languages and places.
+
+[**Localization (l10n)**](../text-for-digital-products-and-the-web/localization.md)
+
+Localization is the work of adapting a product to one particular language and place.
+
+[**Pseudolocalization**](../text-for-digital-products-and-the-web/pseudolocalization.md)
+
+Pseudolocalization is a testing technique that swaps a product's text for a fake translation, to show whether the product is ready for a real one.
 
 #### Describing a language and a place
 
 A product needs a way to say which language and which regional conventions it is using, and a source of truth for what those conventions actually are.
+Language tags and locales are the same kind of code doing two jobs: a language tag says what language the content is in, and a locale says what the reader expects.
 
-* [CLDR](../text-for-digital-products-and-the-web/cldr.md)
-* [ICU](../text-for-digital-products-and-the-web/icu.md)
-* [Language tag](../text-for-digital-products-and-the-web/language-tag.md)
-* [Locale](../text-for-digital-products-and-the-web/locale.md)
+[**CLDR**](../text-for-digital-products-and-the-web/cldr.md)
+
+CLDR is a shared public collection of data that records how each language writes things such as dates, numbers and sorted lists in each place it is used, so that software can look those conventions up instead of every product working them out.
+
+[**ICU**](../text-for-digital-products-and-the-web/icu.md)
+
+ICU is a widely used collection of ready-made code that products reuse to handle text and local conventions in many languages, such as formatting a date or sorting a list.
+
+[**Language tag**](../text-for-digital-products-and-the-web/language-tag.md)
+
+A language tag is a short code that labels a piece of text or other content with the language it is in.
+
+[**Locale**](../text-for-digital-products-and-the-web/locale.md)
+
+A locale is a short code that names a language and a specific location, so that software can look up the conventions used there for writing things such as dates, numbers and sorted lists.
 
 #### What changes when the language changes
 
 Some behaviour a product treats as fixed is really a local convention, and it changes underneath you.
 
-* [Case mapping](../text-for-digital-products-and-the-web/case-mapping.md)
-* [Collation](../text-for-digital-products-and-the-web/collation.md)
-* [Text expansion](../text-for-digital-products-and-the-web/text-expansion.md)
+[**Case mapping**](../text-for-digital-products-and-the-web/case-mapping.md)
+
+Case mapping is the process software uses to change text from one letter case to another, such as from lowercase to uppercase.
+
+[**Collation**](../text-for-digital-products-and-the-web/collation.md)
+
+Collation is the set of rules that software follows to put text in order, for example when it sorts a list of names.
+
+[**Text expansion**](../text-for-digital-products-and-the-web/text-expansion.md)
+
+Text expansion is the growth in the space a piece of text needs when it is translated into another language.
 
 #### Typing in another language
 
 Input is the half of multilingual support that design most often forgets, because the team's own keyboards already work.
 
-* [Input method editor (IME)](../text-for-digital-products-and-the-web/input-method-editor.md)
-* [Keyboard layout](../text-for-digital-products-and-the-web/keyboard-layout.md)
+[**Input method editor (IME)**](../text-for-digital-products-and-the-web/input-method-editor.md)
+
+An input method editor (IME) is software that turns what a person types into the characters they mean, usually by offering a list of choices to pick from.
+
+[**Keyboard layout**](../text-for-digital-products-and-the-web/keyboard-layout.md)
+
+A keyboard layout is the set of rules that decides which character appears when a person presses a key on a keyboard or taps one on a screen.
 
 ### Where to go next
 
