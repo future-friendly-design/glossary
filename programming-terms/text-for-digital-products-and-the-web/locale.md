@@ -27,9 +27,9 @@ license: CC-BY-4.0
 
 A locale is a short code that names a language and a specific location, so that software can look up the conventions used there for writing things such as dates, numbers and sorted lists.<sup>1</sup>
 
-For example, in the code `en-US`, the first part, `en`, means the English language, and the last part, `US`, means the United States as the specific location. This matters because English is written with different conventions in different locations. In United States English (`en-US`), a date is written with the month first.<sup>2</sup> In United Kingdom English (`en-GB`), it is written with the day first.<sup>3</sup> Canadian English (`en-CA`) is a third locale, with conventions of its own.
+For example, in the code `en-US`, the first part, `en`, means the English [language](../../language-terms/linguistics/language.md), and the last part, `US`, means the United States as the specific location. This matters because English is written with different conventions in different locations. In United States English (`en-US`), a date is written with the month first.<sup>2</sup> In United Kingdom English (`en-GB`), it is written with the day first.<sup>3</sup> Canadian English (`en-CA`) is a third locale, with conventions of its own.
 
-The same kind of code is also used to label what language a piece of text is in. Used that way, it is called a [language tag](language-tag.md).<sup>4</sup> People also say "locale" for the set of conventions itself, not only for the code that names it.<sup>5</sup>
+The same kind of code has a second job. Put on a piece of text, it says what language the text is in, and it is then called a [language tag](language-tag.md).<sup>4</sup> Used as a locale, it says what the reader expects. For example, `fr-CA` on a paragraph says the paragraph is in French as it is used in Canada. As a reader's locale, the same code says the reader expects dates and numbers written the way they are in Canada. People also say "locale" for those conventions themselves, not only for the code that names them.<sup>5</sup>
 
 ### Why it matters in design systems
 
@@ -49,7 +49,7 @@ Here is one number, 123456.789, shown for three locales:
 
 <!-- The three outputs were produced with Intl.NumberFormat (Node 26.9, ICU 78.3, CLDR 48) on 2026-10-13. The ar-EG string includes U+066C ARABIC THOUSANDS SEPARATOR; the comment on the MDN page still shows an older output without it. -->
 
-The German row uses a period to group the digits and a comma before the decimals. The Indian row uses the comma and the period the other way round, keeps the last three digits together, and groups the rest in twos. The Egyptian row uses the digits of the Arabic script, with separators of their own. No word was translated in any of the three, and that is the first thing a locale teaches: adapting a product for a place, which is called [localization](localization.md), is a good deal more than translating it.
+The German row uses a period to group the digits and a comma before the decimals. The Indian row uses the comma and the period the other way round, keeps the last three digits together, and groups the rest in twos. The Egyptian row uses the digits of the [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md), with separators of their own. No word was translated in any of the three, and that is the first thing a locale teaches: adapting a product for a place, which is called [localization](localization.md), is a good deal more than translating it.
 
 A locale stands for more than a language. The two date readers at the top of this page share a language, and what differs between them is the place. The locale covers both. Sometimes even language and place together are not enough: German has one sort order for dictionaries and another for phone books, and a German reader may want either.<sup>12</sup> So think of a locale as pointing to a bundle of separate preferences that usually travel together, and not to a single fact about a person.
 

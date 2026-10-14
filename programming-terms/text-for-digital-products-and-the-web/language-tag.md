@@ -29,7 +29,7 @@ A language tag is a short code that labels a piece of text or other content with
 
 The content does not have to be written. A language tag can also label speech or a [sign language](../../language-terms/linguistics/sign-language.md): `ase` is the tag for American Sign Language.<sup>2</sup>
 
-The code is built from pieces separated by hyphens.<sup>3</sup> The first piece always names the language.<sup>4</sup> Each piece after it narrows the meaning.<sup>5</sup> Two kinds of later piece matter most in design work. One names the [script](../../language-terms/writing-systems-and-scripts/script.md), the set of symbols the text is written in, such as Latin or Cyrillic. The other names a region, for the version of the language used in one place.
+The code is built from pieces separated by hyphens.<sup>3</sup> The first piece always names the [language](../../language-terms/linguistics/language.md).<sup>4</sup> Each piece after it narrows the meaning.<sup>5</sup> Two kinds of later piece matter most in design work. One names the [script](../../language-terms/writing-systems-and-scripts/script.md), the set of symbols the text is written in, such as [Latin](../../language-terms/writing-systems-and-scripts/latin-script.md) or [Cyrillic](../../language-terms/writing-systems-and-scripts/cyrillic.md). The other names a region, for the version of the language used in one place.
 
 ### Why it matters in design systems
 
@@ -39,7 +39,7 @@ The label is not decoration. Software reads it and changes what it does with the
 
 | What the reader notices | What the software does with the tag |
 | ----------------------- | ----------------------------------- |
-| The shapes of the characters | Chinese, Japanese and Korean share many characters, and a shared character is stored the same way whichever language it is in. Yet readers of each language expect it to be drawn a little differently.<sup>7</sup> Some browsers use the tag to choose a font with the shapes that language expects.<sup>8</sup> |
+| The shapes of the characters | [Chinese, Japanese and Korean](../../language-terms/writing-systems-and-scripts/cjk.md) share many [characters](../text-in-software/character.md), and a shared character is stored the same way whichever language it is in. Yet readers of each language expect it to be drawn a little differently.<sup>7</sup> Some browsers use the tag to choose a [font](font.md) with the shapes that language expects.<sup>8</sup> |
 | Words broken across two lines | Breaking a long word with a hyphen follows rules that differ by language, so a browser is only expected to do it for text whose language it has been told.<sup>9</sup> |
 | Text read aloud | A screen reader is software that reads the screen aloud, used by people who cannot see it. The tag tells it which language's pronunciation rules to load.<sup>10</sup> |
 | Spelling | A spelling checker can check the text against the right language, or leave alone text in a language it does not know.<sup>11</sup> |
@@ -57,7 +57,7 @@ Each row below adds one piece to the tag.
 | `fr` | language | French<sup>13</sup> |
 | `ast` | language | Asturian. The code has three letters because this language has no two-letter code.<sup>14</sup> |
 | `fr-CA` | language, region | French as used in Canada<sup>15</sup> |
-| `az-Latn` | language, script | Azerbaijani written in the Latin script. Azerbaijani can also be written in the Arabic or Cyrillic script, so the script is worth stating.<sup>16</sup> |
+| `az-Latn` | language, script | Azerbaijani written in the Latin script. Azerbaijani can also be written in the [Arabic](../../language-terms/writing-systems-and-scripts/arabic-script.md) or Cyrillic script, so the script is worth stating.<sup>16</sup> |
 | `zh-Hant-HK` | language, script, region | Chinese in the Traditional form of its characters, as used in Hong Kong<sup>17</sup> |
 
 The order is fixed: language first, then script, then region.<sup>18</sup> The capital letters are a habit that makes tags easier to read, with the language in lower case, the script starting with a capital and the region in capitals, and they do not change the meaning.<sup>19</sup>
