@@ -5,7 +5,9 @@ aliases:
   - Glyph Positioning table
 level: advanced
 depth: core
-summary: GPOS is the part of a font file that tells software where to place each shape in relation to the shapes around it.
+summary: >-
+  GPOS is the part of a font file that tells software where to place each shape
+  in relation to the shapes around it.
 related:
   - gsub
   - opentype
@@ -13,11 +15,11 @@ related:
   - text-shaping
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
-  - title: "GPOS: Glyph Positioning Table (Microsoft)"
+  - title: 'GPOS: Glyph Positioning Table (Microsoft)'
     url: https://learn.microsoft.com/en-us/typography/opentype/spec/gpos
     type: code
   - title: Why do I need a shaping engine? (HarfBuzz)
@@ -36,7 +38,7 @@ GPOS is the part of a font file that tells software where to place each shape in
 
 GPOS is one of the tools of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes: software called a [shaping engine](shaping-engine.md) reads it from the font.<sup>2</sup>
 
-The name is short for Glyph Positioning. A [glyph](glyph.md) is one of the drawn shapes stored in a [font](font.md). GPOS belongs to [OpenType](../../design-terms/typography/opentype.md), the most widely used font format.<sup>3</sup>
+The name is short for Glyph Positioning. A [glyph](../text-for-digital-products-and-the-web/glyph.md) is one of the drawn shapes stored in a [font](../text-for-digital-products-and-the-web/font.md). GPOS belongs to [OpenType](../../design-terms/typography/opentype.md), the most widely used font format.<sup>3</sup>
 
 ### Why it matters in design systems
 
@@ -44,11 +46,11 @@ Every symbol you see on screen has been put in an exact spot. Often the rule is 
 
 That simple rule is not enough for a lot of writing:
 
-| What needs placing | Example | Without it |
-| ------------------ | ------- | ---------- |
-| Two letters whose shapes leave a gap between them | `A` next to `V` | The pair looks too far apart. Closing the gap is called [kerning](../../design-terms/typography/kerning.md).<sup>5</sup> |
-| A mark that belongs above or below a symbol | The Arabic vowel marks in `بَ` (ba), `بِ` (bi), `بُ` (bu) | The mark sits too high, too low, or on top of the symbol.<sup>6</sup> |
-| A mark that sits on another mark | The Vietnamese ế in Tiếng Việt, where a [tone mark](../../language-terms/writing-systems-and-scripts/tone-mark.md), which shows the tone of the voice, sits on top of a mark that changes the vowel | In a font that builds ế from separate parts, the two marks overlap.<sup>7</sup> |
+| What needs placing                                | Example                                                                                                                                                                                             | Without it                                                                                                               |
+| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Two letters whose shapes leave a gap between them | `A` next to `V`                                                                                                                                                                                     | The pair looks too far apart. Closing the gap is called [kerning](../../design-terms/typography/kerning.md).<sup>5</sup> |
+| A mark that belongs above or below a symbol       | The Arabic vowel marks in `بَ` (ba), `بِ` (bi), `بُ` (bu)                                                                                                                                           | The mark sits too high, too low, or on top of the symbol.<sup>6</sup>                                                    |
+| A mark that sits on another mark                  | The Vietnamese ế in Tiếng Việt, where a [tone mark](../../language-terms/writing-systems-and-scripts/tone-mark.md), which shows the tone of the voice, sits on top of a mark that changes the vowel | In a font that builds ế from separate parts, the two marks overlap.<sup>7</sup>                                          |
 
 The measurements for this are kept in the font, because they depend on the font's own glyphs: the right spot for a mark depends on the height and width of the symbol it belongs to.<sup>8</sup> GPOS is where the font keeps those measurements. Kerning is the one exception. It can also be kept in an older part of the font file, called `kern`, so an older font with no GPOS can still kern, but it has nowhere to keep the measurements for marks.<sup>9</sup>
 
@@ -64,7 +66,7 @@ GPOS is not something you set in a design tool. What you can do is choose fonts 
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](font.md) · [Glyph](glyph.md) · [GSUB](gsub.md) · [Harakat](../../language-terms/writing-systems-and-scripts/harakat.md) · [Kerning](../../design-terms/typography/kerning.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Legibility](../../design-terms/typography/legibility.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](../../design-terms/typography/opentype.md) · [OpenType features](../../design-terms/typography/opentype-features.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](shaping-engine.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Text shaping](text-shaping.md) · [Tone mark](../../language-terms/writing-systems-and-scripts/tone-mark.md) · [Text shaping & layout terms](../text-shaping-and-layout/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [GSUB](gsub.md) · [Harakat](../../language-terms/writing-systems-and-scripts/harakat.md) · [Kerning](../../design-terms/typography/kerning.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Legibility](../../design-terms/typography/legibility.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](../../design-terms/typography/opentype.md) · [OpenType features](../../design-terms/typography/opentype-features.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](shaping-engine.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Text shaping](text-shaping.md) · [Tone mark](../../language-terms/writing-systems-and-scripts/tone-mark.md) · [Text shaping & layout terms](./)
 
 ### Further reading
 

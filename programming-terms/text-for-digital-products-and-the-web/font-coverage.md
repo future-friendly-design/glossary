@@ -14,14 +14,14 @@ related:
   - full-width
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
   - title: CSS Fonts Module Level 3 (W3C)
     url: https://www.w3.org/TR/css-fonts-3/
     type: code
-  - title: "The Unicode Standard 18.0, chapter 5: Implementation Guidelines"
+  - title: 'The Unicode Standard 18.0, chapter 5: Implementation Guidelines'
     url: https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-5/
     type: authority
 license: CC-BY-4.0
@@ -47,15 +47,15 @@ Every font runs out somewhere, and that is a matter of arithmetic, not of effort
 
 Holding the shapes is also only the first of three levels of coverage, and a font can pass one level and fail the next.
 
-| Level           | The question to ask                                                                              | What you see when the answer is no                                                                                                  |
-| --------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Shapes       | Does the font hold a shape for every character in the text?                                      | Empty boxes, or some characters shown in a different font.<sup>6</sup>                                                              |
+| Level           | The question to ask                                                                              | What you see when the answer is no                                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Shapes       | Does the font hold a shape for every character in the text?                                      | Empty boxes, or some characters shown in a different font.<sup>6</sup>                                                                |
 | 2. Instructions | Does the font also hold the instructions this script needs for combining and placing its shapes? | Every character appears, but the word is wrong. Letters that should connect stand apart, or marks sit in the wrong place.<sup>7</sup> |
-| 3. Software     | Does the software that draws the text read those instructions and follow them?                   | The same wrong word. The font cannot fix this, because applying the instructions is the software's job.<sup>8</sup>                 |
+| 3. Software     | Does the software that draws the text read those instructions and follow them?                   | The same wrong word. The font cannot fix this, because applying the instructions is the software's job.<sup>8</sup>                   |
 
 Level 2 is the one people miss, because nothing looks missing. Many scripts do not simply set one shape after the next. In [Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md), the letters kāf ك, tāʾ ت and bāʾ ب each have a shape for standing alone, but in the word كتب they connect. In [Devanagari](../../language-terms/writing-systems-and-scripts/devanagari.md), the word हिन्दी ("Hindi") merges the consonants न and द into one combined shape, न्द. These behaviours are required for the text to be correct, and the instructions for them have to be in the font.<sup>9</sup> A font that holds every one of those characters but none of the instructions will show them side by side, unconnected and unmerged. All the characters show up, and the word is still wrong to anyone who can read it.
 
-The instructions are kept in two lists inside the font: [GSUB](gsub.md), which says which shapes to swap for other shapes, and [GPOS](gpos.md), which says where to place them.<sup>10</sup> The work of following them is called [text shaping](text-shaping.md), the software that does it is a [shaping engine](shaping-engine.md), and writing that needs a lot of this work is said to need [complex text layout](complex-text-layout.md).
+The instructions are kept in two lists inside the font: [GSUB](../text-shaping-and-layout/gsub.md), which says which shapes to swap for other shapes, and [GPOS](../text-shaping-and-layout/gpos.md), which says where to place them.<sup>10</sup> The work of following them is called [text shaping](../text-shaping-and-layout/text-shaping.md), the software that does it is a [shaping engine](../text-shaping-and-layout/shaping-engine.md), and writing that needs a lot of this work is said to need [complex text layout](../text-shaping-and-layout/complex-text-layout.md).
 
 Coverage is counted in characters, so a label such as "supports Latin" does not tell you much either. Vietnamese is written in [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md), and the phrase Tiếng Việt ("Vietnamese") uses the vowels ế and ệ, which each carry two marks at once. Unicode lists the characters Vietnamese needs in four separate groups of Latin characters,<sup>11</sup> and a font drawn with English in mind may hold only the first. So check coverage against the languages you support, one by one, and not against the name of a script.
 
@@ -75,7 +75,7 @@ Checking the font against your own text and stopping there. The labels, buttons 
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Character encoding](../text-in-software/character-encoding.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font subsetting](font-subsetting.md) · [Full-width](../text-in-software/full-width.md) · [Glyph](glyph.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [OpenType](../../design-terms/typography/opentype.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](shaping-engine.md) · [Text shaping](text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Unicode](../text-in-software/unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Font terms](../../design-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Character encoding](../text-in-software/character-encoding.md) · [Complex text layout](../text-shaping-and-layout/complex-text-layout.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font subsetting](font-subsetting.md) · [Full-width](../text-in-software/full-width.md) · [Glyph](glyph.md) · [GPOS](../text-shaping-and-layout/gpos.md) · [GSUB](../text-shaping-and-layout/gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [OpenType](../../design-terms/typography/opentype.md) · [Punctuation mark](../../language-terms/writing-systems-and-scripts/punctuation-mark.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](../text-shaping-and-layout/shaping-engine.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Unicode](../text-in-software/unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Font terms](../../design-terms/fonts/)
 
 ### Further reading
 

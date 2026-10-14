@@ -15,7 +15,7 @@ related:
   - font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -23,7 +23,8 @@ further_reading:
     url: https://learn.microsoft.com/en-us/typography/opentype/spec/overview
     type: code
   - title: Use OpenType features (Figma Learn)
-    url: https://help.figma.com/hc/en-us/articles/4913951097367-Use-OpenType-features
+    url: >-
+      https://help.figma.com/hc/en-us/articles/4913951097367-Use-OpenType-features
     type: design-tool
 license: CC-BY-4.0
 tags:
@@ -44,13 +45,13 @@ Download a font and look at the file name. It usually ends in `.otf` or `.ttf`, 
 
 Here is what the format gives a font maker room for:
 
-| An OpenType font file can hold | What that is for |
-| ------------------------------ | ---------------- |
-| Drawn shapes | The outlines of the glyphs, the shapes that appear on screen.<sup>4</sup> |
-| A list that matches characters to shapes | Text is stored as [characters](../../programming-terms/text-in-software/character.md), each saved as a number. The list says which shape to start with for each one.<sup>5</sup> |
-| Instructions for swapping shapes | Two letters drawn as one combined shape, or an Arabic letter changing form inside a word. This part of the file is called [GSUB](../../programming-terms/text-for-digital-products-and-the-web/gsub.md).<sup>6</sup> |
-| Instructions for placing shapes | Setting a mark above a letter, or closing the gap between two letters. This part is called [GPOS](../../programming-terms/text-for-digital-products-and-the-web/gpos.md).<sup>7</sup> |
-| Several weights or widths in one file | A font built this way is called a [variable font](variable-font.md).<sup>8</sup> |
+| An OpenType font file can hold           | What that is for                                                                                                                                                                                       |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Drawn shapes                             | The outlines of the glyphs, the shapes that appear on screen.<sup>4</sup>                                                                                                                              |
+| A list that matches characters to shapes | Text is stored as [characters](../../programming-terms/text-in-software/character.md), each saved as a number. The list says which shape to start with for each one.<sup>5</sup>                       |
+| Instructions for swapping shapes         | Two letters drawn as one combined shape, or an Arabic letter changing form inside a word. This part of the file is called [GSUB](../../programming-terms/text-shaping-and-layout/gsub.md).<sup>6</sup> |
+| Instructions for placing shapes          | Setting a mark above a letter, or closing the gap between two letters. This part is called [GPOS](../../programming-terms/text-shaping-and-layout/gpos.md).<sup>7</sup>                                |
+| Several weights or widths in one file    | A font built this way is called a [variable font](variable-font.md).<sup>8</sup>                                                                                                                       |
 
 Every row says "can hold". That is the part people miss. The format has room for every character in [Unicode](../../programming-terms/text-in-software/unicode.md), the standard list of the world's characters, but no font fills that room.<sup>9</sup> A font holds the shapes somebody drew for it, which may come from one [script](../../language-terms/writing-systems-and-scripts/script.md) or from many.<sup>10</sup> A script is a set of symbols used to write one or more languages, such as Latin, Arabic or Devanagari. So "it is an OpenType font" tells you how the file is arranged. It does not tell you which scripts the font has shapes for.
 
@@ -58,7 +59,7 @@ It helps to keep four levels apart, because a problem at one level is not fixed 
 
 * **The format** is OpenType. It decides what a font file is able to hold.
 * **The font** is one file in that format. It holds the shapes and instructions its maker put in, and nothing else. The instructions are sorted into named groups called [OpenType features](opentype-features.md).
-* **The software** that draws text reads the font and follows its instructions.<sup>11</sup> A font is a file, and a file does nothing by itself. This software is called a [shaping engine](../../programming-terms/text-for-digital-products-and-the-web/shaping-engine.md).
+* **The software** that draws text reads the font and follows its instructions.<sup>11</sup> A font is a file, and a file does nothing by itself. This software is called a [shaping engine](../../programming-terms/text-shaping-and-layout/shaping-engine.md).
 * **The script** sets the rules for what correct text looks like. The software supplies some of those rules itself, and the OpenType specification says plainly that the full rules for each script are outside what it covers.<sup>12</sup>
 
 Two things that are often credited to OpenType sit at the software level. When Devanagari draws a vowel mark before the letter it is typed after, the software moves it, and fonts are told not to try.<sup>13</sup> And the order of right-to-left text, including what happens when Arabic or Hebrew is mixed with English on one line, is worked out by the software from rules that Unicode publishes.<sup>14</sup> Neither is an OpenType feature, and no font setting switches them on.
@@ -69,7 +70,7 @@ For your work, this changes the question to ask about a font. "Is it OpenType?" 
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](../../programming-terms/text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [GPOS](../../programming-terms/text-for-digital-products-and-the-web/gpos.md) · [GSUB](../../programming-terms/text-for-digital-products-and-the-web/gsub.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Ligature](../../programming-terms/text-for-digital-products-and-the-web/ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [OpenType features](opentype-features.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](../../programming-terms/text-for-digital-products-and-the-web/shaping-engine.md) · [Text shaping](../../programming-terms/text-for-digital-products-and-the-web/text-shaping.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Variable font](variable-font.md) · [Font terms](../fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character](../../programming-terms/text-in-software/character.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font coverage](../../programming-terms/text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [GPOS](../../programming-terms/text-shaping-and-layout/gpos.md) · [GSUB](../../programming-terms/text-shaping-and-layout/gsub.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Ligature](../../programming-terms/text-shaping-and-layout/ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [OpenType features](opentype-features.md) · [Reordering](../../programming-terms/text-shaping-and-layout/reordering.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](../../programming-terms/text-shaping-and-layout/shaping-engine.md) · [Text shaping](../../programming-terms/text-shaping-and-layout/text-shaping.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Variable font](variable-font.md) · [Font terms](../fonts/)
 
 ### Further reading
 

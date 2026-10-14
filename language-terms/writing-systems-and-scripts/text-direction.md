@@ -89,7 +89,7 @@ Zoom out further to the content itself, and a single line can hold more than one
 
 Separately, one language may use more than one writing system, or a single script that can be written in more than one direction. For example, traditional Mongolian is written vertically (top to bottom), but can also be set left to right.
 
-Be sure to consider the language-specific requirements, known as the [orthography](orthography.md), on top of script rules like text direction. You may discover that a language has more than one writing system, so rather than assuming the script by location, your site may need to offer a setting that lets a user choose between them. This is where the functional side of the system takes on [complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) requirements.
+Be sure to consider the language-specific requirements, known as the [orthography](orthography.md), on top of script rules like text direction. You may discover that a language has more than one writing system, so rather than assuming the script by location, your site may need to offer a setting that lets a user choose between them. This is where the functional side of the system takes on [complex text layout](../../programming-terms/text-shaping-and-layout/complex-text-layout.md) requirements.
 
 #### Code and functional systems
 
@@ -113,7 +113,7 @@ Direction is just one of a script's [script rules](script-rules.md), and the sam
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [CJK](cjk.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Cyrillic script](cyrillic.md) · [Devanagari script](devanagari.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Greek script](greek-script.md) · [Hebrew script](hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Mongolian script (traditional)](mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](tategaki.md) · [Vertical text](../../terms/vertical-text.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Bidirectional text](bidirectional-text.md) · [CJK](cjk.md) · [Complex text layout](../../programming-terms/text-shaping-and-layout/complex-text-layout.md) · [Cyrillic script](cyrillic.md) · [Devanagari script](devanagari.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Greek script](greek-script.md) · [Hebrew script](hebrew-script.md) · [Joining](joining.md) · [Language](../linguistics/language.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Mongolian script (traditional)](mongolian-script.md) · [Orthography](orthography.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Stacking script](stacking-script.md) · [Tategaki](tategaki.md) · [Vertical text](../../terms/vertical-text.md) · [Writing system](writing-system.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

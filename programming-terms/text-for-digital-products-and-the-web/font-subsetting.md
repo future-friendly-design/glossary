@@ -5,7 +5,10 @@ aliases:
   - subsetting
 level: advanced
 depth: core
-summary: Font subsetting is the practice of making a smaller copy of a font file by keeping only the shapes and instructions needed for the characters a product expects to use.
+summary: >-
+  Font subsetting is the practice of making a smaller copy of a font file by
+  keeping only the shapes and instructions needed for the characters a product
+  expects to use.
 related:
   - font-coverage
   - fallback-font
@@ -13,7 +16,7 @@ related:
   - font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -44,9 +47,9 @@ That is why it belongs in this glossary. Subsetting changes a font's [coverage](
 
 There are two common ways to do it.
 
-| Way               | How it works                                                                                                                                                         | Who decides what a reader gets   |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| Cut it once       | One smaller file is made in advance from a list of characters. Everything not on the list is removed.                                                                | Whoever wrote the list.          |
+| Way                | How it works                                                                                                                                                             | Who decides what a reader gets   |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
+| Cut it once        | One smaller file is made in advance from a list of characters. Everything not on the list is removed.                                                                    | Whoever wrote the list.          |
 | Cut it into slices | The font is split into several files, each labelled with the characters it holds. The browser downloads a slice only when the page uses a character from it.<sup>3</sup> | The text on the page, each time. |
 
 On the web, the label on a slice is written in CSS, the language that sets how web pages look, with a setting called `unicode-range`. A browser is not allowed to use a slice for any character outside its label.<sup>4</sup>
@@ -68,7 +71,7 @@ Both failures are invisible to the team that caused them, because the team's own
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../../design-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [GPOS](../text-shaping-and-layout/gpos.md) · [GSUB](../text-shaping-and-layout/gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../../design-terms/fonts/)
 
 ### Further reading
 

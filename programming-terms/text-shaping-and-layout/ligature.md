@@ -4,7 +4,9 @@ slug: ligature
 aliases: []
 level: foundational
 depth: deep
-summary: A ligature is a single glyph, a shape in a font, that stands for two or more characters at once.
+summary: >-
+  A ligature is a single glyph, a shape in a font, that stands for two or more
+  characters at once.
 related:
   - glyph
   - gsub
@@ -12,7 +14,7 @@ related:
   - conjunct
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -20,9 +22,10 @@ further_reading:
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures
     type: code
   - title: Use OpenType features (Figma Learn)
-    url: https://help.figma.com/hc/en-us/articles/4913951097367-Use-OpenType-features
+    url: >-
+      https://help.figma.com/hc/en-us/articles/4913951097367-Use-OpenType-features
     type: design-tool
-  - title: "Unicode Glossary: Ligature"
+  - title: 'Unicode Glossary: Ligature'
     url: https://www.unicode.org/glossary/#ligature
     type: authority
 license: CC-BY-4.0
@@ -34,7 +37,7 @@ tags:
 
 ## Definition
 
-A ligature is a single [glyph](glyph.md), a shape in a font, that stands for two or more characters at once.<sup>1</sup>
+A ligature is a single [glyph](../text-for-digital-products-and-the-web/glyph.md), a shape in a font, that stands for two or more characters at once.<sup>1</sup>
 
 Ligatures are one of the results of [text shaping](text-shaping.md), the step in which software works out which of a font's shapes to draw for a piece of text, and where each shape goes: software called a [shaping engine](shaping-engine.md) swaps the separate shapes for the single one.<sup>2</sup>
 
@@ -42,7 +45,7 @@ Some ligatures are a style choice, while others are part of how a [script](../..
 
 ### Why it matters in design systems
 
-Type "fi" in many fonts and look closely. The two letters are drawn as one merged shape: you typed two characters, and the software drew one glyph from the [font](font.md). That glyph is a ligature.<sup>4</sup>
+Type "fi" in many fonts and look closely. The two letters are drawn as one merged shape: you typed two characters, and the software drew one glyph from the [font](../text-for-digital-products-and-the-web/font.md). That glyph is a ligature.<sup>4</sup>
 
 In English this is an improvement, not a need, and nothing breaks if the two letters are drawn apart.<sup>5</sup>
 
@@ -50,11 +53,11 @@ That is not true everywhere. The Latin script has only a few ligatures in use to
 
 There are three kinds you will meet most often, and the difference between them is the thing to learn:
 
-| Kind | Example | To begin with | Can you switch it off? |
-| ---- | ------- | ------------- | ---------------------- |
-| Required | The Arabic letters lam (ل) and alef (ا) are drawn as لا | On | Not with the normal controls. The script needs it, and tools are advised not to offer a switch.<sup>7</sup> |
-| Standard | `f` and `i` are drawn as one "fi" glyph | On | Yes.<sup>8</sup> |
-| Discretionary, which means left to your choice | `c` and `t` are drawn as one merged "ct" glyph | Off | Yes. You switch it on for a special effect.<sup>9</sup> |
+| Kind                                           | Example                                                 | To begin with | Can you switch it off?                                                                                      |
+| ---------------------------------------------- | ------------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
+| Required                                       | The Arabic letters lam (ل) and alef (ا) are drawn as لا | On            | Not with the normal controls. The script needs it, and tools are advised not to offer a switch.<sup>7</sup> |
+| Standard                                       | `f` and `i` are drawn as one "fi" glyph                 | On            | Yes.<sup>8</sup>                                                                                            |
+| Discretionary, which means left to your choice | `c` and `t` are drawn as one merged "ct" glyph          | Off           | Yes. You switch it on for a special effect.<sup>9</sup>                                                     |
 
 Devanagari has ligatures too. When consonants meet with no vowel between them they can merge, so the consonants क and ष become क्ष. That merged shape is called a [conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md), a ligature of two or more consonants.<sup>10</sup>
 
@@ -84,7 +87,7 @@ Treating ligatures as one switch. A type guideline that says "ligatures off" is 
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Glyph](glyph.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](../../design-terms/typography/opentype.md) · [OpenType features](../../design-terms/typography/opentype-features.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](shaping-engine.md) · [Text shaping](text-shaping.md) · [Text shaping & layout terms](../text-shaping-and-layout/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Conjunct](../../language-terms/writing-systems-and-scripts/conjunct.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Letter spacing](../../design-terms/typography/letter-spacing.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [OpenType](../../design-terms/typography/opentype.md) · [OpenType features](../../design-terms/typography/opentype-features.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Shaping engine](shaping-engine.md) · [Text shaping](text-shaping.md) · [Text shaping & layout terms](./)
 
 ### Further reading
 
@@ -100,9 +103,9 @@ Treating ligatures as one switch. A type guideline that says "ligatures off" is 
 4. "it is common for the "f, i" letter sequence to appear in print as the single ligature glyph" - Why do I need a shaping engine?, HarfBuzz Manual [https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html](https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html)
 5. "While ligatures like "ﬁ" are optional typographic refinements, some languages require certain substitutions to be made in order to display text correctly" - Why do I need a shaping engine?, HarfBuzz Manual [https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html](https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html)
 6. "In the Latin script, there are only a few in modern use, such as the ligatures between “f” and “i” or “f” and “l”. Other scripts make use of many ligatures, depending on the font and style" - Unicode Glossary: Ligature [https://www.unicode.org/glossary/#ligature](https://www.unicode.org/glossary/#ligature)
-7. "This feature is used for ligatures that are required for correct display of a script"; its UI suggestion is "Control of this feature should not generally be exposed to the user" - Registered features, p-t: 'rlig', OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt)
-8. "This feature covers the ligatures which the designer/manufacturer judges should be used in normal conditions"; its UI suggestion is that it "should be active by default" - Registered features, k-o: 'liga', OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko)
-9. "This feature covers those ligatures which may be used for special effect, at the user’s preference"; its UI suggestion is "This feature should be off by default" - Registered features, a-e: 'dlig', OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae)
+7. "This feature is used for ligatures that are required for correct display of a script"; its UI suggestion is "Control of this feature should not generally be exposed to the user" - Registered features, p-t: 'rlig', OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/features\_pt](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt)
+8. "This feature covers the ligatures which the designer/manufacturer judges should be used in normal conditions"; its UI suggestion is that it "should be active by default" - Registered features, k-o: 'liga', OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/features\_ko](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko)
+9. "This feature covers those ligatures which may be used for special effect, at the user’s preference"; its UI suggestion is "This feature should be off by default" - Registered features, a-e: 'dlig', OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/features\_ae](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae)
 10. "Consonant conjuncts (aka 'conjuncts') - Ligatures of two or more consonants" - Developing OpenType Fonts for Devanagari Script (Microsoft) [https://learn.microsoft.com/en-us/typography/script-development/devanagari](https://learn.microsoft.com/en-us/typography/script-development/devanagari)
 11. "The lam-alef type of ligatures are extremely common in the Arabic script. These ligatures occur in almost all font designs, except for a few modern styles" - The Unicode Standard, Version 18.0, Chapter 9: Middle East-I [https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-9/](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-9/)
 12. "it depends on the whether or not the font includes an "ﬁ" glyph and on the level of ligature application you wish to perform" - Why do I need a shaping engine?, HarfBuzz Manual [https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html](https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html)

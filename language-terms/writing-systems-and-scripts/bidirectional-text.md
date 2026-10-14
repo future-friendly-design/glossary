@@ -55,7 +55,7 @@ Bidirectional text is a property of your content, not a mode you switch on. The 
 
 So in a design system, components and content slots have to hold mixed, and often unknown, text direction: text inputs, list rows, tables, breadcrumbs, tags, anything that displays user data or identifiers. Ideally these components get designed and reviewed with the bidirectional text content, and their spacing and alignment design decisions are given names that refer to a logical position (for example, start and end) rather than left and right, so one layout serves both directions.
 
-Bidirectional text is only the content-level reality here; mirroring the wider layout and flipping directional icons is the system-level response, which makes bidirectional text part of [complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md).
+Bidirectional text is only the content-level reality here; mirroring the wider layout and flipping directional icons is the system-level response, which makes bidirectional text part of [complex text layout](../../programming-terms/text-shaping-and-layout/complex-text-layout.md).
 
 ### Example
 
@@ -77,7 +77,7 @@ Assuming that marking the block right to left is enough, and the algorithm will 
 
 ### Related terms and mentions
 
-[Arabic script](arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-for-digital-products-and-the-web/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Writing systems & scripts](./)
+[Arabic script](arabic-script.md) · [Character](../../programming-terms/text-in-software/character.md) · [Complex text layout](../../programming-terms/text-shaping-and-layout/complex-text-layout.md) · [Hebrew script](hebrew-script.md) · [Latin script](latin-script.md) · [Left-to-right](left-to-right.md) · [Punctuation mark](punctuation-mark.md) · [Reordering](../../programming-terms/text-shaping-and-layout/reordering.md) · [Right-to-left](right-to-left.md) · [Script](script.md) · [Script rules](script-rules.md) · [Text direction](text-direction.md) · [Unicode](../../programming-terms/text-in-software/unicode.md) · [Writing systems & scripts](./)
 
 ### Further reading
 

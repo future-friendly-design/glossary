@@ -5,7 +5,9 @@ aliases:
   - shaper
 level: intermediate
 depth: core
-summary: A shaping engine is the software that works out which of a font's shapes to draw for a piece of text, and where each shape goes.
+summary: >-
+  A shaping engine is the software that works out which of a font's shapes to
+  draw for a piece of text, and where each shape goes.
 related:
   - text-shaping
   - gsub
@@ -14,7 +16,7 @@ related:
   - complex-text-layout
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
@@ -38,15 +40,15 @@ That job is called [text shaping](text-shaping.md). You do not install a shaping
 
 Press a key and a letter appears on screen at once, so it looks as if nothing happens in between. Something does.
 
-Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](font.md) is a file of drawn shapes, and each shape is called a [glyph](glyph.md).<sup>3</sup> Something has to get from the stored numbers to the right glyphs and then work out where each glyph sits, and that something is the shaping engine.
+Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](../text-for-digital-products-and-the-web/font.md) is a file of drawn shapes, and each shape is called a [glyph](../text-for-digital-products-and-the-web/glyph.md).<sup>3</sup> Something has to get from the stored numbers to the right glyphs and then work out where each glyph sits, and that something is the shaping engine.
 
 For a lot of English text the job looks easy: one character, one glyph, each placed to the right of the last. Other writing asks for more. A [script](../../language-terms/writing-systems-and-scripts/script.md) is the set of symbols and rules a language is written with, and for many scripts the job takes real work. Here is the same job in three scripts:
 
-| What is stored | What the reader should see | What the shaping engine did |
-| -------------- | -------------------------- | --------------------------- |
-| `c`, `a`, `t` | `cat` | Chose one glyph for each character and placed them left to right. |
-| The Arabic letters kāf ك, tāʾ ت and bāʾ ب | كتب | Chose the joined form of each letter. An Arabic letter changes shape with its place in the word.<sup>4</sup> |
-| The Devanagari consonant क, then the vowel mark for "i" | कि | Drew the vowel mark to the left of the consonant, although it is stored after it.<sup>5</sup> |
+| What is stored                                          | What the reader should see | What the shaping engine did                                                                                  |
+| ------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `c`, `a`, `t`                                           | `cat`                      | Chose one glyph for each character and placed them left to right.                                            |
+| The Arabic letters kāf ك, tāʾ ت and bāʾ ب               | كتب                        | Chose the joined form of each letter. An Arabic letter changes shape with its place in the word.<sup>4</sup> |
+| The Devanagari consonant क, then the vowel mark for "i" | कि                         | Drew the vowel mark to the left of the consonant, although it is stored after it.<sup>5</sup>                |
 
 A shaping engine needs two things to do this: the text and a font. The font carries more than glyphs. It also carries instructions, such as "when these two glyphs meet, draw this one combined glyph instead" and "place this mark this far above that symbol".<sup>6</sup> The font holds the instructions, and the shaping engine follows them.
 
@@ -58,13 +60,13 @@ Shaping is not everything that happens to text on its way to the screen. HarfBuz
 
 This is why the right font is necessary but not enough. A font with every glyph and every instruction still depends on software that follows them. If a tool sets glyphs side by side without shaping them, Arabic comes out as separate letters and the Devanagari vowel mark lands on the wrong side, even though the font had everything needed.
 
-That gives you a way to tell two failures apart. Empty boxes mean the font has no glyph for the character, which is a [font coverage](font-coverage.md) problem.<sup>14</sup> Separate Arabic letters, or a mark on the wrong side, mean the glyphs were there and nothing shaped them. And because different tools can use different shaping engines, check your text in every tool your team uses, not only in the browser.
+That gives you a way to tell two failures apart. Empty boxes mean the font has no glyph for the character, which is a [font coverage](../text-for-digital-products-and-the-web/font-coverage.md) problem.<sup>14</sup> Separate Arabic letters, or a mark on the wrong side, mean the glyphs were there and nothing shaped them. And because different tools can use different shaping engines, check your text in every tool your team uses, not only in the browser.
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Glyph](glyph.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Ligature](ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [OpenType](../../design-terms/typography/opentype.md) · [Reordering](reordering.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Text shaping](text-shaping.md) · [Text shaping & layout terms](../text-shaping-and-layout/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Complex text layout](complex-text-layout.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Font](../text-for-digital-products-and-the-web/font.md) · [Font coverage](../text-for-digital-products-and-the-web/font-coverage.md) · [Glyph](../text-for-digital-products-and-the-web/glyph.md) · [GPOS](gpos.md) · [GSUB](gsub.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Language](../../language-terms/linguistics/language.md) · [Ligature](ligature.md) · [Mark](../../language-terms/writing-systems-and-scripts/mark.md) · [Matra](../../language-terms/writing-systems-and-scripts/matra.md) · [OpenType](../../design-terms/typography/opentype.md) · [Reordering](reordering.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Text shaping](text-shaping.md) · [Text shaping & layout terms](./)
 
 ### Further reading
 

@@ -15,15 +15,16 @@ related:
   - variable-font
 status: voice-passed
 version_added: 0.1
-updated: 2026-10-13
+updated: 2026-10-13T00:00:00.000Z
 contributors:
   - sam-gordashko
 further_reading:
-  - title: "@font-face (MDN)"
+  - title: '@font-face (MDN)'
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
     type: code
   - title: Explore text properties (Figma Learn)
-    url: https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
+    url: >-
+      https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
     type: design-tool
   - title: Glossary (Monotype)
     url: https://support.monotype.com/en/articles/8949273-glossary
@@ -47,12 +48,12 @@ Choosing a font from a menu feels like choosing a look. What you are really choo
 
 The first limit is the one that matters most in a product with more than one language. A font holds shapes for the characters its makers drew, and for no others. Drawing a [script](../../language-terms/writing-systems-and-scripts/script.md) well takes real knowledge of how that script is written and read, so extending a design to more scripts is difficult, skilled work,<sup>4</sup> and a font may hold shapes for one script only.<sup>5</sup> Here is what a font with only Latin shapes has to offer four short pieces of text:
 
-| Text | Script | Does this font hold the shapes? |
-| ---- | ------ | ------------------------------- |
-| Hello | Latin | Yes |
-| selam: ሰላም ("peace", a greeting) | Ethiopic | No |
-| marhaba: مرحبا ("hello") | Arabic | No |
-| Hindi: हिन्दी (the name of the language) | Devanagari | No |
+| Text                                     | Script     | Does this font hold the shapes? |
+| ---------------------------------------- | ---------- | ------------------------------- |
+| Hello                                    | Latin      | Yes                             |
+| selam: ሰላም ("peace", a greeting)         | Ethiopic   | No                              |
+| marhaba: مرحبا ("hello")                 | Arabic     | No                              |
+| Hindi: हिन्दी (the name of the language) | Devanagari | No                              |
 
 Software works through text one character at a time. For each character it looks for a font that holds a shape, starting with the font the design asked for and moving down a list.<sup>6</sup> A font it finds further down that list is called a [fallback font](fallback-font.md). If no font on the device holds a shape, the reader sees a placeholder, usually an empty box, which has the nickname [tofu](../../design-terms/typography/tofu.md).<sup>7</sup> So the fonts a design system names decide which languages appear in the design you intended, which appear in something else, and which do not appear at all. The set of characters a font can be used for is called its [font coverage](font-coverage.md).
 
@@ -70,13 +71,13 @@ Believing the screen. Text appears, so it looks as though the chosen font is wor
 
 * **Write down the files, not only the name.** A family name in a token or a brand guide does not say which files ship. List each font file your product loads: which [weight](../../design-terms/typography/font-weight.md), which style, which scripts. That list is what a licence covers, what a page downloads, and what a developer needs from you.
 * **Choose a font for every script you ship.** List the scripts your languages are written in, pick a font for each one on purpose, and put them in order in the font list. If you do not choose, the device chooses for you. The [Noto fonts](../../design-terms/typography/noto-fonts.md) are one place to look for a script your main typeface was never drawn for.
-* **Test real words with someone who reads the script.** Holding a shape for every character is necessary, and it is not enough. Many scripts also need instructions inside the font for combining, stacking or reordering shapes, and a font can hold the shapes and lack the instructions.<sup>16</sup> Following those instructions is called [text shaping](text-shaping.md), and only a reader of the script can tell you whether it came out right.
+* **Test real words with someone who reads the script.** Holding a shape for every character is necessary, and it is not enough. Many scripts also need instructions inside the font for combining, stacking or reordering shapes, and a font can hold the shapes and lack the instructions.<sup>16</sup> Following those instructions is called [text shaping](../text-shaping-and-layout/text-shaping.md), and only a reader of the script can tell you whether it came out right.
 
 ***
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Faux bold](faux-bold.md) · [Faux italic](faux-italic.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Font weight](../../design-terms/typography/font-weight.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [OpenType](../../design-terms/typography/opentype.md) · [Reordering](reordering.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Typeface](../../design-terms/typography/typeface.md) · [Unicode](../text-in-software/unicode.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../../design-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Design token](../../design-terms/design-token.md) · [Devanagari script](../../language-terms/writing-systems-and-scripts/devanagari.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Fallback font](fallback-font.md) · [Faux bold](faux-bold.md) · [Faux italic](faux-italic.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Font weight](../../design-terms/typography/font-weight.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [OpenType](../../design-terms/typography/opentype.md) · [Reordering](../text-shaping-and-layout/reordering.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text shaping](../text-shaping-and-layout/text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Typeface](../../design-terms/typography/typeface.md) · [Unicode](../text-in-software/unicode.md) · [Variable font](../../design-terms/typography/variable-font.md) · [Font terms](../../design-terms/fonts/)
 
 ### Further reading
 
@@ -95,10 +96,10 @@ Believing the screen. Text appears, so it looks as though the chosen font is wor
 7. "If no appropriate font can be found, some form of "missing glyph" character will be rendered by the user agent" - CSS Fonts Module Level 3, W3C Recommendation: 2. Typography Background [https://www.w3.org/TR/css-fonts-3/#typography-background](https://www.w3.org/TR/css-fonts-3/#typography-background)
 8. "uint16 numGlyphs The number of glyphs in the font" - maxp: Maximum Profile, OpenType specification (Microsoft) [https://learn.microsoft.com/en-us/typography/opentype/spec/maxp](https://learn.microsoft.com/en-us/typography/opentype/spec/maxp) (a uint16 is a 16-bit number, and the largest 16-bit number is 65,535)
 9. "Unicode 18.0 adds 13,007 characters, for a total of 172,808 characters" - Unicode 18.0.0, The Unicode Consortium [https://www.unicode.org/versions/Unicode18.0.0/](https://www.unicode.org/versions/Unicode18.0.0/)
-10. "rather than having a separate font file for every width, weight, or style" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
+10. "rather than having a separate font file for every width, weight, or style" - Variable fonts, MDN [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_fonts/Variable\_fonts\_guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
 11. "bold faces are often synthesized by user agents for faces that lack actual bold faces" - CSS Fonts Module Level 3, W3C Recommendation: 3.2. Font weight: the font-weight property [https://www.w3.org/TR/css-fonts-3/#font-weight-prop](https://www.w3.org/TR/css-fonts-3/#font-weight-prop)
 12. "Although font and typeface are often used interchangeably" - Glossary: Font, Monotype [https://support.monotype.com/en/articles/8949273-glossary](https://support.monotype.com/en/articles/8949273-glossary)
 13. "A font license (also known as EULA or end-user license agreement) is a legally binding document authorizing you to use font software under pre-defined conditions" - Glossary: Font license, Monotype [https://support.monotype.com/en/articles/8949273-glossary](https://support.monotype.com/en/articles/8949273-glossary)
 14. "For a given range of text, CSS font properties are used to select a font family and a specific font face within that family to be used when rendering that text" - CSS Fonts Module Level 3, W3C Recommendation: 1. Introduction [https://www.w3.org/TR/css-fonts-3/#introduction](https://www.w3.org/TR/css-fonts-3/#introduction)
-15. "The top section of the Font Editor shows the fonts used by the currently inspected element, grouped by font family" - Edit fonts, Firefox Source Docs (Mozilla) [https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/edit_fonts/index.html](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/edit_fonts/index.html)
+15. "The top section of the Font Editor shows the fonts used by the currently inspected element, grouped by font family" - Edit fonts, Firefox Source Docs (Mozilla) [https://firefox-source-docs.mozilla.org/devtools-user/page\_inspector/how\_to/edit\_fonts/index.html](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/edit_fonts/index.html)
 16. "Some legacy fonts may include a given character in the character map but lack the shaping information" - CSS Fonts Module Level 3, W3C Recommendation: 5.2. Matching font styles [https://www.w3.org/TR/css-fonts-3/#font-style-matching](https://www.w3.org/TR/css-fonts-3/#font-style-matching)

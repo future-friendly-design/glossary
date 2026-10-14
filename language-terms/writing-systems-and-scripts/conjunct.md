@@ -43,15 +43,15 @@ For example, in [Devanagari](devanagari.md), क (ka) plus a [virama](virama.md)
 
 In scripts like Devanagari, when two or more consonants meet with no vowel between them (the absence is marked by a [virama](virama.md), the mark that cancels a consonant's built-in vowel), they merge into a single conjunct form instead of standing as separate letters.<sup>1</sup>
 
-To a font, that merge is drawn by rendering the first consonant in a reduced half-form and attaching the next, sometimes stacking them vertically. A [shaping engine](../../programming-terms/text-for-digital-products-and-the-web/shaping-engine.md) selects which conjuncts form through [OpenType](../../design-terms/typography/opentype.md) rules, and which clusters join depends on the language and the font.<sup>2</sup>
+To a font, that merge is drawn by rendering the first consonant in a reduced half-form and attaching the next, sometimes stacking them vertically. A [shaping engine](../../programming-terms/text-shaping-and-layout/shaping-engine.md) selects which conjuncts form through [OpenType](../../design-terms/typography/opentype.md) rules, and which clusters join depends on the language and the font.<sup>2</sup>
 
-So for a design system, a font that contains the consonants is necessary but not sufficient. Producing the right conjunct needs the cluster forms and the shaping logic to pick them, which is why conjuncts are a core piece of [complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) and not something an app can fake by placing glyphs in typed order.
+So for a design system, a font that contains the consonants is necessary but not sufficient. Producing the right conjunct needs the cluster forms and the shaping logic to pick them, which is why conjuncts are a core piece of [complex text layout](../../programming-terms/text-shaping-and-layout/complex-text-layout.md) and not something an app can fake by placing glyphs in typed order.
 
 ***
 
 ### Related terms and mentions
 
-[Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../programming-terms/text-for-digital-products-and-the-web/complex-text-layout.md) · [Devanagari script](devanagari.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../linguistics/language.md) · [Ligature](../../programming-terms/text-for-digital-products-and-the-web/ligature.md) · [Mark](mark.md) · [Matra](matra.md) · [OpenType](../../design-terms/typography/opentype.md) · [Reph](reph.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../programming-terms/text-for-digital-products-and-the-web/shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](virama.md) · [Writing systems & scripts](./)
+[Brahmic scripts](brahmic-scripts.md) · [Complex text layout](../../programming-terms/text-shaping-and-layout/complex-text-layout.md) · [Devanagari script](devanagari.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Language](../linguistics/language.md) · [Ligature](../../programming-terms/text-shaping-and-layout/ligature.md) · [Mark](mark.md) · [Matra](matra.md) · [OpenType](../../design-terms/typography/opentype.md) · [Reph](reph.md) · [Script](script.md) · [Script rules](script-rules.md) · [Shaping engine](../../programming-terms/text-shaping-and-layout/shaping-engine.md) · [Shirorekha](shirorekha.md) · [Stacking script](stacking-script.md) · [Virama](virama.md) · [Writing systems & scripts](./)
 
 ### Further reading
 
