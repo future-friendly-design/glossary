@@ -1,5 +1,5 @@
 ---
-term: Internationalization
+term: Internationalization (i18n)
 slug: internationalization
 aliases:
   - i18n
@@ -28,7 +28,7 @@ tags:
   - i18n-engineering
 ---
 
-# Internationalization
+# Internationalization (i18n)
 
 ## Definition
 
@@ -76,7 +76,7 @@ Then check the work before any translator is involved. [Pseudolocalization](pseu
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character encoding](../text-in-software/character-encoding.md) · [CLDR](cldr.md) · [Design token](../../design-terms/design-token.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [ICU](icu.md) · [Language](../../language-terms/linguistics/language.md) · [Locale](locale.md) · [Localization](localization.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text expansion](text-expansion.md) · [Unicode](../text-in-software/unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Multi-language products](../multi-language-products/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Bidirectional text](../../language-terms/writing-systems-and-scripts/bidirectional-text.md) · [Character encoding](../text-in-software/character-encoding.md) · [CLDR](cldr.md) · [Design token](../../design-terms/design-token.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [ICU](icu.md) · [Language](../../language-terms/linguistics/language.md) · [Locale](locale.md) · [Localization (l10n)](localization.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text expansion](text-expansion.md) · [Unicode](../text-in-software/unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Multi-language products](../multi-language-products/)
 
 ### Further reading
 

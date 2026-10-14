@@ -57,7 +57,7 @@ The larger problem is whether a layout exists at all. For most of the world's la
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [CLDR](cldr.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](font.md) · [Input method editor (IME)](input-method-editor.md) · [Internationalization](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Locale](locale.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](../text-in-software/unicode.md) · [Multi-language products](../multi-language-products/)
+[Character](../text-in-software/character.md) · [CLDR](cldr.md) · [Diacritic](../../language-terms/writing-systems-and-scripts/diacritic.md) · [Font](font.md) · [Input method editor (IME)](input-method-editor.md) · [Internationalization (i18n)](internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Locale](locale.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Unicode](../text-in-software/unicode.md) · [Multi-language products](../multi-language-products/)
 
 ### Further reading
 

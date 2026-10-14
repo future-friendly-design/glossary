@@ -53,7 +53,7 @@ Treating captions in the spoken language as sign-language access. Captions rende
 
 ### Related terms and mentions
 
-[Endangered language](endangered-language.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Text direction](../writing-systems-and-scripts/text-direction.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](./)
+[Endangered language](endangered-language.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [ISO 639-3](iso-639-3.md) · [Language](language.md) · [Locale](../../programming-terms/text-for-digital-products-and-the-web/locale.md) · [Localization (l10n)](../../programming-terms/text-for-digital-products-and-the-web/localization.md) · [Text direction](../writing-systems-and-scripts/text-direction.md) · [Writing system](../writing-systems-and-scripts/writing-system.md) · [Language & linguistics](./)
 
 ### Further reading
 

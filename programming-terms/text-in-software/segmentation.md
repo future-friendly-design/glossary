@@ -66,7 +66,7 @@ Splitting on whitespace to count words, truncate text, or build a search index. 
 
 ### Related terms and mentions
 
-[Character](character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [CLDR](../text-for-digital-products-and-the-web/cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](../text-for-digital-products-and-the-web/icu.md) · [Internationalization](../text-for-digital-products-and-the-web/internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
+[Character](character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [CLDR](../text-for-digital-products-and-the-web/cldr.md) · [Grapheme cluster](grapheme-cluster.md) · [ICU](../text-for-digital-products-and-the-web/icu.md) · [Internationalization (i18n)](../text-for-digital-products-and-the-web/internationalization.md) · [Language](../../language-terms/linguistics/language.md) · [Script rules](../../language-terms/writing-systems-and-scripts/script-rules.md) · [Thai script](../../language-terms/writing-systems-and-scripts/thai-script.md) · [Unicode](unicode.md) · [Writing system](../../language-terms/writing-systems-and-scripts/writing-system.md) · [Internationalization & engineering](../../terms/i18n-engineering.md)
 
 ### Further reading
 

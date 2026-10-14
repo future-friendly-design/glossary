@@ -1,5 +1,5 @@
 ---
-term: Localization
+term: Localization (l10n)
 slug: localization
 aliases:
   - l10n
@@ -28,7 +28,7 @@ tags:
   - i18n-engineering
 ---
 
-# Localization
+# Localization (l10n)
 
 ## Definition
 
@@ -63,7 +63,7 @@ That gives designers two jobs here, even though they are not the ones translatin
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CLDR](cldr.md) · [Collation](collation.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [Internationalization](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Language](../../language-terms/linguistics/language.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Locale](locale.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text expansion](text-expansion.md) · [Multi-language products](../multi-language-products/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [CLDR](cldr.md) · [Collation](collation.md) · [Hebrew script](../../language-terms/writing-systems-and-scripts/hebrew-script.md) · [Internationalization (i18n)](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Language](../../language-terms/linguistics/language.md) · [Left-to-right](../../language-terms/writing-systems-and-scripts/left-to-right.md) · [Locale](locale.md) · [Pseudolocalization](pseudolocalization.md) · [Right-to-left](../../language-terms/writing-systems-and-scripts/right-to-left.md) · [Text direction](../../language-terms/writing-systems-and-scripts/text-direction.md) · [Text expansion](text-expansion.md) · [Multi-language products](../multi-language-products/)
 
 ### Further reading
 

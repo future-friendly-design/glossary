@@ -31,8 +31,8 @@ If there is a term you would like to see added, head to the [contributing page](
 
 Preparing a product to hold any language, and then adapting it to one. Plus the technique for finding out whether the first half was actually done.
 
-* [Internationalization](../text-for-digital-products-and-the-web/internationalization.md)
-* [Localization](../text-for-digital-products-and-the-web/localization.md)
+* [Internationalization (i18n)](../text-for-digital-products-and-the-web/internationalization.md)
+* [Localization (l10n)](../text-for-digital-products-and-the-web/localization.md)
 * [Pseudolocalization](../text-for-digital-products-and-the-web/pseudolocalization.md)
 
 #### Describing a language and a place
