@@ -87,7 +87,7 @@ Figma: Font weight or style · CSS: `font-weight`
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Fonts](../fonts/)
+[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Glyph](../../programming-terms/text-for-digital-products-and-the-web/glyph.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Variable font](variable-font.md) · [Font terms](../fonts/)
 
 ### Further reading
 

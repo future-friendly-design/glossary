@@ -68,7 +68,7 @@ Judging the fallback on your own screen. Step 3 depends on which fonts a device 
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Line height](../../design-terms/typography/line-height.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../../design-terms/typography/tofu.md) · [Fonts](../../design-terms/fonts/)
+[Character](../text-in-software/character.md) · [Ethiopic script](../../language-terms/writing-systems-and-scripts/ethiopic-script.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Font subsetting](font-subsetting.md) · [Glyph](glyph.md) · [Language](../../language-terms/linguistics/language.md) · [Line height](../../design-terms/typography/line-height.md) · [Noto fonts](../../design-terms/typography/noto-fonts.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Tofu](../../design-terms/typography/tofu.md) · [Font terms](../../design-terms/fonts/)
 
 ### Further reading
 

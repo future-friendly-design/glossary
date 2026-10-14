@@ -1,4 +1,4 @@
-# Fonts
+# Font terms
 
 ## The files you ship, and what is inside them
 

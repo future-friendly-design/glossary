@@ -66,7 +66,7 @@ So treat "variable" as a fact about one file, not about your whole type system. 
 
 ### Related terms and mentions
 
-[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Font weight](font-weight.md) · [Language](../../language-terms/linguistics/language.md) · [OpenType](opentype.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Fonts](../fonts/)
+[Character](../../programming-terms/text-in-software/character.md) · [Design token](../design-token.md) · [Fallback font](../../programming-terms/text-for-digital-products-and-the-web/fallback-font.md) · [Faux bold](../../programming-terms/text-for-digital-products-and-the-web/faux-bold.md) · [Font](../../programming-terms/text-for-digital-products-and-the-web/font.md) · [Font subsetting](../../programming-terms/text-for-digital-products-and-the-web/font-subsetting.md) · [Font weight](font-weight.md) · [Language](../../language-terms/linguistics/language.md) · [OpenType](opentype.md) · [Script](../../language-terms/writing-systems-and-scripts/script.md) · [Typeface](typeface.md) · [Font terms](../fonts/)
 
 ### Further reading
 

@@ -92,7 +92,7 @@
 
 ## Design Terms
 
-* [Fonts](design-terms/fonts/README.md)
+* [Font terms](design-terms/fonts/README.md)
 * [Typography](design-terms/typography/README.md)
   * [Baseline](design-terms/typography/baseline.md)
   * [Cap height](design-terms/typography/cap-height.md)

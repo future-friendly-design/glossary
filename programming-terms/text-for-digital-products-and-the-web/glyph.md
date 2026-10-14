@@ -44,7 +44,7 @@ For a design system, that has a practical consequence worth internalizing: count
 
 ### Related terms and mentions
 
-[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Code point](../text-in-software/code-point.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Ligature](ligature.md) · [Text shaping](text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Typeface](../../design-terms/typography/typeface.md) · [Unicode](../text-in-software/unicode.md) · [Fonts](../../design-terms/fonts/)
+[Arabic script](../../language-terms/writing-systems-and-scripts/arabic-script.md) · [Character](../text-in-software/character.md) · [Code point](../text-in-software/code-point.md) · [Font](font.md) · [Font coverage](font-coverage.md) · [Joining](../../language-terms/writing-systems-and-scripts/joining.md) · [Ligature](ligature.md) · [Text shaping](text-shaping.md) · [Tofu](../../design-terms/typography/tofu.md) · [Typeface](../../design-terms/typography/typeface.md) · [Unicode](../text-in-software/unicode.md) · [Font terms](../../design-terms/fonts/)
 
 ### Further reading
 
