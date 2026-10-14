@@ -88,7 +88,7 @@ Adding one fixed percentage to every component, usually a figure someone remembe
 
 ### In practice
 
-* **Let the component change size, and write down how.** For every component that holds text, say what happens when the text is longer: it wraps onto another line, or the box grows, or as a last choice the text is cut short. Avoid small fixed widths and tight fits.<sup>19</sup> Consider minimum heights and widths instead. Do not rescue a tight layout by abbreviating the words, because another language may not be able to shorten them the same way.<sup>20</sup>
+* **Let the component change size, and write down how.** For every component that holds text, say what happens when the text is longer: it wraps onto another line, or the box grows, or as a last choice the text is cut short ([truncation](truncation.md)). Avoid small fixed widths and tight fits.<sup>19</sup> Consider minimum heights and widths instead. Do not rescue a tight layout by abbreviating the words, because another language may not be able to shorten them the same way.<sup>20</sup>
 * **Keep type sizes and line heights where they can differ by script.** When font size and line height are held apart from the content, as [design tokens](../../design-terms/design-token.md) are, they can be adjusted for a translation.<sup>21</sup> One line height shared by every script will be too tight for some of them, so plan for the value to vary.
 * **Keep words out of pictures, and give icons with labels room to grow.** Text fitted snugly into a graphic has nowhere to go when it is translated.<sup>22</sup> The same is true of a label pinned at a fixed width beside an icon.
 
