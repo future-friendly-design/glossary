@@ -75,7 +75,7 @@ The fix is the same in every case: let the composition finish before the product
 
 ### Related terms and mentions
 
-[Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Hiragana script](../../language-terms/writing-systems-and-scripts/hiragana.md) · [Internationalization (i18n)](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Segmentation](../text-in-software/segmentation.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Internationalization & localization terms](../internationalization-and-localization/)
+[Character](../text-in-software/character.md) · [CJK](../../language-terms/writing-systems-and-scripts/cjk.md) · [Han characters script](../../language-terms/writing-systems-and-scripts/han-characters.md) · [Hiragana script](../../language-terms/writing-systems-and-scripts/hiragana.md) · [Internationalization (i18n)](internationalization.md) · [Keyboard layout](keyboard-layout.md) · [Language](../../language-terms/linguistics/language.md) · [Latin script](../../language-terms/writing-systems-and-scripts/latin-script.md) · [Segmentation](../text-in-software/segmentation.md) · [Symbol](../../language-terms/writing-systems-and-scripts/symbol.md) · [Internationalization & localization terms](./)
 
 ### Further reading
 
