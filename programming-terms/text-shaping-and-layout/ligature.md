@@ -65,7 +65,7 @@ It helps to keep three levels apart:
 
 * **The script** sets whether a ligature is expected. Arabic expects lam and alef to merge into one shape, in almost every style of the script.<sup>11</sup>
 * **The font** has to contain the ligature: the merged glyph, and an instruction that says when to use it.<sup>12</sup>
-* **The software** that displays the text has to follow that instruction.<sup>13</sup> This software is called a shaping engine.
+* **The software** that shapes the text has to follow that instruction.<sup>13</sup> This software is called a shaping engine.
 
 A ligature changes what is shown, not what is stored: the text still holds two characters, and they can be shown as two glyphs or as one.<sup>14</sup>
 

@@ -12,9 +12,9 @@ Before that text appears on a screen, software has to pick the right shapes from
 
 For example, in English and many other languages that use a Latin script, text shaping looks like it does nothing: one character comes in, one glyph goes out, placed to the right of the last one.
 
-For many other scripts it has much more to work out. Letters change shape depending on their neighbours, marks are positioned over or under a base, pairs merge into a single form, and some vowel marks are drawn in a different order than they were typed.
+For many other scripts it has much more to work out. Symbols change shape depending on their neighbours, marks are positioned over or under a base, pairs merge into a single form, and some vowel marks appear in a different order from the one they were typed in.
 
-A tool that places glyphs without shaping them will render Arabic as disconnected letters and Devanagari with its vowel marks in the wrong place, using a font that is perfectly capable of doing better.
+A tool that places glyphs without shaping them will show Arabic as separate letters and Devanagari with its vowel marks in the wrong place, using a font that is perfectly capable of doing better.
 
 That is why the advice throughout this glossary is to test in the real design tools and the real browser, not only to confirm that a font covers a script.
 
@@ -38,7 +38,7 @@ Text shaping is the step in which software picks the right shapes from a font fo
 
 [**Shaping engine**](shaping-engine.md)
 
-A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to show a piece of text with the right shapes in the right places.
+A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to pick the right shapes for a piece of text and put each one in the right place.
 
 [**Complex text layout**](complex-text-layout.md)
 
@@ -46,7 +46,7 @@ Complex text layout is a name for text shaping in the scripts where shaping has 
 
 #### What shaping does to the glyphs
 
-Shaping swaps glyphs for other glyphs, moves them relative to one another, and in some scripts changes the order they appear in. A font carries the instructions for the first two jobs, in two separate lists. Changing the order is done by the shaping software.
+Shaping swaps glyphs for other glyphs, moves them relative to one another, and in some scripts changes the order they appear in. A font carries the instructions for the first two jobs, in two separate lists. Changing the order is done by the shaping engine.
 
 [**GSUB**](gsub.md)
 

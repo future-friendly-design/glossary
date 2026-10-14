@@ -5,7 +5,7 @@ aliases:
   - shaper
 level: intermediate
 depth: core
-summary: "A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to show a piece of text with the right shapes in the right places."
+summary: "A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to pick the right shapes for a piece of text and put each one in the right place."
 related:
   - text-shaping
   - gsub
@@ -30,15 +30,15 @@ tags:
 
 ## Definition
 
-A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to show a piece of text with the right shapes in the right places.<sup>1</sup>
+A shaping engine is the software that does text shaping: it reads a font's instructions and uses them to pick the right shapes for a piece of text and put each one in the right place.<sup>1</sup>
 
 [Text shaping](text-shaping.md) is the name of the job, and the shaping engine is what does it. It is built into the software you already use, such as a browser, a design tool or an operating system, so you never install it or open it.<sup>2</sup>
 
 ### Why it matters in design systems
 
-Press a key and a letter appears on screen at once, so it looks as if nothing happens in between. A lot does.
+Press a key and a letter appears on screen at once, so it looks as if nothing happens in between. In fact, a lot happens.
 
-Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](../text-for-digital-products-and-the-web/font.md) is a file of shapes, and each shape is called a [glyph](../text-for-digital-products-and-the-web/glyph.md).<sup>3</sup> Software has to get from the stored numbers to the right glyphs and then work out where each glyph sits, and the part of the software that does this is the shaping engine.
+Text is stored as [characters](../text-in-software/character.md), and each character is saved as a number. A [font](../text-for-digital-products-and-the-web/font.md) is a file of shapes, and each shape is called a [glyph](../text-for-digital-products-and-the-web/glyph.md).<sup>3</sup> Software has to get from the stored numbers to the right glyphs and then work out where each glyph sits. The part of the software that does this is the shaping engine.
 
 For a lot of English text the job looks easy: one character, one glyph, each placed to the right of the last. Other writing asks for more. A [script](../../language-terms/writing-systems-and-scripts/script.md) is the set of symbols and rules a language is written with, and for many scripts the job takes real work. Here is the same job in three scripts:
 
@@ -46,7 +46,7 @@ For a lot of English text the job looks easy: one character, one glyph, each pla
 | ------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | `c`, `a`, `t`                                           | `cat`                      | Chose one glyph for each character and placed them left to right.                                            |
 | The Arabic letters kāf ك, tāʾ ت and bāʾ ب               | كتب                        | Chose the joined form of each letter. An Arabic letter changes shape with its place in the word.<sup>4</sup> |
-| The Devanagari consonant क, then the vowel mark for "i" | कि                         | Showed the vowel mark to the left of the consonant, although it is stored after it.<sup>5</sup>              |
+| The Devanagari consonant क, then the vowel mark for "i" | कि                         | Moved the vowel mark to the left of the consonant, although it is stored after it.<sup>5</sup>              |
 
 A shaping engine needs two things to do this: the text and a font. The font carries more than glyphs. It also carries instructions, such as "when these two glyphs meet, use this one combined glyph instead" and "place this mark this far above that symbol".<sup>6</sup> The font holds the instructions, and the shaping engine follows them.
 
@@ -72,7 +72,7 @@ That gives you a way to tell two failures apart. Empty boxes mean the font has n
 
 ### Sources
 
-1. "Before a Unicode sequence can be rendered, the codepoints in the sequence must be mapped to the corresponding glyphs provided in the font, and those glyphs must be positioned correctly relative to each other" - Why do I need a shaping engine?, HarfBuzz Manual [https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html](https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html)
+1. "If you give HarfBuzz a font and a string containing a sequence of Unicode codepoints, HarfBuzz selects and positions the corresponding glyphs from the font, applying all of the necessary layout rules and font features" - What is HarfBuzz?, HarfBuzz Manual [https://harfbuzz.github.io/what-is-harfbuzz.html](https://harfbuzz.github.io/what-is-harfbuzz.html)
 2. "normally, a layout engine, toolkit, or other library will turn text into glyphs for you" - Why do I need a shaping engine?, HarfBuzz Manual [https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html](https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html)
 3. "OpenType fonts contain a set of glyphs (that is, shapes to represent the letters, numbers, punctuation marks, and all other symbols)" - Why do I need a shaping engine?, HarfBuzz Manual [https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html](https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html)
 4. "To decide, you need to analyze the whole string and determine the appropriate glyph for each character based on its position" - Why do I need a shaping engine?, HarfBuzz Manual [https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html](https://harfbuzz.github.io/why-do-i-need-a-shaping-engine.html)

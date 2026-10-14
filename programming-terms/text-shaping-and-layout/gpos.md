@@ -54,7 +54,7 @@ That simple rule is not enough for a lot of writing:
 
 The measurements for this are kept in the font, because they depend on the font's own glyphs: the right spot for a mark depends on the height and width of the symbol it belongs to.<sup>8</sup> GPOS is where the font keeps those measurements. Kerning is the one exception. It can also be kept in an older part of the font file, called `kern`, so an older font with no GPOS can still kern, but it has nowhere to keep the measurements for marks.<sup>9</sup>
 
-The font does not place anything. A font is a file, and the placing is done by the software that displays text, called a shaping engine, which reads GPOS and follows it. It does this after any glyphs have been swapped for others, so that it is placing the final glyphs.<sup>10</sup> Those swaps are listed in a second part of the font, called [GSUB](gsub.md). GSUB says which glyphs. GPOS says where they go.
+The font does not place anything. A font is a file, and the placing is done by a shaping engine, the software that does text shaping, which reads GPOS and follows it. It does this after any glyphs have been swapped for others, so that it is placing the final glyphs.<sup>10</sup> Those swaps are listed in a second part of the font, called [GSUB](gsub.md). GSUB says which glyphs. GPOS says where they go.
 
 Kerning is a refinement that gives better typographic quality.<sup>11</sup> Placing marks is different. In writing that uses many marks, a mark in the wrong place can make a word hard to read or change what it says, so that kind of writing needs its marks placed with control, both to be legible and to be correct in the language.<sup>12</sup>
 

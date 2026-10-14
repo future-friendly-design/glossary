@@ -54,7 +54,7 @@ When you type a word, the glyphs on screen are not always the ones you would get
 
 In each row, the software starts with one glyph for each character, then swaps some of those glyphs for others. The list of swaps has to be kept somewhere, and it is kept in the font, because every font has its own set of glyphs. GSUB is that list.
 
-The font does not do the swapping. A font is a file, and a file does nothing by itself. The software that displays text, called a shaping engine, reads the list and follows it.<sup>8</sup>
+The font does not do the swapping. A font is a file, and a file does nothing by itself. The software that does the shaping, called a shaping engine, reads the list and follows it.<sup>8</sup>
 
 A swap can be small or large. The simplest kind replaces one glyph with one other glyph.<sup>9</sup> Another kind replaces several glyphs with a single glyph, and a glyph made that way is called a [ligature](ligature.md).<sup>10</sup> The "fi" glyph and the Arabic لا in the table are both ligatures.
 
@@ -67,7 +67,7 @@ GSUB only swaps glyphs. Two jobs that sit close to it belong somewhere else:
 
 Swapping also leaves the stored text alone. The text is still saved as the same characters, and only the glyphs shown for them change.<sup>15</sup>
 
-All of this matters when you choose a font, because every swap has to come from the font itself.<sup>16</sup> A font can have a glyph for every character of a script and still lack the swaps that script needs. When that happens the characters do appear, but with the wrong glyphs, and Arabic letters stand apart instead of joining. So do not judge a font's [coverage](../text-for-digital-products-and-the-web/font-coverage.md) of a script by whether the characters show up. Type a real word, and check that it looks right to someone who reads the script.
+All of this matters when you choose a font, because every swap has to come from the font itself.<sup>16</sup> A font can have a glyph for every character of a script and still lack the swaps that script needs. When that happens the text does appear, but with the wrong glyphs, and Arabic letters stand apart instead of joining. So do not judge a font's [coverage](../text-for-digital-products-and-the-web/font-coverage.md) of a script by whether the characters show up. Type a real word, and check that it looks right to someone who reads the script.
 
 ***
 
